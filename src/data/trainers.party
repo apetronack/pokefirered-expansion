@@ -5842,6 +5842,7 @@ Pidgey
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
+- Gust
 - Sand Attack
 
 Squirtle
@@ -5849,6 +5850,7 @@ Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
 - Tail Whip
+- Bubble
 
 === TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR ===
 Name: TERRY
@@ -5863,6 +5865,7 @@ Pidgey
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
+- Gust
 - Sand Attack
 
 Bulbasaur
@@ -5870,6 +5873,7 @@ Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
 - Growl
+- Leech Seed
 
 === TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER ===
 Name: TERRY
@@ -5885,12 +5889,14 @@ Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
 - Sand Attack
+- Gust
 
 Charmander
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Scratch
 - Growl
+- Ember
 
 === TRAINER_RIVAL_CERULEAN_SQUIRTLE ===
 Name: TERRY
@@ -5910,21 +5916,23 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Quick Attack
 
 Abra
-Level: 16
+Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Teleport
+- Mega Punch
 
-Rattata
-Level: 15
+SPECIES_RATTATA_ALOLA
+Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
+- Pursuit
 - Tail Whip
 - Quick Attack
+- Hyper Fang
 
 Squirtle
 Level: 18
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
+- Secret Power
 - Tail Whip
 - Withdraw
 - Water Gun
@@ -5947,21 +5955,23 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Quick Attack
 
 Abra
-Level: 16
+Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Teleport
+- Mega Punch
 
-Rattata
-Level: 15
+SPECIES_RATTATA_ALOLA
+Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
+- Pursuit
 - Tail Whip
 - Quick Attack
+- Hyper Fang
 
 Bulbasaur
 Level: 18
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Sleep Powder
+- Secret Power
 - Poison Powder
 - Vine Whip
 - Leech Seed
@@ -5984,16 +5994,18 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Quick Attack
 
 Abra
-Level: 16
+Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Teleport
+- Mega Punch
 
-Rattata
-Level: 15
+SPECIES_RATTATA_ALOLA
+Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
+- Pursuit
 - Tail Whip
 - Quick Attack
+- Hyper Fang
 
 Charmander
 Level: 18
@@ -6001,7 +6013,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Metal Claw
 - Ember
 - Growl
-- Scratch
+- Secret Power
 
 === TRAINER_SCIENTIST_TED ===
 Name: TED
