@@ -8397,19 +8397,46 @@ Pic: Leader Brock
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Geodude
+SPECIES_GEODUDE_ALOLA
 Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
+IVs: 0 HP / 10 Atk / 10 Def / 0 SpA / 0 SpD / 0 Spe
+- Sandstorm
 - Defense Curl
+- Spark
+- Rollout
+
+SPECIES_GROWLITHE_HISUI
+Level: 12
+IVs: 0 HP / 10 ATK / 0 DEF / 10 SpA / 0 SpD / 10 Spe
+- Bite
+- Ember
+- Tackle
+- Rock Tomb
+
+SPECIES_OMANYTE
+Level: 12
+IVs: 10 HP / 0 ATK / 0 DEF / 10 SpA / 10 SpD / 0 Spe
+- Water Gun
+- Withdraw
+- Rock Tomb
+- Thief
+
+SPECIES_RHYHORN
+Level: 12
+IVs: 10 HP / 10 ATK/ 10 DEF / 0 SpA / 0 SpD / 0 Spe
+- Shock Wave
+- Stomp
+- Tail Whip
+- Dig
 
 Onix
 Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Bind
+IVs: 10 HP / 10 Atk / 15 Def / 0 SpA / 15 SpD / 0 Spe
+- Dig
+- Screech
+- Body Slam
 - Rock Tomb
 
 === TRAINER_LEADER_MISTY ===
