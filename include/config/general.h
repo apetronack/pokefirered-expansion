@@ -66,7 +66,7 @@
 #define GEN_8 7
 #define GEN_9 8
 // Changing GEN_LATEST's value to a different Generation will change every default setting that uses it at once.
-#define GEN_LATEST GEN_9
+#define GEN_LATEST GEN_4
 
 // General settings
 #define EXPANSION_INTRO              TRUE    // If TRUE, a custom RHH intro will play after the vanilla copyright screen.
@@ -85,6 +85,6 @@
 #define CHAR_DEC_SEPARATOR           CHAR_PERIOD // CHAR_PERIOD is used as a decimal separator only in the UK and the US. The rest of the world uses CHAR_COMMA.
 
 // Naming Screen
-#define AUTO_LOWERCASE_KEYBOARD      GEN_LATEST  // Starting in GEN_6, after entering the first uppercase character, the keyboard switches to lowercase letters.
+#define AUTO_LOWERCASE_KEYBOARD      GEN_6  // Starting in GEN_6, after entering the first uppercase character, the keyboard switches to lowercase letters.
 
 #endif // GUARD_CONFIG_GENERAL_H
