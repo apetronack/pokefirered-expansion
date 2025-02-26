@@ -8420,28 +8420,28 @@ IVs: 0 HP / 10 Atk / 10 Def / 0 SpA / 0 SpD / 0 Spe
 - Rollout
 
 SPECIES_GROWLITHE_HISUI
-Level: 12
+Level: 13
 IVs: 0 HP / 10 ATK / 0 DEF / 10 SpA / 0 SpD / 10 Spe
 - Bite
 - Ember
 - Tackle
 - Rock Tomb
 
-SPECIES_OMANYTE
-Level: 12
+SPECIES_CORSOLA
+Level: 13
 IVs: 10 HP / 0 ATK / 0 DEF / 10 SpA / 10 SpD / 0 Spe
-- Water Gun
-- Withdraw
+- Bubble
+- Light Screen
 - Rock Tomb
-- Thief
+- Tackle
 
-SPECIES_RHYHORN
+SPECIES_SHUCKLE
 Level: 12
-IVs: 10 HP / 10 ATK/ 10 DEF / 0 SpA / 0 SpD / 0 Spe
-- Shock Wave
-- Stomp
-- Tail Whip
-- Dig
+IVs: 10 HP / 0 ATK/ 10 DEF / 0 SpA / 10 SpD / 0 Spe
+- Wrap
+- Rest
+- Sandstorm
+- Safeguard
 
 Onix
 Level: 14
@@ -8459,19 +8459,43 @@ Gender: Male
 Music: Female
 Items: Super Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Staryu
+Carvanha
 Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Harden
-- Recover
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
+- Bite
+- Rain Dance
+- Torment
+- Secret Power
+
+Lombre
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 20 SpA / 20 SpD / 0 Spe
+- Fake Out
+- Bullet Seed
+- Mega Punch
 - Water Pulse
+
+Mantine
+Level: 19
+IVs: 20 HP / 20 Atk / 0 Def / 20 SpA / 0 SpD / 0 d
+- Aerial Ace
+- Agility
+- Water Pulse
+- Supersonic
+
+Chinchou
+Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 20 SpA / 20 SpD / 0 Spe
+- Thunder Wave
+- Supersonic
+- Water Pulse
+- Shock Wave
 
 Starmie
 Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 20 HP / 0 Atk / 0 Def / 20 SpA / 20 SpD / 20 Spe
 - Swift
 - Recover
 - Rapid Spin
@@ -8487,29 +8511,45 @@ Items: Super Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Voltorb
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+SPECIES_VOLTORB_HISUI
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 30 Spe
 - Sonic Boom
-- Tackle
-- Screech
+- Energy Ball
+- Reflect
 - Shock Wave
 
-Pikachu
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Quick Attack
+Flaaffy
+Level: 23
+IVs: 0 HP / 0 Atk / 30 Def / 30 SpA / 0 SpD / 0 Spe
+- Shock Wave
 - Thunder Wave
-- Double Team
+- Body Slam
+- Counter
+
+Magnemite
+Level: 22
+IVs: 0 HP / 0 Atk / 30 Def / 30 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Thunder Wave
+- Sonic Boom
 - Shock Wave
 
-Raichu
+SPECIES_ROTOM_FAN
+Level: 23
+IVs: 0 HP / 30 Atk / 0 Def / 0 SpA / 30 SpD / 0 Spe
+- Shock Wave
+- Confuse Ray
+- Thief
+- Uproar
+
+SPECIES_RAICHU_ALOLA
 Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 30 Atk / 0 Def / 30 SpA / 0 SpD / 30 Spe
 - Quick Attack
-- Thunder Wave
-- Double Team
-- Shock Wave
+- Dig
+- Psychic
+- Thunderbolt
 
 === TRAINER_LEADER_ERIKA ===
 Name: ERIKA
