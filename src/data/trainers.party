@@ -8509,7 +8509,7 @@ Gender: Male
 Music: Male
 Items: Super Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
 SPECIES_VOLTORB_HISUI
 Level: 22
@@ -8535,12 +8535,12 @@ IVs: 0 HP / 0 Atk / 30 Def / 30 SpA / 0 SpD / 0 Spe
 - Sonic Boom
 - Shock Wave
 
-SPECIES_ROTOM_FAN
+Rotom
 Level: 23
 IVs: 0 HP / 30 Atk / 0 Def / 0 SpA / 30 SpD / 0 Spe
 - Shock Wave
 - Confuse Ray
-- Thief
+- Astonish
 - Uproar
 
 SPECIES_RAICHU_ALOLA
@@ -8559,31 +8559,47 @@ Gender: Male
 Music: Female
 Items: Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Exeggcute
+Level: 28
+IVs: 40 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Reflect
+- Leech Seed
+- Stun Spore
+- Giga Drain
+
+Breloom
+Level: 28
+IVs: 0 HP / 40 Atk / 0 Def / 0 SpA / 0 SpD / 40 Spe
+- Drain Punch
+- Mach Punch
+- Seed Bomb
+- Bulk Up
 
 Victreebel
 Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stun Spore
-- Acid
-- Poison Powder
+IVs: 0 HP / 0 Atk / 0 Def / 40 SpA / 40 SpD / 40 Spe
+- Tickle
+- Sludge Bomb
+- Toxic
 - Giga Drain
 
-Tangela
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Powder
-- Constrict
-- Ingrain
-- Giga Drain
+Carnivine
+Level: 28
+IVs: 0 HP / 40 Atk / 0 Def / 0 SpA / 0 SpD / 40 Spe
+- Feint Attack
+- Razor Leaf
+- Slam
+- Swords Dance
 
-Vileplume
+Tropius
 Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sleep Powder
-- Acid
-- Stun Spore
-- Giga Drain
+IVs: 0 HP / 40 Atk / 40 Def / 0 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Razor Leaf
+- Whirlwind
+- Steel Wing
 
 === TRAINER_LEADER_KOGA ===
 Name: KOGA
@@ -8593,37 +8609,45 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Koffing
-Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Self Destruct
-- Sludge
-- Smokescreen
+Skuntank
+Level: 41
+IVs: 40 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Night Slash
+- Flamethrower
+- Sludge Bomb
 - Toxic
 
-Muk
-Level: 39
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Minimize
-- Sludge
-- Acid Armor
+Roserade
+Level: 41
+IVs: 40 HP / 0 Atk / 0 Def / 40 SpA / 40 SpD / 0 Spe
+- Giga Drain
+- Sludge Bomb
+- Growth
 - Toxic
 
-Koffing
-Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Self Destruct
-- Sludge
-- Smokescreen
+Venomoth
+Level: 42
+IVs: 40 HP / 0 Atk / 0 Def / 40 SpA / 0 SpD / 0 Spe
+- Psychic
+- Supersonic
+- Signal Beam
 - Toxic
+
+Clodsire
+Level: 42
+IVs: 0 HP / 0 Atk / 50 Def / 0 SpA / 50 SpD / 0 Spe
+- Mud Shot
+- Megahorn
+- Poison Tail
+- Curse
 
 Weezing
 Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Sludge
+IVs: 40 HP / 0 Atk / 40 Def / 40 SpA / 0 SpD / 0 Spe
+- Shadow Ball
+- Sludge Bomb
 - Smokescreen
 - Toxic
 
@@ -8635,80 +8659,96 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Growlithe
-Level: 42
+Ninetails
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Roar
-- Take Down
+- Flamethrower
+- Sunny Day
+- Confuse Ray
+- Shadow Ball
+
+Houndoom
+Level: 46
+IVs: 0 HP / 0 Atk / 0 Def / 50 SpA / 0 SpD / 50 Spe
+- Fire Blast
+- Solar Beam
+- Nasty Plot
+- Torment
+
+Camerupt
+Level: 45
+IVs: 0 HP / 50 Atk / 0 Def / 50 SpA / 0 SpD / 0 Spe
+- Yawn
+- Earthquake
+- Rock Slide
 - Fire Blast
 
-Ponyta
-Level: 40
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stomp
-- Bounce
-- Fire Spin
-- Fire Blast
-
-Rapidash
-Level: 42
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stomp
-- Bounce
-- Fire Spin
+Torkoal
+Level: 46
+IVs: 0 HP / 50 Atk / 0 Def / 0 SpA / 50 SpD / 0 Spe
+- Curse
+- Body Slam
+- Superpower
 - Fire Blast
 
 Arcanine
 Level: 47
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Roar
-- Take Down
-- Fire Blast
+IVs: 50 HP / 50 Atk / 0 Def / 0 SpA / 0 SpD / 50 Spe
+- Extreme Speed
+- Close Combat
+- Crunch
+- Flare Blitz
 
 === TRAINER_LEADER_SABRINA ===
 Name: SABRINA
 Class: Leader
 Pic: Leader Sabrina
-Gender: Male
+Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Kadabra
-Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psybeam
-- Reflect
-- Future Sight
-- Calm Mind
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
 Mr Mime
-Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Barrier
-- Psybeam
+Level: 41
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 60 Spe
+- Reflect
+- Psychic
 - Baton Pass
 - Calm Mind
 
-Venomoth
-Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psybeam
-- Gust
-- Leech Life
-- Supersonic
+Bronzong
+Level: 41
+IVs: 0 HP / 0 Atk / 60 Def / 0 SpA / 60 SpD / 0 Spe
+- Gyro Ball
+- Confuse Ray
+- Light Screen
+- Shadow Ball
+
+Hypno
+Level: 42
+IVs: 60 HP / 0 Atk / 60 Def / 0 SpA / 60 SpD / 0 Spe
+- Hypnosis
+- Nightmare
+- Night Slash
+- Fire Punch
+
+Medicham
+Level: 42
+IVs: 0 HP / 60 Atk / 0 Def / 0 SpA / 60 SpD / 60 Spe
+- High Jump Kick
+- Psycho Cut
+- Rock Slide
+- Bulk Up
 
 Alakazam
 Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 0 Atk / 60 Def / 60 SpA / 0 SpD / 60 Spe
 - Psychic
 - Recover
-- Future Sight
+- Fire Punch
 - Calm Mind
 
 === TRAINER_GENTLEMAN_THOMAS ===
