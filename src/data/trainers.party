@@ -6353,17 +6353,29 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Onix
-Level: 25
+Gligar
+Level: 28
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Dig
+- Harden
+- Feint Attack
+- Aerial Ace
 
-Rhyhorn
-Level: 24
+Dugtrio
+Level: 28
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Magnitude
+- Rock Tomb
+- Body Slam
+- Swords Dance
 
 Kangaskhan
 Level: 29
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Mega Punch
+- Rock Smash
+- Bite
+- Rage
 
 === TRAINER_BOSS_GIOVANNI_2 ===
 Name: GIOVANNI
@@ -6374,21 +6386,37 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Nidorino
-Level: 37
+Hippowdon
+Level: 39
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Ice Fang
+- Crunch
+- Dig
+- Yawn
 
-Kangaskhan
-Level: 35
+Gligar
+Level: 39
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Aerial Ace
+- Metal Claw
+- Poison Tail
+- Night Slash
 
-Rhyhorn
-Level: 37
+Whiscash
+Level: 40
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Amnesia
+- Earthquake
+- Muddy Water
+- Tickle
 
 Nidoqueen
 Level: 41
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Body Slam
+- Double Kick
+- Dig
+- Iron Tail
 
 === TRAINER_LEADER_GIOVANNI ===
 Name: GIOVANNI
@@ -6398,46 +6426,46 @@ Gender: Male
 Music: Aqua
 Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Rhyhorn
-Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Take Down
-- Rock Blast
-- Scary Face
+Hippowdon
+Level: 48
+IVs: 0 HP / 70 Atk / 70 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Thunder Fang
+- Crunch
 - Earthquake
 
-Dugtrio
-Level: 42
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Slash
-- Sand Tomb
-- Mud Slap
+Gliscor
+Level: 49
+IVs: 70 HP / 70 Atk / 0 Def / 0 SpA / 0 SpD / 70 Spe
+- Swords Dance
+- Fire Fang
+- Aerial Ace
 - Earthquake
 
-Nidoqueen
-Level: 44
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Body Slam
-- Double Kick
-- Poison Sting
+Whiscash
+Level: 48
+IVs: 0 HP / 0 Atk / 70 Def / 70 SpA / 70 SpD / 0 Spe
+- Muddy Water
+- Ice Beam
 - Earthquake
+- Amnesia
 
 Nidoking
-Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thrash
-- Double Kick
-- Poison Sting
+Level: 49
+IVs: 70 HP / 70 Atk / 0 Def / 70 SpA / 0 SpD / 70 Spe
+- Thunder
+- Megahorn
+- Sludge Bomb
 - Earthquake
 
-Rhyhorn
+Rhyperior
 Level: 50
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Take Down
-- Rock Blast
-- Scary Face
+IVs: 70 HP / 70 Atk / 70 Def / 0 SpA / 70 SpD / 0 Spe
+- Double Edge
+- Stone Edge
+- Counter
 - Earthquake
 
 === TRAINER_TEAM_ROCKET_GRUNT ===
