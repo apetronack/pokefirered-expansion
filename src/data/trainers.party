@@ -6350,10 +6350,13 @@ Class: Boss
 Pic: Leader Giovanni
 Gender: Male
 Music: Aqua
+Items: Super Potion
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
-Gligar
+Gligar @ Black Glasses
+Ability: Hyper Cutter
+Jolly Nature
 Level: 28
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Dig
@@ -6361,7 +6364,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Feint Attack
 - Aerial Ace
 
-Dugtrio
+Dugtrio 
+Ability: Arena Trap
+Jolly Nature
 Level: 28
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Magnitude
@@ -6369,7 +6374,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Body Slam
 - Swords Dance
 
-Kangaskhan
+Kangaskhan @ Muscle Band
+Ability: Scrappy
+Naughty Nature
 Level: 29
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Mega Punch
@@ -6383,10 +6390,13 @@ Class: Boss
 Pic: Leader Giovanni
 Gender: Male
 Music: Aqua
+Items: Hyper Potion
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability
 
 Hippowdon
+Ability: Sand Stream
+Adamant NAture
 Level: 39
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Ice Fang
@@ -6394,7 +6404,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Dig
 - Yawn
 
-Gligar
+Gligar @ Poison Barb
+Ability: Hyper Cutter
+Jolly Nature
 Level: 39
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Aerial Ace
@@ -6402,7 +6414,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Poison Tail
 - Night Slash
 
-Whiscash
+Whiscash @ Mystic Water
+Ability: Oblivious
+Sassy Nature
 Level: 40
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Amnesia
@@ -6410,8 +6424,10 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Muddy Water
 - Tickle
 
-Nidoqueen
+Nidoqueen @ Sitrus Berry
+Ability: Poison Point
 Level: 41
+Docile Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Body Slam
 - Double Kick
@@ -6424,45 +6440,55 @@ Class: Leader
 Pic: Leader Giovanni
 Gender: Male
 Music: Aqua
-Items: Hyper Potion / Hyper Potion / Full Heal
+Items: Guard Spec / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Hippowdon
+Hippowdon @ Muscle Band
+Ability: Sand Stream
+Adamant Nature
 Level: 48
-IVs: 0 HP / 70 Atk / 70 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 31 Atk / 31 Def / 0 SpA / 31 SpD / 0 Spe
 - Ice Fang
 - Thunder Fang
 - Crunch
 - Earthquake
 
-Gliscor
+Gliscor @ Toxic Orb
+Ability: Poison Heal
+Jolly Nature
 Level: 49
-IVs: 70 HP / 70 Atk / 0 Def / 0 SpA / 0 SpD / 70 Spe
+IVs: 31 HP / 31 Atk / 0 Def / 0 SpA / 31 SpD / 31 Spe
 - Swords Dance
 - Fire Fang
 - Aerial Ace
 - Earthquake
 
-Whiscash
+Whiscash @ Rindo Berry
+Ability: Oblivious
+Sassy Nature
 Level: 48
-IVs: 0 HP / 0 Atk / 70 Def / 70 SpA / 70 SpD / 0 Spe
+IVs: 0 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
 - Muddy Water
 - Ice Beam
 - Earthquake
 - Amnesia
 
-Nidoking
+Nidoking @ Choice Scarf
+Ability: Sheer Force
+Docile Nature
 Level: 49
-IVs: 70 HP / 70 Atk / 0 Def / 70 SpA / 0 SpD / 70 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 0 SpD / 31 Spe
 - Thunder
 - Megahorn
 - Sludge Bomb
 - Earthquake
 
-Rhyperior
+Rhyperior @ Lansat Berry
+Ability: Reckless
+Careful Nature
 Level: 50
-IVs: 70 HP / 70 Atk / 70 Def / 0 SpA / 70 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Edge
 - Stone Edge
 - Counter
@@ -8439,10 +8465,13 @@ Class: Leader
 Pic: Leader Brock
 Gender: Male
 Music: Male
+Items: Full Heal / X Defense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
 SPECIES_GEODUDE_ALOLA
+Ability: Sturdy
+Impish Nature
 Level: 12
 IVs: 0 HP / 10 Atk / 10 Def / 0 SpA / 0 SpD / 0 Spe
 - Sandstorm
@@ -8451,32 +8480,40 @@ IVs: 0 HP / 10 Atk / 10 Def / 0 SpA / 0 SpD / 0 Spe
 - Rollout
 
 SPECIES_GROWLITHE_HISUI
+Ability: Intimidate
+Lonely Nature
 Level: 13
-IVs: 0 HP / 10 ATK / 0 DEF / 10 SpA / 0 SpD / 10 Spe
+IVs: 0 HP / 3 ATK / 0 DEF / 3 SpA / 0 SpD / 3 Spe
 - Bite
 - Ember
 - Tackle
 - Rock Tomb
 
-SPECIES_CORSOLA
+Corsola
+Ability: Natural Curse
+Hasty Nature
 Level: 13
-IVs: 10 HP / 0 ATK / 0 DEF / 10 SpA / 10 SpD / 0 Spe
+IVs: 3 HP / 0 ATK / 0 DEF / 3 SpA / 3 SpD / 0 Spe
 - Bubble
 - Light Screen
 - Rock Tomb
 - Tackle
 
-SPECIES_SHUCKLE
+Shuckle @ Berry Juice
+Ability: Sturdy
+Jolly Nature
 Level: 12
-IVs: 10 HP / 0 ATK/ 10 DEF / 0 SpA / 10 SpD / 0 Spe
+IVs: 3 HP / 0 ATK/ 3 DEF / 0 SpA / 3 SpD / 0 Spe
 - Wrap
 - Rest
 - Sandstorm
 - Safeguard
 
-Onix
+Onix @ Liechi Berry
+Ability: Sturdy
+Careful Nature
 Level: 14
-IVs: 10 HP / 10 Atk / 15 Def / 0 SpA / 15 SpD / 0 Spe
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Dig
 - Screech
 - Body Slam
@@ -8488,45 +8525,55 @@ Class: Leader
 Pic: Leader Misty
 Gender: Male
 Music: Female
-Items: Super Potion
+Items: Full Heal / X Sp. Atk
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Carvanha
+Carvanha @ Damp Rock
+Ability: Rough Skin
+Lonely Nature
 Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 7 Spe
 - Bite
 - Rain Dance
 - Torment
 - Secret Power
 
 Lombre
+Ability: Swift Swim
+Rash Nature
 Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 20 SpA / 20 SpD / 0 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 7 SpA / 7 SpD / 0 Spe
 - Fake Out
 - Bullet Seed
 - Mega Punch
 - Water Pulse
 
 Mantine
+Ability: Swift Swim
+Sassy Nature
 Level: 19
-IVs: 20 HP / 20 Atk / 0 Def / 20 SpA / 0 SpD / 0 d
+IVs: 7 HP / 7 Atk / 0 Def / 7 SpA / 0 SpD / 0 d
 - Aerial Ace
-- Agility
+- Headbutt
 - Water Pulse
 - Supersonic
 
 Chinchou
+Ability: Volt Absorb
+Modest Nature
 Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 20 SpA / 20 SpD / 0 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 7 SpA / 7 SpD / 0 Spe
 - Thunder Wave
 - Supersonic
 - Water Pulse
 - Shock Wave
 
-Starmie
+Starmie @ Petaya Berry
 Level: 21
-IVs: 20 HP / 0 Atk / 0 Def / 20 SpA / 20 SpD / 20 Spe
+Ability: Natural Cure
+Hasty Nature
+IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Swift
 - Recover
 - Rapid Spin
@@ -8538,45 +8585,55 @@ Class: Leader
 Pic: Leader Lt Surge
 Gender: Male
 Music: Male
-Items: Super Potion / Full Heal
+Items: Full Heal / X Speed
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
 SPECIES_VOLTORB_HISUI
+Ability: Static
+Timid Nature
 Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 30 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 11 Spe
 - Sonic Boom
 - Energy Ball
 - Reflect
 - Shock Wave
 
-Flaaffy
+Flaaffy @ Focus Sash
+Ability: Static
+Relaxed Nature
 Level: 23
-IVs: 0 HP / 0 Atk / 30 Def / 30 SpA / 0 SpD / 0 Spe
+IVs: 0 HP /11 Atk / 11 Def / 0 SpA / 0 SpD / 0 Spe
 - Shock Wave
 - Thunder Wave
 - Body Slam
 - Counter
 
-Magnemite
+Magnemite @ Magnet
+Ability: Sturdy
+Bold Nature
 Level: 22
-IVs: 0 HP / 0 Atk / 30 Def / 30 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 0 Atk / 11 Def / 11 SpA / 0 SpD / 0 Spe
 - Supersonic
 - Thunder Wave
 - Sonic Boom
 - Shock Wave
 
 Rotom
+Ability: Levitate
+Hasty Nature
 Level: 23
-IVs: 0 HP / 30 Atk / 0 Def / 0 SpA / 30 SpD / 0 Spe
+IVs: 0 HP / 11 Atk / 0 Def / 0 SpA / 11 SpD / 0 Spe
 - Shock Wave
 - Confuse Ray
 - Astonish
 - Uproar
 
-SPECIES_RAICHU_ALOLA
+SPECIES_RAICHU_ALOLA @ Lansat Berry
+Ability: Lightning Rod
+Lonely Nature
 Level: 24
-IVs: 0 HP / 30 Atk / 0 Def / 30 SpA / 0 SpD / 30 Spe
+IVs: 0 HP / 11 Atk / 0 Def / 11 SpA / 0 SpD / 11 Spe
 - Quick Attack
 - Dig
 - Psychic
@@ -8588,29 +8645,35 @@ Class: Leader
 Pic: Leader Erika
 Gender: Male
 Music: Female
-Items: Hyper Potion / Full Heal
+Items: Full Heal / X Sp. Def
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Exeggcute
+Exeggcute @ Light Clay
+Ability: Chlorophyll
+Timid Nature
 Level: 28
-IVs: 40 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 15 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Reflect
 - Leech Seed
 - Stun Spore
 - Giga Drain
 
-Breloom
+Breloom @ Toxic Orb
+Ability: Poison Heal
+Adamant Nature
 Level: 28
-IVs: 0 HP / 40 Atk / 0 Def / 0 SpA / 0 SpD / 40 Spe
+IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
 - Drain Punch
 - Mach Punch
 - Seed Bomb
 - Bulk Up
 
 Victreebel
+Ability: Chlorophyll
+Modest Nature
 Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 40 SpA / 40 SpD / 40 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 40 SpA / 15 SpD / 15 Spe
 - Tickle
 - Sludge Bomb
 - Toxic
@@ -8618,19 +8681,23 @@ IVs: 0 HP / 0 Atk / 0 Def / 40 SpA / 40 SpD / 40 Spe
 
 Carnivine
 Level: 28
-IVs: 0 HP / 40 Atk / 0 Def / 0 SpA / 0 SpD / 40 Spe
+Ability: Levitate
+Adamant Nature
+IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
 - Feint Attack
 - Razor Leaf
 - Slam
 - Swords Dance
 
-Tropius
+Cradily @ Sitrus Berry
+Ability: Storm Drain
+Relaxed Nature
 Level: 29
-IVs: 0 HP / 40 Atk / 40 Def / 0 SpA / 0 SpD / 0 Spe
-- Aerial Ace
-- Razor Leaf
-- Whirlwind
-- Steel Wing
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Constrict
+- Ingrain
+- Curse
+- Ancient Power
 
 === TRAINER_LEADER_KOGA ===
 Name: KOGA
@@ -8638,45 +8705,55 @@ Class: Leader
 Pic: Leader Koga
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion / Full Heal
+Items: Full Heal / Dire Hit
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
 Skuntank
+Ability: Aftermath
+Lax Nature
 Level: 41
-IVs: 40 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 19 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Night Slash
 - Flamethrower
 - Sludge Bomb
 - Toxic
 
-Roserade
+Roserade @ Metronome
 Level: 41
-IVs: 40 HP / 0 Atk / 0 Def / 40 SpA / 40 SpD / 0 Spe
+Ability: Natural Cure
+Modest Nature
+IVs: 19 HP / 0 Atk / 0 Def / 19 SpA / 19 SpD / 0 Spe
 - Giga Drain
 - Sludge Bomb
 - Growth
 - Toxic
 
-Venomoth
+Venomoth @ Wise Glasses
+Ability: Tinted Lens
+Modest Nature
 Level: 42
-IVs: 40 HP / 0 Atk / 0 Def / 40 SpA / 0 SpD / 0 Spe
+IVs: 19 HP / 0 Atk / 0 Def / 19 SpA / 0 SpD / 0 Spe
 - Psychic
 - Supersonic
 - Signal Beam
 - Toxic
 
-Clodsire
+Clodsire @ Black Sludge
 Level: 42
-IVs: 0 HP / 0 Atk / 50 Def / 0 SpA / 50 SpD / 0 Spe
+Ability: Water Absorb
+Brave Nature
+IVs: 0 HP / 0 Atk / 19 Def / 0 SpA / 19 SpD / 0 Spe
 - Mud Shot
 - Megahorn
 - Poison Tail
 - Curse
 
-Weezing
+Weezing @ Custap Berry
 Level: 43
-IVs: 40 HP / 0 Atk / 40 Def / 40 SpA / 0 SpD / 0 Spe
+Ability: Levitate
+Serious Nature
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Shadow Ball
 - Sludge Bomb
 - Smokescreen
@@ -8688,45 +8765,55 @@ Class: Leader
 Pic: Leader Blaine
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion / Full Heal
+Items: Full Heal / X Sp. Atk
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Ninetails
+Ninetales @ Wide Lens
+Ability: Drought
+Timid Nature
 Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Flamethrower
-- Sunny Day
+IVs: 0 HP / 0 Atk / 0 Def / 27 SpA / 27 SpD / 27 Spe
+- Fire Blast
+- Will-O-Wisp
 - Confuse Ray
 - Shadow Ball
 
-Houndoom
+Houndoom @ Meadow Plate
+Ability: Early Bird
+Modest Nature
 Level: 46
-IVs: 0 HP / 0 Atk / 0 Def / 50 SpA / 0 SpD / 50 Spe
+IVs: 0 HP / 0 Atk / 27 Def / 27 SpA / 0 SpD / 27 Spe
 - Fire Blast
 - Solar Beam
 - Nasty Plot
 - Torment
 
-Camerupt
+Camerupt @ Passho Berry
+Ability: Solid Rock
+Gentle Nature
 Level: 45
-IVs: 0 HP / 50 Atk / 0 Def / 50 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 27 Atk / 0 Def / 27 SpA / 27 SpD / 0 Spe
 - Yawn
 - Earthquake
 - Rock Slide
 - Fire Blast
 
-Torkoal
+Torkoal @ White Herb
+Ability: White Smoke
+Sassy Nature
 Level: 46
-IVs: 0 HP / 50 Atk / 0 Def / 0 SpA / 50 SpD / 0 Spe
+IVs: 27 HP / 27 Atk / 0 Def / 27 SpA / 27 SpD / 0 Spe
 - Curse
 - Body Slam
 - Superpower
 - Fire Blast
 
-Arcanine
+Arcanine @ Liechi Berry
+Ability: Intimidate
+Jolly Nature
 Level: 47
-IVs: 50 HP / 50 Atk / 0 Def / 0 SpA / 0 SpD / 50 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 - Extreme Speed
 - Close Combat
 - Crunch
@@ -8738,45 +8825,55 @@ Class: Leader
 Pic: Leader Sabrina
 Gender: Female
 Music: Female
-Items: Hyper Potion / Hyper Potion / Full Heal
+Items: X Defense / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Mr Mime
+Mr Mime @ Light Clay
+Ability: Filter
+Timid Nature
 Level: 41
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 60 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 23 SpA / 0 SpD / 23 Spe
 - Reflect
 - Psychic
 - Baton Pass
 - Calm Mind
 
-Bronzong
+Bronzong @ Macho Brace
+Ability: Levitate
+Sassy Nature
 Level: 41
-IVs: 0 HP / 0 Atk / 60 Def / 0 SpA / 60 SpD / 0 Spe
+IVs: 23 HP / 0 Atk / 23 Def / 0 SpA / 23 SpD / 0 Spe
 - Gyro Ball
 - Confuse Ray
 - Light Screen
 - Shadow Ball
 
-Hypno
+Hypno 
+Ability: Insomnia
+Adamant Nature
 Level: 42
-IVs: 60 HP / 0 Atk / 60 Def / 0 SpA / 60 SpD / 0 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 0 SpA / 23 SpD / 0 Spe
 - Hypnosis
 - Nightmare
 - Night Slash
 - Fire Punch
 
-Medicham
+Medicham @ Expert Belt
+Ability: Pure Power
+Adamant Nature
 Level: 42
-IVs: 0 HP / 60 Atk / 0 Def / 0 SpA / 60 SpD / 60 Spe
+IVs: 0 HP / 23 Atk / 23 Def / 0 SpA / 23 SpD / 23 Spe
 - High Jump Kick
 - Psycho Cut
 - Rock Slide
 - Bulk Up
 
-Alakazam
+Alakazam @ Petaya Berry
+Ability: Synchronize
+Timid Nature
 Level: 43
-IVs: 0 HP / 0 Atk / 60 Def / 60 SpA / 0 SpD / 60 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Psychic
 - Recover
 - Fire Punch
