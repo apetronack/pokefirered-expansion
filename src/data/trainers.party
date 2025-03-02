@@ -8263,35 +8263,43 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Purple
 
-Dewgong
+Abomasnow
 Level: 52
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Ice Beam
-- Surf
-- Hail
-- Safeguard
+- Blizzard
+- Seed Bomb
+- Growth
+- Brick Break
 
 Cloyster
-Level: 51
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Spikes
-- Protect
-- Hail
-- Dive
-
-Slowbro
 Level: 52
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Ice Beam
-- Surf
-- Amnesia
-- Yawn
+- Spikes
+- Blizzard
+- Light Screen
+- Dive
+
+Froslass
+Level: 53
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Blizzard
+- Shadow Ball
+- Confuse Ray
+- Fake Tears
+
+Weavile
+Level: 53
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Ice Punch
+- Night Slash
+- Swords Dance
+- Metal Claw
 
 Jynx
 Level: 54
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Ice Punch
-- Double Slap
+- Ice Beam
+- Psychic
 - Lovely Kiss
 - Attract
 
@@ -8314,45 +8322,52 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Green
 
-Onix
-Level: 51
+Steelix
+Level: 54
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Earthquake
-- Rock Tomb
+- Rock Slide
 - Iron Tail
 - Roar
 
-Hitmonchan
-Level: 53
+Heracross
+Level: 55
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sky Uppercut
-- Mach Punch
-- Rock Tomb
-- Counter
-
-Hitmonlee
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Mega Kick
-- Foresight
+- Rock Slide
+- Megahorn
+- Bulk Up
 - Brick Break
-- Facade
 
-Onix
+Gallade
 Level: 54
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Edge
-- Earthquake
-- Iron Tail
-- Sand Tomb
+- Close Combat
+- Swords Dance
+- Psycho Cut
+- Night Slash
+
+SPECIES_TAUROS_PALDEA_AQUA
+Level: 55
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Zen Headbutt
+- Aqua Jet
+- Double Kick
+- Bulk Up
+
+Lucario
+Level: 56
+- Aura Sphere
+- Calm Mind
+- Dark Pulse
+- Water Pulse
 
 Machamp @ Sitrus Berry
 Level: 56
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Cross Chop
 - Bulk Up
-- Scary Face
-- Rock Tomb
+- Ice Punch
+- Thief
 
 === TRAINER_ELITE_FOUR_AGATHA ===
 Name: AGATHA
@@ -8365,37 +8380,25 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Pink
 
-Gengar
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Punch
-- Confuse Ray
-- Toxic
-- Double Team
-
-Golbat
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Confuse Ray
-- Poison Fang
-- Air Cutter
-- Bite
-
-Haunter
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hypnosis
-- Dream Eater
-- Curse
-- Mean Look
-
-Arbok
+Mismagius
 Level: 56
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sludge Bomb
-- Screech
-- Iron Tail
-- Bite
+
+Spiritomb
+
+Dusknoir
+Level: 57
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+
+Cursola
+Level: 56
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+
+
+SPECIES_MAROWAK_ALOLA
+Level: 56
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+
 
 Gengar @ Sitrus Berry
 Level: 58
