@@ -8256,30 +8256,36 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Name: LORELEI
 Class: Elite Four
 Pic: Elite Four Lorelei
-Gender: Male
+Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 Mugshot: Purple
 
-Abomasnow
+Abomasnow @ Quick Claw
 Level: 52
+Ability: Snow Warning
+Quirky Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Blizzard
 - Seed Bomb
 - Growth
 - Brick Break
 
-Cloyster
+Cloyster @ Lum Berry
 Level: 52
+Ability: Shell Armor
+Modest Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Spikes
 - Blizzard
 - Light Screen
 - Dive
 
-Froslass
+Froslass @ Spell Tag
+Ability: Snow Cloak
+Modest Nature
 Level: 53
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Blizzard
@@ -8287,7 +8293,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Confuse Ray
 - Fake Tears
 
-Weavile
+Weavile @ King's Rock
+Ability: Pressure
+Jolly Nature
 Level: 53
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Ice Punch
@@ -8295,7 +8303,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Swords Dance
 - Metal Claw
 
-Jynx
+Jynx @ NevermeltIce
+Ability: Oblivious
+Timid Nature
 Level: 54
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Ice Beam
@@ -8303,7 +8313,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Lovely Kiss
 - Attract
 
-Lapras @ Sitrus Berry
+Lapras @ Leftovers
+Ability: Shell Armor
+Sassy Nature
 Level: 54
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Confuse Ray
@@ -8319,18 +8331,22 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 Mugshot: Green
 
-Steelix
+Steelix @ Passho Berry
+Ability: Rock Head
+Careful Nature
 Level: 54
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Earthquake
-- Rock Slide
-- Iron Tail
+- Double Edge
+- Thunder Fang
 - Roar
 
-Heracross
+Heracross @ Life Orb
+Ability: Swarm
+Adamant Nature
 Level: 55
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Rock Slide
@@ -8338,7 +8354,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Bulk Up
 - Brick Break
 
-Gallade
+Gallade @ Blackglasses
+Ability: Sharpness
+Lonely Nature
 Level: 54
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Close Combat
@@ -8346,67 +8364,103 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psycho Cut
 - Night Slash
 
-SPECIES_TAUROS_PALDEA_AQUA
+SPECIES_TAUROS_PALDEA_AQUA @ Choice Band
+Ability: Intimidate
+Adamant Nature
 Level: 55
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Zen Headbutt
 - Aqua Jet
 - Double Kick
-- Bulk Up
+- Take Down
 
-Lucario
+Lucario @ Wise Glasses
+Ability: Inner Focus
+Modest Nature
 Level: 56
 - Aura Sphere
 - Calm Mind
 - Dark Pulse
 - Water Pulse
 
-Machamp @ Sitrus Berry
+Machamp @ Expert Belt
 Level: 56
+Ability: No Guard
+Adamant Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Cross Chop
+- Dynamic Punch
 - Bulk Up
-- Ice Punch
-- Thief
+- Stone Edge
+- Mega Kick
 
 === TRAINER_ELITE_FOUR_AGATHA ===
 Name: AGATHA
 Class: Elite Four
 Pic: Elite Four Agatha
-Gender: Male
+Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 Mugshot: Pink
 
-Mismagius
-Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Drifblim @ Petaya Berry
+Ability: Unburden
+Lonely Nature
+Level 56
+- Ominous Wind
+- Baton Pass
+- Silver Wind
+- Calm Mind
 
-Spiritomb
+Spiritomb @ Leftovers
+Ability: Pressure
+Calm Nature
+Level: 57
+- Nasty Plot
+- Dark Pulse
+- Shadow Ball
+- Pain Split
 
-Dusknoir
+Dusknoir @ Sitrus Berry
+Ability: Pressure
+Sassy Nature
 Level: 57
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Brick Break
+- Trick Room
+- Mean Look
+- Curse
 
-Cursola
+Cursola @ Stone Plate
+Ability: Perish Body
+Quiet Nature
 Level: 56
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Power Gem
+- Confuse Ray
+- Surf
+- Shadow Ball
 
-
-SPECIES_MAROWAK_ALOLA
+SPECIES_MAROWAK_ALOLA @ Thick Club
+Ability: Rock Head
+Adamant Nature
 Level: 56
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Double Edge
+- Flare Blitz
+- Earthquake
+- Brick Break
 
-
-Gengar @ Sitrus Berry
+Gengar @ Big Root
+Ability: Levitate
+Timid Nature
 Level: 58
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Ball
-- Sludge Bomb
+- Drain Punch
 - Hypnosis
-- Nightmare
+- Dream Eater
 
 === TRAINER_ELITE_FOUR_LANCE ===
 Name: LANCE
@@ -8416,7 +8470,7 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 Mugshot: Blue
 
 Gyarados
@@ -8427,7 +8481,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Twister
 - Bite
 
-Dragonair
+Kingdra
 Level: 54
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Hyper Beam
@@ -8435,7 +8489,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Dragon Rage
 - Outrage
 
-Dragonair
+SPECIES_EXEGGUTOR_ALOLA
 Level: 54
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Hyper Beam
@@ -8443,7 +8497,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Thunder Wave
 - Outrage
 
-Aerodactyl
+Garchomp
 Level: 58
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Hyper Beam
@@ -8451,7 +8505,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Wing Attack
 - Scary Face
 
-Dragonite @ Sitrus Berry
+Skarmory
+
+Salamence @ Sitrus Berry
 Level: 60
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Hyper Beam
