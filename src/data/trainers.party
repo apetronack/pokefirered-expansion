@@ -8522,13 +8522,14 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Swords Dance
 - Brick Break
 
-Salamence @ Sitrus Berry
+Salamence @ Life Orb
+Ability: Intimidate
 Level: 60
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
-- Outrage
-- Wing Attack
+- Dragon Pulse
+- Fire Blast
+- Thunder Fang
+- Roost
 
 === TRAINER_LEADER_BROCK ===
 Name: BROCK
@@ -9458,32 +9459,38 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Pidgeot
-Level: 59
+Staraptor @ White Herb
+Jolly Nature
+Ability: Intimidate
+Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
+- Brave Bird
 - Feather Dance
-- Sand Attack
-- Whirlwind
+- Close Combat
+- U-turn
 
-Alakazam
-Level: 57
+Alakazam @ Light Clay
+Modest Nature
+Ability: Synchronize
+Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
-- Future Sight
+- Focus Blast
 - Recover
 - Reflect
 
-Rhydon
-Level: 59
+Tyranitar @ Wide Lens
+Quirky Nature
+Ability: Sand Stream
+Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
+- Crunch
 - Earthquake
-- Rock Tomb
-- Scary Face
+- Stone Edge
+- Thunder
 
 Arcanine
-Level: 59
+Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Extreme Speed
 - Flamethrower
@@ -9491,7 +9498,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bite
 
 Exeggutor
-Level: 61
+Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Giga Drain
 - Egg Bomb
