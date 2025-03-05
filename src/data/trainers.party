@@ -7,7 +7,7 @@ Music: Male
 Double Battle: No
 
 === TRAINER_AQUA_LEADER ===
-Name: PH
+Name: Sand Team
 Class: Aqua Leader
 Pic: Aqua Leader Archie
 Gender: Male
@@ -15,12 +15,66 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tyranitar @ Leftovers
+Ability: Sand Stream
+Adamant Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stone Edge
+- Crunch
+- Thunderbolt
+- Stealth Rock
+
+Hippowdon @ Smooth Rock
+Ability: Sand Stream
+Impish Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Slack Off
+- Roar
+- Ice Fang
+
+Garchomp @ Yache Berry
+Ability: Sand Veil
+Jolly Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Swords Dance
+- Earthquake
+- Dragon Claw
+- Fire Fang
+
+Lucario @ Life Orb
+Ability: Inner Focus
+Timid Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aura Sphere
+- Shadow Ball
+- Extreme Speed
+- Hidden Power Ice
+
+Swampert @ Leftovers
+Ability: Torrent
+Relaxed Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Ice Beam
+- Surf
+- Roar
+
+Skarmory @ Shed Shell
+Ability: Keen Eye 
+Impish Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Roost
+- Spikes
+- Whirlwind
+- Brave Bird
 
 === TRAINER_AQUA_GRUNT_M ===
-Name: PH
+Name: Rain Team
 Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
@@ -28,12 +82,68 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kingdra @ Life Orb
+Ability: Swift Swim
+Modest Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Draco Meteor
+- Ice Beam
+- Rain Dance
+
+Ludicolo @ Leftovers
+Ability: Swift Swim
+Calm Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Giga Drain
+- Ice Beam
+- Leech Seed
+
+Jirachi @ Damp Rock
+Ability: Serene Grace
+Timid Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rain Dance
+- Thunder
+- Water Pulse
+- U-turn
+
+Swampert @ Lum Berry
+Ability: Torrent
+Relaxed Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stealth Rock
+- Earthquake
+- Ice Beam
+- Roar
+
+Kabutops @ Choice Band
+Ability: Swift Swim
+Adamant Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Waterfall
+- Stone Edge
+- Aqua Jet
+- Superpower
+
+Zapdos @ Choice Scarf
+Ability: Pressure
+Timid Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder
+- Hidden Power Grass
+- U-turn
+- Roost
 
 === TRAINER_AQUA_GRUNT_F ===
-Name: PH
+Name: Sun Team
 Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Male
@@ -41,9 +151,65 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ninetales @ Charcoal
+Ability: Drought
+Timid Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Confuse Ray
+- Solar Beam
+- Will-O-Wisp
+
+Venusaur @ Life Orb
+Ability: Chlorophyll
+Modest Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Solar Beam
+- Sludge Bomb
+- Hidden Power Fire
+- Sleep Powder
+
+Dugtrio @ Focus Sash
+Ability: Arena Trap
+Jolly Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Stone Edge
+- Aerial Ace
+- Stealth Rock
+
+Exeggutor @ Choice Specs
+Ability: Chlorophyll
+Modest Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Solar Beam
+- Psychic
+- Hidden Power Ice
+- Explosion
+
+Arcanine @ Choice Band
+Ability: Intimidate
+Adamant Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Extreme Speed
+- Thunder Fang
+- Crunch
+
+Raikou @ Choice Scarf
+Ability: Pressure
+Timid Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Hidden Power Ice
+- Shadow Ball
+- Aura Sphere
 
 === TRAINER_RS_AROMA_LADY ===
 Name: PH
