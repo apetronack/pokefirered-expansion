@@ -8711,7 +8711,7 @@ SPECIES_GEODUDE_ALOLA
 Ability: Sturdy
 Impish Nature
 Level: 12
-IVs: 0 HP / 10 Atk / 10 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 3 HP / 0 Atk / 3 Def / 0 SpA / 0 SpD / 0 Spe
 - Sandstorm
 - Defense Curl
 - Spark
@@ -8724,7 +8724,7 @@ Level: 13
 IVs: 0 HP / 3 ATK / 0 DEF / 3 SpA / 0 SpD / 3 Spe
 - Bite
 - Ember
-- Tackle
+- Howl
 - Rock Tomb
 
 Corsola
@@ -8735,7 +8735,7 @@ IVs: 3 HP / 0 ATK / 0 DEF / 3 SpA / 3 SpD / 0 Spe
 - Bubble
 - Light Screen
 - Rock Tomb
-- Tackle
+- Recover
 
 Shuckle @ Berry Juice
 Ability: Sturdy
@@ -8754,7 +8754,7 @@ Level: 14
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Dig
 - Screech
-- Body Slam
+- Dragon Breath
 - Rock Tomb
 
 === TRAINER_LEADER_MISTY ===
@@ -8770,17 +8770,17 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Carvanha @ Damp Rock
 Ability: Rough Skin
 Lonely Nature
-Level: 18
+Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 7 Spe
 - Bite
 - Rain Dance
-- Torment
-- Secret Power
+- Scary Face
+- Water Pulse
 
 Lombre
 Ability: Swift Swim
 Rash Nature
-Level: 19
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 7 SpA / 7 SpD / 0 Spe
 - Fake Out
 - Bullet Seed
@@ -8790,8 +8790,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 7 SpA / 7 SpD / 0 Spe
 Mantine
 Ability: Swift Swim
 Sassy Nature
-Level: 19
-IVs: 7 HP / 7 Atk / 0 Def / 7 SpA / 0 SpD / 0 d
+Level: 20
+IVs: 7 HP / 7 Atk / 0 Def / 7 SpA / 0 SpD / 0 Spe
 - Aerial Ace
 - Headbutt
 - Water Pulse
@@ -8800,10 +8800,10 @@ IVs: 7 HP / 7 Atk / 0 Def / 7 SpA / 0 SpD / 0 d
 Chinchou
 Ability: Volt Absorb
 Modest Nature
-Level: 18
+Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 7 SpA / 7 SpD / 0 Spe
 - Thunder Wave
-- Supersonic
+- Rain Dance
 - Water Pulse
 - Shock Wave
 
@@ -8832,7 +8832,7 @@ Ability: Static
 Timid Nature
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 11 Spe
-- Sonic Boom
+- Thunder Wave
 - Energy Ball
 - Reflect
 - Shock Wave
@@ -8857,15 +8857,15 @@ IVs: 0 HP / 0 Atk / 11 Def / 11 SpA / 0 SpD / 0 Spe
 - Sonic Boom
 - Shock Wave
 
-Rotom
-Ability: Levitate
+Electabuzz
+Ability: Static
 Hasty Nature
 Level: 23
 IVs: 0 HP / 11 Atk / 0 Def / 0 SpA / 11 SpD / 0 Spe
 - Shock Wave
-- Confuse Ray
-- Astonish
-- Uproar
+- Low Kick
+- Ice Punch
+- Light Screen
 
 SPECIES_RAICHU_ALOLA @ Lansat Berry
 Ability: Lightning Rod
@@ -8873,7 +8873,7 @@ Lonely Nature
 Level: 24
 IVs: 0 HP / 11 Atk / 0 Def / 11 SpA / 0 SpD / 11 Spe
 - Quick Attack
-- Dig
+- Grass Knot
 - Psychic
 - Thunderbolt
 
@@ -8892,9 +8892,9 @@ Ability: Chlorophyll
 Timid Nature
 Level: 28
 IVs: 15 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Reflect
+- Sunny Day
 - Leech Seed
-- Stun Spore
+- Sleep Powder
 - Giga Drain
 
 Breloom @ Toxic Orb
@@ -8907,24 +8907,24 @@ IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
 - Seed Bomb
 - Bulk Up
 
-Victreebel
+Victreebel @ Black Sludge
 Ability: Chlorophyll
 Modest Nature
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 40 SpA / 15 SpD / 15 Spe
-- Tickle
+- Weather Ball
 - Sludge Bomb
 - Toxic
 - Giga Drain
 
-Carnivine
+Carnivine @ Wide Lens
 Level: 28
 Ability: Levitate
 Adamant Nature
 IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
 - Feint Attack
-- Razor Leaf
-- Slam
+- Power Whip
+- Sleep Powder
 - Swords Dance
 
 Cradily @ Sitrus Berry
@@ -8932,7 +8932,7 @@ Ability: Storm Drain
 Relaxed Nature
 Level: 29
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Constrict
+- Giga Drain
 - Ingrain
 - Curse
 - Ancient Power
