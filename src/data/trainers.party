@@ -9598,53 +9598,63 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Pidgeot
-Level: 59
+Staraptor @ White Herb
+Jolly Nature
+Ability: Intimidate
+Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
+- Brave Bird
 - Feather Dance
-- Sand Attack
-- Whirlwind
+- Close Combat
+- U-turn
 
-Alakazam
-Level: 57
+Alakazam @ Light Clay
+Modest Nature
+Ability: Synchronize
+Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
-- Future Sight
+- Focus Blast
 - Recover
 - Reflect
 
-Rhydon
-Level: 59
+Tyranitar @ Wide Lens
+Quirky Nature
+Ability: Sand Stream
+Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
+- Crunch
 - Earthquake
-- Rock Tomb
-- Scary Face
+- Stone Edge
+- Thunder
 
-Exeggutor
-Level: 59
+Ludicolo @ Bright Powder
+Ability: Own Tempo
+Timid Nature
+Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Egg Bomb
-- Sleep Powder
-- Light Screen
+- Leech Seed
+- Surf
+- Energy Ball
+- Double Team
 
-Gyarados
-Level: 61
+Gyarados @ Wacan Berry
+Ability: Intimidate
+Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Dragon Rage
-- Bite
-- Thrash
+- Waterfall
+- Earthquake
+- Thunder Wave
+- Giga Impact
 
 Charizard @ Sitrus Berry
+Ability: Blaze
 Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fire Blast
-- Aerial Ace
-- Slash
-- Fire Spin
+- Air Slash
+- Focus Blast
+- Will-O-Wisp
 
 === TRAINER_CHANNELER_PATRICIA ===
 Name: PATRICIA
