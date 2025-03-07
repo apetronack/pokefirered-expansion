@@ -53,7 +53,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aura Sphere
 - Shadow Ball
 - Extreme Speed
-- Hidden Power Ice
+- Dragon Pulse
 
 Swampert @ Leftovers
 Ability: Torrent
@@ -138,7 +138,7 @@ Timid Nature
 Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
-- Hidden Power Grass
+- Drill Peck
 - U-turn
 - Roost
 
@@ -168,7 +168,7 @@ Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Solar Beam
 - Sludge Bomb
-- Hidden Power Fire
+- Earthquake
 - Sleep Powder
 
 Dugtrio @ Focus Sash
@@ -188,7 +188,7 @@ Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Solar Beam
 - Psychic
-- Hidden Power Ice
+- Leech Seed
 - Explosion
 
 Arcanine @ Choice Band
@@ -207,7 +207,7 @@ Timid Nature
 Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunderbolt
-- Hidden Power Ice
+- Extreme Speed
 - Shadow Ball
 - Aura Sphere
 
@@ -6562,7 +6562,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Hippowdon
 Ability: Sand Stream
-Adamant NAture
+Adamant Nature
 Level: 39
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Ice Fang
@@ -8459,7 +8459,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Confuse Ray
 - Fake Tears
 
-Weavile @ King's Rock
+Weavile @ Kings Rock
 Ability: Pressure
 Jolly Nature
 Level: 53
@@ -8573,7 +8573,7 @@ Mugshot: Pink
 Drifblim @ Petaya Berry
 Ability: Unburden
 Lonely Nature
-Level 56
+Level: 56
 - Ominous Wind
 - Baton Pass
 - Silver Wind
@@ -8721,17 +8721,17 @@ SPECIES_GROWLITHE_HISUI
 Ability: Intimidate
 Lonely Nature
 Level: 13
-IVs: 0 HP / 3 ATK / 0 DEF / 3 SpA / 0 SpD / 3 Spe
+IVs: 0 HP / 3 Atk / 0 Def / 3 SpA / 0 SpD / 3 Spe
 - Bite
 - Ember
 - Howl
 - Rock Tomb
 
 Corsola
-Ability: Natural Curse
+Ability: Natural Cure
 Hasty Nature
 Level: 13
-IVs: 3 HP / 0 ATK / 0 DEF / 3 SpA / 3 SpD / 0 Spe
+IVs: 3 HP / 0 Atk / 0 Def / 3 SpA / 3 SpD / 0 Spe
 - Bubble
 - Light Screen
 - Rock Tomb
@@ -8741,7 +8741,7 @@ Shuckle @ Berry Juice
 Ability: Sturdy
 Jolly Nature
 Level: 12
-IVs: 3 HP / 0 ATK/ 3 DEF / 0 SpA / 3 SpD / 0 Spe
+IVs: 3 HP / 0 Atk / 3 Def / 0 SpA / 3 SpD / 0 Spe
 - Wrap
 - Rest
 - Sandstorm
@@ -8763,7 +8763,7 @@ Class: Leader
 Pic: Leader Misty
 Gender: Male
 Music: Female
-Items: Full Heal / X Sp. Atk
+Items: Full Heal / X Sp Atk
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
@@ -8883,7 +8883,7 @@ Class: Leader
 Pic: Leader Erika
 Gender: Male
 Music: Female
-Items: Full Heal / X Sp. Def
+Items: Full Heal / X Sp Def
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
@@ -9003,7 +9003,7 @@ Class: Leader
 Pic: Leader Blaine
 Gender: Male
 Music: Male
-Items: Full Heal / X Sp. Atk
+Items: Full Heal / X Sp Atk
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
