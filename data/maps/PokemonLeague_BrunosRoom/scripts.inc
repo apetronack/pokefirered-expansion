@@ -89,6 +89,7 @@ PokemonLeague_BrunosRoom_EventScript_PostBattle::
 
 PokemonLeague_BrunosRoom_EventScript_DefeatedBruno::
 	setflag FLAG_DEFEATED_BRUNO
+	setflag FLAG_DEFEATED_BRUNO_1X
 	call PokemonLeague_EventScript_OpenDoor
 	msgbox PokemonLeague_BrunosRoom_Text_PostBattle
 	closemessage
