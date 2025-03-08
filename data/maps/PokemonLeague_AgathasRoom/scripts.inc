@@ -83,6 +83,7 @@ PokemonLeague_AgathasRoom_EventScript_PostBattle::
 
 PokemonLeague_AgathasRoom_EventScript_DefeatedAgatha::
 	setflag FLAG_DEFEATED_AGATHA
+	setflag FLAG_DEFEATED_AGATHA_1X
 	call PokemonLeague_EventScript_OpenDoor
 	msgbox PokemonLeague_AgathasRoom_Text_PostBattle
 	release

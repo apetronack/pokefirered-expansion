@@ -7,6 +7,7 @@
 
 u32 GetCurrentLevelCap(void)
 {
+    // Level cap is chosen according to the first unset flag in `sLevelCapFlagMap`
     static const u32 sLevelCapFlagMap[][2] =
     {
         {FLAG_BADGE01_GET,    13},
@@ -17,7 +18,12 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BADGE06_GET,    42},
         {FLAG_BADGE07_GET,    46},
         {FLAG_BADGE08_GET,    49},
-        {FLAG_SYS_GAME_CLEAR, 62},
+        {FLAG_DEFEATED_LORELEI_1X, 52},
+        {FLAG_DEFEATED_BRUNO_1X,   54},
+        {FLAG_DEFEATED_AGATHA_1X,  56},
+        {FLAG_DEFEATED_LANCE_1X,   58},
+        {FLAG_DEFEATED_CHAMP_1X,   60},
+        {FLAG_SYS_GAME_CLEAR,  MAX_LEVEL},
     };
 
     u32 i;

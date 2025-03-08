@@ -64,6 +64,7 @@ PokemonLeague_ChampionsRoom_EventScript_EnterRoom::
 	setflag FLAG_TEMP_4
 	clearflag FLAG_TEMP_5
 	setflag FLAG_DEFEATED_CHAMP
+	setflag FLAG_DEFEATED_CHAMP_1X
 	setflag FLAG_TEMP_4
 	msgbox PokemonLeague_ChampionsRoom_Text_PostBattle
 	playbgm MUS_SLOW_PALLET, 0
