@@ -25,7 +25,7 @@ u32 GetCurrentLevelCap(void)
         {FLAG_DEFEATED_CHAMP_1X,   60},
         {FLAG_SYS_GAME_CLEAR,  MAX_LEVEL},
     };
-
+    
     u32 i;
 
     if (B_LEVEL_CAP_TYPE == LEVEL_CAP_FLAG_LIST)
