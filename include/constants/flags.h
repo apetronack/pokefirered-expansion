@@ -1257,14 +1257,14 @@
 #define FLAG_DEFEATED_AGATHA_1X       0x4BF
 #define FLAG_DEFEATED_LANCE_1X        0x4C0
 #define FLAG_DEFEATED_CHAMP_1X        0x4C1
+#define FLAG_RIVAL_LAB_FIGHT     0x4C2
+#define FLAG_RIVAL_CERCITY_FIGHT 0x4C3
+#define FLAG_RIVAL_SSANNE_FIGHT  0x4C4
+#define FLAG_RIVAL_PTOWER_FIGHT  0x4C5
+#define FLAG_RIVAL_SILPH_FIGHT   0x4C6
+#define FLAG_RIVAL_RT22_FIGHT    0x4C7
 
 // Unused?
-#define FLAG_0x4C2               0x4C2
-#define FLAG_0x4C3               0x4C3
-#define FLAG_0x4C4               0x4C4
-#define FLAG_0x4C5               0x4C5
-#define FLAG_0x4C6               0x4C6
-#define FLAG_0x4C7               0x4C7
 #define FLAG_0x4C8               0x4C8
 #define FLAG_0x4C9               0x4C9
 #define FLAG_0x4CA               0x4CA
