@@ -17676,64 +17676,64 @@
             "encounter_rate": 21,
             "mons": [
               {
-                "min_level": 18,
-                "max_level": 18,
-                "species": "SPECIES_PIDGEY"
+                "min_level": 24,
+                "max_level": 26,
+                "species": "SPECIES_PONYTA"
               },
               {
-                "min_level": 18,
-                "max_level": 18,
-                "species": "SPECIES_MEOWTH"
+                "min_level": 24,
+                "max_level": 26,
+                "species": "SPECIES_VULPIX"
               },
               {
-                "min_level": 16,
-                "max_level": 16,
+                "min_level": 24,
+                "max_level": 26,
                 "species": "SPECIES_GROWLITHE"
               },
               {
-                "min_level": 20,
-                "max_level": 20,
-                "species": "SPECIES_PIDGEY"
+                "min_level": 24,
+                "max_level": 26,
+                "species": "SPECIES_GIRAFARIG"
               },
               {
-                "min_level": 20,
-                "max_level": 20,
-                "species": "SPECIES_MEOWTH"
+                "min_level": 24,
+                "max_level": 26,
+                "species": "SPECIES_TANGELA"
               },
               {
-                "min_level": 17,
-                "max_level": 17,
-                "species": "SPECIES_EKANS"
+                "min_level": 24,
+                "max_level": 26,
+                "species": "SPECIES_TROPIUS"
               },
               {
-                "min_level": 17,
-                "max_level": 17,
-                "species": "SPECIES_GROWLITHE"
+                "min_level": 24,
+                "max_level": 26,
+                "species": "SPECIES_CHIMECHO"
               },
               {
-                "min_level": 19,
-                "max_level": 19,
-                "species": "SPECIES_EKANS"
+                "min_level": 24,
+                "max_level": 26,
+                "species": "SPECIES_ABSOL"
               },
               {
-                "min_level": 17,
-                "max_level": 17,
-                "species": "SPECIES_EKANS"
+                "min_level": 24,
+                "max_level": 26,
+                "species": "SPECIES_PINSIR"
               },
               {
-                "min_level": 15,
-                "max_level": 15,
-                "species": "SPECIES_GROWLITHE"
+                "min_level": 25,
+                "max_level": 25,
+                "species": "SPECIES_SCYTHER"
               },
               {
-                "min_level": 17,
-                "max_level": 17,
-                "species": "SPECIES_EKANS"
+                "min_level": 25,
+                "max_level": 25,
+                "species": "SPECIES_MAGMAR"
               },
               {
-                "min_level": 18,
-                "max_level": 18,
-                "species": "SPECIES_GROWLITHE"
+                "min_level": 25,
+                "max_level": 25,
+                "species": "SPECIES_MAGMAR"
               }
             ]
           }
