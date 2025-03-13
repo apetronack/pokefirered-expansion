@@ -6738,7 +6738,7 @@
               {
                 "min_level": 21,
                 "max_level": 23,
-                "species": "SPECIES_DRIBLIM"
+                "species": "SPECIES_DRIFBLIM"
               },
               {
                 "min_level": 24,
@@ -6807,7 +6807,7 @@
               {
                 "min_level": 21,
                 "max_level": 23,
-                "species": "SPECIES_DRIBLIM"
+                "species": "SPECIES_DRIFBLIM"
               },
               {
                 "min_level": 24,
@@ -6851,7 +6851,7 @@
               {
                 "min_level": 23,
                 "max_level": 25,
-                "species": "SPECIES_DRIBLIM"
+                "species": "SPECIES_DRIFBLIM"
               },
               {
                 "min_level": 23,
@@ -6920,7 +6920,7 @@
               {
                 "min_level": 23,
                 "max_level": 25,
-                "species": "SPECIES_DRIBLIM"
+                "species": "SPECIES_DRIFBLIM"
               },
               {
                 "min_level": 23,
