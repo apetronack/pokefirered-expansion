@@ -2,13 +2,18 @@ import re
 import csv
 
 def parse_families_file(filename):
+    EXCLUDE_MEGAS = True  # Update this if necessary
+    EXCLUDE_GMAX = True  # Update this if necessary
+    EXCLUDE_TOTEMS = True # Update this if necessary
+    EXCLUDE_PIKACHUS = True  # Update this if necessary
+
     with open(filename, 'r', encoding='utf-8') as file:
         data = file.read()
     
     # Regular expression pattern to match each Pokémon species entry
     species_pattern = re.compile(r'\[SPECIES_(\w+)\]\s*=\s*{(.*?),\n\s*},\n', re.DOTALL)
-    
-    # Regular expression patterns to extract specific attributes
+
+    # Regular expression pattern to match mega and G-Max forms if needed
     stat_patterns = {
         'baseHP': re.compile(r'\.baseHP\s*=\s*(\d+)'),
         'baseAttack': re.compile(r'\.baseAttack\s*=\s*(\d+)'),
@@ -27,6 +32,20 @@ def parse_families_file(filename):
     
     for match in species_pattern.finditer(data):
         species_name = match.group(1)
+
+        if EXCLUDE_MEGAS and '_MEGA' in species_name:
+            continue
+        if EXCLUDE_MEGAS and '_PRIMAL' in species_name:
+            continue
+        if EXCLUDE_GMAX and '_GMAX' in species_name:
+            continue
+        if EXCLUDE_TOTEMS and '_TOTEM' in species_name:
+            continue
+        if EXCLUDE_PIKACHUS and 'PIKACHU_' in species_name: 
+            continue
+        if EXCLUDE_PIKACHUS and 'PICHU_' in species_name:
+            continue
+
         attributes = match.group(2)
         
         stats = {key: int(stat_patterns[key].search(attributes).group(1)) if stat_patterns[key].search(attributes) else 0 for key in stat_patterns}
