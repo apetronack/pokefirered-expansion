@@ -1110,7 +1110,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseAttack    = 30,
         .baseDefense   = 35,
         .baseSpeed     = 45,
-        .baseSpAttack  = 20,
+        .baseSpAttack  = 25,
         .baseSpDefense = 20,
         .types = MON_TYPES(TYPE_BUG),
         .catchRate = 255,
@@ -1179,7 +1179,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
     [SPECIES_METAPOD] =
     {
-        .baseHP        = 50,
+        .baseHP        = 70,
         .baseAttack    = 20,
         .baseDefense   = 55,
         .baseSpeed     = 30,
@@ -1417,7 +1417,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseAttack    = 35,
         .baseDefense   = 30,
         .baseSpeed     = 50,
-        .baseSpAttack  = 20,
+        .baseSpAttack  = 25,
         .baseSpDefense = 20,
         .types = MON_TYPES(TYPE_BUG, TYPE_POISON),
         .catchRate = 255,
@@ -1486,7 +1486,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 
     [SPECIES_KAKUNA] =
     {
-        .baseHP        = 45,
+        .baseHP        = 65,
         .baseAttack    = 25,
         .baseDefense   = 50,
         .baseSpeed     = 35,
@@ -2392,10 +2392,10 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     {
         .baseHP        = 40,
         .baseAttack    = 60,
-        .baseDefense   = 30,
+        .baseDefense   = 34,
         .baseSpeed     = 70,
         .baseSpAttack  = 31,
-        .baseSpDefense = 31,
+        .baseSpDefense = 35,
         .types = MON_TYPES(TYPE_NORMAL, TYPE_FLYING),
         .catchRate = 255,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 52 : 58,
@@ -2539,7 +2539,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseHP        = 35,
         .baseAttack    = 60,
         .baseDefense   = 44,
-        .baseSpeed     = 55,
+        .baseSpeed     = 60,
         .baseSpAttack  = 40,
         .baseSpDefense = 54,
         .types = MON_TYPES(TYPE_POISON),
@@ -4477,7 +4477,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseAttack    = 57,
         .baseDefense   = 40,
         .baseSpeed     = 50,
-        .baseSpAttack  = 40,
+        .baseSpAttack  = 42,
         .baseSpDefense = 40,
         .types = MON_TYPES(TYPE_POISON),
         .catchRate = 235,
@@ -4936,7 +4936,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 #if P_FAMILY_VULPIX
     [SPECIES_VULPIX] =
     {
-        .baseHP        = 38,
+        .baseHP        = 39,
         .baseAttack    = 41,
         .baseDefense   = 40,
         .baseSpeed     = 65,
@@ -5225,7 +5225,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     {
         .baseHP        = 90,
         .baseAttack    = 30,
-        .baseDefense   = 15,
+        .baseDefense   = 20,
         .baseSpeed     = 15,
         .baseSpAttack  = 40,
         .baseSpDefense = 20,
@@ -6073,7 +6073,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 #if P_FAMILY_PARAS
     [SPECIES_PARAS] =
     {
-        .baseHP        = 35,
+        .baseHP        = 40,
         .baseAttack    = 70,
         .baseDefense   = 55,
         .baseSpeed     = 25,
@@ -14658,7 +14658,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
 #if P_FAMILY_HORSEA
     [SPECIES_HORSEA] =
     {
-        .baseHP        = 30,
+        .baseHP        = 35,
         .baseAttack    = 40,
         .baseDefense   = 70,
         .baseSpeed     = 60,
