@@ -6,7 +6,7 @@ def parse_families_file(filename):
         data = file.read()
     
     # Regular expression pattern to match each Pokémon species entry
-    species_pattern = re.compile(r'\[SPECIES_(\w+)\]\s*=\s*{(.*?)}', re.DOTALL)
+    species_pattern = re.compile(r'\[SPECIES_(\w+)\]\s*=\s*{(.*?),\n\s*},\n', re.DOTALL)
     
     # Regular expression patterns to extract specific attributes
     stat_patterns = {
@@ -19,7 +19,7 @@ def parse_families_file(filename):
     }
     type_pattern = re.compile(r'\.types\s*=\s*MON_TYPES\((TYPE_\w+)(?:,\s*(TYPE_\w+))?\)')
     growth_pattern = re.compile(r'\.growthRate\s*=\s*(GROWTH_\w+)')
-    evolution_pattern = re.compile(r'\.evolutions\s*=\s*EVOLUTION\({(EVO_\w+),\s*(\d+),\s*SPECIES_(\w+)}\)')
+    evolution_pattern = re.compile(r'\.evolutions\s*=\s*EVOLUTION\({(EVO_\w+),\s*(\w+),\s*SPECIES_(\w+)}\)')
     name_pattern = re.compile(r'\.speciesName\s*=\s*\_\("(.*?)"\)')
     
     parsed_data = []
