@@ -16622,6 +16622,75 @@
         },
         {
           "map": "MAP_ROUTE2",
+          "base_label": "sRoute2_FireRed",
+          "land_mons": {
+            "encounter_rate": 21,
+            "mons": [
+              {
+                "min_level": 3,
+                "max_level": 3,
+                "species": "SPECIES_BUNEARY"
+              },
+              {
+                "min_level": 3,
+                "max_level": 3,
+                "species": "SPECIES_SHELLOS"
+              },
+              {
+                "min_level": 4,
+                "max_level": 4,
+                "species": "SPECIES_SHINX"
+              },
+              {
+                "min_level": 4,
+                "max_level": 4,
+                "species": "SPECIES_AZURILL"
+              },
+              {
+                "min_level": 2,
+                "max_level": 2,
+                "species": "SPECIES_AIPOM"
+              },
+              {
+                "min_level": 2,
+                "max_level": 2,
+                "species": "SPECIES_CORPHISH"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_NIDORAN_M"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_NIDORAN_F"
+              },
+              {
+                "min_level": 4,
+                "max_level": 4,
+                "species": "SPECIES_SWINUB"
+              },
+              {
+                "min_level": 4,
+                "max_level": 4,
+                "species": "SPECIES_LOTAD"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CHERUBI"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_PINECO"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_ROUTE2",
           "base_label": "sRoute2_LeafGreen",
           "land_mons": {
             "encounter_rate": 21,
