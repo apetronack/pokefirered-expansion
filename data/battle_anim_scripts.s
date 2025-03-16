@@ -20618,6 +20618,7 @@ FissureDirtPlumeClose:
 	playsewithpan SE_M_DIG, SOUND_PAN_TARGET
 	return
 
+@ TODO: Fix animation to not go in front of battle menu when opponent uses
 gBattleAnimMove_Dig::
 	choosetwoturnanim DigSetUp, DigUnleash
 DigEnd:
