@@ -665,8 +665,8 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
     {
         .baseHP        = 40,
         .baseAttack    = 55,
-        .baseDefense   = 30,
-        .baseSpeed     = 60,
+        .baseDefense   = 32,
+        .baseSpeed     = 63,
         .baseSpAttack  = 30,
         .baseSpDefense = 30,
         .types = MON_TYPES(TYPE_NORMAL, TYPE_FLYING),
@@ -1081,12 +1081,12 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 #if P_FAMILY_KRICKETOT
     [SPECIES_KRICKETOT] =
     {
-        .baseHP        = 37,
-        .baseAttack    = 25,
-        .baseDefense   = 41,
-        .baseSpeed     = 25,
-        .baseSpAttack  = 25,
-        .baseSpDefense = 41,
+        .baseHP        = 45,
+        .baseAttack    = 30,
+        .baseDefense   = 45,
+        .baseSpeed     = 30,
+        .baseSpAttack  = 30,
+        .baseSpDefense = 45,
         .types = MON_TYPES(TYPE_BUG),
         .catchRate = 255,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 39 : 54,
@@ -1264,10 +1264,10 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
     {
         .baseHP        = 45,
         .baseAttack    = 65,
-        .baseDefense   = 34,
-        .baseSpeed     = 45,
+        .baseDefense   = 40,
+        .baseSpeed     = 50,
         .baseSpAttack  = 40,
-        .baseSpDefense = 34,
+        .baseSpDefense = 40,
         .types = MON_TYPES(TYPE_ELECTRIC),
         .catchRate = 235,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 53 : 60,
