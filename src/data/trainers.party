@@ -6002,14 +6002,15 @@ Pic: Rival Early
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgey
+Starly
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
-- Gust
-- Sand Attack
+- Wing Attack
+- Quick Attack
+- Growl
 
 Squirtle
 Level: 9
@@ -6025,14 +6026,15 @@ Pic: Rival Early
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgey
+Starly
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
-- Gust
-- Sand Attack
+- Wing Attack
+- Quick Attack
+- Growl
 
 Bulbasaur
 Level: 9
@@ -6048,14 +6050,15 @@ Pic: Rival Early
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgey
+Starly
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
-- Sand Attack
-- Gust
+- Wing Attack
+- Quick Attack
+- Growl
 
 Charmander
 Level: 9
@@ -6071,33 +6074,41 @@ Pic: Rival Early
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeotto
-Level: 17
+Staravia
+Ability: Intimidate
+Adamant Nature
+Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
-- Gust
-- Quick Attack
+- Wing Attack
+- Growl
+- Double Team
+- Secret Power
 
 Abra
-Level: 17
+Ability: Synchronize
+Naughty Nature
+Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Teleport
+- Hidden Power
+
+Flaaffy
+Ability: Static
+Lax Nature
+Level: 16
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Thunder Wave
+- Thunder Shock
+- Growl
 - Mega Punch
 
-SPECIES_RATTATA_ALOLA
-Level: 17
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Pursuit
-- Tail Whip
-- Quick Attack
-- Hyper Fang
-
-Squirtle
+Squirtle @ Oran Berry
+Ability: Torrent
+Mild Nature
 Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Secret Power
 - Tail Whip
 - Withdraw
@@ -6110,31 +6121,39 @@ Pic: Rival Early
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeotto
-Level: 17
+Staravia
+Ability: Intimidate
+Adamant Nature
+Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
-- Gust
-- Quick Attack
+- Wing Attack
+- Growl
+- Double Team
+- Secret Power
 
 Abra
-Level: 17
+Ability: Synchronize
+Naughty Nature
+Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Teleport
+- Hidden Power
+
+Flaaffy
+Ability: Static
+Lax Nature
+Level: 16
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Thunder Wave
+- Thunder Shock
+- Growl
 - Mega Punch
 
-SPECIES_RATTATA_ALOLA
-Level: 17
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Pursuit
-- Tail Whip
-- Quick Attack
-- Hyper Fang
-
-Bulbasaur
+Bulbasaur @ Oran Berry
+Ability: Overgrow
+Quiet Nature
 Level: 18
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Secret Power
@@ -6149,33 +6168,41 @@ Pic: Rival Early
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeotto
-Level: 17
+Staravia
+Ability: Intimidate
+Adamant Nature
+Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Tackle
-- Sand Attack
-- Gust
-- Quick Attack
+- Wing Attack
+- Growl
+- Double Team
+- Secret Power
 
 Abra
-Level: 17
+Ability: Synchronize
+Naughty Nature
+Level: 15
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Teleport
+- Hidden Power
+
+Flaaffy
+Ability: Static
+Lax Nature
+Level: 16
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Thunder Wave
+- Thunder Shock
+- Growl
 - Mega Punch
 
-SPECIES_RATTATA_ALOLA
-Level: 17
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Pursuit
-- Tail Whip
-- Quick Attack
-- Hyper Fang
-
-Charmander
+Charmander @ Oran Berry
+Ability: Blaze
+Naughty Nature
 Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Metal Claw
 - Ember
 - Growl
@@ -9201,23 +9228,47 @@ Pic: Rival Late
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeotto
+Staravia @ Persim Berry
+Ability: Intimidate
+Adamant Nature
 Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Wing Attack
+- Secret Power
+- Endeavor
+- Quick Attack
 
-Raticate
+Flaaffy @ Quick Claw
+Ability: Static
+Lax Nature
 Level: 16
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Thunder Wave
+- Shock Wave
+- Mega Punch
+- Growl
 
 Kadabra
+Ability: Synchronize
+Mild Nature
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Hidden Power
+- Confusion
+- Disable
+- Kinesis
 
-Wartortle
+Wartortle @ Sitrus Berry
+Ability: Torrent
+Mild Nature
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Pulse
+- Bite
+- Withdraw
+- Rapid Spin
 
 === TRAINER_RIVAL_SS_ANNE_BULBASAUR ===
 Name: TERRY
@@ -9226,23 +9277,47 @@ Pic: Rival Late
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeotto
+Staravia @ Persim Berry
+Ability: Intimidate
+Adamant Nature
 Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Wing Attack
+- Secret Power
+- Endeavor
+- Quick Attack
 
-Raticate
+Flaaffy @ Quick Claw
+Ability: Static
+Lax Nature
 Level: 16
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Thunder Wave
+- Shock Wave
+- Mega Punch
+- Growl
 
 Kadabra
+Ability: Synchronize
+Mild Nature
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Hidden Power
+- Confusion
+- Disable
+- Kinesis
 
-Ivysaur
+Ivysaur @ Sitrus Berry
+Ability: Overgrow
+Mild Nature
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Razor Leaf
+- Take Down
+- Leech Seed
+- Sleep Powder
 
 === TRAINER_RIVAL_SS_ANNE_CHARMANDER ===
 Name: TERRY
@@ -9251,23 +9326,47 @@ Pic: Rival Late
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeotto
+Staravia @ Persim Berry
+Ability: Intimidate
+Adamant Nature
 Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Wing Attack
+- Secret Power
+- Endeavor
+- Quick Attack
 
-Raticate
+Flaaffy @ Quick Claw
+Ability: Static
+Lax Nature
 Level: 16
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Thunder Wave
+- Shock Wave
+- Mega Punch
+- Growl
 
 Kadabra
+Ability: Synchronize
+Mild Nature
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Hidden Power
+- Confusion
+- Disable
+- Kinesis
 
-Charmeleon
+Charmeleon @ Sitrus Berry
+Ability: Blaze
 Level: 20
+Rash Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Dragon Rage
+- Ember
+- Metal Claw 
+- Smokescreen
 
 === TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE ===
 Name: TERRY
@@ -9276,27 +9375,67 @@ Pic: Rival Late
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeotto
+Staravia @ Persim Berry
+Ability: Intimidate
+Adamant Nature
 Level: 25
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Wing Attack
+- Quick Attack
+- Secret Power
+- Endeavor
 
-Growlithe
-Level: 23
+Flaaffy @ Quick Claw
+Ability: Static
+Lax Nature
+Level: 25
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Thunder Wave
+- Shock Wave
+- Mega Punch
+- Charge
 
-Exeggcute
-Level: 22
+Torkoal @ Sitrus Berry
+Ability: White Smoke
+Relaxed Nature
+Level: 25
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fire Spin
+- Rock Slide
+- Curse
+- Smog
+
+Carnivine @ Sitrus Berry
+Ability: Levitate
+Naughty Nature
+Level: 25
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bite
+- Vine Whip
+- Growth
+- Cut
 
 Kadabra
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ability: Synchronize
+Mild Nature
+Level: 25
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Psybeam
+- Hidden Power
+- Disable
+- Kinesis
 
-Wartortle
+Wartortle @ Sitrus Berry
+Ability: Torrent
+Mild Nature
 Level: 25
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Pulse
+- Rapid Spin
+- Bite
+- Withdraw
 
 === TRAINER_RIVAL_POKEMON_TOWER_BULBASAUR ===
 Name: TERRY
@@ -9305,27 +9444,67 @@ Pic: Rival Late
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeotto
+Staravia @ Persim Berry
+Ability: Intimidate
+Adamant Nature
 Level: 25
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Wing Attack
+- Quick Attack
+- Secret Power
+- Endeavor
 
-Gyarados
-Level: 23
+Flaaffy @ Quick Claw
+Ability: Static
+Lax Nature
+Level: 25
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Thunder Wave
+- Shock Wave
+- Mega Punch
+- Charge
 
-Growlithe
-Level: 22
+Torkoal @ Sitrus Berry
+Ability: White Smoke
+Relaxed Nature
+Level: 25
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Fire Spin
+- Rock Slide
+- Curse
+- Smog
+
+Pelipper @ Sitrus Berry
+Ability: Keen Eye
+Mild Nature
+Level: 25
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Pulse
+- Wing Attack
+- Supersonic
+- Payback
 
 Kadabra
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ability: Synchronize
+Mild Nature
+Level: 25
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Psybeam
+- Hidden Power
+- Disable
+- Kinesis
 
-Ivysaur
+Ivysaur @ Sitrus Berry
+Ability: Overgrow
+Mild Nature
 Level: 25
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Razor Leaf
+- Leech Seed
+- Sleep Powder
+- Take Down
 
 === TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER ===
 Name: TERRY
@@ -9334,27 +9513,67 @@ Pic: Rival Late
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeotto
+Staravia @ Persim Berry
+Ability: Intimidate
+Adamant Nature
 Level: 25
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Wing Attack
+- Quick Attack
+- Secret Power
+- Endeavor
 
-Exeggcute
-Level: 23
+Flaaffy @ Quick Claw
+Ability: Static
+Lax Nature
+Level: 25
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Thunder Wave
+- Shock Wave
+- Mega Punch
+- Charge
 
-Gyarados
-Level: 22
+Carnivine @ Sitrus Berry
+Ability: Levitate
+Naughty Nature
+Level: 25
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bite
+- Vine Whip
+- Growth
+- Cut
+
+Pelipper @ Sitrus Berry
+Ability: Keen Eye
+Mild Nature
+Level: 25
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Pulse
+- Wing Attack
+- Supersonic
+- Payback
 
 Kadabra
-Level: 20
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ability: Synchronize
+Mild Nature
+Level: 25
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Psybeam
+- Hidden Power
+- Disable
+- Kinesis
 
-Charmeleon
+Charmeleon @ Sitrus Berry
+Ability: Blaze
+Rash Nature
 Level: 25
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Dragon Rage
+- Metal Claw
+- Ember
+- Rock Slide
 
 === TRAINER_RIVAL_SILPH_SQUIRTLE ===
 Name: TERRY
@@ -9363,7 +9582,7 @@ Pic: Rival Late
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
 Pidgeot
 Level: 37
@@ -9392,7 +9611,7 @@ Pic: Rival Late
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
 Pidgeot
 Level: 37
@@ -9421,7 +9640,7 @@ Pic: Rival Late
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
 Pidgeot
 Level: 37
@@ -9450,7 +9669,7 @@ Pic: Rival Late
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
 Pidgeot
 Level: 47
@@ -9507,7 +9726,7 @@ Pic: Rival Late
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
 Pidgeot
 Level: 47
@@ -9564,7 +9783,7 @@ Pic: Rival Late
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
 Pidgeot
 Level: 47
