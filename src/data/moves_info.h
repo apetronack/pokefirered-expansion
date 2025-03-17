@@ -625,7 +625,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_DYNAMAX] =
             "tail, vine,\netc."),
         .effect = EFFECT_HIT,
         .power = 80,
-        .type = TYPE_NORMAL,
+        .type = TYPE_DRAGON,
         .accuracy = 100,
         .pp = 20,
         .target = MOVE_TARGET_SELECTED,
