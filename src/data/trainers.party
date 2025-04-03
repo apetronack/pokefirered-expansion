@@ -171,7 +171,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Sleep Powder
 
-Dugtrio @ Focus Sash
+Sandslash @ Focus Sash
 Ability: Arena Trap
 Jolly Nature
 Level: 63
@@ -220,7 +220,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -233,7 +233,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -246,7 +246,7 @@ Music: Interviewer
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -285,7 +285,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Ekans
+Gulpin
 Level: 5
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -298,7 +298,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Ekans
+Gulpin
 Level: 5
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -311,7 +311,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -324,7 +324,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -337,7 +337,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -350,7 +350,7 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -363,7 +363,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -376,7 +376,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -389,7 +389,7 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -402,7 +402,7 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -415,7 +415,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -428,7 +428,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -441,7 +441,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -454,7 +454,7 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -467,7 +467,7 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -480,7 +480,7 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -493,7 +493,7 @@ Music: Elite Four
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -506,7 +506,7 @@ Music: Elite Four
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -519,7 +519,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -532,7 +532,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -545,7 +545,7 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -558,7 +558,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -571,7 +571,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -584,7 +584,7 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -597,7 +597,7 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -610,7 +610,7 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -623,7 +623,7 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -636,7 +636,7 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -649,7 +649,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -662,7 +662,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -675,7 +675,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -688,7 +688,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -701,7 +701,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -714,7 +714,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -727,7 +727,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -740,7 +740,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -753,7 +753,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -766,7 +766,7 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -779,7 +779,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -792,7 +792,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -805,7 +805,7 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -818,7 +818,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -831,7 +831,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -844,7 +844,7 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -857,7 +857,7 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -870,7 +870,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -883,7 +883,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -896,7 +896,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -909,7 +909,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -922,7 +922,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -935,7 +935,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -948,7 +948,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -961,7 +961,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -974,7 +974,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -987,7 +987,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1000,7 +1000,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1013,7 +1013,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1026,7 +1026,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1039,7 +1039,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Ekans
+Gulpin
 Level: 5
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -1052,7 +1052,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Ekans
+Gulpin
 Level: 5
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -1065,7 +1065,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1078,7 +1078,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1091,7 +1091,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1104,7 +1104,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1117,7 +1117,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1130,7 +1130,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1143,11 +1143,11 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1160,7 +1160,7 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1173,7 +1173,7 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1186,7 +1186,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1199,7 +1199,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1212,7 +1212,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1225,7 +1225,7 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1238,7 +1238,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1251,7 +1251,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1264,7 +1264,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1277,7 +1277,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1290,7 +1290,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1303,7 +1303,7 @@ Music: Elite Four
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1316,7 +1316,7 @@ Music: Elite Four
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1354,7 +1354,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Spearow
+Taillow
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1400,7 +1400,7 @@ Sandshrew
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Ekans
+Gulpin
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1505,7 +1505,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Ekans
+Gulpin
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1517,7 +1517,7 @@ Slakoth
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Krabby
+Buizel
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1962,7 +1962,7 @@ Music: Female
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Jigglypuff
+Clefairy
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2008,7 +2008,7 @@ Music: Female
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Oddish
+Bellsprout
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2083,11 +2083,11 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Spearow
+Taillow
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Oddish
+Bellsprout
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2125,7 +2125,7 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Oddish
+Bellsprout
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2217,15 +2217,15 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Meowth
+Zigzagoon
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Meowth
+Zigzagoon
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Meowth
+Zigzagoon
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2301,11 +2301,11 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Oddish
+Bellsprout
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Gloom
+Weepinbell
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2431,7 +2431,7 @@ Wailmer
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seel
+Spheal
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2452,7 +2452,7 @@ Machop
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Hitmonchan
+Hariyama
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2626,7 +2626,7 @@ Taillow
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Raticate
+Furret
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2647,7 +2647,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2711,7 +2711,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Acid
 - Supersonic
 
-Goldeen
+Corphish
 Ability: Swift Swim
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
@@ -2822,7 +2822,7 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Oddish
+Bellsprout
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2830,7 +2830,7 @@ Bellsprout
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Oddish
+Bellsprout
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2847,7 +2847,7 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Meowth
+Zigzagoon
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2894,7 +2894,7 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Jigglypuff
+Clefairy
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2902,7 +2902,7 @@ Pidgey
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Meowth
+Zigzagoon
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2915,7 +2915,7 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Oddish
+Bellsprout
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2982,7 +2982,7 @@ Rhyhorn
 Level: 29
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Lickitung
+Kangaskhan
 Level: 29
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -3071,7 +3071,7 @@ Lapras
 Level: 40
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Lickitung
+Kangaskhan
 Level: 40
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -3126,7 +3126,7 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Grimer
+Koffing
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3192,15 +3192,15 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Grimer
+Koffing
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Muk
+Weezing
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Grimer
+Koffing
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3314,7 +3314,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Ponyta
+Growlithe
 Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3339,7 +3339,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Rapidash
+Arcanine
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3402,7 +3402,7 @@ Geodude
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Krabby
+Buizel
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3728,7 +3728,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smog
 - Tackle
 
-Grimer
+Koffing
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
@@ -3777,7 +3777,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smog
 - Tackle
 
-Grimer
+Koffing
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Minimize
@@ -3802,7 +3802,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smog
 - Tackle
 
-Grimer
+Koffing
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
@@ -3827,7 +3827,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Grimer
+Koffing
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
@@ -3852,7 +3852,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3911,7 +3911,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Muk
+Weezing
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3957,7 +3957,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smog
 - Tackle
 
-Muk
+Weezing
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
@@ -4039,7 +4039,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smog
 - Tackle
 
-Grimer
+Koffing
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
@@ -4064,7 +4064,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Grimer
+Koffing
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
@@ -4072,7 +4072,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sludge
 - Disable
 
-Grimer
+Koffing
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
@@ -4105,7 +4105,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smog
 - Tackle
 
-Muk
+Weezing
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
@@ -4160,7 +4160,7 @@ Charmander
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Ponyta
+Growlithe
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4194,7 +4194,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Ponyta
+Growlithe
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4275,7 +4275,7 @@ Growlithe
 Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Ponyta
+Growlithe
 Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4337,7 +4337,7 @@ Mareep
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Jigglypuff
+Clefairy
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4375,7 +4375,7 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Goldeen
+Corphish
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4417,7 +4417,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
+Corphish
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4425,7 +4425,7 @@ Poliwag
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Goldeen
+Corphish
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4442,7 +4442,7 @@ Tentacool
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Goldeen
+Corphish
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4455,7 +4455,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
+Corphish
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4476,7 +4476,7 @@ Shellder
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Goldeen
+Corphish
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4493,19 +4493,19 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Seaking
+Crawdaunt
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Goldeen
+Corphish
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seaking
+Crawdaunt
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seaking
+Crawdaunt
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4535,27 +4535,27 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
+Feebas
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Magikarp
+Feebas
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Magikarp
+Feebas
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Magikarp
+Feebas
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Magikarp
+Feebas
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Magikarp
+Feebas
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4568,11 +4568,11 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Seaking
+Crawdaunt
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Goldeen
+Corphish
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4585,11 +4585,11 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
+Feebas
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Magikarp
+Feebas
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4664,7 +4664,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
+Corphish
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4714,7 +4714,7 @@ Tentacool
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Goldeen
+Corphish
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4727,7 +4727,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
+Corphish
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4735,7 +4735,7 @@ Shellder
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seaking
+Crawdaunt
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5195,7 +5195,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5225,7 +5225,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Oddish
+Bellsprout
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5233,7 +5233,7 @@ Bellsprout
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Oddish
+Bellsprout
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5305,7 +5305,7 @@ Clefairy
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Meowth
+Zigzagoon
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5318,7 +5318,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Seaking
+Crawdaunt
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5356,7 +5356,7 @@ Poliwag
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seaking
+Crawdaunt
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5373,7 +5373,7 @@ Pidgeotto
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wigglytuff
+Clefable
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5428,15 +5428,15 @@ Poliwag
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Goldeen
+Corphish
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seaking
+Crawdaunt
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Goldeen
+Corphish
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5453,11 +5453,11 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
+Corphish
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seaking
+Crawdaunt
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5802,7 +5802,7 @@ Sandslash
 Level: 34
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Arbok
+Swalot
 Level: 34
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -5815,7 +5815,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Arbok
+Swalot
 Level: 33
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -5823,7 +5823,7 @@ Sandslash
 Level: 33
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Arbok
+Swalot
 Level: 33
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -5849,11 +5849,11 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Arbok
+Swalot
 Level: 39
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Tauros
+Mightyena
 Level: 39
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -5866,7 +5866,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Persian
+Linoone
 Level: 44
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -5891,11 +5891,11 @@ Primeape
 Level: 42
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Arbok
+Swalot
 Level: 42
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Tauros
+Mightyena
 Level: 42
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -5925,7 +5925,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Spearow
+Taillow
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5937,11 +5937,11 @@ Pidgey
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Spearow
+Taillow
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Spearow
+Taillow
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5962,11 +5962,11 @@ Pidgeotto
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Spearow
+Taillow
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Fearow
+Swellow
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5979,7 +5979,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Farfetchd
+Noctowl
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5992,11 +5992,11 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Spearow
+Taillow
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Fearow
+Swellow
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6013,7 +6013,7 @@ Pidgeotto
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Farfetchd
+Noctowl
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6055,11 +6055,11 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Spearow
+Taillow
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Fearow
+Swellow
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6085,19 +6085,19 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Spearow
+Taillow
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Spearow
+Taillow
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Fearow
+Swellow
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Spearow
+Taillow
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6110,11 +6110,11 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Fearow
+Swellow
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Fearow
+Swellow
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6156,11 +6156,11 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Farfetchd
+Noctowl
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Fearow
+Swellow
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6198,7 +6198,7 @@ Pidgey
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Spearow
+Taillow
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6206,7 +6206,7 @@ Pidgey
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Fearow
+Swellow
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6223,7 +6223,7 @@ Pidgeotto
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Fearow
+Swellow
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6236,7 +6236,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Spearow
+Taillow
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6244,7 +6244,7 @@ Doduo
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Fearow
+Swellow
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6257,11 +6257,11 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Hitmonlee @ Black Belt
+Medicham @ Black Belt
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Hitmonchan @ Black Belt
+Hariyama @ Black Belt
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -6693,7 +6693,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Grimer
+Koffing
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
@@ -6887,7 +6887,7 @@ Electrode
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Muk
+Weezing
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6900,7 +6900,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Grimer
+Koffing
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7016,14 +7016,14 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Feint Attack
 - Aerial Ace
 
-Dugtrio 
-Ability: Arena Trap
+Sandslash 
+Ability: Sand Veil
 Jolly Nature
 Level: 28
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Magnitude
-- Rock Tomb
-- Body Slam
+- Fury Cutter
+- Rock Slide
+- Crush Claw
 - Swords Dance
 
 Kangaskhan @ Muscle Band
@@ -7217,7 +7217,7 @@ Duskull
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Ekans
+Gulpin
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7272,7 +7272,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7289,7 +7289,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Raticate
+Sneasel
 Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7323,11 +7323,11 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Raticate
+Murkrow
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Raticate
+Mawile
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7340,7 +7340,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Grimer
+Koffing
 Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Minimize
@@ -7396,7 +7396,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Grimer
+Koffing
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Minimize
@@ -7436,29 +7436,30 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Poison Gas
 
-Grimer
+Onix
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sludge
-- Disable
+- Rock Throw
+- Screech
 - Harden
-- Pound
+- Rage
 
-Zubat
+Houndour
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
-- Astonish
-- Supersonic
-- Leech Life
+- Smog
+- Ember
+- Howl
 
-Raticate
+Elekid
+Ability: Static
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Hyper Fang
-- Quick Attack
-- Tail Whip
-- Tackle
+- Swift
+- Low Kick
+- Thundershock
+- Leer
 
 === TRAINER_TEAM_ROCKET_GRUNT_14 ===
 Name: GRUNT
@@ -7511,7 +7512,7 @@ Sandshrew
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Ekans
+Gulpin
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7528,7 +7529,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7536,7 +7537,7 @@ Sandshrew
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Arbok
+Swalot
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7667,19 +7668,19 @@ Golbat
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zubat
+Koffing
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zubat
+Luxio
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Raticate
+Loudred
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zubat
+Growlithe
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7692,7 +7693,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Raticate
+Drifloon
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7700,7 +7701,7 @@ Hypno
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Raticate
+Magcargo
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7730,7 +7731,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7751,7 +7752,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Arbok
+Swalot
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7815,21 +7816,23 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Raticate
+Noctowl
+Ability: Insomnia
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Scary Face
-- Hyper Fang
-- Quick Attack
-- Tail Whip
+- Confusion
+- Hypnosis
+- Reflect
+- Peck
 
-Arbok
+Misdreavus
+Ability: Levitate
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Glare
-- Bite
-- Poison Sting
-- Leer
+- Mean Look
+- Psybeam
+- Confuse Ray
+- Shock Wave
 
 Koffing
 Level: 26
@@ -7940,7 +7943,7 @@ Drowzee
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Grimer
+Koffing
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -8142,7 +8145,7 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Kingler
+Floatzel
 Level: 41
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Guillotine
@@ -8208,7 +8211,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Supersonic
 - Leer
 
-Kingler
+Floatzel
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Guillotine
@@ -8242,45 +8245,50 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Raticate
+Staraptor
+Ability: Intimdate
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Super Fang
+- Close Combat
+- Aerial Ace
+- Feather Dance
 - Pursuit
-- Scary Face
-- Quick Attack
 
-Ivysaur
+Ludicolo
+Ability: Swift Swim
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Razor Leaf
-- Sleep Powder
-- Sweet Scent
-- Synthesis
+- Rain Dance
+- Giga Drain
+- Surf
+- Ice Beam
 
-Wartortle
+Gorebyss
+Ability: Swift Swim
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Water Gun
-- Bite
-- Rapid Spin
-- Tail Whip
+- Psychic
+- Brine
+- Agility
+- Shadow Ball
 
-Charmeleon
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flamethrower
-- Slash
-- Smokescreen
-- Scary Face
-
-Charizard
+Ninetales
+Ability: Flash Fire
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Flamethrower
-- Wing Attack
-- Smokescreen
-- Scary Face
+- Confuse Ray
+- Energy Ball
+- Extrasensory
+
+Gallade
+Ability: Sharpness
+Level: 42
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Leaf Blade
+- Psycho Cut
+- Night Slash
+- Swords Dance
 
 === TRAINER_COOLTRAINER_GILBERT ===
 Name: GILBERT
@@ -8300,7 +8308,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Whirlwind
 - Quick Attack
 
-Fearow
+Swellow
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Drill Peck
@@ -8308,7 +8316,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Pursuit
 - Leer
 
-Persian
+Linoone
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Pay Day
@@ -8316,7 +8324,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Screech
 - Bite
 
-Lickitung
+Kangaskhan
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Slam
@@ -8324,7 +8332,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Wrap
 - Supersonic
 
-Tauros
+Mightyena
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Horn Attack
@@ -8358,15 +8366,16 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Double Kick
 - Leer
 
-Raticate
+Quagsire
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Super Fang
-- Pursuit
-- Scary Face
-- Quick Attack
+- Earthquake
+- Surf
+- Yawn
+- Amnesia
 
 Sandslash
+Ability: Water Absorb
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Fury Swipes
@@ -8392,7 +8401,7 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Seel
+Spheal
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Take Down
@@ -8408,7 +8417,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Throw
 - Mud Sport
 
-Kingler
+Floatzel
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Guillotine
@@ -8550,7 +8559,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Powder
 - Growth
 
-Oddish
+Bellsprout
 Level: 22
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Powder
@@ -8566,7 +8575,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Powder
 - Growth
 
-Gloom
+Weepinbell
 Level: 22
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Absorb
@@ -8650,7 +8659,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Double Slap
 - Encore
 
-Jigglypuff
+Clefairy
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sing
@@ -8658,7 +8667,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rollout
 - Disable
 
-Persian
+Linoone
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Pay Day
@@ -8666,7 +8675,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bite
 - Screech
 
-Dewgong
+Sealeo
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sheer Cold
@@ -8674,7 +8683,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rest
 - Aurora Beam
 
-Chansey
+Miltank
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sing
@@ -8743,7 +8752,7 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Persian
+Linoone
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Fury Swipes
@@ -8751,7 +8760,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Faint Attack
 - Pay Day
 
-Ponyta
+Growlithe
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Agility
@@ -8759,7 +8768,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Fire Spin
 - Stomp
 
-Rapidash
+Arcanine
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Fury Attack
@@ -8801,7 +8810,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Mega Drain
 - Ingrain
 
-Gloom
+Weepinbell
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Acid
@@ -8809,7 +8818,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sleep Powder
 - Stun Spore
 
-Vileplume
+Victreebel
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Mega Drain
@@ -8893,7 +8902,7 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Persian
+Linoone
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Fury Swipes
@@ -8909,7 +8918,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Confuse Ray
 - Grudge
 
-Rapidash
+Arcanine
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Fury Attack
@@ -8984,7 +8993,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Swords Dance
 - Metal Claw
 
-Jynx @ NevermeltIce
+Glalie @ NevermeltIce
 Ability: Oblivious
 Timid Nature
 Level: 54
@@ -9045,7 +9054,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psycho Cut
 - Night Slash
 
-SPECIES_TAUROS_PALDEA_AQUA @ Choice Band
+SPECIES_Mightyena_PALDEA_AQUA @ Choice Band
 Ability: Intimidate
 Adamant Nature
 Level: 55
@@ -9164,7 +9173,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Curse
 - Toxic
 
-Gyarados @ Soft Sand
+Milotic @ Soft Sand
 Ability: Intimidate
 Adamant Nature
 Level: 59
@@ -9727,7 +9736,7 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Persian
+Linoone
 Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9744,7 +9753,7 @@ Growlithe
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Ponyta
+Growlithe
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10144,7 +10153,7 @@ Pidgeot
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Gyarados
+Milotic
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -10177,7 +10186,7 @@ Exeggcute
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Gyarados
+Milotic
 Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -10271,7 +10280,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Rock Blast
 - Fury Attack
 
-Gyarados
+Milotic
 Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Hydro Pump
@@ -10336,7 +10345,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Poison Powder
 - Stun Spore
 
-Gyarados
+Milotic
 Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Hydro Pump
@@ -10472,7 +10481,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stone Edge
 - Thunder
 
-Gyarados @ Wacan Berry
+Milotic @ Wacan Berry
 Ability: Intimidate
 Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -10550,7 +10559,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Energy Ball
 - Double Team
 
-Gyarados @ Wacan Berry
+Milotic @ Wacan Berry
 Ability: Intimidate
 Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -10938,7 +10947,7 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
+Corphish
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11009,7 +11018,7 @@ Pidgey
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Meowth
+Zigzagoon
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11067,7 +11076,7 @@ Hoothoot
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Ekans
+Gulpin
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11088,11 +11097,11 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
+Corphish
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seaking
+Crawdaunt
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11113,7 +11122,7 @@ Horsea
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seel
+Spheal
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11126,11 +11135,11 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Meowth
+Zigzagoon
 Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Oddish
+Bellsprout
 Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11210,7 +11219,7 @@ Bellsprout
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Oddish
+Bellsprout
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11227,15 +11236,15 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Gloom
+Weepinbell
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Oddish
+Bellsprout
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Oddish
+Bellsprout
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11307,7 +11316,7 @@ Roselia
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Ponyta
+Growlithe
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11332,7 +11341,7 @@ Clefairy
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Jigglypuff
+Clefairy
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11404,11 +11413,11 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Hitmonchan @ Black Belt
+Hariyama @ Black Belt
 Level: 29
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Hitmonlee @ Black Belt
+Medicham @ Black Belt
 Level: 29
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -11421,7 +11430,7 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move
 
-Rapidash
+Arcanine
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11438,11 +11447,11 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-Goldeen
+Corphish
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seaking
+Crawdaunt
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11472,7 +11481,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11485,7 +11494,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11498,7 +11507,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11511,7 +11520,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11524,7 +11533,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11537,7 +11546,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11550,11 +11559,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Raticate
+Magmar
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Ekans
+Breloom
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -11567,11 +11576,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Raticate
+Wailord
 Level: 48
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-Arbok
+Heracross
 Level: 48
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
@@ -11584,7 +11593,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 20
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
@@ -11635,15 +11644,15 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Raticate
+Linoone
 Level: 19
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
-Ekans
+Vigoroth
 Level: 19
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
-Zubat
+Tropius
 Level: 19
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
@@ -11656,15 +11665,15 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Raticate
+Lairon
 Level: 27
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Ekans
+Misdreavus
 Level: 27
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Golbat
+Primeape
 Level: 27
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -11677,15 +11686,15 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Raticate
+Gligar
 Level: 52
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-Arbok
+Mawile
 Level: 52
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-Golbat
+Murkrow
 Level: 52
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
@@ -11698,7 +11707,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Arbok
+Swalot
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -11749,7 +11758,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Arbok
+Swalot
 Level: 48
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -11783,7 +11792,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11796,7 +11805,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11809,7 +11818,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11822,7 +11831,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11835,7 +11844,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11984,7 +11993,7 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Gloom
+Weepinbell
 Level: 51
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Petal Dance
@@ -11992,7 +12001,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sweet Scent
 - Poison Powder
 
-Vileplume
+Victreebel
 Level: 51
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Petal Dance
@@ -12090,7 +12099,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sludge
 - Tackle
 
-Grimer
+Koffing
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Acid Armor
@@ -12124,7 +12133,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Grimer
+Koffing
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12137,7 +12146,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12200,7 +12209,7 @@ Clefairy
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Jigglypuff
+Clefairy
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -12213,15 +12222,15 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Sneasel
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Ekans
+Ariados
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Raticate
+Ninjask
 Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12250,7 +12259,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Poison Gas
 
-Grimer
+Koffing
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Minimize
@@ -12267,11 +12276,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Grimer
+Koffing
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Grimer
+Koffing
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12347,7 +12356,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Muk
+Manectric
 Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12355,7 +12364,7 @@ Golbat
 Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Raticate
+Grumpig
 Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12407,7 +12416,7 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Muk
+Weezing
 Level: 52
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sludge Bomb
@@ -12415,7 +12424,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Minimize
 - Rock Tomb
 
-Arbok
+Swalot
 Level: 53
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sludge Bomb
@@ -12423,7 +12432,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Earthquake
 - Iron Tail
 
-Vileplume
+Victreebel
 Level: 54
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sludge Bomb
@@ -12523,15 +12532,15 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Seel
+Spheal
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seel
+Spheal
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Dewgong
+Sealeo
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12616,23 +12625,23 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
+Corphish
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Goldeen
+Corphish
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seaking
+Crawdaunt
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seaking
+Crawdaunt
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seaking
+Crawdaunt
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12645,11 +12654,11 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Hitmonlee @ Black Belt
+Medicham @ Black Belt
 Level: 38
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Hitmonchan @ Black Belt
+Hariyama @ Black Belt
 Level: 38
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -12700,7 +12709,7 @@ Nidorino
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Raticate
+Torkoal
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12717,11 +12726,11 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Meowth
+Zigzagoon
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Meowth
+Zigzagoon
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12788,11 +12797,11 @@ Staryu
 Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Krabby
+Buizel
 Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Krabby
+Buizel
 Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12822,7 +12831,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Kingler
+Floatzel
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12891,11 +12900,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Raticate
+Camerupt
 Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Pidgeotto
+Lopunny
 Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12975,15 +12984,15 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Ekans
+Gulpin
 Level: 48
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Gloom
+Weepinbell
 Level: 48
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Gloom
+Weepinbell
 Level: 48
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -13013,11 +13022,11 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Spearow
+Taillow
 Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Fearow
+Swellow
 Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13064,7 +13073,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Kingler
+Floatzel
 Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13128,7 +13137,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Gyarados
+Milotic
 Level: 50
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13302,11 +13311,11 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Bellossom
+Roserade
 Level: 50
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Bellossom
+Roserade
 Level: 50
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13381,7 +13390,7 @@ Primeape @ Black Belt
 Level: 48
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Hitmontop @ Black Belt
+Heracross @ Black Belt
 Level: 48
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -13398,11 +13407,11 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Hitmonchan @ Black Belt
+Hariyama @ Black Belt
 Level: 38
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Hitmonchan @ Black Belt
+Hariyama @ Black Belt
 Level: 38
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -13419,7 +13428,7 @@ Sandslash
 Level: 48
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Lickitung
+Kangaskhan
 Level: 48
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -13440,7 +13449,7 @@ Rhyhorn
 Level: 33
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
-Lickitung
+Kangaskhan
 Level: 33
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
@@ -13518,11 +13527,11 @@ Bellsprout
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Gloom
+Weepinbell
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Gloom
+Weepinbell
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -13536,7 +13545,7 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Chansey
+Miltank
 Level: 52
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Egg Bomb
@@ -13604,7 +13613,7 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Persian
+Linoone
 Level: 47
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Slash
@@ -13612,7 +13621,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Faint Attack
 - Bite
 
-Dewgong
+Sealeo
 Level: 47
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Ice Beam
@@ -13628,7 +13637,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Will O Wisp
 - Grudge
 
-Rapidash
+Arcanine
 Level: 48
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bounce
@@ -13662,7 +13671,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Growl
 - Defense Curl
 
-Tauros
+Mightyena
 Level: 52
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thrash
@@ -13760,7 +13769,7 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Persian @ Nugget
+Linoone @ Nugget
 Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pay Day
@@ -13768,7 +13777,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Taunt
 - Torment
 
-Persian @ Nugget
+Linoone @ Nugget
 Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pay Day
@@ -13827,7 +13836,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Chansey
+Miltank
 Level: 50
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -13937,11 +13946,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Farfetchd
+Noctowl
 Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Farfetchd
+Noctowl
 Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13992,7 +14001,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Pinsir
+Scyther
 Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -14175,11 +14184,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Fearow
+Hypno
 Level: 54
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-Raticate
+Toxicroak
 Level: 54
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
@@ -14276,15 +14285,15 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Raticate
+Girafarig
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Raticate
+Manectric
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Raticate
+Parasect
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -14386,7 +14395,7 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Meowth
+Zigzagoon
 Level: 25
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -14399,7 +14408,7 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Persian
+Linoone
 Level: 30
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -14412,7 +14421,7 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Persian
+Linoone
 Level: 55
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
@@ -14446,7 +14455,7 @@ Rhydon
 Level: 54
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-Lickitung
+Kangaskhan
 Level: 54
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -14514,7 +14523,7 @@ Pidgeotto
 Level: 22
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Raticate
+Shuckle
 Level: 22
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -14522,7 +14531,7 @@ Nidoran M
 Level: 23
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Meowth
+Zigzagoon
 Level: 21
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -14543,7 +14552,7 @@ Pidgeot
 Level: 46
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Raticate
+Heracross
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -14551,7 +14560,7 @@ Nidorino
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Persian
+Linoone
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -14568,15 +14577,15 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Muk
+Weezing
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Muk
+Weezing
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Muk
+Weezing
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -14606,11 +14615,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Muk
+Weezing
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Muk
+Weezing
 Level: 30
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -14631,7 +14640,7 @@ Cloyster
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Seaking
+Crawdaunt
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -14669,7 +14678,7 @@ Clefairy
 Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Persian
+Linoone
 Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -14690,11 +14699,11 @@ Pidgeotto
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Fearow
+Swellow
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Fearow
+Swellow
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -14715,11 +14724,11 @@ Pidgeot
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Fearow
+Swellow
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Fearow
+Swellow
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -14736,11 +14745,11 @@ Pidgeotto
 Level: 27
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Meowth
+Zigzagoon
 Level: 27
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Raticate
+Scyther
 Level: 27
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -14748,7 +14757,7 @@ Pikachu
 Level: 27
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Meowth
+Nidorina
 Level: 27
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -14765,11 +14774,11 @@ Pidgeotto
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Persian
+Linoone
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Raticate
+Scyther
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -14777,7 +14786,7 @@ Pikachu
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Persian
+Nidoqueen
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -14794,11 +14803,11 @@ Pidgeot
 Level: 52
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-Persian
+Linoone
 Level: 52
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-Raticate
+Scizor
 Level: 52
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
@@ -14806,7 +14815,7 @@ Raichu
 Level: 52
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-Persian
+Nidoqueen
 Level: 52
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
@@ -14827,7 +14836,7 @@ Koffing
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Muk
+Weezing
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -14844,11 +14853,11 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Fearow
+Swellow
 Level: 32
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Fearow
+Swellow
 Level: 32
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -14861,11 +14870,11 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Fearow
+Swellow
 Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Fearow
+Swellow
 Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -14878,7 +14887,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Fearow
+Swellow
 Level: 30
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -14886,7 +14895,7 @@ Doduo
 Level: 30
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Fearow
+Swellow
 Level: 30
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -14899,7 +14908,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Fearow
+Swellow
 Level: 48
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -14907,7 +14916,7 @@ Dodrio
 Level: 48
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Fearow
+Swellow
 Level: 48
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -14924,7 +14933,7 @@ Pidgeot
 Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Wigglytuff
+Clefable
 Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -15030,11 +15039,11 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Hitmonchan @ Black Belt
+Hariyama @ Black Belt
 Level: 33
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
-Hitmonlee @ Black Belt
+Medicham @ Black Belt
 Level: 33
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
@@ -15047,11 +15056,11 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Hitmonchan @ Black Belt
+Hariyama @ Black Belt
 Level: 51
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Hitmonlee @ Black Belt
+Medicham @ Black Belt
 Level: 51
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -15064,11 +15073,11 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Hitmonchan @ Black Belt
+Hariyama @ Black Belt
 Level: 56
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
-Hitmonlee @ Black Belt
+Medicham @ Black Belt
 Level: 56
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
@@ -15123,7 +15132,7 @@ Weezing
 Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Muk
+Weezing
 Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -15170,19 +15179,19 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Fearow
+Swellow
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Spearow
+Taillow
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Fearow
+Swellow
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
-Spearow
+Taillow
 Level: 28
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 
@@ -15195,19 +15204,19 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Fearow
+Swellow
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Fearow
+Swellow
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Fearow
+Swellow
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Fearow
+Swellow
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -15220,11 +15229,11 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Seaking
+Crawdaunt
 Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Seaking
+Crawdaunt
 Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -15262,11 +15271,11 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Seaking
+Crawdaunt
 Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Seaking
+Crawdaunt
 Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -15279,11 +15288,11 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Seaking
+Crawdaunt
 Level: 54
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-Seaking
+Crawdaunt
 Level: 54
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
@@ -15296,27 +15305,27 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
+Feebas
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Magikarp
+Feebas
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Magikarp
+Feebas
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Magikarp
+Feebas
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Magikarp
+Feebas
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Magikarp
+Feebas
 Level: 47
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -15423,11 +15432,11 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Hitmonlee @ Black Belt
+Medicham @ Black Belt
 Level: 50
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Hitmonchan @ Black Belt
+Hariyama @ Black Belt
 Level: 50
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -15440,11 +15449,11 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Hitmonlee @ Black Belt
+Medicham @ Black Belt
 Level: 55
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
-Hitmonchan @ Black Belt
+Hariyama @ Black Belt
 Level: 55
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
@@ -15614,7 +15623,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Raticate
+Golduck
 Level: 53
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
@@ -15703,11 +15712,11 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Fearow
+Swellow
 Level: 53
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-Fearow
+Swellow
 Level: 55
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
@@ -15783,7 +15792,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Gyarados
+Milotic
 Level: 55
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
@@ -15949,7 +15958,7 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Vileplume
+Victreebel
 Level: 55
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Petal Dance
@@ -15957,7 +15966,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Acid
 - Sleep Powder
 
-Vileplume
+Victreebel
 Level: 55
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Petal Dance
@@ -15978,7 +15987,7 @@ Primeape @ Black Belt
 Level: 54
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
-Hitmontop @ Black Belt
+Heracross @ Black Belt
 Level: 54
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
@@ -15999,7 +16008,7 @@ Sandslash
 Level: 52
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
-Lickitung
+Kangaskhan
 Level: 52
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
@@ -16051,7 +16060,7 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Chansey
+Miltank
 Level: 56
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Egg Bomb
@@ -16119,7 +16128,7 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Persian
+Linoone
 Level: 53
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Slash
@@ -16127,7 +16136,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Faint Attack
 - Bite
 
-Dewgong
+Sealeo
 Level: 53
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Ice Beam
@@ -16143,7 +16152,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Will O Wisp
 - Grudge
 
-Rapidash
+Arcanine
 Level: 54
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Bounce
@@ -16177,7 +16186,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Growl
 - Defense Curl
 
-Tauros
+Mightyena
 Level: 57
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Take Down
@@ -16295,7 +16304,7 @@ Poliwhirl
 Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
-Seaking
+Crawdaunt
 Level: 49
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
@@ -16310,7 +16319,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Purple
 
-Dewgong
+Sealeo
 Level: 64
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
@@ -16334,7 +16343,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Edge
 - Rock Slide
 
-Jynx
+Glalie
 Level: 66
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
@@ -16369,7 +16378,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Rock Tomb
 
-Hitmonchan
+Hariyama
 Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sky Uppercut
@@ -16377,7 +16386,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 - Counter
 
-Hitmonlee
+Medicham
 Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mega Kick
@@ -16436,7 +16445,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunderbolt
 - Attract
 
-Arbok
+Swalot
 Level: 68
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sludge Bomb
@@ -16463,7 +16472,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Blue
 
-Gyarados
+Milotic
 Level: 68
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hyper Beam
@@ -16597,7 +16606,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunderbolt
 - Aerial Ace
 
-Gyarados
+Milotic
 Level: 73
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hydro Pump
@@ -16664,7 +16673,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
 - Light Screen
 
-Gyarados
+Milotic
 Level: 73
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hydro Pump
@@ -16693,6 +16702,6 @@ Weezing
 Level: 39
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Muk
+Weezing
 Level: 39
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
