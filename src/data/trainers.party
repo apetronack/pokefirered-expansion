@@ -1492,7 +1492,7 @@ Porygon
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Sudowoodo
+Shieldon
 Level:22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1743,7 +1743,7 @@ Metapod
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Cascoon
+Metapod
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1827,7 +1827,7 @@ Venonat
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Beautifly
+Butterfree
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1844,7 +1844,7 @@ Butterfree
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Dustox
+Spinarak
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2016,7 +2016,7 @@ Bellsprout
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Hoppip
+Treecko
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2402,7 +2402,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Remoraid
+Staryu
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2584,7 +2584,7 @@ Mankey
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Snubbull
+Whismur
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4379,7 +4379,7 @@ Corphish
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Remoraid
+Staryu
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5115,7 +5115,7 @@ Snover
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Snubbull
+Loudred
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9122,14 +9122,14 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Mean Look
 - Curse
 
-Cursola @ Stone Plate
-Ability: Perish Body
-Quiet Nature
+Shedinja @ Focus Sash
+Ability: Wonder Guard
+Rash Nature
 Level: 56
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Power Gem
-- Confuse Ray
-- Surf
+- Shadow Sneak
+- Bug Buzz
+- Aerial Ace
 - Shadow Ball
 
 SPECIES_MAROWAK_ALOLA @ Thick Club
@@ -9251,15 +9251,15 @@ IVs: 0 HP / 3 Atk / 0 Def / 3 SpA / 0 SpD / 3 Spe
 - Howl
 - Rock Tomb
 
-Corsola
-Ability: Natural Cure
+Omanyte
+Ability: Shell Armor
 Hasty Nature
 Level: 13
 IVs: 3 HP / 0 Atk / 0 Def / 3 SpA / 3 SpD / 0 Spe
-- Bubble
-- Light Screen
+- Water Gun
+- Spikes
 - Rock Tomb
-- Recover
+- Withdraw
 
 Shuckle @ Berry Juice
 Ability: Sturdy
@@ -9654,7 +9654,7 @@ Growlithe
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Qwilfish
+Tentacool
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9675,11 +9675,11 @@ Music: Rich
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Aipom
+Swablu
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Mothim
+Butterfree
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12057,11 +12057,11 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Hoppip @ Stardust
+Torterra @ Stardust
 Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Skiploom @ Stardust
+Leafeon @ Stardust
 Level: 50
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12188,7 +12188,7 @@ Metapod
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Silcoon
+Metapod
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13056,11 +13056,11 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Qwilfish
+Tentacruel
 Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Qwilfish
+Huntail
 Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13231,7 +13231,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Sudowoodo
+Bastiodon
 Level: 50
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13432,7 +13432,7 @@ Kangaskhan
 Level: 48
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Ursaring
+Donphan
 Level: 49
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -13595,13 +13595,13 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Revenge
 - Seismic Toss
 
-Ursaring
+Flygon
 Level: 50
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Slash
-- Faint Attack
-- Snore
-- Rest
+- Dragon Claw
+- Crunch
+- Screech
+- Sand Tomb
 
 === TRAINER_COOLTRAINER_MICHELLE ===
 Name: MICHELLE
@@ -13963,19 +13963,19 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Hoppip
+Meganium
 Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Hoppip
+Exeggutor
 Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Skiploom
+Tropius
 Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Skiploom
+Breloom
 Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13988,7 +13988,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Snubbull
+Exploud
 Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -16012,7 +16012,7 @@ Kangaskhan
 Level: 52
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
-Ursaring
+Garchomp
 Level: 55
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
@@ -16110,13 +16110,13 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Revenge
 - Seismic Toss
 
-Ursaring
+Garchomp
 Level: 55
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Slash
-- Faint Attack
-- Snore
-- Rest
+- Dragon Rush
+- Crunch
+- Earthquake
+- Fire Fang
 
 === TRAINER_COOLTRAINER_MICHELLE_2 ===
 Name: MICHELLE
