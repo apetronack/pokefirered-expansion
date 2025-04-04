@@ -1484,7 +1484,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Absol
+Mightyena
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1664,7 +1664,7 @@ Nincada
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Surskit
+Pineco
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1693,7 +1693,7 @@ Spinarak
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Surskit
+Paras
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1718,7 +1718,7 @@ Metapod
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Surskit
+Caterpie
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1794,11 +1794,11 @@ Music: Male
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Volbeat
+Butterfree
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Illumise
+Nincada
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1819,7 +1819,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Surskit
+Nincada
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2162,7 +2162,7 @@ Cacnea
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Chimecho
+Hypno
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2179,7 +2179,7 @@ Sentret
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Kecleon
+Eevee
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2322,11 +2322,11 @@ Meditite
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Shellos
+Marshtomp
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Chatot
+Noctowl
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2343,7 +2343,7 @@ Gulpin
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Spinda
+Makuhita
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2465,40 +2465,40 @@ Music: Male
 Double Battle: Yes
 AI: AI_FLAG_SMART_TRAINER
 
-Minun
-Ability: Minus
+Pikachu
+Ability: Static
 Level: 21
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Thunder Wave
-- Charm
+- Slam
 - Shock Wave
 - Quick attack
 
-Plusle
-Ability: Plus
+Luxio
+Ability: Rivalry
 Level: 21
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Fake Tears
-- Quick Attack
-- Shock Wave
-- Encore
+- Leer
+- Charge
+- Bite
+- Spark
 
-Illumise
-Ability: Tinted Lens
+Magnemite
+Ability: Sturdy
 Level: 21
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Moonlight
-- Charm
+- Metal Sound
+- Supersonic
 - Shock Wave
-- Mega Kick
+- SonicBoom
 
-Volbeat
-Ability: Swarm
+Flaaffy
+Ability: Static
 Level: 21
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Tail Glow
+- Cotton Spore
 - Shock Wave
-- Confuse Ray
+- Growl
 - Mega Punch
 
 === TRAINER_CAMPER_LIAM ===
@@ -2537,14 +2537,14 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Harden
 - Rock Tomb
 
-Nosepass
-Ability: Sturdy
+Larvitar
+Ability: Guts
 Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Block
-- Harden
+- Bite
+- Screech
 - Rock Tomb
-- Tackle
+- Sandstorm
 
 === TRAINER_CAMPER_SHANE ===
 Name: SHANE
@@ -3130,7 +3130,7 @@ Koffing
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Pachirisu
+Manectric
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3381,7 +3381,7 @@ Onix
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Nosepass
+Cranidos
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3448,7 +3448,7 @@ Onix
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Nosepass
+Lileep
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4354,7 +4354,7 @@ Magnemite
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Minun
+Luxio
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4362,7 +4362,7 @@ Magneton
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Plusle
+Electrike
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4383,7 +4383,7 @@ Staryu
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Finneon
+Marill
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4400,11 +4400,11 @@ Tentacool
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Barboach
+Corphish
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Relicanth
+Poliwhirl
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4602,13 +4602,13 @@ Music: Swimmer
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Surskit
-Ability: Swift Swim
+Totodile
+Ability: Torrent
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Quick Attack
+- Scary Face
 - Water Pulse
-- Sweet Scent
+- Bite
 - Rain Dance
 
 Shellos
@@ -7066,15 +7066,15 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Poison Tail
 - Night Slash
 
-Whiscash @ Mystic Water
-Ability: Oblivious
+Swampert @ Mystic Water
+Ability: Torrent
 Sassy Nature
 Level: 40
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Amnesia
+- Brick Break
 - Earthquake
-- Muddy Water
-- Tickle
+- Waterfall
+- Blizzard
 
 Nidoqueen @ Sitrus Berry
 Ability: Poison Point
@@ -7116,7 +7116,7 @@ IVs: 31 HP / 31 Atk / 0 Def / 0 SpA / 31 SpD / 31 Spe
 - Aerial Ace
 - Earthquake
 
-Whiscash @ Rindo Berry
+Swampert @ Rindo Berry
 Ability: Oblivious
 Sassy Nature
 Level: 48
@@ -7124,7 +7124,7 @@ IVs: 0 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 0 Spe
 - Muddy Water
 - Ice Beam
 - Earthquake
-- Amnesia
+- Rock Climb
 
 Nidoking @ Choice Scarf
 Ability: Sheer Force
@@ -7255,7 +7255,7 @@ Drowzee
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Sableye
+Riolu
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9212,14 +9212,14 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Swords Dance
 - Brick Break
 
-Salamence @ Life Orb
-Ability: Intimidate
+Altaria @ Life Orb
+Ability: Natural Cure
 Level: 60
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Dragon Pulse
+- Dragon Dance
+- Dragon Claw
+- Sky Attack
 - Fire Blast
-- Thunder Fang
-- Roost
 
 === TRAINER_LEADER_BROCK ===
 Name: BROCK
@@ -9291,14 +9291,14 @@ Items: Full Heal / X Sp Atk
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Carvanha @ Damp Rock
-Ability: Rough Skin
+Kabuto @ Damp Rock
+Ability: Swift Swim
 Lonely Nature
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 7 Spe
-- Bite
+- Mud Shot
 - Rain Dance
-- Scary Face
+- Rock Tomb
 - Water Pulse
 
 Lombre
@@ -9441,15 +9441,15 @@ IVs: 0 HP / 0 Atk / 0 Def / 40 SpA / 15 SpD / 15 Spe
 - Toxic
 - Giga Drain
 
-Carnivine @ Wide Lens
+Tropius @ Wide Lens
 Level: 28
-Ability: Levitate
+Ability: Chlorophyll
 Adamant Nature
 IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
-- Feint Attack
-- Power Whip
-- Sleep Powder
-- Swords Dance
+- Stomp
+- Razor Leaf
+- Growth
+- Aerial Ace
 
 Cradily @ Sitrus Berry
 Ability: Storm Drain
@@ -9718,14 +9718,14 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Leer
 - Secret Power
 
-Pachirisu
+Chinchou
 Ability: Volt Absorb
 Level: 23
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Charm
-- Swift
-- Shock Wave
-- Cut
+- Take Down
+- Spark
+- Water Gun
+- Confuse Ray
 
 === TRAINER_GENTLEMAN_NORTON ===
 Name: NORTON
@@ -9943,15 +9943,15 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Curse
 - Smog
 
-Carnivine @ Sitrus Berry
-Ability: Levitate
-Naughty Nature
+Tropius @ Wide Lens
 Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bite
-- Vine Whip
+Ability: Chlorophyll
+Adamant Nature
+IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
+- Stomp
+- Razor Leaf
 - Growth
-- Cut
+- Aerial Ace
 
 Kadabra
 Ability: Synchronize
@@ -10071,15 +10071,15 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Mega Punch
 - Charge
 
-Carnivine @ Sitrus Berry
-Ability: Levitate
-Naughty Nature
+Tropius @ Wide Lens
 Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bite
-- Vine Whip
+Ability: Chlorophyll
+Adamant Nature
+IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
+- Stomp
+- Razor Leaf
 - Growth
-- Cut
+- Aerial Ace
 
 Pelipper @ Sitrus Berry
 Ability: Keen Eye
@@ -11324,7 +11324,7 @@ Buneary
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Luvdisc
+Seadra
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12180,7 +12180,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Combee
+Nincada
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -16249,7 +16249,7 @@ Butterfree
 Level: 51
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-Masquerain
+Kleavor
 Level: 54
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
