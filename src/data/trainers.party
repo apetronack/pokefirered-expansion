@@ -1375,11 +1375,11 @@ Shinx
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Togepi
+Whismur
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Whismur
+Sentret
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1685,7 +1685,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Caterpie
+Venonat
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1718,7 +1718,7 @@ Metapod
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Caterpie
+Venonat
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1743,7 +1743,7 @@ Metapod
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Metapod
+Paras
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2008,11 +2008,11 @@ Music: Female
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Bellsprout
+Turtwig
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Bellsprout
+Chikorita
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2020,7 +2020,7 @@ Treecko
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Paras
+Bulbasaur
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2033,7 +2033,7 @@ Music: Female
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Clefairy
+Jigglypuff
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3126,7 +3126,7 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
+Stunky
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3369,7 +3369,7 @@ Music: Hiker
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Geodude
+Shieldon
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6538,7 +6538,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia
 Ability: Intimidate
 Adamant Nature
-Level: 15
+Level: 16
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Wing Attack
 - Growl
@@ -6548,7 +6548,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Abra
 Ability: Synchronize
 Naughty Nature
-Level: 15
+Level: 16
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Teleport
 - Hidden Power
@@ -6556,7 +6556,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Flaaffy
 Ability: Static
 Lax Nature
-Level: 16
+Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Thunder Shock
@@ -6585,7 +6585,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia
 Ability: Intimidate
 Adamant Nature
-Level: 15
+Level: 16
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Wing Attack
 - Growl
@@ -6595,7 +6595,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Abra
 Ability: Synchronize
 Naughty Nature
-Level: 15
+Level: 16
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Teleport
 - Hidden Power
@@ -6603,7 +6603,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Flaaffy
 Ability: Static
 Lax Nature
-Level: 16
+Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Thunder Shock
@@ -6632,7 +6632,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia
 Ability: Intimidate
 Adamant Nature
-Level: 15
+Level: 16
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Wing Attack
 - Growl
@@ -6642,7 +6642,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Abra
 Ability: Synchronize
 Naughty Nature
-Level: 15
+Level: 16
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Teleport
 - Hidden Power
@@ -6650,7 +6650,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Flaaffy
 Ability: Static
 Lax Nature
-Level: 16
+Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Thunder Shock
@@ -7163,7 +7163,7 @@ Skorupi
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zubat
+Snorunt
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9247,7 +9247,7 @@ Lonely Nature
 Level: 13
 IVs: 0 HP / 3 Atk / 0 Def / 3 SpA / 0 SpD / 3 Spe
 - Bite
-- Ember
+- Flame Wheel
 - Howl
 - Rock Tomb
 
@@ -9261,15 +9261,15 @@ IVs: 3 HP / 0 Atk / 0 Def / 3 SpA / 3 SpD / 0 Spe
 - Rock Tomb
 - Withdraw
 
-Shuckle @ Berry Juice
-Ability: Sturdy
+Anorith @ Berry Juice
+Ability: Battle Armor
 Jolly Nature
-Level: 12
+Level: 13
 IVs: 3 HP / 0 Atk / 3 Def / 0 SpA / 3 SpD / 0 Spe
-- Wrap
-- Rest
-- Sandstorm
-- Safeguard
+- Water Gun
+- Cut
+- Harden
+- Rock Tomb
 
 Onix @ Liechi Berry
 Ability: Sturdy
@@ -12159,7 +12159,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Caterpie
+Venonat
 Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12188,7 +12188,7 @@ Metapod
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Metapod
+Paras
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
