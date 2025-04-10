@@ -10339,53 +10339,59 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeot
-Level: 47
+Staraptor @ Choice Band
+Ability: Intimidate
+Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Feather Dance
-- Wing Attack
-- Gust
-- Quick Attack
-
-Rhyhorn
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Brave Bird
+- Close Combat
+- Steel Wing
 - Take Down
-- Horn Drill
-- Rock Blast
-- Fury Attack
 
-Growlithe
-Level: 45
+Flygon @ Choice Scarf
+Ability: Levitate
+Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Flame Wheel
-- Take Down
-- Leer
-- Agility
+- Dragon Claw
+- Earthquake
+- Fire Blast
+- Rock Slide
 
-Exeggcute
-Level: 45
+Arcanine @ King's Rock
+Ability: Intimidate
+Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Solar Beam
-- Sleep Powder
-- Poison Powder
-- Stun Spore
+- Thunder Fang
+- Extreme Speed
+- Crunch
+- Flare Blitz
 
-Alakazam
-Level: 47
+Roserade @ Black Sludge
+Ability: Poison Point
+Level: 51
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Sludge Bomb
+- Giga Drain
+- Leech Seed
+- Toxic Spikes
+
+Alakazam @ Choice Specs
+Ability: Synchronize
+Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Psychic
-- Calm Mind
-- Future Sight
-- Disable
+- Shadow Ball
+- Energy Ball
+- Focus Blast
 
-Blastoise
+Blastoise @ Sitrus Berry
+Ability: Torrent
 Level: 53
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Gun
+- Surf
 - Rain Dance
-- Bite
-- Rapid Spin
+- Ice Beam
+- Flash Cannon
 
 === TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR ===
 Name: TERRY
@@ -10396,51 +10402,57 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeot
-Level: 47
+Staraptor @ Choice Band
+Ability: Intimidate
+Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Feather Dance
-- Wing Attack
-- Gust
-- Quick Attack
-
-Rhyhorn
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Brave Bird
+- Close Combat
+- Steel Wing
 - Take Down
-- Horn Drill
-- Rock Blast
-- Fury Attack
 
-Milotic
-Level: 45
+Flygon @ Choice Scarf
+Ability: Levitate
+Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Hydro Pump
-- Twister
-- Leer
-- Rain Dance
+- Dragon Claw
+- Earthquake
+- Fire Blast
+- Rock Slide
 
-Growlithe
-Level: 45
+Milotic @ Leftovers
+Ability: Marvel Scale
+Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Flame Wheel
-- Take Down
-- Leer
-- Agility
+- Aqua Ring
+- Toxic
+- Dive
+- Ice Beam
 
-Alakazam
-Level: 47
+Arcanine @ King's Rock
+Ability: Intimidate
+Level: 51
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Thunder Fang
+- Extreme Speed
+- Crunch
+- Flare Blitz
+
+Alakazam @ Choice Specs
+Ability: Synchronize
+Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Psychic
-- Calm Mind
-- Future Sight
-- Disable
+- Shadow Ball
+- Energy Ball
+- Focus Blast
 
-Venusaur
+Venusaur @ Sitrus Berry
+Ability: Overgrow
 Level: 53
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Razor Leaf
-- Sweet Scent
+- Petal Dance
+- Sludge Bomb
 - Growth
 - Synthesis
 
@@ -10453,53 +10465,59 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeot
-Level: 47
+Staraptor @ Choice Band
+Ability: Intimidate
+Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Feather Dance
-- Wing Attack
-- Gust
-- Quick Attack
-
-Rhyhorn
-Level: 45
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Brave Bird
+- Close Combat
+- Steel Wing
 - Take Down
-- Horn Drill
-- Rock Blast
-- Fury Attack
 
-Exeggcute
-Level: 45
+Flygon @ Choice Scarf
+Ability: Levitate
+Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Solar Beam
-- Sleep Powder
-- Poison Powder
-- Stun Spore
+- Dragon Claw
+- Earthquake
+- Fire Blast
+- Rock Slide
 
-Milotic
-Level: 45
+Roserade @ Black Sludge
+Ability: Poison Point
+Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Hydro Pump
-- Twister
-- Leer
-- Rain Dance
+- Sludge Bomb
+- Giga Drain
+- Leech Seed
+- Toxic Spikes
 
-Alakazam
-Level: 47
+Milotic @ Leftovers
+Ability: Marvel Scale
+Level: 51
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Aqua Ring
+- Toxic
+- Dive
+- Ice Beam
+
+Alakazam @ Choice Specs
+Ability: Synchronize
+Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Psychic
-- Calm Mind
-- Future Sight
-- Disable
+- Shadow Ball
+- Energy Ball
+- Focus Blast
 
-Charizard
+Charizard @ Sitrus Berry
+Ability: Blaze
 Level: 53
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Flamethrower
-- Wing Attack
-- Slash
-- Scary Face
+- Air Slash
+- Dragon Pulse
+- Shadow Claw
 
 === TRAINER_CHAMPION_FIRST_SQUIRTLE ===
 Name: TERRY
@@ -10613,14 +10631,14 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stone Edge
 - Thunder
 
-Milotic @ Wacan Berry
-Ability: Intimidate
+Milotic @ Leftovers
+Ability: Marvel Scale
 Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Waterfall
-- Earthquake
-- Thunder Wave
-- Giga Impact
+- Dive
+- Toxic
+- Ice Beam
+- Recover
 
 Arcanine @ Liechi Berry
 Ability: Intimidate
@@ -10691,14 +10709,14 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Energy Ball
 - Double Team
 
-Milotic @ Wacan Berry
-Ability: Intimidate
+Milotic @ Leftovers
+Ability: Marvel Scale
 Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Waterfall
-- Earthquake
-- Thunder Wave
-- Giga Impact
+- Dive
+- Toxic
+- Ice Beam
+- Recover
 
 Charizard @ Sitrus Berry
 Ability: Blaze
