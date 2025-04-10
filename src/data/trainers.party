@@ -9769,7 +9769,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 19
+Level: 21
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Wing Attack
 - Secret Power
@@ -9779,7 +9779,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Flaaffy @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 16
+Level: 21
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Shock Wave
@@ -9789,17 +9789,27 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Kadabra
 Ability: Synchronize
 Mild Nature
-Level: 18
+Level: 21
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hidden Power
 - Confusion
 - Disable
 - Kinesis
 
+Aron @ Sitrus Berry
+Ability: Sturdy
+Adamant Nature
+Level: 21
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Iron Defense
+- Metal Claw
+- Headbutt
+- Mud Slap
+
 Wartortle @ Sitrus Berry
 Ability: Torrent
 Mild Nature
-Level: 20
+Level: 22
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Water Pulse
 - Bite
@@ -9818,7 +9828,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 19
+Level: 21
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Wing Attack
 - Secret Power
@@ -9828,7 +9838,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Flaaffy @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 16
+Level: 21
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Shock Wave
@@ -9838,17 +9848,27 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Kadabra
 Ability: Synchronize
 Mild Nature
-Level: 18
+Level: 21
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hidden Power
 - Confusion
 - Disable
 - Kinesis
 
+Aron @ Sitrus Berry
+Ability: Sturdy
+Adamant Nature
+Level: 21
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Iron Defense
+- Metal Claw
+- Headbutt
+- Mud Slap
+
 Ivysaur @ Sitrus Berry
 Ability: Overgrow
 Mild Nature
-Level: 20
+Level: 22
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Razor Leaf
 - Take Down
@@ -9867,7 +9887,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 19
+Level: 21
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Wing Attack
 - Secret Power
@@ -9877,17 +9897,27 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Flaaffy @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 16
+Level: 21
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Shock Wave
 - Mega Punch
 - Growl
 
+Aron @ Sitrus Berry
+Ability: Sturdy
+Adamant Nature
+Level: 21
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Iron Defense
+- Metal Claw
+- Headbutt
+- Mud Slap
+
 Kadabra
 Ability: Synchronize
 Mild Nature
-Level: 18
+Level: 21
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hidden Power
 - Confusion
@@ -9896,7 +9926,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Charmeleon @ Sitrus Berry
 Ability: Blaze
-Level: 20
+Level: 22
 Rash Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Dragon Rage
@@ -9916,7 +9946,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 25
+Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Wing Attack
 - Quick Attack
@@ -9926,7 +9956,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Flaaffy @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 25
+Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thunder Wave
 - Shock Wave
@@ -9936,7 +9966,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Torkoal @ Sitrus Berry
 Ability: White Smoke
 Relaxed Nature
-Level: 25
+Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Fire Spin
 - Rock Slide
@@ -9944,7 +9974,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Smog
 
 Tropius @ Wide Lens
-Level: 25
+Level: 27
 Ability: Chlorophyll
 Adamant Nature
 IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
@@ -9956,7 +9986,7 @@ IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
 Kadabra
 Ability: Synchronize
 Mild Nature
-Level: 25
+Level: 27
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Psybeam
 - Hidden Power
@@ -9966,7 +9996,7 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 Wartortle @ Sitrus Berry
 Ability: Torrent
 Mild Nature
-Level: 25
+Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Water Pulse
 - Rapid Spin
@@ -9985,7 +10015,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 25
+Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Wing Attack
 - Quick Attack
@@ -9995,7 +10025,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Flaaffy @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 25
+Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thunder Wave
 - Shock Wave
@@ -10005,7 +10035,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Torkoal @ Sitrus Berry
 Ability: White Smoke
 Relaxed Nature
-Level: 25
+Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Fire Spin
 - Rock Slide
@@ -10015,7 +10045,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Pelipper @ Sitrus Berry
 Ability: Keen Eye
 Mild Nature
-Level: 25
+Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Water Pulse
 - Wing Attack
@@ -10025,7 +10055,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Kadabra
 Ability: Synchronize
 Mild Nature
-Level: 25
+Level: 27
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Psybeam
 - Hidden Power
@@ -10035,7 +10065,7 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 Ivysaur @ Sitrus Berry
 Ability: Overgrow
 Mild Nature
-Level: 25
+Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Razor Leaf
 - Leech Seed
@@ -10054,7 +10084,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 25
+Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Wing Attack
 - Quick Attack
@@ -10064,7 +10094,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Flaaffy @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 25
+Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thunder Wave
 - Shock Wave
@@ -10072,7 +10102,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Charge
 
 Tropius @ Wide Lens
-Level: 25
+Level: 27
 Ability: Chlorophyll
 Adamant Nature
 IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
@@ -10084,7 +10114,7 @@ IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
 Pelipper @ Sitrus Berry
 Ability: Keen Eye
 Mild Nature
-Level: 25
+Level: 27
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Water Pulse
 - Wing Attack
@@ -10094,7 +10124,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Kadabra
 Ability: Synchronize
 Mild Nature
-Level: 25
+Level: 27
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Psybeam
 - Hidden Power
@@ -10104,11 +10134,11 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 Charmeleon @ Sitrus Berry
 Ability: Blaze
 Rash Nature
-Level: 25
+Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Dragon Rage
 - Metal Claw
-- Ember
+- Fire Fang
 - Rock Slide
 
 === TRAINER_RIVAL_SILPH_SQUIRTLE ===
@@ -10120,25 +10150,59 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeot
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Growlithe
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Exeggcute
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Alakazam
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Blastoise
+Skarmory @ Leftovers
+Ability: Sturdy
 Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Spikes
+- Steel Wing
+- Fly
+- Toxic
+
+Typhlosion @ Power Herb
+Ability: Blaze
+Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Lava Plume
+- Sunny Day
+- Focus Blast
+- Solar Beam
+
+Sceptile @ Razor Claw
+Ability: Overgrow
+Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Leaf Blade
+- X-Scissor
+- Night Slash
+- Screech
+
+Alakazam @ Twisted Spoon
+Ability: Synchronize
+Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Calm Mind
+- Psychic
+- Fire Punch
+- Focus Blast
+
+Dusclops @ Spell Tag
+Ability: Pressure
+Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Will O Wisp
+- Shadow Punch
+- Confuse Ray
+- Ice Punch
+
+Blastoise @ Sitrus Berry
+Ability: Torrent
+Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Aqua Tail
+- Skull Bash
+- Flash Cannon
+- Ice Beam
 
 === TRAINER_RIVAL_SILPH_BULBASAUR ===
 Name: TERRY
@@ -10149,25 +10213,59 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeot
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Milotic
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Growlithe
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Alakazam
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Venusaur
+Skarmory @ Leftovers
+Ability: Sturdy
 Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Spikes
+- Steel Wing
+- Fly
+- Toxic
+
+Feraligatr @ Muscle Band
+Ability: Torrent
+Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Ice Fang
+- Crunch
+- Slash
+- Waterfall
+
+Blaziken @ Black Belt
+Ability: Blaze
+Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bulk Up
+- Blaze Kick
+- Brick Break
+- Rock Slide
+
+Alakazam @ Twisted Spoon
+Ability: Synchronize
+Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Calm Mind
+- Psychic
+- Fire Punch
+- Focus Blast
+
+Dusclops @ Spell Tag
+Ability: Pressure
+Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Will O Wisp
+- Shadow Punch
+- Confuse Ray
+- Ice Punch
+
+Venusaur @ Sitrus Berry
+Ability: Overgrow
+Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Growth
+- Leech Seed
+- Sleep Powder
+- Petal Dance
 
 === TRAINER_RIVAL_SILPH_CHARMANDER ===
 Name: TERRY
@@ -10178,25 +10276,59 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Pidgeot
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Exeggcute
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Milotic
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Alakazam
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Charizard
+Skarmory @ Leftovers
+Ability: Sturdy
 Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Spikes
+- Steel Wing
+- Fly
+- Toxic
+
+Meganium @ Light Clay
+Ability: Overgrow
+Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Light Screen
+- Energy Ball
+- Poison Powder
+- Earthquake
+
+Swampert @ NevermeltIce
+Ability: Torrent
+Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Waterfall
+- Brick Break
+- Avalanche
+- Stealth Rock
+
+Alakazam @ Twisted Spoon
+Ability: Synchronize
+Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Calm Mind
+- Psychic
+- Fire Punch
+- Focus Blast
+
+Dusclops @ Spell Tag
+Ability: Pressure
+Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Will O Wisp
+- Shadow Punch
+- Confuse Ray
+- Ice Punch
+
+Charizard @ Sitrus Berry
+Ability: Blaze
+Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Air Slash
+- Flamethrower
+- Smoke Screen
+- Steel Wing
 
 === TRAINER_RIVAL_ROUTE22_LATE_SQUIRTLE ===
 Name: TERRY
