@@ -1899,7 +1899,7 @@ Ninjask
 Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Buterfree
+Butterfree
 Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2154,7 +2154,7 @@ Scyther
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Nidorana
+Nidorina
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -8246,7 +8246,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Staraptor
-Ability: Intimdate
+Ability: Intimidate
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Close Combat
@@ -9054,15 +9054,15 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psycho Cut
 - Night Slash
 
-SPECIES_Mightyena_PALDEA_AQUA @ Choice Band
-Ability: Intimidate
+Breloom @ Toxic Orb
+Ability: Poison Heal
 Adamant Nature
 Level: 55
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Zen Headbutt
-- Aqua Jet
-- Double Kick
-- Take Down
+- Seed Bomb
+- Mach Punch
+- Sky Uppercut
+- Rock Slide
 
 Lucario @ Wise Glasses
 Ability: Inner Focus
@@ -10327,7 +10327,7 @@ Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Air Slash
 - Flamethrower
-- Smoke Screen
+- Smokescreen
 - Steel Wing
 
 === TRAINER_RIVAL_ROUTE22_LATE_SQUIRTLE ===
@@ -10357,7 +10357,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Fire Blast
 - Rock Slide
 
-Arcanine @ King's Rock
+Arcanine @ Kings Rock
 Ability: Intimidate
 Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -10429,7 +10429,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Dive
 - Ice Beam
 
-Arcanine @ King's Rock
+Arcanine @ Kings Rock
 Ability: Intimidate
 Level: 51
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
