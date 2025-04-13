@@ -794,10 +794,10 @@
 #define FLAG_OAKS_RATING_IS_VIA_PC                       0x2FF
 
 // Unused?
-#define FLAG_0x300               0x300
-#define FLAG_0x301               0x301
-#define FLAG_0x302               0x302
-#define FLAG_0x303               0x303
+#define FLAG_BEAT_RIVAL_3        0x300 // Added for when SS Anne rival is defeated
+#define FLAG_BEAT_RIVAL_4        0x301 // Pokemon tower rival
+#define FLAG_BEAT_RIVAL_5        0x302 // Silph Co Rival
+#define FLAG_BEAT_RIVAL_6        0x303 // Late Route 22 rival
 #define FLAG_0x304               0x304
 #define FLAG_0x305               0x305
 #define FLAG_0x306               0x306

@@ -188,6 +188,7 @@ Route22_EventScript_LateRival::
 	call_if_eq VAR_STARTER_MON, 0, Route22_EventScript_LateRivalCharmander
 	msgbox Route22_Text_LateRivalPostBattle
 	closemessage
+	setflag FLAG_BEAT_RIVAL_6
 	delay 10
 	playbgm MUS_RIVAL_EXIT, 0
 	applymovement LOCALID_RIVAL, Route22_Movement_LateRivalExit
