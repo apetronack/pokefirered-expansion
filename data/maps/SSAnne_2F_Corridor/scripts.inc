@@ -42,6 +42,7 @@ SSAnne_2F_Corridor_EventScript_RivalTrigger::
 	msgbox SSAnne_2F_Corridor_Text_RivalPostBattle
 	closemessage
 	delay 10
+	setflag FLAG_BEAT_RIVAL_3
 	playbgm MUS_RIVAL_EXIT, 0
 	call_if_eq VAR_TEMP_1, 0, SSAnne_2F_Corridor_EventScript_RivalExitLeft
 	call_if_eq VAR_TEMP_1, 1, SSAnne_2F_Corridor_EventScript_RivalExitMid

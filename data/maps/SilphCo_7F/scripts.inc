@@ -51,6 +51,7 @@ SilphCo_7F_EventScript_RivalScene::
 	msgbox SilphCo_7F_Text_RivalPostBattle
 	closemessage
 	playbgm MUS_RIVAL_EXIT, 0
+	setflag FLAG_BEAT_RIVAL_5
 	call_if_eq VAR_TEMP_1, 0, SilphCo_7F_EventScript_RivalExitTop
 	call_if_eq VAR_TEMP_1, 1, SilphCo_7F_EventScript_RivalExitBottom
 	playse SE_WARP_IN
