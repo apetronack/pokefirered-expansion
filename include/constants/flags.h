@@ -798,11 +798,12 @@
 #define FLAG_BEAT_RIVAL_4        0x301 // Pokemon tower rival
 #define FLAG_BEAT_RIVAL_5        0x302 // Silph Co Rival
 #define FLAG_BEAT_RIVAL_6        0x303 // Late Route 22 rival
-#define FLAG_0x304               0x304
-#define FLAG_0x305               0x305
-#define FLAG_0x306               0x306
-#define FLAG_0x307               0x307
-#define FLAG_0x308               0x308
+// Flags for controlling player progression
+#define FLAG_HIDE_CERULEAN_GYMGUARDIAN               0x304
+#define FLAG_HIDE_POKEMON_TOWER_GUARDIAN             0x305
+#define FLAG_HIDE_CELADON_GYM_GUARDIAN               0x306
+#define FLAG_HIDE_FUSCHIA_GYM_GUARDIAN               0x307
+#define FLAG_HIDE_CINNABAR_MANSION_GUARDIAN          0x308
 #define FLAG_0x309               0x309
 #define FLAG_0x30A               0x30A
 #define FLAG_0x30B               0x30B

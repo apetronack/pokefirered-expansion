@@ -81,6 +81,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
       "flag": "FLAG_HIDE_CINNABAR_SEAGALLOP"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
+      "x": 8,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CinnabarIsland_EventScript_MansionGuardian",
+      "flag": "FLAG_HIDE_CINNABAR_MANSION_GUARDIAN"
     }
   ],
   "warp_events": [
