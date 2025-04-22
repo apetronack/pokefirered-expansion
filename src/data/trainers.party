@@ -211,70 +211,300 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
 - Aura Sphere
 
-=== TRAINER_RS_AROMA_LADY ===
-Name: PH
-Class: RS Aroma Lady
-Pic: RS Aroma Lady
-Gender: Male
-Music: Female
-Double Battle: No
-AI: Check Bad Move
+=== TRAINER_CERULEAN_GYM_GUARDIAN ===
+Name: GRUNT
+Class: Team Rocket
+Pic: Rocket Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Gulpin
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skarmory
+Ability: Keen Eye
+Impish Nature
+Level: 23
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Swift
+- Sand Attack
+- Peck
+- Leer
 
-=== TRAINER_RS_RUIN_MANIAC ===
-Name: PH
-Class: RS Ruin Maniac
-Pic: RS Ruin Maniac
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
+Cubone @ Thick Club
+Ability: Lightning Rod
+Level: 23
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bonemerang
+- Headbutt
+- Focus Energy
+- Rage
 
-Gulpin
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+SPECIES_SNEASEL_HISUI
+Ability: Keen Eye
+Level: 23
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Metal Claw
+- Quick Attack
+- Rock Smash
+- Taunt
 
-=== TRAINER_INTERVIEWER ===
-Name: PH
-Class: Interviewer
-Pic: Interviewer
-Gender: Male
-Music: Interviewer
-Double Battle: No
-AI: Check Bad Move
+Elekid
+Ability: Static
+Level: 23
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Low Kick
+- Shock Wave
+- Quick Attack
+- Thief
 
-Gulpin
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+=== TRAINER_POKEMON_TOWER_GUARDIAN ===
+Name: GRUNT
+Class: Team Rocket
+Pic: Rocket Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-=== TRAINER_RS_TUBER_F ===
-Name: PH
-Class: RS Tuber F
-Pic: RS Tuber F
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
+Skarmory
+Ability: Keen Eye
+Impish Nature
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Roar
+- Stealth Rock
+- Wing Attack
+- Spikes
 
-Starmie
+SPECIES_MAROWAK_ALOLA @ Thick Club
+Ability: Rock Head
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bone Rush
+- Hex
+- Flame Wheel
+- Headbutt
+
+SPECIES_SNEASEL_HISUI
+Ability: Keen Eye
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Metal Claw
+- Poison Jab
+- Brick Break
+- Taunt
+
+Electabuzz
+Ability: Static
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Counter
+- Thunder Punch
+- Secret Power
+- Psychic
+
+Cacturne
+Ability: Sand Veil
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Faint Attack
+- Pin Missile
+- Leech Seed
+- Bullet Seed
+
+=== TRAINER_CELADON_GYM_GUARDIAN ===
+Name: GRUNT
+Class: Team Rocket
+Pic: Rocket Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Crawdaunt
+Ability: Shell Armor
+Adamant Nature
 Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Knock Off
+- Body Slam
+- Waterfall
+- Rock Slide
 
-=== TRAINER_RS_TUBER_M ===
-Name: PH
-Class: RS Tuber M
-Pic: RS Tuber M
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Starmie
+Slaking
+Ability: Truant
+Naughty Nature
 Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Counter
+- Faint Attack
+- Body Slam
+- Aerial Ace
+
+Dodrio
+Ability: Early Bird
+Level: 38
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Tri Attack
+- Acupressure
+- Steel Wing
+- Payback
+
+Grumpig
+Ability: Thick Fat
+Level: 38
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Payback
+- Zen Headbutt
+- Confuse Ray
+- Brick Break
+
+Raichu
+Ability: Static
+Level: 38
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Thunderbolt
+- Nasty Plot
+- Surf
+- Slam
+
+=== TRAINER_FUSCHIA_GYM_GUARDIAN ===
+Name: GRUNT
+Class: Team Rocket
+Pic: Rocket Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Skarmory
+Ability: Keen Eye
+Impish Nature
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Roar
+- Stealth Rock
+- Drill Peck
+- Slash
+
+SPECIES_MAROWAK_ALOLA @ Thick Club
+Ability: Rock Head
+Relaxed Nature
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Bonemerang
+- Hex
+- Flame Wheel
+- Will O Wisp
+
+Sneasler @ Liechi Berry
+Ability: Unburden
+Jolly Nature
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Night Slash
+- Poison Jab
+- Brick Break
+- Bulk Up
+
+Electabuzz
+Ability: Static
+Rash Nature
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ice Punch
+- Thunderbolt
+- Light Screen
+- Psychic
+
+Cacturne
+Ability: Sand Veil
+Impish Nature
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sucker Punch
+- Pin Missile
+- Leech Seed
+- Needle Arm
+
+Huntail
+Ability: Water Veil
+Adamant Nature
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Waterfall
+- Crunch
+- Screech
+- Ice Fang
+
+=== TRAINER_CINNABAR_MANSION_GUARDIAN ===
+Name: GRUNT
+Class: Team Rocket
+Pic: Rocket Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Skarmory
+Ability: Keen Eye
+Impish Nature
+Level: 58
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Roar
+- Stealth Rock
+- Drill Peck
+- Slash
+
+SPECIES_MAROWAK_ALOLA @ Thick Club
+Ability: Rock Head
+Relaxed Nature
+Level: 58
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Bonemerang
+- Hex
+- Flame Wheel
+- Will O Wisp
+
+Sneasler @ Liechi Berry
+Ability: Unburden
+Jolly Nature
+Level: 58
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Night Slash
+- Poison Jab
+- Brick Break
+- Bulk Up
+
+Electivire
+Ability: Motor Drive
+Rash Nature
+Level: 58
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ice Punch
+- Thunderbolt
+- Light Screen
+- Flamethrower
+
+Victreebel @ Salac Berry
+Ability: Gluttony
+Impish Nature
+Level: 58
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Energy Ball
+- Sleep Powder
+- Growth
+
+Feraligatr
+Ability: Sheer Force
+Adamant Nature
+Level: 58
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Waterfall
+- Crunch
+- Dragon Dance
+- Ice Fang
 
 === TRAINER_RS_COOLTRAINER_M ===
 Name: PH
@@ -9474,18 +9704,18 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Skuntank
 Ability: Aftermath
 Lax Nature
-Level: 51
-IVs: 19 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 54
+IVs: 23 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Night Slash
 - Flamethrower
 - Poison Jab
 - Toxic
 
 Roserade @ Metronome
-Level: 51
+Level: 54
 Ability: Natural Cure
 Modest Nature
-IVs: 19 HP / 0 Atk / 0 Def / 19 SpA / 19 SpD / 0 Spe
+IVs: 23 HP / 0 Atk / 0 Def / 19 SpA / 19 SpD / 0 Spe
 - Giga Drain
 - Sludge Bomb
 - Growth
@@ -9494,7 +9724,7 @@ IVs: 19 HP / 0 Atk / 0 Def / 19 SpA / 19 SpD / 0 Spe
 Venomoth @ Wise Glasses
 Ability: Tinted Lens
 Modest Nature
-Level: 51
+Level: 54
 IVs: 19 HP / 0 Atk / 0 Def / 19 SpA / 0 SpD / 0 Spe
 - Psychic
 - Supersonic
@@ -9502,7 +9732,7 @@ IVs: 19 HP / 0 Atk / 0 Def / 19 SpA / 0 SpD / 0 Spe
 - Toxic
 
 Clodsire @ Black Sludge
-Level: 51
+Level: 54
 Ability: Water Absorb
 Brave Nature
 IVs: 0 HP / 0 Atk / 19 Def / 0 SpA / 19 SpD / 0 Spe
@@ -9512,7 +9742,7 @@ IVs: 0 HP / 0 Atk / 19 Def / 0 SpA / 19 SpD / 0 Spe
 - Curse
 
 Weezing @ Custap Berry
-Level: 52
+Level: 55
 Ability: Levitate
 Serious Nature
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
@@ -9594,7 +9824,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Mr Mime @ Light Clay
 Ability: Filter
 Timid Nature
-Level: 54
+Level: 51
 IVs: 0 HP / 0 Atk / 0 Def / 23 SpA / 0 SpD / 23 Spe
 - Reflect
 - Psychic
@@ -9604,7 +9834,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 23 SpA / 0 SpD / 23 Spe
 Bronzong @ Macho Brace
 Ability: Levitate
 Sassy Nature
-Level: 54
+Level: 51
 IVs: 23 HP / 0 Atk / 23 Def / 0 SpA / 23 SpD / 0 Spe
 - Gyro Ball
 - Confuse Ray
@@ -9614,7 +9844,7 @@ IVs: 23 HP / 0 Atk / 23 Def / 0 SpA / 23 SpD / 0 Spe
 Hypno 
 Ability: Insomnia
 Adamant Nature
-Level: 54
+Level: 51
 IVs: 23 HP / 23 Atk / 23 Def / 0 SpA / 23 SpD / 0 Spe
 - Hypnosis
 - Nightmare
@@ -9624,7 +9854,7 @@ IVs: 23 HP / 23 Atk / 23 Def / 0 SpA / 23 SpD / 0 Spe
 Medicham @ Expert Belt
 Ability: Pure Power
 Adamant Nature
-Level: 54
+Level: 51
 IVs: 0 HP / 23 Atk / 23 Def / 0 SpA / 23 SpD / 23 Spe
 - High Jump Kick
 - Psycho Cut
@@ -9634,7 +9864,7 @@ IVs: 0 HP / 23 Atk / 23 Def / 0 SpA / 23 SpD / 23 Spe
 Gardevoir @ Petaya Berry
 Ability: Synchronize
 Timid Nature
-Level: 55
+Level: 52
 IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Psychic
 - Shadow Ball
