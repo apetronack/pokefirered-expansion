@@ -1,0 +1,343 @@
+Progression Tracking
+Cap 1: Brock, level 13
+    Pallet Town
+        Lab Rival, level 5 X
+    Route 1
+        No trainers
+    Viridian City
+        No trainers
+    Route 22
+        Early Rival, cap 9 X
+    Route 2
+        No trainers
+    Viridian Forest
+        Rick X
+        Doug X
+        Anthony X
+        Charlie X
+        Sammy X
+    Pewter City
+        Liam X
+        Brock X
+Cap 2: Rival 2, level 20
+    Route 3
+        Janice X
+        Colton X
+        Ben X
+        Greg X
+        Calvin X
+        Sally X
+        James X
+        Robin X
+    Route 4
+        No trainers (yet)
+    Mt Moon 1F
+        Kent X
+        Iris X
+        Jovan X
+        Robby X
+        Miriam X
+        Josh X
+        Marcos X
+    Mt Moon B1F
+        No trainers
+    Mt Moon B2F
+        Grunt2 X
+        Grunt4 X
+        Grunt3 X
+        Grunt1 X
+        Miguel X
+    Cerulean City
+        Rival Nugget Bridge X
+Cap 3: Misty, level 23
+    Route 24
+        Cale X
+        Ali X
+        Timmy X
+        Reli X
+        Ethan X
+        Grunt6 X
+        Shane X
+    Route 25
+        Franklin X
+        Wayne X
+        Joey X
+        Dan X
+        Kelsey X
+        Nob X
+        Flint X
+        Chad X
+        Haley X
+    Cerulean City
+        Grunt5 X
+        Cerulean_Gym_Guardian X
+    Cerulean Gym
+        Luis X
+        Diana X
+        Misty X
+Cap 4: Rival 3, level 25
+    Route 5
+        No trainers
+    Route 6
+        Keigo
+        Ricky
+        Nancy
+        Elijah
+        Isabelle
+        Jeff
+    Route 11
+        Eddie
+        Hugo
+        Dave
+        Dillon
+        Bernie
+        Jasper
+        Braxton
+        Yasu
+        Darian
+        Dirk
+    Diglett's Cave
+        No trainers
+    SS Anne 1F
+        SS Anne 1F Room 7
+            Thomas
+        SS Anne 1F Room 6
+            No trainers
+        SS Anne 1F Room 5
+            Arthur
+        SS Anne 1F Room 4
+            No trainers
+        SS Anne 1F Room 3
+            No trainers
+        SS Anne 1F Room 2
+            Ann
+            Tyler
+        SS Anne 1F Room 1
+            No trainers
+    SS Anne B1F
+        SS Anne B1F Room 5
+            No trainers
+        SS Anne B1F Room 4
+            Duncan
+            Leonard
+        SS Anne B1F Room 3
+            Dylan
+        SS Anne B1F Room 2
+            Huey
+        SS Anne B1F Room 1
+            Barny
+            Phillip
+    SS Anne Kitchen
+        No trainers
+    SS Anne 2F
+        SS Anne 2F Room 1
+            No trainers
+        SS Anne 2F Room 2
+            Dale
+            Brooks
+        SS Anne 2F Room 3
+            No trainers
+        SS Anne 2F Room 4
+            Lamar
+            Dawn
+        SS Anne 2F Room 5
+            No trainers
+        SS Anne 2F Room 6
+            No trainers
+    SS Anne Deck
+        Trevor
+        Edmond
+    Rival 3
+Cap 5: Lt Surge, level 27
+    Vermillion City Gym
+        Dwayne
+        Baily
+        Tucker
+        Surge
+Cap 6: Giovanni 1, level 33
+    Route 9
+        Alicia
+        Jeremy
+        Chris
+        Brent
+        Drew
+        Conner
+        Brice
+        Alan
+        Caitlin
+    Route 10 (prior to Rock Tunnel)
+        Heidi
+    Rock Tunnel 1F (first)
+        Ashton
+    Rock Tunnel B1F (first)
+        Winston
+        Martha
+        Steve
+        Eric
+        Allen
+    Rock Tunnel 1F (second)
+        Lenny
+        Oliver
+        Lucas
+    Rock Tunnel B1F (second)
+        Sofia
+        Dudley
+        Cooper
+    Rock Tunnel 1F (third)
+        Leah
+        Ariana
+        Dana
+    Route 10 (post Rock Tunnel)
+        Carol
+        Clark
+        Trent
+        Herman
+    Lavender Town
+        No trainers (yet)
+    Route 12 (first)
+        Ned
+        Chip
+        Hank
+        Elliot
+    Route 8
+        Julia
+        Rich
+        Glenn
+        Anne
+        Eli
+        Leslie
+        Paige
+        Andrea
+        Megan
+        Jaren
+        Ricardo
+        Stan
+    Route 7
+        No trainers
+    Celadon City
+        No trainers
+    Rocket Hideout B1F (first)
+        Grunt9
+        Grunt8
+        Grunt12
+    Rocket Hideout B2F (first)
+        Grunt13
+    Rocket Hideout B1F (second)
+        Grunt11
+        Grunt10
+    Rocket Hideout B3F (first)
+        Grunt15
+        Grunt14
+    Rocket Hideout B4F
+        Grunt18
+        Grunt16
+        Grunt17
+        Trainer Boss Giovanni
+Cap 7: Rival 4 Pokemon Tower, 35
+    Lavender Town
+        Pokemon Tower Guardian
+    Pokemon Tower 1F
+        No trainers
+    Pokemon Tower 2F
+        Rival 4
+Cap 8: Ericka, level 38
+    Pokemon Tower 3F
+        Hope
+        Carly
+        Patricia
+    Pokemon Tower 4F
+        Laurel
+        Jody
+        Paula
+    Pokemon Tower 5F
+        Ruth
+        Tammy
+        Karina
+        Janae
+    Pokemon Tower 6F
+        Angelica
+        Jennifer
+        Emilia
+    Pokemon Tower 7F
+        Grunt19
+        Grunt20
+        Grunt21
+    Celadon City Gym
+        Kay
+        Bridget
+        Tina
+        Tamia
+        Mary
+        Lori
+        Lisa
+        Ericka
+Cap 9: Rival 5, Silph Co, level 43
+    Route 12 (Second)
+        Luca
+        Justin
+        Andrew
+    Route 13
+        Alma
+        Sebastian
+        Susie
+        Lola
+        Sheila
+        Valerie
+        Gwen
+        Perry
+        Jared
+        Robert
+    Route 14
+        Carter
+        Mitch
+        Beck
+        Marlon
+        Donald
+        Benny
+        Jan
+        Kiri
+        Lukas
+        Gerald
+        Malik
+        Isaac
+    Route 15
+        Ernest
+        Alex
+        Grace
+        Olivia
+        Kindra
+        Chester
+        Edwin
+        Yazmin
+        Becky
+        Mya
+        Ron
+        Celia
+    Route 16
+        Jed
+        Lea
+        Lao
+        Koji
+        Luke
+        Hideo
+        Ruben
+        Camron
+    Route 17
+        Virgil
+        Isaiah
+        Raul
+        Billy
+        Nikolas
+        Jamal
+        Zeek
+        Corey
+        Jaxon
+        William
+    Route 18
+        Jacob
+        Wilton
+        Ramiro
+    Route 19 (start)
+        Richard
+        Reece
+    Silph Co
