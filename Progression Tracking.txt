@@ -79,81 +79,81 @@ Cap 4: Rival 3, level 25
     Route 5
         No trainers
     Route 6
-        Keigo
-        Ricky
-        Nancy
-        Elijah
-        Isabelle
-        Jeff
+        Keigo X
+        Ricky X
+        Nancy X
+        Elijah X
+        Isabelle X
+        Jeff X
     Route 11
-        Eddie
-        Hugo
-        Dave
-        Dillon
-        Bernie
-        Jasper
-        Braxton
-        Yasu
-        Darian
-        Dirk
+        Eddie X
+        Hugo X
+        Dave X
+        Dillon X
+        Bernie X
+        Jasper X
+        Braxton X
+        Yasu X
+        Darian X
+        Dirk X
     Diglett's Cave
         No trainers
     SS Anne 1F
         SS Anne 1F Room 7
-            Thomas
+            Thomas X
         SS Anne 1F Room 6
             No trainers
         SS Anne 1F Room 5
-            Arthur
+            Arthur X
         SS Anne 1F Room 4
             No trainers
         SS Anne 1F Room 3
             No trainers
         SS Anne 1F Room 2
-            Ann
-            Tyler
+            Ann X
+            Tyler X
         SS Anne 1F Room 1
             No trainers
     SS Anne B1F
         SS Anne B1F Room 5
             No trainers
         SS Anne B1F Room 4
-            Duncan
-            Leonard
+            Duncan X
+            Leonard X
         SS Anne B1F Room 3
-            Dylan
+            Dylan X
         SS Anne B1F Room 2
-            Huey
+            Huey X
         SS Anne B1F Room 1
-            Barny
-            Phillip
+            Barny X
+            Phillip X
     SS Anne Kitchen
         No trainers
     SS Anne 2F
         SS Anne 2F Room 1
             No trainers
         SS Anne 2F Room 2
-            Dale
-            Brooks
+            Dale X
+            Brooks X
         SS Anne 2F Room 3
             No trainers
         SS Anne 2F Room 4
-            Lamar
-            Dawn
+            Lamar X
+            Dawn X
         SS Anne 2F Room 5
             No trainers
         SS Anne 2F Room 6
             No trainers
     SS Anne Deck
-        Trevor
-        Edmond
-    Rival 3
+        Trevor X
+        Edmond X
+    Rival 3 X
 Cap 5: Lt Surge, level 27
     Vermillion City Gym
-        Dwayne
-        Baily
-        Tucker
-        Surge
+        Dwayne X
+        Baily X
+        Tucker X
+        Surge X
 Cap 6: Giovanni 1, level 33
     Route 9
         Alicia
