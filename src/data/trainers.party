@@ -13,7 +13,7 @@ Pic: Rival Early
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: AI_FLAG_BASIC_TRAINER
 
 Squirtle
 Level: 5
@@ -28,7 +28,7 @@ Pic: Rival Early
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: AI_FLAG_BASIC_TRAINER
 
 Bulbasaur
 Level: 5
@@ -43,7 +43,7 @@ Pic: Rival Early
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: AI_FLAG_BASIC_TRAINER
 
 Charmander
 Level: 5
@@ -58,9 +58,11 @@ Pic: Rival Early
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+AI: AI_FLAG_SMART_TRAINER
 
 Starly
+Ability: Keen Eye
+Adamant Nature
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
@@ -68,7 +70,9 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Quick Attack
 - Growl
 
-Squirtle
+Squirtle @ Oran Berry
+Ability: Torrent
+Relaxed Nature
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
@@ -82,9 +86,11 @@ Pic: Rival Early
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+AI: AI_FLAG_SMART_TRAINER
 
 Starly
+Ability: Keen Eye
+Adamant Nature
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
@@ -92,7 +98,9 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Quick Attack
 - Growl
 
-Bulbasaur
+Bulbasaur @ Oran Berry
+Ability: Overgrow
+Sassy Nature
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
@@ -106,9 +114,11 @@ Pic: Rival Early
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+AI: AI_FLAG_SMART_TRAINER
 
 Starly
+Ability: Keen Eye
+Adamant Nature
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Tackle
@@ -116,7 +126,9 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Quick Attack
 - Growl
 
-Charmander
+Charmander @ Oran Berry
+Ability: Blaze
+Quiet Nature
 Level: 9
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Scratch
@@ -133,14 +145,17 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Spinarak
+Ability: Swarm
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Caterpie
+Ability: Shield Dust
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pineco
+Ability: Sturdy
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -154,18 +169,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Caterpie
+Ability: Shield Dust
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Metapod
+Ability: Shed Skin
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Paras
+Ability: Effect Spore
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nincada
+Ability: Compound Eyes
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -179,14 +198,17 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Venonat
+Ability: Tinted Lens
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nincada
+Ability: Compound Eyes
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spinarak
+Ability: Swarm
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -199,19 +221,26 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Nincada
+Skorupi
+Ability: Sniper
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Metapod
+Ability: Shed Skin
 Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Harden
+- String Shot
+- Tackle
 
 Paras
+Ability: Effect Spore
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pineco
+Ability: Sturdy
 Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -222,23 +251,32 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_BASIC_TRAINER
 
 Nincada
+Ability: Compound Eyes
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pineco
+Ability: Sturdy
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spinarak
+Ability: Swarm
 Level: 9 
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Paras
-Level: 9 
+Butterfree
+Ability: Compound Eyes
+Rash Nature
+Level: 10 
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Harden
+- String Shot
+- Tackle
 
 === TRAINER_CAMPER_LIAM ===
 Name: LIAM
@@ -251,6 +289,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Shuckle
 Ability: Sturdy
+Bashful Nature
 Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sandstorm
@@ -260,6 +299,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandshrew
 Ability: Sand Veil
+Adamant Nature
 Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Scratch
@@ -269,6 +309,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Aron
 Ability: Sturdy
+Impish Nature
 Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Headbutt
@@ -278,6 +319,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Larvitar
 Ability: Guts
+Jolly Nature
 Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
@@ -293,13 +335,13 @@ Gender: Male
 Music: Male
 Items: Full Heal / X Defense
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+AI: AI_FLAG_SMART_TRAINER
 
-SPECIES_GEODUDE_ALOLA
+SPECIES_GEODUDE_ALOLA @ Smooth Rock
 Ability: Sturdy
 Impish Nature
 Level: 12
-IVs: 3 HP / 0 Atk / 3 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Sandstorm
 - Defense Curl
 - Spark
@@ -309,7 +351,7 @@ SPECIES_GROWLITHE_HISUI
 Ability: Intimidate
 Lonely Nature
 Level: 13
-IVs: 0 HP / 3 Atk / 0 Def / 3 SpA / 0 SpD / 3 Spe
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Bite
 - Flame Wheel
 - Howl
@@ -319,13 +361,13 @@ Omanyte
 Ability: Shell Armor
 Hasty Nature
 Level: 13
-IVs: 3 HP / 0 Atk / 0 Def / 3 SpA / 3 SpD / 0 Spe
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Water Gun
 - Spikes
 - Rock Tomb
 - Withdraw
 
-Anorith @ Berry Juice
+Anorith
 Ability: Battle Armor
 Jolly Nature
 Level: 13
@@ -355,15 +397,18 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgey
-Level: 12
+Ability: Keen Eye
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hoothoot
-Level: 12
+Ability: Insomnia
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wingull
-Level: 12
+Ability: Keen Eye
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BUG_CATCHER_COLTON ===
@@ -375,21 +420,33 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Venonat
-Level: 12
+Skorupi
+Ability: Battle Armor
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Spinarak
-Level: 12
+Venonat
+Ability: Tinted Lens
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Powder
+- Confusion
+- Supersonic
+- Disable
 
 Paras
-Level: 12
+Ability: Effect Spore
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nincada
-Level: 12
+Ability: Compound Eyes
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Swipes
+- Leech Life
+- Sand Attack
+- Harden
 
 === TRAINER_YOUNGSTER_BEN ===
 Name: BEN
@@ -401,20 +458,32 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Vulpix
-Level: 12
+Ability: Flash Fire
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Will O Wisp
+- Quick Attack
+- Ember
+- Roar
 
 Horsea
-Level: 12
+Ability: Sniper
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Slugma
-Level: 12
+Ability: Flame Body
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout
-Level: 12
+Ability: Chlorophyll
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sleep Powder
+- Growth
+- Wrap
+- Vine Whip
 
 === TRAINER_BUG_CATCHER_GREG ===
 Name: GREG
@@ -425,21 +494,41 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Nincada
+Spinarak
+Ability: Insomnia
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Life
+- Poison Sting
+- String Shot
+- Constrict
 
-Metapod
+Pineco
+Ability: Sturdy
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rapid Spin
+- Take Down
+- Self Destruct
+- Protect
 
 Venonat
-Level: 13
+Ability: Tinted Lens
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Powder
+- Confusion
+- Supersonic
+- Disable
 
-Paras
-Level: 13
+Butterfree
+Ability: Compound Eyes
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Sleep Powder
+- String Shot
+- Tackle
 
 === TRAINER_YOUNGSTER_CALVIN ===
 Name: CALVIN
@@ -451,12 +540,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Taillow
+Ability: Guts
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Quick Attack
+- Growl
+- Focus Energy
+
+Mankey
+Ability: Anger Point
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Karate Chop
+- Fury Swipes
+- Leer
+- Rock Tomb
+
+Swinub
+Ability: Thick Fat
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mud Slap
+- Powder Snow
+- Tackle
+- Rock Tomb
 
 Poochyena
+Ability: Quick Feet
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Fang
+- Sand Attack
+- Howl
+- Bite
 
 === TRAINER_LASS_SALLY ===
 Name: SALLY
@@ -465,23 +582,43 @@ Pic: Lass
 Gender: Male
 Music: Female
 Double Battle: Yes
-AI: Check Bad Move
+AI: AI_FLAG_BASIC_TRAINER
 
 Nidoran M
-Level: 13
+Ability: Poison Point
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- Double Kick
+- Peck
+- Leer
 
 Nidoran F
-Level: 13
+Ability: Poison Point
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Double Kick
+- Poison Sting
+- Pursuit
 
 Sentret
+Ability: Keen Eye
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Swipes
+- Defense Curl
+- Quick Attack
+- Assist
 
-Zigzagoon
+Zigzagoon @ Oran Berry
+Ability: Gluttony
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Sand Attack
+- Charm
+- Cut
 
 === TRAINER_BUG_CATCHER_JAMES ===
 Name: JAMES
@@ -493,14 +630,21 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pineco
+Ability: Sturdy
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Metapod
+Anorith
+Ability: Battle Armor
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Gun
+- Harden
+- Knock Off
+- Cut
 
 Paras
+Ability: Effect Spore
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -514,20 +658,39 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Clefairy
+Ability: Cute Charm
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Slap
+- Encore
+- Sing
+- Growl
 
 Buneary
+Ability: Run Away
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Frustration
+- Endure
+- Quick Attack
+- Defense Curl
 
 Corphish
+Ability: Shell Armor
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cut
+- ViceGrip
+- Leer
+- Bubble
 
-Shinx
+Luxio
+Ability: Intimidate
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Leer
+- Tackle
 
 === TRAINER_BUG_CATCHER_KENT ===
 Name: KENT
@@ -539,12 +702,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Spinarak
+Ability: Swarm
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Night Shade
+- Leech Life
+- Poison Sting
+- Scary Face
 
-Metapod
+Nincada
+Ability: Compound Eyes
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Swipes
+- Leech Life
+- Harden
+- Sand Attack
 
 === TRAINER_LASS_IRIS ===
 Name: IRIS
@@ -556,20 +729,32 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Jigglypuff
+Ability: Cute Charm
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Swinub
+Houndour
+Ability: Flash Fire
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ember
+- Roar
+- Smog
+- Leer
 
 Cherubi
+Ability: Chlorophyll
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Togepi
+Ability: Serene Grace
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charm
+- Metronome
+- Sweet Kiss
+- Yawn
 
 === TRAINER_SUPER_NERD_JOVAN ===
 Name: JOVAN
@@ -581,20 +766,36 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Magnemite
+Ability: Sturdy
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Metal Sound
+- Thundershock
+- Supersonic
+- SonicBoom
 
-Shinx
+SPECIES_SANDSHREW_ALOLA
+Ability: Snow Cloak
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Ball
+- Rapid Spin
+- Metal Claw
+- Defense Curl
 
 Pikachu
+Ability: Static
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
+Ability: Soundproof
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rollout
+- Spark
+- Charge
+- SonicBoom
 
 === TRAINER_BUG_CATCHER_ROBBY ===
 Name: ROBBY
@@ -605,17 +806,31 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Nincada
-Level: 15
+Skorupi
+Ability: Battle Armor
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Pin Missile
+- Poison Sting
+- Leer
 
 Butterfree
-Level: 15
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Gust
+- Confusion
+- Poison Powder
+- String Shot
 
 Pineco
-Level: 15
+Ability: Sturdy
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Protect
+- Self Destruct
+- Take Down
+- Rapid Spin
 
 === TRAINER_LASS_MIRIAM ===
 Name: MIRIAM
@@ -627,20 +842,36 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Turtwig
-Level: 15
+Ability: Overgrow
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Chikorita
-Level: 15
+Bayleef
+Ability: Overgrow
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Razor Leaf
+- Synthesis
+- Poison Powder
+- Growl
 
-Treecko
-Level: 15
+Grovyle
+Ability: Overgrow
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Cutter
+- Absorb
+- Quick Attack
+- Leer
 
 Bulbasaur
-Level: 15
+Ability: Overgrow
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sleep Powder
+- Take Down
+- Leech Seed
+- Vine Whip
 
 === TRAINER_YOUNGSTER_JOSH ===
 Name: JOSH
@@ -651,20 +882,28 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Shinx
-Level: 15
+Gulpin
+Ability: Liquid Ooze
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Whismur
-Level: 15
+Ability: Soundproof
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Sentret
-Level: 15
+Baltoy
+Ability: Levitate
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mud Slap
+- Psybeam
+- Rock Tomb
+- Rapid Spin
 
-Taillow
-Level: 15
+Doduo
+Ability: Early Bird
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HIKER_MARCOS ===
@@ -677,20 +916,36 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Shieldon
-Level: 15
+Ability: Sturdy
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Protect
+- Take Down
+- Taunt
+- Rock Tomb
 
 Aron
-Level: 15
+Ability: Sturdy
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Onix
+Ability: Sturdy
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Tomb
+- Rage
+- Screech
+- Harden
 
 Cranidos
+Ability: Mold Breaker
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Take Down
+- Pursuit
+- Headbutt
+- Focus Energy
 
 === TRAINER_TEAM_ROCKET_GRUNT_2 ===
 Name: GRUNT
@@ -701,19 +956,27 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Sandshrew
+Numel
+Ability: Oblivious
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Houndour
+Ability: Flash Fire
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ember
+- Smog
+- Roar
+- Leer
 
 Zubat
+Ability: Inner Focus
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Skorupi
+Ability: Sniper
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -727,12 +990,22 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Drowzee
+Ability: Insomnia
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Confusion
+- Disable
+- Headbutt
 
 Shuppet
+Ability: Insomnia
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Curse
+- Knock Off
+- Screech
+- Night Shade
 
 === TRAINER_TEAM_ROCKET_GRUNT_3 ===
 Name: GRUNT
@@ -744,12 +1017,22 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Duskull
+Ability: Levitate
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Astonish
+- Disable
+- Night Shade
 
 Gulpin
+Ability: Liquid Ooze
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Amnesia
+- Sludge
+- Yawn
+- Pound
 
 === TRAINER_TEAM_ROCKET_GRUNT ===
 Name: GRUNT
@@ -761,28 +1044,54 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Trapinch
+Ability: Arena Trap
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Sand Attack
+- Faint Attack
+- Rock Tomb
 
-Skorupi
+Venonat
+Ability: Tinted Lens
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Life
+- Confusion
+- Supersonic
+- Disable
 
 Snorunt
+Ability: Inner Focus
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spinarak
+Ability: Swarm
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Night Shade
+- Leech Life
+- Scary Face
+- Poison Sting
 
-Houndour
+Quilava
+Ability: Blaze
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ember
+- Quick Attack
+- Smokescreen
+- Cut
 
-Shinx
+Cacnea
+Ability: Water Absorb
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sand Attack
+- Leech Seed
+- Absorb
+- Counter
 
 === TRAINER_SUPER_NERD_MIGUEL ===
 Name: MIGUEL
@@ -794,20 +1103,36 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Stunky
+Ability: Stench
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Electrike
+Ability: Static
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Howl
+- Quick Attack
+- Thunder Wave
+- Thunder Fang
 
 Koffing
+Ability: Levitate
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Assurance
+- Smog
+- Smokescreen
+- Pain Split
 
 Mawile
+Ability: Intimidate
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Thunder Fang
+- Fire Fang
+- Bite
 
 === TRAINER_RIVAL_CERULEAN_SQUIRTLE ===
 Name: TERRY
@@ -828,13 +1153,15 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Double Team
 - Secret Power
 
-Abra
+Kadabra
 Ability: Synchronize
 Naughty Nature
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Teleport
 - Hidden Power
+- Confusion
+- Disable
 
 Flaaffy
 Ability: Static
@@ -875,13 +1202,15 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Double Team
 - Secret Power
 
-Abra
+Kadabra
 Ability: Synchronize
 Naughty Nature
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Teleport
 - Hidden Power
+- Confusion
+- Disable
 
 Flaaffy
 Ability: Static
@@ -922,13 +1251,15 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Double Team
 - Secret Power
 
-Abra
+Kadabra
 Ability: Synchronize
 Naughty Nature
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Teleport
 - Hidden Power
+- Confusion
+- Disable
 
 Flaaffy
 Ability: Static
@@ -960,20 +1291,40 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Butterfree
-Level: 18
+Ability: Tinted Lens
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Supersonic
+- Sleep Powder
+- Confusion
+- Gust
 
-Nincada
-Level: 18
+Ninjask
+Ability: Speed Boost
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Screech
+- Double Team
+- Bug Bite
+- Mud Slap
 
 Shuckle
-Level: 18
+Ability: Sturdy
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Withdraw
+- Encore
+- Constrict
+- Bide
 
 Venonat
-Level: 18
+Ability: Tinted Lens
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Life
+- Confusion
+- Poison Powder
+- Supersonic
 
 === TRAINER_LASS_ALI ===
 Name: ALI
@@ -985,20 +1336,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Taillow
-Level: 18
+Ability: Guts
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Quick Attack
+- Growl
+- Focus Energy
 
 Bellsprout
-Level: 18
+Ability: Chlorophyll
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sleep Powder
+- Wrap
+- Growth
+- Vine Whip
 
-Bellsprout
-Level: 18
+Mightyena
+Ability: Intimidate
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Sand Attack
+- Howl
+- Secret Power
 
 Snover
-Level: 18
+Ability: Snow Warning
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swagger
+- Icy Wind
+- Razor Leaf
+- Grasswhistle
 
 === TRAINER_YOUNGSTER_TIMMY ===
 Name: TIMMY
@@ -1010,20 +1381,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Sandshrew
-Level: 18
+Ability: Sand Veil
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rollout
+- Rapid Spin
+- Defense Curl
+- Poison Sting
 
-Gulpin
-Level: 18
+Roselia
+Ability: Poison Point
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Magical Leaf
+- Leech Seed
+- Stun Spore
+- Poison Sting
 
 Natu
-Level: 18
+Ability: Synchronize
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Faint Attack
+- Peck
+- Night Shade
+- Feather Dance
 
-Mareep
-Level: 18
+Elekid
+Ability: Static
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shock Wave
+- Swift
+- Low Kick
+- Leer
 
 === TRAINER_LASS_RELI ===
 Name: RELI
@@ -1035,20 +1426,40 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Nidorino
-Level: 19
+Ability: Poison Point
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Attack
+- Double Kick
+- Peck
+- Leer
 
 Nidorina
-Level: 19
+Ability: Rivalry
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Kick
+- Poison Sting
+- Tail Whip
+- Growl
 
 Poliwhirl
-Level: 19
+Ability: Water Absorb
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Water Gun
+- Hypnosis
+- Secret Power 
 
 Sneasel
-Level: 19
+Ability: Inner Focus
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Shard
+- Faint Attack
+- Screech
+- Quick Attack
 
 === TRAINER_CAMPER_ETHAN ===
 Name: ETHAN
@@ -1059,13 +1470,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Mankey
-Level: 19
+Croagunk
+Ability: Dry Skin
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mud Slap
+- Faint Attack
+- Poison Sting
+- Astonish
 
-Whismur
-Level: 19
+Loudred
+Ability: Soundproof
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Astonish
+- Bite
+- Howl
+- Uproar
 
 === TRAINER_TEAM_ROCKET_GRUNT_6 ===
 Name: GRUNT
@@ -1077,12 +1498,22 @@ Double Battle: No
 AI: Check Bad Move
 
 Gulpin
-Level: 15
+Ability: Liquid Ooze
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Amnesia
+- Sludge
+- Yawn
+- Pound
 
-Zubat
-Level: 15
+Golbat
+Ability: Inner Focus
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Leech Life
+- Bite
+- Wing Attack
 
 === TRAINER_CAMPER_SHANE ===
 Name: SHANE
@@ -1094,20 +1525,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Buneary
-Level: 18
+Ability: Run Away
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Frustration
+- Defense Curl
+- Endure
 
 Exeggcute
-Level: 18
+Ability: Chlorophyll
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stun Spore
+- Bullet Seed
+- Leech Seed
+- Reflect
 
-Snorunt
-Level: 18
+Spheal
+Ability: Thick Fat
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Water Gun
+- Ice Ball
+- Defense Curl
 
 Lombre
-Level: 18
+Ability: Swift Swim
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nature Power
+- Fake Out
+- Astonish
+- Mega Drain
 
 === TRAINER_HIKER_FRANKLIN ===
 Name: FRANKLIN
@@ -1119,20 +1570,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Machop
-Level: 19
+Ability: Guts
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Seismic Toss
+- Karate Chop
+- Foresight
+- Leer
 
 Geodude
-Level: 19
+Ability: Sturdy
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Self Destruct
+- Magnitude
+- Rock Throw
+- Rock Polish
 
 Buizel
-Level: 19
+Ability: Swift Swim
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Jet
+- Swift
+- Pursuit
+- Mud Slap
 
 Aron
-Level: 19
+Ability: Sturdy
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Metal Claw
+- Headbutt
+- Mud Slap
+- Iron Defense
 
 === TRAINER_HIKER_WAYNE ===
 Name: WAYNE
@@ -1144,12 +1615,30 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Onix
-Level: 19
+Ability: Sturdy
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sandstorm
+- Rock Tomb
+- Rage
+- Screech
 
 Lileep
-Level: 19
+Ability: Suction Cups
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Acid
+- Ingrain
+- Bullet Seed
+
+Kabuto
+Ability: Battle Armor
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mud Shot
+- Bubble Beam
+- Sand Attack
+- Rock Tomb
 
 === TRAINER_YOUNGSTER_JOEY ===
 Name: JOEY
@@ -1160,17 +1649,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Bidoof
-Level: 19
+Bibarel
+Ability: Simple
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Water Gun
+- Defense Curl
+- Rollout
 
 Doduo
-Level: 19
+Ability: Early Bird
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pursuit
+- Fury Attack
+- Peck
+- Secret Power
 
 Furret
-Level: 19
+Ability: Keen Eye
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Swipes
+- Defense Curl
+- Charm
+- Assist
 
 === TRAINER_YOUNGSTER_DAN ===
 Name: DAN
@@ -1182,12 +1686,22 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Slowpoke
-Level: 19
+Ability: Oblivious
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Growl
+- Confusion
+- Water Gun
+- Yawn
 
 Snorunt
-Level: 19
+Ability: Inner Focus
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Icy Wind
+- Bite
+- Block
 
 === TRAINER_PICNICKER_KELSEY ===
 Name: KELSEY
@@ -1198,21 +1712,41 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Nidoran M
-Level: 19
+Koffing
+Ability: Levitate
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Self Destruct
+- Assurance
+- Smoke Screen
+- Smog
 
-Nidoran F
-Level: 19
+Quagsire
+Ability: Water Absorb
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mud Bomb
+- Slam
+- Water Gun
+- Tail Whip
 
 Roselia
-Level: 19
+Ability: Poison Point
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Magical Leaf
+- Leech Seed
+- Poison Sting
+- Stun Spore
 
 Spheal
-Level: 19
+Ability: Thick Fat
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Ice Ball
+- Defense Curl
+- Curse
 
 === TRAINER_HIKER_NOB ===
 Name: NOB
@@ -1223,21 +1757,41 @@ Music: Hiker
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Geodude
-Level: 19
+Trapinch
+Ability: Arena Trap
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Faint Attack
+- Sand Attack
+- Rock Tomb
+- Secret Power
 
-Aron
-Level: 19
+Growlithe
+Ability: Intimidate
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flame Wheel
+- Bite
+- Leer
+- Roar
 
-Machop
-Level: 19
+Makuhita
+Ability: Thick Fat
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Knock Off
+- Vital Throw
+- Sand Attack
+- Focus Energy
 
-Swinub
-Level: 19
+Spoink @ Sticky Barb
+Ability: Thick Fat
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Psybeam
+- Trick
+- Shock Wave
 
 === TRAINER_CAMPER_FLINT ===
 Name: FLINT
@@ -1248,21 +1802,40 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Hoothoot
-Level: 19
+Noctowl
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Reflect
+- Peck
+- Hypnosis
 
-Gulpin
-Level: 19
+Tangela
+Ability: Leaf Guard
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stun Spore
+- Growth
+- Mega Drain
+- Cut
 
-Nincada
-Level: 19
+SPECIES_LINOONE_GALAR @ Liechi Berry
+Ability: Gluttony
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tickle
+- Pin Missile
+- Slash
+- Thief
 
-Spoink
-Level: 19
+Voltorb
+Ability: Static
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spark
+- Sonic Boom
+- Screech
+- Light Screen
 
 === TRAINER_YOUNGSTER_CHAD ===
 Name: CHAD
@@ -1274,20 +1847,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Drowzee
-Level: 19
+Ability: Insomnia
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Hypnosis
+- Headbutt
+- Nasty Plot
 
-Sandshrew
-Level: 19
+Sandslash
+Ability: Sand Veil
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Rollout
+- Rapid Spin
+- Sand Attack
 
-Loudred
-Level: 19
+Ariados
+Ability: Swarm
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Sneak
+- Leech Life
+- Poison Sting
+- Scary Face
 
-Bidoof
-Level: 19
+Poliwhirl
+Ability: Water Absorb
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bubble Beam
+- Hypnosis
+- Body Slam
+- Secret Power
 
 === TRAINER_LASS_HALEY ===
 Name: HALEY
@@ -1298,21 +1891,40 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Bellsprout
-Level: 19
+Cacnea
+Ability: Water Absorb
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pin Missile
+- Sand Attack
+- Leech Seed
+- Magical Leaf
 
-Starly
-Level: 19
+Pidgeotto
+Ability: Keen Eye
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Twister
+- Gust
+- Sand Attack
+- Quick Attack
 
 Paras
-Level: 19
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Spore
+- Leech Life
+- Cut
 
 Pikachu
-Level: 19
+Ability: Static
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slam
+- Double Team
+- Thunder Wave
+- Thunder Punch
 
 === TRAINER_TEAM_ROCKET_GRUNT_5 ===
 Name: GRUNT
@@ -1324,20 +1936,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Machop
-Level: 20
+Ability: Guts
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Revenge
+- Foresight
+- Karate Chop
+- Seismic Toss
 
-Drowzee
-Level: 20
+Mightyena
+Ability: Intimidate
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sand Attack
+- Bite
+- Howl
+- Poison Fang
 
 Riolu
-Level: 20
+Ability: Steadfast
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Reversal
+- Force Palm
+- Quick Attack
+- Foresight
 
 Venonat
-Level: 20
+Ability: Tinted Lens
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Life
+- Stun Spore
+- Confusion
+- Supersonic
 
 === TRAINER_CERULEAN_GYM_GUARDIAN ===
 Name: GRUNT
@@ -1394,18 +2026,18 @@ Music: Swimmer
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Totodile
+Croconaw
 Ability: Torrent
-Level: 17
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Scary Face
 - Water Pulse
 - Bite
 - Rain Dance
 
-Shellos
+Shellos @ Soft Sand
 Ability: Sticky Hold
-Level: 17
+Level: 23
 IVs: 1 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 1 Spe
 - Mud Bomb
 - Mud Sport
@@ -1414,7 +2046,7 @@ IVs: 1 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 1 Spe
 
 Horsea
 Ability: Sniper
-Level: 17
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Focus Energy
 - Water Pulse
@@ -1423,7 +2055,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shellder
 Ability: Shell Armor
-Level: 17
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Icicle Spear
 - Supersonic
@@ -1441,7 +2073,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Tentacool
 Ability: Liquid Ooze
-Level: 19
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Toxic Spikes
 - Bubblebeam
@@ -1449,26 +2081,26 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Supersonic
 
 Corphish
-Ability: Swift Swim
-Level: 19
+Ability: Shell Armor
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Peck
-- Supersonic
-- Horn Attack
-- Water Pulse
+- ViceGrip
+- Leer
+- Knock Off
+- Cut
 
 Azumarill
 Ability: Huge Power
-Level: 19
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rollout
 - Defense Curl
 - Water Pulse
 - Tail Whip
 
-Wooper
+Quagsire
 Ability: Water Absorb
-Level: 19
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Mud Shot
 - Slam
