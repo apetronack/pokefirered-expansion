@@ -1544,17 +1544,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Nincada
-Level: 20
+Ninjask
+Ability: Speed Boost
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bug Bite
+- Sand Attack
+- Fury Swipes
+- Faint Attack
 
 Venonat
-Level: 20
+Ability: Tinted Lens
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stun Spore
+- Disable
+- Leech Life
+- Confusion
 
-Butterfree
-Level: 20
+Scyther
+Ability: Technician
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pursuit
+- Quick Attack
+- Wing Attack
+- Cut
 
 === TRAINER_CAMPER_RICKY ===
 Name: RICKY
@@ -1566,20 +1581,40 @@ Double Battle: Yes
 AI: AI_FLAG_SMART_TRAINER
 
 Wartortle
-Level: 20
+Ability: Torrent
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rapid Spin
+- Water Pulse
+- Bite
+- Withdraw
 
 Combusken
-Level: 20
+Ability: Speed Boost
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Sand Attack
+- Double Kick
+- Ember
 
 Bayleef
-Level: 20
+Ability: Overgrow
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Magical Leaf
+- Reflect
+- Poison Powder
+- Nature Power
 
 Luxio
-Level: 20
+Ability: Intimidate
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spark
+- Bite
+- Charge
+- Leer
 
 === TRAINER_PICNICKER_NANCY ===
 Name: NANCY
@@ -1590,20 +1625,20 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Zigzagoon
-Level: 20
+Linoone
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Electrike
-Level: 20
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Houndour
-Level: 20
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Pikachu
-Level: 20
+Phanpy
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BUG_CATCHER_ELIJAH ===
@@ -1615,12 +1650,12 @@ Music: Male
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Butterfree
-Level: 21
+Heracross
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Spinarak
-Level: 21
+Forretress
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PICNICKER_ISABELLE ===
@@ -1633,19 +1668,19 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER  
 
 Pidgeotto
-Level: 20
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Staravia
-Level: 20
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wingull
-Level: 20
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Natu
-Level: 20
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CAMPER_JEFF ===
@@ -1657,20 +1692,20 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER  
 
-Taillow
-Level: 20
+Swellow
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Furret
-Level: 20
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Azumarill
-Level: 20
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bibarel
-Level: 20
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_YOUNGSTER_EDDIE ===
@@ -1682,20 +1717,20 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Gulpin
-Level: 21
+Croagunk
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rhyhorn
-Level: 21
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Vigoroth
-Level: 21
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Buizel
-Level: 21
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GAMER_HUGO ===
@@ -1708,19 +1743,19 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Poliwhirl
-Level: 22
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Gulpin
-Level: 22
+Nidorino
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Cherubi
-Level: 22
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Stunky
-Level: 22
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_YOUNGSTER_DAVE ===
@@ -1732,12 +1767,12 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Nidoran M
-Level: 21
+Nidorina
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidorino
-Level: 22
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_YOUNGSTER_DILLON ===
@@ -1749,20 +1784,20 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Sandshrew
-Level: 21
+Sandslash
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Exeggcute
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Shinx
-Level: 21
+Luxio
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shuppet
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ENGINEER_BERNIE ===
@@ -1775,19 +1810,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Magnemite
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Luxio
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magneton
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Electrike
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GAMER_JASPER ===
@@ -1800,19 +1835,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Bellsprout
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Snover
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Loudred
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Natu
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ENGINEER_BRAXTON ===
@@ -1825,11 +1860,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Mareep
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Clefairy
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_YOUNGSTER_YASU ===
@@ -1842,19 +1877,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Kirlia
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Furret
-Level: 21
+Munchlax
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Makuhita
-Level: 21
+Meditite
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Natu
-Level: 21
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GAMER_DARIAN ===
