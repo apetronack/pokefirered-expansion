@@ -1,54 +1,54 @@
 Progression Tracking
 Cap 1: Brock, level 13
     Pallet Town
-        Lab Rival, level 5 X
+        Lab Rival, level 5 XY
     Route 1
         No trainers
     Viridian City
         No trainers
     Route 22
-        Early Rival, cap 9 X
+        Early Rival, cap 9 XY
     Route 2
         No trainers
     Viridian Forest
-        Rick X
-        Doug X
-        Anthony X
-        Charlie X
-        Sammy X
+        Rick XY
+        Doug XY
+        Anthony XY
+        Charlie XY
+        Sammy XY
     Pewter City
-        Liam X
-        Brock X
+        Liam XY
+        Brock XY
 Cap 2: Rival 2, level 20
     Route 3
-        Janice X
-        Colton X
-        Ben X
-        Greg X
-        Calvin X
-        Sally X
-        James X
-        Robin X
+        Janice XY
+        Colton XY
+        Ben XY
+        Greg XY
+        Calvin XY
+        Sally XY
+        James XY
+        Robin XY
     Route 4
         No trainers (yet)
     Mt Moon 1F
-        Kent X
-        Iris X
-        Jovan X
-        Robby X
-        Miriam X
-        Josh X
-        Marcos X
+        Kent XY
+        Iris XY
+        Jovan XY
+        Robby XY
+        Miriam XY
+        Josh XY
+        Marcos XY
     Mt Moon B1F
         No trainers
     Mt Moon B2F
-        Grunt2 X
-        Grunt4 X
-        Grunt3 X
-        Grunt1 X
-        Miguel X
+        Grunt2 XY
+        Grunt4 XY
+        Grunt3 XY
+        Grunt1 XY
+        Miguel XY
     Cerulean City
-        Rival Nugget Bridge X
+        Rival Nugget Bridge XY
 Cap 3: Misty, level 23
     Route 24
         Cale X
