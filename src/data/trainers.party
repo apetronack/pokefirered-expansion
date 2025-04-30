@@ -2257,21 +2257,41 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Linoone
+Swablu
+Ability: Natural Cure
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sing
+- Astonish
+- Peck
+- Fury Attack
 
-Electrike
+Pikachu
+Ability: Static
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slam
+- Thunder Wave
+- Thunder Punch
+- Mega Punch
 
 Houndour
+Ability: Flash Fire
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Ember
+- Howl
+- Thunder Fang
 
-Phanpy
+Phanpy @ Cheri Berry
+Ability: Pickup
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Rollout
+- Natural Gift
+- Flail
 
 === TRAINER_BUG_CATCHER_ELIJAH ===
 Name: ELIJAH
@@ -2283,12 +2303,22 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Heracross
+Ability: Guts
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Brick Break
+- Aerial Ace
+- Night Slash
+- Cut
 
-Forretress
+Scizor
+Ability: Technician
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Metal Claw
+- Pursuit
+- Cut
+- Wing Attack
 
 === TRAINER_PICNICKER_ISABELLE ===
 Name: ISABELLE
@@ -2300,20 +2330,40 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER  
 
 Pidgeotto
+Ability: Keen Eye
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Twister
+- Quick Attack
+- Gust
+- Sand Attack
 
 Staravia
+Ability: Intimidate
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Feather Dance
+- Fury Attack
+- Quick Attack
 
 Wingull
+Ability: Hydration
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rain Dance
+- Water Pulse
+- Supersonic
+- Secret Power
 
 Natu
+Ability: Synchronize
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Night Shade
+- Peck
+- Secret Power
 
 === TRAINER_CAMPER_JEFF ===
 Name: JEFF
@@ -2321,24 +2371,44 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER  
 
-Swellow
+Swellow @ Flame Orb
+Ability: Guts
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Quick Attack
+- Double Team
+- Secret Power
 
 Furret
+Ability: Keen Eye
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Follow Me
+- Helping Hand
+- Defense Curl
+- Quick Attack
 
 Azumarill
+Ability: Huge Power
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Rollout
+- Aqua Jet
+- Charm
 
 Bibarel
+Ability: Simple
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Hyper Fang
+- Water Gun
+- Defense Curl
 
 === TRAINER_YOUNGSTER_EDDIE ===
 Name: EDDIE
@@ -2350,20 +2420,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Croagunk
+Ability: Dry Skin
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Faint Attack
+- Revenge
+- Mud Slap
+- Poison Sting
 
 Rhyhorn
+Ability: Rock Head
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scary Face
+- Horn Attack
+- Tail Whip
+- Rock Tomb
 
 Vigoroth
+Ability: Vital Spirit
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Swipes
+- Encore
+- Body Slam
+- Faint Attack
 
 Buizel
+Ability: Swift Swim
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Jet
+- Pursuit
+- Swift
+- Rock Tomb
 
 === TRAINER_GAMER_HUGO ===
 Name: HUGO
@@ -2375,20 +2465,40 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Poliwhirl
+Ability: Water Absorb
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Body Slam
+- Water Pulse
+- DoubleSlap
 
 Nidorino
+Ability: Poison Point
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Horn Attack
+- Double Kick
+- Peck
+- Water Pulse
 
 Cherubi
+Ability: Chlorophyll
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Magical Leaf
+- Helping Hand
+- Leech Seed
+- Growth
 
 Stunky
+Ability: Stench
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic
+- Screech
+- Fury Swipes
+- Thief
 
 === TRAINER_YOUNGSTER_DAVE ===
 Name: DAVE
@@ -2400,12 +2510,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Nidorina
+Ability: Poison Point
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Double Kick
+- Poison Sting
+- Tail Whip
 
 Nidorino
+Ability: Poison Point
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Tail
+- Shock Wave
+- Confusion
+- Double Kick
 
 === TRAINER_YOUNGSTER_DILLON ===
 Name: DILLON
@@ -2417,20 +2537,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Sandslash
+Ability: Sand Veil
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crush Claw
+- Rapid Spin
+- Defense Curl
+- Rollout
 
 Exeggcute
+Ability: Chlorophyll
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sleep Powder
+- Leech Seed
+- Bullet Seed
+- Barrage
 
 Luxio
+Ability: Intimidate
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spark
+- Charge
+- Bite
+- Leer
 
 Shuppet
+Ability: Insomnia
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Will O Wisp
+- Shadow Sneak
+- Knock Off
+- Night Shade
 
 === TRAINER_ENGINEER_BERNIE ===
 Name: BERNIE
