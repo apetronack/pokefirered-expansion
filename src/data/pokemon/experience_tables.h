@@ -1,19 +1,28 @@
 #define SQUARE(n)((n) * (n))
 #define CUBE(n)((n) * (n) * (n))
 
-#define EXP_SLOW(n)((3 / 4) * (5 * CUBE(n)) / 4) // (5 * (n)^3) / 4
-#define EXP_FAST(n)((3 / 4) * (4 * CUBE(n)) / 5) // (4 * (n)^3) / 5
-#define EXP_MEDIUM_FAST(n)((3 / 4) * CUBE(n)) // (n)^3
-#define EXP_MEDIUM_SLOW(n)((3 / 4) * (6 * CUBE(n)) / 5 - (15 * SQUARE(n)) + (100 * n) - 140)    // (6 * (n)^3) / 5 - (15 * (n)^2) + (100 * n) - 140
+#define EXP_SLOW(n) ((15 * CUBE(n)) / 16) // Original: (5 * (n)^3) / 4
+#define EXP_FAST(n) ((3 * CUBE(n)) / 5) // Original: (4 * (n)^3) / 5
+#define EXP_MEDIUM_FAST(n) (3 * CUBE(n) / 4) // Original: (n)^3
+#define EXP_MEDIUM_SLOW(n) ((9 * CUBE(n)) / 10 - (45 * SQUARE(n) / 4) + (75 * n) - 105)    // Original: (6 * (n)^3) / 5 - (15 * (n)^2) + (100 * n) - 140
 #define EXP_ERRATIC(n)                                      \
-     (n <= 50) ? ((3 / 4) * (100 - n) * CUBE(n) /  50)                \
-    :(n <= 68) ? ((3 / 4) * (150 - n) * CUBE(n) / 100)                \
-    :(n <= 98) ? ((3 / 4) * ((1911 - 10 * n) / 3) * CUBE(n) / 500)    \
-    :            ((3 / 4) * (160 - n) * CUBE(n) / 100)
+     (n <= 50) ? (3 * (100 - n) * CUBE(n) /  200)                \
+    :(n <= 68) ? (3 * (150 - n) * CUBE(n) / 400)                \
+    :(n <= 98) ? ((1911 - 10 * n) * CUBE(n) / 2000)    \
+    :            (3 * (160 - n) * CUBE(n) / 400)
+    // Original:
+    // (n <= 50) ? ((100 - n) * (n)^3) /  50
+    // :(n <= 68) ? ((150 - n) * (n)^3) / 100
+    // :(n <= 98) ? (((1911 - 10 * n) / 3) * (n)^3) / 500
+    // :            ((160 - n) * (n)^3) / 100
 #define EXP_FLUCTUATING(n)                                  \
-     (n <= 15) ? ((3 / 4) * ((n + 1) / 3 + 24) * CUBE(n) / 50)        \
-    :(n <= 36) ? ((3 / 4) * (n + 14)           * CUBE(n) / 50)        \
-    :            ((3 / 4) * ((n / 2) + 32)     * CUBE(n) / 50)
+     (n <= 15) ? ((n + 73) * CUBE(n) / 200)        \
+    :(n <= 36) ? (3 * (n + 14)           * CUBE(n) / 200)        \
+    :            (3 * ((n / 2) + 32)     * CUBE(n) / 200)
+    // Original:
+    // (n <= 15) ? (((n + 1) / 3 + 24) * (n)^3) / 50
+    // :(n <= 36) ? ((n + 14)           * (n)^3) / 50
+    // :            (((n / 2) + 32)     * (n)^3) / 50
 
 const u32 gExperienceTables[][MAX_LEVEL + 1] =
 {
