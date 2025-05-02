@@ -1718,7 +1718,7 @@ Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Self Destruct
 - Assurance
-- Smoke Screen
+- Smokescreen
 - Smog
 
 Quagsire
@@ -2582,20 +2582,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Magnemite
+Ability: Sturdy
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shock Wave
+- Thunder Wave
+- Metal Sound
+- Secret Power
 
 Luxio
+Ability: Intimidate
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spark
+- Bite
+- Charge
+- Leer
 
-Magneton
+Flaaffy
+Ability: Static
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cotton Spore
+- Brick Break
+- Body Slam
+- Shock Wave
 
 Electrike
+Ability: Static
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spark
+- Quick Attack
+- Howl
+- Thief
 
 === TRAINER_GAMER_JASPER ===
 Name: JASPER
@@ -2606,21 +2626,41 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Bellsprout
+Weepinbell
+Ability: Chlorophyll
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Acid
+- Sleep Powder
+- Magical Leaf
+- Growth
 
 Snover
+Ability: Snow Warning
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Icy Wind
+- Razor Leaf
+- Mist
+- Secret Power
 
 Loudred
+Ability: Soundproof
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Supersonic
+- Uproar
+- Astonish
 
 Natu
+Ability: Synchronize
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Night Shade
+- Peck
+- Secret Power
 
 === TRAINER_ENGINEER_BRAXTON ===
 Name: BRAXTON
@@ -2631,13 +2671,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Mareep
+Tangela
+Ability: Chlorophyll
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bind
+- Vine Whip
+- Sleep Powder
+- Cut
 
-Clefairy
+Clefable
+Ability: Cute Charm
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Metronome
+- Cosmic Power
+- Meteor Mash
+- Secret Power
 
 === TRAINER_YOUNGSTER_YASU ===
 Name: YASU
@@ -2649,20 +2699,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Kirlia
+Ability: Trace
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Magical Leaf
+- Double Team
+- Light Screen
 
-Munchlax
+Munchlax @ Sitrus Berry
+Ability: Thick Fat
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Recycle
+- Screech
+- Lick
+- Body Slam
 
 Meditite
+Ability: Pure Power
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hidden Power
+- Detect
+- Feint
+- Brick Break
 
-Natu
+Staryu
+Ability: Natural Cure
 Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swift
+- Water Pulse
+- Recover
+- Rapid Spin
 
 === TRAINER_GAMER_DARIAN ===
 Name: DARIAN
@@ -2674,16 +2744,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
-Level: 21
+Ability: Intimidate
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flame Wheel
+- Bite
+- Leer
+- Body Slam
 
-Vulpix
-Level: 21
+Monferno
+Ability: Blaze
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flame Wheel
+- Fury Swipes
+- Mach Punch
+- Cut
 
 Slugma
-Level: 21
+Ability: Flame Body
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Recover
+- Rock Throw
+- Yawn
+- Ember
 
 === TRAINER_GAMER_DIRK ===
 Name: DIRK
@@ -2694,17 +2779,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Starly
-Level: 21
+Mightyena
+Ability: Intimidate
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swagger
+- Sand Attack
+- Bite
+- Ice Fang
+
+Noctowl
+Ability: Insomnia
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Peck
+- Reflect
+- Hypnosis
 
 Magnemite
-Level: 21
+Ability: Sturdy
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Poochyena
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spark
+- Thunder Wave
+- SonicBoom
+- Supersonic
 
 === TRAINER_GENTLEMAN_THOMAS ===
 Name: THOMAS
