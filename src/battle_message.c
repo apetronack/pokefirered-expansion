@@ -539,7 +539,7 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_SHOOTSOCLOSE]                         = COMPOUND_STRING("Gah! It was so close, too!"),
     [STRINGID_GOTCHAPKMNCAUGHTPLAYER]               = COMPOUND_STRING("Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}\p"),
     [STRINGID_GOTCHAPKMNCAUGHTWALLY]                = COMPOUND_STRING("Gotcha! {B_DEF_NAME} was caught!{WAIT_SE}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}"),
-    [STRINGID_GIVENICKNAMECAPTURED]                 = COMPOUND_STRING("Would you like to give {B_DEF_NAME} a nickname?"),
+    [STRINGID_GIVENICKNAMECAPTURED]                 = COMPOUND_STRING("Would you like to give {B_DEF_NAME_WITH_PREFIX2} a nickname?"),
     [STRINGID_PKMNSENTTOPC]                         = COMPOUND_STRING("{B_DEF_NAME} has been sent to {B_PC_CREATOR_NAME} PC!"), //Still used lanette's pc since terminology is different
     [STRINGID_PKMNDATAADDEDTODEX]                   = COMPOUND_STRING("{B_DEF_NAME}'s data has been added to the Pokédex!\p"),
     [STRINGID_ITISRAINING]                          = COMPOUND_STRING("It's raining!"),
@@ -2872,16 +2872,16 @@ void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
             {
                 if (src[srcID] == B_BUFF_MON_NICK_WITH_PREFIX_LOWER)
                 {
-                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER && !IsCaughtPokemon(src[srcID + 2]))
+                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
                         StringAppend(dst, sText_FoePkmnPrefixLower);
-                    else if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER))
+                    else
                         StringAppend(dst, sText_WildPkmnPrefixLower);
                 }
                 else
                 {
-                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER && !IsCaughtPokemon(src[srcID + 2]))
+                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
                         StringAppend(dst, sText_FoePkmnPrefix);
-                    else if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER))
+                    else
                         StringAppend(dst, sText_WildPkmnPrefix);
                 }
 

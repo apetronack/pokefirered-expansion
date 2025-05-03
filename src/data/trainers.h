@@ -1708,12 +1708,12 @@
         {
             {
 #line 731
-            .species = SPECIES_JIGGLYPUFF,
+            .species = SPECIES_RALTS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 734
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
 #line 732
-            .ability = ABILITY_CUTE_CHARM,
+            .ability = ABILITY_SYNCHRONIZE,
 #line 733
             .lvl = 15,
             .nature = NATURE_HARDY,
