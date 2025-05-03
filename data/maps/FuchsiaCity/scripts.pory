@@ -155,8 +155,8 @@ script FuchsiaCity_EventScript_GymGuardian {
 	// Check if the player has finished beating Sabrina
 	if (flag(FLAG_BADGE05_GET)) {
 		// If so, display a message and initiate a battle with the Gym guardian
-		msgbox("You can't come through! Koga can't be warned about Team Rocket's plans!")
-		trainerbattle_no_intro(TRAINER_FUSCHIA_GYM_GUARDIAN, "You may have beaten me, but Team Rocket isn't finished!")
+		msgbox(format("You can't come through! Koga can't be warned about Team Rocket's plans!"))
+		trainerbattle_no_intro(TRAINER_FUSCHIA_GYM_GUARDIAN, format("You may have beaten me, but Team Rocket isn't finished!"))
 		if (defeated(TRAINER_FUSCHIA_GYM_GUARDIAN)) {
 			// If the player wins, display a message, then have the Gym guardian leave
 			fadescreen(FADE_TO_BLACK)
@@ -165,11 +165,11 @@ script FuchsiaCity_EventScript_GymGuardian {
 			setflag(FLAG_HIDE_FUSCHIA_GYM_GUARDIAN)
 		} else {
 			// If the player loses, display a message, but leave the Gym guardian in place
-			msgbox("Team Rocket will always be one step ahead of you!")
+			msgbox(format("Team Rocket will always be one step ahead of you!"))
 		}
 	} else {
 		// If not, display a message and block the player
-		msgbox("Boss said I should keep Koga from interfering with Team Rocket's plans! Don't get any ideas about warning him!")
+		msgbox(format("Boss said I should keep Koga from interfering with Team Rocket's plans! Don't get any ideas about warning him!"))
 	}
 	release
 	end

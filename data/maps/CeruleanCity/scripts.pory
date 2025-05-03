@@ -389,8 +389,8 @@ script CeruleanCity_EventScript_GymGuardian {
 	// Check if the player has cleared Nugget bridge
 	if (flag(FLAG_HIDE_NUGGET_BRIDGE_ROCKET)) {
 		// If so, display a message and initiate a battle with the Gym guardian
-		msgbox("You turned down Team Rocket's offer? I guess I have to take you down myself!")
-		trainerbattle_no_intro(TRAINER_CERULEAN_GYM_GUARDIAN, "You may have beaten me, but you won't beat Misty!")
+		msgbox(format("You turned down Team Rocket's offer? I guess I have to take you down myself!"))
+		trainerbattle_no_intro(TRAINER_CERULEAN_GYM_GUARDIAN, format("You may have beaten me, but you won't beat Misty!"))
 		if (defeated(TRAINER_CERULEAN_GYM_GUARDIAN)) {
 			// If the player wins, display a message, then have the Gym guardian leave
 			fadescreen(FADE_TO_BLACK)
@@ -399,11 +399,11 @@ script CeruleanCity_EventScript_GymGuardian {
 			setflag(FLAG_HIDE_CERULEAN_GYMGUARDIAN)
 		} else {
 			// If the player loses, display a message, but leave the Gym guardian in place
-			msgbox("Team Rocket will always be one step ahead of you!")
+			msgbox(format("Team Rocket will always be one step ahead of you!"))
 		}
 	} else {
 		// If not, display a message and block the player
-		msgbox("Boss said I should keep Misty from interfering with Team Rocket's plans! Don't get any ideas about warning her!")
+		msgbox(format("Boss said I should keep Misty from interfering with Team Rocket's plans! Don't get any ideas about warning her!"))
 	}
 	release
 	end
