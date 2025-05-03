@@ -34,7 +34,7 @@ Route24_Text_YoudBecomeTopRocketLeader::
     .string "Don't let this chance go to waste.$"
 
 Route24_Text_ShaneIntro::
-    .string "I saw your feat from the grass!$"
+    .string "I saw your feet from the grass!$"
 
 Route24_Text_ShaneDefeat::
     .string "I thought not!$"
