@@ -2857,16 +2857,16 @@ void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
             {
                 if (src[srcID] == B_BUFF_MON_NICK_WITH_PREFIX_LOWER)
                 {
-                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER && !IsCaughtPokemon(src[srcID + 2]))
                         StringAppend(dst, sText_FoePkmnPrefixLower);
-                    else
+                    else if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER))
                         StringAppend(dst, sText_WildPkmnPrefixLower);
                 }
                 else
                 {
-                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER && !IsCaughtPokemon(src[srcID + 2]))
                         StringAppend(dst, sText_FoePkmnPrefix);
-                    else
+                    else if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER))
                         StringAppend(dst, sText_WildPkmnPrefix);
                 }
 
