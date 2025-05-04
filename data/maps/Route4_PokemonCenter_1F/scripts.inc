@@ -95,9 +95,9 @@ Route4_PokemonCenter_1F_EventScript_TryBuyFeebas::
 # 48 "data/maps/Route4_PokemonCenter_1F/scripts.pory"
 	textcolor NPC_TEXT_COLOR_NEUTRAL
 # 49 "data/maps/Route4_PokemonCenter_1F/scripts.pory"
-	setvar VAR_TEMP_1, SPECIES_MAGIKARP
+	setvar VAR_TEMP_1, SPECIES_FEEBAS
 # 50 "data/maps/Route4_PokemonCenter_1F/scripts.pory"
-	givemon SPECIES_MAGIKARP, 5
+	givemon SPECIES_FEEBAS, 5
 # 51 "data/maps/Route4_PokemonCenter_1F/scripts.pory"
 	goto_if_eq VAR_RESULT, 0, Route4_PokemonCenter_1F_EventScript_BuyFeebasParty
 # 52 "data/maps/Route4_PokemonCenter_1F/scripts.pory"
@@ -213,7 +213,7 @@ Route4_PokemonCenter_1F_EventScript_PayForFeebas::
 # 107 "data/maps/Route4_PokemonCenter_1F/scripts.pory"
 	waitfanfare
 # 108 "data/maps/Route4_PokemonCenter_1F/scripts.pory"
-	bufferspeciesname STR_VAR_1, SPECIES_MAGIKARP
+	bufferspeciesname STR_VAR_1, SPECIES_FEEBAS
 # 109 "data/maps/Route4_PokemonCenter_1F/scripts.pory"
 	return
 # 110 "data/maps/Route4_PokemonCenter_1F/scripts.pory"
