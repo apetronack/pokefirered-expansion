@@ -2035,12 +2035,12 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
 - Rain Dance
 
-Shellos @ Soft Sand
-Ability: Sticky Hold
+Wingull @ Sharp Beak
+Ability: Hydration
 Level: 23
-IVs: 1 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 1 Spe
-- Mud Bomb
-- Mud Sport
+IVs: 3 HP / 3 Atk / 3 Def / 0 SpA / 0 SpD / 3 Spe
+- Supersonic
+- Wing Attack
 - Water Pulse
 - Hidden Power
 
@@ -3178,7 +3178,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 21
+Level: 25
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Wing Attack
 - Secret Power
@@ -3188,7 +3188,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Flaaffy @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 22
+Level: 25
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Shock Wave
@@ -3198,7 +3198,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Kadabra
 Ability: Synchronize
 Mild Nature
-Level: 21
+Level: 25
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hidden Power
 - Confusion
@@ -3208,7 +3208,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Aron @ Sitrus Berry
 Ability: Sturdy
 Adamant Nature
-Level: 22
+Level: 25
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Iron Defense
 - Metal Claw
@@ -3218,7 +3218,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Wartortle @ Sitrus Berry
 Ability: Torrent
 Mild Nature
-Level: 23
+Level: 26
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Water Pulse
 - Bite
@@ -3237,7 +3237,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 21
+Level: 25
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Wing Attack
 - Secret Power
@@ -3247,7 +3247,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Flaaffy @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 22
+Level: 25
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Shock Wave
@@ -3257,7 +3257,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Kadabra
 Ability: Synchronize
 Mild Nature
-Level: 21
+Level: 25
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hidden Power
 - Confusion
@@ -3267,7 +3267,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Aron @ Sitrus Berry
 Ability: Sturdy
 Adamant Nature
-Level: 22
+Level: 25
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Iron Defense
 - Metal Claw
@@ -3277,7 +3277,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Ivysaur @ Sitrus Berry
 Ability: Overgrow
 Mild Nature
-Level: 23
+Level: 26
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Razor Leaf
 - Take Down
@@ -3296,7 +3296,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 21
+Level: 25
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Wing Attack
 - Secret Power
@@ -3306,7 +3306,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Flaaffy @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 22
+Level: 25
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Shock Wave
@@ -3316,7 +3316,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Aron @ Sitrus Berry
 Ability: Sturdy
 Adamant Nature
-Level: 22
+Level: 25
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Iron Defense
 - Metal Claw
@@ -3326,7 +3326,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Kadabra
 Ability: Synchronize
 Mild Nature
-Level: 21
+Level: 25
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Hidden Power
 - Confusion
@@ -3335,7 +3335,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Charmeleon @ Sitrus Berry
 Ability: Blaze
-Level: 23
+Level: 26
 Rash Nature
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Dragon Rage
