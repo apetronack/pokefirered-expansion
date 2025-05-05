@@ -21,7 +21,7 @@ CinnabarIsland_PokemonLab_ExperimentRoom_EventScript_Garett::
 # 11 "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/scripts.pory"
 	faceplayer
 # 12 "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/scripts.pory"
-	setvar VAR_0x8008, INGAME_TRADE_SEEL
+	setvar VAR_0x8008, INGAME_TRADE_SPHEAL
 # 13 "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/scripts.pory"
 	call EventScript_GetInGameTradeSpeciesInfo
 # 14 "data/maps/CinnabarIsland_PokemonLab_ExperimentRoom/scripts.pory"

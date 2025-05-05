@@ -13,7 +13,7 @@ VermilionCity_House2_EventScript_Elyssa::
 # 7 "data/maps/VermilionCity_House2/scripts.pory"
 	faceplayer
 # 8 "data/maps/VermilionCity_House2/scripts.pory"
-	setvar VAR_0x8008, INGAME_TRADE_FARFETCHD
+	setvar VAR_0x8008, INGAME_TRADE_DODUO
 # 9 "data/maps/VermilionCity_House2/scripts.pory"
 	call EventScript_GetInGameTradeSpeciesInfo
 # 10 "data/maps/VermilionCity_House2/scripts.pory"

@@ -1773,7 +1773,7 @@
           }
         },
         {
-          "map": "MAP_DIGLETTS_CAVE_B1F",
+          "map": "MAP_RIOLUS_CAVE_B1F",
           "base_label": "sDiglettsCaveB1F_FireRed",
           "land_mons": {
             "encounter_rate": 5,
@@ -1819,30 +1819,30 @@
                 "species": "SPECIES_PHANPY"
               },
               {
-                "min_level": 29,
-                "max_level": 31,
+                "min_level": 23,
+                "max_level": 23,
                 "species": "SPECIES_RIOLU"
               },
               {
-                "min_level": 29,
-                "max_level": 31,
+                "min_level": 23,
+                "max_level": 23,
                 "species": "SPECIES_GIBLE"
               },
               {
-                "min_level": 31,
-                "max_level": 31,
+                "min_level": 23,
+                "max_level": 23,
                 "species": "SPECIES_RIOLU"
               },
               {
-                "min_level": 31,
-                "max_level": 31,
+                "min_level": 23,
+                "max_level": 23,
                 "species": "SPECIES_GIBLE"
               }
             ]
           }
         },
         {
-          "map": "MAP_DIGLETTS_CAVE_B1F",
+          "map": "MAP_RIOLUS_CAVE_B1F",
           "base_label": "sDiglettsCaveB1F_LeafGreen",
           "land_mons": {
             "encounter_rate": 5,
