@@ -21,7 +21,7 @@ CeruleanCity_House3_EventScript_Dontae::
 # 11 "data/maps/CeruleanCity_House3/scripts.pory"
 	faceplayer
 # 12 "data/maps/CeruleanCity_House3/scripts.pory"
-	setvar VAR_0x8008, INGAME_TRADE_JYNX
+	setvar VAR_0x8008, INGAME_TRADE_SNEASEL
 # 13 "data/maps/CeruleanCity_House3/scripts.pory"
 	call EventScript_GetInGameTradeSpeciesInfo
 # 14 "data/maps/CeruleanCity_House3/scripts.pory"

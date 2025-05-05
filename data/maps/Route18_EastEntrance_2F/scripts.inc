@@ -29,7 +29,7 @@ Route18_EastEntrance_2F_EventScript_Haden::
 # 15 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 	faceplayer
 # 16 "data/maps/Route18_EastEntrance_2F/scripts.pory"
-	setvar VAR_0x8008, INGAME_TRADE_LICKITUNG
+	setvar VAR_0x8008, INGAME_TRADE_GIRAFARIG
 # 17 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 	call EventScript_GetInGameTradeSpeciesInfo
 # 18 "data/maps/Route18_EastEntrance_2F/scripts.pory"

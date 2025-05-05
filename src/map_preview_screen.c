@@ -97,10 +97,10 @@ static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] = {
         .tilemapptr = sMtMoonMapPreviewTilemap,
         .palptr = sMtMoonMapPreviewPalette
     },
-    [MPS_DIGLETTS_CAVE] = {
-        .mapsec = MAPSEC_DIGLETTS_CAVE,
+    [MPS_RIOLUS_CAVE] = {
+        .mapsec = MAPSEC_RIOLUS_CAVE,
         .type = MPS_TYPE_CAVE,
-        .flagId = FLAG_WORLD_MAP_DIGLETTS_CAVE_B1F,
+        .flagId = FLAG_WORLD_MAP_RIOLUS_CAVE_B1F,
         .tilesptr = sDiglettsCaveMapPreviewTiles,
         .tilemapptr = sDiglettsCaveMapPreviewTilemap,
         .palptr = sDiglettsCaveMapPreviewPalette
