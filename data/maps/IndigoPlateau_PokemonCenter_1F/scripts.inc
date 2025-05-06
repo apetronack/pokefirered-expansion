@@ -121,26 +121,30 @@ IndigoPlateau_PokemonCenter_1F_Items::
 # 61 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
 	.2byte ITEM_REVIVE
 # 62 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
-	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_MAX_ETHER
 # 63 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
-	.2byte ITEM_MAX_REPEL
+	.2byte ITEM_MAX_ELIXIR
 # 64 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_FULL_HEAL
 # 65 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
-	release
+	.2byte ITEM_MAX_REPEL
 # 66 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
-	end
+	.2byte ITEM_NONE
 # 67 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
-
-# 68 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
-IndigoPlateau_PokemonCenter_1F_EventScript_Nurse::
-# 69 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
-	lock
-# 70 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
-	faceplayer
-# 71 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
-	call EventScript_PkmnCenterNurse
-# 72 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
 	release
+# 68 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
+	end
+# 69 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
+
+# 70 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
+IndigoPlateau_PokemonCenter_1F_EventScript_Nurse::
+# 71 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
+	lock
+# 72 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
+	faceplayer
 # 73 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
+	call EventScript_PkmnCenterNurse
+# 74 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
+	release
+# 75 "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.pory"
 	end

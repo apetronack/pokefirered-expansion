@@ -55,20 +55,24 @@ CeruleanCity_Mart_Items::
 # 28 "data/maps/CeruleanCity_Mart/scripts.pory"
 	.2byte ITEM_POTION
 # 29 "data/maps/CeruleanCity_Mart/scripts.pory"
-	.2byte ITEM_ANTIDOTE
+	.2byte ITEM_ETHER
 # 30 "data/maps/CeruleanCity_Mart/scripts.pory"
-	.2byte ITEM_PARALYZE_HEAL
+	.2byte ITEM_ELIXIR
 # 31 "data/maps/CeruleanCity_Mart/scripts.pory"
-	.2byte ITEM_AWAKENING
+	.2byte ITEM_ANTIDOTE
 # 32 "data/maps/CeruleanCity_Mart/scripts.pory"
-	.2byte ITEM_BURN_HEAL
+	.2byte ITEM_PARALYZE_HEAL
 # 33 "data/maps/CeruleanCity_Mart/scripts.pory"
-	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_AWAKENING
 # 34 "data/maps/CeruleanCity_Mart/scripts.pory"
-	.2byte ITEM_REPEL
+	.2byte ITEM_BURN_HEAL
 # 35 "data/maps/CeruleanCity_Mart/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_ESCAPE_ROPE
 # 36 "data/maps/CeruleanCity_Mart/scripts.pory"
-	release
+	.2byte ITEM_REPEL
 # 37 "data/maps/CeruleanCity_Mart/scripts.pory"
+	.2byte ITEM_NONE
+# 38 "data/maps/CeruleanCity_Mart/scripts.pory"
+	release
+# 39 "data/maps/CeruleanCity_Mart/scripts.pory"
 	end

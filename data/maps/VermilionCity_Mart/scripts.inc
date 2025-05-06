@@ -53,18 +53,22 @@ VermilionCity_Mart_Items::
 # 27 "data/maps/VermilionCity_Mart/scripts.pory"
 	.2byte ITEM_SUPER_POTION
 # 28 "data/maps/VermilionCity_Mart/scripts.pory"
-	.2byte ITEM_ANTIDOTE
+	.2byte ITEM_ETHER
 # 29 "data/maps/VermilionCity_Mart/scripts.pory"
-	.2byte ITEM_PARALYZE_HEAL
+	.2byte ITEM_ELIXIR
 # 30 "data/maps/VermilionCity_Mart/scripts.pory"
-	.2byte ITEM_AWAKENING
+	.2byte ITEM_ANTIDOTE
 # 31 "data/maps/VermilionCity_Mart/scripts.pory"
-	.2byte ITEM_ICE_HEAL
+	.2byte ITEM_PARALYZE_HEAL
 # 32 "data/maps/VermilionCity_Mart/scripts.pory"
-	.2byte ITEM_REPEL
+	.2byte ITEM_AWAKENING
 # 33 "data/maps/VermilionCity_Mart/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_ICE_HEAL
 # 34 "data/maps/VermilionCity_Mart/scripts.pory"
-	release
+	.2byte ITEM_REPEL
 # 35 "data/maps/VermilionCity_Mart/scripts.pory"
+	.2byte ITEM_NONE
+# 36 "data/maps/VermilionCity_Mart/scripts.pory"
+	release
+# 37 "data/maps/VermilionCity_Mart/scripts.pory"
 	end
