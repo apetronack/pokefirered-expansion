@@ -61,68 +61,76 @@ CeladonCity_DepartmentStore_2F_Items::
 # 31 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
 	.2byte ITEM_SUPER_POTION
 # 32 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_REVIVE
+	.2byte ITEM_ETHER
 # 33 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_ANTIDOTE
+	.2byte ITEM_ELIXIR
 # 34 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_PARALYZE_HEAL
+	.2byte ITEM_MAX_ETHER
 # 35 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_AWAKENING
+	.2byte ITEM_MAX_ELIXIR
 # 36 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_BURN_HEAL
+	.2byte ITEM_REVIVE
 # 37 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_ICE_HEAL
+	.2byte ITEM_ANTIDOTE
 # 38 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_SUPER_REPEL
+	.2byte ITEM_PARALYZE_HEAL
 # 39 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_AWAKENING
 # 40 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	release
+	.2byte ITEM_BURN_HEAL
 # 41 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	end
+	.2byte ITEM_ICE_HEAL
 # 42 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-
+	.2byte ITEM_SUPER_REPEL
 # 43 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-CeladonCity_DepartmentStore_2F_EventScript_ClerkTMs::
-# 44 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	goto_if_questlog EventScript_ReleaseEnd
-# 45 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	lock
-# 46 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	faceplayer
-# 47 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	message Text_MayIHelpYou
-# 48 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	waitmessage
-# 49 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	pokemart CeladonCity_DepartmentStore_2F_TMs
-# 50 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	msgbox Text_PleaseComeAgain
-# 51 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	release
-# 52 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	end
-# 53 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-
-# 54 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.align 2
-# 55 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-CeladonCity_DepartmentStore_2F_TMs::
-# 56 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_TM05
-# 57 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_TM15
-# 58 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_TM28
-# 59 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_TM31
-# 60 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_TM43
-# 61 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_TM45
-# 62 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
 	.2byte ITEM_NONE
-# 63 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+# 44 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
 	release
+# 45 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	end
+# 46 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+
+# 47 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+CeladonCity_DepartmentStore_2F_EventScript_ClerkTMs::
+# 48 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	goto_if_questlog EventScript_ReleaseEnd
+# 49 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	lock
+# 50 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	faceplayer
+# 51 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	message Text_MayIHelpYou
+# 52 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	waitmessage
+# 53 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	pokemart CeladonCity_DepartmentStore_2F_TMs
+# 54 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	msgbox Text_PleaseComeAgain
+# 55 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	release
+# 56 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	end
+# 57 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+
+# 58 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.align 2
+# 59 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+CeladonCity_DepartmentStore_2F_TMs::
+# 60 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM05
+# 61 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM15
+# 62 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM28
+# 63 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM31
 # 64 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM43
+# 65 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM45
+# 66 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_NONE
+# 67 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	release
+# 68 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
 	end

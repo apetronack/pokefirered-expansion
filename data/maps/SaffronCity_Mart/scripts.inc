@@ -53,16 +53,20 @@ SaffronCity_Mart_Items::
 # 27 "data/maps/SaffronCity_Mart/scripts.pory"
 	.2byte ITEM_HYPER_POTION
 # 28 "data/maps/SaffronCity_Mart/scripts.pory"
-	.2byte ITEM_REVIVE
+	.2byte ITEM_MAX_ETHER
 # 29 "data/maps/SaffronCity_Mart/scripts.pory"
-	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_ELIXIR
 # 30 "data/maps/SaffronCity_Mart/scripts.pory"
-	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_REVIVE
 # 31 "data/maps/SaffronCity_Mart/scripts.pory"
-	.2byte ITEM_MAX_REPEL
+	.2byte ITEM_FULL_HEAL
 # 32 "data/maps/SaffronCity_Mart/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_ESCAPE_ROPE
 # 33 "data/maps/SaffronCity_Mart/scripts.pory"
-	release
+	.2byte ITEM_MAX_REPEL
 # 34 "data/maps/SaffronCity_Mart/scripts.pory"
+	.2byte ITEM_NONE
+# 35 "data/maps/SaffronCity_Mart/scripts.pory"
+	release
+# 36 "data/maps/SaffronCity_Mart/scripts.pory"
 	end

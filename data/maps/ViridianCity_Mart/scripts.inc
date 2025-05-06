@@ -139,38 +139,40 @@ ViridianCity_Mart_Items::
 # 70 "data/maps/ViridianCity_Mart/scripts.pory"
 	.2byte ITEM_POTION
 # 71 "data/maps/ViridianCity_Mart/scripts.pory"
-	.2byte ITEM_ANTIDOTE
+	.2byte ITEM_ETHER
 # 72 "data/maps/ViridianCity_Mart/scripts.pory"
-	.2byte ITEM_PARALYZE_HEAL
+	.2byte ITEM_ANTIDOTE
 # 73 "data/maps/ViridianCity_Mart/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_PARALYZE_HEAL
 # 74 "data/maps/ViridianCity_Mart/scripts.pory"
-	release
+	.2byte ITEM_NONE
 # 75 "data/maps/ViridianCity_Mart/scripts.pory"
-	end
-# 76 "data/maps/ViridianCity_Mart/scripts.pory"
-
-# 77 "data/maps/ViridianCity_Mart/scripts.pory"
-ViridianCity_Mart_EventScript_SayHiToOak::
-# 78 "data/maps/ViridianCity_Mart/scripts.pory"
-	msgbox ViridianCity_Mart_Text_SayHiToOakForMe
-# 79 "data/maps/ViridianCity_Mart/scripts.pory"
 	release
+# 76 "data/maps/ViridianCity_Mart/scripts.pory"
+	end
+# 77 "data/maps/ViridianCity_Mart/scripts.pory"
+
+# 78 "data/maps/ViridianCity_Mart/scripts.pory"
+ViridianCity_Mart_EventScript_SayHiToOak::
+# 79 "data/maps/ViridianCity_Mart/scripts.pory"
+	msgbox ViridianCity_Mart_Text_SayHiToOakForMe
 # 80 "data/maps/ViridianCity_Mart/scripts.pory"
-	end
+	release
 # 81 "data/maps/ViridianCity_Mart/scripts.pory"
-
-# 82 "data/maps/ViridianCity_Mart/scripts.pory"
-ViridianCity_Mart_EventScript_Woman::
-# 83 "data/maps/ViridianCity_Mart/scripts.pory"
-	msgbox ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes, MSGBOX_NPC
-# 84 "data/maps/ViridianCity_Mart/scripts.pory"
 	end
-# 85 "data/maps/ViridianCity_Mart/scripts.pory"
+# 82 "data/maps/ViridianCity_Mart/scripts.pory"
 
+# 83 "data/maps/ViridianCity_Mart/scripts.pory"
+ViridianCity_Mart_EventScript_Woman::
+# 84 "data/maps/ViridianCity_Mart/scripts.pory"
+	msgbox ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes, MSGBOX_NPC
+# 85 "data/maps/ViridianCity_Mart/scripts.pory"
+	end
 # 86 "data/maps/ViridianCity_Mart/scripts.pory"
-ViridianCity_Mart_EventScript_Youngster::
+
 # 87 "data/maps/ViridianCity_Mart/scripts.pory"
-	msgbox ViridianCity_Mart_Text_GotToBuySomePotions, MSGBOX_NPC
+ViridianCity_Mart_EventScript_Youngster::
 # 88 "data/maps/ViridianCity_Mart/scripts.pory"
+	msgbox ViridianCity_Mart_Text_GotToBuySomePotions, MSGBOX_NPC
+# 89 "data/maps/ViridianCity_Mart/scripts.pory"
 	end

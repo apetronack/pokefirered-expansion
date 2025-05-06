@@ -51,103 +51,103 @@ Cap 2: Rival 2, level 20
         Rival Nugget Bridge XY
 Cap 3: Misty, level 23
     Route 24
-        Cale X
-        Ali X
-        Timmy X
-        Reli X
-        Ethan X
-        Grunt6 X
-        Shane X
+        Cale XY
+        Ali XY
+        Timmy XY
+        Reli XY
+        Ethan XY
+        Grunt6 XY
+        Shane XY
     Route 25
-        Franklin X
-        Wayne X
-        Joey X
-        Dan X
-        Kelsey X
-        Nob X
-        Flint X
-        Chad X
-        Haley X
+        Franklin XY
+        Wayne XY
+        Joey XY
+        Dan XY
+        Kelsey XY
+        Nob XY
+        Flint XY
+        Chad XY
+        Haley XY
     Cerulean City
-        Grunt5 X
-        Cerulean_Gym_Guardian X
+        Grunt5 XY
+        Cerulean_Gym_Guardian XY
     Cerulean Gym
-        Luis X
-        Diana X
-        Misty X
+        Luis XY
+        Diana XY
+        Misty XY
 Cap 4: Rival 3, level 25
     Route 5
         No trainers
     Route 6
-        Keigo X
-        Ricky X
-        Nancy X
-        Elijah X
-        Isabelle X
-        Jeff X
+        Keigo XY
+        Ricky XY
+        Nancy XY
+        Elijah XY
+        Isabelle XY
+        Jeff XY
     Route 11
-        Eddie X
-        Hugo X
-        Dave X
-        Dillon X
-        Bernie X
-        Jasper X
-        Braxton X
-        Yasu X
-        Darian X
-        Dirk X
+        Eddie XY
+        Hugo XY
+        Dave XY
+        Dillon XY
+        Bernie XY
+        Jasper XY
+        Braxton XY
+        Yasu XY
+        Darian XY
+        Dirk XY
     Diglett's Cave
         No trainers
     SS Anne 1F
         SS Anne 1F Room 7
-            Thomas X
+            Thomas XY
         SS Anne 1F Room 6
             No trainers
         SS Anne 1F Room 5
-            Arthur X
+            Arthur XY
         SS Anne 1F Room 4
             No trainers
         SS Anne 1F Room 3
             No trainers
         SS Anne 1F Room 2
-            Ann X
-            Tyler X
+            Ann XY
+            Tyler XY
         SS Anne 1F Room 1
             No trainers
     SS Anne B1F
         SS Anne B1F Room 5
             No trainers
         SS Anne B1F Room 4
-            Duncan X
-            Leonard X
+            Duncan XY
+            Leonard XY
         SS Anne B1F Room 3
-            Dylan X
+            Dylan XY
         SS Anne B1F Room 2
-            Huey X
+            Huey XY
         SS Anne B1F Room 1
-            Barny X
-            Phillip X
+            Barny XY
+            Phillip XY
     SS Anne Kitchen
         No trainers
     SS Anne 2F
         SS Anne 2F Room 1
             No trainers
         SS Anne 2F Room 2
-            Dale X
-            Brooks X
+            Dale XY
+            Brooks XY
         SS Anne 2F Room 3
             No trainers
         SS Anne 2F Room 4
-            Lamar X
-            Dawn X
+            Lamar XY
+            Dawn XY
         SS Anne 2F Room 5
             No trainers
         SS Anne 2F Room 6
             No trainers
     SS Anne Deck
-        Trevor X
-        Edmond X
-    Rival 3 X
+        Trevor XY
+        Edmond XY
+    Rival 3 XY
 Cap 5: Lt Surge, level 27
     Vermillion City Gym
         Dwayne X

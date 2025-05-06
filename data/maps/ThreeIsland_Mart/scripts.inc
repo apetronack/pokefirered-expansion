@@ -37,40 +37,44 @@ ThreeIsland_Mart_Items::
 # 19 "data/maps/ThreeIsland_Mart/scripts.pory"
 	.2byte ITEM_HYPER_POTION
 # 20 "data/maps/ThreeIsland_Mart/scripts.pory"
-	.2byte ITEM_REVIVE
+	.2byte ITEM_MAX_ETHER
 # 21 "data/maps/ThreeIsland_Mart/scripts.pory"
-	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_MAX_ELIXIR
 # 22 "data/maps/ThreeIsland_Mart/scripts.pory"
-	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_REVIVE
 # 23 "data/maps/ThreeIsland_Mart/scripts.pory"
-	.2byte ITEM_MAX_REPEL
+	.2byte ITEM_FULL_HEAL
 # 24 "data/maps/ThreeIsland_Mart/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_ESCAPE_ROPE
 # 25 "data/maps/ThreeIsland_Mart/scripts.pory"
-	release
+	.2byte ITEM_MAX_REPEL
 # 26 "data/maps/ThreeIsland_Mart/scripts.pory"
-	end
+	.2byte ITEM_NONE
 # 27 "data/maps/ThreeIsland_Mart/scripts.pory"
-
+	release
 # 28 "data/maps/ThreeIsland_Mart/scripts.pory"
-ThreeIsland_Mart_EventScript_Picnicker::
+	end
 # 29 "data/maps/ThreeIsland_Mart/scripts.pory"
-	msgbox ThreeIsland_Mart_Text_TrueThatCeldadonDeptStoreBigger, MSGBOX_NPC
+
 # 30 "data/maps/ThreeIsland_Mart/scripts.pory"
-	end
+ThreeIsland_Mart_EventScript_Picnicker::
 # 31 "data/maps/ThreeIsland_Mart/scripts.pory"
-
+	msgbox ThreeIsland_Mart_Text_TrueThatCeldadonDeptStoreBigger, MSGBOX_NPC
 # 32 "data/maps/ThreeIsland_Mart/scripts.pory"
-ThreeIsland_Mart_EventScript_BugCatcher::
-# 33 "data/maps/ThreeIsland_Mart/scripts.pory"
-	msgbox ThreeIsland_Mart_Text_PeopleHealWithBerriesFromForest, MSGBOX_NPC
-# 34 "data/maps/ThreeIsland_Mart/scripts.pory"
 	end
-# 35 "data/maps/ThreeIsland_Mart/scripts.pory"
+# 33 "data/maps/ThreeIsland_Mart/scripts.pory"
 
+# 34 "data/maps/ThreeIsland_Mart/scripts.pory"
+ThreeIsland_Mart_EventScript_BugCatcher::
+# 35 "data/maps/ThreeIsland_Mart/scripts.pory"
+	msgbox ThreeIsland_Mart_Text_PeopleHealWithBerriesFromForest, MSGBOX_NPC
 # 36 "data/maps/ThreeIsland_Mart/scripts.pory"
-ThreeIsland_Mart_EventScript_Youngster::
+	end
 # 37 "data/maps/ThreeIsland_Mart/scripts.pory"
-	msgbox ThreeIsland_Mart_Text_BikersWereAboutToTrashMart, MSGBOX_NPC
+
 # 38 "data/maps/ThreeIsland_Mart/scripts.pory"
+ThreeIsland_Mart_EventScript_Youngster::
+# 39 "data/maps/ThreeIsland_Mart/scripts.pory"
+	msgbox ThreeIsland_Mart_Text_BikersWereAboutToTrashMart, MSGBOX_NPC
+# 40 "data/maps/ThreeIsland_Mart/scripts.pory"
 	end

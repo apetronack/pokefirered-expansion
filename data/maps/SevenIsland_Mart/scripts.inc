@@ -43,40 +43,44 @@ SevenIsland_Mart_Items::
 # 22 "data/maps/SevenIsland_Mart/scripts.pory"
 	.2byte ITEM_HYPER_POTION
 # 23 "data/maps/SevenIsland_Mart/scripts.pory"
-	.2byte ITEM_REVIVE
+	.2byte ITEM_MAX_ETHER
 # 24 "data/maps/SevenIsland_Mart/scripts.pory"
-	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_MAX_ELIXIR
 # 25 "data/maps/SevenIsland_Mart/scripts.pory"
-	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_REVIVE
 # 26 "data/maps/SevenIsland_Mart/scripts.pory"
-	.2byte ITEM_MAX_REPEL
+	.2byte ITEM_FULL_HEAL
 # 27 "data/maps/SevenIsland_Mart/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_ESCAPE_ROPE
 # 28 "data/maps/SevenIsland_Mart/scripts.pory"
-	release
+	.2byte ITEM_MAX_REPEL
 # 29 "data/maps/SevenIsland_Mart/scripts.pory"
-	end
+	.2byte ITEM_NONE
 # 30 "data/maps/SevenIsland_Mart/scripts.pory"
-
+	release
 # 31 "data/maps/SevenIsland_Mart/scripts.pory"
-SevenIsland_Mart_EventScript_Lass::
+	end
 # 32 "data/maps/SevenIsland_Mart/scripts.pory"
-	msgbox SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn, MSGBOX_NPC
+
 # 33 "data/maps/SevenIsland_Mart/scripts.pory"
-	end
+SevenIsland_Mart_EventScript_Lass::
 # 34 "data/maps/SevenIsland_Mart/scripts.pory"
-
+	msgbox SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn, MSGBOX_NPC
 # 35 "data/maps/SevenIsland_Mart/scripts.pory"
-SevenIsland_Mart_EventScript_Hiker::
-# 36 "data/maps/SevenIsland_Mart/scripts.pory"
-	msgbox SevenIsland_Mart_Text_PreparationsCompleteForRuins, MSGBOX_NPC
-# 37 "data/maps/SevenIsland_Mart/scripts.pory"
 	end
-# 38 "data/maps/SevenIsland_Mart/scripts.pory"
+# 36 "data/maps/SevenIsland_Mart/scripts.pory"
 
+# 37 "data/maps/SevenIsland_Mart/scripts.pory"
+SevenIsland_Mart_EventScript_Hiker::
+# 38 "data/maps/SevenIsland_Mart/scripts.pory"
+	msgbox SevenIsland_Mart_Text_PreparationsCompleteForRuins, MSGBOX_NPC
 # 39 "data/maps/SevenIsland_Mart/scripts.pory"
-SevenIsland_Mart_EventScript_Fisher::
+	end
 # 40 "data/maps/SevenIsland_Mart/scripts.pory"
-	msgbox SevenIsland_Mart_Text_NeedToFishOnSevenIsland, MSGBOX_NPC
+
 # 41 "data/maps/SevenIsland_Mart/scripts.pory"
+SevenIsland_Mart_EventScript_Fisher::
+# 42 "data/maps/SevenIsland_Mart/scripts.pory"
+	msgbox SevenIsland_Mart_Text_NeedToFishOnSevenIsland, MSGBOX_NPC
+# 43 "data/maps/SevenIsland_Mart/scripts.pory"
 	end

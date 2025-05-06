@@ -55,18 +55,20 @@ PewterCity_Mart_Items::
 # 28 "data/maps/PewterCity_Mart/scripts.pory"
 	.2byte ITEM_ANTIDOTE
 # 29 "data/maps/PewterCity_Mart/scripts.pory"
-	.2byte ITEM_PARALYZE_HEAL
+	.2byte ITEM_ETHER
 # 30 "data/maps/PewterCity_Mart/scripts.pory"
-	.2byte ITEM_AWAKENING
+	.2byte ITEM_PARALYZE_HEAL
 # 31 "data/maps/PewterCity_Mart/scripts.pory"
-	.2byte ITEM_BURN_HEAL
+	.2byte ITEM_AWAKENING
 # 32 "data/maps/PewterCity_Mart/scripts.pory"
-	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_BURN_HEAL
 # 33 "data/maps/PewterCity_Mart/scripts.pory"
-	.2byte ITEM_REPEL
+	.2byte ITEM_ESCAPE_ROPE
 # 34 "data/maps/PewterCity_Mart/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_REPEL
 # 35 "data/maps/PewterCity_Mart/scripts.pory"
-	release
+	.2byte ITEM_NONE
 # 36 "data/maps/PewterCity_Mart/scripts.pory"
+	release
+# 37 "data/maps/PewterCity_Mart/scripts.pory"
 	end

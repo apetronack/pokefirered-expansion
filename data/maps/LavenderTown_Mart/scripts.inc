@@ -63,20 +63,24 @@ LavenderTown_Mart_Items::
 # 32 "data/maps/LavenderTown_Mart/scripts.pory"
 	.2byte ITEM_REVIVE
 # 33 "data/maps/LavenderTown_Mart/scripts.pory"
-	.2byte ITEM_ANTIDOTE
+	.2byte ITEM_ETHER
 # 34 "data/maps/LavenderTown_Mart/scripts.pory"
-	.2byte ITEM_PARALYZE_HEAL
+	.2byte ITEM_ELIXIR
 # 35 "data/maps/LavenderTown_Mart/scripts.pory"
-	.2byte ITEM_BURN_HEAL
+	.2byte ITEM_ANTIDOTE
 # 36 "data/maps/LavenderTown_Mart/scripts.pory"
-	.2byte ITEM_ICE_HEAL
+	.2byte ITEM_PARALYZE_HEAL
 # 37 "data/maps/LavenderTown_Mart/scripts.pory"
-	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_BURN_HEAL
 # 38 "data/maps/LavenderTown_Mart/scripts.pory"
-	.2byte ITEM_SUPER_REPEL
+	.2byte ITEM_ICE_HEAL
 # 39 "data/maps/LavenderTown_Mart/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_ESCAPE_ROPE
 # 40 "data/maps/LavenderTown_Mart/scripts.pory"
-	release
+	.2byte ITEM_SUPER_REPEL
 # 41 "data/maps/LavenderTown_Mart/scripts.pory"
+	.2byte ITEM_NONE
+# 42 "data/maps/LavenderTown_Mart/scripts.pory"
+	release
+# 43 "data/maps/LavenderTown_Mart/scripts.pory"
 	end

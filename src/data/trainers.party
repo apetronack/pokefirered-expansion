@@ -1515,6 +1515,24 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
 - Wing Attack
 
+Drifloon @ Starf Berry
+Ability: Unburden
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Payback
+- Gust
+- Astonish
+- Stockpile
+
+Mankey
+Ability: Anger Point
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Karate Chop
+- Screech
+- Mega Punch
+- Thief
+
 === TRAINER_CAMPER_SHANE ===
 Name: SHANE
 Class: Camper
@@ -1634,6 +1652,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kabuto
 Ability: Battle Armor
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Mud Shot
 - Bubble Beam
@@ -2841,20 +2860,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Swablu
-Level: 22
+Ability: Natural Cure
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Peck
+- Astonish
+- Sing
+- Fury Attack
 
-Butterfree
-Level: 22
+Ariados
+Ability: Swarm
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Sneak
+- Scary Face
+- Leech Life
+- Poison Sting
 
 Tropius
-Level: 22
+Ability: Chlorophyll
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stomp
+- Razor Leaf
+- Gust
+- Growth
 
 Poliwhirl
-Level: 22
+Ability: Water Absorb
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Water Pulse
+- Hypnosis
+- Mud Shot
 
 === TRAINER_LASS_ANN ===
 Name: ANN
@@ -2866,20 +2905,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Scyther
-Level: 22
+Ability: Technician
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Pursuit
+- Quick Attack
+- Cut
 
 Nidorina
-Level: 22
+Ability: Poison Point
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Poison Sting
+- Double Kick
+- Tail Whip
 
 Cacnea
-Level: 22
+Ability: Sand Veil
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pin Missile
+- Sand Attack
+- Leech Seed
+- Bullet Seed
 
-Hypno
-Level: 22
+Drowzee
+Ability: Insomnia
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Meditate
+- Headbutt
+- Confusion
 
 === TRAINER_YOUNGSTER_TYLER ===
 Name: TYLER
@@ -2891,16 +2950,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Mightyena
+Ability: Intimidate
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Howl
+- Bite
+- Ice Fang
+- Dig
 
 Porygon
+Ability: Download
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Conversion 2
+- Psybeam
+- Recover
+- Shock Wave
 
 Shieldon
-Level:22
+Ability: Sturdy
+Level:23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Curse
+- Dig
+- Protect
+- Body Slam
 
 === TRAINER_SAILOR_DUNCAN ===
 Name: DUNCAN
@@ -2911,17 +2985,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Clamperl
-Level: 22
+Clamperl @ Deep Sea Scale
+Ability: Shell Armor
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Clamp
+- Iron Defense
+- Whirlpool
+- Mimic
 
 Shellder
-Level: 22
+Ability: Shell Armor
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Icicle Spear
+- Supersonic
+- Withdraw
+- Water Pulse
 
 Quagsire
-Level: 22
+Ability: Water Absorb
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mud Shot
+- Slam
+- Water Pulse
+- Rock Tomb
 
 === TRAINER_SAILOR_LEONARD ===
 Name: LEONARD
@@ -2932,17 +3021,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Shellder
-Level: 22
+Prinplup
+Ability: Torrent
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Metal Claw
+- Peck
+- Bubblebeam
+- Cut
 
 Corphish
-Level: 22
+Ability: Shell Armor
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bubblebeam
+- ViceGrip
+- Knock Off
+- Cut
 
-Clefairy
-Level: 22
+Psyduck
+Ability: Cloud Nine
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Pulse
+- Confusion
+- Disable
+- Mega Punch
 
 === TRAINER_SAILOR_DYLAN ===
 Name: DYLAN
@@ -2954,16 +3058,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Horsea
-Level: 22
+Ability: Sniper
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Agility
+- Bubblebeam
+- Focus Energy
+- DragonBreath
 
 Wailmer
-Level: 22
+Ability: Oblivious
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rollout
+- Water Pulse
+- Whirlpool
+- Defense Curl
 
-Spheal
+Spheal @ Salac Berry
+Ability: Thick Fat
 Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Ice Ball
+- Body Slam
+- Rock Tomb
 
 === TRAINER_SAILOR_HUEY ===
 Name: HUEY
@@ -2975,16 +3094,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Staryu
-Level: 22
+Ability: Natural Cure
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Light Screen
+- Rapid Spin
+- Water Pulse
+- Rain Dance
 
 Staryu
-Level: 22
+Ability: Natural Cure
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swift
+- Water Pulse
+- Rapid Spin
+- Thunder Wave
 
-Mantine
-Level: 22
+Mantine @ Wacan Berry
+Ability: Swift Swim
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bubblebeam
+- Signal Beam
+- Psybeam
+- Bullet Seed
 
 === TRAINER_FISHERMAN_BARNY ===
 Name: BARNY
@@ -2996,16 +3130,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Tentacool
-Level: 22
+Ability: Clear Body
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic Spikes
+- Supersonic
+- Bubblebeam
+- Aurora Beam
 
-Corphish
-Level: 22
+Azumarill
+Ability: Huge Power
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Defense Curl
+- Rollout
+- Perish Song
+- Slam
 
 Poliwhirl
-Level: 23
+Ability: Water Absorb
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Hypnosis
+- Water Pulse
+- Counter
 
 === TRAINER_SAILOR_PHILLIP ===
 Name: PHILLIP
@@ -3017,16 +3166,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Makuhita
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machop
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Hariyama
+Ability: Guts
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Knock Off
+- Vital Throw
+- Counter
+
+Machop
+Ability: Guts
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Karate Chop
+- Revenge
+- Foresight
+- Thunder Punch
+
+Hariyama
+Ability: Thick Fat
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Arm Thrust
+- Bulk Up
+- Rock Tomb
 
 === TRAINER_FISHERMAN_DALE ===
 Name: DALE
@@ -3037,17 +3201,14 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Corphish
-Level: 22
+Milotic
+Ability: Marvel Scale
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Staryu
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Marill
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Recover
+- Twister
+- Water Pulse
+- Flail
 
 === TRAINER_GENTLEMAN_BROOKS ===
 Name: BROOKS
@@ -3059,20 +3220,40 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Pikachu
+Ability: Lightning Rod
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slam
+- Shock Wave
+- Quick Attack
+- Thunder Wave
 
-Riolu
+Wingull
+Ability: Keen Eye
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Pulse
+- Wing Attack
+- Supersonic
+- Mist
 
 Baltoy
+Ability: Levitate
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rapid Spin
+- Rock Tomb
+- Psybeam
+- Mud Slap
 
-Phanpy
+Riolu
+Ability: Steadfast
 Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Counter
+- Force Palm
+- Reversal
+- Foresight
 
 === TRAINER_GENTLEMAN_LAMAR ===
 Name: LAMAR
@@ -3084,20 +3265,40 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Roselia
-Level: 22
+Ability: Poison Point
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Magical Leaf
+- Leech Seed
+- Stun Spore
+- Poison Sting
 
 Growlithe
-Level: 22
+Ability: Intimidate
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flame Wheel
+- Bite
+- Helping Hand
+- Dig
 
 Buneary
-Level: 22
+Ability: Klutz
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Jump Kick
+- Frustration
+- Defense Curl
+- Quick Attack
 
-Seadra
-Level: 22
+Vigoroth
+Ability: Vital Spirit
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Swipes
+- Encore
+- Pursuit
+- Cut
 
 === TRAINER_LASS_DAWN ===
 Name: DAWN
@@ -3108,21 +3309,41 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Sentret
-Level: 22
+Furret
+Ability: Keen Eye
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Foresight
+- Fury Swipes
+- Defense Curl
 
 Eevee
-Level: 22
+Ability: Adaptability
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Sand Attack
+- Tail Whip
+- Secret Power
 
-Vigoroth
-Level: 22
+Phanpy
+Ability: Pickup
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flail
+- Rollout
+- Defense Curl
+- Take Down
 
 Cubone
-Level: 22
+Ability: Rock Head
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bonemerang
+- Rage
+- Headbutt
+- Mega Kick
 
 === TRAINER_SAILOR_TREVOR ===
 Name: TREVOR
@@ -3133,17 +3354,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Gulpin
-Level: 22
+Gulpin @ Poison Barb
+Ability: Sticky Hold
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Amnesia
+- Encore
+- Sludge
+- Yawn
 
 Makuhita
-Level: 22
+Ability: Guts
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Vital Throw
+- Fake Out
+- Knock Off
+- Smellingsalt
 
 Buizel
-Level: 22
+Ability: Swift Swim
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pursuit
+- Swift
+- Water Jet
+- Mud Slap
 
 === TRAINER_SAILOR_EDMOND ===
 Name: EDMOND
@@ -3155,16 +3391,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Meditite
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ability: Pure Power
+Level: 24
+IVs: 5 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 5 Spe
+- Confusion
+- Bide
+- Hidden Power
+- Rock Smash
 
 Marshtomp
-Level: 22
+Ability: Torrent
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mud Shot
+- Rock Tomb
+- Water Pulse
+- Secret Power
 
 Noctowl
-Level: 22
+Ability: Insomnia
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Reflect
+- Hypnosis
+- Sky Attack
+- Confusion
 
 === TRAINER_RIVAL_SS_ANNE_SQUIRTLE ===
 Name: TERRY

@@ -55,16 +55,20 @@ CinnabarIsland_Mart_Items::
 # 28 "data/maps/CinnabarIsland_Mart/scripts.pory"
 	.2byte ITEM_HYPER_POTION
 # 29 "data/maps/CinnabarIsland_Mart/scripts.pory"
-	.2byte ITEM_REVIVE
+	.2byte ITEM_MAX_ETHER
 # 30 "data/maps/CinnabarIsland_Mart/scripts.pory"
-	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_MAX_ELIXIR
 # 31 "data/maps/CinnabarIsland_Mart/scripts.pory"
-	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_REVIVE
 # 32 "data/maps/CinnabarIsland_Mart/scripts.pory"
-	.2byte ITEM_MAX_REPEL
+	.2byte ITEM_FULL_HEAL
 # 33 "data/maps/CinnabarIsland_Mart/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_ESCAPE_ROPE
 # 34 "data/maps/CinnabarIsland_Mart/scripts.pory"
-	release
+	.2byte ITEM_MAX_REPEL
 # 35 "data/maps/CinnabarIsland_Mart/scripts.pory"
+	.2byte ITEM_NONE
+# 36 "data/maps/CinnabarIsland_Mart/scripts.pory"
+	release
+# 37 "data/maps/CinnabarIsland_Mart/scripts.pory"
 	end

@@ -39,26 +39,30 @@ SixIsland_Mart_Items::
 # 20 "data/maps/SixIsland_Mart/scripts.pory"
 	.2byte ITEM_MAX_POTION
 # 21 "data/maps/SixIsland_Mart/scripts.pory"
-	.2byte ITEM_REVIVE
+	.2byte ITEM_MAX_ETHER
 # 22 "data/maps/SixIsland_Mart/scripts.pory"
-	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_MAX_ELIXIR
 # 23 "data/maps/SixIsland_Mart/scripts.pory"
-	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_REVIVE
 # 24 "data/maps/SixIsland_Mart/scripts.pory"
-	.2byte ITEM_MAX_REPEL
+	.2byte ITEM_FULL_HEAL
 # 25 "data/maps/SixIsland_Mart/scripts.pory"
-	.2byte ITEM_DREAM_MAIL
+	.2byte ITEM_ESCAPE_ROPE
 # 26 "data/maps/SixIsland_Mart/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_MAX_REPEL
 # 27 "data/maps/SixIsland_Mart/scripts.pory"
-	release
+	.2byte ITEM_DREAM_MAIL
 # 28 "data/maps/SixIsland_Mart/scripts.pory"
-	end
+	.2byte ITEM_NONE
 # 29 "data/maps/SixIsland_Mart/scripts.pory"
-
+	release
 # 30 "data/maps/SixIsland_Mart/scripts.pory"
-SixIsland_Mart_EventScript_Picnicker::
+	end
 # 31 "data/maps/SixIsland_Mart/scripts.pory"
-	msgbox SixIsland_Mart_Text_ShouldBuyMailAndWriteLetter, MSGBOX_NPC
+
 # 32 "data/maps/SixIsland_Mart/scripts.pory"
+SixIsland_Mart_EventScript_Picnicker::
+# 33 "data/maps/SixIsland_Mart/scripts.pory"
+	msgbox SixIsland_Mart_Text_ShouldBuyMailAndWriteLetter, MSGBOX_NPC
+# 34 "data/maps/SixIsland_Mart/scripts.pory"
 	end
