@@ -3605,25 +3605,25 @@ AI: AI_FLAG_SMART_TRAINER
 
 Pikachu
 Ability: Static
-Level: 21
+Level: 26
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Thunder Wave
 - Slam
-- Shock Wave
+- Thunderbolt
 - Quick attack
 
 Luxio
 Ability: Rivalry
-Level: 21
+Level: 26
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Leer
+- Ice Fang
 - Charge
 - Bite
 - Spark
 
 Magnemite
 Ability: Sturdy
-Level: 21
+Level: 26
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Metal Sound
 - Supersonic
@@ -3632,11 +3632,11 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Flaaffy
 Ability: Static
-Level: 21
+Level: 26
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Cotton Spore
 - Shock Wave
-- Growl
+- Reflect
 - Mega Punch
 
 === TRAINER_ENGINEER_BAILY ===
@@ -3650,26 +3650,26 @@ AI: AI_FLAG_SMART_TRAINER
 
 Voltorb
 Ability: Static
-Level: 21
+Level: 26
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Screech
 - Rollout
 - Spark
 - Secret Power
 
-Magnemite
-Ability: Sturdy
-Level: 21
+Elekid
+Ability: Static
+Level: 26
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Metal Sound
+- Low Kick
 - Shock Wave
-- Sonic Boom
-- Supersonic
+- Ice Punch
+- Swift
 
 Chinchou
 Ability: Volt Absorb
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-Level: 21
+Level: 26
 - Water Pulse
 - Confuse Ray
 - Thunder Wave
@@ -3678,7 +3678,7 @@ Level: 21
 Electrike
 Ability: Static
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-Level: 21
+Level: 26
 - Howl
 - Quick Attack
 - Spark
@@ -3695,25 +3695,25 @@ AI: AI_FLAG_SMART_TRAINER
 
 Pikachu
 Ability: Static
-Level: 22
+Level: 27
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Double Team
 - Slam
-- Shock Wave
+- Thunderbolt
 - Thunder Wave
 
-Luxio
-Ability: Intimidate
-Level: 22
+Manectric @ Sitrus Berry
+Ability: Static
+Level: 27
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Bite
 - Spark
-- Leer
-- Secret Power
+- Fire Fang
+- Howl
 
 Chinchou
 Ability: Volt Absorb
-Level: 23
+Level: 27
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Take Down
 - Spark
@@ -3730,10 +3730,10 @@ Items: Full Heal / X Speed
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-SPECIES_VOLTORB_HISUI
+SPECIES_ELECTRODE_HISUI
 Ability: Static
 Timid Nature
-Level: 26
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 11 Spe
 - Thunder Wave
 - Energy Ball
@@ -3743,7 +3743,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 11 Spe
 Flaaffy @ Focus Sash
 Ability: Static
 Relaxed Nature
-Level: 26
+Level: 28
 IVs: 0 HP /11 Atk / 11 Def / 0 SpA / 0 SpD / 0 Spe
 - Shock Wave
 - Thunder Wave
@@ -3753,17 +3753,17 @@ IVs: 0 HP /11 Atk / 11 Def / 0 SpA / 0 SpD / 0 Spe
 Magnemite @ Magnet
 Ability: Sturdy
 Bold Nature
-Level: 26
+Level: 28
 IVs: 0 HP / 0 Atk / 11 Def / 11 SpA / 0 SpD / 0 Spe
 - Supersonic
 - Thunder Wave
-- Sonic Boom
+- Magnet Bomb
 - Shock Wave
 
 Electabuzz
 Ability: Static
 Hasty Nature
-Level: 26
+Level: 28
 IVs: 0 HP / 11 Atk / 0 Def / 0 SpA / 11 SpD / 0 Spe
 - Thunder Punch
 - Low Kick
@@ -3773,9 +3773,9 @@ IVs: 0 HP / 11 Atk / 0 Def / 0 SpA / 11 SpD / 0 Spe
 SPECIES_RAICHU_ALOLA @ Lansat Berry
 Ability: Lightning Rod
 Lonely Nature
-Level: 27
+Level: 29
 IVs: 0 HP / 11 Atk / 0 Def / 11 SpA / 0 SpD / 11 Spe
-- Quick Attack
+- Charm
 - Grass Knot
 - Psychic
 - Thunderbolt

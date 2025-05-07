@@ -150,10 +150,10 @@ Cap 4: Rival 3, level 25
     Rival 3 XY
 Cap 5: Lt Surge, level 27
     Vermillion City Gym
-        Dwayne X
-        Baily X
-        Tucker X
-        Surge X
+        Dwayne XY
+        Baily XY
+        Tucker XY
+        Surge XY
 Cap 6: Giovanni 1, level 33
     Route 9
         Alicia
