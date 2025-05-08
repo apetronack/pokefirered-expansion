@@ -156,10 +156,10 @@ Cap 5: Lt Surge, level 27
         Surge XY
 Cap 6: Giovanni 1, level 33
     Route 9
-        Alicia
-        Jeremy
-        Chris
-        Brent
+        Alicia XY
+        Jeremy XY
+        Chris XY
+        Brent XY
         Drew
         Conner
         Brice
