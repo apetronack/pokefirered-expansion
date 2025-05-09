@@ -160,9 +160,9 @@ Cap 6: Giovanni 1, level 33
         Jeremy XY
         Chris XY
         Brent XY
-        Drew
-        Conner
-        Brice
+        Drew XY
+        Conner XY
+        Brice XY
         Alan
         Caitlin
     Route 10 (prior to Rock Tunnel)

@@ -3787,7 +3787,7 @@ Pic: Picnicker
 Gender: Male
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_BASIC_TRAINER
 
 Weepinbell
 Ability: Chlorophyll
@@ -3832,7 +3832,7 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_BASIC_TRAINER
 
 Machoke
 Ability: Guts
@@ -3867,7 +3867,7 @@ Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
 Ability: Intimidate
@@ -3903,7 +3903,7 @@ Pic: Bug Catcher
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: AI_FLAG_BASIC_TRAINER
 
 Skorupi
 Level: 28
@@ -3931,6 +3931,123 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Leech Life
 - Double Team
 - Cut
+
+=== TRAINER_CAMPER_DREW ===
+Name: DREW
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: AI_FLAG_BASIC_TRAINER
+
+Furret
+Ability: Keen Eye
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slam
+- Follow Me
+- Helping Hand
+- Quick Attack
+
+Sandslash
+Ability: Sand Veil
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Cutter
+- Crush Claw
+- Dig
+- Body Slam
+
+Scyther
+Ability: Technician
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Slash
+- Pursuit
+- Cut
+
+Grovyle
+Ability: Overgrow
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leaf Blade
+- Pursuit
+- Rock Tomb
+- Quick Attack
+
+=== TRAINER_BUG_CATCHER_CONNER ===
+Name: CONNER
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Kleavor
+Ability: Sheer Force
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Night Slash
+- Rock Tomb
+- Fury Cutter
+- Slash
+
+Ninjask
+Ability: Speed Boost
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swords Dance
+- Leech Life
+- Double Team
+- Mud Slap
+
+Venonat
+Ability: Compound Eyes
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sleep Powder
+- Leech Life
+- Confusion
+- Supersonic
+
+=== TRAINER_HIKER_BRICE ===
+Name: BRICE
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Graveler
+Ability: Sturdy
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Blast
+- Selfdestruct
+- Rock Polish
+- Magnitude
+
+Machoke
+Ability: Guts
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Vital Throw
+- Foresight
+- Revenge
+- Seismic Toss
+
+Vigoroth
+Ability: Vital Spirit
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Uproar
+- Focus Energy
+- Fury Swipes
+- Faint Attack
 
 === TRAINER_AQUA_LEADER ===
 Name: Sand Team
@@ -5468,27 +5585,6 @@ Venonat
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_BUG_CATCHER_CONNER ===
-Name: CONNER
-Class: Bug Catcher
-Pic: Bug Catcher
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Ninjask
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Butterfree
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Venonat
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_LASS_CRISSY ===
 Name: CRISSY
 Class: Lass
@@ -5656,31 +5752,6 @@ AI: Check Bad Move
 
 Gulpin
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CAMPER_DREW ===
-Name: DREW
-Class: Camper
-Pic: Camper
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Furret
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Sandshrew
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Nincada
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Trapinch
-Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PICNICKER_CAITLIN ===
@@ -6179,27 +6250,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rock Throw
 - Bind
 - Screech
-
-=== TRAINER_HIKER_BRICE ===
-Name: BRICE
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Geodude
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machop
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Geodude
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HIKER_CLARK ===
 Name: CLARK
