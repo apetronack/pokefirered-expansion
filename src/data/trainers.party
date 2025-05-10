@@ -4055,24 +4055,44 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Onix
+Ability: Sturdy
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slam
+- Sandstorm
+- Rock Tomb
+- Stealth Rock
 
 Anorith
+Ability: Battle Armor
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Metal Claw
+- Water Pulse
+- Cut
+- Rock Tomb
 
 Solrock
+Ability: Levitate
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fire Spin
+- Rock Throw
+- Confusion
+- Reflect
 
 Lunatone
+Ability: Levitate
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Light Screen
+- Hypnosis
+- Confusion
+- Rock Throw
 
 === TRAINER_PICNICKER_CAITLIN ===
 Name: CAITLIN
@@ -4084,16 +4104,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Roselia
+Ability: Poison Point
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Seed
+- Grasswhistle
+- Giga Drain
+- Toxic Spikes
 
-Linoone
+Linoone @ Liechi Berry
+Ability: Gluttony
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Sand Attack
+- Pursuit
+- Cut
 
 Slowpoke
+Ability: Oblivious
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Curse
+- Body Slam
+- Thunder Wave
+- Confusion
 
 === TRAINER_PICNICKER_HEIDI ===
 Name: HEIDI
@@ -4105,20 +4140,40 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Raichu
+Ability: Static
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunderbolt
+- Fake Out
+- Nasty Plot
+- Surf
 
 Swablu
+Ability: Natural Cure
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Safeguard
+- Sing
+- Peck
+- Take Down
 
 Clefable
+Ability: Cute Charm
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Minimize
+- Follow Me
+- Water Pulse
+- Shock Wave
 
 Parasect
+Ability: Effect Spore
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spore
+- Slash
+- Leech Life
+- Bullet Seed
 
 === TRAINER_POKEMANIAC_ASHTON ===
 Name: ASHTON
@@ -4126,24 +4181,44 @@ Class: Pokemaniac
 Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Cubone
+Marowak
+Ability: Lightning Rod
 Level: 30
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Bonemerang
+- Headbutt
+- Focus Energy
+- Rock Tomb
 
 Slowpoke
+Ability: Own Tempo
 Level: 30
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Water Pulse
+- Confusion
+- Disable
+- Yawn
 
 Doduo
+Ability: Early Bird
 Level: 30
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Pursuit
+- Peck
+- Uproar
+- Acupressure
 
 Porygon
+Ability: Download
 Level: 30
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Signal Beam
+- Psybeam
+- Recover
+- Shock Wave
 
 === TRAINER_POKEMANIAC_WINSTON ===
 Name: WINSTON
@@ -4151,24 +4226,44 @@ Class: Pokemaniac
 Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Heracross
+Ability: Guts
 Level: 30
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Brick Break
+- Aerial Ace
+- Night Slash
+- Cut
 
 Umbreon
+Ability: Synchronize
 Level: 30
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Pursuit
+- Confuse Ray
+- Sand Attack
+- Secret Power
 
 Mr. Mime
+Ability: Filter
 Level: 30
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Substitute
+- Psybeam
+- Light Screen
+- Magical Leaf
 
 Electabuzz
+Ability: Static
 Level: 30
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Thunderpunch
+- Low Kick
+- Swift
+- Mega Kick
 
 === TRAINER_PICNICKER_MARTHA ===
 Name: MARTHA
@@ -4180,12 +4275,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Tangela
+Ability: Chlorophyll
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mega Drain
+- Stun Spore
+- Growth
+- Shock Wave
 
 Grotle
+Ability: Overgrow
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Curse
+- Razor Leaf
+- Bite
+- Secret Power
 
 === TRAINER_POKEMANIAC_STEVE ===
 Name: STEVE
@@ -4197,12 +4302,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Combusken
+Ability: Speed Boost
 Level: 30
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Peck
+- Double Kick
+- Bulk Up
+- Sand Attack
 
 Gligar
+Ability: Hyper Cutter
 Level: 30
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Screech
+- Knock Off
+- Poison Sting
+- Rock Tomb
 
 === TRAINER_HIKER_ERIC ===
 Name: ERIC
@@ -4214,12 +4329,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Croconaw
+Ability: Torrent
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Crunch
+- Water Pulse
+- Scary Face
 
-Lileep
+Lileep @ Ganlon Berry
+Ability: Suction Cups
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ingrain
+- Confuse Ray
+- Acid
+- Rock Tomb
 
 === TRAINER_HIKER_ALLEN ===
 Name: ALLEN
@@ -4230,17 +4355,32 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Cranidos
+Rampardos
+Ability: Mold Breaker
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ancient Power
+- Take Down
+- Pursuit
+- Scary Face
 
 Meditite
+Ability: Pure Power
 Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+- Force Palm
+- Meditate
+- Hidden Power
+- Rock Tomb
 
 Tropius
+Ability: Chlorophyll
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stomp
+- Razor Leaf
+- Growth
+- Gust
 
 === TRAINER_AQUA_LEADER ===
 Name: Sand Team

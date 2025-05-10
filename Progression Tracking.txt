@@ -163,18 +163,18 @@ Cap 6: Giovanni 1, level 33
         Drew XY
         Conner XY
         Brice XY
-        Alan X
-        Caitlin X
+        Alan XY
+        Caitlin XY
     Route 10 (prior to Rock Tunnel)
-        Heidi X
+        Heidi XY
     Rock Tunnel 1F (first)
-        Ashton X
+        Ashton XY
     Rock Tunnel B1F (first)
-        Winston X
-        Martha X
-        Steve X
-        Eric X
-        Allen X
+        Winston XY
+        Martha XY
+        Steve XY
+        Eric XY
+        Allen XY
     Rock Tunnel 1F (second)
         Lenny
         Oliver
