@@ -4382,6 +4382,221 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Growth
 - Gust
 
+=== TRAINER_HIKER_LENNY ===
+Name: LENNY
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Bayleef
+Ability: Overgrow
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Magical Leaf
+- Reflect
+- Poison Powder
+- Secret Power
+
+Gabite
+Ability: Sand Veil
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Dragon Rage
+- Sandstorm
+- Metal Claw
+
+Graveler
+Ability: Sturdy
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Blast
+- Selfdestruct
+- Magnitude
+- Rock Polish
+
+Hariyama
+Ability: Guts
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Tomb
+- Belly Drum
+- Knock Off
+- Vital Throw
+
+=== TRAINER_HIKER_OLIVER ===
+Name: OLIVER
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Primeape
+Ability: Anger Point
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Karate Chop
+- Assurance
+- Rock Tomb
+- Secret Power
+
+Loudred
+Ability: Soundproof
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stomp
+- Bite
+- Howl
+- Shock Wave
+
+Sandslash
+Ability: Sand Veil
+Level: 20
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crush Claw
+- Cut
+- Rock Tomb
+- Dig
+
+=== TRAINER_HIKER_LUCAS ===
+Name: LUCAS
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Spoink
+Ability: Thick Fat
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Rest
+- Snore
+- Confuse Ray
+
+Miltank
+Ability: Scrappy
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Milk Drink
+- Rollout
+- Zen Headbutt
+
+=== TRAINER_PICNICKER_SOFIA ===
+Name: SOFIA
+Class: Picnicker
+Pic: Picnicker
+Gender: Male
+Music: Girl
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Forretress
+Ability: Sturdy
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mirror Shot
+- Spikes
+- Rapid Spin
+- Selfdestruct
+
+Hypno
+Ability: Insomnia
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Knock Off
+- Hypnosis
+- Nightmare
+
+Pidgeotto
+Ability: Keen Eye
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Featherdance
+- Quick Attack
+- Twister
+- Gust
+
+=== TRAINER_HIKER_DUDLEY ===
+Name: DUDLEY
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Mightyena
+Ability: Intimidate
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swagger
+- Sand Attack
+- Bite
+- Secret Power
+
+Koffing
+Ability: Levitate
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Selfdestruct
+- Sludge
+- Assurance
+- Smokescreen
+
+Graveler
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Magnitude
+- Rollout
+- SelfDestruct
+- Defense Curl
+
+=== TRAINER_POKEMANIAC_COOPER ===
+Name: COOPER
+Class: Pokemaniac
+Pic: Pokemaniac
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Slowpoke
+Ability: Oblivious
+Level: 31
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Water Pulse
+- Confusion
+- Yawn
+- Disable
+
+Golbat
+Ability: Inner Focus
+Level: 31
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Wing Attack
+- Confuse Ray
+- Bite
+- Leech Life
+
+Torkoal
+Ability: White Smoke
+Level: 31
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Flamethrower
+- Curse
+- Rapid Spin
+- Rock Slide
+
 === TRAINER_AQUA_LEADER ===
 Name: Sand Team
 Class: Aqua Leader
@@ -6104,27 +6319,6 @@ Pidgeotto
 Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_PICNICKER_SOFIA ===
-Name: SOFIA
-Class: Picnicker
-Pic: Picnicker
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Clefairy
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pidgey
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Zigzagoon
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_PICNICKER_TINA ===
 Name: TINA
 Class: Picnicker
@@ -6198,27 +6392,6 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Cubone
-Level: 20
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Slowpoke
-Level: 20
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-=== TRAINER_POKEMANIAC_COOPER ===
-Name: COOPER
-Class: Pokemaniac
-Pic: Pokemaniac
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Slowpoke
-Level: 20
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Slowpoke
 Level: 20
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -6507,39 +6680,6 @@ Graveler
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_HIKER_DUDLEY ===
-Name: DUDLEY
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Geodude
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Magnitude
-- Rock Throw
-- Mud Sport
-- Defense Curl
-
-Geodude
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Magnitude
-- Rock Throw
-- Mud Sport
-- Defense Curl
-
-Graveler
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Magnitude
-- Rock Throw
-- Mud Sport
-- Defense Curl
-
 === TRAINER_HIKER_LENNY ===
 Name: LENNY
 Class: Hiker
@@ -6564,52 +6704,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Geodude
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_HIKER_OLIVER ===
-Name: OLIVER
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Onix
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Onix
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Geodude
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_HIKER_LUCAS ===
-Name: LUCAS
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Geodude
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Magnitude
-- Rock Throw
-- Mud Sport
-- Defense Curl
-
-Graveler
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Magnitude
-- Rock Throw
-- Mud Sport
-- Defense Curl
 
 === TRAINER_BIKER_JARED ===
 Name: JARED

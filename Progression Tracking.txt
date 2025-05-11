@@ -176,13 +176,13 @@ Cap 6: Giovanni 1, level 33
         Eric XY
         Allen XY
     Rock Tunnel 1F (second)
-        Lenny
-        Oliver
-        Lucas
+        Lenny XY
+        Oliver XY
+        Lucas XY
     Rock Tunnel B1F (second)
-        Sofia
-        Dudley
-        Cooper
+        Sofia XY
+        Dudley XY
+        Cooper XY
     Rock Tunnel 1F (third)
         Leah
         Ariana

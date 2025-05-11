@@ -3518,6 +3518,7 @@ static const u16 sShinxEggMoveLearnset[] = {
     MOVE_ICE_FANG,
     MOVE_FIRE_FANG,
     MOVE_THUNDER_FANG,
+    MOVE_POISON_FANG,
     MOVE_QUICK_ATTACK,
     MOVE_HOWL,
     MOVE_TAKE_DOWN,
