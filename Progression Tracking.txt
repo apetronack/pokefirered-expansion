@@ -188,10 +188,10 @@ Cap 6: Giovanni 1, level 33
         Ariana XY
         Dana XY
     Route 10 (post Rock Tunnel)
-        Carol
-        Clark
-        Trent
-        Herman
+        Carol XY
+        Clark XY
+        Trent XY
+        Herman XY
     Lavender Town
         No trainers (yet)
     Route 12 (first)
