@@ -184,9 +184,9 @@ Cap 6: Giovanni 1, level 33
         Dudley XY
         Cooper XY
     Rock Tunnel 1F (third)
-        Leah
-        Ariana
-        Dana
+        Leah XY
+        Ariana XY
+        Dana XY
     Route 10 (post Rock Tunnel)
         Carol
         Clark
