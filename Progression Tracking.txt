@@ -195,10 +195,10 @@ Cap 6: Giovanni 1, level 33
     Lavender Town
         No trainers (yet)
     Route 12 (first)
-        Ned
-        Chip
-        Hank
-        Elliot
+        Ned XY
+        Chip XY
+        Hank XY
+        Elliot XY
     Route 8
         Julia
         Rich
