@@ -4957,6 +4957,240 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bubblebeam
 - Protect
 
+=== TRAINER_LASS_JULIA ===
+Name: JULIA
+Class: Lass
+Pic: Lass
+Gender: Male
+Music: Female
+Double Battle: Yes
+AI: AI_FLAG_BASIC_TRAINER
+
+Lopunny
+Ability: Cute Charm
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Jump Kick
+- Frustration
+- Mirror Coat
+- Agility
+
+Clefable
+Ability: Cute Charm
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cosmic Power
+- Follow Me
+- Meteor Mash
+- Moonlight
+
+=== TRAINER_GAMER_RICH ===
+Name: RICH
+Class: Gamer
+Pic: Gamer
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Growlithe
+Ability: Intimidate
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fire Fang
+- Take Down
+- Bite
+- Leer
+
+Manectric
+Ability: Static
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fire Fang
+- Bite
+- Spark
+- Howl
+
+Ninetales
+Ability: Flash Fire
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Nasty Plot
+- Flamethrower
+- Payback
+
+=== TRAINER_SUPER_NERD_GLENN ===
+Name: GLENN
+Class: Super Nerd
+Pic: Super Nerd
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Nidoqueen
+Ability: Poison Point
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Double Kick
+- Poison Fang
+- Shock Wave
+
+Lairon
+Ability: Sturdy
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Iron Head
+- Mud Slap
+- Headbutt
+- Rock Slide
+
+Venomoth
+Ability: Tinted Lens
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sleep Powder
+- Silver Wind
+- Psybeam
+- Gust
+
+=== TRAINER_TWINS_ELI_ANNE ===
+Name: ELI & ANNE
+Class: Twins
+Pic: Twins
+Gender: Male
+Music: Twins
+Double Battle: Yes
+AI: AI_FLAG_BASIC_TRAINER
+
+Furret
+Ability: Keen Eye
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slam
+- Fury Swipes
+- Follow Me
+- Helping Hand
+
+Misdreavus
+Ability: Levitate
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Payback
+- Psybeam
+- Confuse Ray
+- Pain Split
+
+=== TRAINER_SUPER_NERD_LESLIE ===
+Name: LESLIE
+Class: Super Nerd
+Pic: Super Nerd
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Ariados
+Ability: Swarm
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sucker Punch
+- Spider Web
+- Bug Bite
+- Shadow Sneak
+
+Solrock
+Ability: Levitate
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Rock Slide
+- Fire Spin
+- Rock Polish
+
+Magneton
+Ability: Magnet Pull
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Magnet Bomb
+- Tri Attack
+- Shock Wave
+- Thunder Wave
+
+=== TRAINER_LASS_PAIGE ===
+Name: PAIGE
+Class: Lass
+Pic: Lass
+Gender: Male
+Music: Female
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Nidoran F
+Ability: Poison Point
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic Spikes
+- Poison Sting
+- Bite
+- Double Kick
+
+Nidorina
+Ability: Poison Point
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Double Kick
+- Poison Sting
+- Cut
+
+Nidoqueen
+Ability: Poison Point
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Counter
+- Poison Fang
+- Shock Wave
+
+=== TRAINER_LASS_ANDREA ===
+Name: ANDREA
+Class: Lass
+Pic: Lass
+Gender: Male
+Music: Female
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Linoone @ Oran Berry
+Ability: Gluttony
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Sand Attack
+- Cut
+- Shock Wave
+
+Golduck
+Ability: Cloud Nine
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Pulse
+- Confusion
+- Disable
+- Dig
+
+Haunter
+Ability: Levitate
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Ball
+- Sucker Punch
+- Confuse Ray
+- Hypnosis
+
 === TRAINER_AQUA_LEADER ===
 Name: Sand Team
 Class: Aqua Leader
@@ -6531,44 +6765,6 @@ Nidoran F
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_LASS_PAIGE ===
-Name: PAIGE
-Class: Lass
-Pic: Lass
-Gender: Male
-Music: Female
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Nidoran F
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Nidorina
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_LASS_ANDREA ===
-Name: ANDREA
-Class: Lass
-Pic: Lass
-Gender: Male
-Music: Female
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Zigzagoon
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Zigzagoon
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Zigzagoon
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_LASS_MEGAN ===
 Name: MEGAN
 Class: Lass
@@ -6596,23 +6792,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pikachu
 Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_LASS_JULIA ===
-Name: JULIA
-Class: Lass
-Pic: Lass
-Gender: Male
-Music: Female
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Clefairy
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Clefairy
-Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LASS_KAY ===
@@ -6786,44 +6965,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Supersonic
 - Thunder Shock
 - Tackle
-
-=== TRAINER_SUPER_NERD_GLENN ===
-Name: GLENN
-Class: Super Nerd
-Pic: Super Nerd
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Koffing
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Weezing
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Koffing
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_SUPER_NERD_LESLIE ===
-Name: LESLIE
-Class: Super Nerd
-Pic: Super Nerd
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Koffing
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sludge
-- Smokescreen
-- Smog
-- Self Destruct
 
 === TRAINER_SUPER_NERD_1 ===
 Name: PH
@@ -8166,23 +8307,6 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GAMER_RICH ===
-Name: RICH
-Class: Gamer
-Pic: Gamer
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Growlithe
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Vulpix
-Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BEAUTY_BRIDGET ===
@@ -13455,23 +13579,6 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Clefairy
 Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_TWINS_ELI_ANNE ===
-Name: ELI & ANNE
-Class: Twins
-Pic: Twins
-Gender: Male
-Music: Twins
-Double Battle: Yes
-AI: AI_FLAG_BASIC_TRAINER
-
-Clefairy
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Clefairy
-Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_COOL_COUPLE_RAY_TYRA ===

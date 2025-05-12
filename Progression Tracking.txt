@@ -200,14 +200,13 @@ Cap 6: Giovanni 1, level 33
         Hank XY
         Elliot XY
     Route 8
-        Julia
-        Rich
-        Glenn
-        Anne
-        Eli
-        Leslie
-        Paige
-        Andrea
+        Julia XY
+        Rich XY
+        Glenn XY
+        Anne and Eli XY
+        Leslie XY
+        Paige XY
+        Andrea XY
         Megan
         Jaren
         Ricardo
