@@ -207,10 +207,10 @@ Cap 6: Giovanni 1, level 33
         Leslie XY
         Paige XY
         Andrea XY
-        Megan
-        Jaren
-        Ricardo
-        Stan
+        Megan XY
+        Jaren XY
+        Ricardo XY
+        Stan XY
     Route 7
         No trainers
     Celadon City
