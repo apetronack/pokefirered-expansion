@@ -216,22 +216,22 @@ Cap 6: Giovanni 1, level 33
     Celadon City
         No trainers
     Rocket Hideout B1F (first)
-        Grunt9
-        Grunt8
-        Grunt12
+        Grunt9 X
+        Grunt8 X
+        Grunt12 X
     Rocket Hideout B2F (first)
-        Grunt13
+        Grunt13 X
     Rocket Hideout B1F (second)
-        Grunt11
-        Grunt10
+        Grunt11 X
+        Grunt10 X
     Rocket Hideout B3F (first)
-        Grunt15
-        Grunt14
+        Grunt15 X
+        Grunt14 X
     Rocket Hideout B4F
-        Grunt18
-        Grunt16
-        Grunt17
-        Trainer Boss Giovanni
+        Grunt18 X
+        Grunt16 X
+        Grunt17 X
+        Trainer Boss Giovanni X
 Cap 7: Rival 4 Pokemon Tower, 35
     Lavender Town
         Pokemon Tower Guardian
