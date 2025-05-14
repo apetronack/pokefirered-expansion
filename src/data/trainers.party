@@ -5935,7 +5935,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
-Level: 23
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHANNELER_CARLY ===
@@ -5948,7 +5948,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
-Level: 24
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHANNELER_PATRICIA ===
@@ -5961,7 +5961,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
-Level: 22
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHANNELER_LAUREL ===
@@ -5974,11 +5974,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
-Level: 23
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gastly
-Level: 23
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHANNELER_JODY ===
@@ -5991,7 +5991,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
-Level: 22
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHANNELER_PAULA ===
@@ -6004,7 +6004,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
-Level: 24
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHANNELER_RUTH ===
@@ -6017,8 +6017,9 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
-Level: 22
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
  === TRAINER_CHANNELER_TAMMY ===
 Name: TAMMY
 Class: Channeler
@@ -6029,7 +6030,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Haunter
-Level: 23
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHANNELER_KARINA ===
@@ -6042,7 +6043,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
-Level: 24
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHANNELER_JANAE ===
@@ -6055,7 +6056,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
-Level: 22
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHANNELER_ANGELICA ===
@@ -6068,15 +6069,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
-Level: 22
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gastly
-Level: 22
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gastly
-Level: 22
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHANNELER_JENNIFER ===
@@ -6089,7 +6090,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
-Level: 24
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHANNELER_EMILIA ===
@@ -6102,7 +6103,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
-Level: 24
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_19 ===
@@ -6115,15 +6116,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Zubat
-Level: 25
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 25
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 25
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_20 ===
@@ -6136,11 +6137,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Koffing
-Level: 26
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 26
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_21 ===
@@ -6153,19 +6154,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Zubat
-Level: 23
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Poochyena
-Level: 23
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Togepi
-Level: 23
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 23
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LASS_KAY ===
@@ -6178,11 +6179,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Bellsprout
-Level: 23
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell
-Level: 23
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BEAUTY_BRIDGET ===
@@ -6195,19 +6196,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Bellsprout
-Level: 21
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout
-Level: 21
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout
-Level: 21
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout
-Level: 21
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PICNICKER_TINA ===
@@ -6220,11 +6221,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Bulbasaur
-Level: 24
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ivysaur
-Level: 24
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BEAUTY_TAMIA ===
@@ -6237,11 +6238,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Bellsprout
-Level: 24
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout
-Level: 24
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_COOLTRAINER_MARY ===
@@ -6255,7 +6256,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bellsprout
-Level: 22
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Wrap
 - Stun Spore
@@ -6263,7 +6264,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Growth
 
 Bellsprout
-Level: 22
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Powder
 - Stun Spore
@@ -6271,7 +6272,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sweet Scent
 
 Weepinbell
-Level: 22
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Vine Whip
 - Stun Spore
@@ -6279,7 +6280,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Growth
 
 Weepinbell
-Level: 22
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Absorb
 - Stun Spore
@@ -6287,7 +6288,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sweet Scent
 
 Ivysaur
-Level: 22
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Razor Leaf
 - Sleep Powder
@@ -6304,7 +6305,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Exeggcute
-Level: 24
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LASS_LISA ===
@@ -6317,11 +6318,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Bellsprout
-Level: 23
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell
-Level: 23
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LEADER_ERIKA ===
