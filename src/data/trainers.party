@@ -5663,6 +5663,1988 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Crunch
 - Iron Tail
 
+=== TRAINER_POKEMON_TOWER_GUARDIAN ===
+Name: GRUNT
+Class: Team Rocket
+Pic: Rocket Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Skarmory
+Ability: Keen Eye
+Impish Nature
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Roar
+- Stealth Rock
+- Wing Attack
+- Spikes
+
+SPECIES_MAROWAK_ALOLA @ Thick Club
+Ability: Rock Head
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Bone Rush
+- Hex
+- Flame Wheel
+- Headbutt
+
+SPECIES_SNEASEL_HISUI
+Ability: Keen Eye
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Metal Claw
+- Poison Jab
+- Brick Break
+- Taunt
+
+Electabuzz
+Ability: Static
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Counter
+- Thunder Punch
+- Secret Power
+- Psychic
+
+Cacturne
+Ability: Sand Veil
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Faint Attack
+- Pin Missile
+- Leech Seed
+- Bullet Seed
+
+=== TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE ===
+Name: TERRY
+Class: Rival Late
+Pic: Rival Late
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Staraptor @ Persim Berry
+Ability: Intimidate
+Adamant Nature
+Level: 35
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Aerial Ace
+- Close Combat
+- Quick Attack
+- Endeavor
+
+Ampharos @ Quick Claw
+Ability: Static
+Lax Nature
+Level: 35
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Thunder Wave
+- Discharge
+- Mega Punch
+- Fire Punch
+
+Torkoal @ Sitrus Berry
+Ability: White Smoke
+Relaxed Nature
+Level: 35
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Flamethrower
+- Rock Slide
+- Curse
+- Body Slam
+
+Tropius @ Wide Lens
+Level: 35
+Ability: Chlorophyll
+Adamant Nature
+IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
+- Stomp
+- Magical Leaf
+- Growth
+- Aerial Ace
+
+Kadabra
+Ability: Synchronize
+Mild Nature
+Level: 35
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Psybeam
+- Hidden Power
+- Disable
+- Kinesis
+
+Blastoise @ Sitrus Berry
+Ability: Torrent
+Mild Nature
+Level: 36
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Pulse
+- Body Slam
+- Bite
+- Withdraw
+
+=== TRAINER_RIVAL_POKEMON_TOWER_BULBASAUR ===
+Name: TERRY
+Class: Rival Late
+Pic: Rival Late
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Staraptor @ Persim Berry
+Ability: Intimidate
+Adamant Nature
+Level: 35
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Aerial Ace
+- Close Combat
+- Quick Attack
+- Endeavor
+
+Ampharos @ Quick Claw
+Ability: Static
+Lax Nature
+Level: 35
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Thunder Wave
+- Discharge
+- Mega Punch
+- Fire Punch
+
+Torkoal @ Sitrus Berry
+Ability: White Smoke
+Relaxed Nature
+Level: 35
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Flamethrower
+- Rock Slide
+- Curse
+- Body Slam
+
+Pelipper @ Sitrus Berry
+Ability: Keen Eye
+Mild Nature
+Level: 35
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Pulse
+- Wing Attack
+- Supersonic
+- Payback
+
+Kadabra
+Ability: Synchronize
+Mild Nature
+Level: 35
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Psybeam
+- Hidden Power
+- Disable
+- Kinesis
+
+Venusaur @ Sitrus Berry
+Ability: Overgrow
+Mild Nature
+Level: 36
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Razor Leaf
+- Leech Seed
+- Sleep Powder
+- Take Down
+
+=== TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER ===
+Name: TERRY
+Class: Rival Late
+Pic: Rival Late
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Staraptor @ Persim Berry
+Ability: Intimidate
+Adamant Nature
+Level: 35
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Aerial Ace
+- Close Combat
+- Quick Attack
+- Endeavor
+
+Ampharos @ Quick Claw
+Ability: Static
+Lax Nature
+Level: 35
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Thunder Wave
+- Discharge
+- Mega Punch
+- Fire Punch
+
+Tropius @ Wide Lens
+Level: 35
+Ability: Chlorophyll
+Adamant Nature
+IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
+- Stomp
+- Magical Leaf
+- Growth
+- Aerial Ace
+
+Pelipper @ Sitrus Berry
+Ability: Keen Eye
+Mild Nature
+Level: 35
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Water Pulse
+- Wing Attack
+- Supersonic
+- Payback
+
+Kadabra
+Ability: Synchronize
+Mild Nature
+Level: 35
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Psybeam
+- Hidden Power
+- Disable
+- Kinesis
+
+Charizard @ Sitrus Berry
+Ability: Blaze
+Rash Nature
+Level: 36
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Dragon Rage
+- Metal Claw
+- Fire Fang
+- Rock Slide
+
+=== TRAINER_CHANNELER_HOPE ===
+Name: HOPE
+Class: Channeler
+Pic: Channeler
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Gastly
+Level: 23
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CHANNELER_CARLY ===
+Name: CARLY
+Class: Channeler
+Pic: Channeler
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Gastly
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CHANNELER_PATRICIA ===
+Name: PATRICIA
+Class: Channeler
+Pic: Channeler
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Gastly
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CHANNELER_LAUREL ===
+Name: LAUREL
+Class: Channeler
+Pic: Channeler
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Gastly
+Level: 23
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gastly
+Level: 23
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CHANNELER_JODY ===
+Name: JODY
+Class: Channeler
+Pic: Channeler
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Gastly
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CHANNELER_PAULA ===
+Name: PAULA
+Class: Channeler
+Pic: Channeler
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Gastly
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CHANNELER_RUTH ===
+Name: RUTH
+Class: Channeler
+Pic: Channeler
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Gastly
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+ === TRAINER_CHANNELER_TAMMY ===
+Name: TAMMY
+Class: Channeler
+Pic: Channeler
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Haunter
+Level: 23
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CHANNELER_KARINA ===
+Name: KARINA
+Class: Channeler
+Pic: Channeler
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Gastly
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CHANNELER_JANAE ===
+Name: JANAE
+Class: Channeler
+Pic: Channeler
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Gastly
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CHANNELER_ANGELICA ===
+Name: ANGELICA
+Class: Channeler
+Pic: Channeler
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Gastly
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gastly
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gastly
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CHANNELER_JENNIFER ===
+Name: JENNIFER
+Class: Channeler
+Pic: Channeler
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Gastly
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CHANNELER_EMILIA ===
+Name: EMILIA
+Class: Channeler
+Pic: Channeler
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Gastly
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_TEAM_ROCKET_GRUNT_19 ===
+Name: GRUNT
+Class: Team Rocket
+Pic: Rocket Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Zubat
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Zubat
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_TEAM_ROCKET_GRUNT_20 ===
+Name: GRUNT
+Class: Team Rocket
+Pic: Rocket Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Koffing
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drowzee
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_TEAM_ROCKET_GRUNT_21 ===
+Name: GRUNT
+Class: Team Rocket
+Pic: Rocket Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Zubat
+Level: 23
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Poochyena
+Level: 23
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Togepi
+Level: 23
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Zubat
+Level: 23
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_LASS_KAY ===
+Name: KAY
+Class: Lass
+Pic: Lass
+Gender: Male
+Music: Female
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Bellsprout
+Level: 23
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell
+Level: 23
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BEAUTY_BRIDGET ===
+Name: BRIDGET
+Class: Beauty
+Pic: Beauty
+Gender: Male
+Music: Female
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Bellsprout
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Bellsprout
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Bellsprout
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Bellsprout
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_PICNICKER_TINA ===
+Name: TINA
+Class: Picnicker
+Pic: Picnicker
+Gender: Male
+Music: Girl
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Bulbasaur
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Ivysaur
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BEAUTY_TAMIA ===
+Name: TAMIA
+Class: Beauty
+Pic: Beauty
+Gender: Male
+Music: Female
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Bellsprout
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Bellsprout
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_COOLTRAINER_MARY ===
+Name: MARY
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Male
+Music: Cool
+Items: Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Bellsprout
+Level: 22
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Wrap
+- Stun Spore
+- Poison Powder
+- Growth
+
+Bellsprout
+Level: 22
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Poison Powder
+- Stun Spore
+- Absorb
+- Sweet Scent
+
+Weepinbell
+Level: 22
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Vine Whip
+- Stun Spore
+- Poison Powder
+- Growth
+
+Weepinbell
+Level: 22
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Absorb
+- Stun Spore
+- Poison Powder
+- Sweet Scent
+
+Ivysaur
+Level: 22
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Razor Leaf
+- Sleep Powder
+- Vine Whip
+- Leech Seed
+
+=== TRAINER_BEAUTY_LORI ===
+Name: LORI
+Class: Beauty
+Pic: Beauty
+Gender: Male
+Music: Female
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Exeggcute
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_LASS_LISA ===
+Name: LISA
+Class: Lass
+Pic: Lass
+Gender: Male
+Music: Female
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Bellsprout
+Level: 23
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell
+Level: 23
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_LEADER_ERIKA ===
+Name: ERIKA
+Class: Leader
+Pic: Leader Erika
+Gender: Male
+Music: Female
+Items: Full Heal / X Sp Def
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Exeggutor @ Heat Rock
+Ability: Chlorophyll
+Timid Nature
+Level: 38
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+- Sunny Day
+- Leech Seed
+- Sleep Powder
+- Giga Drain
+
+Breloom @ Toxic Orb
+Ability: Poison Heal
+Adamant Nature
+Level: 38
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+- Sky Uppercut
+- Mach Punch
+- Seed Bomb
+- Bulk Up
+
+Victreebel @ Black Sludge
+Ability: Chlorophyll
+Modest Nature
+Level: 38
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+- Weather Ball
+- Sludge Bomb
+- Toxic
+- Giga Drain
+
+Torterra @ Wide Lens
+Level: 38
+Ability: Overgrow
+Adamant Nature
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+- Bite
+- Wood Hammer
+- Rock Slide
+- Earthquake
+
+Cradily @ Sitrus Berry
+Ability: Storm Drain
+Relaxed Nature
+Level: 38
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+- Giga Drain
+- Ingrain
+- Curse
+- Ancient Power
+
+=== TRAINER_ROCKER_LUCA ===
+Name: LUCA
+Class: Rocker
+Pic: Rocker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Voltorb
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Electrode
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CAMPER_JUSTIN ===
+Name: JUSTIN
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Nidoran M
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Nidorino
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_FISHERMAN_ANDREW ===
+Name: ANDREW
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Feebas
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Feebas
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_PICNICKER_ALMA ===
+Name: ALMA
+Class: Picnicker
+Pic: Picnicker
+Gender: Male
+Music: Girl
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Corphish
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Poliwag
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Horsea
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIRD_KEEPER_SEBASTIAN ===
+Name: SEBASTIAN
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Pidgey
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgeotto
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_PICNICKER_SUSIE ===
+Name: SUSIE
+Class: Picnicker
+Pic: Picnicker
+Gender: Male
+Music: Girl
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Pidgeotto
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Loudred
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Eevee
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pikachu
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Lombre
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BEAUTY_LOLA ===
+Name: LOLA
+Class: Beauty
+Pic: Beauty
+Gender: Male
+Music: Female
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Loudred
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pikachu
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Munchlax
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BEAUTY_SHEILA ===
+Name: SHEILA
+Class: Beauty
+Pic: Beauty
+Gender: Male
+Music: Female
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Clefairy
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Zigzagoon
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_PICNICKER_VALERIE ===
+Name: VALERIE
+Class: Picnicker
+Pic: Picnicker
+Gender: Male
+Music: Girl
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Poliwag
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Poliwag
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_PICNICKER_GWEN ===
+Name: GWEN
+Class: Picnicker
+Pic: Picnicker
+Gender: Male
+Music: Girl
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Pidgey
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Zigzagoon
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgey
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgeotto
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIRD_KEEPER_PERRY ===
+Name: PERRY
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Taillow
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgey
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgey
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Taillow
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Taillow
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIKER_JARED ===
+Name: JARED
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Koffing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Poison Gas
+
+Koffing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Koffing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+=== TRAINER_BIRD_KEEPER_ROBERT ===
+Name: ROBERT
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Pidgey
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgeotto
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Taillow
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Swellow
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIRD_KEEPER_CARTER ===
+Name: CARTER
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Pidgey
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Doduo
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgeotto
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIRD_KEEPER_MITCH ===
+Name: MITCH
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Pidgey
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Taillow
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgey
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Swellow
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIRD_KEEPER_BECK ===
+Name: BECK
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Pidgeotto
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Swellow
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIRD_KEEPER_MARLON ===
+Name: MARLON
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Taillow
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Doduo
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Swellow
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIRD_KEEPER_DONALD ===
+Name: DONALD
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Noctowl
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIRD_KEEPER_BENNY ===
+Name: BENNY
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Taillow
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Swellow
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_TWINS_KIRI_JAN ===
+Name: KIRI & JAN
+Class: Twins
+Pic: Twins
+Gender: Male
+Music: Twins
+Double Battle: Yes
+AI: AI_FLAG_BASIC_TRAINER
+
+Charmander
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Squirtle
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIKER_LUKAS ===
+Name: LUKAS
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Koffing
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Koffing
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Koffing
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Screech
+- Minimize
+- Sludge
+- Disable
+
+Koffing
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+=== TRAINER_BIKER_GERALD ===
+Name: GERALD
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Koffing
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Weezing
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Screech
+- Minimize
+- Sludge
+- Disable
+
+=== TRAINER_BIKER_MALIK ===
+Name: MALIK
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Koffing
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Koffing
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Screech
+- Minimize
+- Sludge
+- Disable
+
+=== TRAINER_BIKER_ISAAC ===
+Name: ISAAC
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Koffing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Screech
+- Minimize
+- Sludge
+- Disable
+
+Koffing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Screech
+- Minimize
+- Sludge
+- Disable
+
+Koffing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+=== TRAINER_BIKER_ERNEST ===
+Name: ERNEST
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Koffing
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Koffing
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Weezing
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Koffing
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Koffing
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Minimize
+- Sludge
+- Disable
+- Pound
+
+=== TRAINER_BIKER_ALEX ===
+Name: ALEX
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Koffing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Koffing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Screech
+- Minimize
+- Sludge
+- Disable
+
+Weezing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+=== TRAINER_BEAUTY_GRACE ===
+Name: GRACE
+Class: Beauty
+Pic: Beauty
+Gender: Male
+Music: Female
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Pidgeotto
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Clefable
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BEAUTY_OLIVIA ===
+Name: OLIVIA
+Class: Beauty
+Pic: Beauty
+Gender: Male
+Music: Female
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Bulbasaur
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Ivysaur
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_PICNICKER_KINDRA ===
+Name: KINDRA
+Class: Picnicker
+Pic: Picnicker
+Gender: Male
+Music: Girl
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Weepinbell
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Bellsprout
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Bellsprout
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIRD_KEEPER_CHESTER ===
+Name: CHESTER
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Dodrio
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Doduo
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Doduo
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIRD_KEEPER_EDWIN ===
+Name: EDWIN
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Pidgeotto
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Noctowl
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Doduo
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgey
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_PICNICKER_YAZMIN ===
+Name: YAZMIN
+Class: Picnicker
+Pic: Picnicker
+Gender: Male
+Music: Girl
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Bellsprout
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Bellsprout
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Tangela
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_PICNICKER_BECKY ===
+Name: BECKY
+Class: Picnicker
+Pic: Picnicker
+Gender: Male
+Music: Girl
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Pikachu
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Raichu
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CRUSH_KIN_RON_MYA ===
+Name: RON & MYA
+Class: Crush Kin
+Pic: Crush Kin
+Gender: Male
+Music: Intense
+Double Battle: Yes
+AI: AI_FLAG_BASIC_TRAINER
+
+Hariyama @ Black Belt
+Level: 29
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Medicham @ Black Belt
+Level: 29
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+=== TRAINER_PICNICKER_CELIA ===
+Name: CELIA
+Class: Picnicker
+Pic: Picnicker
+Gender: Male
+Music: Girl
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Clefairy
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_YOUNG_COUPLE_LEA_JED ===
+Name: LEA & JED
+Class: Young Couple
+Pic: Young Couple
+Gender: Male
+Music: Girl
+Double Battle: Yes
+AI: AI_FLAG_BASIC_TRAINER
+
+Arcanine
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Ninetales
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIKER_LAO ===
+Name: LAO
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Koffing
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Screech
+- Minimize
+- Sludge
+- Disable
+
+Koffing
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+=== TRAINER_CUE_BALL_KOJI ===
+Name: KOJI
+Class: Cue Ball
+Pic: Cue Ball
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Machop
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Mankey
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CUE_BALL_LUKE ===
+Name: LUKE
+Class: Cue Ball
+Pic: Cue Ball
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Mankey
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIKER_HIDEO ===
+Name: HIDEO
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Weezing
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIKER_RUBEN ===
+Name: RUBEN
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Weezing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Koffing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Weezing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+=== TRAINER_CUE_BALL_CAMRON ===
+Name: CAMRON
+Class: Cue Ball
+Pic: Cue Ball
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Mankey
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIKER_VIRGIL ===
+Name: VIRGIL
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Weezing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Koffing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Weezing
+Level: 28
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+=== TRAINER_CUE_BALL_ISAIAH ===
+Name: ISAIAH
+Class: Cue Ball
+Pic: Cue Ball
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Machop
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machamp
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CUE_BALL_RAUL ===
+Name: RAUL
+Class: Cue Ball
+Pic: Cue Ball
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Mankey
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Primeape
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIKER_BILLY ===
+Name: BILLY
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Weezing
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIKER_NIKOLAS ===
+Name: NIKOLAS
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Voltorb
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spark
+- Sonic Boom
+- Screech
+- Charge
+
+Voltorb
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spark
+- Sonic Boom
+- Screech
+- Charge
+
+=== TRAINER_CUE_BALL_JAMAL ===
+Name: JAMAL
+Class: Cue Ball
+Pic: Cue Ball
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Mankey
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Mankey
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machamp
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CUE_BALL_ZEEK ===
+Name: ZEEK
+Class: Cue Ball
+Pic: Cue Ball
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Machoke
+Level: 33
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CUE_BALL_COREY ===
+Name: COREY
+Class: Cue Ball
+Pic: Cue Ball
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Primeape
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machoke
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIKER_JAXON ===
+Name: JAXON
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Weezing
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge
+- Smokescreen
+- Smog
+- Tackle
+
+Weezing
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Screech
+- Minimize
+- Sludge
+- Disable
+
+=== TRAINER_BIKER_WILLIAM ===
+Name: WILLIAM
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Koffing
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Weezing
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Koffing
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Koffing
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Smog
+- Tackle
+
+Weezing
+Level: 25
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smokescreen
+- Sludge
+- Self Destruct
+- Tackle
+
+=== TRAINER_BIRD_KEEPER_JACOB ===
+Name: JACOB
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Taillow
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Taillow
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Swellow
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Taillow
+Level: 26
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIRD_KEEPER_WILTON ===
+Name: WILTON
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Taillow
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Swellow
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BIRD_KEEPER_RAMIRO ===
+Name: RAMIRO
+Class: Bird Keeper
+Pic: Bird Keeper
+Gender: Male
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Dodrio
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_SWIMMER_MALE_RICHARD ===
+Name: RICHARD
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Tentacool
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Shellder
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_SWIMMER_MALE_REECE ===
+Name: REECE
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Corphish
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Horsea
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Staryu
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 === TRAINER_AQUA_LEADER ===
 Name: Sand Team
 Class: Aqua Leader
@@ -5867,61 +7849,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Extreme Speed
 - Shadow Ball
 - Aura Sphere
-
-=== TRAINER_POKEMON_TOWER_GUARDIAN ===
-Name: GRUNT
-Class: Team Rocket
-Pic: Rocket Grunt F
-Gender: Female
-Music: Aqua
-Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
-
-Skarmory
-Ability: Keen Eye
-Impish Nature
-Level: 35
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Roar
-- Stealth Rock
-- Wing Attack
-- Spikes
-
-SPECIES_MAROWAK_ALOLA @ Thick Club
-Ability: Rock Head
-Level: 35
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Bone Rush
-- Hex
-- Flame Wheel
-- Headbutt
-
-SPECIES_SNEASEL_HISUI
-Ability: Keen Eye
-Level: 35
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Metal Claw
-- Poison Jab
-- Brick Break
-- Taunt
-
-Electabuzz
-Ability: Static
-Level: 35
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Counter
-- Thunder Punch
-- Secret Power
-- Psychic
-
-Cacturne
-Ability: Sand Veil
-Level: 35
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Faint Attack
-- Pin Missile
-- Leech Seed
-- Bullet Seed
 
 === TRAINER_CELADON_GYM_GUARDIAN ===
 Name: GRUNT
@@ -7237,40 +9164,6 @@ Nidoran F
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_LASS_KAY ===
-Name: KAY
-Class: Lass
-Pic: Lass
-Gender: Male
-Music: Female
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Bellsprout
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Weepinbell
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_LASS_LISA ===
-Name: LISA
-Class: Lass
-Pic: Lass
-Gender: Male
-Music: Female
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Bellsprout
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Weepinbell
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_CAMPER_2 ===
 Name: PH
 Class: Camper
@@ -7282,23 +9175,6 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_PICNICKER_TINA ===
-Name: TINA
-Class: Picnicker
-Pic: Picnicker
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Bulbasaur
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Ivysaur
-Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PICNICKER_HANNAH ===
@@ -7573,171 +9449,6 @@ Geodude
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_BIKER_JARED ===
-Name: JARED
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Koffing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Poison Gas
-
-Koffing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Koffing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-=== TRAINER_BIKER_MALIK ===
-Name: MALIK
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Koffing
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Koffing
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
-
-=== TRAINER_BIKER_ERNEST ===
-Name: ERNEST
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Weezing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Minimize
-- Sludge
-- Disable
-- Pound
-
-=== TRAINER_BIKER_ALEX ===
-Name: ALEX
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Koffing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Koffing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
-
-Weezing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-=== TRAINER_BIKER_LAO ===
-Name: LAO
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Koffing
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
-
-Koffing
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
 === TRAINER_BIKER_1 ===
 Name: PH
 Class: Biker
@@ -7750,263 +9461,6 @@ AI: AI_FLAG_BASIC_TRAINER
 Gulpin
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIKER_HIDEO ===
-Name: HIDEO
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Weezing
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIKER_RUBEN ===
-Name: RUBEN
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Weezing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Koffing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Weezing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-=== TRAINER_BIKER_BILLY ===
-Name: BILLY
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Weezing
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIKER_NIKOLAS ===
-Name: NIKOLAS
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Voltorb
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Spark
-- Sonic Boom
-- Screech
-- Charge
-
-Voltorb
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Spark
-- Sonic Boom
-- Screech
-- Charge
-
-=== TRAINER_BIKER_JAXON ===
-Name: JAXON
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Weezing
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sludge
-- Smokescreen
-- Smog
-- Tackle
-
-Weezing
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
-
-=== TRAINER_BIKER_WILLIAM ===
-Name: WILLIAM
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Weezing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Koffing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Weezing
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Self Destruct
-- Tackle
-
-=== TRAINER_BIKER_LUKAS ===
-Name: LUKAS
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Koffing
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Koffing
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Koffing
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
-
-Koffing
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-=== TRAINER_BIKER_ISAAC ===
-Name: ISAAC
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Koffing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
-
-Koffing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
-
-Koffing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-=== TRAINER_BIKER_GERALD ===
-Name: GERALD
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Koffing
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Weezing
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
 
 === TRAINER_BURGLAR_1 ===
 Name: PH
@@ -8266,61 +9720,6 @@ Corphish
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_FISHERMAN_ANDREW ===
-Name: ANDREW
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Feebas
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Feebas
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_SWIMMER_MALE_RICHARD ===
-Name: RICHARD
-Class: Swimmer M
-Pic: Swimmer M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Tentacool
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Shellder
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_SWIMMER_MALE_REECE ===
-Name: REECE
-Class: Swimmer M
-Pic: Swimmer M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Corphish
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Horsea
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Staryu
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_SWIMMER_MALE_MATTHEW ===
 Name: MATTHEW
 Class: Swimmer M
@@ -8553,150 +9952,6 @@ Seadra
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_CUE_BALL_KOJI ===
-Name: KOJI
-Class: Cue Ball
-Pic: Cue Ball
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Machop
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Mankey
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machop
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CUE_BALL_LUKE ===
-Name: LUKE
-Class: Cue Ball
-Pic: Cue Ball
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Mankey
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machop
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CUE_BALL_CAMRON ===
-Name: CAMRON
-Class: Cue Ball
-Pic: Cue Ball
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Mankey
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machop
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CUE_BALL_RAUL ===
-Name: RAUL
-Class: Cue Ball
-Pic: Cue Ball
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Mankey
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Primeape
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CUE_BALL_ISAIAH ===
-Name: ISAIAH
-Class: Cue Ball
-Pic: Cue Ball
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Machop
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machamp
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CUE_BALL_ZEEK ===
-Name: ZEEK
-Class: Cue Ball
-Pic: Cue Ball
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Machoke
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CUE_BALL_JAMAL ===
-Name: JAMAL
-Class: Cue Ball
-Pic: Cue Ball
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Mankey
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Mankey
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machamp
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machop
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CUE_BALL_COREY ===
-Name: COREY
-Class: Cue Ball
-Pic: Cue Ball
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Primeape
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machoke
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_CUE_BALL_CHASE ===
 Name: CHASE
 Class: Cue Ball
@@ -8729,99 +9984,6 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BEAUTY_BRIDGET ===
-Name: BRIDGET
-Class: Beauty
-Pic: Beauty
-Gender: Male
-Music: Female
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Bellsprout
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Bellsprout
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Bellsprout
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Bellsprout
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BEAUTY_TAMIA ===
-Name: TAMIA
-Class: Beauty
-Pic: Beauty
-Gender: Male
-Music: Female
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Bellsprout
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Bellsprout
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BEAUTY_LORI ===
-Name: LORI
-Class: Beauty
-Pic: Beauty
-Gender: Male
-Music: Female
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Exeggcute
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BEAUTY_LOLA ===
-Name: LOLA
-Class: Beauty
-Pic: Beauty
-Gender: Male
-Music: Female
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Loudred
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pikachu
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Munchlax
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BEAUTY_SHEILA ===
-Name: SHEILA
-Class: Beauty
-Pic: Beauty
-Gender: Male
-Music: Female
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Clefairy
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Zigzagoon
-Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SWIMMER_FEMALE_TIFFANY ===
@@ -8873,40 +10035,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Crawdaunt
 Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BEAUTY_GRACE ===
-Name: GRACE
-Class: Beauty
-Pic: Beauty
-Gender: Male
-Music: Female
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Pidgeotto
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Clefable
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BEAUTY_OLIVIA ===
-Name: OLIVIA
-Class: Beauty
-Pic: Beauty
-Gender: Male
-Music: Female
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Bulbasaur
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Ivysaur
-Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BEAUTY_LAUREN ===
@@ -9113,23 +10241,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
 Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_ROCKER_LUCA ===
-Name: LUCA
-Class: Rocker
-Pic: Rocker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Voltorb
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Electrode
-Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JUGGLER_DALTON ===
@@ -9414,208 +10525,6 @@ Mightyena
 Level: 42
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-=== TRAINER_BIRD_KEEPER_SEBASTIAN ===
-Name: SEBASTIAN
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Pidgey
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pidgeotto
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIRD_KEEPER_PERRY ===
-Name: PERRY
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Taillow
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pidgey
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pidgey
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIRD_KEEPER_ROBERT ===
-Name: ROBERT
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Pidgey
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pidgeotto
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Swellow
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIRD_KEEPER_DONALD ===
-Name: DONALD
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Noctowl
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIRD_KEEPER_BENNY ===
-Name: BENNY
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Taillow
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Swellow
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIRD_KEEPER_EDWIN ===
-Name: EDWIN
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Pidgeotto
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Noctowl
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Doduo
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pidgey
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIRD_KEEPER_CHESTER ===
-Name: CHESTER
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Dodrio
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Doduo
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Doduo
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIRD_KEEPER_WILTON ===
-Name: WILTON
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Taillow
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Swellow
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIRD_KEEPER_RAMIRO ===
-Name: RAMIRO
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Dodrio
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIRD_KEEPER_JACOB ===
-Name: JACOB
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Taillow
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Swellow
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_BIRD_KEEPER_ROGER ===
 Name: ROGER
 Class: Bird Keeper
@@ -9677,90 +10586,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Swellow
 Level: 39
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIRD_KEEPER_CARTER ===
-Name: CARTER
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Pidgey
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Doduo
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pidgeotto
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIRD_KEEPER_MITCH ===
-Name: MITCH
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Pidgey
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pidgey
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Swellow
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIRD_KEEPER_BECK ===
-Name: BECK
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Pidgeotto
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Swellow
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIRD_KEEPER_MARLON ===
-Name: MARLON
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Taillow
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Doduo
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Swellow
-Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BLACK_BELT_KOICHI ===
@@ -10378,69 +11203,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
 Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_TEAM_ROCKET_GRUNT_19 ===
-Name: GRUNT
-Class: Team Rocket
-Pic: Rocket Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Zubat
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Zubat
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Golbat
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_TEAM_ROCKET_GRUNT_20 ===
-Name: GRUNT
-Class: Team Rocket
-Pic: Rocket Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Koffing
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Drowzee
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_TEAM_ROCKET_GRUNT_21 ===
-Name: GRUNT
-Class: Team Rocket
-Pic: Rocket Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Zubat
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Poochyena
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Togepi
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Zubat
-Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_22 ===
@@ -11363,56 +12125,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Sting
 - Double Kick
 
-=== TRAINER_COOLTRAINER_MARY ===
-Name: MARY
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Male
-Music: Cool
-Items: Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Bellsprout
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Wrap
-- Stun Spore
-- Poison Powder
-- Growth
-
-Bellsprout
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Poison Powder
-- Stun Spore
-- Absorb
-- Sweet Scent
-
-Weepinbell
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Vine Whip
-- Stun Spore
-- Poison Powder
-- Growth
-
-Weepinbell
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Absorb
-- Stun Spore
-- Poison Powder
-- Sweet Scent
-
-Ivysaur
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Razor Leaf
-- Sleep Powder
-- Vine Whip
-- Leech Seed
-
 === TRAINER_COOLTRAINER_CAROLINE ===
 Name: CAROLINE
 Class: Cooltrainer
@@ -12043,66 +12755,6 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Sky Attack
 - Fire Blast
 
-=== TRAINER_LEADER_ERIKA ===
-Name: ERIKA
-Class: Leader
-Pic: Leader Erika
-Gender: Male
-Music: Female
-Items: Full Heal / X Sp Def
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
-
-Exeggutor @ Heat Rock
-Ability: Chlorophyll
-Timid Nature
-Level: 38
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Sunny Day
-- Leech Seed
-- Sleep Powder
-- Giga Drain
-
-Breloom @ Toxic Orb
-Ability: Poison Heal
-Adamant Nature
-Level: 38
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Sky Uppercut
-- Mach Punch
-- Seed Bomb
-- Bulk Up
-
-Victreebel @ Black Sludge
-Ability: Chlorophyll
-Modest Nature
-Level: 38
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Weather Ball
-- Sludge Bomb
-- Toxic
-- Giga Drain
-
-Torterra @ Wide Lens
-Level: 38
-Ability: Overgrow
-Adamant Nature
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Bite
-- Wood Hammer
-- Rock Slide
-- Earthquake
-
-Cradily @ Sitrus Berry
-Ability: Storm Drain
-Relaxed Nature
-Level: 38
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Giga Drain
-- Ingrain
-- Curse
-- Ancient Power
-
 === TRAINER_LEADER_KOGA ===
 Name: KOGA
 Class: Leader
@@ -12312,213 +12964,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Growlithe
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE ===
-Name: TERRY
-Class: Rival Late
-Pic: Rival Late
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
-
-Staraptor @ Persim Berry
-Ability: Intimidate
-Adamant Nature
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Aerial Ace
-- Close Combat
-- Quick Attack
-- Endeavor
-
-Ampharos @ Quick Claw
-Ability: Static
-Lax Nature
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Wave
-- Discharge
-- Mega Punch
-- Fire Punch
-
-Torkoal @ Sitrus Berry
-Ability: White Smoke
-Relaxed Nature
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flamethrower
-- Rock Slide
-- Curse
-- Body Slam
-
-Tropius @ Wide Lens
-Level: 35
-Ability: Chlorophyll
-Adamant Nature
-IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
-- Stomp
-- Magical Leaf
-- Growth
-- Aerial Ace
-
-Kadabra
-Ability: Synchronize
-Mild Nature
-Level: 35
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Psybeam
-- Hidden Power
-- Disable
-- Kinesis
-
-Blastoise @ Sitrus Berry
-Ability: Torrent
-Mild Nature
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Water Pulse
-- Body Slam
-- Bite
-- Withdraw
-
-=== TRAINER_RIVAL_POKEMON_TOWER_BULBASAUR ===
-Name: TERRY
-Class: Rival Late
-Pic: Rival Late
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
-
-Staraptor @ Persim Berry
-Ability: Intimidate
-Adamant Nature
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Aerial Ace
-- Close Combat
-- Quick Attack
-- Endeavor
-
-Ampharos @ Quick Claw
-Ability: Static
-Lax Nature
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Wave
-- Discharge
-- Mega Punch
-- Fire Punch
-
-Torkoal @ Sitrus Berry
-Ability: White Smoke
-Relaxed Nature
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flamethrower
-- Rock Slide
-- Curse
-- Body Slam
-
-Pelipper @ Sitrus Berry
-Ability: Keen Eye
-Mild Nature
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Water Pulse
-- Wing Attack
-- Supersonic
-- Payback
-
-Kadabra
-Ability: Synchronize
-Mild Nature
-Level: 35
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Psybeam
-- Hidden Power
-- Disable
-- Kinesis
-
-Venusaur @ Sitrus Berry
-Ability: Overgrow
-Mild Nature
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Razor Leaf
-- Leech Seed
-- Sleep Powder
-- Take Down
-
-=== TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER ===
-Name: TERRY
-Class: Rival Late
-Pic: Rival Late
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
-
-Staraptor @ Persim Berry
-Ability: Intimidate
-Adamant Nature
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Aerial Ace
-- Close Combat
-- Quick Attack
-- Endeavor
-
-Ampharos @ Quick Claw
-Ability: Static
-Lax Nature
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Wave
-- Discharge
-- Mega Punch
-- Fire Punch
-
-Tropius @ Wide Lens
-Level: 35
-Ability: Chlorophyll
-Adamant Nature
-IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 15 Spe
-- Stomp
-- Magical Leaf
-- Growth
-- Aerial Ace
-
-Pelipper @ Sitrus Berry
-Ability: Keen Eye
-Mild Nature
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Water Pulse
-- Wing Attack
-- Supersonic
-- Payback
-
-Kadabra
-Ability: Synchronize
-Mild Nature
-Level: 35
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Psybeam
-- Hidden Power
-- Disable
-- Kinesis
-
-Charizard @ Sitrus Berry
-Ability: Blaze
-Rash Nature
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Dragon Rage
-- Metal Claw
-- Fire Fang
-- Rock Slide
 
 === TRAINER_RIVAL_SILPH_SQUIRTLE ===
 Name: TERRY
@@ -13106,187 +13551,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Focus Blast
 - Steel Wing
 
-=== TRAINER_CHANNELER_PATRICIA ===
-Name: PATRICIA
-Class: Channeler
-Pic: Channeler
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Gastly
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHANNELER_CARLY ===
-Name: CARLY
-Class: Channeler
-Pic: Channeler
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Gastly
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHANNELER_HOPE ===
-Name: HOPE
-Class: Channeler
-Pic: Channeler
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Gastly
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHANNELER_PAULA ===
-Name: PAULA
-Class: Channeler
-Pic: Channeler
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Gastly
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHANNELER_LAUREL ===
-Name: LAUREL
-Class: Channeler
-Pic: Channeler
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Gastly
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Gastly
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHANNELER_JODY ===
-Name: JODY
-Class: Channeler
-Pic: Channeler
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Gastly
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHANNELER_TAMMY ===
-Name: TAMMY
-Class: Channeler
-Pic: Channeler
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Haunter
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHANNELER_RUTH ===
-Name: RUTH
-Class: Channeler
-Pic: Channeler
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Gastly
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHANNELER_KARINA ===
-Name: KARINA
-Class: Channeler
-Pic: Channeler
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Gastly
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHANNELER_JANAE ===
-Name: JANAE
-Class: Channeler
-Pic: Channeler
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Gastly
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHANNELER_ANGELICA ===
-Name: ANGELICA
-Class: Channeler
-Pic: Channeler
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Gastly
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Gastly
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Gastly
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHANNELER_EMILIA ===
-Name: EMILIA
-Class: Channeler
-Pic: Channeler
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Gastly
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CHANNELER_JENNIFER ===
-Name: JENNIFER
-Class: Channeler
-Pic: Channeler
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Gastly
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_CHANNELER_1 ===
 Name: PH
 Class: Channeler
@@ -13450,131 +13714,6 @@ Haunter
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_PICNICKER_ALMA ===
-Name: ALMA
-Class: Picnicker
-Pic: Picnicker
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Corphish
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Poliwag
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Horsea
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_PICNICKER_SUSIE ===
-Name: SUSIE
-Class: Picnicker
-Pic: Picnicker
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Pidgeotto
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Loudred
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Eevee
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pikachu
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Lombre
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_PICNICKER_VALERIE ===
-Name: VALERIE
-Class: Picnicker
-Pic: Picnicker
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Poliwag
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Poliwag
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_PICNICKER_GWEN ===
-Name: GWEN
-Class: Picnicker
-Pic: Picnicker
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Pidgey
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Zigzagoon
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pidgey
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pidgeotto
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BIKER_VIRGIL ===
-Name: VIRGIL
-Class: Biker
-Pic: Biker
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Weezing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Koffing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
-Weezing
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
-
 === TRAINER_PICNICKER_MISSY ===
 Name: MISSY
 Class: Picnicker
@@ -13611,95 +13750,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spheal
 Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CAMPER_JUSTIN ===
-Name: JUSTIN
-Class: Camper
-Pic: Camper
-Gender: Male
-Music: Male
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Nidoran M
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Nidorino
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_PICNICKER_YAZMIN ===
-Name: YAZMIN
-Class: Picnicker
-Pic: Picnicker
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Bellsprout
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Bellsprout
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tangela
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_PICNICKER_KINDRA ===
-Name: KINDRA
-Class: Picnicker
-Pic: Picnicker
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Weepinbell
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Bellsprout
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Bellsprout
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_PICNICKER_BECKY ===
-Name: BECKY
-Class: Picnicker
-Pic: Picnicker
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Pikachu
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Raichu
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_PICNICKER_CELIA ===
-Name: CELIA
-Class: Picnicker
-Pic: Picnicker
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Clefairy
-Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_COOL_COUPLE_RAY_TYRA ===
@@ -13742,57 +13792,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidoran F
 Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_TWINS_KIRI_JAN ===
-Name: KIRI & JAN
-Class: Twins
-Pic: Twins
-Gender: Male
-Music: Twins
-Double Battle: Yes
-AI: AI_FLAG_BASIC_TRAINER
-
-Charmander
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Squirtle
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CRUSH_KIN_RON_MYA ===
-Name: RON & MYA
-Class: Crush Kin
-Pic: Crush Kin
-Gender: Male
-Music: Intense
-Double Battle: Yes
-AI: AI_FLAG_BASIC_TRAINER
-
-Hariyama @ Black Belt
-Level: 29
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Medicham @ Black Belt
-Level: 29
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_YOUNG_COUPLE_LEA_JED ===
-Name: LEA & JED
-Class: Young Couple
-Pic: Young Couple
-Gender: Male
-Music: Girl
-Double Battle: Yes
-AI: AI_FLAG_BASIC_TRAINER
-
-Arcanine
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Ninetales
-Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SIS_AND_BRO_LIA_LUC ===
