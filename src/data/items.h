@@ -13551,12 +13551,12 @@ const struct Item gItemsInfo[] =
 
     [ITEM_LINKING_CORD] =
     {
-        .name = _("Linking Cord"),
+        .name = _("Dimensional Strand"),
         .price = 8000,
         .description = COMPOUND_STRING(
             "A mysterious string "
             "that makes\nsome "
-            "Pokémon evolve."),
+            "Pokémon alter form."),
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
