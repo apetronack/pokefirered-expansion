@@ -216,13 +216,13 @@ Cap 6: Giovanni 1, level 33
     Celadon City
         No trainers
     Rocket Hideout B1F (first)
-        Grunt9 X
-        Grunt8 X
-        Grunt12 X
+        Grunt9 XY
+        Grunt8 XY
+        Grunt12 XY
     Rocket Hideout B2F (first)
-        Grunt13 X
+        Grunt13 XY
     Rocket Hideout B1F (second)
-        Grunt11 X
+        Grunt11 XY
         Grunt10 X
     Rocket Hideout B3F (first)
         Grunt15 X

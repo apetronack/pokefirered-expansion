@@ -5372,12 +5372,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Murkrow
+Ability: Super Luck
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Assurance
+- Night Shade
+- Wing Attack
+- Confuse Ray
 
 Mawile
+Ability: Intimidate
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Faint Attack
+- Poison Fang
+- Rock Slide
+- Taunt
 
 === TRAINER_TEAM_ROCKET_GRUNT_8 ===
 Name: GRUNT
@@ -5388,13 +5398,23 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Drowzee
+Hypno
+Ability: Insomnia
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Assurance
+- Headbutt
+- Brick Break
 
-Machop
+Machoke
+Ability: Guts
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Submission
+- Foresight
+- Seismic Toss
+- Rock Slide
 
 === TRAINER_TEAM_ROCKET_GRUNT_12 ===
 Name: GRUNT
@@ -5406,20 +5426,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Koffing
+Ability: Levitate
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Minimize
 - Sludge
 - Disable
-- Harden
+- Selfdestruct
 
-Koffing
+Crawdaunt
+Ability: Shell Armor
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sludge
-- Smog
-- Tackle
-- Poison Gas
+- Knock Off
+- Water Pulse
+- Body Slam
+- Metal Claw
 
 === TRAINER_TEAM_ROCKET_GRUNT_13 ===
 Name: GRUNT
@@ -5430,36 +5452,41 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Zubat
+Golbat
+Ability: Inner Focus
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
-- Astonish
-- Supersonic
+- Wing Attack
+- Confuse Ray
 - Leech Life
 
-Koffing
+Tentacruel
+Ability: Clear Body
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smog
-- Tackle
-- Poison Gas
+- Water Pulse
+- Barrier
+- Toxic Spike
+- Acid
 
 Onix
+Ability: Sturdy
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rock Throw
+- Rock Slide
 - Screech
-- Harden
-- Rage
+- Rock Polish
+- Slam
 
-Houndour
+Houndoom
+Ability: Flash Fire
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fire Fang
+- Roar
+- Body Slam
 - Bite
-- Smog
-- Ember
-- Howl
 
 Elekid
 Ability: Static
@@ -5467,8 +5494,8 @@ Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Swift
 - Low Kick
-- Thundershock
-- Leer
+- Thunderpunch
+- Light Screen
 
 === TRAINER_TEAM_ROCKET_GRUNT_11 ===
 Name: GRUNT
@@ -5479,21 +5506,41 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Slakoth
+Vigoroth
+Ability: Vital Spirit
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Focus Energy
+- Night Slash
+- Cut
 
-Hoothoot
+Noctowl
+Ability: Insomnia
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Confusion
+- Reflect
+- Hypnosis
 
 Bibarel
+Ability: Simple
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Amnesia
+- Hyper Fang
+- Water Pulse
+- Yawn
 
-Staravia
+Sneasel
+Ability: Inner Focus
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Icy Wind
+- Faint Attack
+- Taunt
+- Crush Claw
 
 === TRAINER_TEAM_ROCKET_GRUNT_10 ===
 Name: GRUNT
