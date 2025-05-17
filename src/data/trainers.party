@@ -5555,16 +5555,28 @@ Mightyena
 Ability: Intimidate
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Assurance
+- Thunder Fang
+- Secret Power
+- Howl
 
 Ninjask
 Ability: Speed Boost
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swords Dance
+- Bug Bite
+- Slash
+- Night Slash
 
 Haunter
 Ability: Levitate
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Ball
+- Hypnosis
+- Sucker Punch
+- Thunderbolt
 
 === TRAINER_TEAM_ROCKET_GRUNT_15 ===
 Name: GRUNT
@@ -5579,11 +5591,19 @@ Scyther
 Ability: Technician
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Pursuit
+- Cut
+- Brick Break
 
 Dodrio
 Ability: Early Bird
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Brick Break
+- Pursuit
+- Pluck
+- Acupressure
 
 === TRAINER_TEAM_ROCKET_GRUNT_14 ===
 Name: GRUNT
@@ -5595,16 +5615,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Grumpig
+Ability: Own Tempo
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Zen Headbutt
+- Confuse Ray
+- Shock Wave
+- Body Slam
 
 Croagunk
+Ability: Dry Skin
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sucker Punch
+- Mud Bomb
+- Revenge
+- Rock Tomb
 
 Torkoal
+Ability: White Smoke
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Curse
+- Body Slam
+- Rock Slide
 
 === TRAINER_TEAM_ROCKET_GRUNT_18 ===
 Name: GRUNT
@@ -5616,12 +5651,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Banette
+Ability: Insomnia
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Ball
+- Will O Wisp
+- Faint Attack
+- Shock Wave
 
 Golbat
+Ability: Inner Focus
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Leech Life
+- Bite
+- Confuse Ray
 
 === TRAINER_TEAM_ROCKET_GRUNT_16 ===
 Name: GRUNT
@@ -5633,16 +5678,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Misdreavus
+Ability: Levitate
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Payback
+- Pain Split
+- Spite
 
 Swalot
+Ability: Liquid Ooze
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic
+- Amnesia
+- Encore
+- Sludge
 
 Sandslash
+Ability: Sand Veil
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sand Tomb
+- Crush Claw
+- Metal Claw
+- Rock Tomb
 
 === TRAINER_TEAM_ROCKET_GRUNT_17 ===
 Name: GRUNT
@@ -5654,16 +5714,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Magneton
+Ability: Sturdy
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Magnet Bomb
+- Shock Wave
+- Thunder Wave
+- Reflect
 
 Linoone
+Ability: Gluttony
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Headbutt
+- Covet
+- Pursuit
+- Dig
 
 Dusclops
+Ability: Pressure
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Will O Wisp
+- Shadow Sneak
+- Confuse Ray
+- Thunder Punch
 
 === TRAINER_BOSS_GIOVANNI ===
 Name: GIOVANNI
