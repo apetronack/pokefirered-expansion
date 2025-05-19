@@ -5780,6 +5780,16 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Crunch
 - Iron Tail
 
+Kleavor @ Choice Specs
+Ability: Sheer Force
+Adamant Nature
+Level: 34
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Rock Slide
+- X-Scissor
+- Air Slash
+- Night Slash
+
 === TRAINER_POKEMON_TOWER_GUARDIAN ===
 Name: GRUNT
 Class: Team Rocket
@@ -6052,8 +6062,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Haunter
+Ability: Levitate
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Ball
+- Sucker Punch
+- Curse
+- Mean Look
 
 === TRAINER_CHANNELER_CARLY ===
 Name: CARLY
@@ -6065,8 +6080,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Misdreavus
+Ability: Levitate
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Payback
+- Pain Split
+- Psybeam
+- Thunder Wave
 
 === TRAINER_CHANNELER_PATRICIA ===
 Name: PATRICIA
@@ -6078,8 +6098,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Banette
+Ability: Insomnia
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Ball
+- Will O Wisp
+- Knock Off
+- Thunderbolt
 
 === TRAINER_CHANNELER_LAUREL ===
 Name: LAUREL
@@ -6091,12 +6116,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Dusclops
+Ability: Pressure
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Punch
+- Shadow Sneak
+- Will O Wisp
+- Pain Split
 
 Drifblim
+Ability: Aftermath
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ominous Wind
+- Stockpile
+- Swallow
+- Psychic
 
 === TRAINER_CHANNELER_JODY ===
 Name: JODY
@@ -6108,8 +6143,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Honchkrow
+Ability: Super Luck
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Faint Attack
+- Steel Wing
+- Swagger
 
 === TRAINER_CHANNELER_PAULA ===
 Name: PAULA
@@ -6121,8 +6161,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Houndoom
+Ability: Flash Fire
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Fang
+- Fire Fang
+- Bite
+- Howl
 
 === TRAINER_CHANNELER_RUTH ===
 Name: RUTH
@@ -6136,6 +6181,10 @@ AI: AI_FLAG_BASIC_TRAINER
 Hypno
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Meditate
+- Headbutt
+- Psycho Cut
+- Dynamic Punch
 
  === TRAINER_CHANNELER_TAMMY ===
 Name: TAMMY
@@ -6147,8 +6196,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Haunter
+Ability: Levitate
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Punch
+- Giga Drain
+- Shadow Ball
+- Hypnosis
 
 === TRAINER_CHANNELER_KARINA ===
 Name: KARINA
@@ -6160,8 +6214,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Misdreavus
+Ability: Levitate
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Calm Mind
+- Shadow Ball
+- Psychic
+- Dark Pulse
 
 === TRAINER_CHANNELER_JANAE ===
 Name: JANAE
@@ -6173,8 +6232,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Banette
+Ability: Insomnia
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Toxic
+- Double Team
+- Sucker Punch
 
 === TRAINER_CHANNELER_ANGELICA ===
 Name: ANGELICA
@@ -6186,16 +6250,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Girafarig
+Ability: Inner Focus
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Agility
+- Baton Pass
+- Stomp
 
-Dusclops
+Dusclops @ Custap Berry
+Ability: Pressure
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Punch
+- Thunder Wave
+- Payback
+- Brick Break
 
 Parasect
+Ability: Effect Spore
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spore
+- Growth
+- Leech Life
+- Cross Poison
 
 === TRAINER_CHANNELER_JENNIFER ===
 Name: JENNIFER
@@ -6206,9 +6285,14 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Dusclops
+Claydol
+Ability: Levitate
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ancient Power
+- Psychic
+- Ice Beam
+- Power Trick
 
 === TRAINER_CHANNELER_EMILIA ===
 Name: EMILIA
@@ -6219,9 +6303,14 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Drifblim
+Drifblim @ Petaya Berry
+Ability: Unburden
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ominous Wind
+- Silver Wind
+= Thunderbolt
+- Minimize
 
 === TRAINER_TEAM_ROCKET_GRUNT_19 ===
 Name: GRUNT
@@ -6233,16 +6322,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Luxray
+Ability: Intimidate
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Spark
+- Ice Fang
+- Iron Tail
 
 Venomoth
+Ability: Tinted Lens
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sleep Powder
+- Psybeam
+- Silver Wind
+- Toxic Spikes
 
 Primeape
+Ability: Anger Point
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Brick Break
+- Assurance
+- Rock Slide
+- Screech
 
 === TRAINER_TEAM_ROCKET_GRUNT_20 ===
 Name: GRUNT
@@ -6254,12 +6358,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Magmar
+Ability: Flame Body
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fire Punch
+- Confuse Ray
+- Faint Attack
+- Brick Break
 
 Hypno
+Ability: Insomnia
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Meditate
+- Headbutt
+- Assurance
+- Hypnosis
 
 === TRAINER_TEAM_ROCKET_GRUNT_21 ===
 Name: GRUNT
@@ -6271,20 +6385,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Torkoal
+Ability: White Smoke
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Smokescreen
+- Protect
+- Sludge Bomb
 
 Nidoking
+Ability: Poison Point
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Jab
+- Thunderbolt
+- Brick Break
+- Flamethrower
 
 Pidgeot
+Ability: Keen Eye
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Featherdance
+- Aerial Ace
+- Steel Wing
+- Sand Attack
 
 Cacturne
+Ability: Sand Veil
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Faint Attack
+- Pin Missile
+- Revenge
+- Leech Seed
 
 === TRAINER_LASS_KAY ===
 Name: KAY
@@ -6296,12 +6430,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Tropius
+Ability: Chlorophyll
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Leaf Blade
+- Curse
+- Slam
 
 Weepinbell
+Ability: Chlorophyll
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sleep Powder
+- Growth
+- Knock Off
+- Giga Drain
 
 === TRAINER_BEAUTY_BRIDGET ===
 Name: BRIDGET
@@ -6313,20 +6457,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Cherrim
+Ability: Flower Gift
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sunny Day
+- Petal Dance
+- Growth
+- Secret Power
 
 Tangela
+Ability: Chlorophyll
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Knock Off
+- Ancient Power
+- Sleep Powder
+- Giga Drain
 
 Sunflora
+Ability: Chlorophyll
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Razor Leaf
+- Sunny Day
+- Ingrain
 
 Roselia
+Ability: Poison Point
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic
+- Giga Drain
+- Growth
+- Sludge Bomb
 
 === TRAINER_PICNICKER_TINA ===
 Name: TINA
@@ -6338,12 +6502,21 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Torterra
+Ability: Overgrow
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Leech Seed
+- Curse
+- Wood Hammer
 
 Meganium
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Reflect
+- Petal Dance
+- Poison Powder
+- Iron Tail
 
 === TRAINER_BEAUTY_TAMIA ===
 Name: TAMIA
@@ -6355,12 +6528,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Venusaur
+Ability: Overgrow
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Petal Dance
+- Growth
+- Sleep Powder
+- Sludge Bomb
 
 Sceptile
+Ability: Overgrow
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leaf Blade
+- X-Scissor
+- Night Slash
+- Dragon Claw
 
 === TRAINER_COOLTRAINER_MARY ===
 Name: MARY
@@ -6373,24 +6556,49 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Leafeon
+Ability: Leaf Guard
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Magical Leaf
+- Synthesis
+- Sand Attack
+- Shadow Ball
 
 Parasect
+Ability: Effect Spore
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Spore
+- Leech Life
+- Growth
+- Giga Drain
 
 Ludicolo
+Ability: Swift Swim
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rain Dance
+- Giga Drain
+- Water Pulse
+- Body Slam
 
 Cradily
+Ability: Suction Cups
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Ancient Power
+- Amnesia
+- Confuse Ray
+- Giga Drain
 
 Venusaur
+Ability: Overgrow
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Curse
+- Razor Leaf
+- Leech Seed
+- Body Slam
 
 === TRAINER_BEAUTY_LORI ===
 Name: LORI
@@ -6402,8 +6610,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Exeggutor
+Ability: Chlorophyll
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Seed Bomb
+- Hypnosis
+- Reflect
+- Psychic
 
 === TRAINER_LASS_LISA ===
 Name: LISA
@@ -6415,12 +6628,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Roserade
+Ability: Natural Cure
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Extrasensory
+- Giga Drain
+- Toxic Spikes
+- Leech Seed
 
 Tangrowth
+Ability: Chlorophyll
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ancient Power
+- Knock Off
+- Brick Break
+- Giga Drain
 
 === TRAINER_LEADER_ERIKA ===
 Name: ERIKA
