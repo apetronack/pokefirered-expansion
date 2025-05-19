@@ -6714,13 +6714,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Voltorb
+Electrode @ Liechi Berry
+Ability: Soundproof
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Self Destruct
+- Light Screen
+- Rollout
+- Spark
 
-Electrode
+Steelix
+Ability: Sturdy
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slam
+- Rock Slide
+- Dig
+- Thunder Fang
 
 === TRAINER_CAMPER_JUSTIN ===
 Name: JUSTIN
@@ -6731,13 +6741,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Nidoran M
+Nidoking @ NevermeltIce
+Ability: Rivalry
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Beam
+- Thunderbolt
+- Brick Break
+- Flamethrower
 
-Nidorino
+Medicham @ Black Belt
+Ability: Pure Power
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hi Jump Kick
+- Rock Slide
+- Bulk Up
+- Ice Punch
 
 === TRAINER_FISHERMAN_ANDREW ===
 Name: ANDREW
@@ -6748,13 +6768,23 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Feebas
+Lanturn
+Ability: Volt Absorb
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Signal Beam
+- Bubblebeam
+- Charge Beam
+- Confuse Ray
 
-Feebas
+Mantine
+Ability: Water Absorb
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Water Pulse
+- Psybeam
+- Signal Beam
 
 === TRAINER_PICNICKER_ALMA ===
 Name: ALMA
@@ -6765,17 +6795,32 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Corphish
+Tentacruel
+Ability: Clear Body
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Jab
+- Water Pulse
+- Barrier
+- Toxic Spikes
 
-Poliwag
+Golduck
+Ability: Cloud Nine
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Pulse
+- Psychic
+- Mud Bomb
+- Cross Chop
 
-Horsea
+Poliwrath @ Wide Lens
+Ability: Water Absorb
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Dynamic Punch
+- Blizzard
+- Rock Slide
 
 === TRAINER_BIRD_KEEPER_SEBASTIAN ===
 Name: SEBASTIAN
@@ -6786,13 +6831,23 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Pidgey
+Swellow
+Ability: Guts
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Endeavor
+- Quick Attack
+- Pursuit
 
-Pidgeotto
+Dodrio
+Ability: Early Bird
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hi Jump Kick
+- Tri Attack
+- Pluck
+- Acupressure
 
 === TRAINER_PICNICKER_SUSIE ===
 Name: SUSIE
