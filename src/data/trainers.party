@@ -6858,25 +6858,50 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Pidgeotto
+Staraptor @ White Herb
+Ability: Intimidate
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Close Combat
+- U Turn
+- Aerial Ace
+- Steel Wing
 
 Loudred
+Ability: Soundproof
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Screech
+- Brick Break
+- Rock Slide
+- Body Slam
 
-Eevee
+Glaceon
+Ability: Snow Cloak
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Shard
+- Bite
+- Icy Wind
+- Shadow Ball
 
-Pikachu
+Pikachu @ Light Ball
+Ability: Static
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunderbolt
+- Slam
+- Nasty Plot
+- Grass Knot
 
-Lombre
+Camerupt
+Ability: Solid Rock
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Slide
+- Magnitude
+- Lava Plume
+- Amnesia
 
 === TRAINER_BEAUTY_LOLA ===
 Name: LOLA
@@ -6887,17 +6912,32 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Loudred
+Miltank
+Ability: Scrappy
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Milk Drink
+- Body Slam
+- Zen Headbutt
+- Curse
 
-Pikachu
+Electabuzz
+Ability: Static
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Discharge
+- Brick Break
+- Light Screen
+- Ice Punch
 
-Munchlax
+Armaldo
+Ability: Battle Armor
 Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ancient Power
+- Metal Claw
+- Cross Poison
+- X Scissor
 
 === TRAINER_BEAUTY_SHEILA ===
 Name: SHEILA
@@ -6908,13 +6948,23 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Clefairy
+Xatu
+Ability: Synchronize
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tailwind
+- Confuse Ray
+- Wish
+- Psychic
 
-Zigzagoon
+Snorlax @ Chesto Berry
+Ability: Immunity
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Curse
+- Body Slam
+- Rest
+- Shadow Ball
 
 === TRAINER_PICNICKER_VALERIE ===
 Name: VALERIE
@@ -6925,13 +6975,32 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Poliwag
+Slowking
+Ability: Own Tempo
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Zen Headbutt
+- Curse
+- Headbutt
+- Slack Off
 
-Poliwag
+Forretress
+Ability: Sturdy
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Iron Defense
+- Payback
+- Mirror Shot
+- Explosion
+
+Donphan
+Ability: Sturdy
+Level: 38
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fire Fang
+- Magnitude
+- Knock Off
+- Rapid Spin
 
 === TRAINER_PICNICKER_GWEN ===
 Name: GWEN
@@ -6942,21 +7011,41 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Pidgey
+Heracross @ Sitrus Berry
+Ability: Guts
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Close Combat
+- Night Slash
+- Rock Slide
+- Bulk Up
 
-Zigzagoon
+Toxicroak
+Ability: Anticipation
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nasty Plot
+- Mud Bomb
+- Sludge Bomb
+- Dark Pulse
 
-Pidgey
+Kabutops
+Ability: Battle Armor
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Jet
+- Brick Break
+- Rock Slide
+- Mud Shot
 
-Pidgeotto
+Manectric
+Ability: Static
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Fang
+- Bite
+- Howl
+- Fire Fang
 
 === TRAINER_BIRD_KEEPER_PERRY ===
 Name: PERRY
@@ -6967,25 +7056,50 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Taillow
+Skarmory @ Sitrus Berry
+Ability: Sturdy
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spikes
+- Steel Wing
+- Curse
+- Whirlwind
 
-Pidgey
+Noctowl
+Ability: Insomnia
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Reflect
+- Air Slash
+- Hypnosis
+- Shadow Ball
 
-Pidgey
+Honchkrow
+Ability: Super Luck
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Faint Attack
+- Thunder Wave
+- Swagger
 
-Taillow
+Tropius
+Ability: Chlorophyll
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sunny Day
+- Solar Beam
+- Growth
+- Synthesis
 
-Taillow
+Altaria
+Ability: Natural Cure
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- DragonBreath
+- Ice Beam
+- Sing
 
 === TRAINER_BIKER_JARED ===
 Name: JARED
@@ -6996,29 +7110,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
+Weezing @ Charcoal
+Ability: Levitate
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
-- Sludge
-- Smog
-- Poison Gas
+- Sludge Bomb
+- Assurance
+- Flamethrower
 
-Koffing
+Ariados @ Salac Berry
+Ability: Swarm
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Spider Web
+- Sucker Punch
+- Bug Bite
+- Body Slam
 
-Koffing
+Lucario @ Metronome
+Ability: Steadfast
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Calm Mind
+- Dark Pulse
+- Vacuum Wave
+- Shadow Ball
 
 === TRAINER_BIRD_KEEPER_ROBERT ===
 Name: ROBERT
@@ -7029,21 +7146,41 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Pidgey
-Level: 39
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pidgeotto
-Level: 39
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Level: 39
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 Swellow
+Ability: Guts
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Quick Attack
+- Steel Wing
+- U Turn
+
+Pelipper
+Ability: Keen Eye
+Level: 39
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Roost
+- Stockpile
+- Water Pulse
+- Air Slash
+
+Dodrio
+Ability: Early Bird
+Level: 39
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tri Attack
+- Brick Break
+- Pluck
+- Faint Attack
+
+Crobat
+Ability: Inner Focus
+Level: 39
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cross Poison
+- Leech Life
+- Wing Attack
+- Confuse Ray
 
 === TRAINER_BIRD_KEEPER_CARTER ===
 Name: CARTER
@@ -7054,17 +7191,32 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Pidgey
+Ninjask
+Ability: Speed Boost
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swords Dance
+- Sand Attack
+- Leech Life
+- Night Slash
 
-Doduo
+Pidgeot
+Ability: Keen Eye
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Featherdance
+- Faint Attack
+- Steel Wing
 
-Pidgeotto
+Aerodactyl
+Ability: Rock Head
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Rock Slide
+- Crunch
+- Iron Tail
 
 === TRAINER_BIRD_KEEPER_MITCH ===
 Name: MITCH
@@ -7075,21 +7227,41 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Pidgey
+Charizard @ Sitrus Berry
+Ability: Blaze
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Substitute
+- Rock Slide
+- Focus Punch
 
-Taillow
+Mantine
+Ability: Water Absorb
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Signal Beam
+- Psybeam
+- Water Pulse
+- Agility
 
-Pidgey
+Scyther
+Ability: Technician
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Pursuit
+- Quick Attack
+- Cut
 
-Swellow
+Gligar
+Ability: Hyper Cutter
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swords Dance
+- U Turn
+- Faint Attack
+- Slash
 
 === TRAINER_BIRD_KEEPER_BECK ===
 Name: BECK
@@ -7097,16 +7269,26 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Pidgeotto
+Blaziken @ Black Belt
+Ability: Blaze
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bulk Up
+- Blaze Kick
+- Double Kick
+- Rock Slide
 
-Swellow
+Butterfree @ Twisted Spoon
+Ability: Compound Eyes
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tailwind
+- Silver Wind
+- Psybeam
+- Sleep Powder
 
 === TRAINER_BIRD_KEEPER_MARLON ===
 Name: MARLON
@@ -7117,17 +7299,32 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Taillow
+Staraptor
+Ability: Intimidate
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Close Combat
+- Aerial Ace
+- Double Team
+- Secret Power
 
-Doduo
+Drifblim
+Ability: Aftermath
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ominous Wind
+- Baton Pass
+- Stockpile
+- Payback
 
-Swellow
+Venomoth
+Ability: Tinted Lens
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Signal Beam
+- Sleep Powder
+- Psybeam
+- Energy Ball
 
 === TRAINER_BIRD_KEEPER_DONALD ===
 Name: DONALD
@@ -7139,8 +7336,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Noctowl
-Level: 39
+Ability: Insomnia
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Extrasensory
+- Air Slash
+- Hypnosis
+- Reflect
 
 === TRAINER_BIRD_KEEPER_BENNY ===
 Name: BENNY
@@ -7148,16 +7350,26 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Taillow
+Xatu
+Ability: Synchronize
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Tailwind
+- Me first
+- Calm Mind
 
-Swellow
+Sceptile
+Ability: Overgrow
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- X Scissor
+- Leaf Blade
+- Slam
+- Brick Break
 
 === TRAINER_TWINS_KIRI_JAN ===
 Name: KIRI & JAN
@@ -7168,13 +7380,23 @@ Music: Twins
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Charmander
+Infernape
+Ability: Blaze
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bulk Up
+- Flame Wheel
+- Mach Punch
+- Brick Break
 
-Squirtle
+Empoleon
+Ability: Torrent
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Jet
+- Metal Claw
+- Swords Dance
+- Avalanche
 
 === TRAINER_BIKER_LUKAS ===
 Name: LUKAS
@@ -7185,37 +7407,41 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
+Weezing
+Ability: Levitate
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Sludge Bomb
+- Selfdestruct
+- Will O Wisp
 
-Koffing
+Swalot @ Silk Scarf
+Ability: Sticky Hold
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Amnesia
+- Sludge Bomb
+- Body Slam
+- Yawn
 
-Koffing
+Crobat
+Ability: Inner Focus
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
+- Poison Fang
+- Leech Life
+- Confuse Ray
+- Bite
 
-Koffing
+Roserade
+Ability: Poison Point
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Leech Seed
+- Magical Leaf
+- Toxic
+- Shadow Ball
 
 === TRAINER_BIKER_GERALD ===
 Name: GERALD
@@ -7226,21 +7452,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
+Machamp
+Ability: No Guard
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Cross Chop
+- Rock Slide
+- Payback
+- Bulk Up
 
-Weezing
+Golem
+Ability: Sturdy
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
+- Earthquake
+- Explosion
+- Rock Blast
+- Gyro Ball
 
 === TRAINER_BIKER_MALIK ===
 Name: MALIK
