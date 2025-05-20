@@ -7479,21 +7479,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
+Huntail @ Deep Sea Tooth
+Ability: Swift Swim
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Brine
+- Ice Fang
+- Iron Defense
+- Toxic
 
-Koffing
+Mawile @ Black Glasses
+Ability: Intimidate
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
+- Crunch
+- Flamethrower
+- Ice Beam
+- Dynamic Punch
 
 === TRAINER_BIKER_ISAAC ===
 Name: ISAAC
@@ -7504,29 +7506,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
+Slaking
+Ability: Truant
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
+- Brick Break
+- Faint Attack
+- Slack Off
+- Slash
 
-Koffing
+Grumpig @ Chesto Berry
+Ability: Own Tempo
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
+- Psybeam
+- Rest
+- Shadow Ball
+- Charge Beam
 
-Koffing
+Hariyama @ Sitrus Berry
+Ability: Thick Fat
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Belly Drum
+- Vital Throw
+- Knock Off
+- Bullet Punch
 
 === TRAINER_BIKER_ERNEST ===
 Name: ERNEST
@@ -7534,48 +7539,52 @@ Class: Biker
 Pic: Biker
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
+Cacturne @ Bright Powder
+Ability: Sand Veil
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Leech Seed
+- Faint Attack
+- Sand Attack
+- Seed Bomb
 
-Koffing
+Sandslash
+Ability: Sand Veil
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Sandstorm
+- Crush Claw
+- Sand Attack
+- Rock Slide
 
-Weezing
+Bastiodon
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Sandstorm
+- Ancient Power
+- Take Down
+- Swagger
 
-Koffing
+Forretress @ Salac Berry
+Ability: Sturdy
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Payback
+- Rapid Spin
+- Explosion
+- Counter
 
-Koffing
+Bronzong @ Iron Ball 
+Ability: Levitate
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Minimize
-- Sludge
-- Disable
-- Pound
+- Extrasensory
+- Gyro Ball
+- Hypnosis
+- Confuse Ray
 
 === TRAINER_BIKER_ALEX ===
 Name: ALEX
@@ -7586,29 +7595,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
+Toxicroak @ Salac Berry
+Ability: Anticipation
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Revenge
+- Faint Attack
+- Rock Slide
+- Endure
 
-Koffing
+Ninetales
+Ability: Flash Fire
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
+- Confuse Ray
+- Nasty Plot
+- Flamethrower
+- Extrasensory
 
-Weezing
+Ampharos @ Silk Scarf
+Ability: Static
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Fire Punch
+- Thunder Punch
+- Body Slam
+- Brick Break
 
 === TRAINER_BEAUTY_GRACE ===
 Name: GRACE
@@ -7616,16 +7628,26 @@ Class: Beauty
 Pic: Beauty
 Gender: Male
 Music: Female
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Pidgeotto
+Girafarig
+Ability: Inner Focus
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Agility
+- Stomp
+- Double Kick
 
 Clefable
+Ability: Cute Charm
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Follow Me
+- Meteor Mash
+- Cosmic Power
+- Ice Beam
 
 === TRAINER_BEAUTY_OLIVIA ===
 Name: OLIVIA
@@ -7636,13 +7658,23 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Bulbasaur
+Gardevoir
+Ability: Synchronize
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Calm Mind
+- Psychic
+- Thunderbolt
+- Attract
 
-Ivysaur
+Gorebyss @ Deep Sea Scale
+Ability: Swift Swim
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Captivate
+- Aqua Ring
+- Surf
+- Ice Beam
 
 === TRAINER_PICNICKER_KINDRA ===
 Name: KINDRA
