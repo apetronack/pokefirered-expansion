@@ -7801,17 +7801,32 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Bellsprout
+Togetic
+Ability: Serene Grace
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Sweet Kiss
+- Solar Beam
+- Sunny Day
 
-Bellsprout
+Espeon
+Ability: Synchronize
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Calm Mind
+- Shadow Ball
+- Morning Sun
 
-Tangela
+Azumarill
+Ability: Huge Power
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Ring
+- Aqua Jet
+- Slam
+- Brick Break
 
 === TRAINER_PICNICKER_BECKY ===
 Name: BECKY
@@ -7819,16 +7834,26 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Male
 Music: Girl
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Pikachu
+Swalot @ Quick Claw
+Ability: Sticky Hold
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic
+- Stockpile
+- Encore
+- Sludge Bomb
 
 Raichu
+Ability: Static
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunderbolt
+- Surf
+- Nasty Plot
+- Quick Attack
 
 === TRAINER_CRUSH_KIN_RON_MYA ===
 Name: RON & MYA
@@ -7840,12 +7865,22 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Hariyama @ Black Belt
+Ability: Thick Fat
 Level: 40
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Vital Throw
+- Fake Out
+- Knock Off
+- Whirlwind
 
 Medicham @ Black Belt
+Ability: Pure Power
 Level: 40
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Hi Jump Kick
+- Bulk Up
+- Ice Punch
+- Rock Slide
 
 === TRAINER_PICNICKER_CELIA ===
 Name: CELIA
@@ -7856,9 +7891,23 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Clefairy
+Magmar
+Ability: Flame Body
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Confuse Ray
+- Faint Attack
+- Karate Chop
+
+Mismagius
+Ability: Levitate
+Level: 40
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Ball
+- Psybeam
+- Perish Song
+- Mean Look
 
 === TRAINER_YOUNG_COUPLE_LEA_JED ===
 Name: LEA & JED
@@ -7870,12 +7919,22 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Arcanine
+Ability: Intimidate
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Thunder Fang
+- Flamethrower
+- Crunch
 
 Ninetales
+Ability: Flash Fire
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nasty Plot
+- Flamethrower
+- Energy Ball
+- Extrasensory
 
 === TRAINER_BIKER_LAO ===
 Name: LAO
