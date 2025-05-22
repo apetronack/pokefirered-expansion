@@ -7685,17 +7685,32 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Weepinbell
+Politoed
+Ability: Water Absorb
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Perish Song
+- Surf
+- Mud Shot
+- Ice Beam
 
-Bellsprout
+Breloom
+Ability: Effect Spore
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mach Punch
+- Sky Uppercut
+- Leech Seed
+- Rock Slide
 
-Bellsprout
+Flareon
+Ability: Flash Fire
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Body Slam
+- Dig
+- Bite
 
 === TRAINER_BIRD_KEEPER_CHESTER ===
 Name: CHESTER
@@ -7707,16 +7722,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Dodrio
+Ability: Early Bird
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tri Attack
+- Brick Break
+- Pluck
+- Acupressure
 
-Doduo
+Altaria
+Ability: Natural Cure
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Dance
+- Steel Wing
+- Aerial Ace
+- Body Slam
 
-Doduo
+Swellow
+Ability: Guts
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aerial Ace
+- Double Team
+- Quick Attack
+- U Turn
 
 === TRAINER_BIRD_KEEPER_EDWIN ===
 Name: EDWIN
@@ -7724,24 +7754,43 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Pidgeotto
+Skarmory
+Ability: Keen Eye
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Steel Wing
+- Spikes
+- Sand Attack
+- Rock Slide
 
 Noctowl
+Ability: Insomnia
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Air Slash
+- Reflect
+- Hypnosis
+- Shadow Ball
 
-Doduo
+Pidgeot
+Ability: Keen Eye
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Featherdance
+- Quick Attack
+- Steel Wing
 
-Pidgey
+Xatu
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wish
+- Tailwind
+- Me first
+- Psychic
 
 === TRAINER_PICNICKER_YAZMIN ===
 Name: YAZMIN
