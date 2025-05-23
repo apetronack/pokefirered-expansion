@@ -216,13 +216,13 @@ Cap 6: Giovanni 1, level 33
     Celadon City
         No trainers
     Rocket Hideout B1F (first)
-        Grunt9 X
-        Grunt8 X
-        Grunt12 X
+        Grunt9 XY
+        Grunt8 XY
+        Grunt12 XY
     Rocket Hideout B2F (first)
-        Grunt13 X
+        Grunt13 XY
     Rocket Hideout B1F (second)
-        Grunt11 X
+        Grunt11 XY
         Grunt10 X
     Rocket Hideout B3F (first)
         Grunt15 X
@@ -234,109 +234,106 @@ Cap 6: Giovanni 1, level 33
         Trainer Boss Giovanni X
 Cap 7: Rival 4 Pokemon Tower, 35
     Lavender Town
-        Pokemon Tower Guardian
+        Pokemon Tower Guardian X
     Pokemon Tower 1F
         No trainers
     Pokemon Tower 2F
-        Rival 4
+        Rival 4 X
 Cap 8: Ericka, level 38
     Pokemon Tower 3F
-        Hope
-        Carly
-        Patricia
+        Hope X
+        Carly X
+        Patricia X
     Pokemon Tower 4F
-        Laurel
-        Jody
-        Paula
+        Laurel X
+        Jody X
+        Paula X
     Pokemon Tower 5F
-        Ruth
-        Tammy
-        Karina
-        Janae
+        Ruth X
+        Tammy X
+        Karina X
+        Janae X
     Pokemon Tower 6F
-        Angelica
-        Jennifer
-        Emilia
+        Angelica X
+        Jennifer X
+        Emilia X
     Pokemon Tower 7F
-        Grunt19
-        Grunt20
-        Grunt21
+        Grunt19 X
+        Grunt20 X
+        Grunt21 X
     Celadon City Gym
-        Kay
-        Bridget
-        Tina
-        Tamia
-        Mary
-        Lori
-        Lisa
-        Ericka
+        Kay X
+        Bridget X
+        Tina X
+        Tamia X
+        Mary X
+        Lori X
+        Lisa X
+        Ericka X
 Cap 9: Rival 5, Silph Co, level 43
     Route 12 (Second)
-        Luca
-        Justin
-        Andrew
+        Luca X
+        Justin X
+        Andrew X
     Route 13
-        Alma
-        Sebastian
-        Susie
-        Lola
-        Sheila
-        Valerie
-        Gwen
-        Perry
-        Jared
-        Robert
+        Alma X
+        Sebastian X
+        Susie X
+        Lola X
+        Sheila X
+        Valerie X
+        Gwen X
+        Perry X
+        Jared X
+        Robert X
     Route 14
-        Carter
-        Mitch
-        Beck
-        Marlon
-        Donald
-        Benny
-        Jan
-        Kiri
-        Lukas
-        Gerald
-        Malik
-        Isaac
+        Carter X
+        Mitch X
+        Beck X
+        Marlon X
+        Donald X
+        Benny X
+        Kiri and Jan X
+        Lukas X
+        Gerald X
+        Malik X
+        Isaac X
     Route 15
-        Ernest
-        Alex
-        Grace
-        Olivia
-        Kindra
-        Chester
-        Edwin
-        Yazmin
-        Becky
-        Mya
-        Ron
-        Celia
+        Ernest X
+        Alex X
+        Grace X
+        Olivia X
+        Kindra X
+        Chester X
+        Edwin X
+        Yazmin X
+        Becky X
+        Ron and Mya X
+        Celia X
     Route 16
-        Jed
-        Lea
-        Lao
-        Koji
-        Luke
-        Hideo
-        Ruben
-        Camron
+        Lea and Jed 
+        Lao X
+        Koji X
+        Luke X
+        Hideo X
+        Ruben X
+        Camron X
     Route 17
-        Virgil
-        Isaiah
-        Raul
-        Billy
-        Nikolas
-        Jamal
-        Zeek
-        Corey
-        Jaxon
-        William
+        Virgil X
+        Isaiah X
+        Raul X
+        Billy X
+        Nikolas X
+        Jamal X
+        Zeek X
+        Corey X
+        Jaxon X
+        William X
     Route 18
-        Jacob
-        Wilton
-        Ramiro
+        Jacob X
+        Wilton X
+        Ramiro X
     Route 19 (start)
-        Richard
+        Richard X
         Reece
     Silph Co
