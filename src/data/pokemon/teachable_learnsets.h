@@ -3523,7 +3523,6 @@ static const u16 sDodrioTeachableLearnset[] = {
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
-    MOVE_BRICK_BREAK,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
     MOVE_SWORDS_DANCE,

@@ -4683,7 +4683,7 @@ Ability: Effect Spore
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Force Palm
-- Mach Pumch
+- Mach Punch
 - Rock Tomb
 - Mega Punch
 
@@ -5467,7 +5467,7 @@ Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Water Pulse
 - Barrier
-- Toxic Spike
+- Toxic Spikes
 - Acid
 
 Onix
@@ -6179,6 +6179,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Hypno
+Ability: Insomnia
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Meditate
@@ -6186,7 +6187,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psycho Cut
 - Dynamic Punch
 
- === TRAINER_CHANNELER_TAMMY ===
+=== TRAINER_CHANNELER_TAMMY ===
 Name: TAMMY
 Class: Channeler
 Pic: Channeler
@@ -6309,7 +6310,7 @@ Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Ominous Wind
 - Silver Wind
-= Thunderbolt
+- Thunderbolt
 - Minimize
 
 === TRAINER_TEAM_ROCKET_GRUNT_19 ===
@@ -10166,31 +10167,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Vulpix
 Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_HIKER_LENNY ===
-Name: LENNY
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Geodude
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machop
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Geodude
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Geodude
-Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BIKER_1 ===
