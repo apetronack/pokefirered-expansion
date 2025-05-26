@@ -8419,24 +8419,44 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Taillow
+Xatu @ Persim Berry
+Ability: Synchronize
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sunny Day
+- Calm Mind
+- Psychic
+- Tailwind
 
-Taillow
+Tropius @ Yache Berry
+Ability: Chlorophyll
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Synthesis
+- Leaf Blade
+- Body Slam
+- Growth
 
-Swellow
+Swellow @ Toxic Orb
+Ability: Guts
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Facade
+- Aerial Ace
+- Quick Attack
+- Steel Wing
 
-Taillow
+Altaria
+Ability: Natural Cure
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Dance
+- Take Down
+- Sing
+- Iron Tail
 
 === TRAINER_BIRD_KEEPER_WILTON ===
 Name: WILTON
@@ -8447,13 +8467,23 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Taillow
+Ninjask
+Ability: Speed Boost
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Swords Dance
+- Leech Life
+- Double Team
 
-Swellow
+Noctowl
+Ability: Insomnia
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Air Slash
+- Zen Headbutt
+- Reflect
 
 === TRAINER_BIRD_KEEPER_RAMIRO ===
 Name: RAMIRO
@@ -8465,8 +8495,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Dodrio
-Level: 41
+Ability: Early Bird
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hi Jump Kick
+- Tri Attack
+- Aerial Ace
+- Body Slam
 
 === TRAINER_SWIMMER_MALE_RICHARD ===
 Name: RICHARD
@@ -8474,16 +8509,26 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Tentacool
+Tentacruel
+Ability: Clear Body
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Jab
+- Barrier
+- Surf
+- Rain Dance
 
-Shellder
+Cloyster
+Ability: Shell Armor
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic
+- Protect
+- Spike Cannon
+- Ice Beam
 
 === TRAINER_SWIMMER_MALE_REECE ===
 Name: REECE
@@ -8494,17 +8539,32 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Corphish
+Swampert
+Ability: Torrent
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Muddy Water
+- Ice Beam
+- Brick Break
+- Dig
 
-Horsea
+Kingdra
+Ability: Swift Swim
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Brine
+- Rain Dance
+- Smokescreen
+- Flash Cannon
 
-Staryu
+Huntail
+Ability: Swift Swim
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rain Dance
+- Dive
+- Ice Fang
+- Screech
 
 === TRAINER_AQUA_LEADER ===
 Name: Sand Team
