@@ -7946,21 +7946,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
+Marowak
+Ability: Rock Head
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
+- Bonemerang
+- Swords Dance
+- Skull Bash
+- Rock Slide
 
-Koffing
+Dusclops
+Ability: Pressure
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Calm Mind
+- Ice Beam
+- Will O Wisp
+- Shadow Ball
 
 === TRAINER_CUE_BALL_KOJI ===
 Name: KOJI
@@ -7971,17 +7973,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machop
+Primeape
+Ability: Vital Spirit
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Karate Chop
+- Assurance
+- Aerial Ace
+- Counter
 
-Mankey
+Grumpig
+Ability: Thick Fat
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Confuse Ray
+- Shadow Ball
+- Reflect
 
-Machop
+Skuntank
+Ability: Stench
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic
+- Night Slash
+- Flamethrower
+- Smokescreen
 
 === TRAINER_CUE_BALL_LUKE ===
 Name: LUKE
@@ -7992,13 +8009,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Mankey
+Crawdaunt
+Ability: Hyper Cutter
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Night Slash
+- Knock Off
+- Brick Break
+- Harden
 
-Machop
+Camerupt
+Ability: Solid Rock
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Amnesia
+- Rock Slide
+- Earth Power
+- Lava Plume
 
 === TRAINER_BIKER_HIDEO ===
 Name: HIDEO
@@ -8010,8 +8037,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Weezing
+Ability: Levitate
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Explosion
+- Smokescreen
+- Sludge
+- Assurance
 
 === TRAINER_BIKER_RUBEN ===
 Name: RUBEN
@@ -8022,29 +8054,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Weezing
+Mightyena
+Ability: Indimidate
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Scary Face
+- Sand Attack
+- Howl
+- Body Slam
 
-Koffing
+Swalot
+Ability: Liquid Ooze
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Stockpile
+- Swallow
+- Spit Up
+- Toxic
 
-Weezing
+Rampardos
+Ability: Mold Breaker
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Zen Headbutt
+- Ancient Power
+- Assurance
+- Headbutt
 
 === TRAINER_CUE_BALL_CAMRON ===
 Name: CAMRON
@@ -8052,16 +8087,26 @@ Class: Cue Ball
 Pic: Cue Ball
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Mankey
+Quagsire
+Ability: Water Absorb
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Amnesia
+- Yawn
+- Slam
 
-Machop
+Lunatone
+Ability: Levitate
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cosmic Power
+- Confusion
+- Ice Beam
+- Light Screen
 
 === TRAINER_BIKER_VIRGIL ===
 Name: VIRGIL
@@ -8072,29 +8117,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Weezing
+Hariyama
+Ability: Guts
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Fake Out
+- Knock Off
+- Vital Throw
+- Whirlwind
 
-Koffing
+Girafarig
+Ability: Inner Focus
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Psychic
+- Stomp
+- Agility
+- Assurance
 
-Weezing
+Magneton
+Ability: Magnet Pull
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Thunderbolt
+- Tri Attack
+- Thunder Wave
+- Magnet Bomb
 
 === TRAINER_CUE_BALL_ISAIAH ===
 Name: ISAIAH
@@ -8102,16 +8150,26 @@ Class: Cue Ball
 Pic: Cue Ball
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Machop
+Torkoal
+Ability: White Smoke
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sunny Day
+- Flamethrower
+- Protect
+- Toxic
 
-Machamp
+Bellossom
+Ability: Chlorophyll
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Synthesis
+- Sunny Day
+- Charm
 
 === TRAINER_CUE_BALL_RAUL ===
 Name: RAUL
@@ -8119,16 +8177,26 @@ Class: Cue Ball
 Pic: Cue Ball
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Mankey
+Manectric
+Ability: Static
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunderbolt
+- Howl
+- Ice Fang
+- Thunder Wave
 
-Primeape
+Solrock
+Ability: Levitate
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cosmic Power
+- Flamethrower
+- Rock Slide
+- Confusion
 
 === TRAINER_BIKER_BILLY ===
 Name: BILLY
@@ -8139,9 +8207,14 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Weezing
-Level: 40
+Gengar @ Focus Sash
+Level: 42
+Ability: Levitate
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sucker Punch
+- Shadow Ball
+- Psychic
+- Brick Break
 
 === TRAINER_BIKER_NIKOLAS ===
 Name: NIKOLAS
@@ -8149,24 +8222,26 @@ Class: Biker
 Pic: Biker
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Voltorb
+Nidoking @ NevermeltIce
+Ability: Rivalry
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Spark
-- Sonic Boom
-- Screech
-- Charge
+- Poison Jab
+- Ice Beam
+- Brick Break
+- Shadow Ball
 
-Voltorb
+Nidoqueen @ Magnet
+Ability: Rivalry
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Spark
-- Sonic Boom
+- Crunch
+- Thunderbolt
 - Screech
-- Charge
+- Helping Hand
 
 === TRAINER_CUE_BALL_JAMAL ===
 Name: JAMAL
@@ -8177,21 +8252,41 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Mankey
+Toxicroak
+Ability: Dry Skin
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sucker Punch
+- Nasty Plot
+- Mud Bomb
+- Brick Break
 
-Mankey
+Houndoom
+Ability: Flash Fire
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunder Fang
+- Fire Fang
+- Faint Attack
+- Roar
 
 Machamp
+Ability: No Guard
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cross Chop
+- Stone Edge
+- Bulk Up
+- Payback
 
-Machop
+Banette
+Ability: Insomnia
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Ball
+- Sucker Punch
+- Thunderbolt
+- Calm Mind
 
 === TRAINER_CUE_BALL_ZEEK ===
 Name: ZEEK
@@ -8202,9 +8297,13 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machoke
-Level: 40
+Heracross @ Salac Berry
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Megahorn
+- Rock Slide
+- Swords Dance
+- Endure
 
 === TRAINER_CUE_BALL_COREY ===
 Name: COREY
@@ -8215,13 +8314,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Primeape
+Skarmory
+Ability: Sturdy
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spikes
+- Agility
+- Steel Wing
+- Air Slash
 
-Machoke
+Furret @ Choice Band
+Ability: Keen Eye
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Trick
+- Slam
+- Sucker Punch
+- Quick Attack
 
 === TRAINER_BIKER_JAXON ===
 Name: JAXON
@@ -8232,21 +8341,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Weezing
+Electabuzz
+Ability: Static
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sludge
-- Smokescreen
-- Smog
-- Tackle
+- Thunderbolt
+- Light Screen
+- Low Kick
+- Thunder Wave
 
-Weezing
+Breloom
+Ability: Effect Spore
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
+- Sky Uppercut
+- Leech Seed
+- Headbutt
+- Bulk Up
 
 === TRAINER_BIKER_WILLIAM ===
 Name: WILLIAM
@@ -8257,45 +8368,50 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
+Weezing @ Lansat Berry
+Ability: Levitate
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
+- Explosion
 - Sludge
-- Smog
-- Tackle
+- Assurance
+- Smokescreen
 
-Weezing
+Machamp @ Flame Orb
+Ability: Guts
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Facade
+- Cross Chop
+- Revenge
+- Bullet Punch
 
-Koffing
+Forretress @ Sitrus Berry
+Ability: Sturdy
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Iron Defense
+- Counter
+- Explosion
+- Bide
 
-Koffing
+Torkoal
+Ability: White Smoke
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Curse
+- Body Slam
+- Lava Plume
+- Rock Slide
 
-Weezing
+Dodrio @ Choice Band
+Ability: Early Bird
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Self Destruct
-- Tackle
+- Brick Break
+- Tri Attack
+- Pluck
+- Pursuit
 
 === TRAINER_BIRD_KEEPER_JACOB ===
 Name: JACOB
