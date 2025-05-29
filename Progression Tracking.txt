@@ -223,117 +223,233 @@ Cap 6: Giovanni 1, level 33
         Grunt13 XY
     Rocket Hideout B1F (second)
         Grunt11 XY
-        Grunt10 X
+        Grunt10 XY
     Rocket Hideout B3F (first)
-        Grunt15 X
-        Grunt14 X
+        Grunt15 XY
+        Grunt14 XY
     Rocket Hideout B4F
-        Grunt18 X
-        Grunt16 X
-        Grunt17 X
-        Trainer Boss Giovanni X
+        Grunt18 XY
+        Grunt16 XY
+        Grunt17 XY
+        Trainer Boss Giovanni XY
 Cap 7: Rival 4 Pokemon Tower, 35
     Lavender Town
-        Pokemon Tower Guardian X
+        Pokemon Tower Guardian XY
     Pokemon Tower 1F
         No trainers
     Pokemon Tower 2F
-        Rival 4 X
+        Rival 4 XY
 Cap 8: Ericka, level 38
     Pokemon Tower 3F
-        Hope X
-        Carly X
-        Patricia X
+        Hope XY
+        Carly XY
+        Patricia XY
     Pokemon Tower 4F
-        Laurel X
-        Jody X
-        Paula X
+        Laurel XY
+        Jody XY
+        Paula XY
     Pokemon Tower 5F
-        Ruth X
-        Tammy X
-        Karina X
-        Janae X
+        Ruth XY
+        Tammy XY
+        Karina XY
+        Janae XY
     Pokemon Tower 6F
-        Angelica X
-        Jennifer X
-        Emilia X
+        Angelica XY
+        Jennifer XY
+        Emilia XY
     Pokemon Tower 7F
-        Grunt19 X
-        Grunt20 X
-        Grunt21 X
+        Grunt19 XY
+        Grunt20 XY
+        Grunt21 XY
     Celadon City Gym
-        Kay X
-        Bridget X
-        Tina X
-        Tamia X
-        Mary X
-        Lori X
-        Lisa X
-        Ericka X
+        Kay XY
+        Bridget XY
+        Tina XY
+        Tamia XY
+        Mary XY
+        Lori XY
+        Lisa XY
+        Ericka XY
 Cap 9: Rival 5, Silph Co, level 43
     Route 12 (Second)
-        Luca X
-        Justin X
-        Andrew X
+        Luca XY
+        Justin XY
+        Andrew XY
     Route 13
-        Alma X
-        Sebastian X
-        Susie X
-        Lola X
-        Sheila X
-        Valerie X
-        Gwen X
-        Perry X
-        Jared X
-        Robert X
+        Alma XY
+        Sebastian XY
+        Susie XY
+        Lola XY
+        Sheila XY
+        Valerie XY
+        Gwen XY
+        Perry XY
+        Jared XY
+        Robert XY
     Route 14
-        Carter X
-        Mitch X
-        Beck X
-        Marlon X
-        Donald X
-        Benny X
-        Kiri and Jan X
-        Lukas X
-        Gerald X
-        Malik X
-        Isaac X
+        Carter XY
+        Mitch XY
+        Beck XY
+        Marlon XY
+        Donald XY
+        Benny XY
+        Kiri and Jan XY
+        Lukas XY
+        Gerald XY
+        Malik XY
+        Isaac XY
     Route 15
-        Ernest X
-        Alex X
-        Grace X
-        Olivia X
-        Kindra X
-        Chester X
-        Edwin X
-        Yazmin X
-        Becky X
-        Ron and Mya X
-        Celia X
+        Ernest XY
+        Alex XY
+        Grace XY
+        Olivia XY
+        Kindra XY
+        Chester XY
+        Edwin XY
+        Yazmin XY
+        Becky XY
+        Ron and Mya XY
+        Celia XY
     Route 16
-        Lea and Jed 
-        Lao X
-        Koji X
-        Luke X
-        Hideo X
-        Ruben X
-        Camron X
+        Lea and Jed XY
+        Lao XY
+        Koji XY
+        Luke XY
+        Hideo XY
+        Ruben XY
+        Camron XY
     Route 17
-        Virgil X
-        Isaiah X
-        Raul X
-        Billy X
-        Nikolas X
-        Jamal X
-        Zeek X
-        Corey X
-        Jaxon X
-        William X
+        Virgil XY
+        Isaiah XY
+        Raul XY
+        Billy XY
+        Nikolas XY
+        Jamal XY
+        Zeek XY
+        Corey XY
+        Jaxon XY
+        William XY
     Route 18
-        Jacob X
-        Wilton X
-        Ramiro X
+        Jacob XY
+        Wilton XY
+        Ramiro XY
     Route 19 (start)
-        Richard X
-        Reece
+        Richard XY
+        Reece XY
     Silph Co
+        Silph Co 2F
+            RocketGrunt24
+            RocketGrunt23
+            JERRY
+            CONNOR
+        Silph Co 3F
+            JOSE
+            Grunt25
+        Silph Co 4F
+            RODNEY
+            TRAINER_TEAM_ROCKET_GRUNT_26
+            TRAINER_TEAM_ROCKET_GRUNT_27
+        Silph Co 5F
+            Beau
+            Grunt28
+            Grunt29
+            Dalton
+        Silph Co 6F
+            Taylor
+            TRAINER_TEAM_ROCKET_GRUNT_30
+            Grunt31
+        Silph Co 7F
+            Joshua
+            Grunt34
+            Grunt35
+            Rival 5
+        Silph Co 8F
+            Parker
+            Grunt32
+            Grunt36
+        Silph Co 9F
+            Ed
+            Grunt37
+            Grunt38
+        Silph Co 10F
+            Travis
+            Grunt39
+        Silph Co 11F
+            Grunt40
+Cap 10: Giovanni 2, Silph, Level 46
+    Silph Co 11F
+        Grunt41
+        Boss Giovanni 2
+Cap 11: Sabrina, Level 52
+    Saffron City Dojo
+        HITOSHI
+        HIDEKI
+        AARON
+        MIKE
+        KOICHI
+    Saffron City
+        Saffron City Gym Guardian
+    Saffron City Gym
+        CAMERON
+        TASHA
+        TYRON
+        STACY
+        PRESTON
+        AMANDA
+        JOHAN
+        Sabrina
+Cap 12: Koga, Level 55
+    Fuschia City
+        Fuschia City Gym Guardian
+    Fuschia City Gym
+        KAYDEN
+        KIRK
+        EDGAR
+        Phil
+        SHAWN
+        NATE
+        Koga
+Cap 13: Blaine, Level 59
+    Route 19, Second
+        TONY
+        DAVID
+        DOUGLAS
+        MATTHEW
+        Lia and Luc
+        AXLE
+        ALICE
+        CONNIE
+        ANYA
+    Route 20, first
+        BARRY
+        DARRIN
+        SHIRLEY
+        Tiffany
+    Seafoam Islands 1F
+        No trainers
+    Seafoam Islands B1F
+        No trainers
+    Seafoam Islands B2F
+        No trainers
+    Seafoam Islands B3F
+        No trainers
+    Seafoam Islands B4F
+        No Trainers
+    Route 20, Second
+        IRENE
+        ROGER
+        NORA
+        DEAN
+        MISSY
+        MELISSA
+    Route 21
+        RONALD
+        WADE
+        Lil and IAN
+        SPENCER
+        CLAUDE
+        NOLAN
+        JACK
+        ROLAND
+        JEROME
+    Pokemon Mansion
