@@ -8055,7 +8055,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Mightyena
-Ability: Indimidate
+Ability: Intimidate
 Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Scary Face
@@ -14424,6 +14424,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Weezing
 Level: 39
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
 === TRAINER_CYCLING_TRIATHLETE_F ===
 Name: PH
 Class: Triathlete
