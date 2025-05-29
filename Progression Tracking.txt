@@ -1,430 +1,430 @@
 Progression Tracking
 Cap 1: Brock, level 13
     Pallet Town
-        Lab Rival, level 5 XY
+        Lab Rival, TRAINER_RIVAL_OAKS_LAB_SQUIRTLE/BULBASAUR/CHARMANDER
     Route 1
         No trainers
     Viridian City
         No trainers
     Route 22
-        Early Rival, cap 9 XY
+        Early Rival, TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE/BULBASAUR/CHARMANDER
     Route 2
         No trainers
     Viridian Forest
-        Rick XY
-        Doug XY
-        Anthony XY
-        Charlie XY
-        Sammy XY
+        TRAINER_BUG_CATCHER_RICK
+        TRAINER_BUG_CATCHER_DOUG
+        TRAINER_BUG_CATCHER_ANTHONY
+        TRAINER_BUG_CATCHER_CHARLIE
+        TRAINER_BUG_CATCHER_SAMMY
     Pewter City
-        Liam XY
-        Brock XY
+        TRAINER_CAMPER_LIAM
+        TRAINER_LEADER_BROCK
 Cap 2: Rival 2, level 20
     Route 3
-        Janice XY
-        Colton XY
-        Ben XY
-        Greg XY
-        Calvin XY
-        Sally XY
-        James XY
-        Robin XY
+        TRAINER_LASS_JANICE
+        TRAINER_BUG_CATCHER_COLTON
+        TRAINER_YOUNGSTER_BEN
+        TRAINER_BUG_CATCHER_GREG
+        TRAINER_YOUNGSTER_CALVIN
+        TRAINER_LASS_SALLY
+        TRAINER_BUG_CATCHER_JAMES
+        TRAINER_LASS_ROBIN
     Route 4
         No trainers (yet)
     Mt Moon 1F
-        Kent XY
-        Iris XY
-        Jovan XY
-        Robby XY
-        Miriam XY
-        Josh XY
-        Marcos XY
+        TRAINER_BUG_CATCHER_KENT
+        TRAINER_LASS_IRIS
+        TRAINER_SUPER_NERD_JOVAN
+        TRAINER_BUG_CATCHER_ROBBY
+        TRAINER_LASS_MIRIAM
+        TRAINER_YOUNGSTER_JOSH
+        TRAINER_HIKER_MARCOS
     Mt Moon B1F
         No trainers
     Mt Moon B2F
-        Grunt2 XY
-        Grunt4 XY
-        Grunt3 XY
-        Grunt1 XY
-        Miguel XY
+        TRAINER_TEAM_ROCKET_GRUNT_2
+        TRAINER_TEAM_ROCKET_GRUNT_4
+        TRAINER_TEAM_ROCKET_GRUNT_3
+        TRAINER_TEAM_ROCKET_GRUNT
+        TRAINER_SUPER_NERD_MIGUEL
     Cerulean City
-        Rival Nugget Bridge XY
+        TRAINER_RIVAL_CERULEAN_SQUIRTLE/BULBASAUR/CHARMANDER
 Cap 3: Misty, level 23
     Route 24
-        Cale XY
-        Ali XY
-        Timmy XY
-        Reli XY
-        Ethan XY
-        Grunt6 XY
-        Shane XY
+        TRAINER_BUG_CATCHER_CALE
+        TRAINER_LASS_ALI
+        TRAINER_YOUNGSTER_TIMMY
+        TRAINER_LASS_RELI
+        TRAINER_CAMPER_ETHAN
+        TRAINER_TEAM_ROCKET_GRUNT_6
+        TRAINER_CAMPER_SHANE
     Route 25
-        Franklin XY
-        Wayne XY
-        Joey XY
-        Dan XY
-        Kelsey XY
-        Nob XY
-        Flint XY
-        Chad XY
-        Haley XY
+        TRAINER_HIKER_FRANKLIN
+        TRAINER_HIKER_WAYNE
+        TRAINER_YOUNGSTER_JOEY
+        TRAINER_YOUNGSTER_DAN
+        TRAINER_PICNICKER_KELSEY
+        TRAINER_HIKER_NOB
+        TRAINER_CAMPER_FLINT
+        TRAINER_YOUNGSTER_CHAD
+        TRAINER_LASS_HALEY
     Cerulean City
-        Grunt5 XY
-        Cerulean_Gym_Guardian XY
+        TRAINER_TEAM_ROCKET_GRUNT_5
+        TRAINER_CERULEAN_GYM_GUARDIAN
     Cerulean Gym
-        Luis XY
-        Diana XY
-        Misty XY
+        TRAINER_SWIMMER_MALE_LUIS
+        TRAINER_PICNICKER_DIANA
+        TRAINER_LEADER_MISTY
 Cap 4: Rival 3, level 25
     Route 5
         No trainers
     Route 6
-        Keigo XY
-        Ricky XY
-        Nancy XY
-        Elijah XY
-        Isabelle XY
-        Jeff XY
+        TRAINER_BUG_CATCHER_KEIGO
+        TRAINER_CAMPER_RICKY
+        TRAINER_PICNICKER_NANCY
+        TRAINER_BUG_CATCHER_ELIJAH
+        TRAINER_PICNICKER_ISABELLE
+        TRAINER_CAMPER_JEFF
     Route 11
-        Eddie XY
-        Hugo XY
-        Dave XY
-        Dillon XY
-        Bernie XY
-        Jasper XY
-        Braxton XY
-        Yasu XY
-        Darian XY
-        Dirk XY
+        TRAINER_YOUNGSTER_EDDIE
+        TRAINER_GAMER_HUGO
+        TRAINER_YOUNGSTER_DAVE
+        TRAINER_YOUNGSTER_DILLON
+        TRAINER_ENGINEER_BERNIE
+        TRAINER_GAMER_JASPER
+        TRAINER_ENGINEER_BRAXTON
+        TRAINER_YOUNGSTER_YASU
+        TRAINER_GAMER_DARIAN
+        TRAINER_GAMER_DIRK
     Diglett's Cave
         No trainers
     SS Anne 1F
         SS Anne 1F Room 7
-            Thomas XY
+            TRAINER_GENTLEMAN_THOMAS
         SS Anne 1F Room 6
             No trainers
         SS Anne 1F Room 5
-            Arthur XY
+            TRAINER_GENTLEMAN_ARTHUR
         SS Anne 1F Room 4
             No trainers
         SS Anne 1F Room 3
             No trainers
         SS Anne 1F Room 2
-            Ann XY
-            Tyler XY
+            TRAINER_LASS_ANN
+            TRAINER_YOUNGSTER_TYLER
         SS Anne 1F Room 1
             No trainers
     SS Anne B1F
         SS Anne B1F Room 5
             No trainers
         SS Anne B1F Room 4
-            Duncan XY
-            Leonard XY
+            TRAINER_SAILOR_DUNCAN
+            TRAINER_SAILOR_LEONARD
         SS Anne B1F Room 3
-            Dylan XY
+            TRAINER_SAILOR_DYLAN
         SS Anne B1F Room 2
-            Huey XY
+            TRAINER_SAILOR_HUEY
         SS Anne B1F Room 1
-            Barny XY
-            Phillip XY
+            TRAINER_FISHERMAN_BARNY
+            TRAINER_SAILOR_PHILLIP
     SS Anne Kitchen
         No trainers
     SS Anne 2F
         SS Anne 2F Room 1
             No trainers
         SS Anne 2F Room 2
-            Dale XY
-            Brooks XY
+            TRAINER_FISHERMAN_DALE
+            TRAINER_GENTLEMAN_BROOKS
         SS Anne 2F Room 3
             No trainers
         SS Anne 2F Room 4
-            Lamar XY
-            Dawn XY
+            TRAINER_GENTLEMAN_LAMAR
+            TRAINER_LASS_DAWN
         SS Anne 2F Room 5
             No trainers
         SS Anne 2F Room 6
             No trainers
     SS Anne Deck
-        Trevor XY
-        Edmond XY
-    Rival 3 XY
+        TRAINER_SAILOR_TREVOR
+        TRAINER_SAILOR_EDMOND
+    TRAINER_RIVAL_SS_ANNE_SQUIRTLE/BULBASAUR/CHARMANDER
 Cap 5: Lt Surge, level 27
     Vermillion City Gym
-        Dwayne XY
-        Baily XY
-        Tucker XY
-        Surge XY
+        TRAINER_SAILOR_DWAYNE
+        TRAINER_ENGINEER_BAILY
+        TRAINER_GENTLEMAN_TUCKER
+        TRAINER_LEADER_LT_SURGE
 Cap 6: Giovanni 1, level 33
     Route 9
-        Alicia XY
-        Jeremy XY
-        Chris XY
-        Brent XY
-        Drew XY
-        Conner XY
-        Brice XY
-        Alan XY
-        Caitlin XY
+        TRAINER_PICNICKER_ALICIA
+        TRAINER_HIKER_JEREMY
+        TRAINER_CAMPER_CHRIS
+        TRAINER_BUG_CATCHER_BRENT
+        TRAINER_CAMPER_DREW
+        TRAINER_BUG_CATCHER_CONNER
+        TRAINER_HIKER_BRICE
+        TRAINER_HIKER_ALAN
+        TRAINER_PICNICKER_CAITLIN
     Route 10 (prior to Rock Tunnel)
-        Heidi XY
+        TRAINER_PICNICKER_HEIDI
     Rock Tunnel 1F (first)
-        Ashton XY
+        TRAINER_POKEMANIAC_ASHTON
     Rock Tunnel B1F (first)
-        Winston XY
-        Martha XY
-        Steve XY
-        Eric XY
-        Allen XY
+        TRAINER_POKEMANIAC_WINSTON
+        TRAINER_PICNICKER_MARTHA
+        TRAINER_POKEMANIAC_STEVE
+        TRAINER_HIKER_ERIC
+        TRAINER_HIKER_ALLEN
     Rock Tunnel 1F (second)
-        Lenny XY
-        Oliver XY
-        Lucas XY
+        TRAINER_HIKER_LENNY
+        TRAINER_HIKER_OLIVER
+        TRAINER_HIKER_LUCAS
     Rock Tunnel B1F (second)
-        Sofia XY
-        Dudley XY
-        Cooper XY
+        TRAINER_PICNICKER_SOFIA
+        TRAINER_HIKER_DUDLEY
+        TRAINER_POKEMANIAC_COOPER
     Rock Tunnel 1F (third)
-        Leah XY
-        Ariana XY
-        Dana XY
+        TRAINER_PICNICKER_LEAH
+        TRAINER_PICNICKER_ARIANA
+        TRAINER_PICNICKER_DANA
     Route 10 (post Rock Tunnel)
-        Carol XY
-        Clark XY
-        Trent XY
-        Herman XY
+        TRAINER_PICNICKER_CAROL
+        TRAINER_HIKER_CLARK
+        TRAINER_HIKER_TRENT
+        TRAINER_POKEMANIAC_HERMAN
     Lavender Town
         No trainers (yet)
     Route 12 (first)
-        Ned XY
-        Chip XY
-        Hank XY
-        Elliot XY
+        TRAINER_FISHERMAN_NED
+        TRAINER_FISHERMAN_CHIP
+        TRAINER_FISHERMAN_HANK
+        TRAINER_FISHERMAN_ELLIOT
     Route 8
-        Julia XY
-        Rich XY
-        Glenn XY
-        Anne and Eli XY
-        Leslie XY
-        Paige XY
-        Andrea XY
-        Megan XY
-        Jaren XY
-        Ricardo XY
-        Stan XY
+        TRAINER_LASS_JULIA
+        TRAINER_GAMER_RICH
+        TRAINER_SUPER_NERD_GLENN
+        TRAINER_TWINS_ELI_ANNE
+        TRAINER_SUPER_NERD_LESLIE
+        TRAINER_LASS_PAIGE
+        TRAINER_LASS_ANDREA
+        TRAINER_LASS_MEGAN
+        TRAINER_BIKER_JAREN
+        TRAINER_BIKER_RICARDO
+        TRAINER_GAMER_STAN
     Route 7
         No trainers
     Celadon City
         No trainers
     Rocket Hideout B1F (first)
-        Grunt9 XY
-        Grunt8 XY
-        Grunt12 XY
+        TRAINER_TEAM_ROCKET_GRUNT_9
+        TRAINER_TEAM_ROCKET_GRUNT_8
+        TRAINER_TEAM_ROCKET_GRUNT_12
     Rocket Hideout B2F (first)
-        Grunt13 XY
+        TRAINER_TEAM_ROCKET_GRUNT_13
     Rocket Hideout B1F (second)
-        Grunt11 XY
-        Grunt10 XY
+        TRAINER_TEAM_ROCKET_GRUNT_11
+        TRAINER_TEAM_ROCKET_GRUNT_10
     Rocket Hideout B3F (first)
-        Grunt15 XY
-        Grunt14 XY
+        TRAINER_TEAM_ROCKET_GRUNT_15
+        TRAINER_TEAM_ROCKET_GRUNT_14
     Rocket Hideout B4F
-        Grunt18 XY
-        Grunt16 XY
-        Grunt17 XY
-        Trainer Boss Giovanni XY
+        TRAINER_TEAM_ROCKET_GRUNT_18
+        TRAINER_TEAM_ROCKET_GRUNT_16
+        TRAINER_TEAM_ROCKET_GRUNT_17
+        TRAINER_BOSS_GIOVANNI
 Cap 7: Rival 4 Pokemon Tower, 35
     Lavender Town
-        Pokemon Tower Guardian XY
+        TRAINER_POKEMON_TOWER_GUARDIAN
     Pokemon Tower 1F
         No trainers
     Pokemon Tower 2F
-        Rival 4 XY
+        TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE/BULBASAUR/CHARMANDER
 Cap 8: Ericka, level 38
     Pokemon Tower 3F
-        Hope XY
-        Carly XY
-        Patricia XY
+        TRAINER_CHANNELER_HOPE
+        TRAINER_CHANNELER_CARLY
+        TRAINER_CHANNELER_PATRICIA
     Pokemon Tower 4F
-        Laurel XY
-        Jody XY
-        Paula XY
+        TRAINER_CHANNELER_LAUREL
+        TRAINER_CHANNELER_JODY
+        TRAINER_CHANNELER_PAULA
     Pokemon Tower 5F
-        Ruth XY
-        Tammy XY
-        Karina XY
-        Janae XY
+        TRAINER_CHANNELER_RUTH
+        TRAINER_CHANNELER_TAMMY
+        TRAINER_CHANNELER_KARINA
+        TRAINER_CHANNELER_JANAE
     Pokemon Tower 6F
-        Angelica XY
-        Jennifer XY
-        Emilia XY
+        TRAINER_CHANNELER_ANGELICA
+        TRAINER_CHANNELER_JENNIFER
+        TRAINER_CHANNELER_EMILIA
     Pokemon Tower 7F
-        Grunt19 XY
-        Grunt20 XY
-        Grunt21 XY
+        TRAINER_TEAM_ROCKET_GRUNT_19
+        TRAINER_TEAM_ROCKET_GRUNT_20
+        TRAINER_TEAM_ROCKET_GRUNT_21
     Celadon City Gym
-        Kay XY
-        Bridget XY
-        Tina XY
-        Tamia XY
-        Mary XY
-        Lori XY
-        Lisa XY
-        Ericka XY
+        TRAINER_LASS_KAY
+        TRAINER_BEAUTY_BRIDGET
+        TRAINER_PICNICKER_TINA
+        TRAINER_BEAUTY_TAMIA
+        TRAINER_COOLTRAINER_MARY
+        TRAINER_BEAUTY_LORI
+        TRAINER_LASS_LISA
+        TRAINER_LEADER_ERIKA
 Cap 9: Rival 5, Silph Co, level 43
     Route 12 (Second)
-        Luca XY
-        Justin XY
-        Andrew XY
+        TRAINER_ROCKER_LUCA
+        TRAINER_CAMPER_JUSTIN
+        TRAINER_FISHERMAN_ANDREW
     Route 13
-        Alma XY
-        Sebastian XY
-        Susie XY
-        Lola XY
-        Sheila XY
-        Valerie XY
-        Gwen XY
-        Perry XY
-        Jared XY
-        Robert XY
+        TRAINER_PICNICKER_ALMA
+        TRAINER_BIRD_KEEPER_SEBASTIAN
+        TRAINER_PICNICKER_SUSIE
+        TRAINER_BEAUTY_LOLA
+        TRAINER_BEAUTY_SHEILA
+        TRAINER_PICNICKER_VALERIE
+        TRAINER_PICNICKER_GWEN
+        TRAINER_BIRD_KEEPER_PERRY
+        TRAINER_BIKER_JARED
+        TRAINER_BIRD_KEEPER_ROBERT
     Route 14
-        Carter XY
-        Mitch XY
-        Beck XY
-        Marlon XY
-        Donald XY
-        Benny XY
-        Kiri and Jan XY
-        Lukas XY
-        Gerald XY
-        Malik XY
-        Isaac XY
+        TRAINER_BIRD_KEEPER_CARTER
+        TRAINER_BIRD_KEEPER_MITCH
+        TRAINER_BIRD_KEEPER_BECK
+        TRAINER_BIRD_KEEPER_MARLON
+        TRAINER_BIRD_KEEPER_DONALD
+        TRAINER_BIRD_KEEPER_BENNY
+        TRAINER_TWINS_KIRI_JAN
+        TRAINER_BIKER_LUKAS
+        TRAINER_BIKER_GERALD
+        TRAINER_BIKER_MALIK
+        TRAINER_BIKER_ISAAC
     Route 15
-        Ernest XY
-        Alex XY
-        Grace XY
-        Olivia XY
-        Kindra XY
-        Chester XY
-        Edwin XY
-        Yazmin XY
-        Becky XY
-        Ron and Mya XY
-        Celia XY
+        TRAINER_BIKER_ERNEST
+        TRAINER_BIKER_ALEX
+        TRAINER_BEAUTY_GRACE
+        TRAINER_BEAUTY_OLIVIA
+        TRAINER_PICNICKER_KINDRA
+        TRAINER_BIRD_KEEPER_CHESTER
+        TRAINER_BIRD_KEEPER_EDWIN
+        TRAINER_PICNICKER_YAZMIN
+        TRAINER_PICNICKER_BECKY
+        TRAINER_CRUSH_KIN_RON_MYA
+        TRAINER_PICNICKER_CELIA
     Route 16
-        Lea and Jed XY
-        Lao XY
-        Koji XY
-        Luke XY
-        Hideo XY
-        Ruben XY
-        Camron XY
+        TRAINER_YOUNG_COUPLE_LEA_JED
+        TRAINER_BIKER_LAO
+        TRAINER_CUE_BALL_KOJI
+        TRAINER_CUE_BALL_LUKE
+        TRAINER_BIKER_HIDEO
+        TRAINER_BIKER_RUBEN
+        TRAINER_CUE_BALL_CAMRON
     Route 17
-        Virgil XY
-        Isaiah XY
-        Raul XY
-        Billy XY
-        Nikolas XY
-        Jamal XY
-        Zeek XY
-        Corey XY
-        Jaxon XY
-        William XY
+        TRAINER_BIKER_VIRGIL
+        TRAINER_CUE_BALL_ISAIAH
+        TRAINER_CUE_BALL_RAUL
+        TRAINER_BIKER_BILLY
+        TRAINER_BIKER_NIKOLAS
+        TRAINER_CUE_BALL_JAMAL
+        TRAINER_CUE_BALL_ZEEK
+        TRAINER_CUE_BALL_COREY
+        TRAINER_BIKER_JAXON
+        TRAINER_BIKER_WILLIAM
     Route 18
-        Jacob XY
-        Wilton XY
-        Ramiro XY
+        TRAINER_BIRD_KEEPER_JACOB
+        TRAINER_BIRD_KEEPER_WILTON
+        TRAINER_BIRD_KEEPER_RAMIRO
     Route 19 (start)
-        Richard XY
-        Reece XY
+        TRAINER_SWIMMER_MALE_RICHARD
+        TRAINER_SWIMMER_MALE_REECE
     Silph Co
         Silph Co 2F
-            RocketGrunt24
-            RocketGrunt23
-            JERRY
-            CONNOR
+            TRAINER_TEAM_ROCKET_GRUNT_24
+            TRAINER_TEAM_ROCKET_GRUNT_23
+            TRAINER_SCIENTIST_JERRY
+            TRAINER_SCIENTIST_CONNOR
         Silph Co 3F
-            JOSE
-            Grunt25
+            TRAINER_SCIENTIST_JOSE
+            TRAINER_TEAM_ROCKET_GRUNT_25
         Silph Co 4F
-            RODNEY
+            TRAINER_SCIENTIST_RODNEY
             TRAINER_TEAM_ROCKET_GRUNT_26
             TRAINER_TEAM_ROCKET_GRUNT_27
         Silph Co 5F
-            Beau
-            Grunt28
-            Grunt29
-            Dalton
+            TRAINER_SCIENTIST_BEAU
+            TRAINER_TEAM_ROCKET_GRUNT_28
+            TRAINER_TEAM_ROCKET_GRUNT_29
+            TRAINER_JUGGLER_DALTON
         Silph Co 6F
-            Taylor
+            TRAINER_SCIENTIST_TAYLOR
             TRAINER_TEAM_ROCKET_GRUNT_30
-            Grunt31
+            TRAINER_TEAM_ROCKET_GRUNT_31
         Silph Co 7F
-            Joshua
-            Grunt34
-            Grunt35
-            Rival 5
+            TRAINER_SCIENTIST_JOSHUA
+            TRAINER_TEAM_ROCKET_GRUNT_34
+            TRAINER_TEAM_ROCKET_GRUNT_35
+            TRAINER_RIVAL_SILPH_SQUIRTLE/BULBASAUR/CHARMANDER
         Silph Co 8F
-            Parker
-            Grunt32
-            Grunt36
+            TRAINER_SCIENTIST_PARKER
+            TRAINER_TEAM_ROCKET_GRUNT_32
+            TRAINER_TEAM_ROCKET_GRUNT_36
         Silph Co 9F
-            Ed
-            Grunt37
-            Grunt38
+            TRAINER_SCIENTIST_ED
+            TRAINER_TEAM_ROCKET_GRUNT_37
+            TRAINER_TEAM_ROCKET_GRUNT_38
         Silph Co 10F
-            Travis
-            Grunt39
+            TRAINER_SCIENTIST_TRAVIS
+            TRAINER_TEAM_ROCKET_GRUNT_39
         Silph Co 11F
-            Grunt40
+            TRAINER_TEAM_ROCKET_GRUNT_40
 Cap 10: Giovanni 2, Silph, Level 46
     Silph Co 11F
-        Grunt41
-        Boss Giovanni 2
+        TRAINER_TEAM_ROCKET_GRUNT_41
+        TRAINER_BOSS_GIOVANNI_2
 Cap 11: Sabrina, Level 52
     Saffron City Dojo
-        HITOSHI
-        HIDEKI
-        AARON
-        MIKE
-        KOICHI
+        TRAINER_BLACK_BELT_HITOSHI
+        TRAINER_BLACK_BELT_HIDEKI
+        TRAINER_BLACK_BELT_AARON
+        TRAINER_BLACK_BELT_MIKE
+        TRAINER_BLACK_BELT_KOICHI
     Saffron City
-        Saffron City Gym Guardian
+        TRAINER_SAFFRON_GYM_GUARDIAN
     Saffron City Gym
-        CAMERON
-        TASHA
-        TYRON
-        STACY
-        PRESTON
-        AMANDA
-        JOHAN
-        Sabrina
+        TRAINER_PSYCHIC_CAMERON
+        TRAINER_CHANNELER_TASHA
+        TRAINER_PSYCHIC_TYRON
+        TRAINER_CHANNELER_STACY
+        TRAINER_PSYCHIC_PRESTON
+        TRAINER_CHANNELER_AMANDA
+        TRAINER_PSYCHIC_JOHAN
+        TRAINER_LEADER_SABRINA
 Cap 12: Koga, Level 55
     Fuschia City
-        Fuschia City Gym Guardian
+        TRAINER_FUSCHIA_GYM_GUARDIAN
     Fuschia City Gym
-        KAYDEN
-        KIRK
-        EDGAR
-        Phil
-        SHAWN
-        NATE
-        Koga
+        TRAINER_JUGGLER_KAYDEN
+        TRAINER_JUGGLER_KIRK
+        TRAINER_TAMER_EDGAR
+        TRAINER_TAMER_PHIL
+        TRAINER_JUGGLER_SHAWN
+        TRAINER_JUGGLER_NATE
+        TRAINER_LEADER_KOGA
 Cap 13: Blaine, Level 59
     Route 19, Second
-        TONY
-        DAVID
-        DOUGLAS
-        MATTHEW
-        Lia and Luc
-        AXLE
-        ALICE
-        CONNIE
-        ANYA
+        TRAINER_SWIMMER_MALE_TONY
+        TRAINER_SWIMMER_MALE_DAVID
+        TRAINER_SWIMMER_MALE_DOUGLAS
+        TRAINER_SWIMMER_MALE_MATTHEW
+        TRAINER_SIS_AND_BRO_LIA_LUC
+        TRAINER_SWIMMER_MALE_AXLE
+        TRAINER_SWIMMER_FEMALE_ALICE
+        TRAINER_SWIMMER_FEMALE_CONNIE
+        TRAINER_SWIMMER_FEMALE_ANYA
     Route 20, first
-        BARRY
-        DARRIN
-        SHIRLEY
-        Tiffany
+        TRAINER_SWIMMER_MALE_BARRY
+        TRAINER_SWIMMER_MALE_DARRIN
+        TRAINER_SWIMMER_FEMALE_SHIRLEY
+        TRAINER_SWIMMER_FEMALE_TIFFANY
     Seafoam Islands 1F
         No trainers
     Seafoam Islands B1F
@@ -436,20 +436,20 @@ Cap 13: Blaine, Level 59
     Seafoam Islands B4F
         No Trainers
     Route 20, Second
-        IRENE
-        ROGER
-        NORA
-        DEAN
-        MISSY
-        MELISSA
+        TRAINER_PICNICKER_IRENE
+        TRAINER_BIRD_KEEPER_ROGER
+        TRAINER_SWIMMER_FEMALE_NORA
+        TRAINER_SWIMMER_MALE_DEAN
+        TRAINER_PICNICKER_MISSY
+        TRAINER_SWIMMER_FEMALE_MELISSA
     Route 21
-        RONALD
-        WADE
-        Lil and IAN
-        SPENCER
-        CLAUDE
-        NOLAN
-        JACK
-        ROLAND
-        JEROME
+        TRAINER_FISHERMAN_RONALD
+        TRAINER_FISHERMAN_WADE
+        TRAINER_SIS_AND_BRO_LIL_IAN
+        TRAINER_SWIMMER_MALE_SPENCER
+        TRAINER_FISHERMAN_CLAUDE
+        TRAINER_FISHERMAN_NOLAN
+        TRAINER_SWIMMER_MALE_JACK
+        TRAINER_SWIMMER_MALE_ROLAND
+        TRAINER_SWIMMER_MALE_JEROME
     Pokemon Mansion
