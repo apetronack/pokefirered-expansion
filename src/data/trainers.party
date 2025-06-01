@@ -8575,25 +8575,50 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Golbat
-Level: 25
+Ariados
+Ability: Swarm
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spider Web
+- Sucker Punch
+- Leech Life
+- Toxic Spikes
 
-Koffing
-Level: 25
+Sandslash
+Ability: Sand Rush
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Rock Slide
+- Brick Break
+- Swords Dance
 
-Luxio
-Level: 25
+Skuntank
+Ability: Stench
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic
+- Night Slash
+- Flamethrower
+- Iron Tail
 
-Loudred
-Level: 25
+Dusclops
+Ability: Pressure
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Will O Wisp
+- Mean Look
+- Ice Beam
+- Calm Mind
 
-Growlithe
-Level: 25
+Manectric
+Ability: Static
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunderbolt
+- Thunder Wave
+- Flamethrower
+- Crunch
 
 === TRAINER_TEAM_ROCKET_GRUNT_23 ===
 Name: GRUNT
@@ -8601,16 +8626,26 @@ Class: Team Rocket
 Pic: Rocket Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Cubone
-Level: 29
+Cacturne
+Ability: Sand Veil
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sucker Punch
+- Leech Seed
+- Revenge
+- Giga Drain
 
-Zubat
-Level: 29
+Armaldo
+Ability: Battle Armor
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sandstorm
+- Rock Slide
+- Metal Claw
+- Swords Dance
 
 === TRAINER_SCIENTIST_JERRY ===
 Name: JERRY
@@ -8621,17 +8656,32 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Magnemite
-Level: 28
+Electrode
+Ability: Static
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Light Screen
+- Thunder Wave
+- Screech
+- Selfdestruct
 
-Voltorb
-Level: 28
+Electabuzz
+Ability: Static
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunderbolt
+- Meditate
+- Ice Punch
+- Karate Chop
 
 Magneton
-Level: 28
+Ability: Magnet Pull
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Discharge
+- Magnet Bomb
+- Tri Attack
+- Metal Sound
 
 === TRAINER_SCIENTIST_CONNOR ===
 Name: CONNOR
@@ -8642,37 +8692,41 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
-Level: 26
+Omastar
+Ability: Shell Armor
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Screech
-- Minimize
-- Sludge
-- Disable
+- Ancient Poewr
+- Brine
+- Ice Beam
+- Stealth Rock
 
-Weezing
-Level: 26
+Ninetales
+Ability: Flash Fire
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Nasty Plot
+- Energy Ball
+- Extrasensory
+- Flamethrower
 
-Koffing
-Level: 26
+Drapion
+Ability: Sniper
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Self Destruct
+- Knock Off
+- Poison Fang
+- Pin Missile
+- Acupressure
 
-Weezing
-Level: 26
+Golem
+Ability: Sturdy
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Explosion
+- Earthquake
+- Rock Blast
+- Body Slam
 
 === TRAINER_SCIENTIST_JOSE ===
 Name: JOSE
@@ -8680,24 +8734,26 @@ Class: Scientist
 Pic: Scientist
 Gender: Male
 Music: Suspicious
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Electrode
+Luxray @ Blackglasses
+Ability: Intimidate
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Spark
-- Sonic Boom
-- Screech
-- Tackle
+- Thunder
+- Crunch
+- Howl
+- Ice Fang
 
-Weezing
+Polywrath @ Scope Lens
+Ability: Water Absorb
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Rain Dance
+- Hypnosis
+- Dynamic Punch
+- Ice Punch
 
 === TRAINER_TEAM_ROCKET_GRUNT_25 ===
 Name: GRUNT
@@ -8708,17 +8764,32 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Drifloon
-Level: 28
+Magcargo
+Ability: Flame Armor
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ancient Power
+- Lava Plume
+- Amnesia
+- Yawn
+
+Drifloon @ Petaya Berry
+Ability: Unburden
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shadow Ball
+- Thunderbolt
+- Silver Wind
+- Calm Mind
 
 Hypno
-Level: 28
+Ability: Insomnia
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magcargo
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Nasty Plot
+- Hypnosis
+- Focus Blast
 
 === TRAINER_SCIENTIST_RODNEY ===
 Name: RODNEY
@@ -8729,9 +8800,14 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Electrode
-Level: 33
+Lapras @ Leftovers
+Ability: Shell Armor
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Dance
+- Body Slam
+- Ice Shard
+- Surf
 
 === TRAINER_TEAM_ROCKET_GRUNT_26 ===
 Name: GRUNT
@@ -8739,16 +8815,26 @@ Class: Team Rocket
 Pic: Rocket Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Machop
-Level: 29
+Magmortar @ Magnet
+Ability: Flame Body
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Confuse Ray
+- Psychic
+- Thunderbolt
 
-Drowzee
-Level: 29
+Porygon2 @ Sitrus Berry
+Ability: Download
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Signal Beam
+- Recycle
+- Recover
+- Ice Beam
 
 === TRAINER_TEAM_ROCKET_GRUNT_27 ===
 Name: GRUNT
@@ -8759,17 +8845,32 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Gulpin
+Exploud
+Ability: Soundproof
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Screech
+- Stomp
+- Brick Break
 
-Zubat
-Level: 28
+Victreebel
+Ability: Chlorophyll
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swords Dance
+- Razor Leaf
+- Sleep Powder
+- Slam
 
-Cubone
+Glalie
+Ability: Inner Focus
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Ice Beam
+- Headbutt
+- Earthquake
 
 === TRAINER_SCIENTIST_BEAU ===
 Name: BEAU
@@ -8780,37 +8881,41 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Magneton
-Level: 26
+Tentacruel @ Shuca Berry
+Ability: Clear Body
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Spark
-- Thunder Wave
-- Sonic Boom
-- Supersonic
+- Toxic Spikes
+- Bubblebeam
+- Confuse Ray
+- Screech
 
-Koffing
-Level: 26
+Forretress @ Salac Berry
+Ability: Sturdy
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Spikes
+- Explosion
+- Payback
+- Reflect
 
-Weezing
-Level: 26
+Houndoom @ Petaya Berry
+Ability: Flash Fire
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Flamethrower
+- Dark Pulse
+- Rest
+- Sleep Talk
 
-Magnemite
-Level: 26
+Torterra @ Sitrus Berry
+Ability: Overgrow
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Spark
-- Thunder Wave
-- Sonic Boom
-- Supersonic
+- Earthquake
+- Leech Seed
+- Wood Hammer
+- Curse
 
 === TRAINER_TEAM_ROCKET_GRUNT_28 ===
 Name: GRUNT
@@ -8821,9 +8926,14 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Swalot
-Level: 33
+Steelix @ Silk Scarf
+Ability: Rock Head
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Double Edge
+- Iron Tail
+- Crunch
+- Earthquake
 
 === TRAINER_TEAM_ROCKET_GRUNT_29 ===
 Name: GRUNT
