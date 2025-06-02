@@ -8941,12 +8941,26 @@ Class: Team Rocket
 Pic: Rocket Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Hypno
-Level: 33
+Gorebyss
+Ability: Swift Swim
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Water Pulse
+- Agility
+- Rain Dance
+
+Scizor
+Ability: Technician
+Level: 43
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- X Scissor
+- Metal Claw
+- Wing Attack
+- Agility
 
 === TRAINER_JUGGLER_DALTON ===
 Name: DALTON
@@ -8957,13 +8971,23 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Kadabra
-Level: 29
+Mr Mime @ Light Clay
+Ability: Soundproof
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Light Screen
+- Magical Leaf
+- Reflect
 
-Mr Mime
-Level: 29
+Umbreon @ Shell Bell
+Ability: Synchronize
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Faint Attack
+- Confuse Ray
+- Sand Attack
+- Curse
 
 === TRAINER_SCIENTIST_TAYLOR ===
 Name: TAYLOR
@@ -8974,45 +8998,50 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Voltorb
-Level: 25
+Flareon @ White Herb
+Ability: Flash Fire
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Spark
-- Sonic Boom
-- Screech
-- Tackle
+- Fire Fang
+- Curse
+- Baton Pass
+- Bite
 
-Koffing
-Level: 25
+Toxicroak @ Metal Coat
+Ability: Dry Skin
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Poison Jab
+- Sucker Punch
+- Bullet Punch
+- Brick Break
 
-Magneton
-Level: 25
+Cradily @ Leftovers
+Ability: Suction Cups
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thunder Wave
-- Sonic Boom
-- Supersonic
-- Thunder Shock
+- Ancient Power
+- Amnesia
+- Giga Drain
+- Barrier
 
-Magnemite
-Level: 25
+Crawdaunt
+Ability: Shell Armor
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thunder Wave
-- Sonic Boom
-- Supersonic
-- Thunder Shock
+- Night Slash
+- Rock Slide
+- Bubblebeam
+- Body Slam
 
-Koffing
-Level: 25
+Weavile
+Ability: Pressure
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Self Destruct
+- Night Slash
+- Metal Claw
+- Ice Shard
+- Slash
 
 === TRAINER_TEAM_ROCKET_GRUNT_30 ===
 Name: GRUNT
@@ -9020,16 +9049,26 @@ Class: Team Rocket
 Pic: Rocket Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Machop
-Level: 29
+Huntail
+Ability: Swift Swim
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Ice Fang
+- Brine
+- Screech
 
-Machoke
-Level: 29
+Honchkrow
+Ability: Super Luck
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Sucker Punch
+- Thunder Wave
+- Psychic
 
 === TRAINER_TEAM_ROCKET_GRUNT_31 ===
 Name: GRUNT
@@ -9040,17 +9079,32 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Zubat
-Level: 28
+Aggron
+Ability: Sturdy
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Iron Head
+- Headbutt
+- Dragon Rush
+- Rock Slide
 
-Zubat
-Level: 28
+Typhlosion
+Ability: Blaze
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Smokescreen
+- Brick Break
+- Secret Power
 
-Golbat
-Level: 28
+Jolteon
+Ability: Volt Absorb
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunderbolt
+- Thunder Wave
+- Double Kick
+- Shadow Ball
 
 === TRAINER_SCIENTIST_JOSHUA ===
 Name: JOSHUA
@@ -9058,16 +9112,26 @@ Class: Scientist
 Pic: Scientist
 Gender: Male
 Music: Suspicious
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Electrode
-Level: 29
+Ability: Static
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunderbolt
+- Light Screen
+- Magnet Rise
+- Swift
 
 Weezing
-Level: 29
+Ability: Levitate
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge
+- Assurance
+- Haze
+- Flamethrower
 
 === TRAINER_TEAM_ROCKET_GRUNT_34 ===
 Name: GRUNT
@@ -9075,16 +9139,26 @@ Class: Team Rocket
 Pic: Rocket Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Sandshrew
-Level: 29
+Abomasnow
+Ability: Snow Warning
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wood Hammer
+- Ice Shard
+- Ice Punch
+- Water Pulse
 
-Sandslash
-Level: 29
+Piloswine
+Ability: Snow Cloak
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Earthquake
+- Endure
+- Rock Slide
 
 === TRAINER_TEAM_ROCKET_GRUNT_35 ===
 Name: GRUNT
@@ -9095,21 +9169,41 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Electrike
-Level: 26
+Manectric
+Ability: Static
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Zubat
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunderbolt
+- Roar
+- Fire Fang
+- Crunch
 
 Golbat
-Level: 26
+Ability: Inner Focus
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Fang
+- Wing Attack
+- Bite
+- Leech Life
 
-Corphish
-Level: 26
+Banette
+Ability: Insomnia
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sucker Punch
+- Will O Wisp
+- Shadow Sneak
+- Thunderbolt
+
+Cloyster
+Ability: Shell Armor
+Level: 43
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spike Cannon
+- Ice Beam
+- Brine
+- Supersonic
 
 === TRAINER_RIVAL_SILPH_SQUIRTLE ===
 Name: TERRY
@@ -9306,16 +9400,26 @@ Class: Scientist
 Pic: Scientist
 Gender: Male
 Music: Suspicious
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
-Level: 29
+Heracross
+Ability: Guts
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Close Combat
+- Aerial Ace
+- Night Slash
+- Rock Slide
 
-Electrode
-Level: 29
+Raichu
+Ability: Static
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunderbolt
+- Surf
+- Nasty Plot
+- Light Screen
 
 === TRAINER_TEAM_ROCKET_GRUNT_32 ===
 Name: GRUNT
@@ -9328,37 +9432,39 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Noctowl
 Ability: Insomnia
-Level: 26
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Confusion
+- Extrasensory
 - Hypnosis
 - Reflect
-- Peck
+- Air Slash
 
-Misdreavus
+Mismagius
 Ability: Levitate
-Level: 26
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mean Look
-- Psybeam
-- Confuse Ray
-- Shock Wave
+- Shadow Ball
+- Thunderbolt
+- Will O Wisp
+- Shadow Ball
 
-Koffing
-Level: 26
+Claydol
+Ability: Levitate
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Smog
-- Tackle
+- Ancient Power
+- Psychic
+- Rapid Spin
+- Ice Beam
 
-Golbat
-Level: 26
+Swalot
+Ability: Liquid Ooze
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Wing Attack
-- Bite
-- Astonish
-- Supersonic
+- Sludge Bomb
+- Amnesia
+- Stockpile
+- Swallow
 
 === TRAINER_TEAM_ROCKET_GRUNT_36 ===
 Name: GRUNT
@@ -9369,17 +9475,32 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Weezing
-Level: 28
+Golduck
+Ability: Cloud Nine
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Pulse
+- Mud Bomb
+- Psychic
+- Calm Mind
 
-Golbat
-Level: 28
+Gengar
+Ability: Levitate
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dark Pulse
+- Shadow Ball
+- Hypnosis
+- Dream Eater
 
-Koffing
-Level: 28
+Breloom
+Ability: Effect Spore
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Seed
+- Mach Punch
+- Seed Bomb
+- Dynamic Punch
 
 === TRAINER_SCIENTIST_ED ===
 Name: ED
@@ -9390,29 +9511,32 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Voltorb
-Level: 28
+Scyther
+Ability: Technician
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Spark
-- Sonic Boom
-- Screech
-- Tackle
+- X Scissor
+- Night Slash
+- Wing Attack
+- Double Team
 
-Koffing
-Level: 28
+Scizor
+Ability: Technician
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Smokescreen
-- Sludge
-- Tackle
-- Smog
+- Metal Claw
+- X Scissor
+- Night Slash
+- Iron Defense
 
-Magneton
-Level: 28
+Kleavor
+Ability: Sheer Force
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Spark
-- Thunder Wave
-- Sonic Boom
-- Supersonic
+- Night Slash
+- X Scissor
+- Swords Dance
+- Rock Slide
 
 === TRAINER_TEAM_ROCKET_GRUNT_37 ===
 Name: GRUNT
@@ -9420,20 +9544,26 @@ Class: Team Rocket
 Pic: Rocket Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Drowzee
-Level: 28
+Xatu
+Ability: Synchronize
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tailwind
+- Confuse Ray
+- Me first
+- Psychic
 
-Koffing
-Level: 28
+Poliwrath
+Ability: Water Absorb
+Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Machop
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Body Slam
+- Submission
+- Rock Slide
 
 === TRAINER_TEAM_ROCKET_GRUNT_38 ===
 Name: GRUNT
@@ -9444,17 +9574,32 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Golbat
-Level: 28
+Roserade
+Ability: Poison Point
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic Spikes
+- Leech Seed
+- Stun Spore
+- Giga Drain
 
-Drowzee
-Level: 28
+Lanturn
+Ability: Volt Absorb
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Signal Beam
+- Discharge
+- Bubblebeam
+- Confuse Ray
 
-Hypno
-Level: 28
+Pidgeot
+Ability: Keen Eye
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sand Attack
+- Wing Attack
+- Roost
+- Steel Wing
 
 === TRAINER_SCIENTIST_TRAVIS ===
 Name: TRAVIS
