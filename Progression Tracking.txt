@@ -376,7 +376,7 @@ Cap 9: Rival 5, Silph Co, level 43
             TRAINER_TEAM_ROCKET_GRUNT_39
         Silph Co 11F
             TRAINER_TEAM_ROCKET_GRUNT_40
-Cap 10: Giovanni 2, Silph, Level 46
+Cap 10: Giovanni 2, Silph, Level 47
     Silph Co 11F
         TRAINER_TEAM_ROCKET_GRUNT_41
         TRAINER_BOSS_GIOVANNI_2

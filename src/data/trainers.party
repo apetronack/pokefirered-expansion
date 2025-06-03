@@ -9610,13 +9610,23 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Magnemite
-Level: 29
+Kabutops
+Ability: Battle Armor
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Aqua Jet
+- Mud Shot
+- Rock Slide
 
-Koffing
-Level: 29
+Bronzong
+Ability: Levitate
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Gyro Ball
+- Extrasensory
+- Light Screen
+- Hypnosis
 
 === TRAINER_TEAM_ROCKET_GRUNT_39 ===
 Name: GRUNT
@@ -9627,9 +9637,14 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machoke
-Level: 33
+Electivire @ Liechi Berry
+Ability: Motor Drive
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Thunderbolt
+- Light Screen
+- Cross Chop
+- Ice Punch
 
 === TRAINER_TEAM_ROCKET_GRUNT_40 ===
 Name: GRUNT
@@ -9640,25 +9655,50 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Sandshrew
-Level: 25
+Hippowdon
+Ability: Sand Stream
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Crunch
+- Thunder Fang
+- Ice Fang
 
-Luxio
-Level: 25
+Cradily
+Ability: Suction Cups
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ancient Power
+- Confuse Ray
+- Stealth Rock
+- Giga Drain
 
-Zubat
-Level: 25
+Mamoswine
+Ability: Oblivious
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Ice Fang
+- Ice Shard
+- Rock Slide
 
-Rhyhorn
-Level: 25
+Rampardos @ Focus Sash
+Ability: Mold Breaker
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Zen Headbutt
+- Crunch
+- Take Down
+- Rock Slide
 
-Gulpin
-Level: 25
+Quagsire
+Ability: Water Absorb
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Yawn
+- Water Pulse
+- Sludge Bomb
 
 === TRAINER_TEAM_ROCKET_GRUNT_41 ===
 Name: GRUNT
@@ -9669,17 +9709,32 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Cubone
-Level: 32
+Marowak @ Thick Club
+Ability: Rock Head
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bone Rush
+- Focus Energy
+- Fire Blast
+- Rock Slide
 
-Drowzee
-Level: 32
+Hypno
+Ability: Insomnia
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Nasty Plot
+- Psychic
+- Dark Pulse
 
-Marowak
-Level: 32
+Slaking @ Life Orb
+Ability: Truant
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Beam
+- Counter
+- Body Slam
+- Brick Break
 
 === TRAINER_BOSS_GIOVANNI_2 ===
 Name: GIOVANNI
@@ -9689,12 +9744,12 @@ Gender: Male
 Music: Aqua
 Items: Hyper Potion
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
 Hippowdon @ Earth Plate
 Ability: Sand Stream
 Adamant Nature
-Level: 46
+Level: 48
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Ice Fang
 - Crunch
@@ -9704,7 +9759,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 Gliscor @ Poison Barb
 Ability: Sand Veil
 Jolly Nature
-Level: 46
+Level: 48
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Aerial Ace
 - Fire Fang
@@ -9714,16 +9769,26 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 Swampert @ Mystic Water
 Ability: Torrent
 Sassy Nature
-Level: 46
+Level: 48
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Brick Break
 - Earthquake
 - Waterfall
 - Blizzard
 
+Torterra @ Miracle Seed
+Ability: Overgrow
+Adamant Nature
+Level: 47
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Curse
+- Seed Bomb
+- Earthquake
+- Leech Seed
+
 Nidoqueen @ Sitrus Berry
 Ability: Poison Point
-Level: 47
+Level: 48
 Docile Nature
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Body Slam

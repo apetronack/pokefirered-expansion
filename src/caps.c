@@ -19,7 +19,7 @@ u32 GetCurrentLevelCap(void)
         {FLAG_BEAT_RIVAL_4, 35}, // Rival 4 pokemon tower
         {FLAG_BADGE04_GET,    38}, // Erika
         {FLAG_BEAT_RIVAL_5,   43}, // Rival 5, Silph Co.
-        {FLAG_HIDE_SAFFRON_ROCKETS, 46}, // Giovanni 2 Silph
+        {FLAG_HIDE_SAFFRON_ROCKETS, 47}, // Giovanni 2 Silph
         {FLAG_BADGE05_GET,    52}, // Sabrina
         {FLAG_BADGE06_GET,    55}, // Koga
         {FLAG_BADGE07_GET,    59}, // Blaine
