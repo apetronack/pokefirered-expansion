@@ -9805,17 +9805,32 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machop @ Black Belt
-Level: 31
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Mankey @ Black Belt
-Level: 31
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
 Primeape @ Black Belt
-Level: 31
+Ability: Anger Point
+Level: 50
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Cross Chop
+- Rock Slide
+- Screech
+- Bulk Up
+
+Hariyama @ Black Belt
+Ability: Thick Fat
+Level: 50
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Vital Throw
+- Bulk Up
+- Knock Off
+- Rock Slide
+
+Toxicroak @ Black Belt
+Ability: Dry Skin
+Level: 50
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Sludge Bomb
+- Nasty Plot
+- Dark Pulse
+- Vacuum Wave
 
 === TRAINER_BLACK_BELT_HIDEKI ===
 Name: HIDEKI
@@ -9823,16 +9838,26 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Machop @ Black Belt
-Level: 32
+Machamp @ Black Belt
+Ability: No Guard
+Level: 50
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Dynamic Punch
+- Rock Slide
+- Scary Face
+- Payback
 
-Machoke @ Black Belt
-Level: 32
+Medicham @ Black Belt
+Ability: Pure Power
+Level: 50
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bulk Up
+- Hi Jump Kick
+- Ice Punch
+- Light Screen
 
 === TRAINER_BLACK_BELT_AARON ===
 Name: AARON
@@ -9843,9 +9868,14 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Primeape @ Black Belt
-Level: 36
+Blaziken @ Black Belt
+Ability: Speed Boost
+Level: 52
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Bulk Up
+- Blaze Kick
+- Sky Uppercut
+- Rock Slide
 
 === TRAINER_BLACK_BELT_MIKE ===
 Name: MIKE
@@ -9856,17 +9886,23 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Mankey @ Black Belt
-Level: 31
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Mankey @ Black Belt
-Level: 31
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
 Primeape @ Black Belt
-Level: 31
+Ability: Vital Spirit
+Level: 50
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Cross Chop
+- Thrash
+- Screech
+- Assurance
+
+Heracross @ Black Belt
+Ability: Guts
+Level: 50
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Close Combat
+- Aerial Ace
+- Night Slash
+- Swords Dance
 
 === TRAINER_BLACK_BELT_KOICHI ===
 Name: KOICHI
@@ -9874,16 +9910,62 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Medicham @ Black Belt
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Poliwrath @ Black Belt
+Ability: Water Absorb
+Level: 51
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Dynamic Punch
+- Waterfall
+- Dig
+- Ice Beam
 
-Hariyama @ Black Belt
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Infernape @ Black Belt
+Ability: Blaze
+Level: 51
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Close Combat
+- Punishment
+- Flame Wheel
+- Thunderpunch
+
+Gallade @ Black Belt
+Ability: Sharpness
+Level: 51
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Leaf Blade
+- Night Slash
+- Psycho Cut
+- Swords Dance
+
+Sneasler @ Black Belt
+Ability: Pressure
+Level: 51
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- U Turn
+- Poison Jab
+- Brick Break
+- Bulk Up
+
+Annihilape @ Black Belt
+Ability: Vital Spirit
+Level: 51
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Shadow Claw
+- Drain Punch
+- Ice Punch
+- Bulk Up
+
+Lucario @ Black Belt
+Ability: Steadfast
+Level: 51
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Calm Mind
+- Aura Sphere
+- Dragon Pulse
+- Dark Pulse
 
 === TRAINER_PSYCHIC_CAMERON ===
 Name: CAMERON
