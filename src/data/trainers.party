@@ -9973,20 +9973,26 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Slowpoke
-Level: 33
+Xatu 
+Ability: Synchronize
+Level: 51
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Slowpoke
-Level: 33
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Drill Peck
+- Ominous Wind
+- Wish
+- Tailwind
 
 Slowbro
-Level: 33
+Ability: Oblivious
+Level: 51
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Slack Off
+- Ice Beam
+- Psychic
+- Calm Mind
 
 === TRAINER_CHANNELER_TASHA ===
 Name: TASHA
@@ -9997,17 +10003,32 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Gastly
-Level: 33
+Lunatone
+Ability: Levitate
+Level: 51
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Cosmic Power
+- Charge Beam
+- Rock Slide
 
-Gastly
-Level: 33
+Umbreon @ Sitrus Berry
+Ability: Synchronize
+Level: 51
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Sand Attack
+- Curse
+- Faint Attack
 
-Haunter
-Level: 33
+Gengar
+Ability: Levitate
+Level: 51
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dark Pulse
+- Psychic
+- Curse
+- Ice Punch
 
 === TRAINER_PSYCHIC_TYRON ===
 Name: TYRON
@@ -10015,16 +10036,26 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Mr Mime
-Level: 34
+Mr Mime @ Light Clay
+Ability: Soundproof
+Level: 51
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Light Screen
+- Reflect
+- Psychic
+- Focus Blast
 
-Kadabra
-Level: 34
+Solrock @ Charcoal
+Ability: Levitate
+Level: 51
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Rock Slide
+- Will O Wisp
+- Flamethrower
+- Cosmic Power
 
 === TRAINER_CHANNELER_STACY ===
 Name: STACY
@@ -10035,9 +10066,14 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Haunter
-Level: 38
+Farigiraf
+Ability: Inner Focus
+Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Nasty Plot
+- Psychic
+- Shadow Ball
+- Energy Ball
 
 === TRAINER_PSYCHIC_PRESTON ===
 Name: PRESTON
@@ -10045,12 +10081,26 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Slowbro
-Level: 38
+Slowking @ King's Rock
+Ability: Own Tempo
+Level: 51
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Nasty Plot
+- Water Pulse
+- Psychic
+- Shadow Ball
+
+Espeon @ Sun Stone
+Ability: Synchronize
+Level: 51
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Calm Mind
+- Psychic
+- Fake Tears
+- Swift
 
 === TRAINER_CHANNELER_AMANDA ===
 Name: AMANDA
@@ -10058,16 +10108,26 @@ Class: Channeler
 Pic: Channeler
 Gender: Male
 Music: Suspicious
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Gastly
-Level: 34
+Exeggutor @ Sitrus Berry
+Ability: Harvest
+Level: 51
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Seed
+- Sleep Powder
+- Psychic
+- Energy Ball
 
-Haunter
-Level: 34
+Starmie
+Ability: Illuminate
+Level: 51
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cosmic Power
+- Ice Beam
+- Surf
+- Thunderbolt
 
 === TRAINER_PSYCHIC_JOHAN ===
 Name: JOHAN
@@ -10078,21 +10138,14 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Kadabra
-Level: 31
+Metagross @ Wide Lens
+Ability: Clear Body
+Level: 54
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Slowpoke
-Level: 31
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Mr Mime
-Level: 31
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Kadabra
-Level: 31
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Meteor Mash
+- Hammer Arm
+- Earthquake
+- Agility
 
 === TRAINER_LEADER_SABRINA ===
 Name: SABRINA
@@ -10107,8 +10160,8 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Mr Mime @ Light Clay
 Ability: Filter
 Timid Nature
-Level: 51
-IVs: 0 HP / 0 Atk / 0 Def / 23 SpA / 0 SpD / 23 Spe
+Level: 52
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Reflect
 - Psychic
 - Baton Pass
@@ -10117,18 +10170,18 @@ IVs: 0 HP / 0 Atk / 0 Def / 23 SpA / 0 SpD / 23 Spe
 Bronzong @ Macho Brace
 Ability: Levitate
 Sassy Nature
-Level: 51
-IVs: 23 HP / 0 Atk / 23 Def / 0 SpA / 23 SpD / 0 Spe
+Level: 52
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Gyro Ball
 - Confuse Ray
 - Light Screen
 - Shadow Ball
 
-Hypno 
+Hypno @ Wide Lens
 Ability: Insomnia
 Adamant Nature
-Level: 51
-IVs: 23 HP / 23 Atk / 23 Def / 0 SpA / 23 SpD / 0 Spe
+Level: 52
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Hypnosis
 - Nightmare
 - Night Slash
@@ -10137,8 +10190,8 @@ IVs: 23 HP / 23 Atk / 23 Def / 0 SpA / 23 SpD / 0 Spe
 Medicham @ Expert Belt
 Ability: Pure Power
 Adamant Nature
-Level: 51
-IVs: 0 HP / 23 Atk / 23 Def / 0 SpA / 23 SpD / 23 Spe
+Level: 52
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - High Jump Kick
 - Psycho Cut
 - Rock Slide
@@ -10147,7 +10200,7 @@ IVs: 0 HP / 23 Atk / 23 Def / 0 SpA / 23 SpD / 23 Spe
 Gardevoir @ Petaya Berry
 Ability: Synchronize
 Timid Nature
-Level: 52
+Level: 54
 IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Psychic
 - Shadow Ball
