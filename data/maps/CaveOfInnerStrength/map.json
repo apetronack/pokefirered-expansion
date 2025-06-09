@@ -1,13 +1,13 @@
 {
-  "id": "MAP_RIOLUS_CAVE_B1F",
-  "name": "DiglettsCave_B1F",
-  "layout": "LAYOUT_RIOLUS_CAVE_B1F",
-  "music": "MUS_VIRIDIAN_FOREST",
-  "region_map_section": "MAPSEC_RIOLUS_CAVE",
+  "id": "MAP_CAVE_OF_INNER_STRENGTH",
+  "name": "CaveOfInnerStrength",
+  "layout": "LAYOUT_CAVE_OF_INNER_STRENGTH",
+  "music": "MUS_MT_MOON",
+  "region_map_section": "MAPSEC_ROUTE_3",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",
-  "allow_cycling": true,
+  "allow_cycling": false,
   "allow_escaping": true,
   "allow_running": true,
   "show_map_name": true,
@@ -18,32 +18,25 @@
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_POKE_BALL",
-      "x": 53,
-      "y": 41,
+      "x": 7,
+      "y": 1,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "DiglettsCave_EventScript_TM76",
-      "flag": "FLAG_DiglettsCave_ITEM_TM76"
+      "script": "CaveOfInnerStrength_EventScript_TM72",
+      "flag": "FLAG_HIDE_COIS_TM72"
     }
   ],
   "warp_events": [
     {
-      "x": 3,
-      "y": 3,
-      "elevation": 3,
-      "dest_map": "MAP_RIOLUS_CAVE_NORTH_ENTRANCE",
+      "x": 7,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE3",
       "dest_warp_id": "0"
-    },
-    {
-      "x": 82,
-      "y": 71,
-      "elevation": 3,
-      "dest_map": "MAP_RIOLUS_CAVE_SOUTH_ENTRANCE",
-      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

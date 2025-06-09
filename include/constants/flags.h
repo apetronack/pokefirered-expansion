@@ -530,19 +530,19 @@
 #define FLAG_HIDE_SILPH_CO_4F_TM41                              0x1FE
 
 // Unused?
-#define FLAG_0x1FF               0x1FF
-#define FLAG_0x200               0x200
-#define FLAG_0x201               0x201
-#define FLAG_0x202               0x202
-#define FLAG_0x203               0x203
-#define FLAG_0x204               0x204
-#define FLAG_0x205               0x205
-#define FLAG_0x206               0x206
-#define FLAG_0x207               0x207
-#define FLAG_0x208               0x208
-#define FLAG_0x209               0x209
-#define FLAG_0x20A               0x20A
-#define FLAG_0x20B               0x20B
+#define FLAG_HIDE_COIS_TM72      0x1FF
+#define FLAG_HIDE_ROUTE6_TM88    0x200
+#define FLAG_HIDE_ROUTE11_TM57   0x201
+#define FLAG_DiglettsCave_ITEM_TM76 0x202
+#define FLAG_HIDE_ROUTE2_TM78    0x203
+#define FLAG_HIDE_ROUTE3_TM54    0x204
+#define FLAG_HIDE_ROUTE5_TM83    0x205
+#define FLAG_HIDE_ROUTE7_TM61    0x206
+#define FLAG_HIDE_ROUTE8_TM66    0x207
+#define FLAG_HIDE_ROUTE9_TM86    0x208
+#define FLAG_HIDE_ROUTE10_TM62   0x209
+#define FLAG_HIDE_ROUTE10_TM73   0x20A
+#define FLAG_HIDE_ROUTE12_TM59   0x20B
 #define FLAG_0x20C               0x20C
 #define FLAG_0x20D               0x20D
 #define FLAG_0x20E               0x20E

@@ -25376,6 +25376,75 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_CAVE_OF_INNER_STRENGTH",
+          "base_label": "gCaveOfInnerStrength0",
+          "land_mons": {
+            "encounter_rate": 7,
+            "mons": [
+              {
+                "min_level": 9,
+                "max_level": 14,
+                "species": "SPECIES_SNORUNT"
+              },
+              {
+                "min_level": 9,
+                "max_level": 14,
+                "species": "SPECIES_SNOVER"
+              },
+              {
+                "min_level": 10,
+                "max_level": 13,
+                "species": "SPECIES_WHISMUR"
+              },
+              {
+                "min_level": 10,
+                "max_level": 13,
+                "species": "SPECIES_WHISMUR"
+              },
+              {
+                "min_level": 10,
+                "max_level": 11,
+                "species": "SPECIES_RALTS"
+              },
+              {
+                "min_level": 10,
+                "max_level": 11,
+                "species": "SPECIES_POLIWAG"
+              },
+              {
+                "min_level": 9,
+                "max_level": 12,
+                "species": "SPECIES_BRONZOR"
+              },
+              {
+                "min_level": 9,
+                "max_level": 12,
+                "species": "SPECIES_BRONZOR"
+              },
+              {
+                "min_level": 13,
+                "max_level": 15,
+                "species": "SPECIES_SANDSHREW"
+              },
+              {
+                "min_level": 13,
+                "max_level": 15,
+                "species": "SPECIES_SANDSHREW_ALOLA"
+              },
+              {
+                "min_level": 13,
+                "max_level": 15,
+                "species": "SPECIES_SANDSHREW"
+              },
+              {
+                "min_level": 13,
+                "max_level": 15,
+                "species": "SPECIES_SANDSHREW_ALOLA"
+              }
+            ]
+          }
         }
       ]
     }

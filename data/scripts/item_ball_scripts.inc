@@ -50,6 +50,58 @@ MtMoon_B2F_EventScript_ItemTM46::
 	finditem ITEM_TM46
 	end
 
+CaveOfInnerStrength_EventScript_TM72::
+	finditem ITEM_TM72
+	end
+
+Route6_EventScript_ItemTM88::
+	finditem ITEM_TM88
+	end
+
+Route11_EventScript_ItemTM57::
+	finditem ITEM_TM57
+	end
+
+DiglettsCave_EventScript_TM76::
+	finditem ITEM_TM76
+	end
+
+Route2_EventScript_ItemTM78::
+	finditem ITEM_TM78
+	end
+
+Route3_EventScript_TM54::
+	finditem ITEM_TM54
+	end
+
+Route5_EventScript_TM83::
+	finditem ITEM_TM83
+	end
+
+Route7_EventScript_TM61::
+	finditem ITEM_TM61
+	end
+
+Route8_EventScript_TM66::
+	finditem ITEM_TM66
+	end
+
+Route9_EventScript_TM86::
+	finditem ITEM_TM86
+	end
+
+Route10_EventScript_TM62::
+	finditem ITEM_TM62
+	end
+
+Route10_EventScript_TM73::
+	finditem ITEM_TM73
+	end
+
+Route12_EventScript_TM59::
+	finditem ITEM_TM59
+	end
+	
 Route4_EventScript_ItemTM05::
 	finditem ITEM_TM05
 	end
