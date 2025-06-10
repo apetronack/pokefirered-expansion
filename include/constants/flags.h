@@ -804,7 +804,7 @@
 #define FLAG_HIDE_CELADON_GYM_GUARDIAN               0x306
 #define FLAG_HIDE_FUSCHIA_GYM_GUARDIAN               0x307
 #define FLAG_HIDE_CINNABAR_MANSION_GUARDIAN          0x308
-#define FLAG_0x309               0x309
+#define FLAG_GOT_TM52_FROM_KOICHI                    0x309
 #define FLAG_0x30A               0x30A
 #define FLAG_0x30B               0x30B
 #define FLAG_0x30C               0x30C
