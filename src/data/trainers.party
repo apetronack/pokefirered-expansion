@@ -10687,13 +10687,23 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Corphish
-Level: 30
+Wailord
+Ability: Oblivious
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Spout
+- Bounce
+- Curse
+- Earthquake
 
-Crawdaunt
-Level: 30
+Gorebyss
+Ability: Swift Swim
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Ice Beam
+- Iron Defense
+- Brine
 
 === TRAINER_SWIMMER_FEMALE_CONNIE ===
 Name: CONNIE
@@ -10704,17 +10714,23 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Staryu
-Level: 29
+Floatzel
+Ability: Swift Swim
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Waterfall
+- Crunch
+- Bulk Up
+- Brick Break
 
-Staryu
+Golduck
+Ability: Damp
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Staryu
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Calm Mind
+- Psychic
+- Ice Beam
 
 === TRAINER_SWIMMER_FEMALE_ANYA ===
 Name: ANYA
@@ -10725,25 +10741,50 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Poliwag
-Level: 27
+Omastar
+Ability: Shell Armor
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic Spikes
+- Ancient Power
+- Mud Shot
+- Brine
 
-Corphish
-Level: 27
+Lanturn
+Ability: Volt Absorb
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Signal Beam
+- Discharge
+- Thunder Wave
+- Amnesia
 
-Crawdaunt
-Level: 27
+Cloyster
+Ability: Shell Armor
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spike Cannon
+- Spikes
+- Ice Shard
+- Dive
 
-Corphish
-Level: 27
+Blastoise
+Ability: Torrent
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Skull Bash
+- Muddy Water
+- Aqua Ring
+- Rock Slide
 
-Poliwag
-Level: 27
+Walrein @ Shell Bell
+Level: 56
+Ability: Thick Fat
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Ice Fang
+- Rest
+- Sleep Talk
+- Curse
 
 === TRAINER_SWIMMER_MALE_BARRY ===
 Name: BARRY
@@ -10751,16 +10792,26 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Shellder
-Level: 31
+Feraligatr
+Ability: Torrent
+Level: 57
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swords Dance
+- Aqua Tail
+- Ice Punch
+- Dragon Claw
 
-Cloyster
-Level: 31
+Kabutops
+Ability: Shell Armor
+Level: 57
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swords Dance
+- Aqua Jet
+- X Scissor
+- Rock Slide
 
 === TRAINER_SWIMMER_MALE_DARRIN ===
 Name: DARRIN
@@ -10768,24 +10819,26 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Horsea
-Level: 28
+Lapras
+Ability: Water Absorb
+Level: 57
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Curse
+- Body Slam
+- Avalanche
+- Thunderbolt
 
-Horsea
-Level: 28
+Kingdra
+Ability: Sniper
+Level: 57
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Seadra
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Horsea
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Dragon Pulse
+- Signal Beam
+- Octazooka
+- Ice Beam
 
 === TRAINER_SWIMMER_FEMALE_SHIRLEY ===
 Name: SHIRLEY
@@ -10796,17 +10849,23 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Seadra
-Level: 30
+Floatzel
+Ability: Swift Swim
+Level: 57
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Ice Fang
+- Aqua Jet
+- Headbutt
 
-Horsea
-Level: 30
+Azumarill
+Ability: Thick Fat
+Level: 57
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Seadra
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Tail
+- Belly Drum
+- Aqua Ring
+- Brick Break
 
 === TRAINER_SWIMMER_FEMALE_TIFFANY ===
 Name: TIFFANY
