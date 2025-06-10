@@ -11603,7 +11603,7 @@ const struct Item gItemsInfo[] =
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = NULL,
-        .secondaryId = MOVE_NATURAL_GIFT, // Todo
+        .secondaryId = MOVE_NATURAL_GIFT, 
     },
 
     [ITEM_TM84] =

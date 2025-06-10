@@ -58,11 +58,23 @@ CeladonCity_DepartmentStore_2F_EventScript_ClerkTMs::
 	.align 2
 CeladonCity_DepartmentStore_2F_TMs::
 	.2byte ITEM_TM05
+	.2byte ITEM_TM07
+	.2byte ITEM_TM09
+	.2byte ITEM_TM11
+	.2byte ITEM_TM12
 	.2byte ITEM_TM15
+	.2byte ITEM_TM18
 	.2byte ITEM_TM28
 	.2byte ITEM_TM31
+	.2byte ITEM_TM37
+	.2byte ITEM_TM41
+	.2byte ITEM_TM42
 	.2byte ITEM_TM43
 	.2byte ITEM_TM45
+	.2byte ITEM_TM46
+	.2byte ITEM_TM49
+	.2byte ITEM_TM54
+	.2byte ITEM_TM78
 	.2byte ITEM_NONE
 	release
 	end
