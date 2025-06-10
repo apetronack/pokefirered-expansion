@@ -10498,13 +10498,23 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Horsea
-Level: 30
+Golduck
+Ability: Damp
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Psychic
+- Cross Chop
+- Ice Beam
 
-Horsea
-Level: 30
+Kingdra
+Ability: Sniper
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Dragon Pulse
+- Agility
+- Flash Cannon
 
 === TRAINER_SWIMMER_MALE_DAVID ===
 Name: DAVID
@@ -10512,20 +10522,26 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Corphish
-Level: 29
+Swampert
+Ability: Torrent
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Muddy Water
+- Counter
+- Rock Slide
 
-Shellder
-Level: 29
+Mantine
+Ability: Water Absorb
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Crawdaunt
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Signal Beam
+- Psybeam
+- Aqua Ring
+- Blizzard
 
 === TRAINER_SWIMMER_MALE_DOUGLAS ===
 Name: DOUGLAS
@@ -10536,21 +10552,23 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Horsea
-Level: 27
+Vaporeon
+Ability: Water Absorb
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Ring
+- Acid Armor
+- Surf
+- Ice Beam
 
-Tentacool
-Level: 27
+Tentacruel
+Ability: Clear Body
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tentacool
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Corphish
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge Bomb
+- Giga Drain
+- Ice Beam
+- Surf
 
 === TRAINER_SWIMMER_MALE_MATTHEW ===
 Name: MATTHEW
@@ -10558,16 +10576,26 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Poliwag
-Level: 30
+Politoed
+Ability: Water Absorb
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Mud Bomb
+- Psychic
+- Hydro Pump
 
-Poliwhirl
-Level: 30
+Cloyster
+Ability: Skill Link
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Icicle Spear
+- Dive
+- Spike Cannon
+- Toxic
 
 === TRAINER_SIS_AND_BRO_LIA_LUC ===
 Name: LIA & LUC
@@ -10578,13 +10606,23 @@ Music: Swimmer
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Corphish
-Level: 30
+Starmie
+Ability: Illuminate
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Light Screen
+- Thunderbolt
+- Ice Beam
 
 Crawdaunt
-Level: 30
+Ability: Shell Armor
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swords Dance
+- Crabhammer
+- Night Slash
+- X Scissor
 
 === TRAINER_SWIMMER_MALE_AXLE ===
 Name: AXLE
@@ -10592,28 +10630,53 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Tentacool
-Level: 27
+Huntail
+Ability: Swift Swim
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Aqua Tail
+- Crunch
+- Ice Fang
+- Body Slam
 
-Tentacool
-Level: 27
+Ludicolo
+Ability: Swift Swim
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rain Dance
+- Leech Seed
+- Energy Ball
+- Ice Beam
 
-Staryu
-Level: 27
+Empoleon
+Ability: Torrent
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Swords Dance
+- Aqua Jet
+- Drill Peck
+- Metal Claw
 
-Horsea
-Level: 27
+Milotic
+Ability: Marvel Scale
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- DragonBreath
+- Light Screen
+- Toxic
+- Dive
 
-Tentacruel
-Level: 27
+Poliwrath
+Ability: Water Absorb
+Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Submission
+- Body Slam
+- Earthquake
 
 === TRAINER_SWIMMER_FEMALE_ALICE ===
 Name: ALICE
