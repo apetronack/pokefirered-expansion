@@ -138,6 +138,7 @@ SaffronCity_Dojo_EventScript_Mike::
 
 SaffronCity_Dojo_EventScript_MasterKoichi::
 	trainerbattle_single TRAINER_BLACK_BELT_KOICHI, SaffronCity_Dojo_Text_MasterKoichiIntro, SaffronCity_Dojo_Text_MasterKoichiDefeat, SaffronCity_Dojo_EventScript_DefeatedMasterKoichi
+	goto_if_unset FLAG_GOT_TM52_FROM_KOICHI, SaffronCity_Dojo_EventScript_GiveTM52
 	goto_if_set FLAG_GOT_HITMON_FROM_DOJO, SaffronCity_Dojo_EventScript_MasterKoichiAlreadyGotHitmon
 	msgbox SaffronCity_Dojo_Text_ChoosePrizedFightingMon, MSGBOX_AUTOCLOSE
 	end
@@ -148,7 +149,23 @@ SaffronCity_Dojo_EventScript_MasterKoichiAlreadyGotHitmon::
 	end
 
 SaffronCity_Dojo_EventScript_DefeatedMasterKoichi::
+	goto SaffronCity_Dojo_EventScript_GiveTM52
 	setvar VAR_MAP_SCENE_SAFFRON_CITY_DOJO, 1
+	release
+	end
+
+SaffronCity_Dojo_EventScript_GiveTM52::
+	msgbox SaffronCity_Dojo_Text_TakeThisTM52
+	checkitemspace ITEM_TM52
+	goto_if_eq VAR_RESULT, FALSE, SaffronCity_Dojo_EventScript_NoRoomForTM52
+	giveitem_msg SaffronCity_Dojo_Text_ReceivedTM52FromKoichi, ITEM_TM52
+	setflag FLAG_GOT_TM52_FROM_KOICHI
+	msgbox SaffronCity_Dojo_Text_ExplainTM52
+	release
+	end
+
+SaffronCity_Dojo_EventScript_NoRoomForTM52::
+	msgbox SaffronCity_Dojo_Text_ShouldMakeRoomForThis
 	release
 	end
 `
