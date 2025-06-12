@@ -38976,7 +38976,7 @@ F_TRAINER_FEMALE |
         },
     },
 #line 16627
-    [DIFFICULTY_NORMAL][TRAINER_NINJA_BOY] =
+    [DIFFICULTY_NORMAL][TRAINER_MASTER_BUG_CATCHER] =
     {
 #line 16628
         .trainerName = _("PH"),

@@ -237,7 +237,8 @@
     "OneIsland_KindleRoad_EmberSpa",
     "BirthIsland_Harbor",
     "NavelRock_Harbor",
-    "CaveOfInnerStrength"
+    "CaveOfInnerStrength",
+    "CritterCave"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PalletTown",

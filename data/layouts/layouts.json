@@ -4392,6 +4392,18 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/CaveOfInnerStrength/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfInnerStrength/map.bin"
+    },
+    {
+      "id": "LAYOUT_CRITTER_CAVE",
+      "name": "CritterCave_Layout",
+      "width": 15,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_SeviiIslands123",
+      "border_filepath": "data/layouts/CritterCave/border.bin",
+      "blockdata_filepath": "data/layouts/CritterCave/map.bin"
     }
   ]
 }

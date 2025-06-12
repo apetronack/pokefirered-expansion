@@ -543,7 +543,7 @@
 #define FLAG_HIDE_ROUTE10_TM62   0x209
 #define FLAG_HIDE_ROUTE10_TM73   0x20A
 #define FLAG_HIDE_ROUTE12_TM59   0x20B
-#define FLAG_0x20C               0x20C
+#define FLAG_GOT_TM89            0x20C
 #define FLAG_0x20D               0x20D
 #define FLAG_0x20E               0x20E
 #define FLAG_0x20F               0x20F
@@ -1266,7 +1266,7 @@
 #define FLAG_RIVAL_RT22_FIGHT    0x4C7
 
 // Unused?
-#define FLAG_0x4C8               0x4C8
+#define FLAG_DEFEATED_MASTER_BUG_CATCHER       0x4C8
 #define FLAG_0x4C9               0x4C9
 #define FLAG_0x4CA               0x4CA
 #define FLAG_0x4CB               0x4CB

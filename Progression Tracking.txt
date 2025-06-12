@@ -76,6 +76,8 @@ Cap 3: Misty, level 23
         TRAINER_PICNICKER_DIANA
         TRAINER_LEADER_MISTY
 Cap 4: Rival 3, level 25
+    Route 4
+        TRAINER_MASTER_BUG_CATCHER
     Route 5
         No trainers
     Route 6

@@ -1372,3 +1372,6 @@ Text_TestMsg::
 
 	.include "data/maps/CaveOfInnerStrength/scripts.inc"
 	.include "data/maps/CaveOfInnerStrength/text.inc"
+
+	.include "data/maps/CritterCave/scripts.inc"
+	.include "data/maps/CritterCave/text.inc"
