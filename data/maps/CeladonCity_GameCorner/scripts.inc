@@ -83,27 +83,27 @@ CeladonCity_GameCorner_EventScript_BuyCoins::
 # 42 "data/maps/CeladonCity_GameCorner/scripts.pory"
 	goto_if_unset FLAG_GOT_COIN_CASE, CeladonCity_GameCorner_EventScript_ClerkNoCoinCase
 # 43 "data/maps/CeladonCity_GameCorner/scripts.pory"
-	goto_if_eq VAR_0x8009, 0, CeladonCity_GameCorner_EventScript_Buy50Coins
+	goto_if_eq VAR_0x8009, 0, CeladonCity_GameCorner_EventScript_Buy100Coins
 # 44 "data/maps/CeladonCity_GameCorner/scripts.pory"
-	goto_if_eq VAR_0x8009, 1, CeladonCity_GameCorner_EventScript_Buy500Coins
+	goto_if_eq VAR_0x8009, 1, CeladonCity_GameCorner_EventScript_Buy1500Coins
 # 45 "data/maps/CeladonCity_GameCorner/scripts.pory"
 	end
 # 46 "data/maps/CeladonCity_GameCorner/scripts.pory"
 
 # 47 "data/maps/CeladonCity_GameCorner/scripts.pory"
-CeladonCity_GameCorner_EventScript_Buy500Coins::
+CeladonCity_GameCorner_EventScript_Buy1500Coins::
 # 48 "data/maps/CeladonCity_GameCorner/scripts.pory"
 	checkcoins VAR_TEMP_1
 # 49 "data/maps/CeladonCity_GameCorner/scripts.pory"
-	goto_if_ge VAR_TEMP_1, (MAX_COINS + 1) - 500, CeladonCity_GameCorner_EventScript_ClerkNoRoomForCoins
+	goto_if_ge VAR_TEMP_1, (MAX_COINS + 1) - 1500, CeladonCity_GameCorner_EventScript_ClerkNoRoomForCoins
 # 50 "data/maps/CeladonCity_GameCorner/scripts.pory"
-	checkmoney 10000
+	checkmoney 30000
 # 51 "data/maps/CeladonCity_GameCorner/scripts.pory"
 	goto_if_eq VAR_RESULT, FALSE, CeladonCity_GameCorner_EventScript_ClerkNotEnoughMoney
 # 52 "data/maps/CeladonCity_GameCorner/scripts.pory"
-	addcoins 500
+	addcoins 1500
 # 53 "data/maps/CeladonCity_GameCorner/scripts.pory"
-	removemoney 10000
+	removemoney 30000
 # 54 "data/maps/CeladonCity_GameCorner/scripts.pory"
 	goto CeladonCity_GameCorner_EventScript_BoughtCoins
 # 55 "data/maps/CeladonCity_GameCorner/scripts.pory"
@@ -111,19 +111,19 @@ CeladonCity_GameCorner_EventScript_Buy500Coins::
 # 56 "data/maps/CeladonCity_GameCorner/scripts.pory"
 
 # 57 "data/maps/CeladonCity_GameCorner/scripts.pory"
-CeladonCity_GameCorner_EventScript_Buy50Coins::
+CeladonCity_GameCorner_EventScript_Buy100Coins::
 # 58 "data/maps/CeladonCity_GameCorner/scripts.pory"
 	checkcoins VAR_TEMP_1
 # 59 "data/maps/CeladonCity_GameCorner/scripts.pory"
-	goto_if_ge VAR_TEMP_1, (MAX_COINS + 1) - 50, CeladonCity_GameCorner_EventScript_ClerkNoRoomForCoins
+	goto_if_ge VAR_TEMP_1, (MAX_COINS + 1) - 100, CeladonCity_GameCorner_EventScript_ClerkNoRoomForCoins
 # 60 "data/maps/CeladonCity_GameCorner/scripts.pory"
-	checkmoney 1000
+	checkmoney 2000
 # 61 "data/maps/CeladonCity_GameCorner/scripts.pory"
 	goto_if_eq VAR_RESULT, FALSE, CeladonCity_GameCorner_EventScript_ClerkNotEnoughMoney
 # 62 "data/maps/CeladonCity_GameCorner/scripts.pory"
-	addcoins 50
+	addcoins 100
 # 63 "data/maps/CeladonCity_GameCorner/scripts.pory"
-	removemoney 1000
+	removemoney 2000
 # 64 "data/maps/CeladonCity_GameCorner/scripts.pory"
 	goto CeladonCity_GameCorner_EventScript_BoughtCoins
 # 65 "data/maps/CeladonCity_GameCorner/scripts.pory"

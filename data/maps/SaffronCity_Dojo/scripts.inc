@@ -279,28 +279,62 @@ SaffronCity_Dojo_EventScript_MasterKoichi::
 # 140 "data/maps/SaffronCity_Dojo/scripts.pory"
 	trainerbattle_single TRAINER_BLACK_BELT_KOICHI, SaffronCity_Dojo_Text_MasterKoichiIntro, SaffronCity_Dojo_Text_MasterKoichiDefeat, SaffronCity_Dojo_EventScript_DefeatedMasterKoichi
 # 141 "data/maps/SaffronCity_Dojo/scripts.pory"
-	goto_if_set FLAG_GOT_HITMON_FROM_DOJO, SaffronCity_Dojo_EventScript_MasterKoichiAlreadyGotHitmon
+	goto_if_unset FLAG_GOT_TM52_FROM_KOICHI, SaffronCity_Dojo_EventScript_GiveTM52
 # 142 "data/maps/SaffronCity_Dojo/scripts.pory"
-	msgbox SaffronCity_Dojo_Text_ChoosePrizedFightingMon, MSGBOX_AUTOCLOSE
+	goto_if_set FLAG_GOT_HITMON_FROM_DOJO, SaffronCity_Dojo_EventScript_MasterKoichiAlreadyGotHitmon
 # 143 "data/maps/SaffronCity_Dojo/scripts.pory"
-	end
+	msgbox SaffronCity_Dojo_Text_ChoosePrizedFightingMon, MSGBOX_AUTOCLOSE
 # 144 "data/maps/SaffronCity_Dojo/scripts.pory"
-
-# 145 "data/maps/SaffronCity_Dojo/scripts.pory"
-SaffronCity_Dojo_EventScript_MasterKoichiAlreadyGotHitmon::
-# 146 "data/maps/SaffronCity_Dojo/scripts.pory"
-	msgbox SaffronCity_Dojo_Text_StayAndTrainWithUs
-# 147 "data/maps/SaffronCity_Dojo/scripts.pory"
-	release
-# 148 "data/maps/SaffronCity_Dojo/scripts.pory"
 	end
-# 149 "data/maps/SaffronCity_Dojo/scripts.pory"
+# 145 "data/maps/SaffronCity_Dojo/scripts.pory"
 
-# 150 "data/maps/SaffronCity_Dojo/scripts.pory"
-SaffronCity_Dojo_EventScript_DefeatedMasterKoichi::
-# 151 "data/maps/SaffronCity_Dojo/scripts.pory"
-	setvar VAR_MAP_SCENE_SAFFRON_CITY_DOJO, 1
-# 152 "data/maps/SaffronCity_Dojo/scripts.pory"
+# 146 "data/maps/SaffronCity_Dojo/scripts.pory"
+SaffronCity_Dojo_EventScript_MasterKoichiAlreadyGotHitmon::
+# 147 "data/maps/SaffronCity_Dojo/scripts.pory"
+	msgbox SaffronCity_Dojo_Text_StayAndTrainWithUs
+# 148 "data/maps/SaffronCity_Dojo/scripts.pory"
 	release
+# 149 "data/maps/SaffronCity_Dojo/scripts.pory"
+	end
+# 150 "data/maps/SaffronCity_Dojo/scripts.pory"
+
+# 151 "data/maps/SaffronCity_Dojo/scripts.pory"
+SaffronCity_Dojo_EventScript_DefeatedMasterKoichi::
+# 152 "data/maps/SaffronCity_Dojo/scripts.pory"
+	goto SaffronCity_Dojo_EventScript_GiveTM52
 # 153 "data/maps/SaffronCity_Dojo/scripts.pory"
+	setvar VAR_MAP_SCENE_SAFFRON_CITY_DOJO, 1
+# 154 "data/maps/SaffronCity_Dojo/scripts.pory"
+	release
+# 155 "data/maps/SaffronCity_Dojo/scripts.pory"
+	end
+# 156 "data/maps/SaffronCity_Dojo/scripts.pory"
+
+# 157 "data/maps/SaffronCity_Dojo/scripts.pory"
+SaffronCity_Dojo_EventScript_GiveTM52::
+# 158 "data/maps/SaffronCity_Dojo/scripts.pory"
+	msgbox SaffronCity_Dojo_Text_TakeThisTM52
+# 159 "data/maps/SaffronCity_Dojo/scripts.pory"
+	checkitemspace ITEM_TM52
+# 160 "data/maps/SaffronCity_Dojo/scripts.pory"
+	goto_if_eq VAR_RESULT, FALSE, SaffronCity_Dojo_EventScript_NoRoomForTM52
+# 161 "data/maps/SaffronCity_Dojo/scripts.pory"
+	giveitem_msg SaffronCity_Dojo_Text_ReceivedTM52FromKoichi, ITEM_TM52
+# 162 "data/maps/SaffronCity_Dojo/scripts.pory"
+	setflag FLAG_GOT_TM52_FROM_KOICHI
+# 163 "data/maps/SaffronCity_Dojo/scripts.pory"
+	msgbox SaffronCity_Dojo_Text_ExplainTM52
+# 164 "data/maps/SaffronCity_Dojo/scripts.pory"
+	release
+# 165 "data/maps/SaffronCity_Dojo/scripts.pory"
+	end
+# 166 "data/maps/SaffronCity_Dojo/scripts.pory"
+
+# 167 "data/maps/SaffronCity_Dojo/scripts.pory"
+SaffronCity_Dojo_EventScript_NoRoomForTM52::
+# 168 "data/maps/SaffronCity_Dojo/scripts.pory"
+	msgbox SaffronCity_Dojo_Text_ShouldMakeRoomForThis
+# 169 "data/maps/SaffronCity_Dojo/scripts.pory"
+	release
+# 170 "data/maps/SaffronCity_Dojo/scripts.pory"
 	end

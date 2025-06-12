@@ -69,8 +69,42 @@ CeladonCity_DepartmentStore_4F_Items::
 # 35 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
 	.2byte ITEM_LEAF_STONE
 # 36 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_ICE_STONE
 # 37 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
-	release
+	.2byte ITEM_SUN_STONE
 # 38 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_MOON_STONE
+# 39 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_SHINY_STONE
+# 40 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_DUSK_STONE
+# 41 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_DAWN_STONE
+# 42 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_DRAGON_SCALE
+# 43 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_UPGRADE
+# 44 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_ELECTIRIZER
+# 45 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_MAGMARIZER
+# 46 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_DUBIOUS_DISC
+# 47 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_PROTECTOR
+# 48 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_REAPER_CLOTH
+# 49 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_OVAL_STONE
+# 50 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_EVERSTONE
+# 51 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_PRISM_SCALE
+# 52 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_LINKING_CORD
+# 53 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	.2byte ITEM_NONE
+# 54 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+	release
+# 55 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
 	end

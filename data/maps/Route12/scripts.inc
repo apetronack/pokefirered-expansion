@@ -43,7 +43,7 @@ Route12_EventScript_Snorlax::
 # 22 "data/maps/Route12/scripts.pory"
 	call EventScript_AwakenSnorlax
 # 23 "data/maps/Route12/scripts.pory"
-	setwildbattle SPECIES_SNORLAX, 30
+	setwildbattle SPECIES_SNORLAX, 40
 # 24 "data/maps/Route12/scripts.pory"
 	waitse
 # 25 "data/maps/Route12/scripts.pory"

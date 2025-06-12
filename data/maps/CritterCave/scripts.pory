@@ -28,7 +28,7 @@ script CritterCave_EventScript_DefeatedMasterBugCatcher{
         release()
         end()
     }
-    giveitem_msg(CritterCave_Text_ReceivedTM89, ITEM_TM89)
+    giveitem_msg(format("{PLAYER} received TM89 from the BUG CATCHER."), ITEM_TM89)
     setflag(FLAG_GOT_TM89)
     msgbox(format("TM89 contains U-TURN. It lets your POKéMON do damage, then switch out in the same turn. It's a great way to get out of a sticky situation."))
     release()

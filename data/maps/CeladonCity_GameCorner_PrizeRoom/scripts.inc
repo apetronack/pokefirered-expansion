@@ -519,250 +519,298 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_ChoosePrizeTM::
 # 260 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
 	case 4, CeladonCity_GameCorner_PrizeRoom_EventScript_TM35
 # 261 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	case 5, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
+	case 5, CeladonCity_GameCorner_PrizeRoom_EventScript_TM53
 # 262 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	case 127, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
+	case 6, CeladonCity_GameCorner_PrizeRoom_EventScript_TM79
 # 263 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	end
+	case 7, CeladonCity_GameCorner_PrizeRoom_EventScript_TM84
 # 264 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-
+	case 8, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
 # 265 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_TM13::
-# 266 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_1, ITEM_TM13
-# 267 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_2, 4000
-# 268 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	buffermovename STR_VAR_2, MOVE_ICE_BEAM
-# 269 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
-# 270 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	end
-# 271 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-
-# 272 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_TM23::
-# 273 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_1, ITEM_TM23
-# 274 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_2, 3500
-# 275 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	buffermovename STR_VAR_2, MOVE_IRON_TAIL
-# 276 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
-# 277 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	end
-# 278 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-
-# 279 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_TM24::
-# 280 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_1, ITEM_TM24
-# 281 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_2, 4000
-# 282 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	buffermovename STR_VAR_2, MOVE_THUNDERBOLT
-# 283 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
-# 284 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	end
-# 285 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-
-# 286 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_TM30::
-# 287 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_1, ITEM_TM30
-# 288 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_2, 4500
-# 289 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	buffermovename STR_VAR_2, MOVE_SHADOW_BALL
-# 290 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
-# 291 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	end
-# 292 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-
-# 293 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_TM35::
-# 294 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_1, ITEM_TM35
-# 295 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_2, 4000
-# 296 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	buffermovename STR_VAR_2, MOVE_FLAMETHROWER
-# 297 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
-# 298 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	end
-# 299 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-
-# 300 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM::
-# 301 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	msgbox CeladonCity_GameCorner_PrizeRoom_Text_YouWantTM, MSGBOX_YESNO
-# 302 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto_if_eq VAR_RESULT, NO, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
-# 303 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto CeladonCity_GameCorner_PrizeRoom_EventScript_TryGivePrize
-# 304 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	end
-# 305 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-
-# 306 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeItem::
-# 307 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	bufferitemname STR_VAR_1, VAR_TEMP_1
-# 308 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	msgbox CeladonCity_GameCorner_PrizeRoom_Text_YouWantPrize, MSGBOX_YESNO
-# 309 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto_if_eq VAR_RESULT, NO, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
-# 310 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto CeladonCity_GameCorner_PrizeRoom_EventScript_TryGivePrize
-# 311 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	end
-# 312 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-
-# 313 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_TryGivePrize::
-# 314 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	bufferitemname STR_VAR_1, VAR_TEMP_1
-# 315 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	checkcoins VAR_RESULT
-# 316 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto_if_lt VAR_RESULT, VAR_TEMP_2, CeladonCity_GameCorner_PrizeRoom_EventScript_NotEnoughCoins
-# 317 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	checkitemspace VAR_TEMP_1
-# 318 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto_if_eq VAR_RESULT, FALSE, CeladonCity_GameCorner_PrizeRoom_EventScript_BagFull
-# 319 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	removecoins VAR_TEMP_2
-# 320 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	updatecoinsbox 0, 5
-# 321 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	giveitem VAR_TEMP_1
-# 322 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
-# 323 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	end
-# 324 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-
-# 325 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_BagFull::
-# 326 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	textcolor NPC_TEXT_COLOR_NEUTRAL
-# 327 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	msgbox Text_TooBadBagFull
-# 328 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	hidecoinsbox 0, 0
-# 329 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	release
-# 330 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	end
-# 331 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-
-# 332 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_PrizeClerkItems::
-# 333 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	lock
-# 334 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	faceplayer
-# 335 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto_if_unset FLAG_GOT_COIN_CASE, CeladonCity_GameCorner_PrizeRoom_EventScript_NeedCoinCase
-# 336 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto_if_questlog EventScript_ReleaseEnd
-# 337 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	showcoinsbox 0, 0
-# 338 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	msgbox CeladonCity_GameCorner_PrizeRoom_Text_WeExchangeCoinsForPrizes
-# 339 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ChoosePrizeItem
-# 340 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	end
-# 341 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-
-# 342 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_ChoosePrizeItem::
-# 343 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	message CeladonCity_GameCorner_PrizeRoom_Text_WhichPrize
-# 344 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	waitmessage
-# 345 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	multichoice 10, 0, MULTICHOICE_GAME_CORNER_BATTLE_ITEM_PRIZES, FALSE
-# 346 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	switch VAR_RESULT
-# 347 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	case 0, CeladonCity_GameCorner_PrizeRoom_EventScript_SmokeBall
-# 348 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	case 1, CeladonCity_GameCorner_PrizeRoom_EventScript_MiracleSeed
-# 349 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	case 2, CeladonCity_GameCorner_PrizeRoom_EventScript_Charcoal
-# 350 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	case 3, CeladonCity_GameCorner_PrizeRoom_EventScript_MysticWater
-# 351 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	case 4, CeladonCity_GameCorner_PrizeRoom_EventScript_YellowFlute
-# 352 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	case 5, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
-# 353 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
 	case 127, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
+# 266 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 267 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 268 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_TM13::
+# 269 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_1, ITEM_TM13
+# 270 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_2, 4000
+# 271 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	buffermovename STR_VAR_2, MOVE_ICE_BEAM
+# 272 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
+# 273 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 274 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 275 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_TM23::
+# 276 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_1, ITEM_TM23
+# 277 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_2, 3500
+# 278 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	buffermovename STR_VAR_2, MOVE_IRON_TAIL
+# 279 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
+# 280 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 281 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 282 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_TM24::
+# 283 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_1, ITEM_TM24
+# 284 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_2, 4000
+# 285 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	buffermovename STR_VAR_2, MOVE_THUNDERBOLT
+# 286 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
+# 287 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 288 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 289 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_TM30::
+# 290 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_1, ITEM_TM30
+# 291 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_2, 4000
+# 292 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	buffermovename STR_VAR_2, MOVE_SHADOW_BALL
+# 293 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
+# 294 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 295 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 296 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_TM35::
+# 297 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_1, ITEM_TM35
+# 298 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_2, 4000
+# 299 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	buffermovename STR_VAR_2, MOVE_FLAMETHROWER
+# 300 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
+# 301 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 302 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 303 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_TM53::
+# 304 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_1, ITEM_TM53
+# 305 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_2, 3750
+# 306 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	buffermovename STR_VAR_2, MOVE_ENERGY_BALL
+# 307 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
+# 308 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 309 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 310 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_TM79::
+# 311 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_1, ITEM_TM79
+# 312 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_2, 3750
+# 313 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	buffermovename STR_VAR_2, MOVE_DARK_PULSE
+# 314 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
+# 315 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 316 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 317 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_TM84::
+# 318 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_1, ITEM_TM84
+# 319 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_2, 3750
+# 320 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	buffermovename STR_VAR_2, MOVE_POISON_JAB
+# 321 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM
+# 322 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 323 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 324 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeTM::
+# 325 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	msgbox CeladonCity_GameCorner_PrizeRoom_Text_YouWantTM, MSGBOX_YESNO
+# 326 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto_if_eq VAR_RESULT, NO, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
+# 327 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_TryGivePrize
+# 328 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 329 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 330 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeItem::
+# 331 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	bufferitemname STR_VAR_1, VAR_TEMP_1
+# 332 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	msgbox CeladonCity_GameCorner_PrizeRoom_Text_YouWantPrize, MSGBOX_YESNO
+# 333 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto_if_eq VAR_RESULT, NO, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
+# 334 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_TryGivePrize
+# 335 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 336 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 337 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_TryGivePrize::
+# 338 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	bufferitemname STR_VAR_1, VAR_TEMP_1
+# 339 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	checkcoins VAR_RESULT
+# 340 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto_if_lt VAR_RESULT, VAR_TEMP_2, CeladonCity_GameCorner_PrizeRoom_EventScript_NotEnoughCoins
+# 341 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	checkitemspace VAR_TEMP_1
+# 342 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto_if_eq VAR_RESULT, FALSE, CeladonCity_GameCorner_PrizeRoom_EventScript_BagFull
+# 343 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	removecoins VAR_TEMP_2
+# 344 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	updatecoinsbox 0, 5
+# 345 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	giveitem VAR_TEMP_1
+# 346 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
+# 347 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 348 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 349 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_BagFull::
+# 350 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+# 351 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	msgbox Text_TooBadBagFull
+# 352 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	hidecoinsbox 0, 0
+# 353 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	release
 # 354 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
 	end
 # 355 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
 
 # 356 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_SmokeBall::
+CeladonCity_GameCorner_PrizeRoom_EventScript_PrizeClerkItems::
 # 357 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_1, ITEM_SMOKE_BALL
+	lock
 # 358 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_2, 800
+	faceplayer
 # 359 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeItem
+	goto_if_unset FLAG_GOT_COIN_CASE, CeladonCity_GameCorner_PrizeRoom_EventScript_NeedCoinCase
 # 360 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	end
+	goto_if_questlog EventScript_ReleaseEnd
 # 361 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-
+	showcoinsbox 0, 0
 # 362 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_MiracleSeed::
+	msgbox CeladonCity_GameCorner_PrizeRoom_Text_WeExchangeCoinsForPrizes
 # 363 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_1, ITEM_MIRACLE_SEED
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ChoosePrizeItem
 # 364 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_2, 1000
+	end
 # 365 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeItem
+
 # 366 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	end
+CeladonCity_GameCorner_PrizeRoom_EventScript_ChoosePrizeItem::
 # 367 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-
+	message CeladonCity_GameCorner_PrizeRoom_Text_WhichPrize
 # 368 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_Charcoal::
+	waitmessage
 # 369 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_1, ITEM_CHARCOAL
+	multichoice 10, 0, MULTICHOICE_GAME_CORNER_BATTLE_ITEM_PRIZES, FALSE
 # 370 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_2, 1000
+	switch VAR_RESULT
 # 371 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeItem
+	case 0, CeladonCity_GameCorner_PrizeRoom_EventScript_SmokeBall
 # 372 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	end
+	case 1, CeladonCity_GameCorner_PrizeRoom_EventScript_MiracleSeed
 # 373 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-
+	case 2, CeladonCity_GameCorner_PrizeRoom_EventScript_Charcoal
 # 374 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_MysticWater::
+	case 3, CeladonCity_GameCorner_PrizeRoom_EventScript_MysticWater
 # 375 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_1, ITEM_MYSTIC_WATER
+	case 4, CeladonCity_GameCorner_PrizeRoom_EventScript_YellowFlute
 # 376 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_2, 1000
+	case 5, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
 # 377 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeItem
+	case 127, CeladonCity_GameCorner_PrizeRoom_EventScript_EndPrizeExchange
 # 378 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
 	end
 # 379 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
 
 # 380 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-CeladonCity_GameCorner_PrizeRoom_EventScript_YellowFlute::
+CeladonCity_GameCorner_PrizeRoom_EventScript_SmokeBall::
 # 381 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_1, ITEM_YELLOW_FLUTE
+	setvar VAR_TEMP_1, ITEM_SMOKE_BALL
 # 382 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
-	setvar VAR_TEMP_2, 1600
+	setvar VAR_TEMP_2, 800
 # 383 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
 	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeItem
 # 384 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 385 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 386 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_MiracleSeed::
+# 387 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_1, ITEM_MIRACLE_SEED
+# 388 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_2, 1000
+# 389 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeItem
+# 390 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 391 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 392 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_Charcoal::
+# 393 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_1, ITEM_CHARCOAL
+# 394 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_2, 1000
+# 395 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeItem
+# 396 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 397 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 398 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_MysticWater::
+# 399 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_1, ITEM_MYSTIC_WATER
+# 400 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_2, 1000
+# 401 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeItem
+# 402 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	end
+# 403 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+
+# 404 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+CeladonCity_GameCorner_PrizeRoom_EventScript_YellowFlute::
+# 405 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_1, ITEM_YELLOW_FLUTE
+# 406 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	setvar VAR_TEMP_2, 1600
+# 407 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
+	goto CeladonCity_GameCorner_PrizeRoom_EventScript_ConfirmPrizeItem
+# 408 "data/maps/CeladonCity_GameCorner_PrizeRoom/scripts.pory"
 	end

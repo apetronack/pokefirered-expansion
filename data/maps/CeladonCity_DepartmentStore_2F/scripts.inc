@@ -119,18 +119,42 @@ CeladonCity_DepartmentStore_2F_TMs::
 # 60 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
 	.2byte ITEM_TM05
 # 61 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_TM15
+	.2byte ITEM_TM07
 # 62 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_TM28
+	.2byte ITEM_TM09
 # 63 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_TM31
+	.2byte ITEM_TM11
 # 64 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_TM43
+	.2byte ITEM_TM12
 # 65 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_TM45
+	.2byte ITEM_TM15
 # 66 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_TM18
 # 67 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
-	release
+	.2byte ITEM_TM28
 # 68 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM31
+# 69 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM37
+# 70 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM41
+# 71 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM42
+# 72 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM43
+# 73 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM45
+# 74 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM46
+# 75 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM49
+# 76 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM54
+# 77 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_TM78
+# 78 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	.2byte ITEM_NONE
+# 79 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
+	release
+# 80 "data/maps/CeladonCity_DepartmentStore_2F/scripts.pory"
 	end
