@@ -11012,13 +11012,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Leafeon
+Ability: Leaf Guard
 Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Razor Leaf
+- Yawn
+- Swords Dance
+- X Scissor
 
 Sandslash
 Ability: Sand Veil
 Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Earthquake
+- Sandstorm
+- Night Slash
+- Rock Slide
 
 === TRAINER_SWIMMER_FEMALE_MELISSA ===
 Name: MELISSA
@@ -11029,13 +11038,22 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Poliwag
-Level: 31
+Slowbro @ Sitrus Berry
+Ability: Own Tempo
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Calm Mind
+- Psychic
+- Surf
+- Ice Beam
 
-Crawdaunt
-Level: 31
+Wailord @ Sitrus Berry
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Water Spout
+- Amnesia
+- Curse
+- Body Slam
 
 === TRAINER_FISHERMAN_RONALD ===
 Name: RONALD
@@ -11046,21 +11064,41 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Crawdaunt
-Level: 28
+Gorebyss
+Ability: Swift Swim
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Psychic
+- Rain Dance
+- Hydro Pump
+- Amnesia
 
-Corphish
-Level: 28
+Lanturn
+Ability: Volt Absorb
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Surf
+- Confuse Ray
+- Thunderbolt
+- Signal Beam
+
+Empoleon
+Ability: Torrent
+Level: 57
+IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Drill Peck
+- Aqua Jet
+- Swords Dance
+- Earthquake
 
 Crawdaunt
-Level: 28
+Ability: Shell Armor
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-
-Crawdaunt
-Level: 28
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Crabhammer
+- Swords Dance
+- Crunch
+- Body Slam
 
 === TRAINER_FISHERMAN_WADE ===
 Name: WADE
@@ -11072,28 +11110,33 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Feebas
-Level: 27
+Level: 54
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
 Feebas
-Level: 27
+Level: 55
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
 Feebas
-Level: 27
+Level: 56
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
 Feebas
-Level: 27
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
 Feebas
-Level: 27
+Level: 58
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
-Feebas
-Level: 27
+Milotic
+Ability: Marvel Scale
+Level: 60
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Aqua Ring
+- Surf
+- Ice Beam
+- Light Screen
 
 === TRAINER_SIS_AND_BRO_LIL_IAN ===
 Name: LIL & IAN
@@ -11104,13 +11147,23 @@ Music: Swimmer
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Seadra
-Level: 33
+Kingdra
+Ability: Sniper
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Dragon Pulse
+- Surf
+- Agility
+- Signal Beam
 
 Starmie
-Level: 33
+Ability: Illuminate
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Light Screen
+- Power Gem
+- Ice Beam
+- Thunderbolt
 
 === TRAINER_SWIMMER_MALE_SPENCER ===
 Name: SPENCER
@@ -11118,16 +11171,26 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Seadra
-Level: 33
+Golduck
+Ability: Cloud Nine
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Calm Mind
+- Psychic
+- Mud Bomb
+- Surf
 
-Tentacruel
-Level: 33
+Cloyster
+Ability: Shell Armor
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Avalanche
+- Waterfall
+- Spike Cannon
+- Toxic Spikes
 
 === TRAINER_FISHERMAN_CLAUDE ===
 Name: CLAUDE
