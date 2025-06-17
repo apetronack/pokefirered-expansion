@@ -6099,7 +6099,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
 
     [SPECIES_MAGCARGO] =
     {
-        .baseHP        = P_UPDATED_STATS >= GEN_7 ? 60 : 50,
+        .baseHP        = 60,
         .baseAttack    = 60,
         .baseDefense   = 120,
         .baseSpeed     = 30,
@@ -6944,7 +6944,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
 
     [SPECIES_MANTINE] =
     {
-        .baseHP        = P_UPDATED_STATS >= GEN_7 ? 85 : 65,
+        .baseHP        = 85,
         .baseAttack    = 50,
         .baseDefense   = 75,
         .baseSpeed     = 70,

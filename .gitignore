@@ -69,4 +69,5 @@ tools/trainerproc/trainerproc
 *.fastSmol
 *.smolTM
 *.ss1
+*.csv
 ~$*
