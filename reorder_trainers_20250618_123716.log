@@ -1,0 +1,12 @@
+2025-06-18 12:37:16,504 - INFO - Starting trainer reordering process
+2025-06-18 12:37:16,504 - INFO - Log file: reorder_trainers_20250618_123716.log
+2025-06-18 12:37:16,504 - INFO - Reading Progression Tracking.txt...
+2025-06-18 12:37:16,506 - INFO - Found 445 trainers in progression
+2025-06-18 12:37:16,506 - INFO - Reading trainers from src/data/trainers.party
+2025-06-18 12:37:16,511 - INFO - Found 743 trainers total
+2025-06-18 12:37:16,511 - INFO - Found TRAINER_NONE, placing at start
+2025-06-18 12:37:16,511 - INFO - Reordering trainers based on progression...
+2025-06-18 12:37:16,511 - WARNING - TRAINER_SAFFRON_GYM_GUARDIAN from progression not found in trainers.party
+2025-06-18 12:37:16,515 - INFO - Adding 298 remaining trainers at the end
+2025-06-18 12:37:16,515 - INFO - Writing 743 trainers to src/data/updated_trainers.party
+2025-06-18 12:37:16,520 - INFO - Done!
