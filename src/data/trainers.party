@@ -14479,6 +14479,423 @@ IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 - Rock Throw
 - Self Destruct
 
+=== TRAINER_ELITE_FOUR_LORELEI_2 ===
+Name: LORELEI
+Class: Elite Four
+Pic: Elite Four Lorelei
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Purple
+
+Sealeo
+Level: 64
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Ice Beam
+- Surf
+- Signal Beam
+- Double Team
+
+Cloyster
+Level: 63
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Ice Beam
+- Surf
+- Supersonic
+- Rain Dance
+
+Piloswine
+Level: 63
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Blizzard
+- Earthquake
+- Double Edge
+- Rock Slide
+
+Glalie
+Level: 66
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Ice Beam
+- Psychic
+- Lovely Kiss
+- Attract
+
+Lapras @ Cheri Berry
+Level: 66
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Ice Beam
+- Surf
+- Psychic
+- Thunder
+
+=== TRAINER_ELITE_FOUR_BRUNO_2 ===
+Name: BRUNO
+Class: Elite Four
+Pic: Elite Four Bruno
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Green
+
+Steelix
+Level: 65
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Earthquake
+- Iron Tail
+- Crunch
+- Rock Tomb
+
+Hariyama
+Level: 65
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Sky Uppercut
+- Mach Punch
+- Rock Slide
+- Counter
+
+Medicham
+Level: 65
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Mega Kick
+- Foresight
+- Earthquake
+- Rock Slide
+
+Steelix
+Level: 66
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Earthquake
+- Iron Tail
+- Crunch
+- Dragon Breath
+
+Machamp @ Persim Berry
+Level: 68
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Cross Chop
+- Earthquake
+- Brick Break
+- Rock Slide
+
+=== TRAINER_ELITE_FOUR_AGATHA_2 ===
+Name: AGATHA
+Class: Elite Four
+Pic: Elite Four Agatha
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Pink
+
+Gengar
+Level: 66
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Shadow Ball
+- Psychic
+- Confuse Ray
+- Hypnosis
+
+Crobat
+Level: 66
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Sludge Bomb
+- Air Cutter
+- Shadow Ball
+- Confuse Ray
+
+Misdreavus
+Level: 65
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Shadow Ball
+- Psychic
+- Thunderbolt
+- Attract
+
+Swalot
+Level: 68
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Sludge Bomb
+- Earthquake
+- Giga Drain
+- Double Team
+
+Gengar @ Chesto Berry
+Level: 70
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Shadow Ball
+- Psychic
+- Thunderbolt
+- Sludge Bomb
+
+=== TRAINER_ELITE_FOUR_LANCE_2 ===
+Name: LANCE
+Class: Elite Four
+Pic: Elite Four Lance
+Gender: Male
+Music: Elite Four
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Blue
+
+Milotic
+Level: 68
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hyper Beam
+- Dragon Dance
+- Earthquake
+- Thunder Wave
+
+Dragonite
+Level: 66
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hyper Beam
+- Earthquake
+- Dragon Claw
+- Flamethrower
+
+Kingdra
+Level: 66
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hyper Beam
+- Dragon Dance
+- Surf
+- Ice Beam
+
+Aerodactyl
+Level: 70
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hyper Beam
+- Ancient Power
+- Aerial Ace
+- Earthquake
+
+Dragonite @ Persim Berry
+Level: 72
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+- Hyper Beam
+- Outrage
+- Thunderbolt
+- Ice Beam
+
+=== TRAINER_CHAMPION_REMATCH_BULBASAUR ===
+Name: TERRY
+Class: Champion
+Pic: Champion Rival
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Yellow
+
+Kingdra @ Life Orb
+Ability: Swift Swim
+Modest Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Surf
+- Draco Meteor
+- Ice Beam
+- Rain Dance
+
+Ludicolo @ Leftovers
+Ability: Swift Swim
+Calm Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Surf
+- Giga Drain
+- Ice Beam
+- Leech Seed
+
+Jirachi @ Damp Rock
+Ability: Serene Grace
+Timid Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Rain Dance
+- Thunder
+- Water Pulse
+- U-turn
+
+Swampert @ Lum Berry
+Ability: Torrent
+Relaxed Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Stealth Rock
+- Earthquake
+- Ice Beam
+- Roar
+
+Kabutops @ Choice Band
+Ability: Swift Swim
+Adamant Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Waterfall
+- Stone Edge
+- Aqua Jet
+- Superpower
+
+Zapdos @ Choice Scarf
+Ability: Pressure
+Timid Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Thunder
+- Drill Peck
+- U-turn
+- Roost
+
+=== TRAINER_CHAMPION_REMATCH_SQUIRTLE ===
+Name: TERRY
+Class: Champion
+Pic: Champion Rival
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Yellow
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+Adamant Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Stone Edge
+- Crunch
+- Thunderbolt
+- Stealth Rock
+
+Hippowdon @ Smooth Rock
+Ability: Sand Stream
+Impish Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Earthquake
+- Slack Off
+- Roar
+- Ice Fang
+
+Garchomp @ Yache Berry
+Ability: Sand Veil
+Jolly Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Swords Dance
+- Earthquake
+- Dragon Claw
+- Fire Fang
+
+Lucario @ Life Orb
+Ability: Inner Focus
+Timid Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Aura Sphere
+- Shadow Ball
+- Extreme Speed
+- Dragon Pulse
+
+Swampert @ Leftovers
+Ability: Torrent
+Relaxed Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Earthquake
+- Ice Beam
+- Surf
+- Roar
+
+Skarmory @ Shed Shell
+Ability: Keen Eye 
+Impish Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Roost
+- Spikes
+- Whirlwind
+- Brave Bird
+
+=== TRAINER_CHAMPION_REMATCH_CHARMANDER ===
+Name: TERRY
+Class: Champion
+Pic: Champion Rival
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Yellow
+
+Ninetales @ Charcoal
+Ability: Drought
+Timid Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Flamethrower
+- Confuse Ray
+- Solar Beam
+- Will-O-Wisp
+
+Venusaur @ Life Orb
+Ability: Chlorophyll
+Modest Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Solar Beam
+- Sludge Bomb
+- Earthquake
+- Sleep Powder
+
+Flygon @ Focus Sash
+Ability: Levitate
+Jolly Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Earthquake
+- Stone Edge
+- Draco Meteor
+- U-Turn
+
+Exeggutor @ Choice Specs
+Ability: Chlorophyll
+Modest Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Solar Beam
+- Psychic
+- Leech Seed
+- Explosion
+
+Arcanine @ Choice Band
+Ability: Intimidate
+Adamant Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Flare Blitz
+- Extreme Speed
+- Thunder Fang
+- Crunch
+
+Raikou @ Choice Scarf
+Ability: Pressure
+Timid Nature
+Level: 100
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Thunderbolt
+- Extreme Speed
+- Shadow Ball
+- Aura Sphere
+
 === TRAINER_AQUA_ADMIN_MATT ===
 Name: MATT
 Class: Aqua Admin
@@ -15883,219 +16300,6 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Surf
 - Slam
 
-=== TRAINER_CHAMPION_REMATCH_BULBASAUR ===
-Name: TERRY
-Class: Champion
-Pic: Champion Rival
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Yellow
-
-Kingdra @ Life Orb
-Ability: Swift Swim
-Modest Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Surf
-- Draco Meteor
-- Ice Beam
-- Rain Dance
-
-Ludicolo @ Leftovers
-Ability: Swift Swim
-Calm Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Surf
-- Giga Drain
-- Ice Beam
-- Leech Seed
-
-Jirachi @ Damp Rock
-Ability: Serene Grace
-Timid Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Rain Dance
-- Thunder
-- Water Pulse
-- U-turn
-
-Swampert @ Lum Berry
-Ability: Torrent
-Relaxed Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Stealth Rock
-- Earthquake
-- Ice Beam
-- Roar
-
-Kabutops @ Choice Band
-Ability: Swift Swim
-Adamant Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Waterfall
-- Stone Edge
-- Aqua Jet
-- Superpower
-
-Zapdos @ Choice Scarf
-Ability: Pressure
-Timid Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Thunder
-- Drill Peck
-- U-turn
-- Roost
-
-=== TRAINER_CHAMPION_REMATCH_CHARMANDER ===
-Name: TERRY
-Class: Champion
-Pic: Champion Rival
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Yellow
-
-Ninetales @ Charcoal
-Ability: Drought
-Timid Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Flamethrower
-- Confuse Ray
-- Solar Beam
-- Will-O-Wisp
-
-Venusaur @ Life Orb
-Ability: Chlorophyll
-Modest Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Solar Beam
-- Sludge Bomb
-- Earthquake
-- Sleep Powder
-
-Flygon @ Focus Sash
-Ability: Levitate
-Jolly Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Earthquake
-- Stone Edge
-- Draco Meteor
-- U-Turn
-
-Exeggutor @ Choice Specs
-Ability: Chlorophyll
-Modest Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Solar Beam
-- Psychic
-- Leech Seed
-- Explosion
-
-Arcanine @ Choice Band
-Ability: Intimidate
-Adamant Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Flare Blitz
-- Extreme Speed
-- Thunder Fang
-- Crunch
-
-Raikou @ Choice Scarf
-Ability: Pressure
-Timid Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Thunderbolt
-- Extreme Speed
-- Shadow Ball
-- Aura Sphere
-
-=== TRAINER_CHAMPION_REMATCH_SQUIRTLE ===
-Name: TERRY
-Class: Champion
-Pic: Champion Rival
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Yellow
-
-Tyranitar @ Leftovers
-Ability: Sand Stream
-Adamant Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Stone Edge
-- Crunch
-- Thunderbolt
-- Stealth Rock
-
-Hippowdon @ Smooth Rock
-Ability: Sand Stream
-Impish Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Earthquake
-- Slack Off
-- Roar
-- Ice Fang
-
-Garchomp @ Yache Berry
-Ability: Sand Veil
-Jolly Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Swords Dance
-- Earthquake
-- Dragon Claw
-- Fire Fang
-
-Lucario @ Life Orb
-Ability: Inner Focus
-Timid Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Aura Sphere
-- Shadow Ball
-- Extreme Speed
-- Dragon Pulse
-
-Swampert @ Leftovers
-Ability: Torrent
-Relaxed Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Earthquake
-- Ice Beam
-- Surf
-- Roar
-
-Skarmory @ Shed Shell
-Ability: Keen Eye 
-Impish Nature
-Level: 100
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Roost
-- Spikes
-- Whirlwind
-- Brave Bird
-
 === TRAINER_CHANNELER_1 ===
 Name: PH
 Class: Channeler
@@ -17253,108 +17457,6 @@ Gulpin
 Level: 5
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
-=== TRAINER_ELITE_FOUR_AGATHA_2 ===
-Name: AGATHA
-Class: Elite Four
-Pic: Elite Four Agatha
-Gender: Male
-Music: Elite Four
-Items: Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Pink
-
-Gengar
-Level: 66
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Shadow Ball
-- Psychic
-- Confuse Ray
-- Hypnosis
-
-Crobat
-Level: 66
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Sludge Bomb
-- Air Cutter
-- Shadow Ball
-- Confuse Ray
-
-Misdreavus
-Level: 65
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Shadow Ball
-- Psychic
-- Thunderbolt
-- Attract
-
-Swalot
-Level: 68
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Sludge Bomb
-- Earthquake
-- Giga Drain
-- Double Team
-
-Gengar @ Chesto Berry
-Level: 70
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Shadow Ball
-- Psychic
-- Thunderbolt
-- Sludge Bomb
-
-=== TRAINER_ELITE_FOUR_BRUNO_2 ===
-Name: BRUNO
-Class: Elite Four
-Pic: Elite Four Bruno
-Gender: Male
-Music: Elite Four
-Items: Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Green
-
-Steelix
-Level: 65
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Earthquake
-- Iron Tail
-- Crunch
-- Rock Tomb
-
-Hariyama
-Level: 65
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Sky Uppercut
-- Mach Punch
-- Rock Slide
-- Counter
-
-Medicham
-Level: 65
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Mega Kick
-- Foresight
-- Earthquake
-- Rock Slide
-
-Steelix
-Level: 66
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Earthquake
-- Iron Tail
-- Crunch
-- Dragon Breath
-
-Machamp @ Persim Berry
-Level: 68
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Cross Chop
-- Earthquake
-- Brick Break
-- Rock Slide
-
 === TRAINER_ELITE_FOUR_DRAKE ===
 Name: DRAKE
 Class: RS Elite Four
@@ -17380,108 +17482,6 @@ AI: AI_FLAG_BASIC_TRAINER
 Gulpin
 Level: 5
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-
-=== TRAINER_ELITE_FOUR_LANCE_2 ===
-Name: LANCE
-Class: Elite Four
-Pic: Elite Four Lance
-Gender: Male
-Music: Elite Four
-Items: Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Blue
-
-Milotic
-Level: 68
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Hyper Beam
-- Dragon Dance
-- Earthquake
-- Thunder Wave
-
-Dragonite
-Level: 66
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Hyper Beam
-- Earthquake
-- Dragon Claw
-- Flamethrower
-
-Kingdra
-Level: 66
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Hyper Beam
-- Dragon Dance
-- Surf
-- Ice Beam
-
-Aerodactyl
-Level: 70
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Hyper Beam
-- Ancient Power
-- Aerial Ace
-- Earthquake
-
-Dragonite @ Persim Berry
-Level: 72
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Hyper Beam
-- Outrage
-- Thunderbolt
-- Ice Beam
-
-=== TRAINER_ELITE_FOUR_LORELEI_2 ===
-Name: LORELEI
-Class: Elite Four
-Pic: Elite Four Lorelei
-Gender: Male
-Music: Elite Four
-Items: Full Restore / Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Purple
-
-Sealeo
-Level: 64
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Ice Beam
-- Surf
-- Signal Beam
-- Double Team
-
-Cloyster
-Level: 63
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Ice Beam
-- Surf
-- Supersonic
-- Rain Dance
-
-Piloswine
-Level: 63
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Blizzard
-- Earthquake
-- Double Edge
-- Rock Slide
-
-Glalie
-Level: 66
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Ice Beam
-- Psychic
-- Lovely Kiss
-- Attract
-
-Lapras @ Cheri Berry
-Level: 66
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Ice Beam
-- Surf
-- Psychic
-- Thunder
 
 === TRAINER_ELITE_FOUR_PHOEBE ===
 Name: PHOEBE
