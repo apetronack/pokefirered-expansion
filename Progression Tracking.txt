@@ -498,6 +498,30 @@ Cap 13: Blaine, Level 59
         TRAINER_TUBER_ALEXIS
         TRAINER_TUBER_AMIRA
         TRAINER_AROMA_LADY_NIKKI
+    Cinnabar Island Gym
+        TRAINER_BURGLAR_QUINN
+        TRAINER_SUPER_NERD_ERIK
+        TRAINER_SUPER_NERD_AVERY
+        TRAINER_BURGLAR_RAMON
+        TRAINER_SUPER_NERD_DEREK
+        TRAINER_BURGLAR_DUSTY
+        TRAINER_SUPER_NERD_ZAC
+        TRAINER_LEADER_BLAINE
+Cap 14: Giovanni 3, level 62
+    Viridian Gym
+        TRAINER_BLACK_BELT_TAKASHI
+        TRAINER_TAMER_COLE
+        TRAINER_BLACK_BELT_KIYO
+        TRAINER_COOLTRAINER_YUJI
+        TRAINER_BLACK_BELT_ATSUSHI
+        TRAINER_TAMER_JASON
+        TRAINER_COOLTRAINER_SAMUEL
+        TRAINER_COOLTRAINER_WARREN
+        TRAINER_LEADER_GIOVANNI
+Cap 15: Rival 6, level 65
+    Route 22
+        TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR/SQUIRTLE/CHARMANDER
+Cap 16: Lorelei, level 72
     Victory Road 1F
         TRAINER_COOLTRAINER_NAOMI
         TRAINER_COOLTRAINER_ROLANDO
@@ -515,14 +539,19 @@ Cap 13: Blaine, Level 59
         TRAINER_POKEMANIAC_DAWSON
     Pokemon League 1
         TRAINER_ELITE_FOUR_LORELEI
+Cap 17: Bruno, level 73
     Pokemon League 2
         TRAINER_ELITE_FOUR_BRUNO
+Cap 18: Agatha, level 74
     Pokemon League 3
         TRAINER_ELITE_FOUR_AGATHA
+Cap 19, Lance, level 75
     Pokemon League 4
         TRAINER_ELITE_FOUR_LANCE
+Cap 20, Champion, level 78
     Pokemon League 5
         TRAINER_CHAMPION_FIRST_BULBASAUR/SQUIRTLE/CHARMANDER
+Cap 21, Game Clear, level 100
     Four Island Icefall Cave
         TRAINER_TEAM_ROCKET_GRUNT_45
     Five Island Resort Gorgeous

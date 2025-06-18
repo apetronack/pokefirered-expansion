@@ -12010,6 +12010,673 @@ Weepinbell
 Level: 37
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
+=== TRAINER_BURGLAR_QUINN ===
+Name: QUINN
+Class: Burglar
+Pic: Burglar
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Growlithe
+Level: 36
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Vulpix
+Level: 36
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Ninetales
+Level: 36
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+=== TRAINER_SUPER_NERD_ERIK ===
+Name: ERIK
+Class: Super Nerd
+Pic: Super Nerd
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Vulpix
+Level: 36
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Vulpix
+Level: 36
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Ninetales
+Level: 36
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+=== TRAINER_SUPER_NERD_AVERY ===
+Name: AVERY
+Class: Super Nerd
+Pic: Super Nerd
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Growlithe
+Level: 34
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Charmander
+Level: 34
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Vulpix
+Level: 34
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Growlithe
+Level: 34
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+=== TRAINER_BURGLAR_RAMON ===
+Name: RAMON
+Class: Burglar
+Pic: Burglar
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Growlithe
+Level: 41
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+=== TRAINER_SUPER_NERD_DEREK ===
+Name: DEREK
+Class: Super Nerd
+Pic: Super Nerd
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Arcanine
+Level: 41
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+=== TRAINER_BURGLAR_DUSTY ===
+Name: DUSTY
+Class: Burglar
+Pic: Burglar
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Vulpix
+Level: 37
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Growlithe
+Level: 37
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+=== TRAINER_SUPER_NERD_ZAC ===
+Name: ZAC
+Class: Super Nerd
+Pic: Super Nerd
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Growlithe
+Level: 37
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Vulpix
+Level: 37
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+=== TRAINER_LEADER_BLAINE ===
+Name: BLAINE
+Class: Leader
+Pic: Leader Blaine
+Gender: Male
+Music: Male
+Items: Full Heal / X Sp Atk
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Ninetales @ Wide Lens
+Ability: Drought
+Timid Nature
+Level: 58
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fire Blast
+- Will-O-Wisp
+- Confuse Ray
+- Shadow Ball
+
+Houndoom @ Meadow Plate
+Ability: Early Bird
+Modest Nature
+Level: 58
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fire Blast
+- Solar Beam
+- Nasty Plot
+- Torment
+
+Camerupt @ Passho Berry
+Ability: Solid Rock
+Gentle Nature
+Level: 58
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Yawn
+- Earthquake
+- Rock Slide
+- Fire Blast
+
+Torkoal @ White Herb
+Ability: White Smoke
+Sassy Nature
+Level: 58
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Curse
+- Body Slam
+- Superpower
+- Fire Blast
+
+Arcanine @ Liechi Berry
+Ability: Intimidate
+Jolly Nature
+Level: 59
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Extreme Speed
+- Close Combat
+- Crunch
+- Flare Blitz
+
+=== TRAINER_BLACK_BELT_TAKASHI ===
+Name: TAKASHI
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Machoke @ Black Belt
+Level: 38
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Machop @ Black Belt
+Level: 38
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Machoke @ Black Belt
+Level: 38
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+=== TRAINER_TAMER_COLE ===
+Name: COLE
+Class: Tamer
+Pic: Tamer
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Swalot
+Level: 39
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Mightyena
+Level: 39
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+=== TRAINER_BLACK_BELT_KIYO ===
+Name: KIYO
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Machoke @ Black Belt
+Level: 43
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+=== TRAINER_COOLTRAINER_YUJI ===
+Name: YUJI
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sandslash
+Level: 38
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Slash
+- Swift
+- Sand Attack
+- Poison Sting
+
+Graveler
+Level: 38
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rock Blast
+- Magnitude
+- Mud Sport
+- Defense Curl
+
+Onix
+Level: 38
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Dragon Breath
+- Sandstorm
+- Rock Throw
+- Bind
+
+Graveler
+Level: 38
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Rock Blast
+- Magnitude
+- Rollout
+- Defense Curl
+
+Marowak
+Level: 38
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Bonemerang
+- Headbutt
+- Leer
+- Growl
+
+=== TRAINER_BLACK_BELT_ATSUSHI ===
+Name: ATSUSHI
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Machop @ Black Belt
+Level: 40
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Machoke @ Black Belt
+Level: 40
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+=== TRAINER_TAMER_JASON ===
+Name: JASON
+Class: Tamer
+Pic: Tamer
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: AI_FLAG_BASIC_TRAINER
+
+Rhyhorn
+Level: 43
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+=== TRAINER_COOLTRAINER_SAMUEL ===
+Name: SAMUEL
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sandslash
+Level: 37
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Slash
+- Swift
+- Sand Attack
+- Poison Sting
+
+Sandslash
+Level: 37
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Slash
+- Swift
+- Sand Attack
+- Poison Sting
+
+Rhyhorn
+Level: 38
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Take Down
+- Rock Blast
+- Fury Attack
+- Scary Face
+
+Nidorino
+Level: 39
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fury Attack
+- Horn Attack
+- Poison Sting
+- Double Kick
+
+Nidoking
+Level: 39
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Thrash
+- Double Kick
+- Poison Sting
+- Focus Energy
+
+=== TRAINER_COOLTRAINER_WARREN ===
+Name: WARREN
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Hyper Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Marowak
+Level: 37
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Bonemerang
+- Headbutt
+- Leer
+- Growl
+
+Marowak
+Level: 37
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Bonemerang
+- Headbutt
+- Leer
+- Growl
+
+Rhyhorn
+Level: 38
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Take Down
+- Rock Blast
+- Fury Attack
+- Scary Face
+
+Nidorina
+Level: 39
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fury Swipes
+- Bite
+- Poison Sting
+- Double Kick
+
+Nidoqueen
+Level: 39
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Body Slam
+- Bite
+- Poison Sting
+- Double Kick
+
+=== TRAINER_LEADER_GIOVANNI ===
+Name: GIOVANNI
+Class: Leader
+Pic: Leader Giovanni
+Gender: Male
+Music: Aqua
+Items: Guard Spec / Full Heal
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Hippowdon @ Muscle Band
+Ability: Sand Stream
+Adamant Nature
+Level: 61
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Ice Fang
+- Thunder Fang
+- Crunch
+- Earthquake
+
+Gliscor @ Toxic Orb
+Ability: Poison Heal
+Jolly Nature
+Level: 61
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Swords Dance
+- Fire Fang
+- Aerial Ace
+- Earthquake
+
+Swampert @ Rindo Berry
+Ability: Oblivious
+Sassy Nature
+Level: 61
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Muddy Water
+- Ice Beam
+- Earthquake
+- Rock Climb
+
+Nidoking @ Choice Scarf
+Ability: Sheer Force
+Docile Nature
+Level: 61
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunder
+- Megahorn
+- Sludge Bomb
+- Earthquake
+
+Rhyperior @ Lansat Berry
+Ability: Reckless
+Careful Nature
+Level: 62
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Double Edge
+- Rock Wrecker
+- Counter
+- Earthquake
+
+=== TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR ===
+Name: TERRY
+Class: Rival Late
+Pic: Rival Late
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Staraptor @ Choice Band
+Ability: Intimidate
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Brave Bird
+- Close Combat
+- Steel Wing
+- Take Down
+
+Flygon @ Choice Scarf
+Ability: Levitate
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dragon Claw
+- Earthquake
+- Fire Blast
+- Rock Slide
+
+Milotic @ Leftovers
+Ability: Marvel Scale
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Aqua Ring
+- Toxic
+- Dive
+- Ice Beam
+
+Arcanine @ Kings Rock
+Ability: Intimidate
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunder Fang
+- Extreme Speed
+- Crunch
+- Flare Blitz
+
+Alakazam @ Choice Specs
+Ability: Synchronize
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic
+- Shadow Ball
+- Energy Ball
+- Focus Blast
+
+Venusaur @ Sitrus Berry
+Ability: Overgrow
+Level: 66
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Petal Dance
+- Sludge Bomb
+- Growth
+- Synthesis
+
+=== TRAINER_RIVAL_ROUTE22_LATE_SQUIRTLE ===
+Name: TERRY
+Class: Rival Late
+Pic: Rival Late
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Staraptor @ Choice Band
+Ability: Intimidate
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Brave Bird
+- Close Combat
+- Steel Wing
+- Take Down
+
+Flygon @ Choice Scarf
+Ability: Levitate
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dragon Claw
+- Earthquake
+- Fire Blast
+- Rock Slide
+
+Arcanine @ Kings Rock
+Ability: Intimidate
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Thunder Fang
+- Extreme Speed
+- Crunch
+- Flare Blitz
+
+Roserade @ Black Sludge
+Ability: Poison Point
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb
+- Giga Drain
+- Leech Seed
+- Toxic Spikes
+
+Alakazam @ Choice Specs
+Ability: Synchronize
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic
+- Shadow Ball
+- Energy Ball
+- Focus Blast
+
+Blastoise @ Sitrus Berry
+Ability: Torrent
+Level: 66
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Surf
+- Rain Dance
+- Ice Beam
+- Flash Cannon
+
+=== TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER ===
+Name: TERRY
+Class: Rival Late
+Pic: Rival Late
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Staraptor @ Choice Band
+Ability: Intimidate
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Brave Bird
+- Close Combat
+- Steel Wing
+- Take Down
+
+Flygon @ Choice Scarf
+Ability: Levitate
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Dragon Claw
+- Earthquake
+- Fire Blast
+- Rock Slide
+
+Roserade @ Black Sludge
+Ability: Poison Point
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Sludge Bomb
+- Giga Drain
+- Leech Seed
+- Toxic Spikes
+
+Milotic @ Leftovers
+Ability: Marvel Scale
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Aqua Ring
+- Toxic
+- Dive
+- Ice Beam
+
+Alakazam @ Choice Specs
+Ability: Synchronize
+Level: 65
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Psychic
+- Shadow Ball
+- Energy Ball
+- Focus Blast
+
+Charizard @ Sitrus Berry
+Ability: Blaze
+Level: 66
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+- Flamethrower
+- Air Slash
+- Dragon Pulse
+- Shadow Claw
+
 === TRAINER_COOLTRAINER_NAOMI ===
 Name: NAOMI
 Class: Cooltrainer
@@ -12022,7 +12689,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Linoone
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Fury Swipes
 - Screech
 - Faint Attack
@@ -12030,7 +12697,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Growlithe
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Agility
 - Take Down
 - Fire Spin
@@ -12038,7 +12705,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Arcanine
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Fury Attack
 - Fire Spin
 - Stomp
@@ -12046,7 +12713,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Vulpix
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Flamethrower
 - Confuse Ray
 - Quick Attack
@@ -12054,7 +12721,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Ninetales
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Safeguard
 - Will O Wisp
 - Confuse Ray
@@ -12073,7 +12740,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Staraptor
 Ability: Intimidate
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Close Combat
 - Aerial Ace
 - Feather Dance
@@ -12082,7 +12749,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Ludicolo
 Ability: Swift Swim
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Rain Dance
 - Giga Drain
 - Surf
@@ -12091,7 +12758,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Gorebyss
 Ability: Swift Swim
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Psychic
 - Brine
 - Agility
@@ -12100,7 +12767,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Ninetales
 Ability: Flash Fire
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Flamethrower
 - Confuse Ray
 - Energy Ball
@@ -12109,7 +12776,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Gallade
 Ability: Sharpness
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Leaf Blade
 - Psycho Cut
 - Night Slash
@@ -12126,15 +12793,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Machoke @ Black Belt
 Level: 43
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Machop @ Black Belt
 Level: 43
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Machoke @ Black Belt
 Level: 43
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 === TRAINER_JUGGLER_NELSON ===
 Name: NELSON
@@ -12147,19 +12814,19 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Drowzee
 Level: 41
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Hypno
 Level: 41
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Kadabra
 Level: 41
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Kadabra
 Level: 41
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 === TRAINER_TAMER_VINCENT ===
 Name: VINCENT
@@ -12172,11 +12839,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Linoone
 Level: 44
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Golduck
 Level: 44
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 === TRAINER_JUGGLER_GREGORY ===
 Name: GREGORY
@@ -12189,7 +12856,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Mr Mime
 Level: 48
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Psychic
 - Role Play
 - Double Slap
@@ -12207,7 +12874,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Exeggutor
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Egg Bomb
 - Confusion
 - Stun Spore
@@ -12215,7 +12882,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Sandslash
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Fury Swipes
 - Swift
 - Poison Sting
@@ -12223,7 +12890,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Cloyster
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Spike Cannon
 - Spikes
 - Aurora Beam
@@ -12231,7 +12898,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Electrode
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Spark
 - Sonic Boom
 - Screech
@@ -12239,7 +12906,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Arcanine
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Flame Wheel
 - Roar
 - Bite
@@ -12257,7 +12924,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Clefairy
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Light Screen
 - Cosmic Power
 - Double Slap
@@ -12265,7 +12932,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Clefairy
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Sing
 - Body Slam
 - Rollout
@@ -12273,7 +12940,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Linoone
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Pay Day
 - Faint Attack
 - Bite
@@ -12281,7 +12948,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Sealeo
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Sheer Cold
 - Take Down
 - Rest
@@ -12289,7 +12956,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Miltank
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Sing
 - Egg Bomb
 - Soft Boiled
@@ -12307,7 +12974,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Floatzel
 Level: 41
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Guillotine
 - Stomp
 - Mud Shot
@@ -12315,7 +12982,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Poliwhirl
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Body Slam
 - Double Slap
 - Water Gun
@@ -12323,7 +12990,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Tentacruel
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Barrier
 - Wrap
 - Bubble Beam
@@ -12331,7 +12998,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Seadra
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Water Gun
 - Smokescreen
 - Twister
@@ -12339,7 +13006,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Blastoise
 Level: 43
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Water Gun
 - Bite
 - Rapid Spin
@@ -12357,7 +13024,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Bellsprout
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Razor Leaf
 - Acid
 - Stun Spore
@@ -12365,7 +13032,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Weepinbell
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Razor Leaf
 - Acid
 - Sleep Powder
@@ -12373,7 +13040,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Victreebel
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Razor Leaf
 - Acid
 - Stun Spore
@@ -12381,7 +13048,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Paras
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Growth
 - Slash
 - Leech Life
@@ -12389,7 +13056,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Parasect
 Level: 42
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Spore
 - Slash
 - Leech Life
@@ -12406,7 +13073,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidoqueen
 Level: 45
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Superpower
 - Body Slam
 - Double Kick
@@ -12414,7 +13081,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Nidoking
 Level: 45
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Megahorn
 - Thrash
 - Double Kick
@@ -12431,15 +13098,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Charmeleon
 Level: 40
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Lapras
 Level: 40
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Kangaskhan
 Level: 40
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 === TRAINER_ELITE_FOUR_LORELEI ===
 Name: LORELEI
@@ -12456,7 +13123,7 @@ Abomasnow @ Quick Claw
 Level: 72
 Ability: Snow Warning
 Quirky Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Blizzard
 - Seed Bomb
 - Growth
@@ -12466,7 +13133,7 @@ Cloyster @ Lum Berry
 Level: 72
 Ability: Shell Armor
 Modest Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Spikes
 - Blizzard
 - Light Screen
@@ -12476,7 +13143,7 @@ Froslass @ Spell Tag
 Ability: Snow Cloak
 Modest Nature
 Level: 72
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Blizzard
 - Shadow Ball
 - Confuse Ray
@@ -12486,7 +13153,7 @@ Weavile @ Kings Rock
 Ability: Pressure
 Jolly Nature
 Level: 72
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Ice Punch
 - Night Slash
 - Swords Dance
@@ -12496,7 +13163,7 @@ Mr. Rime @ NevermeltIce
 Ability: Ice Body
 Timid Nature
 Level: 72
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Ice Beam
 - Psychic
 - Light Screen
@@ -12506,7 +13173,7 @@ Lapras @ Leftovers
 Ability: Shell Armor
 Sassy Nature
 Level: 73
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Confuse Ray
 - Ice Beam
 - Surf
@@ -12527,7 +13194,7 @@ Steelix @ Passho Berry
 Ability: Rock Head
 Careful Nature
 Level: 73
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Earthquake
 - Double Edge
 - Thunder Fang
@@ -12537,7 +13204,7 @@ Heracross @ Life Orb
 Ability: Swarm
 Adamant Nature
 Level: 73
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Rock Slide
 - Megahorn
 - Bulk Up
@@ -12547,7 +13214,7 @@ Gallade @ Blackglasses
 Ability: Sharpness
 Lonely Nature
 Level: 73
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Close Combat
 - Swords Dance
 - Psycho Cut
@@ -12557,7 +13224,7 @@ Breloom @ Toxic Orb
 Ability: Poison Heal
 Adamant Nature
 Level: 73
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Seed Bomb
 - Mach Punch
 - Sky Uppercut
@@ -12576,7 +13243,7 @@ Machamp @ Expert Belt
 Level: 74
 Ability: No Guard
 Adamant Nature
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Dynamic Punch
 - Bulk Up
 - Stone Edge
@@ -12615,7 +13282,7 @@ Dusknoir @ Sitrus Berry
 Ability: Pressure
 Sassy Nature
 Level: 74
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Brick Break
 - Trick Room
 - Mean Look
@@ -12625,7 +13292,7 @@ Shedinja @ Focus Sash
 Ability: Wonder Guard
 Rash Nature
 Level: 74
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Shadow Sneak
 - Bug Buzz
 - Aerial Ace
@@ -12635,7 +13302,7 @@ SPECIES_MAROWAK_ALOLA @ Thick Club
 Ability: Rock Head
 Adamant Nature
 Level: 74
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Double Edge
 - Flare Blitz
 - Earthquake
@@ -12645,7 +13312,7 @@ Gengar @ Big Root
 Ability: Levitate
 Timid Nature
 Level: 75
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Shadow Ball
 - Drain Punch
 - Hypnosis
@@ -12666,7 +13333,7 @@ Skarmory @ Leftovers
 Ability: Sturdy
 Modest Nature
 Level: 75
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Fly
 - Stealth Rock
 - Curse
@@ -12676,7 +13343,7 @@ Aerodactyl @ Choice Band
 Ability: Rock Head
 Adamant Nature
 Level: 75
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Thunder Fang
 - Rock Slide
 - Iron Head
@@ -12685,7 +13352,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Kingdra @ Chesto Berry
 Ability: Sniper
 Level: 75
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Ice Beam
 - Rest
 - Dragon Pulse
@@ -12695,7 +13362,7 @@ SPECIES_EXEGGUTOR_ALOLA @ Yache Berry
 Ability: Harvest
 Modest Nature
 Level: 75
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Leaf Storm
 - Draco Meteor
 - Leech Seed
@@ -12705,7 +13372,7 @@ Garchomp @ Muscle Band
 Ability: Rough Skin
 Adamant Nature
 Level: 75
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Outrage
 - Earthquake
 - Swords Dance
@@ -12714,7 +13381,7 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 Altaria @ Life Orb
 Ability: Natural Cure
 Level: 75
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Dragon Dance
 - Dragon Claw
 - Sky Attack
@@ -12961,11 +13628,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Torterra @ Stardust
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Leafeon @ Stardust
 Level: 50
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 === TRAINER_PAINTER_CELINA ===
 Name: CELINA
@@ -12978,7 +13645,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Smeargle
 Level: 50
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Fly
 - Dig
 - Dive
@@ -12995,11 +13662,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Camerupt
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Lopunny
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 === TRAINER_LADY_GILLIAN ===
 Name: GILLIAN
@@ -13013,15 +13680,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Mareep @ Stardust
 Level: 47
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Mareep @ Stardust
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Flaaffy @ Nugget
 Level: 49
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 === TRAINER_PAINTER_RAYNA ===
 Name: RAYNA
@@ -13034,7 +13701,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Smeargle
 Level: 50
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Cross Chop
 - Megahorn
 - Double Edge
@@ -13051,7 +13718,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Smeargle
 Level: 50
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Dynamic Punch
 - Dizzy Punch
 - Focus Punch
@@ -13068,15 +13735,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Poliwhirl
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Tentacool
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Tentacruel
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 === TRAINER_PKMN_BREEDER_ALIZE ===
 Name: ALIZE
@@ -13089,15 +13756,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pikachu
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Clefairy
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Marill
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_49 ===
 Name: GRUNT
@@ -13110,15 +13777,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Drapion
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Swalot
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Weezing
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_50 ===
 Name: GRUNT
@@ -13131,7 +13798,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Koffing
 Level: 49
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Memento
 - Haze
 - Smokescreen
@@ -13139,7 +13806,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Weezing
 Level: 49
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Haze
 - Smokescreen
 - Sludge
@@ -13156,15 +13823,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Weepinbell
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Weepinbell
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 === TRAINER_BIRD_KEEPER_HAROLD ===
 Name: HAROLD
@@ -13177,11 +13844,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Hoothoot
 Level: 47
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Noctowl
 Level: 49
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 === TRAINER_BIRD_KEEPER_CHAZ ===
 Name: CHAZ
@@ -13194,11 +13861,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Taillow
 Level: 47
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Swellow
 Level: 49
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 === TRAINER_BIRD_KEEPER_MILO ===
 Name: MILO
@@ -13211,11 +13878,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pidgey
 Level: 47
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Pidgeotto
 Level: 49
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 === TRAINER_SCIENTIST_GIDEON ===
 Name: GIDEON
@@ -13228,7 +13895,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Voltorb
 Level: 46
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Swift
 - Screech
 - Spark
@@ -13236,7 +13903,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Electrode
 Level: 46
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Spark
 - Sonic Boom
 - Screech
@@ -13244,7 +13911,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Magnemite
 Level: 46
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Screech
 - Swift
 - Spark
@@ -13252,7 +13919,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Magneton
 Level: 46
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Tri Attack
 - Spark
 - Thunder Wave
@@ -13260,7 +13927,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Porygon
 Level: 46
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Tri Attack
 - Conversion
 - Recover
@@ -13277,11 +13944,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Houndour
 Level: 49
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Houndour
 Level: 49
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_47 ===
 Name: GRUNT
@@ -13294,15 +13961,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Machop
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Machop
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Machoke
 Level: 48
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_48 ===
 Name: GRUNT
@@ -13315,11 +13982,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Hypno
 Level: 49
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Hypno
 Level: 49
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 === TRAINER_TEAM_ROCKET_ADMIN ===
 Name: ADMIN
@@ -13333,7 +14000,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Weezing
 Level: 52
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Sludge Bomb
 - Screech
 - Minimize
@@ -13341,7 +14008,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Swalot
 Level: 53
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Sludge Bomb
 - Bite
 - Earthquake
@@ -13349,7 +14016,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Victreebel
 Level: 54
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Sludge Bomb
 - Giga Drain
 - Sleep Powder
@@ -13367,7 +14034,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Golbat
 Level: 53
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Confuse Ray
 - Sludge Bomb
 - Air Cutter
@@ -13375,7 +14042,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Weezing
 Level: 54
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Sludge Bomb
 - Thunderbolt
 - Explosion
@@ -13383,7 +14050,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 
 Houndoom
 Level: 55
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Flamethrower
 - Crunch
 - Iron Tail
@@ -13489,11 +14156,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Tentacruel
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Huntail
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_SWIMMER_MALE_MYMO ===
 Name: MYMO
@@ -13506,11 +14173,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Floatzel
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Wartortle
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_SIS_AND_BRO_AVA_GEB ===
 Name: AVA & GEB
@@ -13523,11 +14190,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Poliwhirl
 Level: 50
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Starmie
 Level: 50
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_SWIMMER_FEMALE_NICOLE ===
 Name: NICOLE
@@ -13540,7 +14207,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Marill
 Level: 50
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_PSYCHIC_JACLYN ===
 Name: JACLYN
@@ -13553,7 +14220,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Natu
 Level: 48
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Night Shade
 - Confuse Ray
 - Future Sight
@@ -13561,7 +14228,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Slowbro
 Level: 48
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Psychic
 - Headbutt
 - Amnesia
@@ -13569,7 +14236,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Kadabra
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Psychic
 - Future Sight
 - Recover
@@ -13586,11 +14253,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Sunkern
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Sunflora
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_TWINS_MIU_MIA ===
 Name: MIU & MIA
@@ -13603,11 +14270,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pikachu
 Level: 50
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Pikachu
 Level: 50
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_SWIMMER_MALE_SAMIR ===
 Name: SAMIR
@@ -13620,7 +14287,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Milotic
 Level: 50
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_SWIMMER_FEMALE_DENISE ===
 Name: DENISE
@@ -13633,11 +14300,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Chinchou
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Lanturn
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_JUGGLER_EDWARD ===
 Name: EDWARD
@@ -13650,7 +14317,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Voltorb
 Level: 46
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Swift
 - Light Screen
 - Spark
@@ -13658,7 +14325,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Voltorb
 Level: 46
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Swift
 - Light Screen
 - Spark
@@ -13666,7 +14333,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Electrode
 Level: 47
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Swift
 - Spark
 - Self Destruct
@@ -13674,7 +14341,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Mr Mime
 Level: 48
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Psychic
 - Role Play
 - Reflect
@@ -13691,11 +14358,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Onix
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Machoke
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_HIKER_DARYL ===
 Name: DARYL
@@ -13708,7 +14375,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Bastiodon
 Level: 50
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_POKEMANIAC_HECTOR ===
 Name: HECTOR
@@ -13721,11 +14388,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Rhyhorn
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Kangaskhan
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_RUIN_MANIAC_STANLY ===
 Name: STANLY
@@ -13738,15 +14405,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Graveler
 Level: 48
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Onix
 Level: 48
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Graveler
 Level: 48
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_RUIN_MANIAC_FOSTER ===
 Name: FOSTER
@@ -13759,7 +14426,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Golem
 Level: 50
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_RUIN_MANIAC_LARRY ===
 Name: LARRY
@@ -13772,11 +14439,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Machoke
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Machoke
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_LASS_DALIA ===
 Name: DALIA
@@ -13789,19 +14456,19 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Meganium
 Level: 46
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Exeggutor
 Level: 47
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Tropius
 Level: 47
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Breloom
 Level: 48
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_CAMPER_RILEY ===
 Name: RILEY
@@ -13814,11 +14481,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Scyther
 Level: 49
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Heracross
 Level: 50
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_PKMN_BREEDER_ALLISON ===
 Name: ALLISON
@@ -13831,15 +14498,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Clefairy
 Level: 48
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Clefairy
 Level: 48
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Clefable
 Level: 48
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_BUG_CATCHER_JONAH ===
 Name: JONAH
@@ -13852,19 +14519,19 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Heracross
 Level: 45
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Scyther
 Level: 45
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Scizor
 Level: 46
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Venomoth
 Level: 47
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_PICNICKER_MARCY ===
 Name: MARCY
@@ -13957,7 +14624,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Exploud
 Level: 49
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 === TRAINER_PKMN_BREEDER_BETHANY ===
 Name: BETHANY
@@ -13970,7 +14637,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Miltank
 Level: 50
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 === TRAINER_BUG_CATCHER_GARRET ===
 Name: GARRET
@@ -13983,7 +14650,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Heracross
 Level: 49
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 === TRAINER_YOUNGSTER_CORDELL ===
 Name: CORDELL
@@ -13996,11 +14663,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Noctowl
 Level: 48
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Noctowl
 Level: 48
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 === TRAINER_PSYCHIC_RODETTE ===
 Name: RODETTE
@@ -14013,7 +14680,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Natu
 Level: 48
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Night Shade
 - Confuse Ray
 - Wish
@@ -14021,7 +14688,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Drowzee
 Level: 48
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Psychic
 - Disable
 - Psych Up
@@ -14029,7 +14696,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Hypno
 Level: 50
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Psychic
 - Hypnosis
 - Psych Up
@@ -14046,7 +14713,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Girafarig
 Level: 52
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Crunch
 - Psybeam
 - Odor Sleuth
@@ -14063,11 +14730,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Roserade
 Level: 50
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Roserade
 Level: 50
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 === TRAINER_JUGGLER_MASON ===
 Name: MASON
@@ -14080,7 +14747,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Voltorb
 Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Swift
 - Light Screen
 - Spark
@@ -14088,7 +14755,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Pineco
 Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Spikes
 - Bide
 - Rapid Spin
@@ -14096,7 +14763,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Voltorb
 Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Swift
 - Light Screen
 - Spark
@@ -14104,7 +14771,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Pineco
 Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Spikes
 - Bide
 - Rapid Spin
@@ -14122,7 +14789,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Weepinbell
 Level: 51
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Petal Dance
 - Acid
 - Sweet Scent
@@ -14130,7 +14797,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Victreebel
 Level: 51
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Petal Dance
 - Moonlight
 - Acid
@@ -14148,7 +14815,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Weepinbell
 Level: 51
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Razor Leaf
 - Acid
 - Sweet Scent
@@ -14156,7 +14823,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Victreebel
 Level: 51
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Razor Leaf
 - Acid
 - Sleep Powder
@@ -14173,11 +14840,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Golduck
 Level: 50
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Psyduck
 Level: 50
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 === TRAINER_COOL_COUPLE_LEX_NYA ===
 Name: LEX & NYA
@@ -14191,7 +14858,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Miltank
 Level: 52
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Body Slam
 - Milk Drink
 - Growl
@@ -14199,7 +14866,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Mightyena
 Level: 52
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Thrash
 - Horn Attack
 - Pursuit
@@ -14216,15 +14883,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Sandslash
 Level: 48
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Kangaskhan
 Level: 48
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Donphan
 Level: 49
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 === TRAINER_PKMN_RANGER_JACKSON ===
 Name: JACKSON
@@ -14238,7 +14905,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Tangela
 Level: 49
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Slam
 - Mega Drain
 - Bind
@@ -14246,7 +14913,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Exeggcute
 Level: 49
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Confusion
 - Poison Powder
 - Barrage
@@ -14254,7 +14921,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Exeggutor
 Level: 49
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Confusion
 - Egg Bomb
 - Sleep Powder
@@ -14272,7 +14939,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Miltank
 Level: 52
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Egg Bomb
 - Defense Curl
 - Minimize
@@ -14289,15 +14956,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Primeape @ Black Belt
 Level: 48
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Heracross @ Black Belt
 Level: 48
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Machoke @ Black Belt
 Level: 48
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 === TRAINER_COOLTRAINER_LEROY ===
 Name: LEROY
@@ -14311,7 +14978,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Rhydon
 Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Take Down
 - Horn Drill
 - Rock Blast
@@ -14319,7 +14986,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Slowbro
 Level: 48
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Psychic
 - Headbutt
 - Amnesia
@@ -14327,7 +14994,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Kangaskhan
 Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Dizzy Punch
 - Bite
 - Endure
@@ -14335,7 +15002,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Machoke
 Level: 48
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Cross Chop
 - Vital Throw
 - Revenge
@@ -14343,7 +15010,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Flygon
 Level: 50
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Dragon Claw
 - Crunch
 - Screech
@@ -14361,7 +15028,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Linoone
 Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Slash
 - Screech
 - Faint Attack
@@ -14369,7 +15036,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Sealeo
 Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Ice Beam
 - Take Down
 - Icy Wind
@@ -14377,7 +15044,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Ninetales
 Level: 48
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Flamethrower
 - Confuse Ray
 - Will O Wisp
@@ -14385,7 +15052,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Arcanine
 Level: 48
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Bounce
 - Agility
 - Fire Spin
@@ -14393,7 +15060,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Girafarig
 Level: 50
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Crunch
 - Psybeam
 - Stomp
@@ -14410,7 +15077,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Onix
 Level: 50
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 === TRAINER_GENTLEMAN_CLIFFORD ===
 Name: CLIFFORD
@@ -14423,11 +15090,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Marowak
 Level: 49
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Golduck
 Level: 49
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 === TRAINER_PAINTER_EDNA ===
 Name: EDNA
@@ -14594,7 +15261,7 @@ Mugshot: Pink
 
 Gengar
 Level: 66
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Shadow Ball
 - Psychic
 - Confuse Ray
@@ -14602,7 +15269,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Crobat
 Level: 66
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Sludge Bomb
 - Air Cutter
 - Shadow Ball
@@ -14610,7 +15277,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Misdreavus
 Level: 65
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Shadow Ball
 - Psychic
 - Thunderbolt
@@ -14618,7 +15285,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Swalot
 Level: 68
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Sludge Bomb
 - Earthquake
 - Giga Drain
@@ -14626,7 +15293,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Gengar @ Chesto Berry
 Level: 70
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Shadow Ball
 - Psychic
 - Thunderbolt
@@ -14645,7 +15312,7 @@ Mugshot: Blue
 
 Milotic
 Level: 68
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Hyper Beam
 - Dragon Dance
 - Earthquake
@@ -14653,7 +15320,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Dragonite
 Level: 66
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Hyper Beam
 - Earthquake
 - Dragon Claw
@@ -14661,7 +15328,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Kingdra
 Level: 66
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Hyper Beam
 - Dragon Dance
 - Surf
@@ -14669,7 +15336,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Aerodactyl
 Level: 70
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Hyper Beam
 - Ancient Power
 - Aerial Ace
@@ -14677,7 +15344,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Dragonite @ Persim Berry
 Level: 72
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Hyper Beam
 - Outrage
 - Thunderbolt
@@ -14698,7 +15365,7 @@ Kingdra @ Life Orb
 Ability: Swift Swim
 Modest Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Surf
 - Draco Meteor
 - Ice Beam
@@ -14708,7 +15375,7 @@ Ludicolo @ Leftovers
 Ability: Swift Swim
 Calm Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Surf
 - Giga Drain
 - Ice Beam
@@ -14718,7 +15385,7 @@ Jirachi @ Damp Rock
 Ability: Serene Grace
 Timid Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Rain Dance
 - Thunder
 - Water Pulse
@@ -14728,7 +15395,7 @@ Swampert @ Lum Berry
 Ability: Torrent
 Relaxed Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Stealth Rock
 - Earthquake
 - Ice Beam
@@ -14738,7 +15405,7 @@ Kabutops @ Choice Band
 Ability: Swift Swim
 Adamant Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Waterfall
 - Stone Edge
 - Aqua Jet
@@ -14748,7 +15415,7 @@ Zapdos @ Choice Scarf
 Ability: Pressure
 Timid Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Thunder
 - Drill Peck
 - U-turn
@@ -14769,7 +15436,7 @@ Tyranitar @ Leftovers
 Ability: Sand Stream
 Adamant Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Stone Edge
 - Crunch
 - Thunderbolt
@@ -14779,7 +15446,7 @@ Hippowdon @ Smooth Rock
 Ability: Sand Stream
 Impish Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Earthquake
 - Slack Off
 - Roar
@@ -14789,7 +15456,7 @@ Garchomp @ Yache Berry
 Ability: Sand Veil
 Jolly Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Swords Dance
 - Earthquake
 - Dragon Claw
@@ -14799,7 +15466,7 @@ Lucario @ Life Orb
 Ability: Inner Focus
 Timid Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Aura Sphere
 - Shadow Ball
 - Extreme Speed
@@ -14809,7 +15476,7 @@ Swampert @ Leftovers
 Ability: Torrent
 Relaxed Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Earthquake
 - Ice Beam
 - Surf
@@ -14819,7 +15486,7 @@ Skarmory @ Shed Shell
 Ability: Keen Eye 
 Impish Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Roost
 - Spikes
 - Whirlwind
@@ -14840,7 +15507,7 @@ Ninetales @ Charcoal
 Ability: Drought
 Timid Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Flamethrower
 - Confuse Ray
 - Solar Beam
@@ -14850,7 +15517,7 @@ Venusaur @ Life Orb
 Ability: Chlorophyll
 Modest Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Solar Beam
 - Sludge Bomb
 - Earthquake
@@ -14860,7 +15527,7 @@ Flygon @ Focus Sash
 Ability: Levitate
 Jolly Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Earthquake
 - Stone Edge
 - Draco Meteor
@@ -14870,7 +15537,7 @@ Exeggutor @ Choice Specs
 Ability: Chlorophyll
 Modest Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Solar Beam
 - Psychic
 - Leech Seed
@@ -14880,7 +15547,7 @@ Arcanine @ Choice Band
 Ability: Intimidate
 Adamant Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Flare Blitz
 - Extreme Speed
 - Thunder Fang
@@ -14890,7 +15557,7 @@ Raikou @ Choice Scarf
 Ability: Pressure
 Timid Nature
 Level: 100
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Thunderbolt
 - Extreme Speed
 - Shadow Ball
@@ -14907,7 +15574,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 === TRAINER_AQUA_ADMIN_SHELLY ===
 Name: SHELLY
@@ -14920,7 +15587,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 === TRAINER_AQUA_GRUNT_F ===
 Name: Sun Team
@@ -14935,7 +15602,7 @@ Ninetales @ Charcoal
 Ability: Drought
 Timid Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Flamethrower
 - Confuse Ray
 - Solar Beam
@@ -14945,7 +15612,7 @@ Venusaur @ Life Orb
 Ability: Chlorophyll
 Modest Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Solar Beam
 - Sludge Bomb
 - Earthquake
@@ -14955,7 +15622,7 @@ Sandslash @ Focus Sash
 Ability: Arena Trap
 Jolly Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Earthquake
 - Stone Edge
 - Aerial Ace
@@ -14965,7 +15632,7 @@ Exeggutor @ Choice Specs
 Ability: Chlorophyll
 Modest Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Solar Beam
 - Psychic
 - Leech Seed
@@ -14975,7 +15642,7 @@ Arcanine @ Choice Band
 Ability: Intimidate
 Adamant Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Flare Blitz
 - Extreme Speed
 - Thunder Fang
@@ -14985,7 +15652,7 @@ Raikou @ Choice Scarf
 Ability: Pressure
 Timid Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Thunderbolt
 - Extreme Speed
 - Shadow Ball
@@ -15004,7 +15671,7 @@ Kingdra @ Life Orb
 Ability: Swift Swim
 Modest Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Surf
 - Draco Meteor
 - Ice Beam
@@ -15014,7 +15681,7 @@ Ludicolo @ Leftovers
 Ability: Swift Swim
 Calm Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Surf
 - Giga Drain
 - Ice Beam
@@ -15024,7 +15691,7 @@ Jirachi @ Damp Rock
 Ability: Serene Grace
 Timid Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Rain Dance
 - Thunder
 - Water Pulse
@@ -15034,7 +15701,7 @@ Swampert @ Lum Berry
 Ability: Torrent
 Relaxed Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Stealth Rock
 - Earthquake
 - Ice Beam
@@ -15044,7 +15711,7 @@ Kabutops @ Choice Band
 Ability: Swift Swim
 Adamant Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Waterfall
 - Stone Edge
 - Aqua Jet
@@ -15054,7 +15721,7 @@ Zapdos @ Choice Scarf
 Ability: Pressure
 Timid Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Thunder
 - Drill Peck
 - U-turn
@@ -15073,7 +15740,7 @@ Tyranitar @ Leftovers
 Ability: Sand Stream
 Adamant Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Stone Edge
 - Crunch
 - Thunderbolt
@@ -15083,7 +15750,7 @@ Hippowdon @ Smooth Rock
 Ability: Sand Stream
 Impish Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Earthquake
 - Slack Off
 - Roar
@@ -15093,7 +15760,7 @@ Garchomp @ Yache Berry
 Ability: Sand Veil
 Jolly Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Swords Dance
 - Earthquake
 - Dragon Claw
@@ -15103,7 +15770,7 @@ Lucario @ Life Orb
 Ability: Inner Focus
 Timid Nature
 Level: 63
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Aura Sphere
 - Shadow Ball
 - Extreme Speed
@@ -15112,7 +15779,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 Swampert @ Leftovers
 Ability: Torrent
 Relaxed Nature
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Earthquake
 - Ice Beam
 - Surf
@@ -15121,7 +15788,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 Skarmory @ Shed Shell
 Ability: Keen Eye 
 Impish Nature
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Roost
 - Spikes
 - Whirlwind
@@ -15138,7 +15805,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 === TRAINER_BEAUTY_GRACE_2 ===
 Name: GRACE
@@ -15151,11 +15818,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeot
 Level: 49
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Clefable
 Level: 49
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 === TRAINER_BEAUTY_LAUREN ===
 Name: LAUREN
@@ -15168,15 +15835,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Weepinbell
 Level: 33
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Bellsprout
 Level: 33
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Weepinbell
 Level: 33
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 === TRAINER_BEAUTY_SHEILA_2 ===
 Name: SHEILA
@@ -15189,11 +15856,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Clefairy
 Level: 49
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Linoone
 Level: 49
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 === TRAINER_BIKER_1 ===
 Name: PH
@@ -15206,7 +15873,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 === TRAINER_BIKER_2 ===
 Name: PH
@@ -15219,7 +15886,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 === TRAINER_BIKER_JAREN_2 ===
 Name: JAREN
@@ -15232,11 +15899,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Weezing
 Level: 28
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Weezing
 Level: 30
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 === TRAINER_BIKER_JAXON_2 ===
 Name: JAXON
@@ -15249,11 +15916,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Weezing
 Level: 49
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Weezing
 Level: 49
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 === TRAINER_BIKER_LUKAS_2 ===
 Name: LUKAS
@@ -15266,19 +15933,19 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Koffing
 Level: 47
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Koffing
 Level: 47
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Weezing
 Level: 47
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Weezing
 Level: 47
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 === TRAINER_BIKER_RUBEN_2 ===
 Name: RUBEN
@@ -15291,15 +15958,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Weezing
 Level: 48
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Weezing
 Level: 48
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Weezing
 Level: 48
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 === TRAINER_BIRD_KEEPER_BENNY_2 ===
 Name: BENNY
@@ -15384,15 +16051,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Dodrio
 Level: 48
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Dodrio
 Level: 48
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Dodrio
 Level: 48
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BIRD_KEEPER_HAROLD_2 ===
 Name: HAROLD
@@ -15405,11 +16072,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Noctowl
 Level: 53
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Noctowl
 Level: 55
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BIRD_KEEPER_JACOB_2 ===
 Name: JACOB
@@ -15422,19 +16089,19 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Swellow
 Level: 28
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Taillow
 Level: 28
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Swellow
 Level: 28
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Taillow
 Level: 28
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BIRD_KEEPER_JACOB_3 ===
 Name: JACOB
@@ -15447,19 +16114,19 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Swellow
 Level: 47
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Swellow
 Level: 47
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Swellow
 Level: 47
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Swellow
 Level: 47
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BIRD_KEEPER_KEITH ===
 Name: KEITH
@@ -15472,11 +16139,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Noctowl
 Level: 39
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Swellow
 Level: 39
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BIRD_KEEPER_MARLON_2 ===
 Name: MARLON
@@ -15489,15 +16156,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Swellow
 Level: 30
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Doduo
 Level: 30
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Swellow
 Level: 30
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BIRD_KEEPER_MARLON_3 ===
 Name: MARLON
@@ -15510,15 +16177,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Swellow
 Level: 48
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Dodrio
 Level: 48
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Swellow
 Level: 48
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BIRD_KEEPER_MILO_2 ===
 Name: MILO
@@ -15531,11 +16198,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
 Level: 53
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Pidgeot
 Level: 55
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BIRD_KEEPER_REED ===
 Name: REED
@@ -15548,19 +16215,19 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
 Level: 39
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Pidgeotto
 Level: 39
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Pidgey
 Level: 39
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Pidgeotto
 Level: 39
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BIRD_KEEPER_ROBERT_2 ===
 Name: ROBERT
@@ -15573,19 +16240,19 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
 Level: 28
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Pidgeotto
 Level: 28
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Swellow
 Level: 28
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Swellow
 Level: 28
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BIRD_KEEPER_ROBERT_3 ===
 Name: ROBERT
@@ -15598,36 +16265,19 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeot
 Level: 47
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Pidgeot
 Level: 47
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Swellow
 Level: 47
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Swellow
 Level: 47
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-
-=== TRAINER_BLACK_BELT_ATSUSHI ===
-Name: ATSUSHI
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Machop @ Black Belt
-Level: 40
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-
-Machoke @ Black Belt
-Level: 40
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BLACK_BELT_HUGH_2 ===
 Name: HUGH
@@ -15640,11 +16290,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Machoke @ Black Belt
 Level: 50
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Machoke @ Black Belt
 Level: 50
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BLACK_BELT_HUGH_3 ===
 Name: HUGH
@@ -15657,24 +16307,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Machoke @ Black Belt
 Level: 55
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Machamp @ Black Belt
 Level: 55
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-
-=== TRAINER_BLACK_BELT_KIYO ===
-Name: KIYO
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Machoke @ Black Belt
-Level: 43
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BLACK_BELT_SHEA_2 ===
 Name: SHEA
@@ -15687,11 +16324,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Machoke @ Black Belt
 Level: 50
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Machoke @ Black Belt
 Level: 50
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BLACK_BELT_SHEA_3 ===
 Name: SHEA
@@ -15704,32 +16341,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Machoke @ Black Belt
 Level: 55
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 Machamp @ Black Belt
 Level: 55
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-
-=== TRAINER_BLACK_BELT_TAKASHI ===
-Name: TAKASHI
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Machoke @ Black Belt
-Level: 38
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-
-Machop @ Black Belt
-Level: 38
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-
-Machoke @ Black Belt
-Level: 38
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BOARDER_F ===
 Name: PH
@@ -15742,7 +16358,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BOARDER_M ===
 Name: PH
@@ -15755,7 +16371,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 
 === TRAINER_BRENDAN ===
 Name: PH
@@ -15867,7 +16483,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 === TRAINER_BUG_CATCHER_7 ===
 Name: PH
@@ -15880,7 +16496,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 === TRAINER_BUG_CATCHER_8 ===
 Name: PH
@@ -15893,7 +16509,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 === TRAINER_BUG_CATCHER_COLTON_2 ===
 Name: COLTON
@@ -15906,15 +16522,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Metapod
 Level: 19
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Paras
 Level: 19
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Metapod
 Level: 19
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 === TRAINER_BUG_CATCHER_COLTON_3 ===
 Name: COLTON
@@ -15927,15 +16543,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Butterfree
 Level: 27
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Metapod
 Level: 27
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Butterfree
 Level: 27
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 === TRAINER_BUG_CATCHER_COLTON_4 ===
 Name: COLTON
@@ -15948,15 +16564,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Butterfree
 Level: 51
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Kleavor
 Level: 54
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Nincada
 Level: 51
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 === TRAINER_BUG_MANIAC ===
 Name: PH
@@ -15969,7 +16585,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 === TRAINER_BURGLAR_1 ===
 Name: PH
@@ -15982,11 +16598,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
 Level: 29
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Vulpix
 Level: 29
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 === TRAINER_BURGLAR_2 ===
 Name: PH
@@ -15999,7 +16615,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
 Level: 33
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 === TRAINER_BURGLAR_3 ===
 Name: PH
@@ -16012,15 +16628,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Vulpix
 Level: 28
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Charmander
 Level: 28
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Growlithe
 Level: 28
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 === TRAINER_BURGLAR_4 ===
 Name: PH
@@ -16033,62 +16649,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Charmander
 Level: 34
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Charmeleon
 Level: 34
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-
-=== TRAINER_BURGLAR_DUSTY ===
-Name: DUSTY
-Class: Burglar
-Pic: Burglar
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Vulpix
-Level: 37
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-
-Growlithe
-Level: 37
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-
-=== TRAINER_BURGLAR_QUINN ===
-Name: QUINN
-Class: Burglar
-Pic: Burglar
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Growlithe
-Level: 36
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-
-Vulpix
-Level: 36
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-
-Ninetales
-Level: 36
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-
-=== TRAINER_BURGLAR_RAMON ===
-Name: RAMON
-Class: Burglar
-Pic: Burglar
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Growlithe
-Level: 41
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 === TRAINER_CAMPER_2 ===
 Name: PH
@@ -16101,7 +16666,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 === TRAINER_CAMPER_CHRIS_2 ===
 Name: CHRIS
@@ -16114,11 +16679,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
 Level: 24
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Charmander
 Level: 24
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 === TRAINER_CAMPER_CHRIS_3 ===
 Name: CHRIS
@@ -16131,11 +16696,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
 Level: 29
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Charmeleon
 Level: 29
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
+IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 === TRAINER_CAMPER_CHRIS_4 ===
 Name: CHRIS
@@ -16337,7 +16902,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
 Level: 22
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 
 === TRAINER_CHANNELER_4 ===
 Name: PH
@@ -16350,7 +16915,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
 Level: 24
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 
 === TRAINER_CHANNELER_5 ===
 Name: PH
@@ -16363,7 +16928,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Haunter
 Level: 22
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 
 === TRAINER_CHANNELER_6 ===
 Name: PH
@@ -16376,15 +16941,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
 Level: 22
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 
 Gastly
 Level: 22
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 
 Gastly
 Level: 22
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 
 === TRAINER_CHANNELER_7 ===
 Name: PH
@@ -16397,7 +16962,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
 Level: 24
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 
 === TRAINER_CHANNELER_8 ===
 Name: PH
@@ -16410,7 +16975,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
 Level: 24
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 
 === TRAINER_CINNABAR_MANSION_GUARDIAN ===
 Name: GRUNT
@@ -16425,7 +16990,7 @@ Skarmory
 Ability: Keen Eye
 Impish Nature
 Level: 58
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Roar
 - Stealth Rock
 - Drill Peck
@@ -16435,7 +17000,7 @@ SPECIES_MAROWAK_ALOLA @ Thick Club
 Ability: Rock Head
 Relaxed Nature
 Level: 58
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Bonemerang
 - Hex
 - Flame Wheel
@@ -16445,7 +17010,7 @@ Sneasler @ Liechi Berry
 Ability: Unburden
 Jolly Nature
 Level: 58
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Night Slash
 - Poison Jab
 - Brick Break
@@ -16455,7 +17020,7 @@ Electivire
 Ability: Motor Drive
 Rash Nature
 Level: 58
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Ice Punch
 - Thunderbolt
 - Light Screen
@@ -16465,7 +17030,7 @@ Victreebel @ Salac Berry
 Ability: Gluttony
 Impish Nature
 Level: 58
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Sludge Bomb
 - Energy Ball
 - Sleep Powder
@@ -16475,7 +17040,7 @@ Feraligatr
 Ability: Sheer Force
 Adamant Nature
 Level: 58
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Waterfall
 - Crunch
 - Dragon Dance
@@ -16492,7 +17057,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 
 === TRAINER_COOLTRAINER_AUSTINA ===
 Name: AUSTINA
@@ -16506,7 +17071,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Rhyhorn
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Horn Drill
 - Rock Blast
 - Scary Face
@@ -16514,7 +17079,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Nidorina
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Double Kick
 - Fury Swipes
 - Bite
@@ -16522,7 +17087,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Nidoqueen
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Body Slam
 - Double Kick
 - Bite
@@ -16530,7 +17095,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Nidorino
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Horn Attack
 - Poison Sting
 - Focus Energy
@@ -16538,7 +17103,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Nidoking
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Thrash
 - Double Kick
 - Poison Sting
@@ -16556,7 +17121,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Spheal
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Take Down
 - Aurora Beam
 - Icy Wind
@@ -16564,7 +17129,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Graveler
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Rock Blast
 - Magnitude
 - Rock Throw
@@ -16572,7 +17137,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Floatzel
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Guillotine
 - Stomp
 - Mud Shot
@@ -16580,7 +17145,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Onix
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Slam
 - Sandstorm
 - Dragon Breath
@@ -16588,7 +17153,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Cloyster
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Spike Cannon
 - Aurora Beam
 - Supersonic
@@ -16606,7 +17171,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Tangela
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Slam
 - Bind
 - Mega Drain
@@ -16614,7 +17179,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Weepinbell
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Acid
 - Moonlight
 - Sleep Powder
@@ -16622,7 +17187,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Victreebel
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Mega Drain
 - Acid
 - Stun Spore
@@ -16630,7 +17195,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Ivysaur
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Razor Leaf
 - Sweet Scent
 - Growl
@@ -16638,7 +17203,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Venusaur
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Razor Leaf
 - Growth
 - Sleep Powder
@@ -16656,7 +17221,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgeotto
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Wing Attack
 - Feather Dance
 - Whirlwind
@@ -16664,7 +17229,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Swellow
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Drill Peck
 - Mirror Move
 - Pursuit
@@ -16672,7 +17237,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Linoone
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Pay Day
 - Faint Attack
 - Screech
@@ -16680,7 +17245,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Kangaskhan
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Slam
 - Disable
 - Wrap
@@ -16688,7 +17253,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Mightyena
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Horn Attack
 - Scary Face
 - Swagger
@@ -16706,7 +17271,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Linoone
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Fury Swipes
 - Bite
 - Screech
@@ -16714,7 +17279,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Ninetales
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Flamethrower
 - Will O Wisp
 - Confuse Ray
@@ -16722,7 +17287,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Arcanine
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Fury Attack
 - Fire Spin
 - Take Down
@@ -16730,7 +17295,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Pikachu
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Thunderbolt
 - Thunder Wave
 - Double Team
@@ -16738,7 +17303,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Raichu
 Level: 42
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Thunder
 - Thunder Wave
 - Slam
@@ -16756,7 +17321,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Rhydon
 Level: 52
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Earthquake
 - Horn Drill
 - Rock Blast
@@ -16764,7 +17329,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Slowbro
 Level: 54
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Psychic
 - Headbutt
 - Amnesia
@@ -16772,7 +17337,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Kangaskhan
 Level: 52
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Dizzy Punch
 - Bite
 - Endure
@@ -16780,7 +17345,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Machamp
 Level: 52
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Cross Chop
 - Vital Throw
 - Revenge
@@ -16788,7 +17353,7 @@ IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
 
 Garchomp
 Level: 55
-IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Dragon Rush
 - Crunch
 - Earthquake
@@ -16945,56 +17510,6 @@ IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Screech
 - Disable
 
-=== TRAINER_COOLTRAINER_SAMUEL ===
-Name: SAMUEL
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Items: Super Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Sandslash
-Level: 37
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Slash
-- Swift
-- Sand Attack
-- Poison Sting
-
-Sandslash
-Level: 37
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Slash
-- Swift
-- Sand Attack
-- Poison Sting
-
-Rhyhorn
-Level: 38
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Take Down
-- Rock Blast
-- Fury Attack
-- Scary Face
-
-Nidorino
-Level: 39
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Fury Attack
-- Horn Attack
-- Poison Sting
-- Double Kick
-
-Nidoking
-Level: 39
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Thrash
-- Double Kick
-- Poison Sting
-- Focus Energy
-
 === TRAINER_COOLTRAINER_SHANNON ===
 Name: SHANNON
 Class: Cooltrainer
@@ -17045,106 +17560,6 @@ IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Gust
 - Supersonic
 - Leech Life
-
-=== TRAINER_COOLTRAINER_WARREN ===
-Name: WARREN
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Items: Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Marowak
-Level: 37
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Bonemerang
-- Headbutt
-- Leer
-- Growl
-
-Marowak
-Level: 37
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Bonemerang
-- Headbutt
-- Leer
-- Growl
-
-Rhyhorn
-Level: 38
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Take Down
-- Rock Blast
-- Fury Attack
-- Scary Face
-
-Nidorina
-Level: 39
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Fury Swipes
-- Bite
-- Poison Sting
-- Double Kick
-
-Nidoqueen
-Level: 39
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Body Slam
-- Bite
-- Poison Sting
-- Double Kick
-
-=== TRAINER_COOLTRAINER_YUJI ===
-Name: YUJI
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Items: Hyper Potion
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Sandslash
-Level: 38
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Slash
-- Swift
-- Sand Attack
-- Poison Sting
-
-Graveler
-Level: 38
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Rock Blast
-- Magnitude
-- Mud Sport
-- Defense Curl
-
-Onix
-Level: 38
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Dragon Breath
-- Sandstorm
-- Rock Throw
-- Bind
-
-Graveler
-Level: 38
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Rock Blast
-- Magnitude
-- Rollout
-- Defense Curl
-
-Marowak
-Level: 38
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
-- Bonemerang
-- Headbutt
-- Leer
-- Growl
 
 === TRAINER_COOL_COUPLE_LEX_NYA_2 ===
 Name: LEX & NYA
@@ -17272,11 +17687,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Machoke @ Black Belt
 Level: 51
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Primeape @ Black Belt
 Level: 51
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CRUSH_KIN_MIK_KIA_3 ===
 Name: MIK & KIA
@@ -17289,11 +17704,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Machamp @ Black Belt
 Level: 56
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Primeape @ Black Belt
 Level: 56
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CRUSH_KIN_RON_MYA_2 ===
 Name: RON & MYA
@@ -17306,11 +17721,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Hariyama @ Black Belt
 Level: 33
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Medicham @ Black Belt
 Level: 33
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CRUSH_KIN_RON_MYA_3 ===
 Name: RON & MYA
@@ -17323,11 +17738,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Hariyama @ Black Belt
 Level: 51
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Medicham @ Black Belt
 Level: 51
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CRUSH_KIN_RON_MYA_4 ===
 Name: RON & MYA
@@ -17340,11 +17755,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Hariyama @ Black Belt
 Level: 56
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Medicham @ Black Belt
 Level: 56
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CUE_BALL_CAMRON_2 ===
 Name: CAMRON
@@ -17357,11 +17772,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Primeape
 Level: 49
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Machoke
 Level: 49
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CUE_BALL_CHASE ===
 Name: CHASE
@@ -17374,15 +17789,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Tentacool
 Level: 31
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Tentacool
 Level: 31
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Tentacruel
 Level: 31
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CUE_BALL_COREY_2 ===
 Name: COREY
@@ -17395,11 +17810,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Primeape
 Level: 49
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Machamp
 Level: 49
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CUE_BALL_ISAIAH_2 ===
 Name: ISAIAH
@@ -17412,11 +17827,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Machoke
 Level: 49
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Machamp
 Level: 49
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CYCLING_TRIATHLETE_F ===
 Name: PH
@@ -17429,7 +17844,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_CYCLING_TRIATHLETE_M ===
 Name: PH
@@ -17442,7 +17857,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_DRAGON_TAMER ===
 Name: PH
@@ -17672,7 +18087,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Linoone
 Level: 48
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_GENTLEMAN_WALTER ===
 Name: WALTER
@@ -17685,11 +18100,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
 Level: 17
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Growlithe
 Level: 17
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_GUITARIST ===
 Name: PH
@@ -17702,7 +18117,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_HEX_MANIAC ===
 Name: PH
@@ -17715,7 +18130,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_HIKER_EARL_2 ===
 Name: EARL
@@ -17728,11 +18143,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Onix
 Level: 54
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Machamp
 Level: 54
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_HIKER_FRANKLIN_2 ===
 Name: FRANKLIN
@@ -17745,11 +18160,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Machoke
 Level: 25
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Graveler
 Level: 25
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_HIKER_JEREMY_2 ===
 Name: JEREMY
@@ -17762,11 +18177,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Machoke
 Level: 30
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Onix
 Level: 28
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_HIKER_TRENT_2 ===
 Name: TRENT
@@ -17779,11 +18194,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Onix
 Level: 31
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Graveler
 Level: 31
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_JUGGLER_MASON_2 ===
 Name: MASON
@@ -17796,19 +18211,19 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Electrode
 Level: 52
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Pineco
 Level: 52
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Electrode
 Level: 52
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Pineco
 Level: 52
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_KINDLER ===
 Name: PH
@@ -17821,7 +18236,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_LASS_2 ===
 Name: PH
@@ -17834,11 +18249,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Nidoran M
 Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Nidoran F
 Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_LASS_CRISSY ===
 Name: CRISSY
@@ -17987,66 +18402,6 @@ Nidorina
 Level: 28
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
-=== TRAINER_LEADER_BLAINE ===
-Name: BLAINE
-Class: Leader
-Pic: Leader Blaine
-Gender: Male
-Music: Male
-Items: Full Heal / X Sp Atk
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
-
-Ninetales @ Wide Lens
-Ability: Drought
-Timid Nature
-Level: 58
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Fire Blast
-- Will-O-Wisp
-- Confuse Ray
-- Shadow Ball
-
-Houndoom @ Meadow Plate
-Ability: Early Bird
-Modest Nature
-Level: 58
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Fire Blast
-- Solar Beam
-- Nasty Plot
-- Torment
-
-Camerupt @ Passho Berry
-Ability: Solid Rock
-Gentle Nature
-Level: 58
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Yawn
-- Earthquake
-- Rock Slide
-- Fire Blast
-
-Torkoal @ White Herb
-Ability: White Smoke
-Sassy Nature
-Level: 58
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Curse
-- Body Slam
-- Superpower
-- Fire Blast
-
-Arcanine @ Liechi Berry
-Ability: Intimidate
-Jolly Nature
-Level: 59
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Extreme Speed
-- Close Combat
-- Crunch
-- Flare Blitz
-
 === TRAINER_LEADER_BRAWLY ===
 Name: BRAWLY
 Class: RS Leader
@@ -18072,66 +18427,6 @@ AI: AI_FLAG_BASIC_TRAINER
 Gulpin
 Level: 5
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-
-=== TRAINER_LEADER_GIOVANNI ===
-Name: GIOVANNI
-Class: Leader
-Pic: Leader Giovanni
-Gender: Male
-Music: Aqua
-Items: Guard Spec / Full Heal
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
-
-Hippowdon @ Muscle Band
-Ability: Sand Stream
-Adamant Nature
-Level: 61
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Ice Fang
-- Thunder Fang
-- Crunch
-- Earthquake
-
-Gliscor @ Toxic Orb
-Ability: Poison Heal
-Jolly Nature
-Level: 61
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Swords Dance
-- Fire Fang
-- Aerial Ace
-- Earthquake
-
-Swampert @ Rindo Berry
-Ability: Oblivious
-Sassy Nature
-Level: 61
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Muddy Water
-- Ice Beam
-- Earthquake
-- Rock Climb
-
-Nidoking @ Choice Scarf
-Ability: Sheer Force
-Docile Nature
-Level: 61
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Thunder
-- Megahorn
-- Sludge Bomb
-- Earthquake
-
-Rhyperior @ Lansat Berry
-Ability: Reckless
-Careful Nature
-Level: 62
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Double Edge
-- Rock Wrecker
-- Counter
-- Earthquake
 
 === TRAINER_LEADER_NORMAN ===
 Name: NORMAN
@@ -18196,7 +18491,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
 === TRAINER_LEADER_WINONA ===
 Name: WINONA
@@ -18209,7 +18504,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
 === TRAINER_MAGMA_ADMIN_COURTNEY ===
 Name: COURTNEY
@@ -18222,7 +18517,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
 === TRAINER_MAGMA_ADMIN_TABITHA ===
 Name: TABITHA
@@ -18235,7 +18530,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
 === TRAINER_MAGMA_GRUNT_M ===
 Name: PH
@@ -18248,7 +18543,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
 === TRAINER_MAGMA_LEADER ===
 Name: PH
@@ -18261,7 +18556,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
 === TRAINER_MAMGA_GRUNT_F ===
 Name: PH
@@ -18274,7 +18569,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
 === TRAINER_MAY ===
 Name: PH
@@ -18287,7 +18582,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
 === TRAINER_MAY_2 ===
 Name: PH
@@ -18300,7 +18595,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
 === TRAINER_MAY_3 ===
 Name: PH
@@ -18568,11 +18863,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Nidorino
 Level: 29
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Nidorina
 Level: 29
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 === TRAINER_PICNICKER_KELSEY_4 ===
 Name: KELSEY
@@ -18585,11 +18880,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Nidorino
 Level: 49
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Nidorina
 Level: 49
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 === TRAINER_PICNICKER_MISSY_2 ===
 Name: MISSY
@@ -18602,11 +18897,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Crawdaunt
 Level: 49
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Crawdaunt
 Level: 49
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 === TRAINER_PICNICKER_MISSY_3 ===
 Name: MISSY
@@ -18619,11 +18914,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Crawdaunt
 Level: 54
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Crawdaunt
 Level: 54
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 === TRAINER_PICNICKER_SUSIE_2 ===
 Name: SUSIE
@@ -18636,23 +18931,23 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
 Level: 27
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Zigzagoon
 Level: 27
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Scyther
 Level: 27
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Pikachu
 Level: 27
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Nidorina
 Level: 27
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 === TRAINER_PICNICKER_SUSIE_3 ===
 Name: SUSIE
@@ -18665,23 +18960,23 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
 Level: 47
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Linoone
 Level: 47
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Scyther
 Level: 47
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Pikachu
 Level: 47
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Nidoqueen
 Level: 47
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 === TRAINER_PICNICKER_SUSIE_4 ===
 Name: SUSIE
@@ -18694,23 +18989,23 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeot
 Level: 52
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Linoone
 Level: 52
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Scizor
 Level: 52
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Raichu
 Level: 52
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Nidoqueen
 Level: 52
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 === TRAINER_PKMN_BREEDER_ALIZE_2 ===
 Name: ALIZE
@@ -18723,15 +19018,15 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pikachu
 Level: 53
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Clefairy
 Level: 53
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Marill
 Level: 53
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 === TRAINER_PKMN_PROF_PROF_OAK ===
 Name: PROF. OAK
@@ -18744,7 +19039,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 === TRAINER_PKMN_RANGER_JACKSON_2 ===
 Name: JACKSON
@@ -19024,11 +19319,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Rhydon
 Level: 54
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 Kangaskhan
 Level: 54
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 === TRAINER_PSYCHIC_DARIO_2 ===
 Name: DARIO
@@ -19041,7 +19336,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Girafarig
 Level: 56
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Crunch
 - Psybeam
 - Odor Sleuth
@@ -19058,7 +19353,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Natu
 Level: 52
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Psychic
 - Confuse Ray
 - Future Sight
@@ -19066,7 +19361,7 @@ IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Slowbro
 Level: 52
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Psychic
 - Headbutt
 - Amnesia
@@ -19074,7 +19369,7 @@ IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Kadabra
 Level: 54
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Psychic
 - Future Sight
 - Recover
@@ -19091,7 +19386,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Natu
 Level: 53
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Psychic
 - Confuse Ray
 - Wish
@@ -19099,7 +19394,7 @@ IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Hypno
 Level: 53
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Psychic
 - Disable
 - Psych Up
@@ -19107,7 +19402,7 @@ IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
 
 Hypno
 Level: 53
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Psychic
 - Hypnosis
 - Psych Up
@@ -19124,196 +19419,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-
-=== TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR ===
-Name: TERRY
-Class: Rival Late
-Pic: Rival Late
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
-
-Staraptor @ Choice Band
-Ability: Intimidate
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Brave Bird
-- Close Combat
-- Steel Wing
-- Take Down
-
-Flygon @ Choice Scarf
-Ability: Levitate
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Dragon Claw
-- Earthquake
-- Fire Blast
-- Rock Slide
-
-Milotic @ Leftovers
-Ability: Marvel Scale
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Aqua Ring
-- Toxic
-- Dive
-- Ice Beam
-
-Arcanine @ Kings Rock
-Ability: Intimidate
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Thunder Fang
-- Extreme Speed
-- Crunch
-- Flare Blitz
-
-Alakazam @ Choice Specs
-Ability: Synchronize
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Psychic
-- Shadow Ball
-- Energy Ball
-- Focus Blast
-
-Venusaur @ Sitrus Berry
-Ability: Overgrow
-Level: 66
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Petal Dance
-- Sludge Bomb
-- Growth
-- Synthesis
-
-=== TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER ===
-Name: TERRY
-Class: Rival Late
-Pic: Rival Late
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
-
-Staraptor @ Choice Band
-Ability: Intimidate
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Brave Bird
-- Close Combat
-- Steel Wing
-- Take Down
-
-Flygon @ Choice Scarf
-Ability: Levitate
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Dragon Claw
-- Earthquake
-- Fire Blast
-- Rock Slide
-
-Roserade @ Black Sludge
-Ability: Poison Point
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Sludge Bomb
-- Giga Drain
-- Leech Seed
-- Toxic Spikes
-
-Milotic @ Leftovers
-Ability: Marvel Scale
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Aqua Ring
-- Toxic
-- Dive
-- Ice Beam
-
-Alakazam @ Choice Specs
-Ability: Synchronize
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Psychic
-- Shadow Ball
-- Energy Ball
-- Focus Blast
-
-Charizard @ Sitrus Berry
-Ability: Blaze
-Level: 66
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Flamethrower
-- Air Slash
-- Dragon Pulse
-- Shadow Claw
-
-=== TRAINER_RIVAL_ROUTE22_LATE_SQUIRTLE ===
-Name: TERRY
-Class: Rival Late
-Pic: Rival Late
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
-
-Staraptor @ Choice Band
-Ability: Intimidate
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Brave Bird
-- Close Combat
-- Steel Wing
-- Take Down
-
-Flygon @ Choice Scarf
-Ability: Levitate
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Dragon Claw
-- Earthquake
-- Fire Blast
-- Rock Slide
-
-Arcanine @ Kings Rock
-Ability: Intimidate
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Thunder Fang
-- Extreme Speed
-- Crunch
-- Flare Blitz
-
-Roserade @ Black Sludge
-Ability: Poison Point
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Sludge Bomb
-- Giga Drain
-- Leech Seed
-- Toxic Spikes
-
-Alakazam @ Choice Specs
-Ability: Synchronize
-Level: 65
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Psychic
-- Shadow Ball
-- Energy Ball
-- Focus Blast
-
-Blastoise @ Sitrus Berry
-Ability: Torrent
-Level: 66
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
-- Surf
-- Rain Dance
-- Ice Beam
-- Flash Cannon
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 === TRAINER_ROCKER_LUCA_2 ===
 Name: LUCA
@@ -19326,11 +19432,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Electrode
 Level: 33
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 Electrode
 Level: 33
-IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 === TRAINER_ROCKER_RANDALL ===
 Name: RANDALL
@@ -19585,7 +19691,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Gulpin
 Level: 5
-IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
 === TRAINER_RS_POKEMANIAC ===
 Name: PH
@@ -19598,7 +19704,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
 === TRAINER_RS_PSYCHIC_F ===
 Name: PH
@@ -19611,7 +19717,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
 === TRAINER_RS_PSYCHIC_M ===
 Name: PH
@@ -19624,7 +19730,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
 === TRAINER_RS_SAILOR ===
 Name: PH
@@ -19637,7 +19743,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
 === TRAINER_RS_SIS_AND_BRO ===
 Name: PH
@@ -19650,7 +19756,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
 Level: 5
-IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
+IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
 === TRAINER_RS_SWIMMER_F ===
 Name: PH
@@ -19941,65 +20047,6 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 - Thunder Shock
 - Tackle
 
-=== TRAINER_SUPER_NERD_AVERY ===
-Name: AVERY
-Class: Super Nerd
-Pic: Super Nerd
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Growlithe
-Level: 34
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-
-Charmander
-Level: 34
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-
-Vulpix
-Level: 34
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-
-Growlithe
-Level: 34
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-
-=== TRAINER_SUPER_NERD_DEREK ===
-Name: DEREK
-Class: Super Nerd
-Pic: Super Nerd
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Arcanine
-Level: 41
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-
-=== TRAINER_SUPER_NERD_ERIK ===
-Name: ERIK
-Class: Super Nerd
-Pic: Super Nerd
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Vulpix
-Level: 36
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-
-Vulpix
-Level: 36
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-
-Ninetales
-Level: 36
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-
 === TRAINER_SUPER_NERD_GLENN_2 ===
 Name: GLENN
 Class: Super Nerd
@@ -20021,23 +20068,6 @@ Weezing
 Level: 28
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
-=== TRAINER_SUPER_NERD_ZAC ===
-Name: ZAC
-Class: Super Nerd
-Pic: Super Nerd
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Growlithe
-Level: 37
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-
-Vulpix
-Level: 37
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
-
 === TRAINER_SWIMMER_FEMALE_ALICE_2 ===
 Name: ALICE
 Class: Swimmer F
@@ -20049,11 +20079,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Crawdaunt
 Level: 49
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Crawdaunt
 Level: 49
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 === TRAINER_SWIMMER_FEMALE_MELISSA_2 ===
 Name: MELISSA
@@ -20066,11 +20096,11 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Poliwhirl
 Level: 49
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Crawdaunt
 Level: 49
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 === TRAINER_SWIMMER_FEMALE_NICOLE_2 ===
 Name: NICOLE
@@ -20222,23 +20252,6 @@ Gulpin
 Level: 5
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
-=== TRAINER_TAMER_COLE ===
-Name: COLE
-Class: Tamer
-Pic: Tamer
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Swalot
-Level: 39
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-
-Mightyena
-Level: 39
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-
 === TRAINER_TAMER_EVAN_2 ===
 Name: EVAN
 Class: Tamer
@@ -20258,19 +20271,6 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Garchomp
 Level: 55
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-
-=== TRAINER_TAMER_JASON ===
-Name: JASON
-Class: Tamer
-Pic: Tamer
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
-
-Rhyhorn
-Level: 43
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 === TRAINER_TAMER_JOHN ===
