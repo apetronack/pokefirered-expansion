@@ -10876,9 +10876,14 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Crawdaunt
-Level: 35
+Swampert @ Focus Sash
+Ability: Torrent
+Level: 59
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Earthquake
+- Ice Beam
+- Counter
+- Mirror Coat
 
 === TRAINER_PICNICKER_IRENE ===
 Name: IRENE
@@ -10886,20 +10891,26 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Male
 Music: Girl
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Tentacool
-Level: 30
+Tentacruel
+Ability: Clear Body
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Surf
+- Sludge Bomb
+- Barrier
+- Toxic
 
-Horsea
-Level: 30
+Mantine
+Ability: Water Absorb
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-
-Spheal
-Level: 30
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Signal Beam
+- Wing Attack
+- Confuse Ray
+- Ice Beam
 
 === TRAINER_BIRD_KEEPER_ROGER ===
 Name: ROGER
@@ -10911,16 +10922,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Swellow
-Level: 30
+Ability: Guts
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Sky Attack
+- Facade
+- Double Team
+- Steel Wing
 
-Swellow
-Level: 30
+Charizard
+Ability: Blaze
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Flamethrower
+- Aerial Ace
+- Smokescreen
+- Dragon Claw
 
-Pidgeotto
-Level: 30
+Aerodactyl
+Ability: Rock Head
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Double Edge
+- Rock Slide
+- Earthquake
+- Fly
 
 === TRAINER_SWIMMER_FEMALE_NORA ===
 Name: NORA
@@ -10931,17 +10957,32 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Shellder
-Level: 30
+Ludicolo
+Ability: Rain Dish
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Leech Seed
+- Ice Beam
+- Giga Drain
+- Surf
 
-Shellder
-Level: 30
+Poliwrath
+Ability: Water Absorb
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Submission
+- Bulk Up
+- Body Slam
+- Hypnosis
 
-Cloyster
-Level: 30
+Walrein
+Ability: Thick Fat
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Blizzard
+- Sheer Cold
+- Waterfall
+- Body Slam
 
 === TRAINER_SWIMMER_MALE_DEAN ===
 Name: DEAN
@@ -10952,9 +10993,14 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Staryu
-Level: 35
+Starmie @ Sitrus Berry
+Ability: Illuminate
+Level: 60
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Psychic
+- Recover
+- Calm Mind
+- Thunderbolt
 
 === TRAINER_PICNICKER_MISSY ===
 Name: MISSY
@@ -10965,13 +11011,23 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Corphish
-Level: 31
+Leafeon
+Ability: Leaf Guard
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Razor Leaf
+- Yawn
+- Swords Dance
+- X Scissor
 
-Crawdaunt
-Level: 31
+Sandslash
+Ability: Sand Veil
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Earthquake
+- Sandstorm
+- Night Slash
+- Rock Slide
 
 === TRAINER_SWIMMER_FEMALE_MELISSA ===
 Name: MELISSA
@@ -10982,13 +11038,22 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Poliwag
-Level: 31
+Slowbro @ Sitrus Berry
+Ability: Own Tempo
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Calm Mind
+- Psychic
+- Surf
+- Ice Beam
 
-Crawdaunt
-Level: 31
+Wailord @ Sitrus Berry
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Water Spout
+- Amnesia
+- Curse
+- Body Slam
 
 === TRAINER_FISHERMAN_RONALD ===
 Name: RONALD
@@ -10999,21 +11064,41 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Crawdaunt
-Level: 28
+Gorebyss
+Ability: Swift Swim
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Psychic
+- Rain Dance
+- Hydro Pump
+- Amnesia
 
-Corphish
-Level: 28
+Lanturn
+Ability: Volt Absorb
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Surf
+- Confuse Ray
+- Thunderbolt
+- Signal Beam
+
+Empoleon
+Ability: Torrent
+Level: 57
+IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Drill Peck
+- Aqua Jet
+- Swords Dance
+- Earthquake
 
 Crawdaunt
-Level: 28
+Ability: Shell Armor
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-
-Crawdaunt
-Level: 28
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Crabhammer
+- Swords Dance
+- Crunch
+- Body Slam
 
 === TRAINER_FISHERMAN_WADE ===
 Name: WADE
@@ -11025,28 +11110,33 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Feebas
-Level: 27
+Level: 54
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
 Feebas
-Level: 27
+Level: 55
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
 Feebas
-Level: 27
+Level: 56
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
 Feebas
-Level: 27
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
 Feebas
-Level: 27
+Level: 58
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
-Feebas
-Level: 27
+Milotic
+Ability: Marvel Scale
+Level: 60
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Aqua Ring
+- Surf
+- Ice Beam
+- Light Screen
 
 === TRAINER_SIS_AND_BRO_LIL_IAN ===
 Name: LIL & IAN
@@ -11057,13 +11147,23 @@ Music: Swimmer
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Seadra
-Level: 33
+Kingdra
+Ability: Sniper
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Dragon Pulse
+- Surf
+- Agility
+- Signal Beam
 
 Starmie
-Level: 33
+Ability: Illuminate
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Light Screen
+- Power Gem
+- Ice Beam
+- Thunderbolt
 
 === TRAINER_SWIMMER_MALE_SPENCER ===
 Name: SPENCER
@@ -11071,16 +11171,26 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Seadra
-Level: 33
+Golduck
+Ability: Cloud Nine
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Calm Mind
+- Psychic
+- Mud Bomb
+- Surf
 
-Tentacruel
-Level: 33
+Cloyster
+Ability: Shell Armor
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Avalanche
+- Waterfall
+- Spike Cannon
+- Toxic Spikes
 
 === TRAINER_FISHERMAN_CLAUDE ===
 Name: CLAUDE
@@ -11091,13 +11201,23 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Shellder
-Level: 31
+Omastar
+Ability: Shell Armor
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Ancient Power
+- Surf
+- Spikes
+- Mud Shot
 
-Cloyster
-Level: 31
+Vaporeon
+Ability: Water Absorb
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Acid Armor
+- Ice Beam
+- Hydro Pump
+- Aqua Ring
 
 === TRAINER_FISHERMAN_NOLAN ===
 Name: NOLAN
@@ -11105,16 +11225,26 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Crawdaunt
-Level: 33
+Kabutops
+Ability: Shell Armor
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Swords Dance
+- Rock Slide
+- X Scissor
+- Waterfall
 
-Corphish
-Level: 33
+Feraligatr
+Ability: Torrent
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Swords Dance
+- Waterfall
+- Ice Fang
+- Earthquake
 
 === TRAINER_SWIMMER_MALE_JACK ===
 Name: JACK
@@ -11125,9 +11255,14 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Starmie
-Level: 37
+Walrein @ Chesto Berry
+Ability: Thick Fat
+Level: 60
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Curse
+- Avalanche
+- Waterfall
+- Rest
 
 === TRAINER_SWIMMER_MALE_ROLAND ===
 Name: ROLAND
@@ -11138,17 +11273,23 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Poliwhirl
-Level: 32
+Politoed
+Ability: Water Absorb
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Perish Song
+- Swagger
+- Body Slam
+- Psychic
 
-Tentacool
-Level: 32
+Tentacruel
+Ability: Clear Body
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-
-Seadra
-Level: 32
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Toxic Spikes
+- Hydro Pump
+- Sludge Bomb
+- Ice Beam
 
 === TRAINER_SWIMMER_MALE_JEROME ===
 Name: JEROME
@@ -11156,16 +11297,26 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Staryu
-Level: 33
+Huntail
+Ability: Swift Swim
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Waterfall
+- Dragon Dance
+- Ice Fang
+- Crunch
 
-Wartortle
-Level: 33
+Blastoise
+Ability: Torrent
+Level: 57
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
+- Skull Bash
+- Rain Dance
+- Surf
+- Flash Cannon
 
 === TRAINER_AQUA_ADMIN_MATT ===
 Name: MATT
