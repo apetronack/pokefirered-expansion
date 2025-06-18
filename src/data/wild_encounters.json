@@ -25495,12 +25495,7 @@
               {
                 "min_level": 15,
                 "max_level": 17,
-                "species": "SPECIES_ZIGZAGOON_GALAR"
-              },
-              {
-                "min_level": 15,
-                "max_level": 17,
-                "species": "SPECIES_SKORUPI"
+                "species": "SPECIES_SCYTHER"
               },
               {
                 "min_level": 15,
@@ -25510,7 +25505,12 @@
               {
                 "min_level": 15,
                 "max_level": 17,
-                "species": "SPECIES_SKORUPI"
+                "species": "SPECIES_SCYTHER"
+              },
+              {
+                "min_level": 15,
+                "max_level": 17,
+                "species": "SPECIES_ZIGZAGOON_GALAR"
               }
             ]
           },
