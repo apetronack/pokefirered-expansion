@@ -201,6 +201,7 @@ Cap 6: Giovanni 1, level 33
         TRAINER_FISHERMAN_CHIP
         TRAINER_FISHERMAN_HANK
         TRAINER_FISHERMAN_ELLIOT
+        TRAINER_YOUNG_COUPLE_GIA_JES
     Route 8
         TRAINER_LASS_JULIA
         TRAINER_GAMER_RICH
@@ -213,10 +214,13 @@ Cap 6: Giovanni 1, level 33
         TRAINER_BIKER_JAREN
         TRAINER_BIKER_RICARDO
         TRAINER_GAMER_STAN
+        TRAINER_SUPER_NERD_AIDAN
     Route 7
         No trainers
     Celadon City
         No trainers
+    Celadon City Game Corner
+        TRAINER_TEAM_ROCKET_GRUNT_7
     Rocket Hideout B1F (first)
         TRAINER_TEAM_ROCKET_GRUNT_9
         TRAINER_TEAM_ROCKET_GRUNT_8
@@ -263,6 +267,8 @@ Cap 8: Ericka, level 38
         TRAINER_TEAM_ROCKET_GRUNT_19
         TRAINER_TEAM_ROCKET_GRUNT_20
         TRAINER_TEAM_ROCKET_GRUNT_21
+    Celadon City
+        TRAINER_CELADON_GYM_GUARDIAN
     Celadon City Gym
         TRAINER_LASS_KAY
         TRAINER_BEAUTY_BRIDGET
@@ -362,6 +368,7 @@ Cap 9: Rival 5, Silph Co, level 43
             TRAINER_TEAM_ROCKET_GRUNT_31
         Silph Co 7F
             TRAINER_SCIENTIST_JOSHUA
+            TRAINER_TEAM_ROCKET_GRUNT_33
             TRAINER_TEAM_ROCKET_GRUNT_34
             TRAINER_TEAM_ROCKET_GRUNT_35
             TRAINER_RIVAL_SILPH_SQUIRTLE/BULBASAUR/CHARMANDER
@@ -389,8 +396,6 @@ Cap 11: Sabrina, Level 52
         TRAINER_BLACK_BELT_AARON
         TRAINER_BLACK_BELT_MIKE
         TRAINER_BLACK_BELT_KOICHI
-    Saffron City
-        TRAINER_SAFFRON_GYM_GUARDIAN
     Saffron City Gym
         TRAINER_PSYCHIC_CAMERON
         TRAINER_CHANNELER_TASHA
@@ -412,6 +417,10 @@ Cap 12: Koga, Level 55
         TRAINER_JUGGLER_NATE
         TRAINER_LEADER_KOGA
 Cap 13: Blaine, Level 59
+    Route 4, Second
+        TRAINER_LASS_CRISSY
+    Route 10, Second
+        TRAINER_POKEMANIAC_MARK
     Route 19, Second
         TRAINER_SWIMMER_MALE_TONY
         TRAINER_SWIMMER_MALE_DAVID
@@ -454,6 +463,8 @@ Cap 13: Blaine, Level 59
         TRAINER_SWIMMER_MALE_JACK
         TRAINER_SWIMMER_MALE_ROLAND
         TRAINER_SWIMMER_MALE_JEROME
+    Cinnabar
+        TRAINER_CINNABAR_MANSION_GUARDIAN
     Pokemon Mansion 1F
         TRAINER_YOUNGSTER_JOHNSON
     Pokemon Mansion 2F
@@ -498,6 +509,7 @@ Cap 13: Blaine, Level 59
         TRAINER_TUBER_ALEXIS
         TRAINER_TUBER_AMIRA
         TRAINER_AROMA_LADY_NIKKI
+        TRAINER_SWIMMER_FEMALE_TISHA
     Cinnabar Island Gym
         TRAINER_BURGLAR_QUINN
         TRAINER_SUPER_NERD_ERIK
