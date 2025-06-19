@@ -148,16 +148,23 @@ Spinarak
 Ability: Swarm
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- String Shot
 
 Caterpie
 Ability: Shield Dust
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- String Shot
+- Tackle
 
 Pineco
 Ability: Sturdy
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Protect
+- Tackle
+- Selfdestruct
 
 === TRAINER_BUG_CATCHER_DOUG ===
 Name: DOUG
@@ -172,21 +179,32 @@ Caterpie
 Ability: Shield Dust
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- String Shot
 
 Metapod
 Ability: Shed Skin
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Harden
+- String Shot
+- Tackle
 
 Paras
 Ability: Effect Spore
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stun Spore
+- Poison Powder
+- Scratch
 
 Nincada
 Ability: Compound Eyes
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sand Attack
+- Scratch
+- Harden
 
 === TRAINER_BUG_CATCHER_ANTHONY ===
 Name: ANTHONY
@@ -201,16 +219,25 @@ Venonat
 Ability: Tinted Lens
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Disable
+- Foresight
+- Tackle
+- Supersonic
 
 Nincada
 Ability: Compound Eyes
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Life
+- Scratch
+- Harden
 
 Spinarak
 Ability: Swarm
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- String Shot
 
 === TRAINER_BUG_CATCHER_CHARLIE ===
 Name: CHARLIE
@@ -225,6 +252,9 @@ Skorupi
 Ability: Sniper
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Poison Sting
+- Leer
 
 Metapod
 Ability: Shed Skin
@@ -238,11 +268,17 @@ Paras
 Ability: Effect Spore
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stun Spore
+- Poison Powder
+- Scratch
 
 Pineco
 Ability: Sturdy
 Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Protect
+- Tackle
+- Selfdestruct
 
 === TRAINER_BUG_CATCHER_SAMMY ===
 Name: SAMMY
@@ -257,16 +293,27 @@ Nincada
 Ability: Compound Eyes
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Harden
+- Scratch
+- Leech Life
+- Sand Attack
 
 Pineco
 Ability: Sturdy
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Take Down
+- Selfdestruct
+- Tackle
+- Protect
 
 Spinarak
 Ability: Swarm
 Level: 9 
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Constrict
+- Poison Sting
+- String Shot
 
 Butterfree
 Ability: Compound Eyes
@@ -400,16 +447,28 @@ Pidgey
 Ability: Keen Eye
 Level: 13
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Quick Attack
+- Gust
+- Sand Attack
+- Tackle
 
 Hoothoot
 Ability: Insomnia
 Level: 13
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Peck
+- Hypnosis
+- Foresight
+- Tackle
 
 Wingull
 Ability: Keen Eye
 Level: 13
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Wing Attack
+- Supersonic
+- Water Gun
+- Growl
 
 === TRAINER_BUG_CATCHER_COLTON ===
 Name: COLTON
@@ -424,6 +483,10 @@ Skorupi
 Ability: Battle Armor
 Level: 13
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Pin Missile
+- Leer
+- Poison Sting
+- Bite
 
 Venonat
 Ability: Tinted Lens
@@ -438,6 +501,10 @@ Paras
 Ability: Effect Spore
 Level: 13
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Leech Life
+- Stun Spore
+- Poison Powder
+- Scratch
 
 Nincada
 Ability: Compound Eyes
@@ -470,11 +537,18 @@ Horsea
 Ability: Sniper
 Level: 13
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Water Gun
+- Leer
+- Smokescreen
 
 Slugma
 Ability: Flame Body
 Level: 13
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Rock Throw
+- Ember
+- Yawn
+- Smog
 
 Bellsprout
 Ability: Chlorophyll
@@ -633,6 +707,10 @@ Pineco
 Ability: Sturdy
 Level: 14
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Rapid Spin
+- Take Down
+- Protect
+- Selfdestruct
 
 Anorith
 Ability: Battle Armor
@@ -647,6 +725,10 @@ Paras
 Ability: Effect Spore
 Level: 15
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Leech Life
+- Stun Spore
+- Poison Powder
+- Scratch
 
 === TRAINER_LASS_ROBIN ===
 Name: ROBIN
@@ -732,6 +814,9 @@ Ralts
 Ability: Synchronize
 Level: 15
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Double Team
+- Confusion
+- Growl
 
 Houndour
 Ability: Flash Fire
@@ -746,6 +831,10 @@ Cherubi
 Ability: Chlorophyll
 Level: 15
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Helping Hand
+- Leech Seed
+- Growth
+- Bullet Seed
 
 Togepi
 Ability: Serene Grace
@@ -787,6 +876,10 @@ Pikachu
 Ability: Static
 Level: 15
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Quick Attack
+- Thundershock
+- Thunder Wave
+- Tail Whip
 
 Voltorb
 Ability: Soundproof
@@ -845,6 +938,10 @@ Turtwig
 Ability: Overgrow
 Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Razor Leaf
+- Withdraw
+- Tackle
+- Absorb
 
 Bayleef
 Ability: Overgrow
@@ -886,11 +983,19 @@ Gulpin
 Ability: Liquid Ooze
 Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Sludge
+- Poison Gas
+- Yawn
+- Pound
 
 Whismur
 Ability: Soundproof
 Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Howl
+- Astonish
+- Pound
+- Uproar
 
 Baltoy
 Ability: Levitate
@@ -905,6 +1010,10 @@ Doduo
 Ability: Early Bird
 Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Fury Attack
+- Rage
+- Peck
+- Growl
 
 === TRAINER_HIKER_MARCOS ===
 Name: MARCOS
@@ -928,6 +1037,10 @@ Aron
 Ability: Sturdy
 Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Metal Claw
+- Headbutt
+- Mud Slap
+- Harden
 
 Onix
 Ability: Sturdy
@@ -960,6 +1073,10 @@ Numel
 Ability: Oblivious
 Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Focus Energy
+- Magnitude
+- Ember
+- Growl
 
 Houndour
 Ability: Flash Fire
@@ -974,11 +1091,19 @@ Zubat
 Ability: Inner Focus
 Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Bite
+- Leech Life
+- Astonish
+- Supersonic
 
 Skorupi
 Ability: Sniper
 Level: 16
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Pin Missile
+- Leftovers
+- Poison Sting
+- Bite
 
 === TRAINER_TEAM_ROCKET_GRUNT_4 ===
 Name: GRUNT
@@ -1065,6 +1190,10 @@ Snorunt
 Ability: Inner Focus
 Level: 17
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Icy Wind
+- Bite
+- Double Team
+- Powder Snow
 
 Spinarak
 Ability: Swarm
@@ -1106,6 +1235,10 @@ Stunky
 Ability: Stench
 Level: 17
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+- Smokescreen
+- Poison Gas
+- Fury Swipes
+- Screech
 
 Electrike
 Ability: Static
@@ -2871,20 +3004,40 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
+Ability: Intimidate
 Level: 22
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Bite
+- Flame Wheel
+- Leer
+- Secret Power
 
 Tentacool
+Ability: Clear Body
 Level: 22
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Wrap
+- Bubblebeam
+- Acid
+- Toxic Spikes
 
 Breloom
+Ability: Effect Spore
 Level:22
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Headbutt
+- Mega Drain
+- Leech Seed
+- Stun Spore
 
 Stunky
+Ability: Stench
 Level: 22
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Smokescreen
+- Screech
+- Fury Swipes
+- Focus Energy
 
 === TRAINER_GENTLEMAN_ARTHUR ===
 Name: ARTHUR
@@ -5003,12 +5156,22 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Nidoran M
+Ability: Rivalry
 Level: 24
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Horn Attack
+- Poison Sting
+- Double Kick
+- Peck
 
 Nidoran F
+Ability: Rivalry
 Level: 24
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Bite
+- Poison Sting
+- Double Kick
+- Tail Whip
 
 === TRAINER_LASS_JULIA ===
 Name: JULIA
@@ -5425,7 +5588,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Voltorb
-Level: 20
+Level: 33
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Sonic Boom
 - Screech
@@ -5433,7 +5596,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Charge
 
 Koffing
-Level: 20
+Level: 33
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Sludge
 - Smog
@@ -5441,7 +5604,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Poison Gas
 
 Voltorb
-Level: 20
+Level: 33
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Sonic Boom
 - Screech
@@ -5449,7 +5612,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Charge
 
 Magnemite
-Level: 20
+Level: 33
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Sonic Boom
 - Supersonic
@@ -5466,12 +5629,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Sneasel
-Level: 20
+Ability: Inner Focus
+Level: 33
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Icy Wind
+- Faint Attack
+- Screech
+- Taunt
 
 Zubat
-Level: 20
+Ability: Inner Focus
+Level: 33
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Poison Fang
+- Wing Attack
+- Leech Life
+- Bite
 
 === TRAINER_TEAM_ROCKET_GRUNT_9 ===
 Name: GRUNT
@@ -9309,13 +9482,23 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Cubone
-Level: 29
+Marowak
+Ability: Rock Head
+Level: 43
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+- Bone Rush
+- Headbutt
+- Focus Energy
+- Double Kick
 
-Cubone
-Level: 29
+Golbat
+Ability: Inner Focus
+Level: 43
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+- Poison Fang
+- Wing Attack
+- Leech Life
+- Bite
 
 === TRAINER_TEAM_ROCKET_GRUNT_34 ===
 Name: GRUNT
@@ -10682,17 +10865,32 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Paras
-Level: 31
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Paras
-Level: 31
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
 Parasect
+Ability: Dry Skin
+Level: 55
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Spore
+- X Scissor
+- Giga Drain
+- Swords Dance
+
+Roserade
+Ability: Poison Point
+Level: 55
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Toxic
+- Leech Seed
+- Extrasensory
+- Giga Drain
+
+Tangrowth
+Ability: Leaf Guard
 Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Ancient Power
+- Slam
+- Knock Off
+- Power Whip
 
 === TRAINER_POKEMANIAC_MARK ===
 Name: MARK
@@ -10703,13 +10901,23 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Rhyhorn
-Level: 29
+Rhydon
+Ability: Rock Head
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Earthquake
+- Stone Edge
+- Hammer Arm
+- Take Down
 
 Kangaskhan
-Level: 29
+Ability: Scrappy
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Reversal
+- Sucker Punch
+- Outrage
+- Dizzy Punch
 
 === TRAINER_SWIMMER_MALE_TONY ===
 Name: TONY
