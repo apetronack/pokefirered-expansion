@@ -11826,17 +11826,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Sneasel
-Level: 33
+Ninjask
+Ability: Speed Boost
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Swords Dance
+- Baton Pass
+- X Scissor
+- Endure
+
+Weavile
+Ability: Pressure
+Level: 58
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Night Slash
+- Metal Claw
+- Ice Punch
+- Slash
 
 Ariados
-Level: 33
+Ability: Swarm
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Ninjask
-Level: 34
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Poison Jab
+- Sucker Punch
+- Spider Web
+- Leech Life
 
 === TRAINER_BURGLAR_ARNIE ===
 Name: ARNIE
@@ -11844,16 +11859,26 @@ Class: Burglar
 Pic: Burglar
 Gender: Male
 Music: Suspicious
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Charmander
-Level: 34
+Charizard
+Ability: Blaze
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Flamethrower
+- Air Slash
+- Dragon Pulse
+- Roost
 
-Charmeleon
-Level: 34
+Aggron
+Ability: Rock Head
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Double Edge
+- Iron Tail
+- Earthquake
+- Rock Slide
 
 === TRAINER_BURGLAR_SIMON ===
 Name: SIMON
@@ -11865,8 +11890,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Ninetales
-Level: 38
+Ability: Drought
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Energy Ball
+- Flamethrower
+- Extrasensory
+- Will O Wisp
+
+Victreebel
+Ability: Chlorophyll
+Level: 58
+IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Leaf Blade
+- Stockpile
+- Swallow
+- Sludge Bomb
 
 === TRAINER_SCIENTIST_BRAYDON ===
 Name: BRAYDON
@@ -11877,17 +11916,23 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Magnemite
-Level: 33
+Magnezone
+Ability: Sturdy
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Magnet Rise
+- Thunderbolt
+- Mirror Shot
+- Tri Attack
 
-Magneton
-Level: 33
+Claydol
+Ability: Levitate
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Voltorb
-Level: 33
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Cosmic Power
+- Sandstorm
+- Ice Beam
+- Psychic
 
 === TRAINER_SCIENTIST_TED ===
 Name: TED
@@ -11895,16 +11940,26 @@ Class: Scientist
 Pic: Scientist
 Gender: Male
 Music: Suspicious
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Electrode
-Level: 29
+Ability: Static
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Rain Dance
+- Thunder
+- Light Screen
+- Explosion
 
-Weezing
-Level: 29
+Gengar
+Ability: Levitate
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Sludge Bomb
+- Shadow Ball
+- Thunder
+- Energy Ball
 
 === TRAINER_SCIENTIST_IVAN ===
 Name: IVAN
@@ -11915,13 +11970,23 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Magnemite
-Level: 34
+Aerodactyl
+Ability: Rock Head
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Double Edge
+- Rock Slide
+- Earthquake
+- Ice Fang
 
-Electrode
-Level: 34
+Jolteon
+Ability: Volt Absorb
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Thunderbolt
+- Shadow Ball
+- Double Kick
+- Pin Missile
 
 === TRAINER_BURGLAR_LEWIS ===
 Name: LEWIS
@@ -11932,13 +11997,23 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Growlithe
-Level: 34
+Arcanine
+Ability: Intimidate
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Thunder Fang
+- Flare Blitz
+- Crunch
+- Body Slam
 
-Growlithe
-Level: 34
+Dusknoir
+Ability: Pressure
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Mean Look
+- Toxic
+- Curse
+- Faint Attack
 
 === TRAINER_SWIMMER_FEMALE_ABIGAIL ===
 Name: ABIGAIL
@@ -11946,20 +12021,26 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Male
 Music: Female
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Psyduck
-Level: 35
+Togekiss
+Ability: Serene Grace
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Psyduck
-Level: 36
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Nasty Plot
+- Air Slash
+- Aura Sphere
+- Ancient Power
 
 Golduck
-Level: 37
+Ability: Cloud Nine
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Surf
+- Psychic
+- Calm Mind
+- Mud Bomb
 
 === TRAINER_PICNICKER_CLAIRE ===
 Name: CLAIRE
@@ -11970,21 +12051,32 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Zigzagoon
-Level: 35
+Linoone @ Sitrus Berry
+Ability: Gluttony
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Belly Drum
+- Slash
+- Shadow Claw
+- Iron Tail
 
-Zigzagoon
-Level: 35
+Raichu
+Ability: Static
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Thunderbolt
+- Nasty Plot
+- Surf
+- Grass Knot
 
-Pikachu
-Level: 35
+Clefable
+Ability: Magic Guard
+Level: 58
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Clefairy
-Level: 35
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Metronome
+- Amnesia
+- Meteor Mash
+- Body Slam
 
 === TRAINER_CAMPER_BRYCE ===
 Name: BRYCE
@@ -11995,17 +12087,22 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Nidorino
-Level: 36
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
 Torkoal
-Level: 36
+Ability: White Smoke
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Curse
+- Rock Slide
+- Body Slam
+- Gyro Ball
 
 Sandslash
-Level: 36
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Slash
+- Earthquake
+- Rock Slide
+- Swords Dance
 
 === TRAINER_CRUSH_GIRL_TANYA ===
 Name: TANYA
