@@ -50,7 +50,24 @@ def main():
     input_file = 'src/data/trainers.party'
     output_file = 'IV_adjusted_trainers.party'
     trainers = parse_trainers_party(input_file)
-    adjusted_trainers = adjust_ivs(trainers)
+
+    # Only consider trainers up to and including TRAINER_CHAMPION_REMATCH_CHARMANDER for IV scaling
+    cutoff_name = 'TRAINER_CHAMPION_REMATCH_CHARMANDER'
+    cutoff_index = None
+    for idx, (trainer_name, _) in enumerate(trainers):
+        if cutoff_name in trainer_name:
+            cutoff_index = idx
+            break
+    if cutoff_index is not None:
+        trainers_to_scale = trainers[:cutoff_index + 1]
+        trainers_to_leave = trainers[cutoff_index + 1:]
+    else:
+        trainers_to_scale = trainers
+        trainers_to_leave = []
+
+    adjusted_trainers = adjust_ivs(trainers_to_scale)
+    # Append the unmodified trainers after the cutoff
+    adjusted_trainers.extend(trainers_to_leave)
     write_adjusted_trainers(output_file, adjusted_trainers)
     print(f'Wrote adjusted trainers to {output_file}')
 
