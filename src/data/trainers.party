@@ -12114,12 +12114,21 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Medicham @ Black Belt
-Level: 38
+Ability: Pure Power
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Bulk Up
+- Hi Jump Kick
+- Thunderpunch
+- Psycho Cut
 
 Hariyama @ Black Belt
-Level: 38
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Fake Out
+- Bullet Punch
+- Bulk Up
+- Vital Throw
 
 === TRAINER_SWIMMER_MALE_GARRETT ===
 Name: GARRETT
@@ -12130,17 +12139,23 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Shellder
-Level: 35
+Blastoise
+Ability: Torrent
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Skull Bash
+- Flash Cannon
+- Hydro Pump
+- Blizzard
 
-Cloyster
-Level: 35
+Empoleon
+Ability: Torrent
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Wartortle
-Level: 38
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Swords Dance
+- Drill Peck
+- Waterfall
+- Rock Slide
 
 === TRAINER_CRUSH_KIN_MIK_KIA ===
 Name: MIK & KIA
@@ -12151,13 +12166,23 @@ Music: Intense
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Machoke @ Black Belt
-Level: 39
+Machamp @ Black Belt
+Ability: No Guard
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Bulk Up
+- Dynamic Punch
+- Rock Slide
+- Ice Punch
 
-Primeape @ Black Belt
-Level: 39
+Lucario @ Black Belt
+Ability: Steadfast
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Dark Pulse
+- Aura Sphere
+- Psychic
+- Metal Sound
 
 === TRAINER_BLACK_BELT_HUGH ===
 Name: HUGH
@@ -12168,13 +12193,23 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machop @ Black Belt
-Level: 37
+Breloom @ Black Belt
+Ability: Effect Spore
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Leech Seed
+- Seed Bomb
+- Sky Uppercut
+- Bulk Up
 
-Machoke @ Black Belt
-Level: 37
+Infernape @ Black Belt
+Ability: Blaze
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Close Combat
+- Flame Wheel
+- Thunderpunch
+- U Turn
 
 === TRAINER_BLACK_BELT_SHEA ===
 Name: SHEA
@@ -12185,13 +12220,23 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machop @ Black Belt
-Level: 38
+Aggron @ Black Belt
+Ability: Sturdy
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Iron Tail
+- Rock Slide
+- Brick Break
+- Dragon Claw
 
-Machoke @ Black Belt
-Level: 38
+Ampharos @ Black Belt
+Ability: Static
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Fire Punch
+- Signal Beam
+- Thunderbolt
+- Brick Break
 
 === TRAINER_CRUSH_GIRL_SHARON ===
 Name: SHARON
@@ -12202,13 +12247,23 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Mankey @ Black Belt
-Level: 37
+Exploud @ Black Belt
+Ability: Soundproof
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Brick Break
+- Earthquake
+- Crunch
+- Body Slam
 
-Primeape @ Black Belt
-Level: 37
+Golem @ Black Belt
+Ability: Sturdy
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Earthquake
+- Rock Blast
+- Hammer Arm
+- Body Slam
 
 === TRAINER_SWIMMER_MALE_FINN ===
 Name: FINN
@@ -12220,8 +12275,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Starmie
-Level: 38
+Ability: Illuminate
+Level: 62
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Confuse Ray
+- Light Screen
+- Recover
+- Surf
 
 === TRAINER_SWIMMER_FEMALE_MARIA ===
 Name: MARIA
@@ -12232,13 +12292,23 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Seadra
-Level: 37
+Feraligatr
+Ability: Torrent
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Scary Face
+- Crunch
+- Aqua Tail
+- Superpower
 
-Seadra
-Level: 37
+Kingdra
+Ability: Sniper
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Octazooka
+- Signal Beam
+- Ice Beam
+- Dragon Pulse
 
 === TRAINER_FISHERMAN_TOMMY ===
 Name: TOMMY
@@ -12249,25 +12319,23 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Corphish
-Level: 33
+Lapras
+Ability: Shell Armor
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Corphish
-Level: 33
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Crawdaunt
-Level: 35
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Brine
+- Hail
+- Thunderbolt
+- Ice Beam
 
 Crawdaunt
-Level: 35
+Ability: Shell Armor
+Level: 59
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-
-Crawdaunt
-Level: 35
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+- Crabhammer
+- Swords Dance
+- Crunch
+- Body Slam
 
 === TRAINER_SWIMMER_FEMALE_AMARA ===
 Name: AMARA
@@ -12278,17 +12346,14 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Spheal
-Level: 36
+Walrein
+Ability: Thick Fat
+Level: 62
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-
-Spheal
-Level: 36
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-
-Sealeo
-Level: 36
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Curse
+- Crunch
+- Ice Fang
+- Waterfall
 
 === TRAINER_PKMN_RANGER_BETH ===
 Name: BETH
@@ -12297,20 +12362,26 @@ Pic: Pokemon Ranger F
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bellsprout
-Level: 38
+Sunflora
+Ability: Chlorophyll
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Flamethrower
+- Sunny Day
+- Leech Seed
+- Solar Beam
 
-Weepinbell
-Level: 38
+Leafeon
+Ability: Leaf Guard
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-
-Weepinbell
-Level: 38
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Leaf Blade
+- X Scissor
+- Iron Tail
+- Synthesis
 
 === TRAINER_CRUSH_GIRL_JOCELYN ===
 Name: JOCELYN
@@ -12321,13 +12392,23 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Hariyama @ Black Belt
-Level: 38
+Medicham @ Black Belt
+Ability: Pure Power
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Hi Jump Kick
+- Psychic
+- Ice Punch
+- Fire Punch
 
-Hariyama @ Black Belt
-Level: 38
+Golem @ Black Belt
+Ability: Sturdy
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Stone Edge
+- Earthquake
+- Hammer Arm
+- Gyro Ball
 
 === TRAINER_PKMN_RANGER_LOGAN ===
 Name: LOGAN
@@ -12336,23 +12417,25 @@ Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Exeggcute
-Level: 37
+Sceptile @ Focus Sash
+Ability: Overgrow
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Sleep Powder
-- Poison Powder
-- Stun Spore
-- Confusion
+- Leaf Blade
+- Dragon Claw
+- Swords Dance
+- Rock Slide
 
 Exeggutor
-Level: 40
+Ability: Chlorophyll
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Egg Bomb
 - Stomp
-- Confusion
+- Psychic
 - Hypnosis
 
 === TRAINER_TEAM_ROCKET_GRUNT_43 ===
@@ -12364,13 +12447,23 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Cubone
-Level: 37
+Mightyena
+Ability: Intimidate
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Crunch
+- Sucker Punch
+- Ice Fang
+- Fire Fang
 
-Marowak
-Level: 37
+Marowak @ Thick Club
+Ability: Rock Head
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Bonemerang
+- Iron Head
+- Rock Slide
+- Swords Dance
 
 === TRAINER_TEAM_ROCKET_GRUNT_44 ===
 Name: GRUNT
@@ -12382,20 +12475,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Grumpig
-Level: 35
+Ability: Own Tempo
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Psychic
+- Power Gem
+- Confuse Ray
+- Calm Mind
 
-Vibrava
-Level: 35
+Flygon
+Ability: Levitate
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Draco Meteor
+- Earthquake
+- Crunch
+- Flamethrower
 
-Skorupi
-Level: 35
+Drapion
+Ability: Sniper
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-
-Sandslash
-Level: 35
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Crunch
+- Cross Poison
+- Acupressure
+- X Scissor
 
 === TRAINER_BIKER_GOON ===
 Name: GOON
@@ -12406,21 +12510,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
-Level: 37
+Weezing
+Ability: Levitate
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Haze
+- Thunderbolt
 - Smokescreen
-- Sludge
-- Tackle
+- Sludge Bomb
+- Explosion
 
-Koffing
-Level: 37
+Magmortar
+Ability: Flame Body
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Acid Armor
-- Screech
-- Minimize
-- Sludge
+- Fire Blast
+- Confuse Ray
+- Thunderpunch
+- Cross Chop
 
 === TRAINER_BIKER_GOON_2 ===
 Name: GOON
@@ -12431,13 +12537,14 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
-Level: 38
+Armaldo
+Ability: Battle Armor
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Haze
-- Smokescreen
-- Sludge
-- Tackle
+- Rock Blast
+- Slash
+- Cross Poison
+- Knock Off
 
 === TRAINER_BIKER_GOON_3 ===
 Name: GOON
@@ -12448,9 +12555,14 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
-Level: 38
+Houndoom
+Ability: Flash Fire
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Thunder Fang
+- Flamethrower
+- Dark Pulse
+- Reversal
 
 === TRAINER_CUE_BALL_PAXTON ===
 Name: PAXTON
@@ -12461,13 +12573,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Weezing
-Level: 39
+Luxray
+Ability: Intimidate
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Crunch
+- Thunder Fang
+- Ice Fang
+- Roar
 
-Weezing
-Level: 39
+Crobat
+Ability: Inner Focus
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Cross Poison
+- Zen Headbutt
+- X Scissor
+- Wing Attack
 
 === TRAINER_TWINS_JOY_MEG ===
 Name: JOY & MEG
@@ -12478,13 +12600,23 @@ Music: Twins
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Clefairy
-Level: 37
+Raichu
+Ability: Static
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Thunderbolt
+- Grass Knot
+- Nasty Plot
+- Light Screen
 
-Clefairy
-Level: 37
+Azumarill
+Ability: Huge Power
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Aqua Tail
+- Aqua Ring
+- Slam
+- Blizzard
 
 === TRAINER_AROMA_LADY_VIOLET ===
 Name: VIOLET
@@ -12495,17 +12627,32 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Bulbasaur
-Level: 36
+Venusaur
+Ability: Overgrow
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Synthesis
+- Sleep Powder
+- Frenzy Plant
+- Sludge Bomb
 
-Ivysaur
-Level: 36
+Meganium
+Ability: Overgrow
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Light Screen
+- Toxic
+- Earthquake
+- Counter
 
-Ivysaur
-Level: 36
+Altaria @ White Herb
+Ability: Cloud Nine
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Draco Meteor
+- Safeguard
+- Featherdance
+- Earthquake
 
 === TRAINER_TUBER_ALEXIS ===
 Name: ALEXIS
@@ -12513,24 +12660,44 @@ Class: Tuber
 Pic: Tuber F
 Gender: Male
 Music: Girl
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Staryu
-Level: 34
+Politoed
+Ability: Water Absorb
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Hypnosis
+- Surf
+- Haze
+- Mud Bomb
 
-Staryu
-Level: 34
+Tentacruel
+Ability: Clear Body
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Sludge Bomb
+- Ice Beam
+- Hydro Pump
+- Toxic Spikes
 
-Buizel
-Level: 34
+Vaporeon
+Ability: Water Absorb
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Acid Armor
+- Fake Tears
+- Ice Beam
+- Surf
 
-Buizel
-Level: 34
+Glaceon
+Ability: Snow Cloak
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Mirror Coat
+- Ice Shard
+- Ice Beam
+- Shadow Ball
 
 === TRAINER_TUBER_AMIRA ===
 Name: AMIRA
@@ -12541,17 +12708,32 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Poliwag
-Level: 34
+Blastoise
+Ability: Torrent
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Skull Bash
+- Rapid Spin
+- Hydro Cannon
+- Flash Cannon
 
-Poliwhirl
-Level: 35
+Poliwrath
+Ability: Water Absorb
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Hypnosis
+- Mind Reader
+- Dynamic Punch
+- Waterfall
 
-Poliwag
-Level: 34
+Espeon
+Ability: Synchronize
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Psychic
+- Swift
+- Charm
+- Calm Mind
 
 === TRAINER_AROMA_LADY_NIKKI ===
 Name: NIKKI
@@ -12562,13 +12744,23 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Bellsprout
-Level: 37
+Victreebel
+Ability: Chlorophyll
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Swords Dance
+- Leaf Blade
+- Slam
+- Leech Life
 
-Weepinbell
-Level: 37
+Roserade
+Ability: Poison Point
+Level: 59
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Extrasensory
+- Giga Drain
+- Sludge Bomb
+- Worry Seed
 
 === TRAINER_SWIMMER_FEMALE_TISHA ===
 Name: TISHA
@@ -12580,8 +12772,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Floatzel
-Level: 38
+Ability: Swift Swim
+Level: 62
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Crunch
+- Waterfall
+- Ice Fang
+- Slash
 
 === TRAINER_BURGLAR_QUINN ===
 Name: QUINN
@@ -12589,20 +12786,26 @@ Class: Burglar
 Pic: Burglar
 Gender: Male
 Music: Suspicious
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Growlithe
-Level: 36
+Infernape
+Ability: Blaze
+Level: 60
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-
-Vulpix
-Level: 36
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Close Combat
+- Flare Blitz
+- Mach Punch
+- Thunderpunch
 
 Ninetales
-Level: 36
+Ability: Flash Fire
+Level: 60
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Flamethrower
+- Nasty Plot
+- Energy Ball
+- Hypnosis
 
 === TRAINER_SUPER_NERD_ERIK ===
 Name: ERIK
@@ -12613,17 +12816,23 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Vulpix
-Level: 36
+Torkoal
+Ability: Drought
+Level: 60
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Iron Defense
+- Amnesia
+- Heat Wave
+- Toxic
 
-Vulpix
-Level: 36
+Flareon
+Ability: Flash Fire
+Level: 60
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-
-Ninetales
-Level: 36
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Sand Attack
+- Double Edge
+- Curse
+- Fire Fang
 
 === TRAINER_SUPER_NERD_AVERY ===
 Name: AVERY
@@ -12631,24 +12840,26 @@ Class: Super Nerd
 Pic: Super Nerd
 Gender: Male
 Music: Suspicious
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Growlithe
-Level: 34
+Charizard
+Ability: Blaze
+Level: 60
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Fire Fang
+- Iron Tail
+- Fly
+- Dragon Dance
 
-Charmander
-Level: 34
+Camerupt
+Ability: Solid Rock
+Level: 60
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-
-Vulpix
-Level: 34
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-
-Growlithe
-Level: 34
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Earthquake
+- Lava Plume
+- Amnesia
+- Rock Slide
 
 === TRAINER_BURGLAR_RAMON ===
 Name: RAMON
@@ -12657,11 +12868,16 @@ Pic: Burglar
 Gender: Male
 Music: Suspicious
 Double Battle: No
-AI: AI_FLAG_BASIC_TRAINER
+AI: AI_FLAG_SMART_TRAINER
 
-Growlithe
-Level: 41
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+Level: 65
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Extreme Speed
+- Fire Blast
+- Crunch
+- Agility
 
 === TRAINER_SUPER_NERD_DEREK ===
 Name: DEREK
@@ -12672,9 +12888,14 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Arcanine
-Level: 41
+Magmortar
+Ability: Flame Body
+Level: 65
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Thunderbolt
+- Fire Blast
+- Cross Chop
+- Confuse Ray
 
 === TRAINER_BURGLAR_DUSTY ===
 Name: DUSTY
@@ -12682,16 +12903,26 @@ Class: Burglar
 Pic: Burglar
 Gender: Male
 Music: Suspicious
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Vulpix
-Level: 37
+Blaziken
+Ability: Blaze
+Level: 60
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Bulk Up
+- Brave Bird
+- Sky Uppercut
+- Blaze Kick
 
-Growlithe
-Level: 37
+SPECIES_TYPHLOSION_HISUI
+Ability: Blaze
+Level: 60
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Shadow Ball
+- Calm Mind
+- Flamethrower
+- Smokescreen
 
 === TRAINER_SUPER_NERD_ZAC ===
 Name: ZAC
@@ -12699,16 +12930,26 @@ Class: Super Nerd
 Pic: Super Nerd
 Gender: Male
 Music: Suspicious
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Growlithe
-Level: 37
+Houndoom
+Ability: Early Bird
+Level: 60
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Nasty Plot
+- Solar Beam
+- Dark Pulse
+- Flamethrower
 
-Vulpix
-Level: 37
+Torkoal
+Ability: Drought
+Level: 60
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Curse
+- Body Slam
+- Rock Slide
+- Iron Tail
 
 === TRAINER_LEADER_BLAINE ===
 Name: BLAINE
@@ -12723,17 +12964,17 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Ninetales @ Wide Lens
 Ability: Drought
 Timid Nature
-Level: 58
+Level: 62
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Fire Blast
 - Will-O-Wisp
-- Confuse Ray
-- Shadow Ball
+- Nasty Plot
+- Energy Ball
 
 Houndoom @ Meadow Plate
 Ability: Early Bird
 Modest Nature
-Level: 58
+Level: 62
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Fire Blast
 - Solar Beam
@@ -12743,27 +12984,26 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 Camerupt @ Passho Berry
 Ability: Solid Rock
 Gentle Nature
-Level: 58
+Level: 62
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Yawn
 - Earthquake
 - Rock Slide
 - Fire Blast
 
-Torkoal @ White Herb
-Ability: White Smoke
-Sassy Nature
-Level: 58
+Sunflora @ Light Clay
+Ability: Solar Power
+Level: 62
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Curse
-- Body Slam
-- Superpower
+- Giga Drain
+- Leech Seed
+- Light Screen
 - Fire Blast
 
 Arcanine @ Liechi Berry
 Ability: Intimidate
 Jolly Nature
-Level: 59
+Level: 63
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Extreme Speed
 - Close Combat
