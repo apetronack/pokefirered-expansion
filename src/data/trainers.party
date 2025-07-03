@@ -13182,9 +13182,14 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Rhyhorn
-Level: 62
+Armaldo
+Ability: Battle Armor
+Level: 67
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- X Scissor
+- Rock Blast
+- Cross Poison
+- Aqua Jet
 
 === TRAINER_COOLTRAINER_SAMUEL ===
 Name: SAMUEL
@@ -13196,45 +13201,50 @@ Items: Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Sandslash
-Level: 37
+Exploud @ Silk Scarf
+Ability: Soundproof
+Level: 63
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Swift
-- Sand Attack
-- Poison Sting
+- Crunch
+- Hyper Voice
+- Rest
+- Sleep Talk
 
-Sandslash
-Level: 37
+Snorlax @ Leftovers
+Ability: Thick Fat
+Level: 63
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Swift
-- Sand Attack
-- Poison Sting
+- Giga Impact
+- Curse
+- Zen Headbutt
+- Yawn
 
-Rhyhorn
-Level: 38
+Togekiss @ Bug Plate
+Ability: Serene Grace
+Level: 63
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Take Down
-- Rock Blast
-- Fury Attack
-- Scary Face
+- Silver Wind
+- Aura Sphere
+- Air Slash
+- Shadow Ball
 
-Nidorino
-Level: 39
+Porygon Z @ Magnet
+Ability: Download
+Level: 63
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Fury Attack
-- Horn Attack
-- Poison Sting
-- Double Kick
+- Signal Beam
+- Ice Beam
+- Charge Beam
+- Hyper Beam
 
-Nidoking
-Level: 39
+Miltank @ Sitrus Berry
+Ability: Scrappy
+Level: 63
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Thrash
-- Double Kick
-- Poison Sting
-- Focus Energy
+- Double Edge
+- Milk Drink
+- Attract
+- Curse
 
 === TRAINER_COOLTRAINER_WARREN ===
 Name: WARREN
@@ -13246,45 +13256,50 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Marowak
-Level: 37
+Shuckle @ Chesto Berry
+Ability: Sturdy
+Level: 63
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Bonemerang
-- Headbutt
-- Leer
-- Growl
+- Double Team
+- Rest
+- Toxic
+- Wrap
 
-Marowak
-Level: 37
+Venomoth @ Miracle Seed
+Ability: Tinted Lens
+Level: 63
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Bonemerang
-- Headbutt
-- Leer
-- Growl
+- Bug Buzz
+- Psychic
+- Sleep Powder
+- Giga Drain
 
-Rhyhorn
-Level: 38
+Forretress
+Ability: Sturdy
+Level: 63
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Take Down
-- Rock Blast
-- Fury Attack
-- Scary Face
+- Zap Cannon
+- Spikes
+- Counter
+- Light Screen
 
-Nidorina
-Level: 39
+Heracross
+Ability: Guts
+Level: 63
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Fury Swipes
-- Bite
-- Poison Sting
-- Double Kick
+- Megahorn
+- Close Combat
+- Earthquake
+- Bulk Up
 
-Nidoqueen
-Level: 39
+Parasect
+Ability: Dry Skin
+Level: 63
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Body Slam
-- Bite
-- Poison Sting
-- Double Kick
+- X Scissor
+- Spore
+- Cross Poison
+- Swords Dance
 
 === TRAINER_LEADER_GIOVANNI ===
 Name: GIOVANNI
@@ -13299,7 +13314,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Hippowdon @ Muscle Band
 Ability: Sand Stream
 Adamant Nature
-Level: 61
+Level: 63
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Ice Fang
 - Thunder Fang
@@ -13309,7 +13324,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Gliscor @ Toxic Orb
 Ability: Poison Heal
 Jolly Nature
-Level: 61
+Level: 63
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Swords Dance
 - Fire Fang
@@ -13319,7 +13334,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Swampert @ Rindo Berry
 Ability: Oblivious
 Sassy Nature
-Level: 61
+Level: 63
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Muddy Water
 - Ice Beam
@@ -13329,7 +13344,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Nidoking @ Choice Scarf
 Ability: Sheer Force
 Docile Nature
-Level: 61
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Thunder
 - Megahorn
@@ -13339,7 +13354,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 Rhyperior @ Lansat Berry
 Ability: Reckless
 Careful Nature
-Level: 62
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Double Edge
 - Rock Wrecker
@@ -13357,7 +13372,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 
 Staraptor @ Choice Band
 Ability: Intimidate
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Brave Bird
 - Close Combat
@@ -13366,7 +13381,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Flygon @ Choice Scarf
 Ability: Levitate
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Dragon Claw
 - Earthquake
@@ -13375,7 +13390,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Milotic @ Leftovers
 Ability: Marvel Scale
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Aqua Ring
 - Toxic
@@ -13384,7 +13399,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Arcanine @ Kings Rock
 Ability: Intimidate
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Thunder Fang
 - Extreme Speed
@@ -13393,7 +13408,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Alakazam @ Choice Specs
 Ability: Synchronize
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Psychic
 - Shadow Ball
@@ -13402,7 +13417,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Venusaur @ Sitrus Berry
 Ability: Overgrow
-Level: 66
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Petal Dance
 - Sludge Bomb
@@ -13420,7 +13435,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 
 Staraptor @ Choice Band
 Ability: Intimidate
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Brave Bird
 - Close Combat
@@ -13429,7 +13444,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Flygon @ Choice Scarf
 Ability: Levitate
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Dragon Claw
 - Earthquake
@@ -13438,7 +13453,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Arcanine @ Kings Rock
 Ability: Intimidate
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Thunder Fang
 - Extreme Speed
@@ -13447,7 +13462,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Roserade @ Black Sludge
 Ability: Poison Point
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sludge Bomb
 - Giga Drain
@@ -13456,7 +13471,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Alakazam @ Choice Specs
 Ability: Synchronize
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Psychic
 - Shadow Ball
@@ -13465,7 +13480,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Blastoise @ Sitrus Berry
 Ability: Torrent
-Level: 66
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Surf
 - Rain Dance
@@ -13483,7 +13498,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 
 Staraptor @ Choice Band
 Ability: Intimidate
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Brave Bird
 - Close Combat
@@ -13492,7 +13507,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Flygon @ Choice Scarf
 Ability: Levitate
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Dragon Claw
 - Earthquake
@@ -13501,7 +13516,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Roserade @ Black Sludge
 Ability: Poison Point
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sludge Bomb
 - Giga Drain
@@ -13510,7 +13525,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Milotic @ Leftovers
 Ability: Marvel Scale
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Aqua Ring
 - Toxic
@@ -13519,7 +13534,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Alakazam @ Choice Specs
 Ability: Synchronize
-Level: 65
+Level: 67
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Psychic
 - Shadow Ball
@@ -13528,7 +13543,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Charizard @ Sitrus Berry
 Ability: Blaze
-Level: 66
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Flamethrower
 - Air Slash
