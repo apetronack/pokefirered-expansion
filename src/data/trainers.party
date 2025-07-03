@@ -13019,17 +13019,32 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machoke @ Black Belt
-Level: 38
+Staraptor @ Black Belt
+Ability: Intimidate
+Level: 62
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Close Combat
+- Brave Bird
+- U Turn
+- Frustration
 
-Machop @ Black Belt
-Level: 38
+Heracross @ Black Belt
+Ability: Guts
+Level: 62
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Brick Break
+- Megahorn
+- Night Slash
+- Earthquake
 
-Machoke @ Black Belt
-Level: 38
+Scizor @ Black Belt
+Ability: Technician
+Level: 62
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Swords Dance
+- Reversal
+- Iron Head
+- Brick Break
 
 === TRAINER_TAMER_COLE ===
 Name: COLE
@@ -13037,16 +13052,26 @@ Class: Tamer
 Pic: Tamer
 Gender: Male
 Music: Hiker
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Swalot
-Level: 39
+Flygon
+Ability: Levitate
+Level: 62
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earthquake
+- Dragon Claw
+- Crunch
+- Rock Slide
 
-Mightyena
-Level: 39
+Mamoswine
+Ability: Oblivious
+Level: 62
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Earthquake
+- Body Slam
+- Rock Slide
+- Ice Shard
 
 === TRAINER_BLACK_BELT_KIYO ===
 Name: KIYO
@@ -13057,9 +13082,14 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machoke @ Black Belt
-Level: 43
+Aggron @ Black Belt
+Ability: Sturdy
+Level: 67
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Metal Burst
+- Brick Break
+- Stone Edge
+- Earthquake
 
 === TRAINER_COOLTRAINER_YUJI ===
 Name: YUJI
@@ -13068,48 +13098,53 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sandslash
-Level: 38
+Ability: Sand Veil
+Level: 62
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Slash
-- Swift
-- Sand Attack
-- Poison Sting
+- Stone Edge
+- X Scissor
+- Swords Dance
 
-Graveler
-Level: 38
+Hippowdon
+Ability: Sand Stream
+Level: 62
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rock Blast
-- Magnitude
-- Mud Sport
-- Defense Curl
+- Slack Off
+- Curse
+- Thunder Fang
+- Fire Fang
 
-Onix
-Level: 38
+Kleavor
+Ability: Sheer Force
+Level: 62
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Dragon Breath
-- Sandstorm
-- Rock Throw
-- Bind
+- Rock Slide
+- X Scissor
+- Agility
+- Stealth Rock
 
-Graveler
-Level: 38
+Magcargo
+Ability: Flame Body
+Level: 62
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rock Blast
-- Magnitude
-- Rollout
-- Defense Curl
+- Flamethrower
+- Rock Slide
+- Amnesia
+- Recover
 
-Marowak
-Level: 38
+Empoleon
+Ability: Torrent
+Level: 62
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Bonemerang
-- Headbutt
-- Leer
-- Growl
+- Drill Peck
+- Aqua Jet
+- Surf
+- Blizzard
 
 === TRAINER_BLACK_BELT_ATSUSHI ===
 Name: ATSUSHI
@@ -13120,13 +13155,23 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machop @ Black Belt
-Level: 40
+Lucario @ Black Belt
+Ability: Inner Focus
+Level: 62
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Dark Pulse
+- Aura Sphere
+- Calm Mind
+- Flash Cannon
 
-Machoke @ Black Belt
-Level: 40
+Infernape @ Black Belt
+Ability: Blaze
+Level: 62
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Thunder Punch
+- Flamethrower
+- Stone Edge
+- Close Combat
 
 === TRAINER_TAMER_JASON ===
 Name: JASON
@@ -13138,7 +13183,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Rhyhorn
-Level: 43
+Level: 62
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_COOLTRAINER_SAMUEL ===
