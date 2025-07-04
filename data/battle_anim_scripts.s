@@ -20635,19 +20635,16 @@ DigSetUp:
 	loadspritegfx ANIM_TAG_DIRT_MOUND
 	createsprite gDirtMoundSpriteTemplate, ANIM_ATTACKER, 1, 0, 0, 180
 	createsprite gDirtMoundSpriteTemplate, ANIM_ATTACKER, 1, 0, 1, 180
-	monbg_static ANIM_ATTACKER
-	delay 1
-	createvisualtask AnimTask_DigDownMovement, 2, FALSE
+	createvisualtask AnimTask_ShakeAndSinkMon, 5, ANIM_ATTACKER, 2, 2, 8, 32
 	delay 6
 	call DigThrowDirt
 	call DigThrowDirt
+	invisible ANIM_ATTACKER
 	call DigThrowDirt
 	call DigThrowDirt
 	call DigThrowDirt
 	waitforvisualfinish
-	clearmonbg_static ANIM_ATTACKER
 	delay 1
-	createvisualtask AnimTask_DigDownMovement, 2, TRUE
 	goto DigEnd
 DigUnleash:
 	loadspritegfx ANIM_TAG_IMPACT
@@ -20659,6 +20656,7 @@ DigUnleash:
 	createsprite gDirtMoundSpriteTemplate, ANIM_ATTACKER, 1, 0, 1, 48
 	delay 1
 	createvisualtask AnimTask_DigUpMovement, 2, TRUE
+	visible ANIM_ATTACKER
 	delay 16
 	createsprite gBasicHitSplatSpriteTemplate, ANIM_ATTACKER, 2, -8, 0, ANIM_TARGET, 2
 	createvisualtask AnimTask_ShakeMon, 2, ANIM_TARGET, 5, 0, 6, 1
