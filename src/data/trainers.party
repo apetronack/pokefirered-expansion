@@ -6816,12 +6816,12 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Giga Drain
 
 Sunflora
-Ability: Chlorophyll
+Ability: Drought
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Flamethrower
 - Razor Leaf
-- Sunny Day
+- Worry Seed
 - Ingrain
 
 Roselia
@@ -12366,11 +12366,11 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sunflora
-Ability: Chlorophyll
+Ability: Drought
 Level: 59
 IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Flamethrower
-- Sunny Day
+- Grasswhistle
 - Leech Seed
 - Solar Beam
 
@@ -12992,7 +12992,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Fire Blast
 
 Sunflora @ Light Clay
-Ability: Solar Power
+Ability: Drought
 Level: 62
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Giga Drain
@@ -13557,48 +13557,53 @@ Pic: Cooltrainer F
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Linoone
-Level: 42
+Electivire
+Ability: Motor Drive
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Fury Swipes
-- Screech
-- Faint Attack
-- Pay Day
+- Light Screen
+- Thunderbolt
+- Earthquake
+- Focus Blast
 
-Growlithe
-Level: 42
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Agility
-- Take Down
-- Fire Spin
-- Stomp
-
-Arcanine
-Level: 42
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Fury Attack
-- Fire Spin
-- Stomp
-- Growl
-
-Vulpix
-Level: 42
+Weezing
+Ability: Levitate
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Flamethrower
-- Confuse Ray
-- Quick Attack
-- Imprison
+- Sludge Bomb
+- Destiny Bond
+- Shadow Ball
 
-Ninetales
-Level: 42
+Cradily @ Leftovers
+Ability: Suction Cups
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Safeguard
-- Will O Wisp
-- Confuse Ray
-- Fire Spin
+- Stockpile
+- Swallow
+- Rock Slide
+- Curse
+
+Wailord
+Ability: Water Veil
+Level: 65
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Waterfall
+- Curse
+- Double Edge
+- Bounce
+
+Glalie
+Ability: Inner Focus
+Level: 65
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ice Beam
+- Crunch
+- Earthquake
+- Body Slam
 
 === TRAINER_COOLTRAINER_ROLANDO ===
 Name: ROLANDO
@@ -13612,7 +13617,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Staraptor
 Ability: Intimidate
-Level: 42
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Close Combat
 - Aerial Ace
@@ -13621,7 +13626,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Ludicolo
 Ability: Swift Swim
-Level: 42
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Rain Dance
 - Giga Drain
@@ -13630,7 +13635,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Gorebyss
 Ability: Swift Swim
-Level: 42
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Psychic
 - Brine
@@ -13639,7 +13644,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Ninetales
 Ability: Flash Fire
-Level: 42
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Flamethrower
 - Confuse Ray
@@ -13648,7 +13653,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Gallade
 Ability: Sharpness
-Level: 42
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Leaf Blade
 - Psycho Cut
@@ -13664,17 +13669,32 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machoke @ Black Belt
-Level: 43
+Huntail @ Blackglasses
+Ability: Swift Swim
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rain Dance
+- Aqua Tail
+- Ice Fang
+- Crunch
 
-Machop @ Black Belt
-Level: 43
+Ampharos @ Black Belt
+Ability: Static
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Light Screen
+- Signal Beam
+- Focus Blast
+- Thunderbolt
 
-Machoke @ Black Belt
-Level: 43
+Tyranitar @ Black Belt
+Ability: Sand Stream
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Stone Edge
+- Crunch
+- Dragon Dance
+- Brick Break
 
 === TRAINER_JUGGLER_NELSON ===
 Name: NELSON
@@ -13685,21 +13705,41 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Drowzee
-Level: 41
+Crobat
+Ability: Inner Focus
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Cross Poison
+- Dark Pulse
+- Brave Bird
+- U Turn
 
-Hypno
-Level: 41
+Typhlosion
+Ability: Blaze
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Fire Blast
+- Body Slam
+- Earthquake
+- Attract
 
-Kadabra
-Level: 41
+Obstagoon
+Ability: Guts
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Cross Chop
+- Night Slash
+- Hone Claws
+- Ice Punch
 
-Kadabra
-Level: 41
+Gardevoir
+Ability: Synchronize
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Calm Mind
+- Psychic
+- Thunderbolt
+- Shadow Ball
 
 === TRAINER_TAMER_VINCENT ===
 Name: VINCENT
@@ -13707,16 +13747,26 @@ Class: Tamer
 Pic: Tamer
 Gender: Male
 Music: Hiker
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Linoone
-Level: 44
+Sceptile
+Ability: Overgrow
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Slam
+- Leaf Blade
+- X Scissor
+- Rock Slide
 
-Golduck
-Level: 44
+Claydol
+Ability: Levitate
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Cosmic Power
+- Earth Power
+- Charge Beam
+- Psychic
 
 === TRAINER_JUGGLER_GREGORY ===
 Name: GREGORY
@@ -13727,13 +13777,14 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Mr Mime
-Level: 48
+Dusknoir
+Ability: Pressure
+Level: 70
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Psychic
-- Role Play
-- Double Slap
-- Encore
+- Focus Blast
+- Will O Wisp
+- Ominous Wind
+- Pain Split
 
 === TRAINER_COOLTRAINER_GEORGE ===
 Name: GEORGE
@@ -13745,44 +13796,49 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Exeggutor
-Level: 42
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Egg Bomb
-- Confusion
-- Stun Spore
-- Sleep Powder
-
-Sandslash
-Level: 42
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Fury Swipes
-- Swift
-- Poison Sting
-- Sand Attack
-
 Cloyster
-Level: 42
+Ability: Skill Link
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Spike Cannon
 - Spikes
-- Aurora Beam
-- Supersonic
+- Icicle Spear
+- Poison Jab
 
-Electrode
-Level: 42
+Exeggutor
+Ability: Chlorophyll
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Spark
-- Sonic Boom
+- Energy Ball
+- Dream Eater
+- Leech Seed
+- Sleep Powder
+
+Umbreon
+Ability: Synchronize
+Level: 68
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Screech
-- Light Screen
+- Assurance
+- Curse
+- Wish
+
+Luxray
+Ability: Intimidate
+Level: 68
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Crunch
+- Thunder Fang
+- Scary Face
+- Ice Fang
 
 Arcanine
-Level: 42
+Ability: Intimidate
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Flame Wheel
-- Roar
-- Bite
+- Flare Blitz
+- Thunder Fang
+- Crunch
 - Take Down
 
 === TRAINER_COOLTRAINER_ALEXA ===
@@ -13795,45 +13851,48 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Clefairy
-Level: 42
+Clefable
+Ability: Magic Guard
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Light Screen
-- Cosmic Power
-- Double Slap
-- Encore
-
-Clefairy
-Level: 42
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Sing
+- Reflect
 - Body Slam
-- Rollout
-- Disable
+- Softboiled
 
-Linoone
-Level: 42
+Farigaraf
+Ability: Inner Focus
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Pay Day
-- Faint Attack
-- Bite
-- Screech
+- Nasty Plot
+- Psychic
+- Uproar
+- Charge Beam
 
-Sealeo
-Level: 42
+Meganium @ Persim Berry
+Ability: Overgrow
+Level: 68
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Synthesis
+- Reflect
+- Petal Dance
+- Earthquake
+
+Walrein @ Chesto Berry
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sheer Cold
-- Take Down
+- Surf
 - Rest
-- Aurora Beam
+- Ice Beam
 
 Miltank
-Level: 42
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Sing
-- Egg Bomb
-- Soft Boiled
-- Minimize
+- Milk Drink
+- Zen Headbutt
+- Body Slam
+- Iron Tail
 
 === TRAINER_COOLTRAINER_COLBY ===
 Name: COLBY
@@ -13845,45 +13904,50 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Floatzel
-Level: 41
+Aerodactyl
+Ability: Rock Head
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Guillotine
-- Stomp
-- Mud Shot
-- Bubble
+- Rock Slide
+- Iron Head
+- Double Edge
+- Roost
 
-Poliwhirl
-Level: 42
+Exploud
+Ability: Soundproof
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Body Slam
-- Double Slap
-- Water Gun
-- Hypnosis
+- Hyper Voice
+- Howl
+- Brick Break
+- Crunch
 
-Tentacruel
-Level: 42
+Jolteon
+Ability: Volt Absorb
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Barrier
-- Wrap
-- Bubble Beam
-- Acid
+- Thunderbolt
+- Thunder Wave
+- Charm
+- Shadow Ball
 
-Seadra
-Level: 42
+Steelix
+Ability: Sturdy
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Water Gun
-- Smokescreen
-- Twister
-- Leer
+- Stone Edge
+- Screech
+- Earthquake
+- Explosion
 
-Blastoise
-Level: 43
+Feraligatr
+Ability: Torrent
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Water Gun
-- Bite
-- Rapid Spin
-- Rain Dance
+- Aqua Tail
+- Superpower
+- Dragon Dance
+- Ice Punch
 
 === TRAINER_COOLTRAINER_CAROLINE ===
 Name: CAROLINE
@@ -13895,45 +13959,50 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Bellsprout
-Level: 42
+Magnezone
+Ability: Sturdy
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Razor Leaf
-- Acid
-- Stun Spore
-- Poison Powder
+- Zap Cannon
+- Flash Cannon
+- Tri Attack
+- Reflect
 
-Weepinbell
-Level: 42
+Kingdra
+Ability: Sniper
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Razor Leaf
-- Acid
-- Sleep Powder
-- Poison Powder
+- Hydro Pump
+- Ice Beam
+- Signal Beam
+- Agility
 
 Victreebel
-Level: 42
+Ability: Chlorophyll
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Razor Leaf
-- Acid
-- Stun Spore
+- Swords Dance
+- Leaf Blade
+- Frustration
 - Sleep Powder
 
-Paras
-Level: 42
+Flareon @ White Herb
+Ability: Flash Fire
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Growth
-- Slash
-- Leech Life
-- Stun Spore
+- Curse
+- Wish
+- Double Edge
+- Fire Blast
 
-Parasect
-Level: 42
+Parasect @ Big Root
+Ability: Effect Spore
+Level: 68
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Spore
-- Slash
-- Leech Life
-- Poison Powder
+- Growth
+- X Scissor
+- Giga Drain
 
 === TRAINER_COOL_COUPLE_RAY_TYRA ===
 Name: RAY & TYRA
@@ -13945,20 +14014,22 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidoqueen
-Level: 45
+Ability: Rivalry
+Level: 72
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Superpower
-- Body Slam
-- Double Kick
-- Poison Sting
+- Thunderbolt
+- Sludge Bomb
+- Earth Power
 
 Nidoking
-Level: 45
+Ability: Rivalry
+Level: 72
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Megahorn
-- Thrash
-- Double Kick
-- Poison Sting
+- Poison Jab
+- Blizzard
+- Earth Power
 
 === TRAINER_POKEMANIAC_DAWSON ===
 Name: DAWSON
@@ -13969,17 +14040,32 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Charmeleon
-Level: 40
+Slaking
+Ability: Truant
+Level: 70
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Giga Impact
+- Hammer Arm
+- Amnesia
+- Shadow Ball
 
-Lapras
-Level: 40
+Sunflora
+Ability: Drought
+Level: 70
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Solar Beam
+- Sludge Bomb
+- Flamethrower
+- Synthesis
 
 Kangaskhan
-Level: 40
+Ability: Scrappy
+Level: 70
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Fake Out
+- Hammer Arm
+- Crush Claw
+- Sucker Punch
 
 === TRAINER_ELITE_FOUR_LORELEI ===
 Name: LORELEI
