@@ -247,7 +247,7 @@
 #define P_FAMILY_RELICANTH               FALSE
 #define P_FAMILY_LUVDISC                 FALSE
 #define P_FAMILY_BAGON                   FALSE
-#define P_FAMILY_BELDUM                  FALSE
+#define P_FAMILY_BELDUM                  P_GEN_3_POKEMON
 #define P_FAMILY_REGIROCK                P_GEN_3_POKEMON
 #define P_FAMILY_REGICE                  P_GEN_3_POKEMON
 #define P_FAMILY_REGISTEEL               P_GEN_3_POKEMON
