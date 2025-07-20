@@ -238,7 +238,8 @@
     "BirthIsland_Harbor",
     "NavelRock_Harbor",
     "CaveOfInnerStrength",
-    "CritterCave"
+    "CritterCave",
+    "ShadowClawArea"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PalletTown",

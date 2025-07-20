@@ -1375,3 +1375,6 @@ Text_TestMsg::
 
 	.include "data/maps/CritterCave/scripts.inc"
 	.include "data/maps/CritterCave/text.inc"
+
+	.include "data/maps/ShadowClawArea/scripts.inc"
+	.include "data/maps/ShadowClawArea/text.inc"

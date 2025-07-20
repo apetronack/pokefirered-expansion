@@ -215,6 +215,7 @@ Cap 6: Giovanni 1, level 33
         TRAINER_BIKER_RICARDO
         TRAINER_GAMER_STAN
         TRAINER_SUPER_NERD_AIDAN
+        TRAINER_MASTER_CHANNELER
     Route 7
         No trainers
     Celadon City

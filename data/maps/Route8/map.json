@@ -265,6 +265,20 @@
       "elevation": 3,
       "dest_map": "MAP_ROUTE8_WEST_ENTRANCE",
       "dest_warp_id": "2"
+    },
+    {
+      "x": 61,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_SHADOW_CLAW_AREA",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 53,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_SHADOW_CLAW_AREA",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

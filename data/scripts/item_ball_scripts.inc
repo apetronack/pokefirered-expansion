@@ -114,6 +114,10 @@ Route25_EventScript_ItemTM43::
 	finditem ITEM_TM43
 	end
 
+ShadowClawArea_EventScript_ItemTM92::
+	finditem ITEM_TM92
+	end
+
 SSAnne_1F_Room2_EventScript_ItemTM31::
 	finditem ITEM_TM31
 	end

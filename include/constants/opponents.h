@@ -53,7 +53,7 @@
 #define TRAINER_DRAGON_TAMER                      46
 #define TRAINER_RS_BIRD_KEEPER                    47
 #define TRAINER_MASTER_BUG_CATCHER                         48
-#define TRAINER_BATTLE_GIRL                       49
+#define TRAINER_MASTER_CHANNELER                      49
 #define TRAINER_PARASOL_LADY                      50
 #define TRAINER_RS_SWIMMER_F                      51
 #define TRAINER_RS_PICNICKER                      52

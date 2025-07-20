@@ -4404,6 +4404,18 @@
       "secondary_tileset": "gTileset_SeviiIslands123",
       "border_filepath": "data/layouts/CritterCave/border.bin",
       "blockdata_filepath": "data/layouts/CritterCave/map.bin"
+    },
+    {
+      "id": "LAYOUT_SHADOW_CLAW_AREA",
+      "name": "ShadowClawArea_Layout",
+      "width": 30,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_CeruleanCave",
+      "border_filepath": "data/layouts/ShadowClawArea/border.bin",
+      "blockdata_filepath": "data/layouts/ShadowClawArea/map.bin"
     }
   ]
 }

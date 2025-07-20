@@ -544,7 +544,7 @@
 #define FLAG_HIDE_ROUTE10_TM73   0x20A
 #define FLAG_HIDE_ROUTE12_TM59   0x20B
 #define FLAG_GOT_TM89            0x20C
-#define FLAG_0x20D               0x20D
+#define FLAG_HIDE_TM92           0x20D
 #define FLAG_0x20E               0x20E
 #define FLAG_0x20F               0x20F
 #define FLAG_0x210               0x210
@@ -805,7 +805,7 @@
 #define FLAG_HIDE_FUSCHIA_GYM_GUARDIAN               0x307
 #define FLAG_HIDE_CINNABAR_MANSION_GUARDIAN          0x308
 #define FLAG_GOT_TM52_FROM_KOICHI                    0x309
-#define FLAG_0x30A               0x30A
+#define FLAG_GOT_TM65            0x30A
 #define FLAG_0x30B               0x30B
 #define FLAG_0x30C               0x30C
 #define FLAG_0x30D               0x30D
@@ -1267,7 +1267,7 @@
 
 // Unused?
 #define FLAG_DEFEATED_MASTER_BUG_CATCHER       0x4C8
-#define FLAG_0x4C9               0x4C9
+#define FLAG_DEFEATED_MASTER_CHANNELER         0x4C9
 #define FLAG_0x4CA               0x4CA
 #define FLAG_0x4CB               0x4CB
 #define FLAG_0x4CC               0x4CC
