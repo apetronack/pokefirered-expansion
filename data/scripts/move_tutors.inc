@@ -61,22 +61,28 @@ EventScript_ThunderWaveTaught::
 RockTunnel_B1F_EventScript_RockSlideTutor::
 	lock
 	faceplayer
-.if I_REUSABLE_TMS == FALSE
-	goto_if_set FLAG_TUTOR_ROCK_SLIDE, EventScript_RockSlideTaught
-.endif
 	msgbox Text_RockSlideTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_RockSlideDeclined
-	call EventScript_CanOnlyBeLearnedOnce
-	goto_if_eq VAR_RESULT, NO, EventScript_RockSlideDeclined
-	msgbox Text_RockSlideWhichMon
-	setvar VAR_0x8005, MOVE_ROCK_SLIDE
-	call EventScript_ChooseMoveTutorMon
-	goto_if_eq VAR_RESULT, FALSE, EventScript_RockSlideDeclined
-.if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_ROCK_SLIDE
-.endif
-	goto EventScript_RockSlideTaught
+	goto_if_set FLAG_TUTOR_ROCK_SLIDE, EventScript_RockSlideTaught
+	goto RockTunnel_B1F_EventScript_CheckItemSpace
+	release
 	end
+
+RockTunnel_B1F_EventScript_CheckItemSpace::
+	checkitemspace ITEM_TM80
+	compare VAR_RESULT, FALSE
+	goto_if_eq RockTunnel_B1F_EventScript_NoSpace
+	giveitem_msg Text_RockSlideTaught, ITEM_TM80
+	setflag FLAG_TUTOR_ROCK_SLIDE
+	end
+
+RockTunnel_B1F_EventScript_NoSpace::
+	msgbox RockTunnel_B1F_EventScript_NoSpace_Text
+	release
+	end
+
+RockTunnel_B1F_EventScript_NoSpace_Text:
+	.string "You should make room for this.$"
 
 EventScript_RockSlideDeclined::
 	msgbox Text_RockSlideDeclined
