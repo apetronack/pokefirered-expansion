@@ -16,6 +16,11 @@ ViridianForest_Text_RickPostBattle::
     .string "Ssh! You'll scare the bugs away.\n"
     .string "Another time, okay?$"
 
+ViridianForest_Text_RickGaveItems::
+    .string "Darn! Well, you seem nice\n"
+    .string "anyway. You might need\p"
+    .string "some of these pretty soon!$"
+
 ViridianForest_Text_DougIntro::
     .string "Yo!\n"
     .string "You can't jam out if you're a\l"
