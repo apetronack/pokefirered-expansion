@@ -176,7 +176,7 @@
       "elevation": 3,
       "item": "ITEM_GREAT_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE4_GREAT_BALL",
-      "quantity": 1,
+      "quantity": 5,
       "underfoot": false
     },
     {
@@ -186,7 +186,7 @@
       "elevation": 3,
       "item": "ITEM_PERSIM_BERRY",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE4_PERSIM_BERRY",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     },
     {
@@ -196,7 +196,7 @@
       "elevation": 3,
       "item": "ITEM_RAZZ_BERRY",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE4_RAZZ_BERRY",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     }
   ]

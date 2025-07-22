@@ -231,7 +231,7 @@
       "elevation": 0,
       "item": "ITEM_ETHER",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE9_ETHER",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     },
     {
@@ -251,7 +251,7 @@
       "elevation": 3,
       "item": "ITEM_CHESTO_BERRY",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE9_CHESTO_BERRY",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     }
   ]

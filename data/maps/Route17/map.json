@@ -235,7 +235,7 @@
       "elevation": 3,
       "item": "ITEM_FULL_RESTORE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE17_FULL_RESTORE",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     },
     {
@@ -255,7 +255,7 @@
       "elevation": 3,
       "item": "ITEM_MAX_REVIVE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE17_MAX_REVIVE",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     },
     {
@@ -265,7 +265,7 @@
       "elevation": 3,
       "item": "ITEM_MAX_ELIXIR",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE17_MAX_ELIXIR",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     }
   ]

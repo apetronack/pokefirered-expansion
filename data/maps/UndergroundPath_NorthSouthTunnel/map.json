@@ -40,7 +40,7 @@
       "elevation": 3,
       "item": "ITEM_POTION",
       "flag": "FLAG_HIDDEN_ITEM_UNDERGROUND_PATH_NORTH_SOUTH_TUNNEL_POTION",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     },
     {
@@ -50,7 +50,7 @@
       "elevation": 3,
       "item": "ITEM_ANTIDOTE",
       "flag": "FLAG_HIDDEN_ITEM_UNDERGROUND_PATH_NORTH_SOUTH_TUNNEL_ANTIDOTE",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     },
     {
@@ -60,7 +60,7 @@
       "elevation": 3,
       "item": "ITEM_BURN_HEAL",
       "flag": "FLAG_HIDDEN_ITEM_UNDERGROUND_PATH_NORTH_SOUTH_TUNNEL_BURN_HEAL",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     },
     {
@@ -70,7 +70,7 @@
       "elevation": 3,
       "item": "ITEM_AWAKENING",
       "flag": "FLAG_HIDDEN_ITEM_UNDERGROUND_PATH_NORTH_SOUTH_TUNNEL_AWAKENING",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     },
     {
@@ -80,7 +80,7 @@
       "elevation": 3,
       "item": "ITEM_ICE_HEAL",
       "flag": "FLAG_HIDDEN_ITEM_UNDERGROUND_PATH_NORTH_SOUTH_TUNNEL_ICE_HEAL",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     },
     {
@@ -90,7 +90,7 @@
       "elevation": 3,
       "item": "ITEM_PARALYZE_HEAL",
       "flag": "FLAG_HIDDEN_ITEM_UNDERGROUND_PATH_NORTH_SOUTH_TUNNEL_PARALYZE_HEAL",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     },
     {
@@ -100,7 +100,7 @@
       "elevation": 3,
       "item": "ITEM_ETHER",
       "flag": "FLAG_HIDDEN_ITEM_UNDERGROUND_PATH_NORTH_SOUTH_TUNNEL_ETHER",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     }
   ]

@@ -202,7 +202,7 @@
       "elevation": 0,
       "item": "ITEM_ELIXIR",
       "flag": "FLAG_HIDDEN_ITEM_SILPH_CO_5F_ELIXIR",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     },
     {
