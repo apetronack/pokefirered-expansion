@@ -808,7 +808,7 @@
 #define FLAG_GOT_TM65            0x30A
 #define FLAG_BEAT_IRIS           0x30B // Beat Iris and received potions in Mt Moon
 #define FLAG_BEAT_RICK           0x30C
-#define FLAG_0x30D               0x30D
+#define FLAG_BEAT_THOMAS         0x30D
 #define FLAG_0x30E               0x30E
 #define FLAG_0x30F               0x30F
 #define FLAG_0x310               0x310
