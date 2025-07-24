@@ -149,7 +149,7 @@
       "elevation": 0,
       "item": "ITEM_ULTRA_BALL",
       "flag": "FLAG_HIDDEN_ITEM_VICTORY_ROAD_1F_ULTRA_BALL",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     },
     {
@@ -159,7 +159,7 @@
       "elevation": 0,
       "item": "ITEM_FULL_RESTORE",
       "flag": "FLAG_HIDDEN_ITEM_VICTORY_ROAD_1F_FULL_RESTORE",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     }
   ]

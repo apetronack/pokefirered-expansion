@@ -41,7 +41,14 @@ ViridianForest_EventScript_ExitSign::
 
 ViridianForest_EventScript_Rick::
 	trainerbattle_single TRAINER_BUG_CATCHER_RICK, ViridianForest_Text_RickIntro, ViridianForest_Text_RickDefeat
+	goto_if_set FLAG_BEAT_RICK, ViridianForest_EventScript_RickDefeated
+	giveitem_msg ViridanForest_Text_RickGaveItems, ITEM_ANTIDOTE, 10
+	setflag FLAG_BEAT_RICK
+	end
+
+ViridianForest_EventScript_RickDefeated::
 	msgbox ViridianForest_Text_RickPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 ViridianForest_EventScript_Doug::

@@ -387,7 +387,7 @@ AI: AI_FLAG_SMART_TRAINER
 SPECIES_GEODUDE_ALOLA @ Smooth Rock
 Ability: Sturdy
 Impish Nature
-Level: 12
+Level: 11
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Sandstorm
 - Defense Curl
@@ -397,7 +397,7 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 SPECIES_GROWLITHE_HISUI
 Ability: Intimidate
 Lonely Nature
-Level: 13
+Level: 12
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Bite
 - Flame Wheel
@@ -407,7 +407,7 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 Omanyte
 Ability: Shell Armor
 Hasty Nature
-Level: 13
+Level: 12
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Water Gun
 - Spikes
@@ -417,7 +417,7 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 Anorith
 Ability: Battle Armor
 Jolly Nature
-Level: 13
+Level: 12
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Water Gun
 - Cut
@@ -2272,7 +2272,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Kabuto @ Damp Rock
 Ability: Swift Swim
 Lonely Nature
-Level: 23
+Level: 22
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Mud Shot
 - Rain Dance
@@ -2292,7 +2292,7 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 Mantine
 Ability: Swift Swim
 Sassy Nature
-Level: 23
+Level: 22
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Wing Attack
 - Headbutt
@@ -3618,7 +3618,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 25
+Level: 24
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Wing Attack
 - Secret Power
@@ -3628,7 +3628,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Flaaffy @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 25
+Level: 24
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Shock Wave
@@ -3677,7 +3677,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 25
+Level: 24
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Wing Attack
 - Secret Power
@@ -3687,7 +3687,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Flaaffy @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 25
+Level: 24
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Shock Wave
@@ -3736,7 +3736,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staravia @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 25
+Level: 24
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Wing Attack
 - Secret Power
@@ -3746,7 +3746,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Flaaffy @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 25
+Level: 24
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Shock Wave
@@ -3922,7 +3922,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 SPECIES_ELECTRODE_HISUI
 Ability: Static
 Timid Nature
-Level: 28
+Level: 27
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Wave
 - Energy Ball
@@ -3952,7 +3952,7 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Electabuzz
 Ability: Static
 Hasty Nature
-Level: 28
+Level: 27
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Thunder Punch
 - Low Kick
@@ -6037,7 +6037,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Gligar @ Black Glasses
 Ability: Hyper Cutter
 Jolly Nature
-Level: 34
+Level: 31
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Poison Jab
 - Slash
@@ -6047,7 +6047,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 Sandslash 
 Ability: Sand Veil
 Jolly Nature
-Level: 34
+Level: 32
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Fury Cutter
 - Rock Slide
@@ -6057,7 +6057,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 Kangaskhan @ Muscle Band
 Ability: Scrappy
 Naughty Nature
-Level: 34
+Level: 33
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Mega Punch
 - Rock Smash
@@ -6141,7 +6141,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staraptor @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 35
+Level: 34
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Aerial Ace
 - Close Combat
@@ -6151,7 +6151,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 Ampharos @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 35
+Level: 34
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Thunder Wave
 - Discharge
@@ -6210,7 +6210,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staraptor @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 35
+Level: 34
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Aerial Ace
 - Close Combat
@@ -6220,7 +6220,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 Ampharos @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 35
+Level: 34
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Thunder Wave
 - Discharge
@@ -6279,7 +6279,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Staraptor @ Persim Berry
 Ability: Intimidate
 Adamant Nature
-Level: 35
+Level: 34
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Aerial Ace
 - Close Combat
@@ -6289,7 +6289,7 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 Ampharos @ Quick Claw
 Ability: Static
 Lax Nature
-Level: 35
+Level: 34
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Thunder Wave
 - Discharge
@@ -6999,7 +6999,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Exeggutor @ Heat Rock
 Ability: Chlorophyll
 Timid Nature
-Level: 38
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sunny Day
 - Leech Seed
@@ -7009,7 +7009,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Breloom @ Toxic Orb
 Ability: Poison Heal
 Adamant Nature
-Level: 38
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sky Uppercut
 - Mach Punch
@@ -7019,7 +7019,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Victreebel @ Black Sludge
 Ability: Chlorophyll
 Modest Nature
-Level: 38
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Weather Ball
 - Sludge Bomb
@@ -9583,7 +9583,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 
 Skarmory @ Leftovers
 Ability: Sturdy
-Level: 43
+Level: 41
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Spikes
 - Steel Wing
@@ -9592,7 +9592,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Typhlosion @ Power Herb
 Ability: Blaze
-Level: 43
+Level: 42
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Flamethrower
 - Sunny Day
@@ -9601,7 +9601,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Sceptile @ Razor Claw
 Ability: Overgrow
-Level: 43
+Level: 42
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Leaf Blade
 - X-Scissor
@@ -9646,7 +9646,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 
 Skarmory @ Leftovers
 Ability: Sturdy
-Level: 43
+Level: 41
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Spikes
 - Steel Wing
@@ -9655,7 +9655,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Feraligatr @ Muscle Band
 Ability: Torrent
-Level: 43
+Level: 42
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Ice Fang
 - Crunch
@@ -9664,7 +9664,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Blaziken @ Black Belt
 Ability: Blaze
-Level: 43
+Level: 42
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Bulk Up
 - Blaze Kick
@@ -9709,7 +9709,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 
 Skarmory @ Leftovers
 Ability: Sturdy
-Level: 43
+Level: 41
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Spikes
 - Steel Wing
@@ -9718,7 +9718,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Meganium @ Light Clay
 Ability: Overgrow
-Level: 43
+Level: 42
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Light Screen
 - Energy Ball
@@ -9727,7 +9727,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 
 Swampert @ NevermeltIce
 Ability: Torrent
-Level: 43
+Level: 42
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Waterfall
 - Brick Break
@@ -10116,7 +10116,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Hippowdon @ Earth Plate
 Ability: Sand Stream
 Adamant Nature
-Level: 48
+Level: 46
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Ice Fang
 - Crunch
@@ -10126,7 +10126,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Gliscor @ Poison Barb
 Ability: Sand Veil
 Jolly Nature
-Level: 48
+Level: 46
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Aerial Ace
 - Fire Fang
@@ -10136,7 +10136,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Swampert @ Mystic Water
 Ability: Torrent
 Sassy Nature
-Level: 48
+Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Brick Break
 - Earthquake
@@ -10527,7 +10527,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Mr Mime @ Light Clay
 Ability: Filter
 Timid Nature
-Level: 52
+Level: 51
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Reflect
 - Psychic
@@ -10547,7 +10547,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 Hypno @ Wide Lens
 Ability: Insomnia
 Adamant Nature
-Level: 52
+Level: 51
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Hypnosis
 - Nightmare
@@ -10809,7 +10809,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Skuntank
 Ability: Aftermath
 Lax Nature
-Level: 55
+Level: 53
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Night Slash
 - Flamethrower
@@ -10817,7 +10817,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Toxic
 
 Roserade @ Metronome
-Level: 55
+Level: 54
 Ability: Natural Cure
 Modest Nature
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
@@ -10829,7 +10829,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 Venomoth @ Wise Glasses
 Ability: Tinted Lens
 Modest Nature
-Level: 55
+Level: 53
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Psychic
 - Supersonic
@@ -10837,7 +10837,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Toxic
 
 Clodsire @ Black Sludge
-Level: 55
+Level: 54
 Ability: Water Absorb
 Brave Nature
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
@@ -10885,7 +10885,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 
 Tangrowth
 Ability: Leaf Guard
-Level: 31
+Level: 55
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Ancient Power
 - Slam
@@ -12964,7 +12964,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Ninetales @ Wide Lens
 Ability: Drought
 Timid Nature
-Level: 62
+Level: 60
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Fire Blast
 - Will-O-Wisp
@@ -12984,7 +12984,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Camerupt @ Passho Berry
 Ability: Solid Rock
 Gentle Nature
-Level: 62
+Level: 61
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Yawn
 - Earthquake
@@ -13372,7 +13372,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 
 Staraptor @ Choice Band
 Ability: Intimidate
-Level: 67
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Brave Bird
 - Close Combat
@@ -13381,7 +13381,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Flygon @ Choice Scarf
 Ability: Levitate
-Level: 67
+Level: 66
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Dragon Claw
 - Earthquake
@@ -13390,7 +13390,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Milotic @ Leftovers
 Ability: Marvel Scale
-Level: 67
+Level: 66
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Aqua Ring
 - Toxic
@@ -13435,7 +13435,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 
 Staraptor @ Choice Band
 Ability: Intimidate
-Level: 67
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Brave Bird
 - Close Combat
@@ -13444,7 +13444,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Flygon @ Choice Scarf
 Ability: Levitate
-Level: 67
+Level: 66
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Dragon Claw
 - Earthquake
@@ -13453,7 +13453,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Arcanine @ Kings Rock
 Ability: Intimidate
-Level: 67
+Level: 66
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Thunder Fang
 - Extreme Speed
@@ -13498,7 +13498,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 
 Staraptor @ Choice Band
 Ability: Intimidate
-Level: 67
+Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Brave Bird
 - Close Combat
@@ -13507,7 +13507,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Flygon @ Choice Scarf
 Ability: Levitate
-Level: 67
+Level: 66
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Dragon Claw
 - Earthquake
@@ -13516,7 +13516,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Roserade @ Black Sludge
 Ability: Poison Point
-Level: 67
+Level: 66
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sludge Bomb
 - Giga Drain
@@ -14079,7 +14079,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 Mugshot: Purple
 
 Abomasnow @ Quick Claw
-Level: 72
+Level: 71
 Ability: Snow Warning
 Quirky Nature
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
@@ -14089,7 +14089,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Brick Break
 
 Cloyster @ Lum Berry
-Level: 72
+Level: 71
 Ability: Shell Armor
 Modest Nature
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
@@ -14152,7 +14152,7 @@ Mugshot: Green
 Steelix @ Passho Berry
 Ability: Rock Head
 Careful Nature
-Level: 73
+Level: 72
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Earthquake
 - Double Edge
@@ -14162,7 +14162,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 Heracross @ Life Orb
 Ability: Swarm
 Adamant Nature
-Level: 73
+Level: 72
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Rock Slide
 - Megahorn
@@ -14222,7 +14222,7 @@ Mugshot: Pink
 Drifblim @ Petaya Berry
 Ability: Unburden
 Lonely Nature
-Level: 74
+Level: 73
 - Ominous Wind
 - Baton Pass
 - Silver Wind
@@ -14231,7 +14231,7 @@ Level: 74
 Spiritomb @ Leftovers
 Ability: Pressure
 Calm Nature
-Level: 74
+Level: 73
 - Nasty Plot
 - Dark Pulse
 - Shadow Ball
@@ -14291,7 +14291,7 @@ Mugshot: Blue
 Skarmory @ Leftovers
 Ability: Sturdy
 Modest Nature
-Level: 75
+Level: 74
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Fly
 - Stealth Rock
@@ -14301,7 +14301,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 Aerodactyl @ Choice Band
 Ability: Rock Head
 Adamant Nature
-Level: 75
+Level: 74
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Thunder Fang
 - Rock Slide
@@ -14360,7 +14360,7 @@ Mugshot: Yellow
 Staraptor @ White Herb
 Jolly Nature
 Ability: Intimidate
-Level: 78
+Level: 76
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Brave Bird
 - Feather Dance
@@ -14370,7 +14370,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 Alakazam @ Light Clay
 Modest Nature
 Ability: Synchronize
-Level: 78
+Level: 76
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Psychic
 - Focus Blast
@@ -14428,7 +14428,7 @@ Mugshot: Yellow
 Staraptor @ White Herb
 Jolly Nature
 Ability: Intimidate
-Level: 78
+Level: 76
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Brave Bird
 - Feather Dance
@@ -14438,7 +14438,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 Alakazam @ Light Clay
 Modest Nature
 Ability: Synchronize
-Level: 78
+Level: 76
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Psychic
 - Focus Blast
@@ -14499,7 +14499,7 @@ Mugshot: Yellow
 Staraptor @ White Herb
 Jolly Nature
 Ability: Intimidate
-Level: 78
+Level: 76
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Brave Bird
 - Feather Dance
@@ -14509,7 +14509,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 Alakazam @ Light Clay
 Modest Nature
 Ability: Synchronize
-Level: 78
+Level: 76
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Psychic
 - Focus Blast

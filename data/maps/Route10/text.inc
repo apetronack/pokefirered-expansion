@@ -50,6 +50,10 @@ Route10_Text_HeidiPostBattle::
     .string "Can you imagine? Them?\n"
     .string "Up here in the mountains?$"
 
+Route10_Text_HeidiGaveItems::
+    .string "Rock Tunnel gets tough!\n"
+    .string "You should take these.$"
+
 Route10_Text_TrentIntro::
     .string "Ah!\n"
     .string "This mountain air is delicious!$"

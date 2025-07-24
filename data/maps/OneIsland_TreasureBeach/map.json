@@ -104,7 +104,7 @@
       "elevation": 3,
       "item": "ITEM_ULTRA_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ONE_ISLAND_TREASURE_BEACH_ULTRA_BALL",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     },
     {
@@ -114,7 +114,7 @@
       "elevation": 3,
       "item": "ITEM_ULTRA_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ONE_ISLAND_TREASURE_BEACH_ULTRA_BALL_2",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     },
     {

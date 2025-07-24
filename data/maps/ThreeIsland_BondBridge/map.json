@@ -183,7 +183,7 @@
       "elevation": 0,
       "item": "ITEM_MAX_REPEL",
       "flag": "FLAG_HIDDEN_ITEM_THREE_ISLAND_BOND_BRIDGE_MAX_REPEL",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     },
     {

@@ -28,8 +28,16 @@ MtMoon_1F_EventScript_Miriam::
 
 MtMoon_1F_EventScript_Iris::
 	trainerbattle_single TRAINER_LASS_IRIS, MtMoon_1F_Text_IrisIntro, MtMoon_1F_Text_IrisDefeat
-	msgbox MtMoon_1F_Text_IrisPostBattle, MSGBOX_AUTOCLOSE
+	goto_if_set FLAG_BEAT_IRIS, MtMoon_1F_EventScript_IrisDefeated
+	giveitem_msg MtMoon_1F_Text_IrisGaveItems, ITEM_POTION, 15
+	setflag FLAG_BEAT_IRIS
 	end
+
+MtMoon_1F_EventScript_IrisDefeated::
+	msgbox MtMoon_1F_Text_IrisPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
 
 MtMoon_1F_EventScript_Jovan::
 	trainerbattle_single TRAINER_SUPER_NERD_JOVAN, MtMoon_1F_Text_JovanIntro, MtMoon_1F_Text_JovanDefeat
