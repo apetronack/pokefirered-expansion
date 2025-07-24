@@ -175,13 +175,6 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Caterpie
-Ability: Shield Dust
-Level: 6
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Tackle
-- String Shot
-
 Metapod
 Ability: Shed Skin
 Level: 7
@@ -306,14 +299,6 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Selfdestruct
 - Tackle
 - Protect
-
-Spinarak
-Ability: Swarm
-Level: 9 
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Constrict
-- Poison Sting
-- String Shot
 
 Butterfree
 Ability: Compound Eyes
@@ -461,15 +446,6 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Foresight
 - Tackle
 
-Wingull
-Ability: Keen Eye
-Level: 13
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Wing Attack
-- Supersonic
-- Water Gun
-- Growl
-
 === TRAINER_BUG_CATCHER_COLTON ===
 Name: COLTON
 Class: Bug Catcher
@@ -478,15 +454,6 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Skorupi
-Ability: Battle Armor
-Level: 13
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Pin Missile
-- Leer
-- Poison Sting
-- Bite
 
 Venonat
 Ability: Tinted Lens
@@ -586,15 +553,6 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Self Destruct
 - Protect
 
-Venonat
-Ability: Tinted Lens
-Level: 14
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Poison Powder
-- Confusion
-- Supersonic
-- Disable
-
 Butterfree
 Ability: Compound Eyes
 Level: 14
@@ -612,15 +570,6 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Taillow
-Ability: Guts
-Level: 14
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Wing Attack
-- Quick Attack
-- Growl
-- Focus Energy
 
 Mankey
 Ability: Anger Point
@@ -757,23 +706,6 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Quick Attack
 - Defense Curl
 
-Corphish
-Ability: Shell Armor
-Level: 15
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Cut
-- ViceGrip
-- Leer
-- Bubble
-
-Luxio
-Ability: Intimidate
-Level: 15
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Bite
-- Leer
-- Tackle
-
 === TRAINER_BUG_CATCHER_KENT ===
 Name: KENT
 Class: Bug Catcher
@@ -810,14 +742,6 @@ Music: Female
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Ralts
-Ability: Synchronize
-Level: 15
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Double Team
-- Confusion
-- Growl
-
 Houndour
 Ability: Flash Fire
 Level: 15
@@ -835,15 +759,6 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Leech Seed
 - Growth
 - Bullet Seed
-
-Togepi
-Ability: Serene Grace
-Level: 15
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Charm
-- Metronome
-- Sweet Kiss
-- Yawn
 
 === TRAINER_SUPER_NERD_JOVAN ===
 Name: JOVAN
@@ -952,24 +867,6 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 - Poison Powder
 - Growl
 
-Grovyle
-Ability: Overgrow
-Level: 16
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Fury Cutter
-- Absorb
-- Quick Attack
-- Leer
-
-Bulbasaur
-Ability: Overgrow
-Level: 16
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Sleep Powder
-- Take Down
-- Leech Seed
-- Vine Whip
-
 === TRAINER_YOUNGSTER_JOSH ===
 Name: JOSH
 Class: Youngster
@@ -996,15 +893,6 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 - Astonish
 - Pound
 - Uproar
-
-Baltoy
-Ability: Levitate
-Level: 16
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Mud Slap
-- Psybeam
-- Rock Tomb
-- Rapid Spin
 
 Doduo
 Ability: Early Bird
@@ -1077,15 +965,6 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 - Magnitude
 - Ember
 - Growl
-
-Houndour
-Ability: Flash Fire
-Level: 16
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Ember
-- Smog
-- Roar
-- Leer
 
 Zubat
 Ability: Inner Focus
@@ -1441,24 +1320,6 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 - Bug Bite
 - Mud Slap
 
-Shuckle
-Ability: Sturdy
-Level: 20
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Withdraw
-- Encore
-- Constrict
-- Bide
-
-Venonat
-Ability: Tinted Lens
-Level: 20
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Leech Life
-- Confusion
-- Poison Powder
-- Supersonic
-
 === TRAINER_LASS_ALI ===
 Name: ALI
 Class: Lass
@@ -1495,15 +1356,6 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 - Howl
 - Secret Power
 
-Snover
-Ability: Snow Warning
-Level: 20
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Swagger
-- Icy Wind
-- Razor Leaf
-- Grasswhistle
-
 === TRAINER_YOUNGSTER_TIMMY ===
 Name: TIMMY
 Class: Youngster
@@ -1520,15 +1372,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Rollout
 - Rapid Spin
 - Defense Curl
-- Poison Sting
-
-Roselia
-Ability: Poison Point
-Level: 21
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Magical Leaf
-- Leech Seed
-- Stun Spore
 - Poison Sting
 
 Natu
@@ -1702,15 +1545,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Ice Ball
 - Defense Curl
 
-Lombre
-Ability: Swift Swim
-Level: 21
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Nature Power
-- Fake Out
-- Astonish
-- Mega Drain
-
 === TRAINER_HIKER_FRANKLIN ===
 Name: FRANKLIN
 Class: Hiker
@@ -1746,15 +1580,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Swift
 - Pursuit
 - Mud Slap
-
-Aron
-Ability: Sturdy
-Level: 22
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Metal Claw
-- Headbutt
-- Mud Slap
-- Iron Defense
 
 === TRAINER_HIKER_WAYNE ===
 Name: WAYNE
@@ -1873,15 +1698,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Smokescreen
 - Smog
 
-Quagsire
-Ability: Water Absorb
-Level: 22
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Mud Bomb
-- Slam
-- Water Gun
-- Tail Whip
-
 Roselia
 Ability: Poison Point
 Level: 22
@@ -1980,15 +1796,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Slash
 - Thief
 
-Voltorb
-Ability: Static
-Level: 22
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Spark
-- Sonic Boom
-- Screech
-- Light Screen
-
 === TRAINER_YOUNGSTER_CHAD ===
 Name: CHAD
 Class: Youngster
@@ -2042,15 +1849,6 @@ Gender: Male
 Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Cacnea
-Ability: Water Absorb
-Level: 23
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Pin Missile
-- Sand Attack
-- Leech Seed
-- Magical Leaf
 
 Pidgeotto
 Ability: Keen Eye
@@ -2113,15 +1911,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Force Palm
 - Quick Attack
 - Foresight
-
-Venonat
-Ability: Tinted Lens
-Level: 23
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Leech Life
-- Stun Spore
-- Confusion
-- Supersonic
 
 === TRAINER_CERULEAN_GYM_GUARDIAN ===
 Name: GRUNT
@@ -2232,15 +2021,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Acid
 - Supersonic
 
-Corphish
-Ability: Shell Armor
-Level: 23
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- ViceGrip
-- Leer
-- Knock Off
-- Cut
-
 Azumarill
 Ability: Huge Power
 Level: 23
@@ -2330,7 +2110,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 
 Scyther
 Ability: Technician
-Level: 25
+Level: 22
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Wing Attack
 - U Turn
@@ -2339,7 +2119,7 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Scizor
 Ability: Technician
-Level: 25
+Level: 22
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - U Turn
 - Metal Claw
@@ -2348,7 +2128,7 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Kleavor
 Ability: Sheer Force
-Level: 25
+Level: 22
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Rock Slide
 - Slash
@@ -2463,15 +2243,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Thunder Punch
 - Mega Punch
 
-Houndour
-Ability: Flash Fire
-Level: 23
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Bite
-- Ember
-- Howl
-- Thunder Fang
-
 Phanpy @ Cheri Berry
 Ability: Pickup
 Level: 23
@@ -2580,24 +2351,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Defense Curl
 - Quick Attack
 
-Azumarill
-Ability: Huge Power
-Level: 23
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Defense Curl
-- Rollout
-- Aqua Jet
-- Charm
-
-Bibarel
-Ability: Simple
-Level: 23
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Headbutt
-- Hyper Fang
-- Water Gun
-- Defense Curl
-
 === TRAINER_YOUNGSTER_EDDIE ===
 Name: EDDIE
 Class: Youngster
@@ -2615,15 +2368,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Revenge
 - Mud Slap
 - Poison Sting
-
-Rhyhorn
-Ability: Rock Head
-Level: 23
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Scary Face
-- Horn Attack
-- Tail Whip
-- Rock Tomb
 
 Vigoroth
 Ability: Vital Spirit
@@ -2751,15 +2495,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Bite
 - Leer
 
-Shuppet
-Ability: Insomnia
-Level: 24
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Will O Wisp
-- Shadow Sneak
-- Knock Off
-- Night Shade
-
 === TRAINER_ENGINEER_BERNIE ===
 Name: BERNIE
 Class: Engineer
@@ -2796,15 +2531,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Body Slam
 - Shock Wave
 
-Electrike
-Ability: Static
-Level: 24
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Spark
-- Quick Attack
-- Howl
-- Thief
-
 === TRAINER_GAMER_JASPER ===
 Name: JASPER
 Class: Gamer
@@ -2840,15 +2566,6 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Supersonic
 - Uproar
 - Astonish
-
-Natu
-Ability: Synchronize
-Level: 24
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Confuse Ray
-- Night Shade
-- Peck
-- Secret Power
 
 === TRAINER_ENGINEER_BRAXTON ===
 Name: BRAXTON
@@ -2903,15 +2620,6 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Screech
 - Lick
 - Body Slam
-
-Meditite
-Ability: Pure Power
-Level: 24
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Hidden Power
-- Detect
-- Feint
-- Brick Break
 
 Staryu
 Ability: Natural Cure
@@ -3048,15 +2756,6 @@ Music: Rich
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Swablu
-Ability: Natural Cure
-Level: 23
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Peck
-- Astonish
-- Sing
-- Fury Attack
-
 Ariados
 Ability: Swarm
 Level: 23
@@ -3110,15 +2809,6 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Poison Sting
 - Double Kick
 - Tail Whip
-
-Cacnea
-Ability: Sand Veil
-Level: 23
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Pin Missile
-- Sand Attack
-- Leech Seed
-- Bullet Seed
 
 Drowzee
 Ability: Insomnia
@@ -3426,15 +3116,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Supersonic
 - Mist
 
-Baltoy
-Ability: Levitate
-Level: 23
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Rapid Spin
-- Rock Tomb
-- Psybeam
-- Mud Slap
-
 Riolu
 Ability: Steadfast
 Level: 23
@@ -3524,15 +3205,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Rollout
 - Defense Curl
 - Take Down
-
-Cubone
-Ability: Rock Head
-Level: 23
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Bonemerang
-- Rage
-- Headbutt
-- Mega Kick
 
 === TRAINER_SAILOR_TREVOR ===
 Name: TREVOR
@@ -4005,15 +3677,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Night Shade
 - Secret Power
 
-Larvitar
-Ability: Guts
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Scary Face
-- Rock Slide
-- Thrash
-- Bite
-
 === TRAINER_HIKER_JEREMY ===
 Name: JEREMY
 Class: Hiker
@@ -4246,24 +3909,6 @@ Gender: Male
 Music: Hiker
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
-
-Onix
-Ability: Sturdy
-Level: 29
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Slam
-- Sandstorm
-- Rock Tomb
-- Stealth Rock
-
-Anorith
-Ability: Battle Armor
-Level: 29
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Metal Claw
-- Water Pulse
-- Cut
-- Rock Tomb
 
 Solrock
 Ability: Levitate
@@ -4598,15 +4243,6 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Sandstorm
 - Metal Claw
 
-Graveler
-Ability: Sturdy
-Level: 30
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Rock Blast
-- Selfdestruct
-- Magnitude
-- Rock Polish
-
 Hariyama
 Ability: Guts
 Level: 30
@@ -4821,15 +4457,6 @@ Gender: Male
 Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Staravia
-Ability: Intimidate
-Level: 31
-IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
-- Aerial Ace
-- Endeavor
-- Quick Attack
-- Double Team
 
 Lanturn
 Ability: Volt Absorb
@@ -5118,15 +4745,6 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Toxic Spikes
 - Brine
 - Supersonic
-
-Seadra
-Ability: Sniper
-Level: 32
-IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
-- Brine
-- Twister
-- Smokescreen
-- Focus Energy
 
 Floatzel
 Ability: Swift Swim
@@ -5745,15 +5363,6 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Confuse Ray
 - Leech Life
 
-Tentacruel
-Ability: Clear Body
-Level: 33
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Water Pulse
-- Barrier
-- Toxic Spikes
-- Acid
-
 Onix
 Ability: Sturdy
 Level: 33
@@ -5789,15 +5398,6 @@ Gender: Male
 Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Vigoroth
-Ability: Vital Spirit
-Level: 33
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Slash
-- Focus Energy
-- Night Slash
-- Cut
 
 Noctowl
 Ability: Insomnia
@@ -6669,6 +6269,15 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
+Pidgeot
+Ability: Keen Eye
+Level: 36
+IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
+- Featherdance
+- Aerial Ace
+- Steel Wing
+- Sand Attack
+
 Torkoal
 Ability: White Smoke
 Level: 36
@@ -6686,24 +6295,6 @@ IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 - Thunderbolt
 - Brick Break
 - Flamethrower
-
-Pidgeot
-Ability: Keen Eye
-Level: 36
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Featherdance
-- Aerial Ace
-- Steel Wing
-- Sand Attack
-
-Cacturne
-Ability: Sand Veil
-Level: 36
-IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
-- Faint Attack
-- Pin Missile
-- Revenge
-- Leech Seed
 
 === TRAINER_CELADON_GYM_GUARDIAN ===
 Name: GRUNT
@@ -6797,6 +6388,15 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
+Sunflora
+Ability: Drought
+Level: 37
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Flamethrower
+- Razor Leaf
+- Worry Seed
+- Ingrain
+
 Cherrim
 Ability: Flower Gift
 Level: 37
@@ -6814,15 +6414,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Ancient Power
 - Sleep Powder
 - Giga Drain
-
-Sunflora
-Ability: Drought
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flamethrower
-- Razor Leaf
-- Worry Seed
-- Ingrain
 
 Roselia
 Ability: Poison Point
@@ -6922,15 +6513,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Giga Drain
 - Water Pulse
 - Body Slam
-
-Cradily
-Ability: Suction Cups
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Ancient Power
-- Amnesia
-- Confuse Ray
-- Giga Drain
 
 Venusaur
 Ability: Overgrow
@@ -7379,15 +6961,6 @@ IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 - Rock Slide
 - Mud Shot
 
-Manectric
-Ability: Static
-Level: 38
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-- Thunder Fang
-- Bite
-- Howl
-- Fire Fang
-
 === TRAINER_BIRD_KEEPER_PERRY ===
 Name: PERRY
 Class: Bird Keeper
@@ -7406,15 +6979,6 @@ IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 - Curse
 - Whirlwind
 
-Noctowl
-Ability: Insomnia
-Level: 38
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-- Reflect
-- Air Slash
-- Hypnosis
-- Shadow Ball
-
 Honchkrow
 Ability: Super Luck
 Level: 38
@@ -7423,15 +6987,6 @@ IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 - Faint Attack
 - Thunder Wave
 - Swagger
-
-Tropius
-Ability: Chlorophyll
-Level: 38
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-- Sunny Day
-- Solar Beam
-- Growth
-- Synthesis
 
 Altaria
 Ability: Natural Cure
@@ -7495,15 +7050,6 @@ IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 - Quick Attack
 - Steel Wing
 - U Turn
-
-Pelipper
-Ability: Keen Eye
-Level: 39
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-- Roost
-- Stockpile
-- Water Pulse
-- Air Slash
 
 Dodrio
 Ability: Early Bird
@@ -7594,15 +7140,6 @@ IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 - Pursuit
 - Quick Attack
 - Cut
-
-Gligar
-Ability: Hyper Cutter
-Level: 39
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-- Swords Dance
-- U Turn
-- Faint Attack
-- Slash
 
 === TRAINER_BIRD_KEEPER_BECK ===
 Name: BECK
@@ -7766,15 +7303,6 @@ IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 - Body Slam
 - Yawn
 
-Crobat
-Ability: Inner Focus
-Level: 39
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-- Poison Fang
-- Leech Life
-- Confuse Ray
-- Bite
-
 Roserade
 Ability: Poison Point
 Level: 39
@@ -7892,15 +7420,6 @@ IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 - Sand Attack
 - Seed Bomb
 
-Sandslash
-Ability: Sand Veil
-Level: 39
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Sandstorm
-- Crush Claw
-- Sand Attack
-- Rock Slide
-
 Bastiodon
 Level: 39
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
@@ -7935,15 +7454,6 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Toxicroak @ Salac Berry
-Ability: Anticipation
-Level: 39
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Revenge
-- Faint Attack
-- Rock Slide
-- Endure
 
 Ninetales
 Ability: Flash Fire
@@ -8097,15 +7607,6 @@ Gender: Male
 Music: Cool
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
-
-Skarmory
-Ability: Keen Eye
-Level: 40
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
-- Steel Wing
-- Spikes
-- Sand Attack
-- Rock Slide
 
 Noctowl
 Ability: Insomnia
@@ -8610,15 +8111,6 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Faint Attack
 - Roar
 
-Machamp
-Ability: No Guard
-Level: 40
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Cross Chop
-- Stone Edge
-- Bulk Up
-- Payback
-
 Banette
 Ability: Insomnia
 Level: 40
@@ -8654,15 +8146,6 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Skarmory
-Ability: Sturdy
-Level: 40
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Spikes
-- Agility
-- Steel Wing
-- Air Slash
-
 Furret @ Choice Band
 Ability: Keen Eye
 Level: 40
@@ -8671,6 +8154,15 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Slam
 - Sucker Punch
 - Quick Attack
+
+Skarmory
+Ability: Sturdy
+Level: 40
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Spikes
+- Agility
+- Steel Wing
+- Air Slash
 
 === TRAINER_BIKER_JAXON ===
 Name: JAXON
@@ -8735,15 +8227,6 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Explosion
 - Bide
 
-Torkoal
-Ability: White Smoke
-Level: 40
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Curse
-- Body Slam
-- Lava Plume
-- Rock Slide
-
 Dodrio @ Choice Band
 Ability: Early Bird
 Level: 40
@@ -8779,15 +8262,6 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Leaf Blade
 - Body Slam
 - Growth
-
-Swellow @ Toxic Orb
-Ability: Guts
-Level: 41
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Facade
-- Aerial Ace
-- Quick Attack
-- Steel Wing
 
 Altaria
 Ability: Natural Cure
@@ -9050,15 +8524,6 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Extrasensory
 - Flamethrower
 
-Drapion
-Ability: Sniper
-Level: 42
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Knock Off
-- Poison Fang
-- Pin Missile
-- Acupressure
-
 Golem
 Ability: Sturdy
 Level: 42
@@ -9230,15 +8695,6 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Confuse Ray
 - Screech
 
-Forretress @ Salac Berry
-Ability: Sturdy
-Level: 42
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Spikes
-- Explosion
-- Payback
-- Reflect
-
 Houndoom @ Petaya Berry
 Ability: Flash Fire
 Level: 42
@@ -9346,15 +8802,6 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Curse
 - Baton Pass
 - Bite
-
-Toxicroak @ Metal Coat
-Ability: Dry Skin
-Level: 43
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Poison Jab
-- Sucker Punch
-- Bullet Punch
-- Brick Break
 
 Cradily @ Leftovers
 Ability: Suction Cups
@@ -9545,15 +8992,6 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Fire Fang
 - Crunch
 
-Golbat
-Ability: Inner Focus
-Level: 43
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Poison Fang
-- Wing Attack
-- Bite
-- Leech Life
-
 Banette
 Ability: Insomnia
 Level: 43
@@ -9581,14 +9019,14 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Skarmory @ Leftovers
-Ability: Sturdy
+Staraptor @ Focus Sash
+Ability: Intimidate
 Level: 41
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Spikes
+- Close Combat
+- Brave Bird
+- Quick Attack
 - Steel Wing
-- Fly
-- Toxic
 
 Typhlosion @ Power Herb
 Ability: Blaze
@@ -9617,14 +9055,14 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Fire Punch
 - Focus Blast
 
-Dusclops @ Spell Tag
-Ability: Pressure
+Ampharos @ Expert Belt
+Ability: Static
 Level: 43
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Will O Wisp
-- Shadow Punch
-- Confuse Ray
-- Ice Punch
+- Thunder Wave
+- Thunderbolt
+- Signal Beam
+- Power Gem
 
 Blastoise @ Sitrus Berry
 Ability: Torrent
@@ -9644,14 +9082,14 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Skarmory @ Leftovers
-Ability: Sturdy
+Staraptor @ Focus Sash
+Ability: Intimidate
 Level: 41
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Spikes
+- Close Combat
+- Brave Bird
+- Quick Attack
 - Steel Wing
-- Fly
-- Toxic
 
 Feraligatr @ Muscle Band
 Ability: Torrent
@@ -9680,14 +9118,14 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Fire Punch
 - Focus Blast
 
-Dusclops @ Spell Tag
-Ability: Pressure
+Ampharos @ Expert Belt
+Ability: Static
 Level: 43
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Will O Wisp
-- Shadow Punch
-- Confuse Ray
-- Ice Punch
+- Thunder Wave
+- Thunderbolt
+- Signal Beam
+- Power Gem
 
 Venusaur @ Sitrus Berry
 Ability: Overgrow
@@ -9707,14 +9145,14 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Skarmory @ Leftovers
-Ability: Sturdy
+Staraptor @ Focus Sash
+Ability: Intimidate
 Level: 41
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Spikes
+- Close Combat
+- Brave Bird
+- Quick Attack
 - Steel Wing
-- Fly
-- Toxic
 
 Meganium @ Light Clay
 Ability: Overgrow
@@ -9743,14 +9181,14 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Fire Punch
 - Focus Blast
 
-Dusclops @ Spell Tag
-Ability: Pressure
+Ampharos @ Expert Belt
+Ability: Static
 Level: 43
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Will O Wisp
-- Shadow Punch
-- Confuse Ray
-- Ice Punch
+- Thunder Wave
+- Thunderbolt
+- Signal Beam
+- Power Gem
 
 Charizard @ Sitrus Berry
 Ability: Blaze
@@ -9796,15 +9234,6 @@ Gender: Male
 Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Noctowl
-Ability: Insomnia
-Level: 45
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Extrasensory
-- Hypnosis
-- Reflect
-- Air Slash
 
 Mismagius
 Ability: Levitate
@@ -10030,15 +9459,6 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Crunch
 - Thunder Fang
 - Ice Fang
-
-Cradily
-Ability: Suction Cups
-Level: 47
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Ancient Power
-- Confuse Ray
-- Stealth Rock
-- Giga Drain
 
 Mamoswine
 Ability: Oblivious
@@ -11090,15 +10510,6 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Drill Peck
 - Metal Claw
 
-Milotic
-Ability: Marvel Scale
-Level: 56
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- DragonBreath
-- Light Screen
-- Toxic
-- Dive
-
 Poliwrath
 Ability: Water Absorb
 Level: 56
@@ -11188,15 +10599,6 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Discharge
 - Thunder Wave
 - Amnesia
-
-Cloyster
-Ability: Shell Armor
-Level: 56
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
-- Spike Cannon
-- Spikes
-- Ice Shard
-- Dive
 
 Blastoise
 Ability: Torrent
@@ -11502,15 +10904,6 @@ IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 - Rain Dance
 - Hydro Pump
 - Amnesia
-
-Lanturn
-Ability: Volt Absorb
-Level: 57
-IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
-- Surf
-- Confuse Ray
-- Thunderbolt
-- Signal Beam
 
 Empoleon
 Ability: Torrent
@@ -13137,15 +12530,6 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Amnesia
 - Recover
 
-Empoleon
-Ability: Torrent
-Level: 62
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Drill Peck
-- Aqua Jet
-- Surf
-- Blizzard
-
 === TRAINER_BLACK_BELT_ATSUSHI ===
 Name: ATSUSHI
 Class: Black Belt
@@ -13379,14 +12763,14 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Steel Wing
 - Take Down
 
-Flygon @ Choice Scarf
-Ability: Levitate
+Ampharos @ Magnet
+Ability: Static
 Level: 66
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Dragon Claw
-- Earthquake
-- Fire Blast
-- Rock Slide
+- Thunderbolt
+- Focus Blast
+- Signal Beam
+- Light Screen
 
 Milotic @ Leftovers
 Ability: Marvel Scale
@@ -13442,14 +12826,14 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Steel Wing
 - Take Down
 
-Flygon @ Choice Scarf
-Ability: Levitate
+Ampharos @ Magnet
+Ability: Static
 Level: 66
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Dragon Claw
-- Earthquake
-- Fire Blast
-- Rock Slide
+- Thunderbolt
+- Focus Blast
+- Signal Beam
+- Light Screen
 
 Arcanine @ Kings Rock
 Ability: Intimidate
@@ -13505,14 +12889,14 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Steel Wing
 - Take Down
 
-Flygon @ Choice Scarf
-Ability: Levitate
+Ampharos @ Magnet
+Ability: Static
 Level: 66
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Dragon Claw
-- Earthquake
-- Fire Blast
-- Rock Slide
+- Thunderbolt
+- Focus Blast
+- Signal Beam
+- Light Screen
 
 Roserade @ Black Sludge
 Ability: Poison Point
@@ -13678,14 +13062,14 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Ice Fang
 - Crunch
 
-Ampharos @ Black Belt
-Ability: Static
+Flygon @ Choice Scarf
+Ability: Levitate
 Level: 65
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Light Screen
+- Earthquake
 - Signal Beam
-- Focus Blast
-- Thunderbolt
+- Dragon Claw
+- Fire Blast
 
 Tyranitar @ Black Belt
 Ability: Sand Stream
@@ -14094,8 +13478,8 @@ Ability: Shell Armor
 Modest Nature
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Spikes
-- Blizzard
-- Light Screen
+- Toxic
+- Double Team
 - Dive
 
 Froslass @ Spell Tag
@@ -14377,17 +13761,18 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Recover
 - Reflect
 
-Tyranitar @ Wide Lens
-Quirky Nature
-Ability: Sand Stream
+Ampharos @ Magnet
+Modest Nature
+Ability: Static
 Level: 78
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Crunch
-- Earthquake
-- Stone Edge
-- Thunder
+- Thunderbolt
+- Signal Beam
+- Focus Blast
+- Thunder Wave
 
 Milotic @ Leftovers
+Bold Nature
 Ability: Marvel Scale
 Level: 78
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
@@ -14397,6 +13782,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Recover
 
 Arcanine @ Liechi Berry
+Adamant Nature
 Ability: Intimidate
 Level: 78
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
@@ -14406,6 +13792,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Crunch
 
 Venusaur @ Leftovers
+Modest Nature
 Ability: Overgrow
 Level: 80
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
@@ -14445,15 +13832,15 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Recover
 - Reflect
 
-Tyranitar @ Wide Lens
-Quirky Nature
-Ability: Sand Stream
+Ampharos @ Magnet
+Modest Nature
+Ability: Static
 Level: 78
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Crunch
-- Earthquake
-- Stone Edge
-- Thunder
+- Thunderbolt
+- Signal Beam
+- Focus Blast
+- Thunder Wave
 
 Arcanine @ Liechi Berry
 Ability: Intimidate
@@ -14516,15 +13903,15 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Recover
 - Reflect
 
-Tyranitar @ Wide Lens
-Quirky Nature
-Ability: Sand Stream
+Ampharos @ Magnet
+Modest Nature
+Ability: Static
 Level: 78
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Crunch
-- Earthquake
-- Stone Edge
-- Thunder
+- Thunderbolt
+- Signal Beam
+- Focus Blast
+- Thunder Wave
 
 Ludicolo @ Bright Powder
 Ability: Own Tempo
@@ -14537,6 +13924,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Double Team
 
 Milotic @ Leftovers
+Bold Nature
 Ability: Marvel Scale
 Level: 78
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
@@ -14546,6 +13934,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Recover
 
 Charizard @ Leftovers
+Modest Nature
 Ability: Blaze
 Level: 80
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
