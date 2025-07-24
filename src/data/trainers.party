@@ -13741,13 +13741,13 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Staraptor @ White Herb
+Staraptor @ Life Orb
 Jolly Nature
 Ability: Intimidate
 Level: 76
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Brave Bird
-- Feather Dance
+- Take Down
 - Close Combat
 - U-turn
 
@@ -13779,7 +13779,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Dive
 - Toxic
 - Ice Beam
-- Recover
+- Haze
 
 Arcanine @ Liechi Berry
 Adamant Nature
@@ -13812,13 +13812,13 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Staraptor @ White Herb
+Staraptor @ Life Orb
 Jolly Nature
 Ability: Intimidate
 Level: 76
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Brave Bird
-- Feather Dance
+- Take Down
 - Close Combat
 - U-turn
 
@@ -13864,7 +13864,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
 Blastoise @ Leftovers
 Ability: Torrent
-Docile Nature
+Modest Nature
 Level: 80
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Hydro Cannon
@@ -13883,13 +13883,13 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Staraptor @ White Herb
+Staraptor @ Life Orb
 Jolly Nature
 Ability: Intimidate
 Level: 76
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Brave Bird
-- Feather Dance
+- Take Down
 - Close Combat
 - U-turn
 
@@ -13931,7 +13931,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Dive
 - Toxic
 - Ice Beam
-- Recover
+- Haze
 
 Charizard @ Leftovers
 Modest Nature
