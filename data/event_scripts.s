@@ -1378,3 +1378,6 @@ Text_TestMsg::
 
 	.include "data/maps/ShadowClawArea/scripts.inc"
 	.include "data/maps/ShadowClawArea/text.inc"
+
+	.include "data/maps/PiplupCave/scripts.inc"
+	.include "data/maps/PiplupCave/text.inc"

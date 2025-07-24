@@ -19,6 +19,12 @@
 #define INGAME_TRADE_ELECTABUZZ 6
 #define INGAME_TRADE_TANGELA   7
 #define INGAME_TRADE_SPHEAL      8
+#define INGAME_TRADE_TOTODILE 9
+#define INGAME_TRADE_CHIKORITA 10
+#define INGAME_TRADE_CYNDAQUIL 11
+#define INGAME_TRADE_MUDKIP 12
+#define INGAME_TRADE_TREECKO 13
+#define INGAME_TRADE_TORCHIC 14
 
 // Return values for CanTradeSelectedMon and CanSpinTradeMon
 #define CAN_TRADE_MON              0
