@@ -13738,7 +13738,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: AI_FLAG_SMART_TRAINER
 Mugshot: Yellow
 
 Staraptor @ Life Orb
@@ -13809,7 +13809,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: AI_FLAG_SMART_TRAINER
 Mugshot: Yellow
 
 Staraptor @ Life Orb
@@ -13880,7 +13880,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: AI_FLAG_SMART_TRAINER
 Mugshot: Yellow
 
 Staraptor @ Life Orb
