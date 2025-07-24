@@ -891,12 +891,10 @@ Text_GiveNicknameToReceivedMon::
 	.string "{STR_VAR_2} you received?$"
 
 Text_WelcomeWantToHealPkmn::
-	.string "Welcome to our POKéMON CENTER!\p"
-	.string "Would you like me to heal your\n"
-	.string "POKéMON back to perfect health?$"
+	.string "Welcome to our POKéMON CENTER!$"
 
 Text_TakeYourPkmnForFewSeconds::
-	.string "Okay, I'll take your POKéMON for a\n"
+	.string "I'll take your POKéMON for a\n"
 	.string "few seconds.$"
 
 Text_WeHopeToSeeYouAgain::
