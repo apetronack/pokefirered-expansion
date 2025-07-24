@@ -191,8 +191,8 @@
 #define FLAG_SHARE_EXP           0x0AF
 
 // Unused?
-#define FLAG_0x0B0               0x0B0
-#define FLAG_0x0B1               0x0B1
+#define FLAG_HIDE_PIPLUP         0x0B0
+#define FLAG_FOUGHT_PIPLUP       0x0B1
 #define FLAG_0x0B2               0x0B2
 #define FLAG_0x0B3               0x0B3
 #define FLAG_0x0B4               0x0B4
@@ -1468,7 +1468,7 @@
 #define FLAG_WORLD_MAP_SEVEN_ISLAND_SEVAULT_CANYON_TANOBY_KEY       (SYS_FLAGS + 0xC1)
 #define FLAG_WORLD_MAP_BIRTH_ISLAND_EXTERIOR                        (SYS_FLAGS + 0xC2)
 
-#define FLAG_0x8C3                                                  (SYS_FLAGS + 0xC3)
+#define FLAG_WORLD_MAP_PIPLUP_CAVE                                  (SYS_FLAGS + 0xC3)
 #define FLAG_0x8C4                                                  (SYS_FLAGS + 0xC4)
 #define FLAG_0x8C5                                                  (SYS_FLAGS + 0xC5)
 #define FLAG_0x8C6                                                  (SYS_FLAGS + 0xC6)

@@ -4416,6 +4416,18 @@
       "secondary_tileset": "gTileset_CeruleanCave",
       "border_filepath": "data/layouts/ShadowClawArea/border.bin",
       "blockdata_filepath": "data/layouts/ShadowClawArea/map.bin"
+    },
+    {
+      "id": "LAYOUT_PIPLUP_CAVE",
+      "name": "PiplupCave_Layout",
+      "width": 9,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/PiplupCave/border.bin",
+      "blockdata_filepath": "data/layouts/PiplupCave/map.bin"
     }
   ]
 }
