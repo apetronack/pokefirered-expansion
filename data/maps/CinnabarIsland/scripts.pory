@@ -370,8 +370,8 @@ script CinnabarIsland_EventScript_MansionGuardian {
 	// Check if the player has finished beating Koga
 	if (flag(FLAG_BADGE06_GET)) {
 		// If so, display a message and initiate a battle with the Gym guardian
-		msgbox(format("I can't let you through! Team Rocket is up to no good in the Cinnabar Mansion, and I can't let you interfere with their plans!"))
-		trainerbattle_no_intro(TRAINER_CINNABAR_MANSION_GUARDIAN, format("You may have beaten me, but Team Rocket isn't finished!"))
+		msgbox(format("I can't let you through! Team Rocket is up to no good in the Cinnabar Mansion, and I can't let you interfere with their plans!", "1_latin_frlg"))
+		trainerbattle_no_intro(TRAINER_CINNABAR_MANSION_GUARDIAN, format("You may have beaten me, but Team Rocket isn't finished!", "1_latin_frlg"))
 		if (defeated(TRAINER_CINNABAR_MANSION_GUARDIAN)) {
 			// If the player wins, display a message, then have the mansion guardian leave
 			fadescreen(FADE_TO_BLACK)
@@ -380,11 +380,11 @@ script CinnabarIsland_EventScript_MansionGuardian {
 			setflag(FLAG_HIDE_CINNABAR_MANSION_GUARDIAN)
 		} else {
 			// If the player loses, display a message, but leave the mansion guardian in place
-			msgbox(format("Team Rocket will always be one step ahead of you!"))
+			msgbox(format("Team Rocket will always be one step ahead of you!", "1_latin_frlg"))
 		}
 	} else {
 		// If not, display a message and block the player
-		msgbox(format("Cinnabar Mansion is off-limits! Team Rocket is up to no good in there, and I can't let you interfere with their plans!"))
+		msgbox(format("Cinnabar Mansion is off-limits! Team Rocket is up to no good in there, and I can't let you interfere with their plans!", "1_latin_frlg"))
 	}
 	release
 	end

@@ -130,8 +130,8 @@ script CeladonCity_EventScript_GymGuardian {
 	// Check if the player has finished Pokemon Tower
 	if (flag(FLAG_RESCUED_MR_FUJI)) {
 		// If so, display a message and initiate a battle with the Gym guardian
-		msgbox(format("You can't come through! Erika can't be warned about Team Rocket's plans!"))
-		trainerbattle_no_intro(TRAINER_CELADON_GYM_GUARDIAN, format("You may have beaten me, but Team Rocket isn't finished!"))
+		msgbox(format("You can't come through! Erika can't be warned about Team Rocket's plans!", "1_latin_frlg"))
+		trainerbattle_no_intro(TRAINER_CELADON_GYM_GUARDIAN, format("You may have beaten me, but Team Rocket isn't finished!", "1_latin_frlg"))
 		if (defeated(TRAINER_CELADON_GYM_GUARDIAN)) {
 			// If the player wins, display a message, then have the Gym guardian leave
 			fadescreen(FADE_TO_BLACK)
@@ -140,11 +140,11 @@ script CeladonCity_EventScript_GymGuardian {
 			setflag(FLAG_HIDE_CELADON_GYM_GUARDIAN)
 		} else {
 			// If the player loses, display a message, but leave the Gym guardian in place
-			msgbox(format("Team Rocket will always be one step ahead of you!"))
+			msgbox(format("Team Rocket will always be one step ahead of you!", "1_latin_frlg"))
 		}
 	} else {
 		// If not, display a message and block the player
-		msgbox(format("Boss said I should keep Erika from interfering with Team Rocket's plans! Don't get any ideas about warning her!"))
+		msgbox(format("Boss said I should keep Erika from interfering with Team Rocket's plans! Don't get any ideas about warning her!", "1_latin_frlg"))
 	}
 	release
 	end

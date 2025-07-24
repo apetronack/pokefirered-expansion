@@ -63,8 +63,8 @@ script LavenderTown_EventScript_TowerGuardian {
 	// Check if the player has cleared Giovanni 1
 	if (flag(FLAG_HIDE_CELADON_ROCKETS)) {
 		// If so, display a message and initiate a battle with the Tower guardian
-		msgbox(format("You dared to defy BOSS GIOVANNI? I will do what I must!"))
-		trainerbattle_no_intro(TRAINER_POKEMON_TOWER_GUARDIAN, format("This isn't the last you'll see of me!"))
+		msgbox(format("You dared to defy BOSS GIOVANNI? I will do what I must!", "1_latin_frlg"))
+		trainerbattle_no_intro(TRAINER_POKEMON_TOWER_GUARDIAN, format("This isn't the last you'll see of me!", "1_latin_frlg"))
 		if (defeated(TRAINER_POKEMON_TOWER_GUARDIAN)) {
 			// If the player wins, display a message, then have the Tower guardian leave
 			fadescreen(FADE_TO_BLACK)
@@ -73,11 +73,11 @@ script LavenderTown_EventScript_TowerGuardian {
 			setflag(FLAG_HIDE_POKEMON_TOWER_GUARDIAN)
 		} else {
 			// If the player loses, display a message, but leave the Tower guardian in place
-			msgbox(format("That's what you get for messing with Team Rocket!"))
+			msgbox(format("That's what you get for messing with Team Rocket!", "1_latin_frlg"))
 		}
 	} else {
 		// If not, display a message and block the player
-		msgbox(format("Get lost! Team Rocket has business here!"))
+		msgbox(format("Get lost! Team Rocket has business here!", "1_latin_frlg"))
 	}
 	release
 	end
