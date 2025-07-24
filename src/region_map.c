@@ -646,7 +646,7 @@ static const struct DungeonMapInfo sDungeonInfo[] = {
         .name = sMapName_MT__MOON,
         .desc = gText_RegionMap_AreaDesc_MtMoon
     }, {
-        .id = MAPSEC_RIOLUS_CAVE,
+        .id = MAPSEC_DIGLETTS_CAVE,
         .name = sMapName_RIOLU_S_CAVE,
         .desc = gText_RegionMap_AreaDesc_DiglettsCave
     }, {
@@ -867,7 +867,7 @@ static const u8 sMapFlyDestinations[][3] = {
     [MAPSEC_S_S_ANNE            - KANTO_MAPSEC_START] = {MAP(PALLET_TOWN),                           0},
     [MAPSEC_UNDERGROUND_PATH    - KANTO_MAPSEC_START] = {MAP(PALLET_TOWN),                           0},
     [MAPSEC_UNDERGROUND_PATH_2  - KANTO_MAPSEC_START] = {MAP(PALLET_TOWN),                           0},
-    [MAPSEC_RIOLUS_CAVE       - KANTO_MAPSEC_START] = {MAP(PALLET_TOWN),                           0},
+    [MAPSEC_DIGLETTS_CAVE       - KANTO_MAPSEC_START] = {MAP(PALLET_TOWN),                           0},
     [MAPSEC_KANTO_VICTORY_ROAD  - KANTO_MAPSEC_START] = {MAP(PALLET_TOWN),                           0},
     [MAPSEC_ROCKET_HIDEOUT      - KANTO_MAPSEC_START] = {MAP(PALLET_TOWN),                           0},
     [MAPSEC_SILPH_CO            - KANTO_MAPSEC_START] = {MAP(PALLET_TOWN),                           0},
@@ -3004,8 +3004,8 @@ static u8 GetDungeonMapsecType(u8 mapsec)
         return FlagGet(FLAG_WORLD_MAP_UNDERGROUND_PATH_NORTH_SOUTH_TUNNEL) ? MAPSECTYPE_VISITED : MAPSECTYPE_NOT_VISITED;
     case MAPSEC_UNDERGROUND_PATH_2:
         return FlagGet(FLAG_WORLD_MAP_UNDERGROUND_PATH_EAST_WEST_TUNNEL) ? MAPSECTYPE_VISITED : MAPSECTYPE_NOT_VISITED;
-    case MAPSEC_RIOLUS_CAVE:
-        return FlagGet(FLAG_WORLD_MAP_RIOLUS_CAVE_B1F) ? MAPSECTYPE_VISITED : MAPSECTYPE_NOT_VISITED;
+    case MAPSEC_DIGLETTS_CAVE:
+        return FlagGet(FLAG_WORLD_MAP_DIGLETTS_CAVE_B1F) ? MAPSECTYPE_VISITED : MAPSECTYPE_NOT_VISITED;
     case MAPSEC_KANTO_VICTORY_ROAD:
         return FlagGet(FLAG_WORLD_MAP_VICTORY_ROAD_1F) ? MAPSECTYPE_VISITED : MAPSECTYPE_NOT_VISITED;
     case MAPSEC_ROCKET_HIDEOUT:

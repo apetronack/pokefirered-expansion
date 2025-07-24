@@ -4,6 +4,6 @@ DiglettsCave_B1F_MapScripts::
 	.byte 0
 
 DiglettsCave_B1F_OnTransition::
-	setworldmapflag FLAG_WORLD_MAP_RIOLUS_CAVE_B1F
+	setworldmapflag FLAG_WORLD_MAP_DIGLETTS_CAVE_B1F
 	end
 `

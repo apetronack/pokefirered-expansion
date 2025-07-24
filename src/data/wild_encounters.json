@@ -1773,7 +1773,7 @@
           }
         },
         {
-          "map": "MAP_RIOLUS_CAVE_B1F",
+          "map": "MAP_DIGLETTS_CAVE_B1F",
           "base_label": "sDiglettsCaveB1F_FireRed",
           "land_mons": {
             "encounter_rate": 5,
@@ -1842,7 +1842,7 @@
           }
         },
         {
-          "map": "MAP_RIOLUS_CAVE_B1F",
+          "map": "MAP_DIGLETTS_CAVE_B1F",
           "base_label": "sDiglettsCaveB1F_LeafGreen",
           "land_mons": {
             "encounter_rate": 5,

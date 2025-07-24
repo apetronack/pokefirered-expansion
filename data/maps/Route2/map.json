@@ -159,7 +159,7 @@
       "x": 17,
       "y": 11,
       "elevation": 3,
-      "dest_map": "MAP_DYNAMIC",
+      "dest_map": "MAP_DIGLETTS_CAVE_NORTH_ENTRANCE",
       "dest_warp_id": "1"
     },
     {

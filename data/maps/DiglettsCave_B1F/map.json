@@ -1,9 +1,9 @@
 {
-  "id": "MAP_RIOLUS_CAVE_B1F",
+  "id": "MAP_DIGLETTS_CAVE_B1F",
   "name": "DiglettsCave_B1F",
-  "layout": "LAYOUT_RIOLUS_CAVE_B1F",
+  "layout": "LAYOUT_DIGLETTS_CAVE_B1F",
   "music": "MUS_VIRIDIAN_FOREST",
-  "region_map_section": "MAPSEC_RIOLUS_CAVE",
+  "region_map_section": "MAPSEC_DIGLETTS_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",
@@ -35,14 +35,14 @@
       "x": 3,
       "y": 3,
       "elevation": 3,
-      "dest_map": "MAP_RIOLUS_CAVE_NORTH_ENTRANCE",
+      "dest_map": "MAP_DIGLETTS_CAVE_NORTH_ENTRANCE",
       "dest_warp_id": "0"
     },
     {
       "x": 82,
       "y": 71,
       "elevation": 3,
-      "dest_map": "MAP_RIOLUS_CAVE_SOUTH_ENTRANCE",
+      "dest_map": "MAP_DYNAMIC",
       "dest_warp_id": "1"
     }
   ],

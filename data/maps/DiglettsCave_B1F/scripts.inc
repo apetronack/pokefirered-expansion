@@ -11,6 +11,6 @@ DiglettsCave_B1F_MapScripts::
 # 6 "data/maps/DiglettsCave_B1F/scripts.pory"
 DiglettsCave_B1F_OnTransition::
 # 7 "data/maps/DiglettsCave_B1F/scripts.pory"
-	setworldmapflag FLAG_WORLD_MAP_RIOLUS_CAVE_B1F
+	setworldmapflag FLAG_WORLD_MAP_DIGLETTS_CAVE_B1F
 # 8 "data/maps/DiglettsCave_B1F/scripts.pory"
 	end

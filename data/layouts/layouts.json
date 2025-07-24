@@ -1274,7 +1274,7 @@
       "blockdata_filepath": "data/layouts/SSAnne_Deck/map.bin"
     },
     {
-      "id": "LAYOUT_RIOLUS_CAVE_B1F",
+      "id": "LAYOUT_DIGLETTS_CAVE_B1F",
       "name": "DiglettsCave_B1F_Layout",
       "width": 85,
       "height": 80,
@@ -2294,7 +2294,7 @@
       "blockdata_filepath": "data/layouts/SaffronCity_EastWestEntrance/map.bin"
     },
     {
-      "id": "LAYOUT_RIOLUS_CAVE_NORTH_ENTRANCE",
+      "id": "LAYOUT_DIGLETTS_CAVE_NORTH_ENTRANCE",
       "name": "DiglettsCave_NorthEntrance_Layout",
       "width": 10,
       "height": 8,
@@ -2306,7 +2306,7 @@
       "blockdata_filepath": "data/layouts/DiglettsCave_NorthEntrance/map.bin"
     },
     {
-      "id": "LAYOUT_RIOLUS_CAVE_SOUTH_ENTRANCE",
+      "id": "LAYOUT_DIGLETTS_CAVE_SOUTH_ENTRANCE",
       "name": "DiglettsCave_SouthEntrance_Layout",
       "width": 10,
       "height": 8,
