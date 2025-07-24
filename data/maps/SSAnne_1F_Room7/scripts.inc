@@ -11,6 +11,20 @@ SSAnne_1F_Room7_EventScript_Thomas::
 # 6 "data/maps/SSAnne_1F_Room7/scripts.pory"
 	trainerbattle_single TRAINER_GENTLEMAN_THOMAS, SSAnne_1F_Room7_Text_ThomasIntro, SSAnne_1F_Room7_Text_ThomasDefeat
 # 7 "data/maps/SSAnne_1F_Room7/scripts.pory"
-	msgbox SSAnne_1F_Room7_Text_ThomasPostBattle, MSGBOX_AUTOCLOSE
+	goto_if_set FLAG_BEAT_THOMAS, SSAnne_1F_Room7_EventScript_ThomasDefeated
 # 8 "data/maps/SSAnne_1F_Room7/scripts.pory"
+	giveitem_msg SSAnne_1F_Room7_Text_ThomasGaveItems, ITEM_SUPER_POTION, 15
+# 9 "data/maps/SSAnne_1F_Room7/scripts.pory"
+	setflag FLAG_BEAT_THOMAS
+# 10 "data/maps/SSAnne_1F_Room7/scripts.pory"
+	end
+# 11 "data/maps/SSAnne_1F_Room7/scripts.pory"
+
+# 12 "data/maps/SSAnne_1F_Room7/scripts.pory"
+SSAnne_1F_Room7_EventScript_ThomasDefeated::
+# 13 "data/maps/SSAnne_1F_Room7/scripts.pory"
+	msgbox SSAnne_1F_Room7_Text_ThomasPostBattle, MSGBOX_AUTOCLOSE
+# 14 "data/maps/SSAnne_1F_Room7/scripts.pory"
+	release
+# 15 "data/maps/SSAnne_1F_Room7/scripts.pory"
 	end

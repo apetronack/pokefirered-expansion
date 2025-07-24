@@ -59,36 +59,52 @@ MtMoon_1F_EventScript_Iris::
 # 30 "data/maps/MtMoon_1F/scripts.pory"
 	trainerbattle_single TRAINER_LASS_IRIS, MtMoon_1F_Text_IrisIntro, MtMoon_1F_Text_IrisDefeat
 # 31 "data/maps/MtMoon_1F/scripts.pory"
-	msgbox MtMoon_1F_Text_IrisPostBattle, MSGBOX_AUTOCLOSE
+	goto_if_set FLAG_BEAT_IRIS, MtMoon_1F_EventScript_IrisDefeated
 # 32 "data/maps/MtMoon_1F/scripts.pory"
-	end
+	giveitem_msg MtMoon_1F_Text_IrisGaveItems, ITEM_POTION, 15
 # 33 "data/maps/MtMoon_1F/scripts.pory"
-
+	setflag FLAG_BEAT_IRIS
 # 34 "data/maps/MtMoon_1F/scripts.pory"
-MtMoon_1F_EventScript_Jovan::
+	end
 # 35 "data/maps/MtMoon_1F/scripts.pory"
-	trainerbattle_single TRAINER_SUPER_NERD_JOVAN, MtMoon_1F_Text_JovanIntro, MtMoon_1F_Text_JovanDefeat
+
 # 36 "data/maps/MtMoon_1F/scripts.pory"
-	msgbox MtMoon_1F_Text_JovanPostBattle, MSGBOX_AUTOCLOSE
+MtMoon_1F_EventScript_IrisDefeated::
 # 37 "data/maps/MtMoon_1F/scripts.pory"
-	end
+	msgbox MtMoon_1F_Text_IrisPostBattle, MSGBOX_AUTOCLOSE
 # 38 "data/maps/MtMoon_1F/scripts.pory"
-
+	release
 # 39 "data/maps/MtMoon_1F/scripts.pory"
-MtMoon_1F_EventScript_Kent::
-# 40 "data/maps/MtMoon_1F/scripts.pory"
-	trainerbattle_single TRAINER_BUG_CATCHER_KENT, MtMoon_1F_Text_KentIntro, MtMoon_1F_Text_KentDefeat
-# 41 "data/maps/MtMoon_1F/scripts.pory"
-	msgbox MtMoon_1F_Text_KentPostBattle, MSGBOX_AUTOCLOSE
-# 42 "data/maps/MtMoon_1F/scripts.pory"
 	end
-# 43 "data/maps/MtMoon_1F/scripts.pory"
+# 40 "data/maps/MtMoon_1F/scripts.pory"
 
+# 41 "data/maps/MtMoon_1F/scripts.pory"
+
+# 42 "data/maps/MtMoon_1F/scripts.pory"
+MtMoon_1F_EventScript_Jovan::
+# 43 "data/maps/MtMoon_1F/scripts.pory"
+	trainerbattle_single TRAINER_SUPER_NERD_JOVAN, MtMoon_1F_Text_JovanIntro, MtMoon_1F_Text_JovanDefeat
 # 44 "data/maps/MtMoon_1F/scripts.pory"
-MtMoon_1F_EventScript_Robby::
+	msgbox MtMoon_1F_Text_JovanPostBattle, MSGBOX_AUTOCLOSE
 # 45 "data/maps/MtMoon_1F/scripts.pory"
-	trainerbattle_single TRAINER_BUG_CATCHER_ROBBY, MtMoon_1F_Text_RobbyIntro, MtMoon_1F_Text_RobbyDefeat
+	end
 # 46 "data/maps/MtMoon_1F/scripts.pory"
-	msgbox MtMoon_1F_Text_RobbyPostBattle, MSGBOX_AUTOCLOSE
+
 # 47 "data/maps/MtMoon_1F/scripts.pory"
+MtMoon_1F_EventScript_Kent::
+# 48 "data/maps/MtMoon_1F/scripts.pory"
+	trainerbattle_single TRAINER_BUG_CATCHER_KENT, MtMoon_1F_Text_KentIntro, MtMoon_1F_Text_KentDefeat
+# 49 "data/maps/MtMoon_1F/scripts.pory"
+	msgbox MtMoon_1F_Text_KentPostBattle, MSGBOX_AUTOCLOSE
+# 50 "data/maps/MtMoon_1F/scripts.pory"
+	end
+# 51 "data/maps/MtMoon_1F/scripts.pory"
+
+# 52 "data/maps/MtMoon_1F/scripts.pory"
+MtMoon_1F_EventScript_Robby::
+# 53 "data/maps/MtMoon_1F/scripts.pory"
+	trainerbattle_single TRAINER_BUG_CATCHER_ROBBY, MtMoon_1F_Text_RobbyIntro, MtMoon_1F_Text_RobbyDefeat
+# 54 "data/maps/MtMoon_1F/scripts.pory"
+	msgbox MtMoon_1F_Text_RobbyPostBattle, MSGBOX_AUTOCLOSE
+# 55 "data/maps/MtMoon_1F/scripts.pory"
 	end
