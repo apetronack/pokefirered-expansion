@@ -1,10 +1,51 @@
 raw `
 RockTunnel_1F_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, RockTunnel_1F_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, RockTunnel_1F_OnTransition
 	.byte 0
 
+RockTunnel_1F_OnResume::
+	call_if_set FLAG_SYS_SPECIAL_WILD_BATTLE, RockTunnel_1F_EventScript_TryRemoveStaticMon
+	end
+
+RockTunnel_1F_EventScript_TryRemoveStaticMon::
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
+	removeobject VAR_LAST_TALKED
+	return
+
 RockTunnel_1F_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_ROCK_TUNNEL_1F
+	call_if_unset FLAG_FOUGHT_TURTWIG, RockTunnel_1F_EventScript_ShowTurtwig
+	end
+
+RockTunnel_1F_EventScript_ShowTurtwig::
+	clearflag FLAG_HIDE_TURTWIG
+	return
+
+RockTunnel_1F_EventScript_Turtwig::
+	goto_if_questlog EventScript_ReleaseEnd
+	lock
+	faceplayer
+	setwildbattle SPECIES_TURTWIG, 15
+	waitse
+	playmoncry SPECIES_TURTWIG, CRY_MODE_ENCOUNTER
+	waitmoncry
+	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	dowildbattle
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	special QuestLog_CutRecording
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, RockTunnel_1F_EventScript_FoughtTurtwig
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, RockTunnel_1F_EventScript_FoughtTurtwig
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, RockTunnel_1F_EventScript_FoughtTurtwig
+	setflag FLAG_FOUGHT_TURTWIG
+	release
+	end
+
+RockTunnel_1F_EventScript_FoughtTurtwig::
+	setflag FLAG_FOUGHT_TURTWIG
+	goto EventScript_RemoveStaticMon
 	end
 
 RockTunnel_1F_EventScript_RouteSign::

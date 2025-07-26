@@ -12897,7 +12897,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 5700
                 MOVE_BONE_RUSH,
-                MOVE_HEX,
+                MOVE_SHADOW_PUNCH,
                 MOVE_FLAME_WHEEL,
                 MOVE_HEADBUTT,
             },
@@ -22851,7 +22851,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 10021
                 MOVE_BONEMERANG,
-                MOVE_HEX,
+                MOVE_SHADOW_CLAW,
                 MOVE_FLAME_WHEEL,
                 MOVE_WILL_O_WISP,
             },
@@ -25471,7 +25471,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 11168
                 MOVE_BONEMERANG,
-                MOVE_HEX,
+                MOVE_SHADOW_CLAW,
                 MOVE_FLAME_WHEEL,
                 MOVE_WILL_O_WISP,
             },

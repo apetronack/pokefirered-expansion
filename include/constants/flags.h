@@ -195,8 +195,8 @@
 #define FLAG_FOUGHT_PIPLUP       0x0B1
 #define FLAG_HIDE_CHIMCHAR       0x0B2
 #define FLAG_FOUGHT_CHIMCHAR     0x0B3
-#define FLAG_0x0B4               0x0B4
-#define FLAG_0x0B5               0x0B5
+#define FLAG_HIDE_TURTWIG        0x0B4
+#define FLAG_FOUGHT_TURTWIG      0x0B5
 #define FLAG_0x0B6               0x0B6
 #define FLAG_0x0B7               0x0B7
 #define FLAG_0x0B8               0x0B8
