@@ -5698,7 +5698,7 @@ Ability: Rock Head
 Level: 35
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Bone Rush
-- Hex
+- Shadow Punch
 - Flame Wheel
 - Headbutt
 
@@ -10019,7 +10019,7 @@ Relaxed Nature
 Level: 54
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Bonemerang
-- Hex
+- Shadow Claw
 - Flame Wheel
 - Will O Wisp
 
@@ -11166,7 +11166,7 @@ Relaxed Nature
 Level: 58
 IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
 - Bonemerang
-- Hex
+- Shadow Claw
 - Flame Wheel
 - Will O Wisp
 
