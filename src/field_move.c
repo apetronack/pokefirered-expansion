@@ -21,7 +21,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
 {
     [FIELD_MOVE_CUT] =
     {
-        .defaultSpecies = SPECIES_FARFETCHD,
+        .defaultSpecies = SPECIES_SHEDINJA,
         .isUnlockedFunc = FieldMove_IsUnlockedCut,
         .moveId = MOVE_CUT,
         .partyMessageId = PARTY_MSG_NOTHING_TO_CUT,
@@ -31,7 +31,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_FLY] =
     {
-        .defaultSpecies = SPECIES_PIDGEOT,
+        .defaultSpecies = SPECIES_STARAPTOR,
         .isUnlockedFunc = FieldMove_IsUnlockedFly,
         .moveId = MOVE_FLY,
         .partyMessageId = PARTY_MSG_CANT_USE_HERE,
@@ -41,7 +41,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_SURF] =
     {
-        .defaultSpecies = SPECIES_LAPRAS,
+        .defaultSpecies = SPECIES_FERALIGATR,
         .isUnlockedFunc = FieldMove_IsUnlockedSurf,
         .moveId = MOVE_SURF,
         .partyMessageId = PARTY_MSG_CANT_SURF_HERE,
@@ -81,7 +81,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_WATERFALL] =
     {
-        .defaultSpecies = SPECIES_GYARADOS,
+        .defaultSpecies = SPECIES_WALREIN,
         .isUnlockedFunc = FieldMove_IsUnlockedWaterfall,
         .moveId = MOVE_WATERFALL,
         .partyMessageId = PARTY_MSG_CANT_USE_HERE,
@@ -91,7 +91,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_WHIRLPOOL] =
     {
-        .defaultSpecies = SPECIES_SHELLDER,
+        .defaultSpecies = SPECIES_CLOYSTER,
         .isUnlockedFunc = NULL,
         .moveId = MOVE_NONE,
         .partyMessageId = PARTY_MSG_CANT_USE_HERE,
@@ -101,7 +101,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_DIVE] =
     {
-        .defaultSpecies = SPECIES_SEEL,
+        .defaultSpecies = SPECIES_MILOTIC,
         .isUnlockedFunc = NULL,
         .moveId = MOVE_NONE,
         .partyMessageId = PARTY_MSG_CANT_USE_HERE,
@@ -141,7 +141,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_DIG] =
     {
-        .defaultSpecies = SPECIES_DIGLETT,
+        .defaultSpecies = SPECIES_ONIX,
         .isUnlockedFunc = NULL,
         .moveId = MOVE_DIG,
         .partyMessageId = PARTY_MSG_CANT_USE_HERE,
@@ -161,7 +161,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_SOFT_BOILED] =
     {
-        .defaultSpecies = SPECIES_CHANSEY,
+        .defaultSpecies = SPECIES_EXEGGCUTE,
         .isUnlockedFunc = NULL,
         .moveId = MOVE_SOFT_BOILED,
         .partyMessageId = PARTY_MSG_NOT_ENOUGH_HP,
@@ -171,7 +171,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_SWEET_SCENT] =
     {
-        .defaultSpecies = SPECIES_ODDISH,
+        .defaultSpecies = SPECIES_ROSELIA,
         .isUnlockedFunc = NULL,
         .moveId = MOVE_SWEET_SCENT,
         .partyMessageId = PARTY_MSG_CANT_USE_HERE,
