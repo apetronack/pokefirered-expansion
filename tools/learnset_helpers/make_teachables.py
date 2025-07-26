@@ -70,6 +70,7 @@ def extract_repo_tutors() -> typing.Generator[str, None, None]:
 def extract_repo_tms() -> typing.Generator[str, None, None]:
     """
     Yield MOVE constants assigned to a TM or HM in the user's repo.
+    Also print each TM/HM move found.
     """
     with open("./include/constants/tms_hms.h", "r") as tmshms_fp:
         tmshms = tmshms_fp.read()
@@ -78,7 +79,9 @@ def extract_repo_tms() -> typing.Generator[str, None, None]:
             return
 
         for match in match_it:
-            yield f"MOVE_{match.group(1)}"
+            move = f"MOVE_{match.group(1)}"
+            print(f"Found TM/HM move: {move}")
+            yield move
 
 
 def extract_repo_universals() -> list[str]:
