@@ -5071,17 +5071,7 @@
               {
                 "min_level": 21,
                 "max_level": 23,
-                "species": "SPECIES_DUSKULL"
-              },
-              {
-                "min_level": 21,
-                "max_level": 23,
-                "species": "SPECIES_SHUPPET"
-              },
-              {
-                "min_level": 21,
-                "max_level": 23,
-                "species": "SPECIES_MISDREAVUS"
+                "species": "SPECIES_SKORUPI"
               },
               {
                 "min_level": 21,
@@ -5091,22 +5081,32 @@
               {
                 "min_level": 21,
                 "max_level": 23,
-                "species": "SPECIES_SPIRITOMB"
+                "species": "SPECIES_TORKOAL"
               },
               {
                 "min_level": 21,
                 "max_level": 23,
-                "species": "SPECIES_ONIX"
+                "species": "SPECIES_MACHOP"
               },
               {
                 "min_level": 21,
                 "max_level": 23,
-                "species": "SPECIES_GLIGAR"
+                "species": "SPECIES_TORKOAL"
               },
               {
                 "min_level": 21,
                 "max_level": 23,
-                "species": "SPECIES_SPIRITOMB"
+                "species": "SPECIES_MEDITITE"
+              },
+              {
+                "min_level": 21,
+                "max_level": 23,
+                "species": "SPECIES_MEDITITE"
+              },
+              {
+                "min_level": 21,
+                "max_level": 23,
+                "species": "SPECIES_TORKOAL"
               }
             ]
           }
@@ -5214,27 +5214,27 @@
               {
                 "min_level": 22,
                 "max_level": 24,
-                "species": "SPECIES_MACHOP"
-              },
-              {
-                "min_level": 22,
-                "max_level": 24,
                 "species": "SPECIES_MEDITITE"
               },
               {
                 "min_level": 22,
                 "max_level": 24,
-                "species": "SPECIES_HIPPOWDON"
-              },
-              {
-                "min_level": 22,
-                "max_level": 24,
-                "species": "SPECIES_BALTOY"
+                "species": "SPECIES_BRONZOR"
               },
               {
                 "min_level": 22,
                 "max_level": 24,
                 "species": "SPECIES_BRONZOR"
+              },
+              {
+                "min_level": 22,
+                "max_level": 24,
+                "species": "SPECIES_HERACROSS"
+              },
+              {
+                "min_level": 22,
+                "max_level": 24,
+                "species": "SPECIES_TORKOAL"
               },
               {
                 "min_level": 22,

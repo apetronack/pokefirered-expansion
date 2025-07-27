@@ -118,3 +118,71 @@ Route12_EventScript_FishingSign::
 	msgbox Route12_Text_SportfishingArea, MSGBOX_SIGN
 # 60 "data/maps/Route12/scripts.pory"
 	end
+# 61 "data/maps/Route12/scripts.pory"
+
+# 62 "data/maps/Route12/scripts.pory"
+Route12_EventScript_Alaina::
+# 63 "data/maps/Route12/scripts.pory"
+	lock
+# 64 "data/maps/Route12/scripts.pory"
+	faceplayer
+# 65 "data/maps/Route12/scripts.pory"
+	setvar VAR_0x8008, INGAME_TRADE_TORCHIC
+# 66 "data/maps/Route12/scripts.pory"
+	call EventScript_GetInGameTradeSpeciesInfo
+# 67 "data/maps/Route12/scripts.pory"
+	goto_if_set FLAG_DID_CHICKLET_TRADE, Route12_EventScript_AlreadyTraded
+# 68 "data/maps/Route12/scripts.pory"
+	msgbox Trade_Text_LookingForMonWannaTradeForMon, MSGBOX_YESNO
+# 69 "data/maps/Route12/scripts.pory"
+	goto_if_eq VAR_RESULT, NO, Route12_EventScript_DeclineTrade
+# 70 "data/maps/Route12/scripts.pory"
+	call EventScript_ChooseMonForInGameTrade
+# 71 "data/maps/Route12/scripts.pory"
+	goto_if_ge VAR_0x8004, PARTY_SIZE, Route12_EventScript_DeclineTrade
+# 72 "data/maps/Route12/scripts.pory"
+	call EventScript_GetInGameTradeSpecies
+# 73 "data/maps/Route12/scripts.pory"
+	goto_if_ne VAR_RESULT, VAR_0x8009, Route12_EventScript_NotRequestedMon
+# 74 "data/maps/Route12/scripts.pory"
+	call EventScript_DoInGameTrade
+# 75 "data/maps/Route12/scripts.pory"
+	msgbox Trade_Text_HeyThanks
+# 76 "data/maps/Route12/scripts.pory"
+	setflag FLAG_DID_CHICKLET_TRADE
+# 77 "data/maps/Route12/scripts.pory"
+	release
+# 78 "data/maps/Route12/scripts.pory"
+	end
+# 79 "data/maps/Route12/scripts.pory"
+
+# 80 "data/maps/Route12/scripts.pory"
+Route12_EventScript_AlreadyTraded::
+# 81 "data/maps/Route12/scripts.pory"
+	msgbox Trade_Text_IsntMyOldMonGreat
+# 82 "data/maps/Route12/scripts.pory"
+	release
+# 83 "data/maps/Route12/scripts.pory"
+	end
+# 84 "data/maps/Route12/scripts.pory"
+
+# 85 "data/maps/Route12/scripts.pory"
+Route12_EventScript_DeclineTrade::
+# 86 "data/maps/Route12/scripts.pory"
+	msgbox Trade_Text_AwwOhWell
+# 87 "data/maps/Route12/scripts.pory"
+	release
+# 88 "data/maps/Route12/scripts.pory"
+	end
+# 89 "data/maps/Route12/scripts.pory"
+
+# 90 "data/maps/Route12/scripts.pory"
+Route12_EventScript_NotRequestedMon::
+# 91 "data/maps/Route12/scripts.pory"
+	bufferspeciesname STR_VAR_1, VAR_0x8009
+# 92 "data/maps/Route12/scripts.pory"
+	msgbox Trade_Text_WhatThatsNoMon
+# 93 "data/maps/Route12/scripts.pory"
+	release
+# 94 "data/maps/Route12/scripts.pory"
+	end
