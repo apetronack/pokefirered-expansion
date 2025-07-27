@@ -13,7 +13,7 @@
   "show_map_name": true,
   "floor_number": 3,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "type": "object",
@@ -70,6 +70,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_3F_EventScript_ItemHyperPotion",
       "flag": "FLAG_HIDE_SILPH_CO_3F_HYPER_POTION"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_POKE_BALL",
+      "x": 0,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SilphCo_3F_EventScript_ItemTM58",
+      "flag": "FLAG_HIDE_TM58"
     }
   ],
   "warp_events": [
@@ -144,7 +158,9 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",
