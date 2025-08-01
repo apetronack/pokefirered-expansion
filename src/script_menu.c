@@ -234,6 +234,9 @@ static const struct MenuAction sMultichoiceList_GameCornerTMPrizes[] = {
     { gText_Tm24_4000Coins },
     { gText_Tm30_4500Coins },
     { gText_Tm35_4000Coins },
+    { gText_Tm53_3750Coins },
+    { gText_Tm79_3750Coins },
+    { gText_Tm84_3750Coins },
     { gText_NoThanks_2 }
 };
 
