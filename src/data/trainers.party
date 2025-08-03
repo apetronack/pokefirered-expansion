@@ -9594,7 +9594,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Primeape @ Black Belt
 Ability: Anger Point
-Level: 50
+Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Cross Chop
 - Rock Slide
@@ -9603,7 +9603,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Hariyama @ Black Belt
 Ability: Thick Fat
-Level: 50
+Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Vital Throw
 - Bulk Up
@@ -9612,7 +9612,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Toxicroak @ Black Belt
 Ability: Dry Skin
-Level: 50
+Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sludge Bomb
 - Nasty Plot
@@ -9630,7 +9630,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Machamp @ Black Belt
 Ability: No Guard
-Level: 50
+Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Dynamic Punch
 - Rock Slide
@@ -9639,7 +9639,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Medicham @ Black Belt
 Ability: Pure Power
-Level: 50
+Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Bulk Up
 - Hi Jump Kick
@@ -9657,7 +9657,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Blaziken @ Black Belt
 Ability: Speed Boost
-Level: 52
+Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Bulk Up
 - Blaze Kick
@@ -9675,7 +9675,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Primeape @ Black Belt
 Ability: Vital Spirit
-Level: 50
+Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Cross Chop
 - Thrash
@@ -9684,7 +9684,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Heracross @ Black Belt
 Ability: Guts
-Level: 50
+Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Close Combat
 - Aerial Ace
@@ -9702,7 +9702,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / 
 
 Poliwrath @ Black Belt
 Ability: Water Absorb
-Level: 51
+Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Dynamic Punch
 - Waterfall
@@ -9711,7 +9711,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Infernape @ Black Belt
 Ability: Blaze
-Level: 51
+Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Close Combat
 - Punishment
@@ -9720,7 +9720,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Gallade @ Black Belt
 Ability: Sharpness
-Level: 51
+Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Leaf Blade
 - Night Slash
@@ -9729,7 +9729,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Sneasler @ Black Belt
 Ability: Pressure
-Level: 51
+Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - U Turn
 - Poison Jab
@@ -9738,7 +9738,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Annihilape @ Black Belt
 Ability: Vital Spirit
-Level: 51
+Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Shadow Claw
 - Drain Punch
@@ -9747,7 +9747,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Lucario @ Black Belt
 Ability: Steadfast
-Level: 51
+Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Calm Mind
 - Aura Sphere
@@ -10072,7 +10072,7 @@ Music: Hiker
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Nidoqueen
+Nidoking
 Ability: Rivalry
 Level: 55
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
