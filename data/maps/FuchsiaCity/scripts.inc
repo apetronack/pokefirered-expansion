@@ -301,7 +301,7 @@ FuchsiaCity_EventScript_GymGuardian::
 # 154 "data/maps/FuchsiaCity/scripts.pory"
 	setvar VAR_LAST_TALKED, 17
 # 156 "data/maps/FuchsiaCity/scripts.pory"
-	goto_if_set FLAG_BADGE05_GET, FuchsiaCity_EventScript_GymGuardian_2
+	goto_if_set FLAG_BADGE06_GET, FuchsiaCity_EventScript_GymGuardian_2
 # 172 "data/maps/FuchsiaCity/scripts.pory"
 	msgbox FuchsiaCity_EventScript_GymGuardian_Text_3
 FuchsiaCity_EventScript_GymGuardian_1:

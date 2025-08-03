@@ -153,7 +153,7 @@ script FuchsiaCity_EventScript_GymGuardian {
 	faceplayer
 	setvar(VAR_LAST_TALKED, LOCALID_GYM_GUARDIAN)
 	// Check if the player has finished beating Sabrina
-	if (flag(FLAG_BADGE05_GET)) {
+	if (flag(FLAG_BADGE06_GET)) {
 		// If so, display a message and initiate a battle with the Gym guardian
 		msgbox(format("You can't come through! Koga can't be warned about Team Rocket's plans!", "1_latin_frlg"))
 		trainerbattle_no_intro(TRAINER_FUSCHIA_GYM_GUARDIAN, format("You may have beaten me, but Team Rocket isn't finished!", "1_latin_frlg"))
