@@ -51,9 +51,9 @@ SaffronCity_Dojo_EventScript_HitmonleeBall::
 # 26 "data/maps/SaffronCity_Dojo/scripts.pory"
 	goto_if_set FLAG_GOT_HITMON_FROM_DOJO, SaffronCity_Dojo_EventScript_AlreadyGotHitmon
 # 27 "data/maps/SaffronCity_Dojo/scripts.pory"
-	showmonpic SPECIES_HITMONLEE, 10, 3
+	showmonpic SPECIES_MEDICHAM, 10, 3
 # 28 "data/maps/SaffronCity_Dojo/scripts.pory"
-	setvar VAR_TEMP_1, SPECIES_HITMONLEE
+	setvar VAR_TEMP_1, SPECIES_MEDICHAM
 # 29 "data/maps/SaffronCity_Dojo/scripts.pory"
 	applymovement LOCALID_KARATE_MASTER, Common_Movement_WalkInPlaceFasterUp
 # 30 "data/maps/SaffronCity_Dojo/scripts.pory"
@@ -93,9 +93,9 @@ SaffronCity_Dojo_EventScript_HitmonchanBall::
 # 47 "data/maps/SaffronCity_Dojo/scripts.pory"
 	goto_if_set FLAG_GOT_HITMON_FROM_DOJO, SaffronCity_Dojo_EventScript_AlreadyGotHitmon
 # 48 "data/maps/SaffronCity_Dojo/scripts.pory"
-	showmonpic SPECIES_HITMONCHAN, 10, 3
+	showmonpic SPECIES_HARIYAMA, 10, 3
 # 49 "data/maps/SaffronCity_Dojo/scripts.pory"
-	setvar VAR_TEMP_1, SPECIES_HITMONCHAN
+	setvar VAR_TEMP_1, SPECIES_HARIYAMA
 # 50 "data/maps/SaffronCity_Dojo/scripts.pory"
 	applymovement LOCALID_KARATE_MASTER, Common_Movement_WalkInPlaceFasterUp
 # 51 "data/maps/SaffronCity_Dojo/scripts.pory"

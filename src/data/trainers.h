@@ -21847,7 +21847,7 @@ F_TRAINER_FEMALE |
 #line 9596
             .ability = ABILITY_ANGER_POINT,
 #line 9597
-            .lvl = 50,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -21869,7 +21869,7 @@ F_TRAINER_FEMALE |
 #line 9605
             .ability = ABILITY_THICK_FAT,
 #line 9606
-            .lvl = 50,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -21891,7 +21891,7 @@ F_TRAINER_FEMALE |
 #line 9614
             .ability = ABILITY_DRY_SKIN,
 #line 9615
-            .lvl = 50,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -21934,7 +21934,7 @@ F_TRAINER_FEMALE |
 #line 9632
             .ability = ABILITY_NO_GUARD,
 #line 9633
-            .lvl = 50,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -21956,7 +21956,7 @@ F_TRAINER_FEMALE |
 #line 9641
             .ability = ABILITY_PURE_POWER,
 #line 9642
-            .lvl = 50,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -21999,7 +21999,7 @@ F_TRAINER_FEMALE |
 #line 9659
             .ability = ABILITY_SPEED_BOOST,
 #line 9660
-            .lvl = 52,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -22042,7 +22042,7 @@ F_TRAINER_FEMALE |
 #line 9677
             .ability = ABILITY_VITAL_SPIRIT,
 #line 9678
-            .lvl = 50,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -22064,7 +22064,7 @@ F_TRAINER_FEMALE |
 #line 9686
             .ability = ABILITY_GUTS,
 #line 9687
-            .lvl = 50,
+            .lvl = 45,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -22107,7 +22107,7 @@ F_TRAINER_FEMALE |
 #line 9704
             .ability = ABILITY_WATER_ABSORB,
 #line 9705
-            .lvl = 51,
+            .lvl = 47,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -22129,7 +22129,7 @@ F_TRAINER_FEMALE |
 #line 9713
             .ability = ABILITY_BLAZE,
 #line 9714
-            .lvl = 51,
+            .lvl = 47,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -22151,7 +22151,7 @@ F_TRAINER_FEMALE |
 #line 9722
             .ability = ABILITY_SHARPNESS,
 #line 9723
-            .lvl = 51,
+            .lvl = 47,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -22173,7 +22173,7 @@ F_TRAINER_FEMALE |
 #line 9731
             .ability = ABILITY_PRESSURE,
 #line 9732
-            .lvl = 51,
+            .lvl = 47,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -22195,7 +22195,7 @@ F_TRAINER_FEMALE |
 #line 9740
             .ability = ABILITY_VITAL_SPIRIT,
 #line 9741
-            .lvl = 51,
+            .lvl = 47,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -22217,7 +22217,7 @@ F_TRAINER_FEMALE |
 #line 9749
             .ability = ABILITY_STEADFAST,
 #line 9750
-            .lvl = 51,
+            .lvl = 47,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -22965,7 +22965,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 10075
-            .species = SPECIES_NIDOQUEEN,
+            .species = SPECIES_NIDOKING,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 10078
             .iv = TRAINER_PARTY_IVS(19, 19, 19, 19, 19, 19),

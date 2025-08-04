@@ -65,7 +65,7 @@ Route12_FishingHouse_EventScript_CheckMagikarpRecord::
 # 33 "data/maps/Route12_FishingHouse/scripts.pory"
 	special QuestLog_CutRecording
 # 34 "data/maps/Route12_FishingHouse/scripts.pory"
-	setvar VAR_0x8004, SPECIES_MAGIKARP
+	setvar VAR_0x8004, SPECIES_FEEBAS
 # 35 "data/maps/Route12_FishingHouse/scripts.pory"
 	specialvar VAR_RESULT, DoesPlayerPartyContainSpecies
 # 36 "data/maps/Route12_FishingHouse/scripts.pory"
