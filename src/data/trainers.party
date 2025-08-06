@@ -3095,15 +3095,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Spark
 - Secret Power
 
-Elekid
-Ability: Static
-Level: 26
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Low Kick
-- Shock Wave
-- Ice Punch
-- Swift
-
 Chinchou
 Ability: Volt Absorb
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
@@ -3149,15 +3140,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Fire Fang
 - Howl
 
-Chinchou
-Ability: Volt Absorb
-Level: 27
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Take Down
-- Spark
-- Water Gun
-- Confuse Ray
-
 === TRAINER_LEADER_LT_SURGE ===
 Name: LT. SURGE
 Class: Leader
@@ -3195,7 +3177,7 @@ Level: 28
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Supersonic
 - Thunder Wave
-- Magnet Bomb
+- Metal Sound
 - Shock Wave
 
 Electabuzz
