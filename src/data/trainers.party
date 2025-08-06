@@ -1238,15 +1238,6 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 - Growth
 - Vine Whip
 
-Mightyena
-Ability: Intimidate
-Level: 20
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Bite
-- Sand Attack
-- Howl
-- Secret Power
-
 === TRAINER_YOUNGSTER_TIMMY ===
 Name: TIMMY
 Class: Youngster
@@ -1309,24 +1300,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Poison Sting
 - Tail Whip
 - Growl
-
-Poliwhirl
-Ability: Water Absorb
-Level: 21
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Body Slam
-- Water Gun
-- Hypnosis
-- Secret Power 
-
-Sneasel
-Ability: Inner Focus
-Level: 21
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Ice Shard
-- Faint Attack
-- Screech
-- Quick Attack
 
 === TRAINER_CAMPER_ETHAN ===
 Name: ETHAN
@@ -1427,15 +1400,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Leech Seed
 - Reflect
 
-Spheal
-Ability: Thick Fat
-Level: 21
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Body Slam
-- Water Gun
-- Ice Ball
-- Defense Curl
-
 === TRAINER_HIKER_FRANKLIN ===
 Name: FRANKLIN
 Class: Hiker
@@ -1465,7 +1429,7 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Buizel
 Ability: Swift Swim
-Level: 22
+Level: 21
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Aqua Jet
 - Swift
@@ -1525,15 +1489,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Water Gun
 - Defense Curl
 - Rollout
-
-Doduo
-Ability: Early Bird
-Level: 22
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Pursuit
-- Fury Attack
-- Peck
-- Secret Power
 
 Furret
 Ability: Keen Eye
@@ -1598,15 +1553,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Poison Sting
 - Stun Spore
 
-Spheal
-Ability: Thick Fat
-Level: 22
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Body Slam
-- Ice Ball
-- Defense Curl
-- Curse
-
 === TRAINER_HIKER_NOB ===
 Name: NOB
 Class: Hiker
@@ -1669,15 +1615,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Peck
 - Hypnosis
 
-Tangela
-Ability: Leaf Guard
-Level: 22
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Stun Spore
-- Growth
-- Mega Drain
-- Cut
-
 SPECIES_LINOONE_GALAR @ Liechi Berry
 Ability: Gluttony
 Level: 22
@@ -1723,15 +1660,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Poison Sting
 - Scary Face
 
-Poliwhirl
-Ability: Water Absorb
-Level: 23
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Bubble Beam
-- Hypnosis
-- Body Slam
-- Secret Power
-
 === TRAINER_LASS_HALEY ===
 Name: HALEY
 Class: Lass
@@ -1749,14 +1677,6 @@ IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 - Gust
 - Sand Attack
 - Quick Attack
-
-Paras
-Level: 23
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-- Slash
-- Spore
-- Leech Life
-- Cut
 
 Pikachu
 Ability: Static
@@ -1874,7 +1794,7 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Supersonic
 - Wing Attack
 - Water Pulse
-- Hidden Power
+- Mist
 
 Horsea
 Ability: Sniper
@@ -1957,7 +1877,7 @@ Level: 23
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Fake Out
 - Bullet Seed
-- Mega Punch
+- Rain Dance
 - Water Pulse
 
 Mantine
