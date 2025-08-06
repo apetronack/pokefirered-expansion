@@ -473,15 +473,6 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Poison Powder
 - Scratch
 
-Nincada
-Ability: Compound Eyes
-Level: 14
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Fury Swipes
-- Leech Life
-- Sand Attack
-- Harden
-
 === TRAINER_YOUNGSTER_BEN ===
 Name: BEN
 Class: Youngster
@@ -544,15 +535,6 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - String Shot
 - Constrict
 
-Pineco
-Ability: Sturdy
-Level: 13
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Rapid Spin
-- Take Down
-- Self Destruct
-- Protect
-
 Butterfree
 Ability: Compound Eyes
 Level: 14
@@ -580,15 +562,6 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Leer
 - Rock Tomb
 
-Swinub
-Ability: Thick Fat
-Level: 14
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Mud Slap
-- Powder Snow
-- Tackle
-- Rock Tomb
-
 Poochyena
 Ability: Quick Feet
 Level: 14
@@ -606,24 +579,6 @@ Gender: Male
 Music: Female
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
-
-Nidoran M
-Ability: Poison Point
-Level: 14
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Poison Sting
-- Double Kick
-- Peck
-- Leer
-
-Nidoran F
-Ability: Poison Point
-Level: 14
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Growl
-- Double Kick
-- Poison Sting
-- Pursuit
 
 Sentret
 Ability: Keen Eye
@@ -660,15 +615,6 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Take Down
 - Protect
 - Selfdestruct
-
-Anorith
-Ability: Battle Armor
-Level: 14
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Water Gun
-- Harden
-- Knock Off
-- Cut
 
 Paras
 Ability: Effect Spore
@@ -831,15 +777,6 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 - Poison Powder
 - String Shot
 
-Pineco
-Ability: Sturdy
-Level: 16
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Protect
-- Self Destruct
-- Take Down
-- Rapid Spin
-
 === TRAINER_LASS_MIRIAM ===
 Name: MIRIAM
 Class: Lass
@@ -882,7 +819,6 @@ Level: 16
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 - Sludge
 - Poison Gas
-- Yawn
 - Pound
 
 Whismur
@@ -920,24 +856,6 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 - Take Down
 - Taunt
 - Rock Tomb
-
-Aron
-Ability: Sturdy
-Level: 16
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Metal Claw
-- Headbutt
-- Mud Slap
-- Harden
-
-Onix
-Ability: Sturdy
-Level: 16
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Rock Tomb
-- Rage
-- Screech
-- Harden
 
 Cranidos
 Ability: Mold Breaker
@@ -1056,15 +974,6 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 - Faint Attack
 - Rock Tomb
 
-Venonat
-Ability: Tinted Lens
-Level: 17
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Leech Life
-- Confusion
-- Supersonic
-- Disable
-
 Snorunt
 Ability: Inner Focus
 Level: 17
@@ -1083,15 +992,6 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 - Scary Face
 - Poison Sting
 
-Quilava
-Ability: Blaze
-Level: 17
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Ember
-- Quick Attack
-- Smokescreen
-- Cut
-
 Cacnea
 Ability: Water Absorb
 Level: 17
@@ -1109,15 +1009,6 @@ Gender: Male
 Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Stunky
-Ability: Stench
-Level: 17
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Smokescreen
-- Poison Gas
-- Fury Swipes
-- Screech
 
 Electrike
 Ability: Static
