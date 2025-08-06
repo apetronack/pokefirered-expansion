@@ -1973,15 +1973,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Leech Life
 - Confusion
 
-Scyther
-Ability: Technician
-Level: 23
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Pursuit
-- Quick Attack
-- Wing Attack
-- Cut
-
 === TRAINER_CAMPER_RICKY ===
 Name: RICKY
 Class: Camper
@@ -2008,24 +1999,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Sand Attack
 - Double Kick
 - Ember
-
-Bayleef
-Ability: Overgrow
-Level: 23
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Magical Leaf
-- Reflect
-- Poison Powder
-- Nature Power
-
-Luxio
-Ability: Intimidate
-Level: 23
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Spark
-- Bite
-- Charge
-- Leer
 
 === TRAINER_PICNICKER_NANCY ===
 Name: NANCY
@@ -2078,7 +2051,7 @@ Level: 23
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Brick Break
 - Aerial Ace
-- Night Slash
+- Fury Attack
 - Cut
 
 Scizor
@@ -2088,7 +2061,7 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Metal Claw
 - Pursuit
 - Cut
-- Wing Attack
+- Focus Energy
 
 === TRAINER_PICNICKER_ISABELLE ===
 Name: ISABELLE
@@ -2116,24 +2089,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Feather Dance
 - Fury Attack
 - Quick Attack
-
-Wingull
-Ability: Hydration
-Level: 23
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Rain Dance
-- Water Pulse
-- Supersonic
-- Secret Power
-
-Natu
-Ability: Synchronize
-Level: 23
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Confuse Ray
-- Night Shade
-- Peck
-- Secret Power
 
 === TRAINER_CAMPER_JEFF ===
 Name: JEFF
@@ -2189,15 +2144,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Body Slam
 - Faint Attack
 
-Buizel
-Ability: Swift Swim
-Level: 23
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Aqua Jet
-- Pursuit
-- Swift
-- Rock Tomb
-
 === TRAINER_GAMER_HUGO ===
 Name: HUGO
 Class: Gamer
@@ -2216,15 +2162,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Water Pulse
 - DoubleSlap
 
-Nidorino
-Ability: Poison Point
-Level: 23
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Horn Attack
-- Double Kick
-- Peck
-- Water Pulse
-
 Cherubi
 Ability: Chlorophyll
 Level: 24
@@ -2233,15 +2170,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Helping Hand
 - Leech Seed
 - Growth
-
-Stunky
-Ability: Stench
-Level: 24
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Toxic
-- Screech
-- Fury Swipes
-- Thief
 
 === TRAINER_YOUNGSTER_DAVE ===
 Name: DAVE
@@ -2278,15 +2206,6 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Sandslash
-Ability: Sand Veil
-Level: 24
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Crush Claw
-- Rapid Spin
-- Defense Curl
-- Rollout
 
 Exeggcute
 Ability: Chlorophyll
@@ -2332,15 +2251,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Bite
 - Charge
 - Leer
-
-Flaaffy
-Ability: Static
-Level: 24
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Cotton Spore
-- Brick Break
-- Body Slam
-- Shock Wave
 
 === TRAINER_GAMER_JASPER ===
 Name: JASPER
@@ -2450,15 +2360,6 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Growlithe
-Ability: Intimidate
-Level: 24
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Flame Wheel
-- Bite
-- Leer
-- Body Slam
-
 Monferno
 Ability: Blaze
 Level: 24
@@ -2504,15 +2405,6 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Reflect
 - Hypnosis
 
-Magnemite
-Ability: Sturdy
-Level: 24
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Spark
-- Thunder Wave
-- SonicBoom
-- Supersonic
-
 === TRAINER_GENTLEMAN_THOMAS ===
 Name: THOMAS
 Class: Gentleman
@@ -2531,15 +2423,6 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Leer
 - Secret Power
 
-Tentacool
-Ability: Clear Body
-Level: 22
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Wrap
-- Bubblebeam
-- Acid
-- Toxic Spikes
-
 Breloom
 Ability: Effect Spore
 Level:22
@@ -2548,15 +2431,6 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Mega Drain
 - Leech Seed
 - Stun Spore
-
-Stunky
-Ability: Stench
-Level: 22
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Smokescreen
-- Screech
-- Fury Swipes
-- Focus Energy
 
 === TRAINER_GENTLEMAN_ARTHUR ===
 Name: ARTHUR
@@ -2585,15 +2459,6 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Gust
 - Growth
 
-Poliwhirl
-Ability: Water Absorb
-Level: 23
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Body Slam
-- Water Pulse
-- Hypnosis
-- Mud Shot
-
 === TRAINER_LASS_ANN ===
 Name: ANN
 Class: Lass
@@ -2602,15 +2467,6 @@ Gender: Male
 Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Scyther
-Ability: Technician
-Level: 23
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Wing Attack
-- Pursuit
-- Quick Attack
-- Cut
 
 Nidorina
 Ability: Poison Point
@@ -2638,15 +2494,6 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Mightyena
-Ability: Intimidate
-Level: 22
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Howl
-- Bite
-- Ice Fang
-- Dig
 
 Porygon
 Ability: Download
@@ -2683,15 +2530,6 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Iron Defense
 - Whirlpool
 - Mimic
-
-Shellder
-Ability: Shell Armor
-Level: 23
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Icicle Spear
-- Supersonic
-- Withdraw
-- Water Pulse
 
 Quagsire
 Ability: Water Absorb
@@ -2747,15 +2585,6 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Horsea
-Ability: Sniper
-Level: 23
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Agility
-- Bubblebeam
-- Focus Energy
-- DragonBreath
-
 Wailmer
 Ability: Oblivious
 Level: 23
@@ -2792,15 +2621,6 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Water Pulse
 - Rain Dance
 
-Staryu
-Ability: Natural Cure
-Level: 24
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Swift
-- Water Pulse
-- Rapid Spin
-- Thunder Wave
-
 Mantine @ Wacan Berry
 Ability: Swift Swim
 Level: 24
@@ -2818,15 +2638,6 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Tentacool
-Ability: Clear Body
-Level: 24
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Toxic Spikes
-- Supersonic
-- Bubblebeam
-- Aurora Beam
 
 Azumarill
 Ability: Huge Power
@@ -2863,15 +2674,6 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Knock Off
 - Vital Throw
 - Counter
-
-Machop
-Ability: Guts
-Level: 24
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Karate Chop
-- Revenge
-- Foresight
-- Thunder Punch
 
 Hariyama
 Ability: Thick Fat
@@ -2954,24 +2756,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Stun Spore
 - Poison Sting
 
-Growlithe
-Ability: Intimidate
-Level: 23
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Flame Wheel
-- Bite
-- Helping Hand
-- Dig
-
-Buneary
-Ability: Klutz
-Level: 23
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Jump Kick
-- Frustration
-- Defense Curl
-- Quick Attack
-
 Vigoroth
 Ability: Vital Spirit
 Level: 23
@@ -2989,15 +2773,6 @@ Gender: Male
 Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Furret
-Ability: Keen Eye
-Level: 23
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Quick Attack
-- Foresight
-- Fury Swipes
-- Defense Curl
 
 Eevee
 Ability: Adaptability
@@ -3079,15 +2854,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Rock Tomb
 - Water Pulse
 - Secret Power
-
-Noctowl
-Ability: Insomnia
-Level: 24
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Reflect
-- Hypnosis
-- Sky Attack
-- Confusion
 
 === TRAINER_RIVAL_SS_ANNE_SQUIRTLE ===
 Name: TERRY
