@@ -6106,15 +6106,6 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Staraptor @ White Herb
-Ability: Intimidate
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Close Combat
-- U Turn
-- Aerial Ace
-- Steel Wing
-
 Loudred
 Ability: Soundproof
 Level: 37
@@ -6123,15 +6114,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Brick Break
 - Rock Slide
 - Body Slam
-
-Glaceon
-Ability: Snow Cloak
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Ice Shard
-- Bite
-- Icy Wind
-- Shadow Ball
 
 Pikachu @ Light Ball
 Ability: Static
@@ -6168,15 +6150,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Body Slam
 - Zen Headbutt
 - Curse
-
-Electabuzz
-Ability: Static
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Discharge
-- Brick Break
-- Light Screen
-- Ice Punch
 
 Armaldo
 Ability: Battle Armor
@@ -6241,15 +6214,6 @@ IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 - Mirror Shot
 - Explosion
 
-Donphan
-Ability: Sturdy
-Level: 38
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-- Fire Fang
-- Magnitude
-- Knock Off
-- Rapid Spin
-
 === TRAINER_PICNICKER_GWEN ===
 Name: GWEN
 Class: Picnicker
@@ -6276,15 +6240,6 @@ IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 - Mud Bomb
 - Sludge Bomb
 - Dark Pulse
-
-Kabutops
-Ability: Battle Armor
-Level: 38
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-- Aqua Jet
-- Brick Break
-- Rock Slide
-- Mud Shot
 
 === TRAINER_BIRD_KEEPER_PERRY ===
 Name: PERRY
@@ -6348,15 +6303,6 @@ IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 - Sucker Punch
 - Bug Bite
 - Body Slam
-
-Lucario @ Metronome
-Ability: Steadfast
-Level: 38
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-- Calm Mind
-- Dark Pulse
-- Vacuum Wave
-- Shadow Ball
 
 === TRAINER_BIRD_KEEPER_ROBERT ===
 Name: ROBERT
@@ -6699,15 +6645,6 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Slaking
-Ability: Truant
-Level: 39
-IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
-- Brick Break
-- Faint Attack
-- Slack Off
-- Slash
 
 Grumpig @ Chesto Berry
 Ability: Own Tempo
@@ -7543,15 +7480,6 @@ IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Revenge
 - Bullet Punch
 
-Forretress @ Sitrus Berry
-Ability: Sturdy
-Level: 40
-IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
-- Iron Defense
-- Counter
-- Explosion
-- Bide
-
 Dodrio @ Choice Band
 Ability: Early Bird
 Level: 40
@@ -7723,15 +7651,6 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Leech Life
 - Toxic Spikes
 
-Sandslash
-Ability: Sand Rush
-Level: 42
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Slash
-- Rock Slide
-- Brick Break
-- Swords Dance
-
 Skuntank
 Ability: Stench
 Level: 42
@@ -7740,15 +7659,6 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Night Slash
 - Flamethrower
 - Iron Tail
-
-Dusclops
-Ability: Pressure
-Level: 42
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
-- Will O Wisp
-- Mean Look
-- Ice Beam
-- Calm Mind
 
 Manectric
 Ability: Static
@@ -8127,15 +8037,6 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Curse
 - Baton Pass
 - Bite
-
-Cradily @ Leftovers
-Ability: Suction Cups
-Level: 43
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Ancient Power
-- Amnesia
-- Giga Drain
-- Barrier
 
 Crawdaunt
 Ability: Shell Armor
