@@ -3280,14 +3280,14 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Growlithe
-Ability: Intimidate
+Slugma
+Ability: Flame Body
 Level: 28
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Fire Fang
-- Reversal
-- Bite
-- Attract
+- Ember
+- Ancient Power
+- Recover
+- Yawn
 
 Monferno
 Ability: Blaze
@@ -3297,15 +3297,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Flame Wheel
 - Taunt
 - Rock Tomb
-
-Slugma
-Ability: Flame Body
-Level: 28
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Ember
-- Ancient Power
-- Recover
-- Yawn
 
 === TRAINER_BUG_CATCHER_BRENT ===
 Name: BRENT
@@ -3334,15 +3325,6 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Stun Spore
 - Gust
 
-Ninjask
-Level: 28
-Ability: Speed Boost
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Swords Dance
-- Leech Life
-- Double Team
-- Cut
-
 === TRAINER_CAMPER_DREW ===
 Name: DREW
 Class: Camper
@@ -3351,15 +3333,6 @@ Gender: Male
 Music: Male
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
-
-Furret
-Ability: Keen Eye
-Level: 29
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Slam
-- Follow Me
-- Helping Hand
-- Quick Attack
 
 Sandslash
 Ability: Sand Veil
@@ -3397,24 +3370,6 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Kleavor
-Ability: Sheer Force
-Level: 29
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Night Slash
-- Rock Tomb
-- Fury Cutter
-- Slash
-
-Ninjask
-Ability: Speed Boost
-Level: 29
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Swords Dance
-- Leech Life
-- Double Team
-- Mud Slap
-
 Venonat
 Ability: Compound Eyes
 Level: 29
@@ -3423,6 +3378,15 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Leech Life
 - Confusion
 - Supersonic
+
+Kleavor
+Ability: Sheer Force
+Level: 29
+IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+- Night Slash
+- Rock Tomb
+- Fury Cutter
+- Slash
 
 === TRAINER_HIKER_BRICE ===
 Name: BRICE
@@ -3541,15 +3505,6 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Nasty Plot
 - Surf
 
-Swablu
-Ability: Natural Cure
-Level: 29
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Safeguard
-- Sing
-- Peck
-- Take Down
-
 Clefable
 Ability: Cute Charm
 Level: 29
@@ -3559,15 +3514,6 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Water Pulse
 - Shock Wave
 
-Parasect
-Ability: Effect Spore
-Level: 29
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Spore
-- Slash
-- Leech Life
-- Bullet Seed
-
 === TRAINER_POKEMANIAC_ASHTON ===
 Name: ASHTON
 Class: Pokemaniac
@@ -3576,15 +3522,6 @@ Gender: Male
 Music: Suspicious
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
-
-Marowak
-Ability: Lightning Rod
-Level: 30
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Bonemerang
-- Headbutt
-- Focus Energy
-- Rock Tomb
 
 Slowpoke
 Ability: Own Tempo
@@ -3604,15 +3541,6 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Uproar
 - Acupressure
 
-Porygon
-Ability: Download
-Level: 30
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Signal Beam
-- Psybeam
-- Recover
-- Shock Wave
-
 === TRAINER_POKEMANIAC_WINSTON ===
 Name: WINSTON
 Class: Pokemaniac
@@ -3621,15 +3549,6 @@ Gender: Male
 Music: Suspicious
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
-
-Heracross
-Ability: Guts
-Level: 30
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Brick Break
-- Aerial Ace
-- Night Slash
-- Cut
 
 Umbreon
 Ability: Synchronize
@@ -3649,14 +3568,14 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Light Screen
 - Magical Leaf
 
-Electabuzz
-Ability: Static
+Heracross
+Ability: Guts
 Level: 30
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Thunderpunch
-- Low Kick
-- Swift
-- Mega Kick
+- Brick Break
+- Aerial Ace
+- Night Slash
+- Cut
 
 === TRAINER_PICNICKER_MARTHA ===
 Name: MARTHA
@@ -3766,15 +3685,6 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Hidden Power
 - Rock Tomb
 
-Tropius
-Ability: Chlorophyll
-Level: 30
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Stomp
-- Razor Leaf
-- Growth
-- Gust
-
 === TRAINER_HIKER_LENNY ===
 Name: LENNY
 Class: Hiker
@@ -3883,15 +3793,6 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Forretress
-Ability: Sturdy
-Level: 31
-IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
-- Mirror Shot
-- Spikes
-- Rapid Spin
-- Selfdestruct
-
 Hypno
 Ability: Insomnia
 Level: 31
@@ -3953,15 +3854,6 @@ Gender: Male
 Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Slowpoke
-Ability: Oblivious
-Level: 31
-IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
-- Water Pulse
-- Confusion
-- Yawn
-- Disable
 
 Golbat
 Ability: Inner Focus
@@ -4062,15 +3954,6 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Rock Tomb
 - Mega Punch
 
-Crawdaunt
-Ability: Shell Armor
-Level: 31
-IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
-- Knock Off
-- Swift
-- Cut
-- Rock Slide
-
 Swellow
 Ability: Guts
 Level: 31
@@ -4143,15 +4026,6 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Kangaskhan
-Ability: Scrappy
-Level: 32
-IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
-- Crunch
-- Dizzy Punch
-- Fake Out
-- Rock Slide
-
 Swalot
 Ability: Liquid Ooze
 Level: 32
@@ -4160,6 +4034,15 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Toxic
 - Amnesia
 - Sludge
+
+Kangaskhan
+Ability: Scrappy
+Level: 32
+IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
+- Crunch
+- Dizzy Punch
+- Fake Out
+- Rock Slide
 
 === TRAINER_POKEMANIAC_HERMAN ===
 Name: HERMAN
@@ -4223,15 +4106,6 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Rollout
 - Rest
 - Attract
-
-Tentacruel
-Ability: Clear Body
-Level: 32
-IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
-- Water Pulse
-- Barrier
-- Toxic Spikes
-- Supersonic
 
 Poliwrath
 Ability: Water Absorb
@@ -4305,15 +4179,6 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Brine
 - Supersonic
 
-Floatzel
-Ability: Swift Swim
-Level: 32
-IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
-- Aqua Jet
-- Crunch
-- Ice Fang
-- Dig
-
 Crawdaunt
 Ability: Hyper Cutter
 Level: 32
@@ -4332,7 +4197,7 @@ Music: Girl
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Nidoran M
+Nidorino
 Ability: Rivalry
 Level: 24
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
@@ -4341,7 +4206,7 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Double Kick
 - Peck
 
-Nidoran F
+Nidorina
 Ability: Rivalry
 Level: 24
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
@@ -4386,15 +4251,6 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Growlithe
-Ability: Intimidate
-Level: 33
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
-- Fire Fang
-- Take Down
-- Bite
-- Leer
-
 Manectric
 Ability: Static
 Level: 33
@@ -4422,6 +4278,15 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
+Venomoth
+Ability: Tinted Lens
+Level: 33
+IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+- Sleep Powder
+- Silver Wind
+- Psybeam
+- Gust
+
 Nidoqueen
 Ability: Poison Point
 Level: 33
@@ -4439,15 +4304,6 @@ IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 - Mud Slap
 - Headbutt
 - Rock Slide
-
-Venomoth
-Ability: Tinted Lens
-Level: 33
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
-- Sleep Powder
-- Silver Wind
-- Psybeam
-- Gust
 
 === TRAINER_TWINS_ELI_ANNE ===
 Name: ELI & ANNE
@@ -4484,15 +4340,6 @@ Gender: Male
 Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Ariados
-Ability: Swarm
-Level: 33
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
-- Sucker Punch
-- Spider Web
-- Bug Bite
-- Shadow Sneak
 
 Solrock
 Ability: Levitate
@@ -4575,15 +4422,6 @@ IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 - Disable
 - Dig
 
-Haunter
-Ability: Levitate
-Level: 33
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
-- Shadow Ball
-- Sucker Punch
-- Confuse Ray
-- Hypnosis
-
 === TRAINER_LASS_MEGAN ===
 Name: MEGAN
 Class: Lass
@@ -4620,33 +4458,6 @@ IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 - Slack Off
 - Brick Break
 
-Jolteon
-Ability: Volt Absorb
-Level: 33
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
-- Double Kick
-- Shock Wave
-- Bite
-- Fake Tears
-
-Vaporeon
-Ability: Water Absorb
-Level: 33
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
-- Bite
-- Water Pulse
-- Sand Attack
-- Quick Attack
-
-Flareon
-Ability: Flash Fire
-Level: 33
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
-- Bite
-- Quick Attack
-- Dig
-- Body Slam
-
 === TRAINER_BIKER_JAREN ===
 Name: JAREN
 Class: Biker
@@ -4655,15 +4466,6 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
-
-Gligar
-Ability: Hyper Cutter
-Level: 33
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
-- Slash
-- Faint Attack
-- Sand Attack
-- Cut
 
 Tropius
 Ability: Chlorophyll
@@ -4700,15 +4502,6 @@ IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 - Body Slam
 - Sludge
 - Yawn
-
-Ninjask
-Ability: Speed Boost
-Level: 33
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
-- Swords Dance
-- Slash
-- U-Turn
-- Metal Claw
 
 Duskull
 Ability: Levitate
@@ -4940,15 +4733,6 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Body Slam
 - Bite
 
-Elekid
-Ability: Static
-Level: 33
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Swift
-- Low Kick
-- Thunderpunch
-- Light Screen
-
 === TRAINER_TEAM_ROCKET_GRUNT_11 ===
 Name: GRUNT
 Class: Team Rocket
@@ -4958,15 +4742,6 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Noctowl
-Ability: Insomnia
-Level: 33
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Air Slash
-- Confusion
-- Reflect
-- Hypnosis
-
 Bibarel
 Ability: Simple
 Level: 33
@@ -4975,6 +4750,15 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Hyper Fang
 - Water Pulse
 - Yawn
+
+Ninjask
+Ability: Speed Boost
+Level: 33
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Swords Dance
+- Bug Bite
+- Slash
+- Night Slash
 
 Sneasel
 Ability: Inner Focus
@@ -5003,14 +4787,14 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Secret Power
 - Howl
 
-Ninjask
-Ability: Speed Boost
+Noctowl
+Ability: Insomnia
 Level: 33
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Swords Dance
-- Bug Bite
-- Slash
-- Night Slash
+- Air Slash
+- Confusion
+- Reflect
+- Hypnosis
 
 Haunter
 Ability: Levitate
@@ -5065,15 +4849,6 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Confuse Ray
 - Shock Wave
 - Body Slam
-
-Croagunk
-Ability: Dry Skin
-Level: 33
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Sucker Punch
-- Mud Bomb
-- Revenge
-- Rock Tomb
 
 Torkoal
 Ability: White Smoke
@@ -5137,15 +4912,6 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Amnesia
 - Encore
 - Sludge
-
-Sandslash
-Ability: Sand Veil
-Level: 33
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Sand Tomb
-- Crush Claw
-- Metal Claw
-- Rock Tomb
 
 === TRAINER_TEAM_ROCKET_GRUNT_17 ===
 Name: GRUNT
