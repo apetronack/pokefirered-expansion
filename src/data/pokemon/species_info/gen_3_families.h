@@ -995,10 +995,10 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
 
     [SPECIES_MIGHTYENA] =
     {
-        .baseHP        = 75,
+        .baseHP        = 70,
         .baseAttack    = 110,
-        .baseDefense   = 90,
-        .baseSpeed     = 75,
+        .baseDefense   = 70,
+        .baseSpeed     = 95,
         .baseSpAttack  = 60,
         .baseSpDefense = 60,
         .types = MON_TYPES(TYPE_DARK),
@@ -9995,8 +9995,8 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_TROPIUS] =
     {
         .baseHP        = 99,
-        .baseAttack    = 68,
-        .baseDefense   = 83,
+        .baseAttack    = 90,
+        .baseDefense   = 87,
         .baseSpeed     = 51,
         .baseSpAttack  = 72,
         .baseSpDefense = 87,
