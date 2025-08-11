@@ -7251,6 +7251,7 @@ static void Cmd_moveend(void)
                 if (GetBattlerHoldEffect(i, TRUE) == HOLD_EFFECT_RESTORE_STATS
                  && RestoreWhiteHerbStats(i))
                 {
+                    gLastUsedItem = gBattleMons[i].item;
                     BattleScriptPushCursor();
                     gBattlescriptCurrInstr = BattleScript_WhiteHerbRet;
                     effect = TRUE;
