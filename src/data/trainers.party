@@ -8506,15 +8506,6 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Psychic
 - Calm Mind
 
-Gengar
-Ability: Levitate
-Level: 45
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Dark Pulse
-- Shadow Ball
-- Hypnosis
-- Dream Eater
-
 Breloom
 Ability: Effect Spore
 Level: 45
@@ -8523,6 +8514,15 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Mach Punch
 - Seed Bomb
 - Dynamic Punch
+
+Gengar
+Ability: Levitate
+Level: 45
+IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+- Dark Pulse
+- Shadow Ball
+- Hypnosis
+- Dream Eater
 
 === TRAINER_SCIENTIST_ED ===
 Name: ED
