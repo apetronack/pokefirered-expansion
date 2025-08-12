@@ -4428,6 +4428,18 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/PiplupCave/border.bin",
       "blockdata_filepath": "data/layouts/PiplupCave/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE13_MOVE_RELEARNER_HOUSE",
+      "name": "Route13_MoveRelearnerHouse_Layout",
+      "width": 8,
+      "height": 8,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_CableClub",
+      "border_filepath": "data/layouts/Route13_MoveRelearnerHouse/border.bin",
+      "blockdata_filepath": "data/layouts/Route13_MoveRelearnerHouse/map.bin"
     }
   ]
 }

@@ -9810,7 +9810,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .power = B_UPDATED_MOVE_DATA >= GEN_4 ? 90 : 70,
         .type = TYPE_GRASS,
         .accuracy = 100,
-        .criticalHitStage = 1,
+        .criticalHitStage = 2,
         .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
@@ -9822,10 +9822,6 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .contestComboStarterId = 0,
         .contestComboMoves = {0},
         .battleAnimScript = gBattleAnimMove_LeafBlade,
-        .additionalEffects = ADDITIONAL_EFFECTS({
-            .moveEffect = EFFECT_FOCUS_ENERGY,
-            .chance = 25,
-        }),
         .validApprenticeMove = TRUE,
     },
 

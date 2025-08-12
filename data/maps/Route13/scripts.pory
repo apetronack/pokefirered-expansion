@@ -20,8 +20,8 @@ Route13_EventScript_BerryMart::
 	message Text_MayIHelpYou
 	waitmessage
 	goto_if_set FLAG_DEFEATED_LEADER_GIOVANNI, Route13_BerryMart_EventScript_GiovanniMart
-	goto_if_set FLAG_DEFEATED_LEADER_KOGA, Route13_BerryMart_EventScript_KogaMart
-	goto_if_set FLAG_DEFEATED_LEADER_ERIKA, Route13_BerryMart_EventScript_ErikaMart
+	goto_if_set FLAG_DEFEATED_KOGA, Route13_BerryMart_EventScript_KogaMart
+	goto_if_set FLAG_DEFEATED_ERIKA, Route13_BerryMart_EventScript_ErikaMart
 	pokemart Route13_BerryMart_Default_Items
 	msgbox Text_PleaseComeAgain
 	release

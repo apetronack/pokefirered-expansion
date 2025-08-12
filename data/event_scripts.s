@@ -1379,3 +1379,6 @@ Text_TestMsg::
 
 	.include "data/maps/PiplupCave/scripts.inc"
 	.include "data/maps/PiplupCave/text.inc"
+
+	.include "data/maps/Route13_MoveRelearnerHouse/scripts.inc"
+	.include "data/maps/Route13_MoveRelearnerHouse/text.inc"

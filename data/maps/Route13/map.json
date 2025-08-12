@@ -196,7 +196,13 @@
     }
   ],
   "warp_events": [
-
+    {
+      "x": 17,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE13_MOVE_RELEARNER_HOUSE",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 
