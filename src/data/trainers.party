@@ -12764,24 +12764,24 @@ Ability: Rock Head
 Careful Nature
 Level: 72
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Earthquake
+- Stealth Rock
 - Double Edge
 - Thunder Fang
 - Roar
 
-Heracross @ Life Orb
-Ability: Swarm
-Adamant Nature
+Heracross @ Choice Scarf
+Ability: Guts
+Jolly Nature
 Level: 72
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Rock Slide
+- Stone Edge
 - Megahorn
-- Bulk Up
-- Brick Break
+- Shadow Claw
+- Close Combat
 
 Gallade @ Blackglasses
-Ability: Sharpness
-Lonely Nature
+Ability: Steadfast
+Jolly Nature
 Level: 73
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Close Combat
@@ -12796,10 +12796,10 @@ Level: 73
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Seed Bomb
 - Mach Punch
-- Sky Uppercut
-- Rock Slide
+- Spore
+- Focus Punch
 
-Lucario @ Wise Glasses
+Lucario @ Life Orb
 Ability: Inner Focus
 Modest Nature
 Level: 73
@@ -12816,7 +12816,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Dynamic Punch
 - Bulk Up
 - Stone Edge
-- Mega Kick
+- Bullet Punch
 
 === TRAINER_ELITE_FOUR_AGATHA ===
 Name: AGATHA
@@ -12829,13 +12829,13 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 Mugshot: Pink
 
-Drifblim @ Petaya Berry
-Ability: Unburden
-Lonely Nature
+Drifblim @ Life Orb
+Ability: Life Orb
+Modest Nature
 Level: 73
-- Ominous Wind
-- Baton Pass
-- Silver Wind
+- Shadow Ball
+- Thunderbolt
+- Psychic
 - Calm Mind
 
 Spiritomb @ Leftovers
@@ -12847,17 +12847,17 @@ Level: 73
 - Shadow Ball
 - Pain Split
 
-Dusknoir @ Sitrus Berry
-Ability: Pressure
-Sassy Nature
+Mismagius @ Choice Specs
+Ability: Levitate
+Timid Nature
 Level: 74
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Brick Break
-- Trick Room
-- Mean Look
-- Curse
+- Shadow Ball
+- Energy Ball
+- Psychic
+- Thunderbolt
 
-Shedinja @ Focus Sash
+Shedinja @ Focus Band
 Ability: Wonder Guard
 Rash Nature
 Level: 74
