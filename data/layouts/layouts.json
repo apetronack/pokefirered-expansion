@@ -4440,6 +4440,18 @@
       "secondary_tileset": "gTileset_CableClub",
       "border_filepath": "data/layouts/Route13_MoveRelearnerHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route13_MoveRelearnerHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE13_MOVING_HOUSE",
+      "name": "Route13_MovingHouse_Layout",
+      "width": 8,
+      "height": 8,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_CableClub",
+      "border_filepath": "data/layouts/Route13_MovingHouse/border.bin",
+      "blockdata_filepath": "data/layouts/Route13_MovingHouse/map.bin"
     }
   ]
 }

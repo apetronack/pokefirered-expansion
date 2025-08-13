@@ -50,7 +50,8 @@
     "RecordCorner",
     "BattleColosseum_4P",
     "UnionRoom",
-    "Route13_MoveRelearnerHouse"
+    "Route13_MoveRelearnerHouse",
+    "Route13_MovingHouse"
   ],
   "gMapGroup_Dungeons": [
     "ViridianForest",

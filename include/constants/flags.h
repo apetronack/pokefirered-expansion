@@ -816,9 +816,9 @@
 #define FLAG_DID_TOADETTE_TRADE  0x312
 #define FLAG_DID_STU_TRADE       0x313
 #define FLAG_DID_CHICKLET_TRADE  0x314
-#define FLAG_0x315               0x315
-#define FLAG_0x316               0x316
-#define FLAG_0x317               0x317
+#define FLAG_CHOICE_SPECS_TRADE  0x315
+#define FLAG_CHOICE_SCARF_TRADE  0x316
+#define FLAG_CHOICE_BAND_TRADE   0x317
 #define FLAG_0x318               0x318
 #define FLAG_0x319               0x319
 #define FLAG_0x31A               0x31A

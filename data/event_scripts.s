@@ -1382,3 +1382,6 @@ Text_TestMsg::
 
 	.include "data/maps/Route13_MoveRelearnerHouse/scripts.inc"
 	.include "data/maps/Route13_MoveRelearnerHouse/text.inc"
+
+	.include "data/maps/Route13_MovingHouse/scripts.inc"
+	.include "data/maps/Route13_MovingHouse/text.inc"
