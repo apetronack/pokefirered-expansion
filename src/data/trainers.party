@@ -389,23 +389,13 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Howl
 - Rock Tomb
 
-Omanyte
-Ability: Shell Armor
-Hasty Nature
-Level: 12
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Water Gun
-- Spikes
-- Rock Tomb
-- Withdraw
-
 Anorith
 Ability: Battle Armor
 Jolly Nature
 Level: 12
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Water Gun
-- Cut
+- Fury Cutter
 - Harden
 - Rock Tomb
 
