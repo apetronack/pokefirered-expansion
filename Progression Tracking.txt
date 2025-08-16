@@ -6,8 +6,6 @@ Cap 1: Brock, level 13
         No trainers
     Viridian City
         No trainers
-    Route 22
-        Early Rival, TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE/BULBASAUR/CHARMANDER
     Route 2
         No trainers
     Viridian Forest
@@ -16,6 +14,8 @@ Cap 1: Brock, level 13
         TRAINER_BUG_CATCHER_ANTHONY
         TRAINER_BUG_CATCHER_CHARLIE
         TRAINER_BUG_CATCHER_SAMMY
+    Route 22
+        Early Rival, TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE/BULBASAUR/CHARMANDER
     Pewter City
         TRAINER_CAMPER_LIAM
         TRAINER_LEADER_BROCK
