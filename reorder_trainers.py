@@ -241,8 +241,10 @@ def get_milestone_level_pattern(party_size: int, level_cap: int, pokemon_index: 
 def scale_trainer_level(original_level: int, trainer_name: str, progression_order: List[str], level_caps: List[Tuple[str, int]], pokemon_index: int = 0) -> int:
     """Scale trainer level based on their position in progression and level caps."""
     MIN_TRAINER_LEVEL = 5
+    SECOND_RIVAL_LEVEL = 9
     AFTER_GYM_SCALE_DOWN = 0.15
     FIRST_TRAINER_SUBSTRING = 'TRAINER_RIVAL_OAKS_LAB'
+    SECOND_RIVAL_SUBSTRING = 'TRAINER_RIVAL_ROUTE22_EARLY'
     
     milestone, current_cap, next_cap, progression_percentage = get_trainer_milestone_info(trainer_name, progression_order, level_caps)
     
@@ -250,7 +252,12 @@ def scale_trainer_level(original_level: int, trainer_name: str, progression_orde
     if FIRST_TRAINER_SUBSTRING in trainer_name:
         logging.debug(f"{trainer_name}: Oak's Lab trainer level {original_level} -> {MIN_TRAINER_LEVEL}")
         return MIN_TRAINER_LEVEL
-    
+
+    # Special handling for Route 22 rival - always level 9
+    if SECOND_RIVAL_SUBSTRING in trainer_name:
+        logging.debug(f"{trainer_name}: Route 22 rival level {original_level} -> {SECOND_RIVAL_LEVEL}")
+        return SECOND_RIVAL_LEVEL
+
     # Check if this is a milestone trainer
     if is_milestone_trainer(trainer_name):
         party_size = get_party_size(trainer_name)
@@ -389,6 +396,7 @@ def get_trainer_levels_from_block(trainer_block: str) -> List[int]:
 def apply_uniform_levels_to_variants(ordered_trainers: Dict[str, str], progression_order: List[str], level_caps: List[Tuple[str, int]]) -> Dict[str, str]:
     """Ensure RIVAL and CHAMPION trainer variants have consistent level patterns."""
     FIRST_TRAINER_SUBSTRING = 'TRAINER_RIVAL_OAKS_LAB'
+    SECOND_RIVAL_SUBSTRING = 'TRAINER_RIVAL_ROUTE22_EARLY'
     # Group trainers by base name
     trainer_groups = {}
     
@@ -417,6 +425,9 @@ def apply_uniform_levels_to_variants(ordered_trainers: Dict[str, str], progressi
                     if FIRST_TRAINER_SUBSTRING in first_variant:
                         # Oak's Lab rival is always level 5
                         level = 5
+                    elif SECOND_RIVAL_SUBSTRING in first_variant:
+                        # Route 22 rival is always level 9
+                        level = 9
                     else:
                         level = get_milestone_level_pattern(party_size, current_cap, pokemon_index)
                     uniform_levels.append(level)

@@ -238,7 +238,7 @@ AI: AI_FLAG_SMART_TRAINER
 Starly
 Ability: Keen Eye
 Adamant Nature
-Level: 13
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Wing Attack
@@ -248,7 +248,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Squirtle @ Oran Berry
 Ability: Torrent
 Relaxed Nature
-Level: 13
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Tail Whip
@@ -266,7 +266,7 @@ AI: AI_FLAG_SMART_TRAINER
 Starly
 Ability: Keen Eye
 Adamant Nature
-Level: 13
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Wing Attack
@@ -276,7 +276,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Bulbasaur @ Oran Berry
 Ability: Overgrow
 Sassy Nature
-Level: 13
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Growl
@@ -294,7 +294,7 @@ AI: AI_FLAG_SMART_TRAINER
 Starly
 Ability: Keen Eye
 Adamant Nature
-Level: 13
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Wing Attack
@@ -304,7 +304,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Charmander @ Oran Berry
 Ability: Blaze
 Quiet Nature
-Level: 13
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Scratch
 - Growl
