@@ -71,3 +71,5 @@ tools/trainerproc/trainerproc
 *.ss1
 *.csv
 ~$*
+*.log
+updated_trainers.party

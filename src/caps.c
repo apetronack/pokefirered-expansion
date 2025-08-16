@@ -10,26 +10,26 @@ u32 GetCurrentLevelCap(void)
     // Level cap is chosen according to the first unset flag in `sLevelCapFlagMap`
     static const u32 sLevelCapFlagMap[][2] =
     {
-        {FLAG_BADGE01_GET,    13}, // Brock
-        {FLAG_GOT_FAME_CHECKER, 20}, // Rival 2
-        {FLAG_BADGE02_GET,    23}, // Misty
-        {FLAG_BEAT_RIVAL_3,   25}, // Rival 3
-        {FLAG_BADGE03_GET,    27}, // Lt. Surge
-        {FLAG_HIDE_CELADON_ROCKETS, 33}, // Giovanni 1
-        {FLAG_BEAT_RIVAL_4, 35}, // Rival 4 pokemon tower
-        {FLAG_BADGE04_GET,    38}, // Erika
-        {FLAG_BEAT_RIVAL_5,   43}, // Rival 5, Silph Co.
-        {FLAG_HIDE_SAFFRON_ROCKETS, 47}, // Giovanni 2 Silph
-        {FLAG_BADGE05_GET,    52}, // Sabrina
-        {FLAG_BADGE06_GET,    55}, // Koga
-        {FLAG_BADGE07_GET,    59}, // Blaine
-        {FLAG_BADGE08_GET,    62}, // Giovanni 3
-        {FLAG_BEAT_RIVAL_6,   65}, // Rival 6, Victory Road
-        {FLAG_DEFEATED_LORELEI_1X, 72}, // Rival 6, Lorelei
-        {FLAG_DEFEATED_BRUNO_1X,   73}, // Bruno
-        {FLAG_DEFEATED_AGATHA_1X,  74}, // Agatha
-        {FLAG_DEFEATED_LANCE_1X,   75}, // Lance
-        {FLAG_DEFEATED_CHAMP_1X,   78}, // Champion
+        {FLAG_BADGE01_GET,    13}, // TRAINER_LEADER_BROCK
+        {FLAG_GOT_FAME_CHECKER, 20}, // TRAINER_RIVAL_CERULEAN
+        {FLAG_BADGE02_GET,    23}, // TRAINER_LEADER_MISTY
+        {FLAG_BEAT_RIVAL_3,   25}, // TRAINER_RIVAL_SS_ANNE
+        {FLAG_BADGE03_GET,    27}, // TRAINER_LEADER_LT_SURGE
+        {FLAG_HIDE_CELADON_ROCKETS, 33}, // TRAINER_BOSS_GIOVANNI
+        {FLAG_BEAT_RIVAL_4, 35}, // TRAINER_RIVAL_POKEMON_TOWER
+        {FLAG_BADGE04_GET,    38}, // TRAINER_LEADER_ERIKA
+        {FLAG_BEAT_RIVAL_5,   43}, // TRAINER_RIVAL_SILPH
+        {FLAG_HIDE_SAFFRON_ROCKETS, 47}, // TRAINER_BOSS_GIOVANNI_2
+        {FLAG_BADGE05_GET,    52}, // TRAINER_LEADER_SABRINA
+        {FLAG_BADGE06_GET,    55}, // TRAINER_LEADER_KOGA
+        {FLAG_BADGE07_GET,    59}, // TRAINER_LEADER_BLAINE
+        {FLAG_BADGE08_GET,    62}, // TRAINER_LEADER_GIOVANNI
+        {FLAG_BEAT_RIVAL_6,   65}, // TRAINER_RIVAL_ROUTE22_LATE
+        {FLAG_DEFEATED_LORELEI_1X, 72}, // TRAINER_ELITE_FOUR_LORELEI
+        {FLAG_DEFEATED_BRUNO_1X,   73}, // TRAINER_ELITE_FOUR_BRUNO
+        {FLAG_DEFEATED_AGATHA_1X,  74}, // TRAINER_ELITE_FOUR_AGATHA
+        {FLAG_DEFEATED_LANCE_1X,   75}, // TRAINER_ELITE_FOUR_LANCE
+        {FLAG_DEFEATED_CHAMP_1X,   78}, // TRAINER_CHAMPION_FIRST
         {FLAG_SYS_GAME_CLEAR,  MAX_LEVEL},
     };
     
