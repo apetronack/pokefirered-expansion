@@ -1924,17 +1924,17 @@ Level: 23
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - U Turn
 - Metal Claw
-- Wing Attack
+- False Swipe
 - Agility
 
 Kleavor
 Ability: Sheer Force
 Level: 23
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Rock Slide
+- Rock Tomb
 - Slash
 - U Turn
-- Aerial Ace
+- Leer
 
 === TRAINER_BUG_CATCHER_KEIGO ===
 Name: KEIGO
