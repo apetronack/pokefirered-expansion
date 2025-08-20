@@ -1104,6 +1104,8 @@ static u8 GetMCWindowHeight(u8 count)
         return 13;
     case 8:
         return 14;
+    case 9:
+        return 16;
     default:
         return 1;
     }
