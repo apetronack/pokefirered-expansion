@@ -39499,7 +39499,8 @@
       "MOVE_SWAGGER",
       "MOVE_SUBSTITUTE",
       "MOVE_STRENGTH",
-      "MOVE_ROCK_SMASH"
+      "MOVE_ROCK_SMASH",
+      "MOVE_CUT"
     ],
     "EggMoves": [
       "MOVE_FLAIL",
@@ -39611,7 +39612,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_FLY",
       "MOVE_STRENGTH",
-      "MOVE_ROCK_SMASH"
+      "MOVE_ROCK_SMASH",
+      "MOVE_CUT"
     ],
     "EggMoves": [
       "MOVE_FLAIL",
@@ -39742,7 +39744,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_FLY",
       "MOVE_STRENGTH",
-      "MOVE_ROCK_SMASH"
+      "MOVE_ROCK_SMASH",
+      "MOVE_CUT"
     ],
     "EggMoves": [
       "MOVE_FLAIL",
