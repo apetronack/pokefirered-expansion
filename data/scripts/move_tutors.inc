@@ -56,6 +56,11 @@ EventScript_ThunderWave_NoSpace::
 	release
 	end
 
+EventScript_ThunderWaveTaught::
+	msgbox Text_ThunderWaveTaught
+	release
+	end
+
 EventScript_ThunderWave_NoSpace_Text:
 	.string "You should make room for this.$"
 
