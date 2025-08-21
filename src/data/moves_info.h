@@ -468,28 +468,30 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Razor Wind"),
         .description = COMPOUND_STRING(
-            "A 2-turn move that\n"
-            "strikes the foe\n"
-            "the 2nd turn."
+            "A full-power attack\n"
+            "that sharply lowers\n"
+            "the user's Atk."
         ),
-        .effect = EFFECT_TWO_TURNS_ATTACK,
-        .power = 80,
+        .effect = EFFECT_HIT,
+        .power = 140,
         .type = TYPE_NORMAL,
-        .accuracy = 100,
-        .criticalHitStage = 1,
-        .pp = 10,
+        .accuracy = 90,
+        .pp = 5,
         .target = MOVE_TARGET_BOTH,
         .priority = 0,
-        .category = DAMAGE_CATEGORY_SPECIAL,
-        .sleepTalkBanned = TRUE,
-        .instructBanned = TRUE,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = FALSE,
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_ATK_MINUS_2,
+            .self = TRUE,
+        }),
         .windMove = B_EXTRAPOLATED_MOVE_FLAGS,
-        .argument.twoTurnAttack = { .stringId =  STRINGID_PKMNWHIPPEDWHIRLWIND },
-        .contestEffect = CONTEST_EFFECT_AFFECTED_BY_PREV_APPEAL,
-        .contestCategory = CONTEST_CATEGORY_COOL,
+        .contestEffect = CONTEST_EFFECT_USER_MORE_EASILY_STARTLED,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
         .contestComboStarterId = 0,
         .contestComboMoves = {0},
         .battleAnimScript = gBattleAnimMove_RazorWind,
+        .validApprenticeMove = TRUE,
     },
 
     [MOVE_SWORDS_DANCE] =
@@ -4044,12 +4046,12 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Sky Attack"),
         .description = COMPOUND_STRING(
-            "Searches out weak\n"
-            "spots, then\n"
-            "strikes the next\n"
-            "turn."
+            "Allows a full-power\n"
+            "attack, but\n"
+            "sharply lowers\n"
+            "Atk."
         ),
-        .effect = EFFECT_TWO_TURNS_ATTACK,
+        .effect = EFFECT_HIT,
         .power = 140,
         .type = TYPE_FLYING,
         .accuracy = 90,
@@ -4057,18 +4059,13 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_PHYSICAL,
-        .criticalHitStage = B_UPDATED_MOVE_DATA >= GEN_3,
-        .sleepTalkBanned = TRUE,
-        .instructBanned = TRUE,
-        .argument.twoTurnAttack = { .stringId = B_UPDATED_MOVE_DATA >= GEN_4 ? STRINGID_CLOAKEDINAHARSHLIGHT : STRINGID_PKMNISGLOWING },
-    #if B_UPDATED_MOVE_DATA >= GEN_3
+        .makesContact = TRUE,
         .additionalEffects = ADDITIONAL_EFFECTS({
-            .moveEffect = MOVE_EFFECT_FLINCH,
-            .chance = 30,
+            .moveEffect = MOVE_EFFECT_ATK_MINUS_2,
+            .self = TRUE,
         }),
-    #endif
-        .contestEffect = CONTEST_EFFECT_AFFECTED_BY_PREV_APPEAL,
-        .contestCategory = CONTEST_CATEGORY_COOL,
+        .contestEffect = CONTEST_EFFECT_USER_MORE_EASILY_STARTLED,
+        .contestCategory = CONTEST_CATEGORY_BEAUTY,
         .contestComboStarterId = 0,
         .contestComboMoves = {0},
         .battleAnimScript = gBattleAnimMove_SkyAttack,
