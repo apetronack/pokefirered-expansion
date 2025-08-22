@@ -107,8 +107,6 @@
 // - MOVE_BODY_SLAM                                    //
 // - MOVE_COUNTER                                      //
 // - MOVE_DOUBLE_EDGE                                  //
-// - MOVE_DREAM_EATER                                  //
-// - MOVE_EXPLOSION                                    //
 // - MOVE_MEGA_KICK                                    //
 // - MOVE_MEGA_PUNCH                                   //
 // - MOVE_METRONOME                                    //
@@ -116,8 +114,6 @@
 // - MOVE_SEISMIC_TOSS                                 //
 // - MOVE_SOFT_BOILED                                  //
 // - MOVE_SUBSTITUTE                                   //
-// - MOVE_SWORDS_DANCE                                 //
-// - MOVE_THUNDER_WAVE                                 //
 // *************************************************** //
 // Near-universal moves found from sUniversalMoves:    //
 // - MOVE_BIDE                                         //
@@ -520,10 +516,12 @@ static const u16 sBlastoiseTeachableLearnset[] = {
 
 #if P_FAMILY_CATERPIE
 static const u16 sCaterpieTeachableLearnset[] = {
+    MOVE_CUT,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sMetapodTeachableLearnset[] = {
+    MOVE_CUT,
     MOVE_UNAVAILABLE,
 };
 
@@ -538,6 +536,7 @@ static const u16 sButterfreeTeachableLearnset[] = {
     MOVE_ENERGY_BALL,
     MOVE_FACADE,
     MOVE_FLASH,
+    MOVE_FLY,
     MOVE_GIGA_DRAIN,
     MOVE_GIGA_IMPACT,
     MOVE_HYPER_BEAM,
@@ -2324,32 +2323,7 @@ static const u16 sParasectTeachableLearnset[] = {
 static const u16 sVenonatTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_CAPTIVATE,
-    MOVE_DOUBLE_EDGE,
-    MOVE_DOUBLE_TEAM,
-    MOVE_ENDURE,
-    MOVE_ENERGY_BALL,
-    MOVE_FACADE,
-    MOVE_FLASH,
-    MOVE_GIGA_DRAIN,
-    MOVE_PROTECT,
-    MOVE_PSYCHIC,
-    MOVE_REFLECT,
-    MOVE_REST,
-    MOVE_SKILL_SWAP,
-    MOVE_SLEEP_TALK,
-    MOVE_SLUDGE_BOMB,
-    MOVE_SOLAR_BEAM,
-    MOVE_SUNNY_DAY,
-    MOVE_SWAGGER,
-    MOVE_THIEF,
-    MOVE_TOXIC,
-    MOVE_UNAVAILABLE,
-};
-
-static const u16 sVenomothTeachableLearnset[] = {
-    MOVE_AERIAL_ACE,
-    MOVE_ATTRACT,
-    MOVE_CAPTIVATE,
+    MOVE_CUT,
     MOVE_DOUBLE_EDGE,
     MOVE_DOUBLE_TEAM,
     MOVE_DREAM_EATER,
@@ -2358,13 +2332,47 @@ static const u16 sVenomothTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FLASH,
     MOVE_GIGA_DRAIN,
+    MOVE_LIGHT_SCREEN,
+    MOVE_PROTECT,
+    MOVE_PSYCHIC,
+    MOVE_REFLECT,
+    MOVE_REST,
+    MOVE_SAFEGUARD,
+    MOVE_SKILL_SWAP,
+    MOVE_SLEEP_TALK,
+    MOVE_SLUDGE_BOMB,
+    MOVE_SOLAR_BEAM,
+    MOVE_SUNNY_DAY,
+    MOVE_SWAGGER,
+    MOVE_THIEF,
+    MOVE_TOXIC,
+    MOVE_TRICK_ROOM,
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sVenomothTeachableLearnset[] = {
+    MOVE_AERIAL_ACE,
+    MOVE_ATTRACT,
+    MOVE_CAPTIVATE,
+    MOVE_CUT,
+    MOVE_DOUBLE_EDGE,
+    MOVE_DOUBLE_TEAM,
+    MOVE_DREAM_EATER,
+    MOVE_ENDURE,
+    MOVE_ENERGY_BALL,
+    MOVE_FACADE,
+    MOVE_FLASH,
+    MOVE_FLY,
+    MOVE_GIGA_DRAIN,
     MOVE_GIGA_IMPACT,
     MOVE_HYPER_BEAM,
+    MOVE_LIGHT_SCREEN,
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_REFLECT,
     MOVE_REST,
     MOVE_ROOST,
+    MOVE_SAFEGUARD,
     MOVE_SILVER_WIND,
     MOVE_SKILL_SWAP,
     MOVE_SLEEP_TALK,
@@ -2374,6 +2382,7 @@ static const u16 sVenomothTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_THIEF,
     MOVE_TOXIC,
+    MOVE_TRICK_ROOM,
     MOVE_U_TURN,
     MOVE_UNAVAILABLE,
 };
@@ -2806,6 +2815,7 @@ static const u16 sGolduckTeachableLearnset[] = {
     MOVE_DIVE,
     MOVE_DOUBLE_EDGE,
     MOVE_DOUBLE_TEAM,
+    MOVE_DREAM_EATER,
     MOVE_ENDURE,
     MOVE_FACADE,
     MOVE_FLASH,
@@ -2825,6 +2835,7 @@ static const u16 sGolduckTeachableLearnset[] = {
     MOVE_PROTECT,
     MOVE_PSYCHIC,
     MOVE_RAIN_DANCE,
+    MOVE_REFLECT,
     MOVE_REST,
     MOVE_ROCK_SMASH,
     MOVE_SEISMIC_TOSS,
@@ -2837,6 +2848,7 @@ static const u16 sGolduckTeachableLearnset[] = {
     MOVE_TAUNT,
     MOVE_THIEF,
     MOVE_TOXIC,
+    MOVE_TRICK_ROOM,
     MOVE_WATERFALL,
     MOVE_WATER_PULSE,
     MOVE_UNAVAILABLE,
@@ -4558,12 +4570,18 @@ static const u16 sDodrioTeachableLearnset[] = {
     MOVE_AERIAL_ACE,
     MOVE_ATTRACT,
     MOVE_BODY_SLAM,
+    MOVE_BRICK_BREAK,
+    MOVE_BULK_UP,
     MOVE_CAPTIVATE,
     MOVE_DOUBLE_EDGE,
     MOVE_DOUBLE_TEAM,
+    MOVE_DRAGON_CLAW,
+    MOVE_DRAIN_PUNCH,
     MOVE_ENDURE,
     MOVE_FACADE,
     MOVE_FLY,
+    MOVE_FOCUS_BLAST,
+    MOVE_FOCUS_PUNCH,
     MOVE_GIGA_IMPACT,
     MOVE_HYPER_BEAM,
     MOVE_PAYBACK,
@@ -4572,7 +4590,9 @@ static const u16 sDodrioTeachableLearnset[] = {
     MOVE_RAIN_DANCE,
     MOVE_REFLECT,
     MOVE_REST,
+    MOVE_ROCK_SMASH,
     MOVE_ROOST,
+    MOVE_SHADOW_CLAW,
     MOVE_SLEEP_TALK,
     MOVE_STEEL_WING,
     MOVE_SUNNY_DAY,
@@ -5162,6 +5182,7 @@ static const u16 sHypnoTeachableLearnset[] = {
     MOVE_CALM_MIND,
     MOVE_CAPTIVATE,
     MOVE_COUNTER,
+    MOVE_DARK_PULSE,
     MOVE_DOUBLE_EDGE,
     MOVE_DOUBLE_TEAM,
     MOVE_DRAIN_PUNCH,
@@ -6896,6 +6917,7 @@ static const u16 sScytherTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_FACADE,
     MOVE_FALSE_SWIPE,
+    MOVE_FLY,
     MOVE_GIGA_IMPACT,
     MOVE_HYPER_BEAM,
     MOVE_LIGHT_SCREEN,
@@ -9357,6 +9379,7 @@ static const u16 sSpinarakTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BODY_SLAM,
     MOVE_CAPTIVATE,
+    MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_EDGE,
     MOVE_DOUBLE_TEAM,
@@ -9383,6 +9406,7 @@ static const u16 sAriadosTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BODY_SLAM,
     MOVE_CAPTIVATE,
+    MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_EDGE,
     MOVE_DOUBLE_TEAM,
@@ -9631,6 +9655,7 @@ static const u16 sNatuTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_FACADE,
     MOVE_FLASH,
+    MOVE_FLY,
     MOVE_GIGA_DRAIN,
     MOVE_GRASS_KNOT,
     MOVE_LIGHT_SCREEN,
@@ -10227,6 +10252,8 @@ static const u16 sSunfloraTeachableLearnset[] = {
     MOVE_ENDURE,
     MOVE_ENERGY_BALL,
     MOVE_FACADE,
+    MOVE_FIRE_BLAST,
+    MOVE_FLAMETHROWER,
     MOVE_FLASH,
     MOVE_GIGA_DRAIN,
     MOVE_GIGA_IMPACT,
@@ -10244,6 +10271,7 @@ static const u16 sSunfloraTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
     MOVE_TOXIC,
+    MOVE_WILL_O_WISP,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_SUNKERN
@@ -10728,6 +10756,7 @@ static const u16 sPinecoTeachableLearnset[] = {
     MOVE_BODY_SLAM,
     MOVE_CAPTIVATE,
     MOVE_COUNTER,
+    MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_EDGE,
     MOVE_DOUBLE_TEAM,
@@ -10763,6 +10792,7 @@ static const u16 sForretressTeachableLearnset[] = {
     MOVE_BODY_SLAM,
     MOVE_CAPTIVATE,
     MOVE_COUNTER,
+    MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_EDGE,
     MOVE_DOUBLE_TEAM,
@@ -10907,6 +10937,7 @@ static const u16 sGligarTeachableLearnset[] = {
     MOVE_FACADE,
     MOVE_FALSE_SWIPE,
     MOVE_FLING,
+    MOVE_FLY,
     MOVE_IRON_TAIL,
     MOVE_PAYBACK,
     MOVE_POISON_JAB,
@@ -11190,6 +11221,7 @@ static const u16 sShuckleTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BODY_SLAM,
     MOVE_CAPTIVATE,
+    MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_EDGE,
     MOVE_DOUBLE_TEAM,
@@ -12059,6 +12091,7 @@ static const u16 sMantineTeachableLearnset[] = {
     MOVE_EARTHQUAKE,
     MOVE_ENDURE,
     MOVE_FACADE,
+    MOVE_FLY,
     MOVE_GIGA_IMPACT,
     MOVE_HAIL,
     MOVE_HYPER_BEAM,
@@ -15973,6 +16006,7 @@ static const u16 sTrapinchTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BODY_SLAM,
     MOVE_CAPTIVATE,
+    MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_EDGE,
     MOVE_DOUBLE_TEAM,
@@ -16003,6 +16037,7 @@ static const u16 sVibravaTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BODY_SLAM,
     MOVE_CAPTIVATE,
+    MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_EDGE,
     MOVE_DOUBLE_TEAM,
@@ -16041,6 +16076,7 @@ static const u16 sFlygonTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BODY_SLAM,
     MOVE_CAPTIVATE,
+    MOVE_CUT,
     MOVE_DIG,
     MOVE_DOUBLE_EDGE,
     MOVE_DOUBLE_TEAM,
@@ -21574,6 +21610,7 @@ static const u16 sShayminSkyTeachableLearnset[] = {
     MOVE_ENERGY_BALL,
     MOVE_FACADE,
     MOVE_FLASH,
+    MOVE_FLY,
     MOVE_GIGA_DRAIN,
     MOVE_GIGA_IMPACT,
     MOVE_GRASS_KNOT,

@@ -44,6 +44,8 @@ def main():
         quit(1)
 
     INPUTS_DIR = pathlib.Path(sys.argv[1])
+    print(f"Reading inputs from {INPUTS_DIR}")
+    print(f"Writing outputs to {sys.argv[2]}")
     OUTPUT_FILE = pathlib.Path(sys.argv[2])
 
     assert INPUTS_DIR.exists(), f"{INPUTS_DIR=} does not exist"

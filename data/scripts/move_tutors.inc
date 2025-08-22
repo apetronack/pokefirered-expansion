@@ -128,6 +128,9 @@ MtEmber_Exterior_EventScript_NoSpace::
 	release
 	end
 
+MtEmber_Exterior_EventScript_NoSpace_Text::
+	.string "You should make room for this.$"
+
 EventScript_ExplosionTaught::
 	msgbox Text_ExplosionTaught
 	release
@@ -215,6 +218,9 @@ DreamEater_EventScript_NoSpace::
 	msgbox DreamEater_EventScript_NoSpace_Text
 	release
 	end
+
+DreamEater_EventScript_NoSpace_Text::
+	.string "You should make room for this.$"
 
 EventScript_DreamEaterDeclined::
 	msgbox Text_DreamEaterDeclined
@@ -308,6 +314,9 @@ SwordsDance_EventScript_NoSpace::
 	msgbox SwordsDance_EventScript_NoSpace_Text
 	release
 	end
+
+SwordsDance_EventScript_NoSpace_Text::
+	.string "You should make room for this.$"
 
 EventScript_SwordsDanceDeclined::
 	msgbox Text_SwordsDanceDeclined
