@@ -5925,7 +5925,7 @@ Class: Leader
 Pic: Leader Erika
 Gender: Male
 Music: Female
-Items: Full Heal / X Sp Def
+Items: Energy Root / X Sp Def
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
@@ -7291,13 +7291,13 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Protect
 - Toxic
 
-Bellossom
-Ability: Chlorophyll
+Leafeon
+Ability: Leaf Guard
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Giga Drain
 - Synthesis
-- Sunny Day
+- X Scissor
 - Charm
 
 === TRAINER_CUE_BALL_RAUL ===
@@ -11943,7 +11943,7 @@ Class: Leader
 Pic: Leader Giovanni
 Gender: Male
 Music: Aqua
-Items: Guard Spec / Full Heal
+Items: Guard Spec / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
@@ -12780,7 +12780,7 @@ Class: Elite Four
 Pic: Elite Four Bruno
 Gender: Male
 Music: Elite Four
-Items: Full Restore / Full Restore
+Items: Max Potion / Max Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 Mugshot: Green
