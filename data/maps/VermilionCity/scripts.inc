@@ -55,45 +55,45 @@ VermilionCity_OnTransition::
 # 28 "data/maps/VermilionCity/scripts.pory"
 	call_if_set FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION, VermilionCity_EventScript_HideOaksAide
 # 29 "data/maps/VermilionCity/scripts.pory"
-	end
+	call_if_ge VAR_MAP_SCENE_VERMILION_CITY, 3, VermilionCity_EventScript_ShowDockAreaGuide
 # 30 "data/maps/VermilionCity/scripts.pory"
-
+	end
 # 31 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_HideOaksAide::
+
 # 32 "data/maps/VermilionCity/scripts.pory"
-	setflag FLAG_HIDE_VERMILION_CITY_OAKS_AIDE
+VermilionCity_EventScript_HideOaksAide::
 # 33 "data/maps/VermilionCity/scripts.pory"
-	return
+	setflag FLAG_HIDE_VERMILION_CITY_OAKS_AIDE
 # 34 "data/maps/VermilionCity/scripts.pory"
-
+	return
 # 35 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_Woman::
+
 # 36 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_GrimerMultipliesInSludge, MSGBOX_NPC
+VermilionCity_EventScript_ShowDockAreaGuide::
 # 37 "data/maps/VermilionCity/scripts.pory"
-	end
+	clearflag FLAG_HIDE_VERMILION_DOCK_GUIDE
 # 38 "data/maps/VermilionCity/scripts.pory"
-
+	return
 # 39 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_OldMan1::
-# 40 "data/maps/VermilionCity/scripts.pory"
-	lock
-# 41 "data/maps/VermilionCity/scripts.pory"
-	faceplayer
-# 42 "data/maps/VermilionCity/scripts.pory"
-	goto_if_eq VAR_MAP_SCENE_VERMILION_CITY, 3, VermilionCity_EventScript_OldMan1SSAnneLeft
-# 43 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_DidYouSeeSSAnneInHarbor
-# 44 "data/maps/VermilionCity/scripts.pory"
-	release
-# 45 "data/maps/VermilionCity/scripts.pory"
-	end
-# 46 "data/maps/VermilionCity/scripts.pory"
 
+# 40 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_Woman::
+# 41 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_GrimerMultipliesInSludge, MSGBOX_NPC
+# 42 "data/maps/VermilionCity/scripts.pory"
+	end
+# 43 "data/maps/VermilionCity/scripts.pory"
+
+# 44 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_OldMan1::
+# 45 "data/maps/VermilionCity/scripts.pory"
+	lock
+# 46 "data/maps/VermilionCity/scripts.pory"
+	faceplayer
 # 47 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_OldMan1SSAnneLeft::
+	goto_if_eq VAR_MAP_SCENE_VERMILION_CITY, 3, VermilionCity_EventScript_OldMan1SSAnneLeft
 # 48 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_SSAnneHasDepartedForYear
+	msgbox VermilionCity_Text_DidYouSeeSSAnneInHarbor
 # 49 "data/maps/VermilionCity/scripts.pory"
 	release
 # 50 "data/maps/VermilionCity/scripts.pory"
@@ -101,267 +101,267 @@ VermilionCity_EventScript_OldMan1SSAnneLeft::
 # 51 "data/maps/VermilionCity/scripts.pory"
 
 # 52 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_FerrySailor::
+VermilionCity_EventScript_OldMan1SSAnneLeft::
 # 53 "data/maps/VermilionCity/scripts.pory"
-	lock
+	msgbox VermilionCity_Text_SSAnneHasDepartedForYear
 # 54 "data/maps/VermilionCity/scripts.pory"
-	faceplayer
+	release
 # 55 "data/maps/VermilionCity/scripts.pory"
-	goto_if_eq VAR_MAP_SCENE_VERMILION_CITY, 3, VermilionCity_EventScript_CheckSeagallopPresent
+	end
 # 56 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_WelcomeToTheSSAnne
+
 # 57 "data/maps/VermilionCity/scripts.pory"
-	release
+VermilionCity_EventScript_FerrySailor::
 # 58 "data/maps/VermilionCity/scripts.pory"
-	end
+	lock
 # 59 "data/maps/VermilionCity/scripts.pory"
-
+	faceplayer
 # 60 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_CheckHasMysticTicket::
+	goto_if_eq VAR_MAP_SCENE_VERMILION_CITY, 3, VermilionCity_EventScript_CheckSeagallopPresent
 # 61 "data/maps/VermilionCity/scripts.pory"
-	goto_if_unset FLAG_ENABLE_SHIP_NAVEL_ROCK, EventScript_SetResultFalse
+	msgbox VermilionCity_Text_WelcomeToTheSSAnne
 # 62 "data/maps/VermilionCity/scripts.pory"
-	checkitem ITEM_MYSTIC_TICKET
-# 63 "data/maps/VermilionCity/scripts.pory"
-	goto_if_eq VAR_RESULT, FALSE, EventScript_SetResultFalse
-# 64 "data/maps/VermilionCity/scripts.pory"
-	goto EventScript_SetResultTrue
-# 65 "data/maps/VermilionCity/scripts.pory"
-	end
-# 66 "data/maps/VermilionCity/scripts.pory"
-
-# 67 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_CheckHasAuroraTicket::
-# 68 "data/maps/VermilionCity/scripts.pory"
-	goto_if_unset FLAG_ENABLE_SHIP_BIRTH_ISLAND, EventScript_SetResultFalse
-# 69 "data/maps/VermilionCity/scripts.pory"
-	checkitem ITEM_AURORA_TICKET
-# 70 "data/maps/VermilionCity/scripts.pory"
-	goto_if_eq VAR_RESULT, FALSE, EventScript_SetResultFalse
-# 71 "data/maps/VermilionCity/scripts.pory"
-	goto EventScript_SetResultTrue
-# 72 "data/maps/VermilionCity/scripts.pory"
-	end
-# 73 "data/maps/VermilionCity/scripts.pory"
-
-# 74 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_CheckSeagallopPresent::
-# 75 "data/maps/VermilionCity/scripts.pory"
-	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
-# 76 "data/maps/VermilionCity/scripts.pory"
-	goto_if_ge VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 5, VermilionCity_EventScript_ChooseSeagallopDestRainbowPass
-# 77 "data/maps/VermilionCity/scripts.pory"
-	goto_if_ge VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 1, VermilionCity_EventScript_ChooseSeagallopDestTriPass
-# 78 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_TheShipSetSail
-# 79 "data/maps/VermilionCity/scripts.pory"
 	release
+# 63 "data/maps/VermilionCity/scripts.pory"
+	end
+# 64 "data/maps/VermilionCity/scripts.pory"
+
+# 65 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_CheckHasMysticTicket::
+# 66 "data/maps/VermilionCity/scripts.pory"
+	goto_if_unset FLAG_ENABLE_SHIP_NAVEL_ROCK, EventScript_SetResultFalse
+# 67 "data/maps/VermilionCity/scripts.pory"
+	checkitem ITEM_MYSTIC_TICKET
+# 68 "data/maps/VermilionCity/scripts.pory"
+	goto_if_eq VAR_RESULT, FALSE, EventScript_SetResultFalse
+# 69 "data/maps/VermilionCity/scripts.pory"
+	goto EventScript_SetResultTrue
+# 70 "data/maps/VermilionCity/scripts.pory"
+	end
+# 71 "data/maps/VermilionCity/scripts.pory"
+
+# 72 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_CheckHasAuroraTicket::
+# 73 "data/maps/VermilionCity/scripts.pory"
+	goto_if_unset FLAG_ENABLE_SHIP_BIRTH_ISLAND, EventScript_SetResultFalse
+# 74 "data/maps/VermilionCity/scripts.pory"
+	checkitem ITEM_AURORA_TICKET
+# 75 "data/maps/VermilionCity/scripts.pory"
+	goto_if_eq VAR_RESULT, FALSE, EventScript_SetResultFalse
+# 76 "data/maps/VermilionCity/scripts.pory"
+	goto EventScript_SetResultTrue
+# 77 "data/maps/VermilionCity/scripts.pory"
+	end
+# 78 "data/maps/VermilionCity/scripts.pory"
+
+# 79 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_CheckSeagallopPresent::
 # 80 "data/maps/VermilionCity/scripts.pory"
-	end
-# 81 "data/maps/VermilionCity/scripts.pory"
-
-# 82 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_ChooseSeagallopDestRainbowPass::
-# 83 "data/maps/VermilionCity/scripts.pory"
-	goto_if_questlog EventScript_ReleaseEnd
-# 84 "data/maps/VermilionCity/scripts.pory"
-	special QuestLog_CutRecording
-# 85 "data/maps/VermilionCity/scripts.pory"
-	call VermilionCity_EventScript_CheckHasMysticTicket
-# 86 "data/maps/VermilionCity/scripts.pory"
-	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_HasMysticTicket
-# 87 "data/maps/VermilionCity/scripts.pory"
-	call VermilionCity_EventScript_CheckHasAuroraTicket
-# 88 "data/maps/VermilionCity/scripts.pory"
-	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_HasAuroraTicket
-# 89 "data/maps/VermilionCity/scripts.pory"
 	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
+# 81 "data/maps/VermilionCity/scripts.pory"
+	goto_if_ge VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 5, VermilionCity_EventScript_ChooseSeagallopDestRainbowPass
+# 82 "data/maps/VermilionCity/scripts.pory"
+	goto_if_ge VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 1, VermilionCity_EventScript_ChooseSeagallopDestTriPass
+# 83 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_TheShipSetSail
+# 84 "data/maps/VermilionCity/scripts.pory"
+	release
+# 85 "data/maps/VermilionCity/scripts.pory"
+	end
+# 86 "data/maps/VermilionCity/scripts.pory"
+
+# 87 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_ChooseSeagallopDestRainbowPass::
+# 88 "data/maps/VermilionCity/scripts.pory"
+	goto_if_questlog EventScript_ReleaseEnd
+# 89 "data/maps/VermilionCity/scripts.pory"
+	special QuestLog_CutRecording
 # 90 "data/maps/VermilionCity/scripts.pory"
-	message VermilionCity_Text_BoardSeagallopRainbowPass
+	call VermilionCity_EventScript_CheckHasMysticTicket
 # 91 "data/maps/VermilionCity/scripts.pory"
-	waitmessage
+	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_HasMysticTicket
 # 92 "data/maps/VermilionCity/scripts.pory"
-	goto EventScript_SeviiDestinationsPage1
-# 93 "data/maps/VermilionCity/scripts.pory"
-	end
-# 94 "data/maps/VermilionCity/scripts.pory"
-
-# 95 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_HasMysticTicket::
-# 96 "data/maps/VermilionCity/scripts.pory"
 	call VermilionCity_EventScript_CheckHasAuroraTicket
-# 97 "data/maps/VermilionCity/scripts.pory"
-	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_HasMysticAndAuroraTickets
-# 98 "data/maps/VermilionCity/scripts.pory"
-	call_if_unset FLAG_SHOWN_MYSTIC_TICKET, VermilionCity_EventScript_ShowMysticTicket
-# 99 "data/maps/VermilionCity/scripts.pory"
-	message VermilionCity_Text_BoardSeagallopFerry
-# 100 "data/maps/VermilionCity/scripts.pory"
+# 93 "data/maps/VermilionCity/scripts.pory"
+	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_HasAuroraTicket
+# 94 "data/maps/VermilionCity/scripts.pory"
+	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
+# 95 "data/maps/VermilionCity/scripts.pory"
+	message VermilionCity_Text_BoardSeagallopRainbowPass
+# 96 "data/maps/VermilionCity/scripts.pory"
 	waitmessage
-# 101 "data/maps/VermilionCity/scripts.pory"
-	multichoice 17, 6, MULTICHOICE_SEVII_NAVEL, FALSE
-# 102 "data/maps/VermilionCity/scripts.pory"
-	switch VAR_RESULT
-# 103 "data/maps/VermilionCity/scripts.pory"
-	case 0, EventScript_SeviiDestinationsPage1
-# 104 "data/maps/VermilionCity/scripts.pory"
-	case 1, EventScript_SailToNavelRock
-# 105 "data/maps/VermilionCity/scripts.pory"
-	case 2, EventScript_CancelSail
-# 106 "data/maps/VermilionCity/scripts.pory"
-	case 127, EventScript_CancelSail
-# 107 "data/maps/VermilionCity/scripts.pory"
+# 97 "data/maps/VermilionCity/scripts.pory"
+	goto EventScript_SeviiDestinationsPage1
+# 98 "data/maps/VermilionCity/scripts.pory"
 	end
-# 108 "data/maps/VermilionCity/scripts.pory"
+# 99 "data/maps/VermilionCity/scripts.pory"
 
+# 100 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_HasMysticTicket::
+# 101 "data/maps/VermilionCity/scripts.pory"
+	call VermilionCity_EventScript_CheckHasAuroraTicket
+# 102 "data/maps/VermilionCity/scripts.pory"
+	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_HasMysticAndAuroraTickets
+# 103 "data/maps/VermilionCity/scripts.pory"
+	call_if_unset FLAG_SHOWN_MYSTIC_TICKET, VermilionCity_EventScript_ShowMysticTicket
+# 104 "data/maps/VermilionCity/scripts.pory"
+	message VermilionCity_Text_BoardSeagallopFerry
+# 105 "data/maps/VermilionCity/scripts.pory"
+	waitmessage
+# 106 "data/maps/VermilionCity/scripts.pory"
+	multichoice 17, 6, MULTICHOICE_SEVII_NAVEL, FALSE
+# 107 "data/maps/VermilionCity/scripts.pory"
+	switch VAR_RESULT
+# 108 "data/maps/VermilionCity/scripts.pory"
+	case 0, EventScript_SeviiDestinationsPage1
 # 109 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_ShowMysticTicket::
+	case 1, EventScript_SailToNavelRock
 # 110 "data/maps/VermilionCity/scripts.pory"
-	setflag FLAG_SHOWN_MYSTIC_TICKET
+	case 2, EventScript_CancelSail
 # 111 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_OhMysticTicketTakeYouToNavelRock
+	case 127, EventScript_CancelSail
 # 112 "data/maps/VermilionCity/scripts.pory"
-	return
+	end
 # 113 "data/maps/VermilionCity/scripts.pory"
 
 # 114 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_HasAuroraTicket::
+VermilionCity_EventScript_ShowMysticTicket::
 # 115 "data/maps/VermilionCity/scripts.pory"
-	call_if_unset FLAG_SHOWN_AURORA_TICKET, VermilionCity_EventScript_ShowAuroraTicket
+	setflag FLAG_SHOWN_MYSTIC_TICKET
 # 116 "data/maps/VermilionCity/scripts.pory"
-	message VermilionCity_Text_BoardSeagallopFerry
+	msgbox VermilionCity_Text_OhMysticTicketTakeYouToNavelRock
 # 117 "data/maps/VermilionCity/scripts.pory"
-	waitmessage
-# 118 "data/maps/VermilionCity/scripts.pory"
-	multichoice 13, 6, MULTICHOICE_SEVII_BIRTH, FALSE
-# 119 "data/maps/VermilionCity/scripts.pory"
-	switch VAR_RESULT
-# 120 "data/maps/VermilionCity/scripts.pory"
-	case 0, EventScript_SeviiDestinationsPage1
-# 121 "data/maps/VermilionCity/scripts.pory"
-	case 1, EventScript_SailToBirthIsland
-# 122 "data/maps/VermilionCity/scripts.pory"
-	case 2, EventScript_CancelSail
-# 123 "data/maps/VermilionCity/scripts.pory"
-	case 127, EventScript_CancelSail
-# 124 "data/maps/VermilionCity/scripts.pory"
-	end
-# 125 "data/maps/VermilionCity/scripts.pory"
-
-# 126 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_ShowAuroraTicket::
-# 127 "data/maps/VermilionCity/scripts.pory"
-	setflag FLAG_SHOWN_AURORA_TICKET
-# 128 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland
-# 129 "data/maps/VermilionCity/scripts.pory"
 	return
+# 118 "data/maps/VermilionCity/scripts.pory"
+
+# 119 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_HasAuroraTicket::
+# 120 "data/maps/VermilionCity/scripts.pory"
+	call_if_unset FLAG_SHOWN_AURORA_TICKET, VermilionCity_EventScript_ShowAuroraTicket
+# 121 "data/maps/VermilionCity/scripts.pory"
+	message VermilionCity_Text_BoardSeagallopFerry
+# 122 "data/maps/VermilionCity/scripts.pory"
+	waitmessage
+# 123 "data/maps/VermilionCity/scripts.pory"
+	multichoice 13, 6, MULTICHOICE_SEVII_BIRTH, FALSE
+# 124 "data/maps/VermilionCity/scripts.pory"
+	switch VAR_RESULT
+# 125 "data/maps/VermilionCity/scripts.pory"
+	case 0, EventScript_SeviiDestinationsPage1
+# 126 "data/maps/VermilionCity/scripts.pory"
+	case 1, EventScript_SailToBirthIsland
+# 127 "data/maps/VermilionCity/scripts.pory"
+	case 2, EventScript_CancelSail
+# 128 "data/maps/VermilionCity/scripts.pory"
+	case 127, EventScript_CancelSail
+# 129 "data/maps/VermilionCity/scripts.pory"
+	end
 # 130 "data/maps/VermilionCity/scripts.pory"
 
 # 131 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_HasMysticAndAuroraTickets::
+VermilionCity_EventScript_ShowAuroraTicket::
 # 132 "data/maps/VermilionCity/scripts.pory"
-	call_if_unset FLAG_SHOWN_MYSTIC_TICKET, VermilionCity_EventScript_ShowMysticTicket
+	setflag FLAG_SHOWN_AURORA_TICKET
 # 133 "data/maps/VermilionCity/scripts.pory"
-	call_if_unset FLAG_SHOWN_AURORA_TICKET, VermilionCity_EventScript_ShowAuroraTicket
+	msgbox VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland
 # 134 "data/maps/VermilionCity/scripts.pory"
-	message VermilionCity_Text_BoardSeagallopFerry
+	return
 # 135 "data/maps/VermilionCity/scripts.pory"
-	waitmessage
+
 # 136 "data/maps/VermilionCity/scripts.pory"
-	multichoice 13, 5, MULTICHOICE_SEVII_NAVEL_BIRTH, FALSE
+VermilionCity_EventScript_HasMysticAndAuroraTickets::
 # 137 "data/maps/VermilionCity/scripts.pory"
-	switch VAR_RESULT
+	call_if_unset FLAG_SHOWN_MYSTIC_TICKET, VermilionCity_EventScript_ShowMysticTicket
 # 138 "data/maps/VermilionCity/scripts.pory"
-	case 0, EventScript_SeviiDestinationsPage1
+	call_if_unset FLAG_SHOWN_AURORA_TICKET, VermilionCity_EventScript_ShowAuroraTicket
 # 139 "data/maps/VermilionCity/scripts.pory"
-	case 1, EventScript_SailToNavelRock
+	message VermilionCity_Text_BoardSeagallopFerry
 # 140 "data/maps/VermilionCity/scripts.pory"
-	case 2, EventScript_SailToBirthIsland
-# 141 "data/maps/VermilionCity/scripts.pory"
-	case 3, EventScript_CancelSail
-# 142 "data/maps/VermilionCity/scripts.pory"
-	case 127, EventScript_CancelSail
-# 143 "data/maps/VermilionCity/scripts.pory"
-	end
-# 144 "data/maps/VermilionCity/scripts.pory"
-
-# 145 "data/maps/VermilionCity/scripts.pory"
-EventScript_SailToNavelRock::
-# 146 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_Seagallop10Departing
-# 147 "data/maps/VermilionCity/scripts.pory"
-	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
-# 148 "data/maps/VermilionCity/scripts.pory"
-	setvar VAR_0x8006, SEAGALLOP_NAVEL_ROCK
-# 149 "data/maps/VermilionCity/scripts.pory"
-	goto EventScript_SetSail
-# 150 "data/maps/VermilionCity/scripts.pory"
-	end
-# 151 "data/maps/VermilionCity/scripts.pory"
-
-# 152 "data/maps/VermilionCity/scripts.pory"
-EventScript_SailToBirthIsland::
-# 153 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_Seagallop12Departing
-# 154 "data/maps/VermilionCity/scripts.pory"
-	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
-# 155 "data/maps/VermilionCity/scripts.pory"
-	setvar VAR_0x8006, SEAGALLOP_BIRTH_ISLAND
-# 156 "data/maps/VermilionCity/scripts.pory"
-	goto EventScript_SetSail
-# 157 "data/maps/VermilionCity/scripts.pory"
-	end
-# 158 "data/maps/VermilionCity/scripts.pory"
-
-# 159 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_ChooseSeagallopDestTriPass::
-# 160 "data/maps/VermilionCity/scripts.pory"
-	message VermilionCity_Text_BoardSeagallopTriPass
-# 161 "data/maps/VermilionCity/scripts.pory"
 	waitmessage
-# 162 "data/maps/VermilionCity/scripts.pory"
-	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
-# 163 "data/maps/VermilionCity/scripts.pory"
-	multichoice 19, 5, MULTICHOICE_SEAGALLOP_123, FALSE
-# 164 "data/maps/VermilionCity/scripts.pory"
+# 141 "data/maps/VermilionCity/scripts.pory"
+	multichoice 13, 5, MULTICHOICE_SEVII_NAVEL_BIRTH, FALSE
+# 142 "data/maps/VermilionCity/scripts.pory"
 	switch VAR_RESULT
-# 165 "data/maps/VermilionCity/scripts.pory"
-	case 0, EventScript_SailToOneIsland2
-# 166 "data/maps/VermilionCity/scripts.pory"
-	case 1, EventScript_SailToTwoIsland2
-# 167 "data/maps/VermilionCity/scripts.pory"
-	case 2, EventScript_SailToThreeIsland2
-# 168 "data/maps/VermilionCity/scripts.pory"
+# 143 "data/maps/VermilionCity/scripts.pory"
+	case 0, EventScript_SeviiDestinationsPage1
+# 144 "data/maps/VermilionCity/scripts.pory"
+	case 1, EventScript_SailToNavelRock
+# 145 "data/maps/VermilionCity/scripts.pory"
+	case 2, EventScript_SailToBirthIsland
+# 146 "data/maps/VermilionCity/scripts.pory"
 	case 3, EventScript_CancelSail
-# 169 "data/maps/VermilionCity/scripts.pory"
+# 147 "data/maps/VermilionCity/scripts.pory"
 	case 127, EventScript_CancelSail
-# 170 "data/maps/VermilionCity/scripts.pory"
+# 148 "data/maps/VermilionCity/scripts.pory"
 	end
-# 171 "data/maps/VermilionCity/scripts.pory"
+# 149 "data/maps/VermilionCity/scripts.pory"
 
+# 150 "data/maps/VermilionCity/scripts.pory"
+EventScript_SailToNavelRock::
+# 151 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_Seagallop10Departing
+# 152 "data/maps/VermilionCity/scripts.pory"
+	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
+# 153 "data/maps/VermilionCity/scripts.pory"
+	setvar VAR_0x8006, SEAGALLOP_NAVEL_ROCK
+# 154 "data/maps/VermilionCity/scripts.pory"
+	goto EventScript_SetSail
+# 155 "data/maps/VermilionCity/scripts.pory"
+	end
+# 156 "data/maps/VermilionCity/scripts.pory"
+
+# 157 "data/maps/VermilionCity/scripts.pory"
+EventScript_SailToBirthIsland::
+# 158 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_Seagallop12Departing
+# 159 "data/maps/VermilionCity/scripts.pory"
+	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
+# 160 "data/maps/VermilionCity/scripts.pory"
+	setvar VAR_0x8006, SEAGALLOP_BIRTH_ISLAND
+# 161 "data/maps/VermilionCity/scripts.pory"
+	goto EventScript_SetSail
+# 162 "data/maps/VermilionCity/scripts.pory"
+	end
+# 163 "data/maps/VermilionCity/scripts.pory"
+
+# 164 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_ChooseSeagallopDestTriPass::
+# 165 "data/maps/VermilionCity/scripts.pory"
+	message VermilionCity_Text_BoardSeagallopTriPass
+# 166 "data/maps/VermilionCity/scripts.pory"
+	waitmessage
+# 167 "data/maps/VermilionCity/scripts.pory"
+	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
+# 168 "data/maps/VermilionCity/scripts.pory"
+	multichoice 19, 5, MULTICHOICE_SEAGALLOP_123, FALSE
+# 169 "data/maps/VermilionCity/scripts.pory"
+	switch VAR_RESULT
+# 170 "data/maps/VermilionCity/scripts.pory"
+	case 0, EventScript_SailToOneIsland2
+# 171 "data/maps/VermilionCity/scripts.pory"
+	case 1, EventScript_SailToTwoIsland2
 # 172 "data/maps/VermilionCity/scripts.pory"
-@ Unreachable
+	case 2, EventScript_SailToThreeIsland2
 # 173 "data/maps/VermilionCity/scripts.pory"
-Vermilion_EventScript_Unused::
+	case 3, EventScript_CancelSail
 # 174 "data/maps/VermilionCity/scripts.pory"
-	release
+	case 127, EventScript_CancelSail
 # 175 "data/maps/VermilionCity/scripts.pory"
 	end
 # 176 "data/maps/VermilionCity/scripts.pory"
 
 # 177 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_CheckTicketLeft::
+@ Unreachable
 # 178 "data/maps/VermilionCity/scripts.pory"
-	lockall
+Vermilion_EventScript_Unused::
 # 179 "data/maps/VermilionCity/scripts.pory"
-	goto VermilionCity_EventScript_CheckTicket
+	release
 # 180 "data/maps/VermilionCity/scripts.pory"
 	end
 # 181 "data/maps/VermilionCity/scripts.pory"
 
 # 182 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_CheckTicketRight::
+VermilionCity_EventScript_CheckTicketLeft::
 # 183 "data/maps/VermilionCity/scripts.pory"
 	lockall
 # 184 "data/maps/VermilionCity/scripts.pory"
@@ -371,298 +371,236 @@ VermilionCity_EventScript_CheckTicketRight::
 # 186 "data/maps/VermilionCity/scripts.pory"
 
 # 187 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_ExitedTicketCheck::
+VermilionCity_EventScript_CheckTicketRight::
 # 188 "data/maps/VermilionCity/scripts.pory"
 	lockall
 # 189 "data/maps/VermilionCity/scripts.pory"
-	setvar VAR_VERMILION_CITY_TICKET_CHECK_TRIGGER, 0
+	goto VermilionCity_EventScript_CheckTicket
 # 190 "data/maps/VermilionCity/scripts.pory"
-	releaseall
+	end
 # 191 "data/maps/VermilionCity/scripts.pory"
-	end
+
 # 192 "data/maps/VermilionCity/scripts.pory"
-
+VermilionCity_EventScript_ExitedTicketCheck::
 # 193 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_CheckTicket::
-# 194 "data/maps/VermilionCity/scripts.pory"
-	textcolor NPC_TEXT_COLOR_MALE
-# 195 "data/maps/VermilionCity/scripts.pory"
-	applymovement LOCALID_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterLeft
-# 196 "data/maps/VermilionCity/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
-# 197 "data/maps/VermilionCity/scripts.pory"
-	waitmovement 0
-# 198 "data/maps/VermilionCity/scripts.pory"
-	goto_if_eq VAR_MAP_SCENE_VERMILION_CITY, 3, VermilionCity_EventScript_CheckSeagallopPresentTrigger
-# 199 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_DoYouHaveATicket
-# 200 "data/maps/VermilionCity/scripts.pory"
-	goto_if_unset FLAG_GOT_SS_TICKET, VermilionCity_EventScript_DontHaveSSTicket
-# 201 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_FlashedSSTicket
-# 202 "data/maps/VermilionCity/scripts.pory"
-	setvar VAR_VERMILION_CITY_TICKET_CHECK_TRIGGER, 1
-# 203 "data/maps/VermilionCity/scripts.pory"
-	releaseall
-# 204 "data/maps/VermilionCity/scripts.pory"
-	end
-# 205 "data/maps/VermilionCity/scripts.pory"
-
-# 206 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_DontHaveSSTicket::
-# 207 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_DontHaveNeededSSTicket
-# 208 "data/maps/VermilionCity/scripts.pory"
-	closemessage
-# 209 "data/maps/VermilionCity/scripts.pory"
-	goto VermilionCity_EventScript_WalkUpPier
-# 210 "data/maps/VermilionCity/scripts.pory"
-	end
-# 211 "data/maps/VermilionCity/scripts.pory"
-
-# 212 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_CheckSeagallopPresentTrigger::
-# 213 "data/maps/VermilionCity/scripts.pory"
-	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
-# 214 "data/maps/VermilionCity/scripts.pory"
-	goto_if_ge VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 5, VermilionCity_EventScript_ChooseSeagallopDestRainbowPass
-# 215 "data/maps/VermilionCity/scripts.pory"
-	goto_if_ge VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 1, VermilionCity_EventScript_ChooseSeagallopDestTriPass
-# 216 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_TheShipSetSail
-# 217 "data/maps/VermilionCity/scripts.pory"
-	closemessage
-# 218 "data/maps/VermilionCity/scripts.pory"
-	goto VermilionCity_EventScript_WalkUpPier
-# 219 "data/maps/VermilionCity/scripts.pory"
-	end
-# 220 "data/maps/VermilionCity/scripts.pory"
-
-# 221 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_Sailor::
-# 222 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_SSAnneVisitsOnceAYear, MSGBOX_NPC
-# 223 "data/maps/VermilionCity/scripts.pory"
-	end
-# 224 "data/maps/VermilionCity/scripts.pory"
-
-# 225 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_OaksAide::
-# 226 "data/maps/VermilionCity/scripts.pory"
-	lock
-# 227 "data/maps/VermilionCity/scripts.pory"
-	faceplayer
-# 228 "data/maps/VermilionCity/scripts.pory"
-	setflag FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION
-# 229 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_Route2AideHasPackageForYou
-# 230 "data/maps/VermilionCity/scripts.pory"
-	release
-# 231 "data/maps/VermilionCity/scripts.pory"
-	end
-# 232 "data/maps/VermilionCity/scripts.pory"
-
-# 233 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_OldMan2::
-# 234 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_BuildingOnThisLand, MSGBOX_NPC
-# 235 "data/maps/VermilionCity/scripts.pory"
-	end
-# 236 "data/maps/VermilionCity/scripts.pory"
-
-# 237 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_Machop::
-# 238 "data/maps/VermilionCity/scripts.pory"
-	lock
-# 239 "data/maps/VermilionCity/scripts.pory"
-	faceplayer
-# 240 "data/maps/VermilionCity/scripts.pory"
-	waitse
-# 241 "data/maps/VermilionCity/scripts.pory"
-	playmoncry SPECIES_MACHOP, CRY_MODE_NORMAL
-# 242 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_Machop
-# 243 "data/maps/VermilionCity/scripts.pory"
-	waitmoncry
-# 244 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_MachopStompingLandFlat
-# 245 "data/maps/VermilionCity/scripts.pory"
-	release
-# 246 "data/maps/VermilionCity/scripts.pory"
-	end
-# 247 "data/maps/VermilionCity/scripts.pory"
-
-# 248 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_CitySign::
-# 249 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_CitySign, MSGBOX_SIGN
-# 250 "data/maps/VermilionCity/scripts.pory"
-	end
-# 251 "data/maps/VermilionCity/scripts.pory"
-
-# 252 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_SnorlaxNotice::
-# 253 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_SnorlaxBlockingRoute12, MSGBOX_SIGN
-# 254 "data/maps/VermilionCity/scripts.pory"
-	end
-# 255 "data/maps/VermilionCity/scripts.pory"
-
-# 256 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_PokemonFanClubSign::
-# 257 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_PokemonFanClubSign, MSGBOX_SIGN
-# 258 "data/maps/VermilionCity/scripts.pory"
-	end
-# 259 "data/maps/VermilionCity/scripts.pory"
-
-# 260 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_GymSign::
-# 261 "data/maps/VermilionCity/scripts.pory"
 	lockall
-# 262 "data/maps/VermilionCity/scripts.pory"
-	famechecker FAMECHECKER_LTSURGE, 0
-# 263 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_GymSign
-# 264 "data/maps/VermilionCity/scripts.pory"
+# 194 "data/maps/VermilionCity/scripts.pory"
+	setvar VAR_VERMILION_CITY_TICKET_CHECK_TRIGGER, 0
+# 195 "data/maps/VermilionCity/scripts.pory"
 	releaseall
-# 265 "data/maps/VermilionCity/scripts.pory"
+# 196 "data/maps/VermilionCity/scripts.pory"
 	end
-# 266 "data/maps/VermilionCity/scripts.pory"
+# 197 "data/maps/VermilionCity/scripts.pory"
 
-# 267 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_HarborSign::
-# 268 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_VermilionHarbor, MSGBOX_SIGN
-# 269 "data/maps/VermilionCity/scripts.pory"
+# 198 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_CheckTicket::
+# 199 "data/maps/VermilionCity/scripts.pory"
+	textcolor NPC_TEXT_COLOR_MALE
+# 200 "data/maps/VermilionCity/scripts.pory"
+	applymovement LOCALID_FERRY_SAILOR, Common_Movement_WalkInPlaceFasterLeft
+# 201 "data/maps/VermilionCity/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+# 202 "data/maps/VermilionCity/scripts.pory"
+	waitmovement 0
+# 203 "data/maps/VermilionCity/scripts.pory"
+	goto_if_eq VAR_MAP_SCENE_VERMILION_CITY, 3, VermilionCity_EventScript_CheckSeagallopPresentTrigger
+# 204 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_DoYouHaveATicket
+# 205 "data/maps/VermilionCity/scripts.pory"
+	goto_if_unset FLAG_GOT_SS_TICKET, VermilionCity_EventScript_DontHaveSSTicket
+# 206 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_FlashedSSTicket
+# 207 "data/maps/VermilionCity/scripts.pory"
+	setvar VAR_VERMILION_CITY_TICKET_CHECK_TRIGGER, 1
+# 208 "data/maps/VermilionCity/scripts.pory"
+	releaseall
+# 209 "data/maps/VermilionCity/scripts.pory"
 	end
-# 270 "data/maps/VermilionCity/scripts.pory"
+# 210 "data/maps/VermilionCity/scripts.pory"
 
-# 271 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_TruckTile::
-# 272 "data/maps/VermilionCity/scripts.pory"
-	lock
-# 273 "data/maps/VermilionCity/scripts.pory"
-	faceplayer
-# 274 "data/maps/VermilionCity/scripts.pory"
-	goto_if_set FLAG_ENCOUNTERED_MEW_TRUCK, VermilionCity_EventScript_TruckEmpty
-# 275 "data/maps/VermilionCity/scripts.pory"
-	goto_if_unset FLAG_DEFEATED_CHAMP_1X, VermilionCity_EventScript_TruckNormal
-# 276 "data/maps/VermilionCity/scripts.pory"
-	goto_if_unset FLAG_GOT_HM04, VermilionCity_EventScript_TruckNeedStrength
-# 277 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_TruckMysteriousSound
-# 278 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_UseStrengthOnTruck
-# 279 "data/maps/VermilionCity/scripts.pory"
+# 211 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_DontHaveSSTicket::
+# 212 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_DontHaveNeededSSTicket
+# 213 "data/maps/VermilionCity/scripts.pory"
 	closemessage
-# 280 "data/maps/VermilionCity/scripts.pory"
-	dofieldeffect FLDEFF_USE_STRENGTH
-# 281 "data/maps/VermilionCity/scripts.pory"
-	waitstate
-# 282 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_TruckRevealsSecret
-# 283 "data/maps/VermilionCity/scripts.pory"
+# 214 "data/maps/VermilionCity/scripts.pory"
+	goto VermilionCity_EventScript_WalkUpPier
+# 215 "data/maps/VermilionCity/scripts.pory"
+	end
+# 216 "data/maps/VermilionCity/scripts.pory"
+
+# 217 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_CheckSeagallopPresentTrigger::
+# 218 "data/maps/VermilionCity/scripts.pory"
+	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
+# 219 "data/maps/VermilionCity/scripts.pory"
+	goto_if_ge VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 5, VermilionCity_EventScript_ChooseSeagallopDestRainbowPass
+# 220 "data/maps/VermilionCity/scripts.pory"
+	goto_if_ge VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 1, VermilionCity_EventScript_ChooseSeagallopDestTriPass
+# 221 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_TheShipSetSail
+# 222 "data/maps/VermilionCity/scripts.pory"
+	closemessage
+# 223 "data/maps/VermilionCity/scripts.pory"
+	goto VermilionCity_EventScript_WalkUpPier
+# 224 "data/maps/VermilionCity/scripts.pory"
+	end
+# 225 "data/maps/VermilionCity/scripts.pory"
+
+# 226 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_Sailor::
+# 227 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_SSAnneVisitsOnceAYear, MSGBOX_NPC
+# 228 "data/maps/VermilionCity/scripts.pory"
+	end
+# 229 "data/maps/VermilionCity/scripts.pory"
+
+# 230 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_OaksAide::
+# 231 "data/maps/VermilionCity/scripts.pory"
+	lock
+# 232 "data/maps/VermilionCity/scripts.pory"
+	faceplayer
+# 233 "data/maps/VermilionCity/scripts.pory"
+	setflag FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION
+# 234 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_Route2AideHasPackageForYou
+# 235 "data/maps/VermilionCity/scripts.pory"
+	release
+# 236 "data/maps/VermilionCity/scripts.pory"
+	end
+# 237 "data/maps/VermilionCity/scripts.pory"
+
+# 238 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_OldMan2::
+# 239 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_BuildingOnThisLand, MSGBOX_NPC
+# 240 "data/maps/VermilionCity/scripts.pory"
+	end
+# 241 "data/maps/VermilionCity/scripts.pory"
+
+# 242 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_Machop::
+# 243 "data/maps/VermilionCity/scripts.pory"
+	lock
+# 244 "data/maps/VermilionCity/scripts.pory"
+	faceplayer
+# 245 "data/maps/VermilionCity/scripts.pory"
 	waitse
-# 284 "data/maps/VermilionCity/scripts.pory"
-	playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
-# 285 "data/maps/VermilionCity/scripts.pory"
-	delay 40
-# 286 "data/maps/VermilionCity/scripts.pory"
+# 246 "data/maps/VermilionCity/scripts.pory"
+	playmoncry SPECIES_MACHOP, CRY_MODE_NORMAL
+# 247 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_Machop
+# 248 "data/maps/VermilionCity/scripts.pory"
 	waitmoncry
+# 249 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_MachopStompingLandFlat
+# 250 "data/maps/VermilionCity/scripts.pory"
+	release
+# 251 "data/maps/VermilionCity/scripts.pory"
+	end
+# 252 "data/maps/VermilionCity/scripts.pory"
+
+# 253 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_CitySign::
+# 254 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_CitySign, MSGBOX_SIGN
+# 255 "data/maps/VermilionCity/scripts.pory"
+	end
+# 256 "data/maps/VermilionCity/scripts.pory"
+
+# 257 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_SnorlaxNotice::
+# 258 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_SnorlaxBlockingRoute12, MSGBOX_SIGN
+# 259 "data/maps/VermilionCity/scripts.pory"
+	end
+# 260 "data/maps/VermilionCity/scripts.pory"
+
+# 261 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_PokemonFanClubSign::
+# 262 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_PokemonFanClubSign, MSGBOX_SIGN
+# 263 "data/maps/VermilionCity/scripts.pory"
+	end
+# 264 "data/maps/VermilionCity/scripts.pory"
+
+# 265 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_GymSign::
+# 266 "data/maps/VermilionCity/scripts.pory"
+	lockall
+# 267 "data/maps/VermilionCity/scripts.pory"
+	famechecker FAMECHECKER_LTSURGE, 0
+# 268 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_GymSign
+# 269 "data/maps/VermilionCity/scripts.pory"
+	releaseall
+# 270 "data/maps/VermilionCity/scripts.pory"
+	end
+# 271 "data/maps/VermilionCity/scripts.pory"
+
+# 272 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_HarborSign::
+# 273 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_VermilionHarbor, MSGBOX_SIGN
+# 274 "data/maps/VermilionCity/scripts.pory"
+	end
+# 275 "data/maps/VermilionCity/scripts.pory"
+
+# 276 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_DockAreaGuide::
+# 277 "data/maps/VermilionCity/scripts.pory"
+	lock
+# 278 "data/maps/VermilionCity/scripts.pory"
+	faceplayer
+# 279 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_DockAreaGuideIntro
+# 280 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_DockAreaGuideOffer, MSGBOX_YESNO
+# 281 "data/maps/VermilionCity/scripts.pory"
+	goto_if_eq VAR_RESULT, YES, VermilionCity_EventScript_TakeToDockArea
+# 282 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_DockAreaGuideDecline
+# 283 "data/maps/VermilionCity/scripts.pory"
+	release
+# 284 "data/maps/VermilionCity/scripts.pory"
+	end
+# 285 "data/maps/VermilionCity/scripts.pory"
+
+# 286 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_TakeToDockArea::
 # 287 "data/maps/VermilionCity/scripts.pory"
-	playbgm MUS_ENCOUNTER_GYM_LEADER, 0
+	msgbox VermilionCity_Text_DockAreaGuideAccept
 # 288 "data/maps/VermilionCity/scripts.pory"
-	setwildbattle SPECIES_MEW, 50
+	closemessage
 # 289 "data/maps/VermilionCity/scripts.pory"
-	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	fadescreen FADE_TO_BLACK
 # 290 "data/maps/VermilionCity/scripts.pory"
-	special StartLegendaryBattle
+	warp MAP_SSANNE_EXTERIOR, 32, 5
 # 291 "data/maps/VermilionCity/scripts.pory"
 	waitstate
 # 292 "data/maps/VermilionCity/scripts.pory"
-	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	releaseall
 # 293 "data/maps/VermilionCity/scripts.pory"
-	specialvar VAR_RESULT, GetBattleOutcome
+	end
 # 294 "data/maps/VermilionCity/scripts.pory"
-	goto_if_eq VAR_RESULT, B_OUTCOME_WON, VermilionCity_EventScript_DefeatedMew
+
 # 295 "data/maps/VermilionCity/scripts.pory"
-	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, VermilionCity_EventScript_RanFromMew
+VermilionCity_EventScript_WalkUpPier::
 # 296 "data/maps/VermilionCity/scripts.pory"
-	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, VermilionCity_EventScript_RanFromMew
+	applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Movement_WalkUpPier
 # 297 "data/maps/VermilionCity/scripts.pory"
-	setflag FLAG_ENCOUNTERED_MEW_TRUCK
+	waitmovement 0
 # 298 "data/maps/VermilionCity/scripts.pory"
-	release
+	releaseall
 # 299 "data/maps/VermilionCity/scripts.pory"
 	end
 # 300 "data/maps/VermilionCity/scripts.pory"
 
 # 301 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_DefeatedMew::
-# 302 "data/maps/VermilionCity/scripts.pory"
-	setflag FLAG_ENCOUNTERED_MEW_TRUCK
-# 303 "data/maps/VermilionCity/scripts.pory"
-	release
-# 304 "data/maps/VermilionCity/scripts.pory"
-	end
-# 305 "data/maps/VermilionCity/scripts.pory"
-
-# 306 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_RanFromMew::
-# 307 "data/maps/VermilionCity/scripts.pory"
-	setflag FLAG_ENCOUNTERED_MEW_TRUCK
-# 308 "data/maps/VermilionCity/scripts.pory"
-	release
-# 309 "data/maps/VermilionCity/scripts.pory"
-	end
-# 310 "data/maps/VermilionCity/scripts.pory"
-
-# 311 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_TruckEmpty::
-# 312 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_TruckEmpty, MSGBOX_SIGN
-# 313 "data/maps/VermilionCity/scripts.pory"
-	release
-# 314 "data/maps/VermilionCity/scripts.pory"
-	end
-# 315 "data/maps/VermilionCity/scripts.pory"
-
-# 316 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_TruckNormal::
-# 317 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_TruckNormal, MSGBOX_SIGN
-# 318 "data/maps/VermilionCity/scripts.pory"
-	release
-# 319 "data/maps/VermilionCity/scripts.pory"
-	end
-# 320 "data/maps/VermilionCity/scripts.pory"
-
-# 321 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_TruckNeedStrength::
-# 322 "data/maps/VermilionCity/scripts.pory"
-	msgbox VermilionCity_Text_TruckNeedStrength, MSGBOX_SIGN
-# 323 "data/maps/VermilionCity/scripts.pory"
-	release
-# 324 "data/maps/VermilionCity/scripts.pory"
-	end
-# 325 "data/maps/VermilionCity/scripts.pory"
-
-# 326 "data/maps/VermilionCity/scripts.pory"
-VermilionCity_EventScript_WalkUpPier::
-# 327 "data/maps/VermilionCity/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Movement_WalkUpPier
-# 328 "data/maps/VermilionCity/scripts.pory"
-	waitmovement 0
-# 329 "data/maps/VermilionCity/scripts.pory"
-	releaseall
-# 330 "data/maps/VermilionCity/scripts.pory"
-	end
-# 331 "data/maps/VermilionCity/scripts.pory"
-
-# 332 "data/maps/VermilionCity/scripts.pory"
 VermilionCity_Movement_WalkUpPier::
-# 333 "data/maps/VermilionCity/scripts.pory"
+# 302 "data/maps/VermilionCity/scripts.pory"
 	walk_up
-# 334 "data/maps/VermilionCity/scripts.pory"
+# 303 "data/maps/VermilionCity/scripts.pory"
 	step_end

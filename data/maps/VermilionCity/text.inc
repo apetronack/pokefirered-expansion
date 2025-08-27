@@ -133,29 +133,24 @@ VermilionCity_Text_TruckNormal::
     .string "There's a large truck parked here.\p"
     .string "Nothing special about it.$"
 
-VermilionCity_Text_TruckNeedStrength::
-    .string "There's a large truck parked here.\p"
-    .string "It looks like it could be moved\n"
-    .string "if I had enough STRENGTH…$"
+VermilionCity_Text_DockAreaGuideIntro::
+    .string "Ahoy there! I'm an old sailor who\n"
+    .string "worked on the SS ANNE for years.\p"
+    .string "Even though she's sailed away, I still\n"
+    .string "know the old dock area like the back\l"
+    .string "of my hand.$"
 
-VermilionCity_Text_TruckMysteriousSound::
-    .string "There's a large truck parked here.\p"
-    .string "Wait… I can hear a faint, mysterious\n"
-    .string "mewing sound coming from behind it…$"
+VermilionCity_Text_DockAreaGuideOffer::
+    .string "Would you like me to take you out\n"
+    .string "to the old SS ANNE dock area?\p"
+    .string "There might be some interesting\n"
+    .string "things left behind…$"
 
-VermilionCity_Text_UseStrengthOnTruck::
-    .string "Maybe I can move this truck with\n"
-    .string "STRENGTH to see what's behind it?$"
+VermilionCity_Text_DockAreaGuideAccept::
+    .string "Aye! Follow me, then.\n"
+    .string "I'll get us out there safely.$"
 
-VermilionCity_Text_TruckRevealsSecret::
-    .string "The truck moved!\p"
-    .string "There was a hidden space behind it!\p"
-    .string "A small, pink POKéMON emerges\n"
-    .string "from the secret area!\p"
-    .string "It's MEW, the mythical POKéMON!$"
-
-VermilionCity_Text_TruckEmpty::
-    .string "It's the spot where the truck\n"
-    .string "used to be parked.\p"
-    .string "Nothing here anymore…$"
+VermilionCity_Text_DockAreaGuideDecline::
+    .string "No worries! I'll be here if you\n"
+    .string "change your mind later.$"
 

@@ -546,6 +546,7 @@ gStdScriptsEnd::
 	.include "data/maps/SSAnne_B1F_Room4/text.inc"
 	.include "data/maps/SSAnne_B1F_Room5/text.inc"
 	.include "data/maps/SSAnne_1F_Room6/text.inc"
+	.include "data/maps/SSAnne_Exterior/text.inc"
 	.include "data/maps/UndergroundPath_SouthEntrance/text.inc"
 	.include "data/maps/UndergroundPath_WestEntrance/text.inc"
 	.include "data/maps/UndergroundPath_EastEntrance/text.inc"
