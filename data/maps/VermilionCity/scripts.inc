@@ -536,3 +536,133 @@ VermilionCity_EventScript_HarborSign::
 	msgbox VermilionCity_Text_VermilionHarbor, MSGBOX_SIGN
 # 269 "data/maps/VermilionCity/scripts.pory"
 	end
+# 270 "data/maps/VermilionCity/scripts.pory"
+
+# 271 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_TruckTile::
+# 272 "data/maps/VermilionCity/scripts.pory"
+	lock
+# 273 "data/maps/VermilionCity/scripts.pory"
+	faceplayer
+# 274 "data/maps/VermilionCity/scripts.pory"
+	goto_if_set FLAG_ENCOUNTERED_MEW_TRUCK, VermilionCity_EventScript_TruckEmpty
+# 275 "data/maps/VermilionCity/scripts.pory"
+	goto_if_unset FLAG_DEFEATED_CHAMP_1X, VermilionCity_EventScript_TruckNormal
+# 276 "data/maps/VermilionCity/scripts.pory"
+	goto_if_unset FLAG_GOT_HM04, VermilionCity_EventScript_TruckNeedStrength
+# 277 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_TruckMysteriousSound
+# 278 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_UseStrengthOnTruck
+# 279 "data/maps/VermilionCity/scripts.pory"
+	closemessage
+# 280 "data/maps/VermilionCity/scripts.pory"
+	dofieldeffect FLDEFF_USE_STRENGTH
+# 281 "data/maps/VermilionCity/scripts.pory"
+	waitstate
+# 282 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_TruckRevealsSecret
+# 283 "data/maps/VermilionCity/scripts.pory"
+	waitse
+# 284 "data/maps/VermilionCity/scripts.pory"
+	playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
+# 285 "data/maps/VermilionCity/scripts.pory"
+	delay 40
+# 286 "data/maps/VermilionCity/scripts.pory"
+	waitmoncry
+# 287 "data/maps/VermilionCity/scripts.pory"
+	playbgm MUS_ENCOUNTER_GYM_LEADER, 0
+# 288 "data/maps/VermilionCity/scripts.pory"
+	setwildbattle SPECIES_MEW, 50
+# 289 "data/maps/VermilionCity/scripts.pory"
+	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+# 290 "data/maps/VermilionCity/scripts.pory"
+	special StartLegendaryBattle
+# 291 "data/maps/VermilionCity/scripts.pory"
+	waitstate
+# 292 "data/maps/VermilionCity/scripts.pory"
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+# 293 "data/maps/VermilionCity/scripts.pory"
+	specialvar VAR_RESULT, GetBattleOutcome
+# 294 "data/maps/VermilionCity/scripts.pory"
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, VermilionCity_EventScript_DefeatedMew
+# 295 "data/maps/VermilionCity/scripts.pory"
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, VermilionCity_EventScript_RanFromMew
+# 296 "data/maps/VermilionCity/scripts.pory"
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, VermilionCity_EventScript_RanFromMew
+# 297 "data/maps/VermilionCity/scripts.pory"
+	setflag FLAG_ENCOUNTERED_MEW_TRUCK
+# 298 "data/maps/VermilionCity/scripts.pory"
+	release
+# 299 "data/maps/VermilionCity/scripts.pory"
+	end
+# 300 "data/maps/VermilionCity/scripts.pory"
+
+# 301 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_DefeatedMew::
+# 302 "data/maps/VermilionCity/scripts.pory"
+	setflag FLAG_ENCOUNTERED_MEW_TRUCK
+# 303 "data/maps/VermilionCity/scripts.pory"
+	release
+# 304 "data/maps/VermilionCity/scripts.pory"
+	end
+# 305 "data/maps/VermilionCity/scripts.pory"
+
+# 306 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_RanFromMew::
+# 307 "data/maps/VermilionCity/scripts.pory"
+	setflag FLAG_ENCOUNTERED_MEW_TRUCK
+# 308 "data/maps/VermilionCity/scripts.pory"
+	release
+# 309 "data/maps/VermilionCity/scripts.pory"
+	end
+# 310 "data/maps/VermilionCity/scripts.pory"
+
+# 311 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_TruckEmpty::
+# 312 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_TruckEmpty, MSGBOX_SIGN
+# 313 "data/maps/VermilionCity/scripts.pory"
+	release
+# 314 "data/maps/VermilionCity/scripts.pory"
+	end
+# 315 "data/maps/VermilionCity/scripts.pory"
+
+# 316 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_TruckNormal::
+# 317 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_TruckNormal, MSGBOX_SIGN
+# 318 "data/maps/VermilionCity/scripts.pory"
+	release
+# 319 "data/maps/VermilionCity/scripts.pory"
+	end
+# 320 "data/maps/VermilionCity/scripts.pory"
+
+# 321 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_TruckNeedStrength::
+# 322 "data/maps/VermilionCity/scripts.pory"
+	msgbox VermilionCity_Text_TruckNeedStrength, MSGBOX_SIGN
+# 323 "data/maps/VermilionCity/scripts.pory"
+	release
+# 324 "data/maps/VermilionCity/scripts.pory"
+	end
+# 325 "data/maps/VermilionCity/scripts.pory"
+
+# 326 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_EventScript_WalkUpPier::
+# 327 "data/maps/VermilionCity/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Movement_WalkUpPier
+# 328 "data/maps/VermilionCity/scripts.pory"
+	waitmovement 0
+# 329 "data/maps/VermilionCity/scripts.pory"
+	releaseall
+# 330 "data/maps/VermilionCity/scripts.pory"
+	end
+# 331 "data/maps/VermilionCity/scripts.pory"
+
+# 332 "data/maps/VermilionCity/scripts.pory"
+VermilionCity_Movement_WalkUpPier::
+# 333 "data/maps/VermilionCity/scripts.pory"
+	walk_up
+# 334 "data/maps/VermilionCity/scripts.pory"
+	step_end

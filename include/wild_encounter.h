@@ -72,6 +72,7 @@ void FishingWildEncounter(u8 rod);
 u16 GetLocalWildMon(bool8 *isWaterMon);
 u16 GetLocalWaterMon(void);
 bool8 UpdateRepelCounter(void);
+bool8 IsWildLevelAllowedByRepel(u8 level);
 void DisableWildEncounters(bool8 state);
 u8 GetUnownLetterByPersonalityLoByte(u32 personality);
 bool8 SweetScentWildEncounter(void);

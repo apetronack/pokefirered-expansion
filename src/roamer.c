@@ -4,6 +4,7 @@
 #include "field_specials.h"
 #include "wild_encounter.h"
 #include "pokemon.h"
+#include "string_util.h"
 #include "constants/maps.h"
 #include "constants/region_map_sections.h"
 #include "constants/species.h"
@@ -201,17 +202,17 @@ void GetLegendaryBeastNames(u8 *firstBeastName, u8 *secondBeastName)
     switch (existingRoamerSpecies)
     {
         case SPECIES_RAIKOU:
-            StringCopy(firstBeastName, gSpeciesNames[SPECIES_ENTEI]);
-            StringCopy(secondBeastName, gSpeciesNames[SPECIES_SUICUNE]);
+            StringCopy(firstBeastName, GetSpeciesName(SPECIES_ENTEI));
+            StringCopy(secondBeastName, GetSpeciesName(SPECIES_SUICUNE));
             break;
         case SPECIES_ENTEI:
-            StringCopy(firstBeastName, gSpeciesNames[SPECIES_RAIKOU]);
-            StringCopy(secondBeastName, gSpeciesNames[SPECIES_SUICUNE]);
+            StringCopy(firstBeastName, GetSpeciesName(SPECIES_RAIKOU));
+            StringCopy(secondBeastName, GetSpeciesName(SPECIES_SUICUNE));
             break;
         case SPECIES_SUICUNE:
         default:
-            StringCopy(firstBeastName, gSpeciesNames[SPECIES_RAIKOU]);
-            StringCopy(secondBeastName, gSpeciesNames[SPECIES_ENTEI]);
+            StringCopy(firstBeastName, GetSpeciesName(SPECIES_RAIKOU));
+            StringCopy(secondBeastName, GetSpeciesName(SPECIES_ENTEI));
             break;
     }
 }
@@ -228,7 +229,7 @@ void BufferLegendaryBeastNames(void)
 
 void BufferOriginalRoamerName(void)
 {
-    StringCopy(gStringVar3, gSpeciesNames[ROAMER->species]);
+    StringCopy(gStringVar3, GetSpeciesName(ROAMER->species));
 }
 
 void UpdateLocationHistoryForRoamer(void)

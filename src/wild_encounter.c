@@ -48,7 +48,7 @@ EWRAM_DATA u16 gChainFishingDexNavStreak = 0;
 static bool8 UnlockedTanobyOrAreNotInTanoby(void);
 static u32 GenerateUnownPersonalityByLetter(u8 letter);
 static void UpdateChainFishingStreak();
-static bool8 IsWildLevelAllowedByRepel(u8 level);
+bool8 IsWildLevelAllowedByRepel(u8 level);
 static void ApplyFluteEncounterRateMod(u32 *rate);
 static u8 GetMaxLevelOfSpeciesInWildTable(const struct WildPokemon *wildMon, u16 species, u8 area);
 static u8 GetFluteEncounterRateModType(void);
@@ -564,7 +564,6 @@ static bool8 DoGlobalWildEncounterDiceRoll(void)
 
 bool8 TryStandardWildLandEncounter(u16 headerId, u32 currMetatileAttrs, u16 previousMetatileBehavior)
 {
-    struct Roamer * roamer;
     enum TimeOfDay timeOfDay = GetTimeOfDayForEncounters(headerId, WILD_AREA_LAND);
     if (gWildMonHeaders[headerId].encounterTypes[timeOfDay].landMonsInfo == NULL)
         return FALSE;
@@ -603,7 +602,6 @@ bool8 TryStandardWildLandEncounter(u16 headerId, u32 currMetatileAttrs, u16 prev
 
 bool8 TryStandardWildSurfEncounter(u16 headerId, u32 currMetatileAttrs, u16 previousMetatileBehavior)
 {
-    struct Roamer * roamer;
     enum TimeOfDay timeOfDay = GetTimeOfDayForEncounters(headerId, WILD_AREA_WATER);
     if (gWildMonHeaders[headerId].encounterTypes[timeOfDay].waterMonsInfo == NULL)
         return FALSE;
@@ -861,7 +859,7 @@ bool8 UpdateRepelCounter(void)
     return FALSE;
 }
 
-static bool8 IsWildLevelAllowedByRepel(u8 wildLevel)
+bool8 IsWildLevelAllowedByRepel(u8 wildLevel)
 {
     u8 i;
 
