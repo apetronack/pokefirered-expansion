@@ -355,3 +355,32 @@ PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
     .string "ONE ISLAND first…\p"
     .string "Anyways, I'm outta here!$"
 
+PalletTown_ProfessorOaksLab_Text_OakLegendaryBeastsRoaming::
+    .string "OAK: {PLAYER}! I have amazing news!\p"
+    .string "After connecting with HOENN, my\n"
+    .string "research equipment detected some\l"
+    .string "extraordinary energy readings!\p"
+    .string "It seems that two more legendary\n"
+    .string "POKéMON, {STR_VAR_1} and {STR_VAR_2},\l"
+    .string "have appeared somewhere in KANTO!\p"
+    .string "These magnificent beasts are said\n"
+    .string "to roam freely across the land.\p"
+    .string "Combined with {STR_VAR_3} that appeared\n"
+    .string "when we connected the network, all\l"
+    .string "three legendary beasts are now here!\p"
+    .string "If you encounter them, be prepared!\n"
+    .string "They're incredibly powerful and\l"
+    .string "may flee from battle at any moment!\p"
+    .string "This is a once-in-a-lifetime\n"
+    .string "opportunity for any trainer!$"
+
+PalletTown_ProfessorOaksLab_Text_OakDetectedNewLegendaries::
+    .string "OAK: Hold on… My equipment is\n"
+    .string "detecting something unusual!\p"
+    .string "It appears that two more legendary\n"
+    .string "POKéMON have manifested in KANTO!\p"
+    .string "{STR_VAR_1} and {STR_VAR_2} are now\n"
+    .string "roaming somewhere in the region!\p"
+    .string "What an incredible phenomenon!\n"
+    .string "Three legendary beasts in one region!$"
+

@@ -577,12 +577,6 @@ bool8 TryStandardWildLandEncounter(u16 headerId, u32 currMetatileAttrs, u16 prev
     }
     if (TryStartRoamerEncounter() == TRUE)
     {
-        roamer = &gSaveBlock1Ptr->roamer;
-        if (!IsWildLevelAllowedByRepel(roamer->level))
-        {
-            return FALSE;
-        }
-
         StartRoamerBattle();
         return TRUE;
     }
@@ -623,12 +617,6 @@ bool8 TryStandardWildSurfEncounter(u16 headerId, u32 currMetatileAttrs, u16 prev
 
     if (TryStartRoamerEncounter() == TRUE)
     {
-        roamer = &gSaveBlock1Ptr->roamer;
-        if (!IsWildLevelAllowedByRepel(roamer->level))
-        {
-            return FALSE;
-        }
-
         StartRoamerBattle();
         return TRUE;
     }

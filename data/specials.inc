@@ -313,6 +313,9 @@ gSpecials::
 	def_special Script_FacePlayer
 	def_special Script_ClearHeldMovement
 	def_special InitRoamer
+	def_special CreateLegendaryBeastRoamers
+	def_special BufferLegendaryBeastNames
+	def_special BufferOriginalRoamerName
 	def_special NullFieldSpecial
 	def_special PlayerHasGrassPokemonInParty
 	def_special NullFieldSpecial

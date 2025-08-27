@@ -2,8 +2,11 @@
 #include "random.h"
 #include "overworld.h"
 #include "field_specials.h"
+#include "wild_encounter.h"
+#include "pokemon.h"
 #include "constants/maps.h"
 #include "constants/region_map_sections.h"
+#include "constants/species.h"
 
 // Despite having a variable to track it, the roamer is
 // hard-coded to only ever be in map group 3
@@ -15,9 +18,22 @@ enum
     MAP_NUM, // map number
 };
 
-#define ROAMER (&gSaveBlock1Ptr->roamer)
+enum
+{
+    BEAST_ENTEI,
+    BEAST_RAIKOU,
+    NUM_BEAST_ROAMERS
+};
+
+#define ROAMER (&gSaveBlock1Ptr->roamers.originalRoamer)
+#define BEAST_ROAMER(id) (&gSaveBlock1Ptr->roamers.legendaryBeasts[id])
+#define BEAST_ROAMERS_ACTIVE (gSaveBlock1Ptr->roamers.beastRoamersActive)
 EWRAM_DATA u8 sLocationHistory[3][2] = {};
 EWRAM_DATA u8 sRoamerLocation[2] = {};
+EWRAM_DATA u8 sBeastRoamerLocations[NUM_BEAST_ROAMERS][2] = {};
+
+static void BeastRoamerMove(u8 beastId);
+static void BeastRoamerMoveToOtherLocationSet(u8 beastId);
 
 #define ___ MAP_NUM(UNDEFINED) // For empty spots in the location table
 
@@ -69,9 +85,14 @@ static const u8 sRoamerLocations[][7] = {
 void ClearRoamerData(void)
 {
     u32 i;
-    *ROAMER = (struct Roamer){};
+    gSaveBlock1Ptr->roamers = (struct RoamerGroup){};
     sRoamerLocation[MAP_GRP] = 0;
     sRoamerLocation[MAP_NUM] = 0;
+    for (i = 0; i < NUM_BEAST_ROAMERS; i++)
+    {
+        sBeastRoamerLocations[i][MAP_GRP] = 0;
+        sBeastRoamerLocations[i][MAP_NUM] = 0;
+    }
     for (i = 0; i < ARRAY_COUNT(sLocationHistory); i++)
     {
         sLocationHistory[i][MAP_GRP] = 0;
@@ -123,6 +144,93 @@ void InitRoamer(void)
     CreateInitialRoamerMon();
 }
 
+// Creates the two remaining legendary beast roamers after the National Dex is obtained.
+// The two beasts created are always different from the starter-dependent roamer.
+// For example:
+// - If player chose Charmander -> Suicune roams from One Island -> Raikou and Entei roam from National Dex
+// - If player chose Squirtle -> Raikou roams from One Island -> Entei and Suicune roam from National Dex  
+// - If player chose Bulbasaur -> Entei roams from One Island -> Raikou and Suicune roam from National Dex
+void CreateLegendaryBeastRoamers(void)
+{
+    struct Pokemon *mon = &gEnemyParty[0];
+    u32 i, beastIndex = 0;
+    u16 allBeasts[3] = {SPECIES_RAIKOU, SPECIES_ENTEI, SPECIES_SUICUNE};
+    u16 selectedBeasts[NUM_BEAST_ROAMERS];
+    u16 existingRoamerSpecies = ROAMER->species;
+    
+    // Select the two beasts that are NOT the existing roamer
+    for (i = 0; i < 3; i++)
+    {
+        if (allBeasts[i] != existingRoamerSpecies && beastIndex < NUM_BEAST_ROAMERS)
+        {
+            selectedBeasts[beastIndex] = allBeasts[i];
+            beastIndex++;
+        }
+    }
+    
+    // Create the two remaining legendary beast roamers
+    for (i = 0; i < NUM_BEAST_ROAMERS; i++)
+    {
+        CreateMon(mon, selectedBeasts[i], 50, USE_RANDOM_IVS, FALSE, 0, OT_ID_PLAYER_ID, 0);
+        BEAST_ROAMER(i)->species = selectedBeasts[i];
+        BEAST_ROAMER(i)->level = 50;
+        BEAST_ROAMER(i)->status = 0;
+        BEAST_ROAMER(i)->active = TRUE;
+        BEAST_ROAMER(i)->ivs = GetMonData(mon, MON_DATA_IVS);
+        BEAST_ROAMER(i)->personality = GetMonData(mon, MON_DATA_PERSONALITY);
+        BEAST_ROAMER(i)->hp = GetMonData(mon, MON_DATA_MAX_HP);
+        BEAST_ROAMER(i)->cool = GetMonData(mon, MON_DATA_COOL);
+        BEAST_ROAMER(i)->beauty = GetMonData(mon, MON_DATA_BEAUTY);
+        BEAST_ROAMER(i)->cute = GetMonData(mon, MON_DATA_CUTE);
+        BEAST_ROAMER(i)->smart = GetMonData(mon, MON_DATA_SMART);
+        BEAST_ROAMER(i)->tough = GetMonData(mon, MON_DATA_TOUGH);
+        
+        // Set initial locations
+        sBeastRoamerLocations[i][MAP_GRP] = ROAMER_MAP_GROUP;
+        sBeastRoamerLocations[i][MAP_NUM] = sRoamerLocations[Random() % NUM_LOCATION_SETS][0];
+    }
+    
+    BEAST_ROAMERS_ACTIVE = (1 << BEAST_ENTEI) | (1 << BEAST_RAIKOU);
+}
+
+void GetLegendaryBeastNames(u8 *firstBeastName, u8 *secondBeastName)
+{
+    u16 existingRoamerSpecies = ROAMER->species;
+    
+    // Based on the existing roamer, determine which two beasts are now active
+    switch (existingRoamerSpecies)
+    {
+        case SPECIES_RAIKOU:
+            StringCopy(firstBeastName, gSpeciesNames[SPECIES_ENTEI]);
+            StringCopy(secondBeastName, gSpeciesNames[SPECIES_SUICUNE]);
+            break;
+        case SPECIES_ENTEI:
+            StringCopy(firstBeastName, gSpeciesNames[SPECIES_RAIKOU]);
+            StringCopy(secondBeastName, gSpeciesNames[SPECIES_SUICUNE]);
+            break;
+        case SPECIES_SUICUNE:
+        default:
+            StringCopy(firstBeastName, gSpeciesNames[SPECIES_RAIKOU]);
+            StringCopy(secondBeastName, gSpeciesNames[SPECIES_ENTEI]);
+            break;
+    }
+}
+
+void BufferLegendaryBeastNames(void)
+{
+    u8 firstBeastName[POKEMON_NAME_LENGTH + 1];
+    u8 secondBeastName[POKEMON_NAME_LENGTH + 1];
+    
+    GetLegendaryBeastNames(firstBeastName, secondBeastName);
+    StringCopy(gStringVar1, firstBeastName);
+    StringCopy(gStringVar2, secondBeastName);
+}
+
+void BufferOriginalRoamerName(void)
+{
+    StringCopy(gStringVar3, gSpeciesNames[ROAMER->species]);
+}
+
 void UpdateLocationHistoryForRoamer(void)
 {
     sLocationHistory[2][MAP_GRP] = sLocationHistory[1][MAP_GRP];
@@ -157,10 +265,33 @@ void RoamerMoveToOtherLocationSet(void)
     }
 }
 
+static void BeastRoamerMoveToOtherLocationSet(u8 beastId)
+{
+    u8 mapNum = 0;
+
+    if (!(BEAST_ROAMERS_ACTIVE & (1 << beastId)) || !BEAST_ROAMER(beastId)->active)
+        return;
+
+    sBeastRoamerLocations[beastId][MAP_GRP] = ROAMER_MAP_GROUP;
+
+    // Choose a location set that starts with a map
+    // different from the beast roamer's current map
+    while (1)
+    {
+        mapNum = sRoamerLocations[Random() % NUM_LOCATION_SETS][0];
+        if (sBeastRoamerLocations[beastId][MAP_NUM] != mapNum)
+        {
+            sBeastRoamerLocations[beastId][MAP_NUM] = mapNum;
+            return;
+        }
+    }
+}
+
 
 void RoamerMove(void)
 {
     u8 locSet = 0;
+    u32 i;
 
     if ((Random() % 16) == 0)
     {
@@ -193,6 +324,49 @@ void RoamerMove(void)
             locSet++;
         }
     }
+    
+    // Move beast roamers too
+    for (i = 0; i < NUM_BEAST_ROAMERS; i++)
+    {
+        if (BEAST_ROAMERS_ACTIVE & (1 << i))
+        {
+            BeastRoamerMove(i);
+        }
+    }
+}
+
+static void BeastRoamerMove(u8 beastId)
+{
+    u8 locSet = 0;
+
+    if ((Random() % 16) == 0)
+    {
+        BeastRoamerMoveToOtherLocationSet(beastId);
+    }
+    else
+    {
+        if (!(BEAST_ROAMERS_ACTIVE & (1 << beastId)) || !BEAST_ROAMER(beastId)->active)
+            return;
+
+        while (locSet < NUM_LOCATION_SETS)
+        {
+            // Find the location set that starts with the beast roamer's current map
+            if (sBeastRoamerLocations[beastId][MAP_NUM] == sRoamerLocations[locSet][0])
+            {
+                u8 mapNum;
+                while (1)
+                {
+                    // Choose a new map (excluding the first) within this set
+                    mapNum = sRoamerLocations[locSet][(Random() % (NUM_LOCATIONS_PER_SET - 1)) + 1];
+                    if (mapNum != MAP_NUM(UNDEFINED))
+                        break;
+                }
+                sBeastRoamerLocations[beastId][MAP_NUM] = mapNum;
+                return;
+            }
+            locSet++;
+        }
+    }
 }
 
 bool8 IsRoamerAt(u8 mapGroup, u8 mapNum)
@@ -201,6 +375,33 @@ bool8 IsRoamerAt(u8 mapGroup, u8 mapNum)
         return TRUE;
     else
         return FALSE;
+}
+
+bool8 IsBeastRoamerAt(u8 beastId, u8 mapGroup, u8 mapNum)
+{
+    if ((BEAST_ROAMERS_ACTIVE & (1 << beastId)) && BEAST_ROAMER(beastId)->active && 
+        mapGroup == sBeastRoamerLocations[beastId][MAP_GRP] && mapNum == sBeastRoamerLocations[beastId][MAP_NUM])
+        return TRUE;
+    else
+        return FALSE;
+}
+
+bool8 IsAnyRoamerAt(u8 mapGroup, u8 mapNum)
+{
+    u32 i;
+    
+    // Check original roamer
+    if (IsRoamerAt(mapGroup, mapNum))
+        return TRUE;
+        
+    // Check beast roamers
+    for (i = 0; i < NUM_BEAST_ROAMERS; i++)
+    {
+        if (IsBeastRoamerAt(i, mapGroup, mapNum))
+            return TRUE;
+    }
+    
+    return FALSE;
 }
 
 void CreateRoamerMonInstance(void)
@@ -225,29 +426,108 @@ void CreateRoamerMonInstance(void)
     SetMonData(mon, MON_DATA_TOUGH, &ROAMER->tough);
 }
 
+void CreateBeastRoamerMonInstance(u8 beastId)
+{
+    u32 status;
+    struct Pokemon *mon = &gEnemyParty[0];
+    struct Roamer *roamer = BEAST_ROAMER(beastId);
+    
+    ZeroEnemyPartyMons();
+    CreateMonWithIVsPersonality(mon, roamer->species, roamer->level, roamer->ivs, roamer->personality);
+#ifdef BUGFIX
+    status = roamer->status;
+    SetMonData(mon, MON_DATA_STATUS, &status);
+#else
+    SetMonData(mon, MON_DATA_STATUS, &roamer->status);
+#endif
+    SetMonData(mon, MON_DATA_HP, &roamer->hp);
+    SetMonData(mon, MON_DATA_COOL, &roamer->cool);
+    SetMonData(mon, MON_DATA_BEAUTY, &roamer->beauty);
+    SetMonData(mon, MON_DATA_CUTE, &roamer->cute);
+    SetMonData(mon, MON_DATA_SMART, &roamer->smart);
+    SetMonData(mon, MON_DATA_TOUGH, &roamer->tough);
+}
+
 bool8 TryStartRoamerEncounter(void)
 {
-    if (IsRoamerAt(gSaveBlock1Ptr->location.mapGroup, gSaveBlock1Ptr->location.mapNum) == TRUE && (Random() % 4) == 0)
+    u8 mapGroup = gSaveBlock1Ptr->location.mapGroup;
+    u8 mapNum = gSaveBlock1Ptr->location.mapNum;
+    u32 i;
+    
+    // First check original roamer
+    if (IsRoamerAt(mapGroup, mapNum) && (Random() % 4) == 0)
     {
+        if (!IsWildLevelAllowedByRepel(ROAMER->level))
+            return FALSE;
         CreateRoamerMonInstance();
         return TRUE;
     }
-    else
+    
+    // Then check beast roamers
+    for (i = 0; i < NUM_BEAST_ROAMERS; i++)
     {
-        return FALSE;
+        if (IsBeastRoamerAt(i, mapGroup, mapNum) && (Random() % 4) == 0)
+        {
+            if (!IsWildLevelAllowedByRepel(BEAST_ROAMER(i)->level))
+                return FALSE;
+            CreateBeastRoamerMonInstance(i);
+            return TRUE;
+        }
     }
+    
+    return FALSE;
 }
 void UpdateRoamerHPStatus(struct Pokemon *mon)
 {
-    ROAMER->hp = GetMonData(mon, MON_DATA_HP);
-    ROAMER->status = GetMonData(mon, MON_DATA_STATUS);
-
-    RoamerMoveToOtherLocationSet();
+    u8 mapGroup = gSaveBlock1Ptr->location.mapGroup;
+    u8 mapNum = gSaveBlock1Ptr->location.mapNum;
+    u32 i;
+    
+    // Check which roamer was battled and update accordingly
+    if (IsRoamerAt(mapGroup, mapNum))
+    {
+        ROAMER->hp = GetMonData(mon, MON_DATA_HP);
+        ROAMER->status = GetMonData(mon, MON_DATA_STATUS);
+        RoamerMoveToOtherLocationSet();
+        return;
+    }
+    
+    // Check beast roamers
+    for (i = 0; i < NUM_BEAST_ROAMERS; i++)
+    {
+        if (IsBeastRoamerAt(i, mapGroup, mapNum))
+        {
+            BEAST_ROAMER(i)->hp = GetMonData(mon, MON_DATA_HP);
+            BEAST_ROAMER(i)->status = GetMonData(mon, MON_DATA_STATUS);
+            BeastRoamerMoveToOtherLocationSet(i);
+            return;
+        }
+    }
 }
 
 void SetRoamerInactive(void)
 {
-    ROAMER->active = FALSE;
+    u8 mapGroup = gSaveBlock1Ptr->location.mapGroup;
+    u8 mapNum = gSaveBlock1Ptr->location.mapNum;
+    u32 i;
+    
+    // Check which roamer was caught/defeated and deactivate
+    if (IsRoamerAt(mapGroup, mapNum))
+    {
+        ROAMER->active = FALSE;
+        return;
+    }
+    
+    // Check beast roamers
+    for (i = 0; i < NUM_BEAST_ROAMERS; i++)
+    {
+        if (IsBeastRoamerAt(i, mapGroup, mapNum))
+        {
+            BEAST_ROAMER(i)->active = FALSE;
+            BEAST_ROAMERS_ACTIVE &= ~(1 << i);
+            return;
+        }
+    }
 }
 
 void GetRoamerLocation(u8 *mapGroup, u8 *mapNum)
@@ -256,9 +536,22 @@ void GetRoamerLocation(u8 *mapGroup, u8 *mapNum)
     *mapNum = sRoamerLocation[MAP_NUM];
 }
 
+void GetBeastRoamerLocation(u8 beastId, u8 *mapGroup, u8 *mapNum)
+{
+    *mapGroup = sBeastRoamerLocations[beastId][MAP_GRP];
+    *mapNum = sBeastRoamerLocations[beastId][MAP_NUM];
+}
+
 u16 GetRoamerLocationMapSectionId(void)
 {
     if (!ROAMER->active)
         return MAPSEC_NONE;
     return Overworld_GetMapHeaderByGroupAndId(sRoamerLocation[MAP_GRP], sRoamerLocation[MAP_NUM])->regionMapSectionId;
+}
+
+u16 GetBeastRoamerLocationMapSectionId(u8 beastId)
+{
+    if (!(BEAST_ROAMERS_ACTIVE & (1 << beastId)) || !BEAST_ROAMER(beastId)->active)
+        return MAPSEC_NONE;
+    return Overworld_GetMapHeaderByGroupAndId(sBeastRoamerLocations[beastId][MAP_GRP], sBeastRoamerLocations[beastId][MAP_NUM])->regionMapSectionId;
 }

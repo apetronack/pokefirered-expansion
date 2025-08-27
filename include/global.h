@@ -502,6 +502,14 @@ struct Roamer
     /*0x14*/ u8 filler[0x8];
 };
 
+struct RoamerGroup
+{
+    /*0x00*/ struct Roamer originalRoamer;     // Original starter-dependent roamer
+    /*0x1C*/ struct Roamer legendaryBeasts[2]; // Entei and Raikou after champion
+    /*0x54*/ u8 beastRoamersActive;            // Bitfield: bit 0 = Entei, bit 1 = Raikou
+    /*0x55*/ u8 filler[0x3];
+};
+
 struct RamScriptData
 {
     u8 magic;
@@ -874,7 +882,7 @@ struct SaveBlock1
     /*0x309C*/ u8 giftRibbons[GIFT_RIBBONS_COUNT];
     /*0x30A7*/ struct ExternalEventData externalEventData;
     /*0x30BB*/ struct ExternalEventFlags externalEventFlags;
-    /*0x30D0*/ struct Roamer roamer;
+    /*0x30D0*/ struct RoamerGroup roamers;
 #if FREE_ENIGMA_BERRY == FALSE
     /*0x30EC*/ struct EnigmaBerry enigmaBerry;
 #endif //FREE_ENIGMA_BERRY

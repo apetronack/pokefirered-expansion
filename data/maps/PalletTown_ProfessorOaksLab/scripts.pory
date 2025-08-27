@@ -125,6 +125,12 @@ PalletTown_ProfessorOaksLab_EventScript_NationalDexScene::
 	removeobject LOCALID_RIVAL
 	fadedefaultbgm
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 8
+	special BufferLegendaryBeastNames
+	special BufferOriginalRoamerName
+	special CreateLegendaryBeastRoamers
+	setflag FLAG_LEGENDARY_BEAST_ROAMERS_ACTIVE
+	delay 30
+	msgbox PalletTown_ProfessorOaksLab_Text_OakDetectedNewLegendaries
 	releaseall
 	end
 
@@ -578,6 +584,7 @@ PalletTown_ProfessorOaksLab_EventScript_ProfOak::
 	faceplayer
 	goto_if_set SHOWED_OAK_COMPLETE_DEX, PalletTown_ProfessorOaksLab_EventScript_OakJustShownCompleteDex
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 9, PalletTown_ProfessorOaksLab_EventScript_RatePokedex
+	goto_if_set FLAG_LEGENDARY_BEAST_ROAMERS_ACTIVE, PalletTown_ProfessorOaksLab_EventScript_OakLegendaryBeastsInfo
 	goto_if_eq VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 8, PalletTown_ProfessorOaksLab_EventScript_MonsAroundWorldWait
 	goto_if_set FLAG_SYS_GAME_CLEAR, PalletTown_ProfessorOaksLab_EventScript_TryStartNationalDexScene
 	goto_if_eq VAR_MAP_SCENE_CERULEAN_CITY_RIVAL, 1, PalletTown_ProfessorOaksLab_EventScript_RatePokedex
@@ -591,6 +598,13 @@ PalletTown_ProfessorOaksLab_EventScript_ProfOak::
 
 PalletTown_ProfessorOaksLab_EventScript_OakJustShownCompleteDex::
 	msgbox PokedexRating_Text_ThankYouMadeDreamReality
+	release
+	end
+
+PalletTown_ProfessorOaksLab_EventScript_OakLegendaryBeastsInfo::
+	special BufferLegendaryBeastNames
+	special BufferOriginalRoamerName
+	msgbox PalletTown_ProfessorOaksLab_Text_OakLegendaryBeastsRoaming
 	release
 	end
 
