@@ -129,3 +129,33 @@ VermilionCity_Text_Route2AideHasPackageForYou::
     .string "If you're in the ROUTE 2 area,\n"
     .string "please look for him.$"
 
+VermilionCity_Text_TruckNormal::
+    .string "There's a large truck parked here.\p"
+    .string "Nothing special about it.$"
+
+VermilionCity_Text_TruckNeedStrength::
+    .string "There's a large truck parked here.\p"
+    .string "It looks like it could be moved\n"
+    .string "if I had enough STRENGTH…$"
+
+VermilionCity_Text_TruckMysteriousSound::
+    .string "There's a large truck parked here.\p"
+    .string "Wait… I can hear a faint, mysterious\n"
+    .string "mewing sound coming from behind it…$"
+
+VermilionCity_Text_UseStrengthOnTruck::
+    .string "Maybe I can move this truck with\n"
+    .string "STRENGTH to see what's behind it?$"
+
+VermilionCity_Text_TruckRevealsSecret::
+    .string "The truck moved!\p"
+    .string "There was a hidden space behind it!\p"
+    .string "A small, pink POKéMON emerges\n"
+    .string "from the secret area!\p"
+    .string "It's MEW, the mythical POKéMON!$"
+
+VermilionCity_Text_TruckEmpty::
+    .string "It's the spot where the truck\n"
+    .string "used to be parked.\p"
+    .string "Nothing here anymore…$"
+
