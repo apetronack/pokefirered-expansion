@@ -285,7 +285,7 @@ VermilionCity_EventScript_TruckTile::
 	delay 40
 	waitmoncry
 	playbgm MUS_ENCOUNTER_GYM_LEADER, 0
-	setwildbattle SPECIES_MEW, 30
+	setwildbattle SPECIES_MEW, 50
 	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
 	special StartLegendaryBattle
 	waitstate
