@@ -20,8 +20,8 @@ enum
 
 enum
 {
-    BEAST_ENTEI,
-    BEAST_RAIKOU,
+    BEAST_SLOT_0,  // First additional beast roamer slot
+    BEAST_SLOT_1,  // Second additional beast roamer slot
     NUM_BEAST_ROAMERS
 };
 
@@ -190,7 +190,7 @@ void CreateLegendaryBeastRoamers(void)
         sBeastRoamerLocations[i][MAP_NUM] = sRoamerLocations[Random() % NUM_LOCATION_SETS][0];
     }
     
-    BEAST_ROAMERS_ACTIVE = (1 << BEAST_ENTEI) | (1 << BEAST_RAIKOU);
+    BEAST_ROAMERS_ACTIVE = (1 << BEAST_SLOT_0) | (1 << BEAST_SLOT_1);
 }
 
 void GetLegendaryBeastNames(u8 *firstBeastName, u8 *secondBeastName)
