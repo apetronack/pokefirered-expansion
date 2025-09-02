@@ -605,8 +605,8 @@ static const u16 sDexCategory_MountainPkmn_Page5[] = {
 };
 
 static const u16 sDexCategory_MountainPkmn_Page6[] = {
-    SPECIES_SLUGMA,
-    SPECIES_MAGCARGO,
+    //SPECIES_SLUGMA,
+    //SPECIES_MAGCARGO,
     SPECIES_NUMEL,
     SPECIES_CAMERUPT,
 };
@@ -696,8 +696,8 @@ static const u16 sDexCategory_RoughTerrainPkmn_Page3[] = {
 static const u16 sDexCategory_RoughTerrainPkmn_Page4[] = {
     SPECIES_HOUNDOUR,
     SPECIES_HOUNDOOM,
-    SPECIES_PHANPY,
-    SPECIES_DONPHAN,
+    //SPECIES_PHANPY,
+    //SPECIES_DONPHAN,
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page5[] = {

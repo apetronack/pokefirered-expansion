@@ -489,14 +489,14 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Leer
 - Smokescreen
 
-Slugma
-Ability: Flame Body
+Pikachu
+Ability: Static
 Level: 12
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Rock Throw
-- Ember
-- Yawn
-- Smog
+- Thunder Wave
+- Growl
+- Thundershock
+- Tail Whip
 
 Bellsprout
 Ability: Chlorophyll
@@ -633,14 +633,14 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Sing
 - Growl
 
-Buneary
-Ability: Run Away
+Togepi
+Ability: Serene Grace
 Level: 14
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Frustration
-- Endure
-- Quick Attack
-- Defense Curl
+- Charm
+- Metronome
+- Sweet Kiss
+- Growl
 
 === TRAINER_BUG_CATCHER_KENT ===
 Name: KENT
@@ -838,23 +838,23 @@ Music: Hiker
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Shieldon
+Aron
 Ability: Sturdy
 Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Protect
-- Take Down
-- Taunt
+- Mud Slap
+- Headbutt
+- Metal Claw
 - Rock Tomb
 
-Cranidos
-Ability: Mold Breaker
+Omanyte
+Ability: Shell Armor
 Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Take Down
-- Pursuit
-- Headbutt
-- Focus Energy
+- Rollout
+- Withdraw
+- Water Gun
+- Constrict
 
 === TRAINER_TEAM_ROCKET_GRUNT_2 ===
 Name: GRUNT
@@ -1372,14 +1372,14 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Buneary
-Ability: Run Away
+Togetic
+Ability: Serene Grace
 Level: 21
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Quick Attack
-- Frustration
-- Defense Curl
-- Endure
+- Charm
+- Sweet Kiss
+- Metronome
+- Yawn
 
 Exeggcute
 Ability: Chlorophyll
@@ -1471,14 +1471,14 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Bibarel
-Ability: Simple
+Linoone
+Ability: Pickup
 Level: 21
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Headbutt
-- Water Gun
-- Defense Curl
-- Rollout
+- Tail Whip
+- Sand Attack
+- Growl
 
 Furret
 Ability: Keen Eye
@@ -2017,14 +2017,14 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Thunder Punch
 - Mega Punch
 
-Phanpy @ Cheri Berry
-Ability: Pickup
+Hippopotas @ Cheri Berry
+Ability: Sand Stream
 Level: 24
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Defense Curl
-- Rollout
+- Bite
+- Yawn
 - Natural Gift
-- Flail
+- Sand Tomb
 
 === TRAINER_BUG_CATCHER_ELIJAH ===
 Name: ELIJAH
@@ -2359,14 +2359,14 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Mach Punch
 - Cut
 
-Slugma
-Ability: Flame Body
+Pikachu
+Ability: Static
 Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
-- Recover
-- Rock Throw
-- Yawn
-- Ember
+- Double Team
+- Quick Attack
+- Slam
+- Shock Wave
 
 === TRAINER_GAMER_DIRK ===
 Name: DIRK
@@ -2494,14 +2494,14 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Recover
 - Shock Wave
 
-Shieldon
+Aron
 Ability: Sturdy
 Level:23
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
-- Curse
+- Iron Defense
 - Dig
-- Protect
-- Body Slam
+- Headbutt
+- Metal Claw
 
 === TRAINER_SAILOR_DUNCAN ===
 Name: DUNCAN
@@ -2773,14 +2773,14 @@ IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 - Tail Whip
 - Secret Power
 
-Phanpy
-Ability: Pickup
+Hippopotas
+Ability: Sand Stream
 Level: 26
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
-- Flail
-- Rollout
-- Defense Curl
 - Take Down
+- Bite
+- Yawn
+- Sand Attack
 
 === TRAINER_SAILOR_TREVOR ===
 Name: TREVOR
@@ -3270,14 +3270,14 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Slugma
-Ability: Flame Body
+Growlithe
+Ability: Intimidate
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Ember
-- Ancient Power
-- Recover
-- Yawn
+- Fire Fang
+- Bite
+- Leer
+- Dig
 
 Monferno
 Ability: Blaze
@@ -3657,13 +3657,13 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Rampardos
-Ability: Mold Breaker
+Rhyhorn
+Ability: Rock Head
 Level: 30
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Ancient Power
-- Take Down
-- Pursuit
+- Dig
+- Rock Blast
+- Stomp
 - Scary Face
 
 Meditite
@@ -4214,14 +4214,14 @@ Music: Female
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Lopunny
-Ability: Cute Charm
+Togetic
+Ability: Serene Grace
 Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Jump Kick
-- Frustration
-- Mirror Coat
-- Agility
+- Magical Leaf
+- Follow Me
+- Yawn
+- Wish
 
 Clefable
 Ability: Cute Charm
@@ -4768,13 +4768,13 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Bibarel
-Ability: Simple
+Vigoroth
+Ability: Vital Spirit
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Amnesia
-- Hyper Fang
-- Water Pulse
+- Slash
+- Faint Attack
+- Rock Smash
 - Yawn
 
 Ninjask
@@ -6708,13 +6708,14 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sand Attack
 - Seed Bomb
 
-Bastiodon
+Lairon
+Ability: Sturdy
 Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sandstorm
-- Ancient Power
+- Rock Slide
 - Take Down
-- Swagger
+- Iron Head
 
 Forretress @ Salac Berry
 Ability: Sturdy
@@ -7201,14 +7202,14 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Spit Up
 - Toxic
 
-Rampardos
-Ability: Mold Breaker
+Rhyhorn
+Ability: Rock Head
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Zen Headbutt
-- Ancient Power
-- Assurance
-- Headbutt
+- Take Down
+- Rock Slide
+- Dig
+- Scary Face
 
 === TRAINER_CUE_BALL_CAMRON ===
 Name: CAMRON
@@ -8001,14 +8002,14 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Magcargo
-Ability: Magma Armor
+Arcanine
+Ability: Intimidate
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Ancient Power
-- Lava Plume
-- Amnesia
-- Yawn
+- Extreme Speed
+- Crunch
+- Flamethrower
+- Agility
 
 Drifloon @ Petaya Berry
 Ability: Unburden
@@ -8892,14 +8893,14 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Ice Shard
 - Rock Slide
 
-Rampardos @ Focus Sash
-Ability: Mold Breaker
+Rhydon @ Focus Sash
+Ability: Rock Head
 Level: 46
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
-- Zen Headbutt
-- Crunch
+- Stone Edge
 - Take Down
-- Rock Slide
+- Magnitude
+- Reversal
 
 Quagsire
 Ability: Water Absorb
@@ -11773,14 +11774,14 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Agility
 - Stealth Rock
 
-Magcargo
-Ability: Flame Body
+Magnezone
+Ability: Magnet Pull
 Level: 57
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Flamethrower
-- Rock Slide
-- Amnesia
-- Recover
+- Magnet Rise
+- Discharge
+- Tri Attack
+- Mirror Shot
 
 === TRAINER_BLACK_BELT_ATSUSHI ===
 Name: ATSUSHI
@@ -13264,7 +13265,7 @@ Camerupt
 Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-Lopunny
+Togetic
 Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
@@ -13973,7 +13974,7 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Bastiodon
+Aggron
 Level: 74
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
@@ -14489,7 +14490,7 @@ Kangaskhan
 Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-Donphan
+Hippowdon
 Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
@@ -18201,7 +18202,7 @@ Loudred
 Level: 73
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-Bibarel
+Furret
 Level: 73
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 

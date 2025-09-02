@@ -225,7 +225,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("TREVOR"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_PHANPY,
+        .requestedSpecies = SPECIES_SANDSHREW,
     },
     [INGAME_TRADE_MUDKIP] =
     {

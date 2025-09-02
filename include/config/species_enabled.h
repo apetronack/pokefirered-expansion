@@ -166,7 +166,7 @@
 #define P_FAMILY_HERACROSS               P_GEN_2_POKEMON
 #define P_FAMILY_SNEASEL                 P_GEN_2_POKEMON
 #define P_FAMILY_TEDDIURSA               FALSE
-#define P_FAMILY_SLUGMA                  P_GEN_2_POKEMON
+#define P_FAMILY_SLUGMA                  FALSE
 #define P_FAMILY_SWINUB                  P_GEN_2_POKEMON
 #define P_FAMILY_CORSOLA                 FALSE
 #define P_FAMILY_REMORAID                FALSE
@@ -174,7 +174,7 @@
 #define P_FAMILY_MANTINE                 P_GEN_2_POKEMON
 #define P_FAMILY_SKARMORY                P_GEN_2_POKEMON
 #define P_FAMILY_HOUNDOUR                P_GEN_2_POKEMON
-#define P_FAMILY_PHANPY                  P_GEN_2_POKEMON
+#define P_FAMILY_PHANPY                  FALSE
 #define P_FAMILY_STANTLER                FALSE
 #define P_FAMILY_SMEARGLE                FALSE
 #define P_FAMILY_MILTANK                 P_GEN_2_POKEMON
@@ -263,11 +263,11 @@
 #define P_FAMILY_CHIMCHAR                P_GEN_4_POKEMON
 #define P_FAMILY_PIPLUP                  P_GEN_4_POKEMON
 #define P_FAMILY_STARLY                  P_GEN_4_POKEMON
-#define P_FAMILY_BIDOOF                  P_GEN_4_POKEMON
+#define P_FAMILY_BIDOOF                  FALSE
 #define P_FAMILY_KRICKETOT               FALSE
 #define P_FAMILY_SHINX                   P_GEN_4_POKEMON
-#define P_FAMILY_CRANIDOS                P_GEN_4_POKEMON
-#define P_FAMILY_SHIELDON                P_GEN_4_POKEMON
+#define P_FAMILY_CRANIDOS                FALSE
+#define P_FAMILY_SHIELDON                FALSE
 #define P_FAMILY_BURMY                   FALSE
 #define P_FAMILY_COMBEE                  FALSE
 #define P_FAMILY_PACHIRISU               FALSE
@@ -275,7 +275,7 @@
 #define P_FAMILY_CHERUBI                 P_GEN_4_POKEMON
 #define P_FAMILY_SHELLOS                 FALSE
 #define P_FAMILY_DRIFLOON                P_GEN_4_POKEMON
-#define P_FAMILY_BUNEARY                 P_GEN_4_POKEMON
+#define P_FAMILY_BUNEARY                 FALSE
 #define P_FAMILY_GLAMEOW                 FALSE
 #define P_FAMILY_STUNKY                  P_GEN_4_POKEMON
 #define P_FAMILY_BRONZOR                 P_GEN_4_POKEMON
