@@ -124,7 +124,8 @@ static const u16 sBattleTowerHeldItems[] = {
     ITEM_METAL_POWDER,
     ITEM_PETAYA_BERRY,
     ITEM_LUCKY_PUNCH,
-    ITEM_GANLON_BERRY
+    ITEM_GANLON_BERRY,
+    ITEM_WIDE_LENS,
 };
 
 #include "data/battle_tower/level_50_mons.h"
