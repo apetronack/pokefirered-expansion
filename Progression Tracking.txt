@@ -49,7 +49,7 @@ Cap 2: Rival 2, level 20
         TRAINER_SUPER_NERD_MIGUEL
     Cerulean City
         TRAINER_RIVAL_CERULEAN_SQUIRTLE/BULBASAUR/CHARMANDER
-Cap 3: Misty, level 23
+Cap 3: Misty, level 24
     Route 24
         TRAINER_BUG_CATCHER_CALE
         TRAINER_LASS_ALI
@@ -75,7 +75,7 @@ Cap 3: Misty, level 23
         TRAINER_SWIMMER_MALE_LUIS
         TRAINER_PICNICKER_DIANA
         TRAINER_LEADER_MISTY
-Cap 4: Rival 3, level 25
+Cap 4: Rival 3, level 27
     Route 4
         TRAINER_MASTER_BUG_CATCHER
     Route 5
@@ -150,13 +150,13 @@ Cap 4: Rival 3, level 25
         TRAINER_SAILOR_TREVOR
         TRAINER_SAILOR_EDMOND
     TRAINER_RIVAL_SS_ANNE_SQUIRTLE/BULBASAUR/CHARMANDER
-Cap 5: Lt Surge, level 27
+Cap 5: Lt Surge, level 29
     Vermillion City Gym
         TRAINER_SAILOR_DWAYNE
         TRAINER_ENGINEER_BAILY
         TRAINER_GENTLEMAN_TUCKER
         TRAINER_LEADER_LT_SURGE
-Cap 6: Giovanni 1, level 33
+Cap 6: Giovanni 1, level 35
     Route 9
         TRAINER_PICNICKER_ALICIA
         TRAINER_HIKER_JEREMY
@@ -239,14 +239,14 @@ Cap 6: Giovanni 1, level 33
         TRAINER_TEAM_ROCKET_GRUNT_16
         TRAINER_TEAM_ROCKET_GRUNT_17
         TRAINER_BOSS_GIOVANNI
-Cap 7: Rival 4 Pokemon Tower, 35
+Cap 7: Rival 4 Pokemon Tower, 37
     Lavender Town
         TRAINER_POKEMON_TOWER_GUARDIAN
     Pokemon Tower 1F
         No trainers
     Pokemon Tower 2F
         TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE/BULBASAUR/CHARMANDER
-Cap 8: Ericka, level 38
+Cap 8: Ericka, level 39
     Pokemon Tower 3F
         TRAINER_CHANNELER_HOPE
         TRAINER_CHANNELER_CARLY
@@ -279,7 +279,7 @@ Cap 8: Ericka, level 38
         TRAINER_BEAUTY_LORI
         TRAINER_LASS_LISA
         TRAINER_LEADER_ERIKA
-Cap 9: Rival 5, Silph Co, level 43
+Cap 9: Rival 5, Silph Co, level 45
     Route 12 (Second)
         TRAINER_ROCKER_LUCA
         TRAINER_CAMPER_JUSTIN
@@ -396,7 +396,7 @@ Cap 10: Giovanni 2, Silph, Level 47
     Silph Co 11F
         TRAINER_TEAM_ROCKET_GRUNT_41
         TRAINER_BOSS_GIOVANNI_2
-Cap 11: Sabrina, Level 52
+Cap 11: Sabrina, Level 49
     Saffron City Gym
         TRAINER_PSYCHIC_CAMERON
         TRAINER_CHANNELER_TASHA
@@ -417,7 +417,7 @@ Cap 12: Koga, Level 55
         TRAINER_JUGGLER_SHAWN
         TRAINER_JUGGLER_NATE
         TRAINER_LEADER_KOGA
-Cap 13: Blaine, Level 59
+Cap 13: Blaine, Level 57
     Route 4, Second
         TRAINER_LASS_CRISSY
     Route 10, Second
@@ -520,7 +520,7 @@ Cap 13: Blaine, Level 59
         TRAINER_BURGLAR_DUSTY
         TRAINER_SUPER_NERD_ZAC
         TRAINER_LEADER_BLAINE
-Cap 14: Giovanni 3, level 62
+Cap 14: Giovanni 3, level 59
     Viridian Gym
         TRAINER_BLACK_BELT_TAKASHI
         TRAINER_TAMER_COLE
@@ -531,10 +531,10 @@ Cap 14: Giovanni 3, level 62
         TRAINER_COOLTRAINER_SAMUEL
         TRAINER_COOLTRAINER_WARREN
         TRAINER_LEADER_GIOVANNI
-Cap 15: Rival 6, level 65
+Cap 15: Rival 6, level 61
     Route 22
         TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR/SQUIRTLE/CHARMANDER
-Cap 16: Lorelei, level 72
+Cap 16: Lorelei, level 69
     Victory Road 1F
         TRAINER_COOLTRAINER_NAOMI
         TRAINER_COOLTRAINER_ROLANDO
@@ -552,16 +552,16 @@ Cap 16: Lorelei, level 72
         TRAINER_POKEMANIAC_DAWSON
     Pokemon League 1
         TRAINER_ELITE_FOUR_LORELEI
-Cap 17: Bruno, level 73
+Cap 17: Bruno, level 70
     Pokemon League 2
         TRAINER_ELITE_FOUR_BRUNO
-Cap 18: Agatha, level 74
+Cap 18: Agatha, level 71
     Pokemon League 3
         TRAINER_ELITE_FOUR_AGATHA
-Cap 19, Lance, level 75
+Cap 19, Lance, level 72
     Pokemon League 4
         TRAINER_ELITE_FOUR_LANCE
-Cap 20, Champion, level 78
+Cap 20, Champion, level 73
     Pokemon League 5
         TRAINER_CHAMPION_FIRST_BULBASAUR/SQUIRTLE/CHARMANDER
 Cap 21, Game Clear, level 100
