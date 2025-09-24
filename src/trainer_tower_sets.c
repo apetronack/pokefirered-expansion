@@ -1131,9 +1131,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HITMONTOP,
+					.species = SPECIES_ANNIHILAPE,
 					.heldItem = ITEM_SALAC_BERRY,
-					.moves = {MOVE_MEGA_KICK, MOVE_ENDEAVOR, MOVE_DIG, MOVE_SUNNY_DAY},
+					.moves = {MOVE_OUTRAGE, MOVE_CROSS_CHOP, MOVE_DIG, MOVE_SUNNY_DAY},
 					.hpEV = 100,
 					.attackEV = 210,
 					.defenseEV = 0,
@@ -1149,7 +1149,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x08, // MALE IMPISH
-					.nickname = _("HITMONTOP"),
+					.nickname = _("ANNIHILAPE"),
 					.friendship = 255
 				},
 				{
@@ -1252,9 +1252,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HITMONCHAN,
+					.species = SPECIES_TOXICROAK,
 					.heldItem = ITEM_FOCUS_BAND,
-					.moves = {MOVE_FIRE_PUNCH, MOVE_THUNDER_PUNCH, MOVE_ICE_PUNCH, MOVE_DETECT},
+					.moves = {MOVE_ROCK_SLIDE, MOVE_POISON_JAB, MOVE_SUCKER_PUNCH, MOVE_BRICK_BREAK},
 					.hpEV = 0,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -1270,7 +1270,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0F, // MALE MODEST
-					.nickname = _("HITMONCHAN"),
+					.nickname = _("TOXICROAK"),
 					.friendship = 255
 				},
 				{
@@ -2109,9 +2109,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			.speechAfter = {EC_WORD_I, EC_WORD_HAVE, EC_WORD_TO, EC_WORD_TRAIN, EC_WORD_SOME, EC_WORD_MORE},
 			.mons = {
 				{
-					.species = SPECIES_HITMONLEE,
+					.species = SPECIES_BLAZIKEN,
 					.heldItem = ITEM_KINGS_ROCK,
-					.moves = {MOVE_MEGA_KICK, MOVE_REVERSAL, MOVE_FOCUS_PUNCH, MOVE_BRICK_BREAK},
+					.moves = {MOVE_SUBSTITUTE, MOVE_BLAZE_KICK, MOVE_FOCUS_PUNCH, MOVE_BRICK_BREAK},
 					.hpEV = 0,
 					.attackEV = 0,
 					.defenseEV = 255,
@@ -2127,7 +2127,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x08, // MALE IMPISH
-					.nickname = _("HITMONLEE"),
+					.nickname = _("BLAZIKEN"),
 					.friendship = 255
 				},
 				{
@@ -2727,7 +2727,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 			.speechAfter = {EC_WORD_BIG, EC_WORD_BROTHER, EC_WORD_FIGHT, EC_WORD_EXCL, 0xFFFF, 0xFFFF},
 			.mons = {
 				{
-					.species = SPECIES_HITMONLEE,
+					.species = SPECIES_LUCARIO,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_ROCK_TOMB, MOVE_HI_JUMP_KICK, MOVE_BULK_UP, MOVE_PROTECT},
 					.hpEV = 255,
@@ -2745,7 +2745,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x02, // MALE BRAVE
-					.nickname = _("HITMONLEE"),
+					.nickname = _("LUCARIO"),
 					.friendship = 255
 				},
 				{
@@ -2936,7 +2936,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HITMONCHAN,
+					.species = SPECIES_INFERNAPE,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_MACH_PUNCH, MOVE_THUNDER_PUNCH, MOVE_DOUBLE_TEAM, MOVE_PROTECT},
 					.hpEV = 255,
@@ -2954,7 +2954,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x03, // MALE ADAMANT
-					.nickname = _("HITMONCHAN"),
+					.nickname = _("INFERNAPE"),
 					.friendship = 255
 				},
 				{
