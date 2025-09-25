@@ -1450,9 +1450,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SMOOCHUM,
+					.species = SPECIES_SNORUNT,
 					.heldItem = ITEM_LAX_INCENSE,
-					.moves = {MOVE_FAKE_TEARS, MOVE_PSYCHIC, MOVE_MEAN_LOOK, MOVE_SING},
+					.moves = {MOVE_LEER, MOVE_ICICLE_SPEAR, MOVE_SPIKES, MOVE_LIGHT_SCREEN},
 					.hpEV = 210,
 					.attackEV = 0,
 					.defenseEV = 45,
@@ -1468,7 +1468,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x11, // FEMALE QUIET
-					.nickname = _("SMOOCHUM"),
+					.nickname = _("SNORUNT"),
 					.friendship = 255
 				},
 				{
@@ -1593,9 +1593,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_SMOOCHUM,
+					.species = SPECIES_SNORUNT,
 					.heldItem = ITEM_QUICK_CLAW,
-					.moves = {MOVE_MEAN_LOOK, MOVE_PERISH_SONG, MOVE_TOXIC, MOVE_FLASH},
+					.moves = {MOVE_ICY_WIND, MOVE_HEADBUTT, MOVE_SPIKES, MOVE_FLASH},
 					.hpEV = 90,
 					.attackEV = 0,
 					.defenseEV = 210,
@@ -1611,7 +1611,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
-					.nickname = _("SMOOCHUM"),
+					.nickname = _("SNORUNT"),
 					.friendship = 0
 				},
 				{
@@ -1758,9 +1758,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_SMOOCHUM,
+					.species = SPECIES_MISDREAVUS,
 					.heldItem = ITEM_BRIGHT_POWDER,
-					.moves = {MOVE_SWEET_KISS, MOVE_PERISH_SONG, MOVE_TOXIC, MOVE_ATTRACT},
+					.moves = {MOVE_CONFUSE_RAY, MOVE_PERISH_SONG, MOVE_TOXIC, MOVE_MEAN_LOOK},
 					.hpEV = 110,
 					.attackEV = 0,
 					.defenseEV = 200,
@@ -1776,7 +1776,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
-					.nickname = _("SMOOCHUM"),
+					.nickname = _("MISDREAVUS"),
 					.friendship = 0
 				},
 				{
@@ -5346,9 +5346,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_JYNX,
+					.species = SPECIES_MISDREAVUS,
 					.heldItem = ITEM_BRIGHT_POWDER,
-					.moves = {MOVE_WATER_PULSE, MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_PSYCHIC},
+					.moves = {MOVE_CALM_MIND, MOVE_HYPNOSIS, MOVE_DREAM_EATER, MOVE_THUNDERBOLT},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 155,
@@ -5364,7 +5364,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x00, // FEMALE HARDY
-					.nickname = _("JYNX"),
+					.nickname = _("MISDREAVUS"),
 					.friendship = 255
 				},
 				{
