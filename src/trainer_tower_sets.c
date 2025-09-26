@@ -2461,7 +2461,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MEOWTH,
+					.species = SPECIES_FURRET,
 					.heldItem = ITEM_SILK_SCARF,
 					.moves = {MOVE_CHARM, MOVE_ASSIST, MOVE_RETURN, MOVE_REST},
 					.hpEV = 255,
@@ -2479,7 +2479,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x89, // MALE SERIOUS
-					.nickname = _("MEOWTH"),
+					.nickname = _("FURRET"),
 					.friendship = 255
 				},
 				{
@@ -8756,7 +8756,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_JIGGLYPUFF,
+					.species = SPECIES_CLEFAIRY,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_SHOCK_WAVE, MOVE_SHADOW_BALL, MOVE_FOCUS_PUNCH, MOVE_BODY_SLAM},
 					.hpEV = 0,
@@ -8774,7 +8774,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
-					.nickname = _("JIGGLYPUFF"),
+					.nickname = _("CLEFAIRY"),
 					.friendship = 255
 				},
 				{
