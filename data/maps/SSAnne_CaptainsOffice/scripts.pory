@@ -25,15 +25,6 @@ SSAnne_CaptainsOffice_EventScript_Captain::
 	release
 	end
 
-@ Unused
-SSAnne_CaptainsOffice_EventScript_NoRoomForCut::
-	msgbox SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis
-	closemessage
-	applymovement LOCALID_CAPTAIN, Common_Movement_FaceOriginalDirection
-	waitmovement 0
-	release
-	end
-
 SSAnne_CaptainsOffice_EventScript_AlreadyGotCut::
 	applymovement LOCALID_CAPTAIN, Common_Movement_FacePlayer
 	waitmovement 0
