@@ -4,7 +4,7 @@ script CeruleanCave_2F_EventScript_MysticGuardian{
        trainerbattle_single(TRAINER_MYSTIC_GUARDIAN,
        format("..."),
        format("Superb, it should be said."),
-       CritterCave_EventScript_DefeatedMysticGuardian, NO_MUSIC)
+       CeruleanCave_2F_EventScript_DefeatedMysticGuardian, NO_MUSIC)
        if (flag(FLAG_RECEIVED_MYSTIC_TICKET) == FALSE) {
 			msgbox(format("You have demonstrated immense skill. This is your well-earned reward."))
             checkitemspace(ITEM_MYSTIC_TICKET)
@@ -19,7 +19,7 @@ script CeruleanCave_2F_EventScript_MysticGuardian{
        end()
 }
 
-script CritterCave_EventScript_DefeatedMysticGuardian{
+script CeruleanCave_2F_EventScript_DefeatedMysticGuardian{
     setflag(FLAG_BEAT_MYSTIC_GUARDIAN)
     msgbox(format("You have demonstrated immense skill. This is your well-earned reward."))
     checkitemspace(ITEM_MYSTIC_TICKET)

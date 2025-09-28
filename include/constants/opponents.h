@@ -73,7 +73,7 @@
 #define TRAINER_RS_PKMN_BREEDER_F                 66
 #define TRAINER_RS_PKMN_RANGER_M                  67
 #define TRAINER_RS_PKMN_RANGER_F                  68
-#define TRAINER_MAGMA_LEADER                      69
+#define TRAINER_AURORA_GUARDIAN                   69
 #define TRAINER_MAGMA_GRUNT_M                     70
 #define TRAINER_MAMGA_GRUNT_F                     71
 #define TRAINER_RS_LASS                           72
