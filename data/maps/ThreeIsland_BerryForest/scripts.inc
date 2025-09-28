@@ -19,20 +19,7 @@ ThreeIsland_BerryForest_OnTransition::
 # 10 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	setescapewarp MAP_THREE_ISLAND_BOND_BRIDGE, 12, 6
 # 11 "data/maps/ThreeIsland_BerryForest/scripts.pory"
-	call_if_unset FLAG_DEFEATED_CHAMP_1X, ThreeIsland_BerryForest_EventScript_HideCelebiShrine
-# 12 "data/maps/ThreeIsland_BerryForest/scripts.pory"
-	call_if_set FLAG_DEFEATED_CHAMP_1X, ThreeIsland_BerryForest_EventScript_ShowCelebiShrine
-# 13 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	end
-# 14 "data/maps/ThreeIsland_BerryForest/scripts.pory"
-
-ThreeIsland_BerryForest_EventScript_HideCelebiShrine::
-	setflag FLAG_HIDE_CELEBI_SHRINE
-	return
-
-ThreeIsland_BerryForest_EventScript_ShowCelebiShrine::
-	clearflag FLAG_HIDE_CELEBI_SHRINE
-	return
 # 12 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 
 # 13 "data/maps/ThreeIsland_BerryForest/scripts.pory"
@@ -141,53 +128,129 @@ ThreeIsland_BerryForest_EventScript_BewareSign::
 	msgbox ThreeIsland_BerryForest_Text_BewareWildBerryLovingMons, MSGBOX_SIGN
 # 65 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	end
+# 66 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 
+# 67 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 ThreeIsland_BerryForest_EventScript_CelebiShrine::
+# 68 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	goto_if_questlog EventScript_ReleaseEnd
+# 69 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	special QuestLog_CutRecording
+# 70 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	lock
+# 71 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	faceplayer
+# 72 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+	goto_if_unset FLAG_DEFEATED_CHAMP_1X, ThreeIsland_BerryForest_EventScript_ShrineBeforeChampion
+# 73 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	goto_if_set FLAG_FOUGHT_CELEBI, ThreeIsland_BerryForest_EventScript_ShrineAfterBattle
+# 74 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	msgbox ThreeIsland_BerryForest_Text_ShrineGlowsMysteriously
+# 75 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	waitse
+# 76 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	playfanfare MUS_OBTAIN_ITEM
+# 77 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	waitfanfare
+# 78 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	msgbox ThreeIsland_BerryForest_Text_ForestGuardianEmerges
+# 79 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	closemessage
+# 80 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	delay 20
-	setwildbattle SPECIES_CELEBI, 30
+# 81 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+	setwildbattle SPECIES_CELEBI, 50
+# 82 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	playmoncry SPECIES_CELEBI, CRY_MODE_ENCOUNTER
+# 83 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	message ThreeIsland_BerryForest_Text_CelebiCry
+# 84 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	waitmessage
+# 85 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	waitmoncry
+# 86 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	delay 20
-	playbgm MUS_ENCOUNTER_GYM_LEADER, 0
+# 87 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+	playbgm MUS_VS_LEGEND, 0
+# 88 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	waitbuttonpress
+# 89 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+# 90 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	special StartLegendaryBattle
+# 91 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	waitstate
+# 92 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+# 93 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	specialvar VAR_RESULT, GetBattleOutcome
+# 94 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, ThreeIsland_BerryForest_EventScript_DefeatedCelebi
+# 95 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, ThreeIsland_BerryForest_EventScript_RanFromCelebi
+# 96 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, ThreeIsland_BerryForest_EventScript_RanFromCelebi
+# 97 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, ThreeIsland_BerryForest_EventScript_CaughtCelebi
+# 98 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	setflag FLAG_FOUGHT_CELEBI
+# 99 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	release
+# 100 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	end
+# 101 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 
+# 102 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+ThreeIsland_BerryForest_EventScript_ShrineBeforeChampion::
+# 103 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+	msgbox ThreeIsland_BerryForest_Text_ShrineAwaitsPower
+# 104 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+	release
+# 105 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+	end
+# 106 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+
+# 107 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 ThreeIsland_BerryForest_EventScript_DefeatedCelebi::
+# 108 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	setflag FLAG_FOUGHT_CELEBI
+# 109 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	msgbox ThreeIsland_BerryForest_Text_CelebiVanishesThroughTime
+# 110 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	release
+# 111 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	end
+# 112 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 
+# 113 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+ThreeIsland_BerryForest_EventScript_CaughtCelebi::
+# 114 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+	setflag FLAG_FOUGHT_CELEBI
+# 115 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+	msgbox ThreeIsland_BerryForest_Text_CelebiJoinsYou
+# 116 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+	release
+# 117 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+	end
+# 118 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+
+# 119 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 ThreeIsland_BerryForest_EventScript_RanFromCelebi::
+# 120 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	setvar VAR_0x8004, SPECIES_CELEBI
+# 121 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	msgbox ThreeIsland_BerryForest_Text_CelebiDisappears
+# 122 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	release
+# 123 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	end
+# 124 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 
+# 125 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 ThreeIsland_BerryForest_EventScript_ShrineAfterBattle::
+# 126 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	msgbox ThreeIsland_BerryForest_Text_ShrineQuietNow
+# 127 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	release
+# 128 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	end

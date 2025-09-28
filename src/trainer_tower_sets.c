@@ -3680,7 +3680,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x01, // FEMALE LONELY
-					.nickname = _("GOLEM_ALOLA"),
+					.nickname = _("GOLEM"),
 					.friendship = 255
 				},
 				{
@@ -6035,7 +6035,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x14, // FEMALE CALM
-					.nickname = _("TENTRACRUEL"),
+					.nickname = _("TENTACRUEL"),
 					.friendship = 255
 				},
 				{

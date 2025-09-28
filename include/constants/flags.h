@@ -820,7 +820,7 @@
 #define FLAG_CHOICE_SCARF_TRADE  0x316
 #define FLAG_CHOICE_BAND_TRADE   0x317
 #define FLAG_BEAT_MYSTIC_GUARDIAN               0x318
-#define FLAG_0x319               0x319
+#define FLAG_BEAT_AURORA_GUARDIAN               0x319
 #define FLAG_0x31A               0x31A
 #define FLAG_0x31B               0x31B
 #define FLAG_0x31C               0x31C

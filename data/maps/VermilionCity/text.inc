@@ -85,7 +85,7 @@ VermilionCity_Text_FerrySailorNoDockAccess::
     .string "But I can still help you get to\n"
     .string "the ship dock area.\p"
     .string "I've been working these waters\n"
-    .string "for years—I know my way around!$"
+    .string "for years. I know my way around!$"
 
 VermilionCity_Text_BoardSeagallopTriPass::
     .string "Ah, you have a TRI-PASS.\p"

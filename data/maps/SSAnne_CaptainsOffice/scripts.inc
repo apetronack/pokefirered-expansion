@@ -53,48 +53,30 @@ SSAnne_CaptainsOffice_EventScript_Captain::
 # 27 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 
 # 28 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
-@ Unused
-# 29 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
-SSAnne_CaptainsOffice_EventScript_NoRoomForCut::
-# 30 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
-	msgbox SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis
-# 31 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
-	closemessage
-# 32 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
-	applymovement LOCALID_CAPTAIN, Common_Movement_FaceOriginalDirection
-# 33 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
-	waitmovement 0
-# 34 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
-	release
-# 35 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
-	end
-# 36 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
-
-# 37 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 SSAnne_CaptainsOffice_EventScript_AlreadyGotCut::
-# 38 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
+# 29 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 	applymovement LOCALID_CAPTAIN, Common_Movement_FacePlayer
-# 39 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
+# 30 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 	waitmovement 0
-# 40 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
+# 31 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 	msgbox SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon
-# 41 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
+# 32 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 	release
-# 42 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
+# 33 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 	end
-# 43 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
+# 34 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 
-# 44 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
+# 35 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 SSAnne_CaptainsOffice_EventScript_TrashCan::
-# 45 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
+# 36 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 	msgbox SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked, MSGBOX_SIGN
-# 46 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
+# 37 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 	end
-# 47 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
+# 38 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 
-# 48 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
+# 39 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 SSAnne_CaptainsOffice_EventScript_Book::
-# 49 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
+# 40 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 	msgbox SSAnne_CaptainsOffice_Text_HowToConquerSeasickness, MSGBOX_SIGN
-# 50 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
+# 41 "data/maps/SSAnne_CaptainsOffice/scripts.pory"
 	end

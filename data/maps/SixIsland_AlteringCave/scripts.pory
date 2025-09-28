@@ -7,8 +7,6 @@ SixIsland_AlteringCave_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_SIX_ISLAND_ALTERING_CAVE
 	end
 `
-mapscripts SixIsland_AlteringCave_MapScripts {
-}
 script SixIsland_AlteringCave_EventScript_AuroraGuardian{
        trainerbattle_single(TRAINER_AURORA_GUARDIAN,
        format("..."),
