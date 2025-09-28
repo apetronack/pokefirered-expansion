@@ -19,7 +19,20 @@ ThreeIsland_BerryForest_OnTransition::
 # 10 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	setescapewarp MAP_THREE_ISLAND_BOND_BRIDGE, 12, 6
 # 11 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+	call_if_unset FLAG_DEFEATED_CHAMP_1X, ThreeIsland_BerryForest_EventScript_HideCelebiShrine
+# 12 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+	call_if_set FLAG_DEFEATED_CHAMP_1X, ThreeIsland_BerryForest_EventScript_ShowCelebiShrine
+# 13 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	end
+# 14 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+
+ThreeIsland_BerryForest_EventScript_HideCelebiShrine::
+	setflag FLAG_HIDE_CELEBI_SHRINE
+	return
+
+ThreeIsland_BerryForest_EventScript_ShowCelebiShrine::
+	clearflag FLAG_HIDE_CELEBI_SHRINE
+	return
 # 12 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 
 # 13 "data/maps/ThreeIsland_BerryForest/scripts.pory"
@@ -127,4 +140,54 @@ ThreeIsland_BerryForest_EventScript_BewareSign::
 # 64 "data/maps/ThreeIsland_BerryForest/scripts.pory"
 	msgbox ThreeIsland_BerryForest_Text_BewareWildBerryLovingMons, MSGBOX_SIGN
 # 65 "data/maps/ThreeIsland_BerryForest/scripts.pory"
+	end
+
+ThreeIsland_BerryForest_EventScript_CelebiShrine::
+	goto_if_questlog EventScript_ReleaseEnd
+	special QuestLog_CutRecording
+	lock
+	faceplayer
+	goto_if_set FLAG_FOUGHT_CELEBI, ThreeIsland_BerryForest_EventScript_ShrineAfterBattle
+	msgbox ThreeIsland_BerryForest_Text_ShrineGlowsMysteriously
+	waitse
+	playfanfare MUS_OBTAIN_ITEM
+	waitfanfare
+	msgbox ThreeIsland_BerryForest_Text_ForestGuardianEmerges
+	closemessage
+	delay 20
+	setwildbattle SPECIES_CELEBI, 30
+	playmoncry SPECIES_CELEBI, CRY_MODE_ENCOUNTER
+	message ThreeIsland_BerryForest_Text_CelebiCry
+	waitmessage
+	waitmoncry
+	delay 20
+	playbgm MUS_ENCOUNTER_GYM_LEADER, 0
+	waitbuttonpress
+	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	special StartLegendaryBattle
+	waitstate
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, ThreeIsland_BerryForest_EventScript_DefeatedCelebi
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, ThreeIsland_BerryForest_EventScript_RanFromCelebi
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, ThreeIsland_BerryForest_EventScript_RanFromCelebi
+	setflag FLAG_FOUGHT_CELEBI
+	release
+	end
+
+ThreeIsland_BerryForest_EventScript_DefeatedCelebi::
+	setflag FLAG_FOUGHT_CELEBI
+	msgbox ThreeIsland_BerryForest_Text_CelebiVanishesThroughTime
+	release
+	end
+
+ThreeIsland_BerryForest_EventScript_RanFromCelebi::
+	setvar VAR_0x8004, SPECIES_CELEBI
+	msgbox ThreeIsland_BerryForest_Text_CelebiDisappears
+	release
+	end
+
+ThreeIsland_BerryForest_EventScript_ShrineAfterBattle::
+	msgbox ThreeIsland_BerryForest_Text_ShrineQuietNow
+	release
 	end

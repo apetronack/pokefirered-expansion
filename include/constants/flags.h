@@ -1269,7 +1269,7 @@
 // Unused?
 #define FLAG_DEFEATED_MASTER_BUG_CATCHER       0x4C8
 #define FLAG_DEFEATED_MASTER_CHANNELER         0x4C9
-#define FLAG_0x4CA               0x4CA
+#define FLAG_FOUGHT_CELEBI                     0x4CA
 #define FLAG_0x4CB               0x4CB
 #define FLAG_0x4CC               0x4CC
 #define FLAG_0x4CD               0x4CD
