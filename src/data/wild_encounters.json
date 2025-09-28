@@ -1468,8 +1468,8 @@
                 "species": "SPECIES_HIPPOPOTAS"
               },
               {
-                  "min_level": 13,
-                  "max_level": 16,
+                "min_level": 13,
+                "max_level": 16,
                 "species": "SPECIES_TRAPINCH"
               },
               {

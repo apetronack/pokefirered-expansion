@@ -74,6 +74,19 @@ VermilionCity_Text_DontHaveNeededSSTicket::
 VermilionCity_Text_TheShipSetSail::
     .string "The ship set sail.$"
 
+VermilionCity_Text_TheShipSetSailButCanHelp::
+    .string "The ship set sail…\p"
+    .string "But hey, I can take you to\n"
+    .string "the dock area if you'd like.$"
+
+VermilionCity_Text_FerrySailorNoDockAccess::
+    .string "The ferry isn't running regular\n"
+    .string "routes to the islands yet.\p"
+    .string "But I can still help you get to\n"
+    .string "the ship dock area.\p"
+    .string "I've been working these waters\n"
+    .string "for years—I know my way around!$"
+
 VermilionCity_Text_BoardSeagallopTriPass::
     .string "Ah, you have a TRI-PASS.\p"
     .string "Would you like to board\n"

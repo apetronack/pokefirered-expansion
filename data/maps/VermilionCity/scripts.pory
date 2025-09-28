@@ -26,15 +26,10 @@ VermilionCity_Movement_ExitSSAnne::
 VermilionCity_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_VERMILION_CITY
 	call_if_set FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION, VermilionCity_EventScript_HideOaksAide
-	call_if_ge VAR_MAP_SCENE_VERMILION_CITY, 3, VermilionCity_EventScript_ShowDockAreaGuide
 	end
 
 VermilionCity_EventScript_HideOaksAide::
 	setflag FLAG_HIDE_VERMILION_CITY_OAKS_AIDE
-	return
-
-VermilionCity_EventScript_ShowDockAreaGuide::
-	clearflag FLAG_HIDE_VERMILION_DOCK_GUIDE
 	return
 
 VermilionCity_EventScript_Woman::
@@ -80,7 +75,10 @@ VermilionCity_EventScript_CheckSeagallopPresent::
 	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
 	goto_if_ge VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 5, VermilionCity_EventScript_ChooseSeagallopDestRainbowPass
 	goto_if_ge VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 1, VermilionCity_EventScript_ChooseSeagallopDestTriPass
-	msgbox VermilionCity_Text_TheShipSetSail
+	msgbox VermilionCity_Text_FerrySailorNoDockAccess
+	msgbox VermilionCity_Text_DockAreaGuideOffer, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, VermilionCity_EventScript_TakeToDockArea
+	msgbox VermilionCity_Text_DockAreaGuideDecline
 	release
 	end
 
@@ -218,7 +216,10 @@ VermilionCity_EventScript_CheckSeagallopPresentTrigger::
 	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
 	goto_if_ge VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 5, VermilionCity_EventScript_ChooseSeagallopDestRainbowPass
 	goto_if_ge VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 1, VermilionCity_EventScript_ChooseSeagallopDestTriPass
-	msgbox VermilionCity_Text_TheShipSetSail
+	msgbox VermilionCity_Text_TheShipSetSailButCanHelp
+	msgbox VermilionCity_Text_DockAreaGuideOffer, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, VermilionCity_EventScript_TakeToDockArea
+	msgbox VermilionCity_Text_DockAreaGuideDecline
 	closemessage
 	goto VermilionCity_EventScript_WalkUpPier
 	end
@@ -271,16 +272,6 @@ VermilionCity_EventScript_GymSign::
 
 VermilionCity_EventScript_HarborSign::
 	msgbox VermilionCity_Text_VermilionHarbor, MSGBOX_SIGN
-	end
-
-VermilionCity_EventScript_DockAreaGuide::
-	lock
-	faceplayer
-	msgbox VermilionCity_Text_DockAreaGuideIntro
-	msgbox VermilionCity_Text_DockAreaGuideOffer, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, VermilionCity_EventScript_TakeToDockArea
-	msgbox VermilionCity_Text_DockAreaGuideDecline
-	release
 	end
 
 VermilionCity_EventScript_TakeToDockArea::
