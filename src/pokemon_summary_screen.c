@@ -3337,7 +3337,14 @@ static void PokeSum_PrintSelectedMoveStats(void)
                                         gNotDoneYetDescription);
 
         if (B_SHOW_CATEGORY_ICON == TRUE)
-            ShowCategoryIcon(GetBattleMoveCategory(sMonSummaryScreen->moveIds[sMoveSelectionCursorPos]));
+        {
+            u32 category;
+            if (gMain.inBattle)
+                category = GetBattleMoveCategory(sMonSummaryScreen->moveIds[sMoveSelectionCursorPos]);
+            else
+                category = GetMoveCategory(sMonSummaryScreen->moveIds[sMoveSelectionCursorPos]);
+            ShowCategoryIcon(category);
+        }
     }
 }
 
