@@ -21,7 +21,7 @@
 #include "util.h"
 #include "constants/songs.h"
 
-#define INTRO_SPECIES SPECIES_NIDORAN_F
+#define INTRO_SPECIES SPECIES_CELEBI
 
 enum
 {
