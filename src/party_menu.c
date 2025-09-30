@@ -3152,6 +3152,7 @@ static void SetPartyMonSelectionActions(struct Pokemon *mons, u8 slotId, u8 acti
 static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
 {
     u8 i, j;
+    bool8 fieldMoveAdded[FIELD_MOVE_COUNT] = {FALSE};
 
     sPartyMenuInternal->numActions = 0;
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, CURSOR_OPTION_SUMMARY);
@@ -3163,13 +3164,53 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
             continue;
         for (j = 0; j < FIELD_MOVE_COUNT; ++j)
         {
-            if (moveId == gFieldMovesInfo[j].moveId)
+            if (moveId == gFieldMovesInfo[j].moveId && !fieldMoveAdded[j])
             {
                 AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, j + CURSOR_OPTION_FIELD_MOVES);
+                fieldMoveAdded[j] = TRUE;
                 break;
             }
         }
     }
+    
+    // Add FLY, FLASH, and DIG to overworld field moves when OW_FIELD_MOVES_WITHOUT_HMS is enabled
+    // but only if the Pokemon can actually learn these moves
+    if (OW_FIELD_MOVES_WITHOUT_HMS)
+    {
+        // Add FLY if unlocked, not already added, and the Pokemon can learn it
+        if (FieldMove_IsUnlocked(FIELD_MOVE_FLY) && !fieldMoveAdded[FIELD_MOVE_FLY])
+        {
+            u8 canLearnFly = CanTeachMove(&mons[slotId], gFieldMovesInfo[FIELD_MOVE_FLY].moveId);
+            if (canLearnFly == CAN_LEARN_MOVE || canLearnFly == ALREADY_KNOWS_MOVE)
+            {
+                AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, FIELD_MOVE_FLY + CURSOR_OPTION_FIELD_MOVES);
+                fieldMoveAdded[FIELD_MOVE_FLY] = TRUE;
+            }
+        }
+        
+        // Add FLASH if unlocked, not already added, and the Pokemon can learn it
+        if (FieldMove_IsUnlocked(FIELD_MOVE_FLASH) && !fieldMoveAdded[FIELD_MOVE_FLASH])
+        {
+            u8 canLearnFlash = CanTeachMove(&mons[slotId], gFieldMovesInfo[FIELD_MOVE_FLASH].moveId);
+            if (canLearnFlash == CAN_LEARN_MOVE || canLearnFlash == ALREADY_KNOWS_MOVE)
+            {
+                AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, FIELD_MOVE_FLASH + CURSOR_OPTION_FIELD_MOVES);
+                fieldMoveAdded[FIELD_MOVE_FLASH] = TRUE;
+            }
+        }
+        
+        // Add DIG if unlocked, not already added, and the Pokemon can learn it
+        if (FieldMove_IsUnlocked(FIELD_MOVE_DIG) && !fieldMoveAdded[FIELD_MOVE_DIG])
+        {
+            u8 canLearnDig = CanTeachMove(&mons[slotId], gFieldMovesInfo[FIELD_MOVE_DIG].moveId);
+            if (canLearnDig == CAN_LEARN_MOVE || canLearnDig == ALREADY_KNOWS_MOVE)
+            {
+                AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, FIELD_MOVE_DIG + CURSOR_OPTION_FIELD_MOVES);
+                fieldMoveAdded[FIELD_MOVE_DIG] = TRUE;
+            }
+        }
+    }
+    
     if (GetMonData(&mons[1], MON_DATA_SPECIES) != SPECIES_NONE)
         AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, CURSOR_OPTION_SWITCH);
     if (ItemIsMail(GetMonData(&mons[slotId], MON_DATA_HELD_ITEM)))
@@ -4107,6 +4148,9 @@ static void CursorCB_FieldMove(u8 taskId)
 {
     u8 fieldMove = sPartyMenuInternal->actions[Menu_GetCursorPos()] - CURSOR_OPTION_FIELD_MOVES;
     const struct MapHeader *mapHeader;
+    u8 selectedMonId = GetCursorSelectionMonId();
+    u16 fieldMoveId = gFieldMovesInfo[fieldMove].moveId;
+    bool8 monKnowsMove = MonKnowsMove(&gPlayerParty[selectedMonId], fieldMoveId);
 
     PlaySE(SE_SELECT);
     if (gFieldMovesInfo[fieldMove].setUpFunc == NULL)
@@ -4130,6 +4174,14 @@ static void CursorCB_FieldMove(u8 taskId)
         }
         else if (gFieldMovesInfo[fieldMove].setUpFunc() == TRUE)
         {
+            // If OW_FIELD_MOVES_WITHOUT_HMS is enabled and the selected Pokemon doesn't know the move,
+            // set up the field effect arguments to use Professor Oak's Pokemon
+            if (OW_FIELD_MOVES_WITHOUT_HMS && !monKnowsMove)
+            {
+                u16 species = FieldMove_GetDefaultSpecies(fieldMove);
+                gFieldEffectArguments[0] = species | NOT_IN_PARTY_MASK;
+            }
+
             switch (fieldMove)
             {
             case FIELD_MOVE_MILK_DRINK:
@@ -4156,7 +4208,18 @@ static void CursorCB_FieldMove(u8 taskId)
                 break;
             default:
                 gPartyMenu.exitCallback = CB2_ReturnToField;
-                SetUsedFieldMoveQuestLogEvent(&gPlayerParty[GetCursorSelectionMonId()], fieldMove);
+                // Set quest log event based on whether the Pokemon actually knows the move
+                if (OW_FIELD_MOVES_WITHOUT_HMS && !monKnowsMove)
+                {
+                    // Use a mock Pokemon with the appropriate species for the quest log
+                    struct Pokemon mockMon;
+                    CreateMon(&mockMon, FieldMove_GetDefaultSpecies(fieldMove), 50, USE_RANDOM_IVS, FALSE, 0, OT_ID_PRESET, 0);
+                    SetUsedFieldMoveQuestLogEvent(&mockMon, fieldMove);
+                }
+                else
+                {
+                    SetUsedFieldMoveQuestLogEvent(&gPlayerParty[selectedMonId], fieldMove);
+                }
                 Task_ClosePartyMenu(taskId);
                 break;
             }
