@@ -280,3 +280,47 @@ SSAnne_Exterior_EventScript_ReturnToVermilion::
 	releaseall
 # 141 "data/maps/SSAnne_Exterior/scripts.pory"
 	end
+
+SSAnne_Exterior_EventScript_BoardShipCheck::
+# 144 "data/maps/SSAnne_Exterior/scripts.pory"
+	lockall
+# 145 "data/maps/SSAnne_Exterior/scripts.pory"
+	compare VAR_MAP_SCENE_VERMILION_CITY, 3
+	goto_if_ge SSAnne_Exterior_EventScript_BoardShipCheck_2
+SSAnne_Exterior_EventScript_BoardShipCheck_1:
+# 148 "data/maps/SSAnne_Exterior/scripts.pory"
+	getplayerxy VAR_0x8000, VAR_0x8001
+# 149 "data/maps/SSAnne_Exterior/scripts.pory"
+	compare VAR_0x8000, 32
+	goto_if_eq SSAnne_Exterior_EventScript_BoardShipCheck_5
+# 152 "data/maps/SSAnne_Exterior/scripts.pory"
+	warp MAP_SSANNE_1F_CORRIDOR, 20, 0
+SSAnne_Exterior_EventScript_BoardShipCheck_4:
+# 154 "data/maps/SSAnne_Exterior/scripts.pory"
+	waitstate
+# 155 "data/maps/SSAnne_Exterior/scripts.pory"
+	releaseall
+	return
+
+SSAnne_Exterior_EventScript_BoardShipCheck_2:
+# 146 "data/maps/SSAnne_Exterior/scripts.pory"
+	goto SSAnne_Exterior_EventScript_ShipGone
+	goto SSAnne_Exterior_EventScript_BoardShipCheck_1
+
+SSAnne_Exterior_EventScript_BoardShipCheck_5:
+# 150 "data/maps/SSAnne_Exterior/scripts.pory"
+	warp MAP_SSANNE_1F_CORRIDOR, 19, 1
+	goto SSAnne_Exterior_EventScript_BoardShipCheck_4
+
+
+SSAnne_Exterior_EventScript_ShipGone::
+# 159 "data/maps/SSAnne_Exterior/scripts.pory"
+	msgbox SSAnne_Exterior_EventScript_ShipGone_Text_0
+# 160 "data/maps/SSAnne_Exterior/scripts.pory"
+	releaseall
+	return
+
+
+SSAnne_Exterior_EventScript_ShipGone_Text_0:
+# 159 "data/maps/SSAnne_Exterior/scripts.pory"
+	.string "The S.S. ANNE has already departed.\pThere's nothing here but an empty\ndocking area.$"

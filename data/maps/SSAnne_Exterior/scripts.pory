@@ -139,13 +139,12 @@ SSAnne_Exterior_EventScript_ReturnToVermilion::
 	waitstate
 	releaseall
 	end
-
+`
 script SSAnne_Exterior_EventScript_BoardShipCheck {
 	lockall
 	if (var(VAR_MAP_SCENE_VERMILION_CITY) >= 3) {
 		goto(SSAnne_Exterior_EventScript_ShipGone)
 	}
-	# Check which warp tile was stepped on and use appropriate destination
 	getplayerxy(VAR_0x8000, VAR_0x8001)
 	if (var(VAR_0x8000) == 32) {
 		warp(MAP_SSANNE_1F_CORRIDOR, 19, 1)  # warp_id 2
@@ -160,4 +159,3 @@ script SSAnne_Exterior_EventScript_ShipGone {
 	msgbox("The S.S. ANNE has already departed.\pThere's nothing here but an empty\ndocking area.")
 	releaseall
 }
-`
