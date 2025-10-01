@@ -16,14 +16,15 @@ Thunder Punch,EFFECT_HIT,75,TYPE_ELECTRIC,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_C
 Scratch,EFFECT_HIT,40,TYPE_NORMAL,100,35,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Scratches the foe\n""             ""with\nsharp claws."""
 Vise Grip,EFFECT_HIT,65,TYPE_NORMAL,100,30,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Grips the foe with\n""             ""large and powerful\n""             ""pincers."""
 Guillotine,EFFECT_OHKO,1,TYPE_NORMAL,30,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A powerful pincer\n""             ""attack that may\n""             ""cause fainting."""
-Razor Wind,EFFECT_TWO_TURNS_ATTACK,80,TYPE_NORMAL,100,10,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,,"""A 2-turn move that\n""             ""strikes the foe\n""             ""the 2nd turn."""
-Swords Dance,EFFECT_ATTACK_UP_2,0,TYPE_NORMAL,0,30,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""A fighting dance\n""             ""that sharply\n""             ""raises Attack."""
+Razor Wind,EFFECT_HIT,140,TYPE_NORMAL,90,5,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_ATK_MINUS_2","""A full-power attack\n""             ""that sharply lowers\n""             ""the user's Atk."""
+Swords Dance,EFFECT_ATTACK_UP_2,0,TYPE_NORMAL,0,B_UPDATED_MOVE_DATA >= GEN_6 ? 20 : 30,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""A fighting dance\n""             ""that sharply\n""             ""raises Attack."""
 Cut,EFFECT_HIT,60,TYPE_BUG,100,30,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Cuts the foe with\n""             ""sharp scythes,\n""             ""claws, etc."""
 Gust,EFFECT_HIT,40,TYPE_FLYING,100,35,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Strikes the foe\n""             ""with a gust of\n""             ""wind whipped up by\n""             ""wings."""
 Wing Attack,EFFECT_HIT,60,TYPE_FLYING,100,35,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Strikes the foe\n""             ""with wings spread\n""             ""wide."""
-Whirlwind,EFFECT_ROAR,0,TYPE_NORMAL,100,20,MOVE_TARGET_SELECTED,-6,DAMAGE_CATEGORY_STATUS,,"""Blows away the foe\n""             ""with wind and ends\n""             ""the battle."""
-Fly,EFFECT_SEMI_INVULNERABLE,90,TYPE_FLYING,95,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Flies up on the\n""             ""first turn, then\n""             ""strikes the next\n""             ""turn."""
-Bind,EFFECT_HIT,20,TYPE_NORMAL,75,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Whirlwind,EFFECT_ROAR,0,TYPE_NORMAL,B_UPDATED_MOVE_DATA >= GEN_6 ? 0 : 100,20,MOVE_TARGET_SELECTED,-6,DAMAGE_CATEGORY_STATUS,,"""Blows away the foe\n""             ""with wind and ends\n""             ""the battle."""
+Fly,EFFECT_SEMI_INVULNERABLE,B_UPDATED_MOVE_DATA >= GEN_4 ? 90 : 70,TYPE_FLYING,95,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Flies up on the\n""             ""first turn, then\n""             ""strikes the next\n""             ""turn."""
+Bind,EFFECT_HIT,20,TYPE_NORMAL,B_UPDATED_MOVE_DATA >= GEN_5 ? 85 : 75,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_WRAP","""Binds and squeezes\n""             ""the foe for\n""             ""2 to 5 turns."""
 Slam,EFFECT_HIT,80,TYPE_DRAGON,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Slams the foe with\n""             ""a long tail, vine,\n""             ""etc."""
 Vine Whip,EFFECT_HIT,45,TYPE_GRASS,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Strikes the foe\n""             ""with slender,\n""             ""whiplike vines."""
@@ -31,7 +32,7 @@ Stomp,EFFECT_HIT,65,TYPE_NORMAL,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PH
             .moveEffect = MOVE_EFFECT_FLINCH","""Stomps the enemy\n""             ""with a big foot.\n""             ""May flinch."""
 Double Kick,EFFECT_HIT,30,TYPE_FIGHTING,100,30,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A double-kicking\n""             ""attack that\n""             ""strikes the foe\n""             ""twice."""
 Mega Kick,EFFECT_HIT,120,TYPE_NORMAL,85,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""An extremely\n""             ""powerful kick\n""             ""intense force."""
-Jump Kick,EFFECT_RECOIL_IF_MISS,70,TYPE_FIGHTING,95,25,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A strong jumping\n""             ""kick. May miss\n""             ""hurt the kicker."""
+Jump Kick,EFFECT_RECOIL_IF_MISS,70,TYPE_FIGHTING,95,B_UPDATED_MOVE_DATA >= GEN_5 ? 10 : 25,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A strong jumping\n""             ""kick. May miss\n""             ""hurt the kicker."""
 Rolling Kick,EFFECT_HIT,60,TYPE_FIGHTING,95,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""A fast kick\n""             ""delivered from\n""             ""a rapid spin."""
 Sand Attack,EFFECT_ACCURACY_DOWN,0,TYPE_GROUND,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Reduces the foe's\n""             ""accuracy by\n""             ""hurling sand in its\n""             ""face."""
@@ -46,7 +47,7 @@ Body Slam,EFFECT_HIT,85,TYPE_NORMAL,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGOR
 Wrap,EFFECT_HIT,20,TYPE_NORMAL,95,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_WRAP","""Wraps the foe\n""             ""BINDING_TURNS""             ""times."""
 Take Down,EFFECT_RECOIL,90,TYPE_NORMAL,95,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A reckless charge\n""             ""attack that also\n""             ""hurts the user."""
-Thrash,EFFECT_HIT,90,TYPE_NORMAL,100,20,MOVE_TARGET_RANDOM,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Thrash,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_5 ? 120 : 90,TYPE_NORMAL,100,B_UPDATED_MOVE_DATA >= GEN_5 ? 10 : 20,MOVE_TARGET_RANDOM,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_THRASH","""A rampage of 2 to 3\n""             ""turns that\n""             ""confuses the user."""
 Double-Edge,EFFECT_RECOIL,120,TYPE_NORMAL,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A life-risking\n""             ""tackle that also\n""             ""hurts the user."""
 Tail Whip,EFFECT_DEFENSE_DOWN,0,TYPE_NORMAL,100,30,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_STATUS,,"""Wags the tail to\n""             ""lower the foe's\n""             ""Defense."""
@@ -59,7 +60,7 @@ Leer,EFFECT_DEFENSE_DOWN,0,TYPE_NORMAL,100,30,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY
 Bite,EFFECT_HIT,60,TYPE_DARK,100,25,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""Bites with vicious\n""             ""fangs. May cause\n""             ""flinching."""
 Growl,EFFECT_ATTACK_DOWN,0,TYPE_NORMAL,100,40,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_STATUS,,"""Growls cutely to\n""             ""reduce the foe's\n""             ""Attack."""
-Roar,EFFECT_ROAR,0,TYPE_NORMAL,100,20,MOVE_TARGET_SELECTED,-6,DAMAGE_CATEGORY_STATUS,,"""Makes the foe flee\n""             ""to end the battle."""
+Roar,EFFECT_ROAR,0,TYPE_NORMAL,B_UPDATED_MOVE_DATA >= GEN_6 ? 0 : 100,20,MOVE_TARGET_SELECTED,-6,DAMAGE_CATEGORY_STATUS,,"""Makes the foe flee\n""             ""to end the battle."""
 Sing,EFFECT_SLEEP,0,TYPE_NORMAL,55,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""A soothing song\n""             ""lulls the foe into\n""             ""a deep slumber."""
 Supersonic,EFFECT_CONFUSE,0,TYPE_NORMAL,55,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Emits bizarre sound\n""             ""waves that may\n""             ""confuse the foe."""
 Sonic Boom,EFFECT_FIXED_DAMAGE_ARG,1,TYPE_NORMAL,95,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Launches shock\n""             ""waves that always\n""             ""inflict 20 HP\n""             ""damage."""
@@ -68,17 +69,17 @@ Acid,EFFECT_HIT,55,TYPE_POISON,95,30,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,
             .moveEffect = B_UPDATED_MOVE_DATA >= GEN_4 ? MOVE_EFFECT_SP_DEF_MINUS_1 : MOVE_EFFECT_DEF_MINUS_1","""Sprays a hide-melting acid.\n""             ""May lower Sp. Def."""
 Ember,EFFECT_HIT,40,TYPE_FIRE,100,25,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_BURN","""A weak fire attack\n""             ""that may inflict a\n""             ""burn."""
-Flamethrower,EFFECT_HIT,95,TYPE_FIRE,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Flamethrower,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 90 : 95,TYPE_FIRE,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_BURN","""A powerful fire\n""             ""attack that may\n""             ""inflict a burn."""
 Mist,EFFECT_MIST,0,TYPE_ICE,0,30,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Creates a mist that\n""             ""stops reduction of\n""             ""abilities."""
 Water Gun,EFFECT_HIT,40,TYPE_WATER,100,25,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Squirts water to\n""             ""attack the foe."""
-Hydro Pump,EFFECT_HIT,120,TYPE_WATER,85,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Blasts water at\n""             ""high power to\n""             ""strike the foe."""
-Surf,EFFECT_HIT,75,TYPE_WATER,100,15,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_SPECIAL,,"""Creates a huge\n""             ""wave, then crashes\n""             ""it down on the foe."""
-Ice Beam,EFFECT_HIT,95,TYPE_ICE,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Hydro Pump,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 110 : 120,TYPE_WATER,85,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Blasts water at\n""             ""high power to\n""             ""strike the foe."""
+Surf,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 90 : 75,TYPE_WATER,100,15,B_UPDATED_MOVE_DATA >= GEN_4 ? MOVE_TARGET_FOES_AND_ALLY : MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,,"""Creates a huge\n""             ""wave, then crashes\n""             ""it down on the foe."""
+Ice Beam,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 90 : 95,TYPE_ICE,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             // The following effect is also relevant in battle_Pike.c
             // If you cherry-pick this to use something other than the config, make sure to update it there too
             .moveEffect = MOVE_EFFECT_FREEZE_OR_FROSTBITE","""Blasts the foe\n""             ""with an icy beam.\n""             ""May freeze it."""
-Blizzard,EFFECT_BLIZZARD,120,TYPE_ICE,85,5,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Blizzard,B_BLIZZARD_HAIL >= GEN_4 ? EFFECT_BLIZZARD : EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 110 : 120,TYPE_ICE,85,5,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FREEZE_OR_FROSTBITE","""Hits the foe with\n""             ""an icy storm.\n""             ""May freeze it."""
 Psybeam,EFFECT_HIT,65,TYPE_PSYCHIC,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_CONFUSION","""Fires a peculiar\n""             ""ray that may\n""             ""confuse the foe."""
@@ -90,15 +91,15 @@ Hyper Beam,EFFECT_HIT,150,TYPE_NORMAL,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGOR
             .moveEffect = MOVE_EFFECT_RECHARGE",
 Peck,EFFECT_HIT,35,TYPE_FLYING,100,35,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Attacks the foe\n""             ""with a jabbing\n""             ""beak, etc."""
 Drill Peck,EFFECT_HIT,80,TYPE_FLYING,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A corkscrewing\n""             ""attack with the\n""             ""beak acting as a\n""             ""drill."""
-Submission,EFFECT_HIT,95,TYPE_FIGHTING,100,25,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A reckless\n""             ""body slam that\n""             ""also hurts the\n""             ""user."""
+Submission,EFFECT_HIT,95,TYPE_FIGHTING,100,B_UPDATED_MOVE_DATA >= GEN_6 ? 20 : 25,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A reckless\n""             ""body slam that\n""             ""also hurts the\n""             ""user."""
 Low Kick,EFFECT_LOW_KICK,1,TYPE_FIGHTING,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A kick that\n""             ""inflicts more\n""             ""damage on\n""             ""heavier foes."""
 Counter,EFFECT_COUNTER,1,TYPE_FIGHTING,100,20,MOVE_TARGET_DEPENDS,-5,DAMAGE_CATEGORY_PHYSICAL,,"""Retaliates any\n""             ""physical hit with\n""             ""double the power."""
 Seismic Toss,EFFECT_LEVEL_DAMAGE,1,TYPE_FIGHTING,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Inflicts damage\n""             ""identical to the\n""             ""user's level."""
 Strength,EFFECT_HIT,80,TYPE_NORMAL,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Builds enormous\n""             ""power, then slams\n""             ""the foe."""
-Absorb,EFFECT_ABSORB,35,TYPE_GRASS,100,25,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""An attack that\n""             ""absorbs half the\n""             ""damage inflicted."""
-Mega Drain,EFFECT_ABSORB,60,TYPE_GRASS,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,
+Absorb,EFFECT_ABSORB,35,TYPE_GRASS,100,B_UPDATED_MOVE_DATA >= GEN_4 ? 25 : 20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""An attack that\n""             ""absorbs half the\n""             ""damage inflicted."""
+Mega Drain,EFFECT_ABSORB,60,TYPE_GRASS,100,B_UPDATED_MOVE_DATA >= GEN_4 ? 15 : 10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,
 Leech Seed,EFFECT_LEECH_SEED,0,TYPE_GRASS,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Plants a seed on\n""             ""the foe to steal\n""             ""HP on every turn."""
-Growth,EFFECT_GROWTH,0,TYPE_NORMAL,0,40,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Forces the body\n""             ""to grow."""
+Growth,EFFECT_GROWTH,0,TYPE_NORMAL,0,B_UPDATED_MOVE_DATA >= GEN_6 ? 20 : 40,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Forces the body\n""             ""to grow."""
 Razor Leaf,EFFECT_HIT,60,TYPE_GRASS,95,25,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_PHYSICAL,,"""Cuts the enemy with\n""             ""leaves. High\n""             ""critical-hit ratio."""
 Solar Beam,EFFECT_SOLAR_BEAM,120,TYPE_GRASS,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Absorbs light in\n""             ""one turn, then\n""             ""attacks next turn."""
 Poison Powder,EFFECT_POISON,0,TYPE_POISON,75,35,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Scatters a toxic\n""             ""powder that may\n""             ""poison the foe."""
@@ -106,22 +107,22 @@ Stun Spore,EFFECT_PARALYZE,0,TYPE_GRASS,75,30,MOVE_TARGET_SELECTED,0,DAMAGE_CATE
 Sleep Powder,EFFECT_SLEEP,0,TYPE_GRASS,75,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Scatters a powder\n""             ""that may cause the\n""             ""foe to sleep."""
 Petal Dance,EFFECT_HIT,70,TYPE_GRASS,100,15,MOVE_TARGET_RANDOM,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_THRASH","""A rampage of 2 to 3\n""             ""turns that\n""             ""confuses the user."""
-String Shot,EFFECT_SPEED_DOWN,0,TYPE_BUG,100,40,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_STATUS,,"""Binds the foe with\n""             ""string to reduce\n""             ""its Speed."""
+String Shot,B_UPDATED_MOVE_DATA >= GEN_6 ? EFFECT_SPEED_DOWN_2 : EFFECT_SPEED_DOWN,0,TYPE_BUG,100,40,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_STATUS,,"""Binds the foe with\n""             ""string to reduce\n""             ""its Speed."""
 Dragon Rage,EFFECT_FIXED_DAMAGE_ARG,1,TYPE_DRAGON,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Launches shock\n""             ""waves that always\n""             ""inflict 40 HP\n""             ""damage."""
 Fire Spin,EFFECT_HIT,35,TYPE_FIRE,90,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_WRAP","""Traps the foe in a\n""             ""ring of fire for\n""             ""2 to 5 turns."""
 Thunder Shock,EFFECT_HIT,40,TYPE_ELECTRIC,100,30,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_PARALYSIS","""An electrical\n""             ""attack that may\n""             ""paralyze the foe."""
-Thunderbolt,EFFECT_HIT,95,TYPE_ELECTRIC,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Thunderbolt,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 90 : 95,TYPE_ELECTRIC,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_PARALYSIS","""A strong electrical\n""             ""attack that may\n""             ""paralyze the foe."""
-Thunder Wave,EFFECT_PARALYZE,0,TYPE_ELECTRIC,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""A weak jolt of\n""             ""electricity that\n""             ""paralyzes the foe."""
-Thunder,EFFECT_THUNDER,120,TYPE_ELECTRIC,85,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Thunder Wave,EFFECT_PARALYZE,0,TYPE_ELECTRIC,B_UPDATED_MOVE_DATA >= GEN_7 ? 90 : 100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""A weak jolt of\n""             ""electricity that\n""             ""paralyzes the foe."""
+Thunder,EFFECT_THUNDER,B_UPDATED_MOVE_DATA >= GEN_6 ? 110 : 120,TYPE_ELECTRIC,85,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_PARALYSIS","""A lightning attack\n""             ""that may cause\n""             ""paralysis."""
 Rock Throw,EFFECT_HIT,50,TYPE_ROCK,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Throws small rocks\n""             ""to strike the foe."""
 Earthquake,EFFECT_EARTHQUAKE,100,TYPE_GROUND,100,10,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_PHYSICAL,,"""A powerful quake,\n""             ""but has no effect\n""             ""on flying foes."""
 Fissure,EFFECT_OHKO,1,TYPE_GROUND,30,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A one-hit KO move\n""             ""that drops the foe\n""             ""in a fissure."""
-Dig,EFFECT_SEMI_INVULNERABLE,80,TYPE_GROUND,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Digs underground\n""             ""the first turn and\n""             ""strikes next turn."""
-Toxic,EFFECT_TOXIC,0,TYPE_POISON,85,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Poisons the foe\n""             ""with intensifying\n""             ""toxins."""
+Dig,EFFECT_SEMI_INVULNERABLE,B_UPDATED_MOVE_DATA >= GEN_4 ? 80 : 60,TYPE_GROUND,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Digs underground\n""             ""the first turn and\n""             ""strikes next turn."""
+Toxic,EFFECT_TOXIC,0,TYPE_POISON,B_UPDATED_MOVE_DATA >= GEN_5 ? 90 : 85,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Poisons the foe\n""             ""with intensifying\n""             ""toxins."""
 Confusion,EFFECT_HIT,55,TYPE_PSYCHIC,100,25,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_CONFUSION","""A psychic attack\n""             ""that may cause\n""             ""confusion."""
 Psychic,EFFECT_HIT,95,TYPE_PSYCHIC,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
@@ -138,17 +139,17 @@ Screech,EFFECT_DEFENSE_DOWN_2,0,TYPE_NORMAL,90,40,MOVE_TARGET_SELECTED,0,DAMAGE_
 Double Team,EFFECT_EVASION_UP,0,TYPE_NORMAL,0,15,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Creates illusory\n""             ""copies to raise\n""             ""evasiveness."""
 Recover,EFFECT_RESTORE_HP,0,TYPE_NORMAL,0,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Recovers up to half\n""             ""the user's maximum\n""             ""HP."""
 Harden,EFFECT_DEFENSE_UP,0,TYPE_NORMAL,0,30,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Stiffens the body's\n""             ""muscles to raise\n""             ""Defense."""
-Minimize,EFFECT_MINIMIZE,0,TYPE_NORMAL,0,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Minimizes the\n""             ""user's size to\n""             ""raise evasiveness."""
+Minimize,EFFECT_MINIMIZE,0,TYPE_NORMAL,0,B_UPDATED_MOVE_DATA >= GEN_6 ? 10 : 20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Minimizes the\n""             ""user's size to\n""             ""raise evasiveness."""
 Smokescreen,EFFECT_ACCURACY_DOWN,0,TYPE_NORMAL,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Lowers the foe's\n""             ""accuracy using\n""             ""smoke, ink, etc."""
 Confuse Ray,EFFECT_CONFUSE,0,TYPE_GHOST,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""A sinister ray\n""             ""that confuses the\n""             ""foe."""
 Withdraw,EFFECT_DEFENSE_UP,0,TYPE_WATER,0,40,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Withdraws the body\n""             ""into its hard\n""             ""shell to raise\n""             ""Defense."""
 Defense Curl,EFFECT_DEFENSE_CURL,0,TYPE_NORMAL,0,40,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Curls up to conceal\n""             ""weak spots and\n""             ""raise Defense."""
-Barrier,EFFECT_DEFENSE_UP_2,0,TYPE_PSYCHIC,0,30,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Creates a barrier\n""             ""that sharply\n""             ""raises Defense."""
+Barrier,EFFECT_DEFENSE_UP_2,0,TYPE_PSYCHIC,0,B_UPDATED_MOVE_DATA >= GEN_6 ? 20 : 30,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Creates a barrier\n""             ""that sharply\n""             ""raises Defense."""
 Light Screen,EFFECT_LIGHT_SCREEN,0,TYPE_PSYCHIC,0,30,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Creates a wall of\n""             ""light that lowers\n""             ""Sp. Atk damage."""
 Haze,EFFECT_HAZE,0,TYPE_ICE,0,30,MOVE_TARGET_ALL_BATTLERS,0,DAMAGE_CATEGORY_STATUS,,"""Creates a black\n""             ""haze that removes\n""             ""all stat changes."""
 Reflect,EFFECT_REFLECT,0,TYPE_PSYCHIC,0,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Creates a wall of\n""             ""light that weakens\n""             ""physical attacks."""
 Focus Energy,EFFECT_FOCUS_ENERGY,0,TYPE_NORMAL,0,30,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Focuses power to\n""             ""raise the crit\n""             ""ratio."""
-Bide,EFFECT_BIDE,1,TYPE_NORMAL,0,10,MOVE_TARGET_USER,1,DAMAGE_CATEGORY_PHYSICAL,,"""Endures attack for\n""             ""2 turns to\n""             ""retaliate double."""
+Bide,EFFECT_BIDE,1,TYPE_NORMAL,B_UPDATED_MOVE_DATA >= GEN_4 ? 0 : 100,10,MOVE_TARGET_USER,B_UPDATED_MOVE_DATA >= GEN_4 ? 1 : 0,DAMAGE_CATEGORY_PHYSICAL,,"""Endures attack for\n""             ""2 turns to\n""             ""retaliate double."""
 Metronome,EFFECT_METRONOME,0,TYPE_NORMAL,0,15,MOVE_TARGET_DEPENDS,0,DAMAGE_CATEGORY_STATUS,,"""Waggles a finger to\n""             ""use any Pokémon\n""             ""move at random."""
 Mirror Move,EFFECT_MIRROR_MOVE,0,TYPE_FLYING,0,20,MOVE_TARGET_DEPENDS,0,DAMAGE_CATEGORY_STATUS,,"""Counters the foe's\n""             ""attack with the\n""             ""same move."""
 Self-Destruct,EFFECT_EXPLOSION,200,TYPE_NORMAL,100,5,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_PHYSICAL,,"""Inflicts severe\n""             ""damage but makes\n""             ""the user faint."""
@@ -161,43 +162,44 @@ Sludge,EFFECT_HIT,75,TYPE_POISON,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_S
             .moveEffect = MOVE_EFFECT_POISON","""Sludge is hurled to\n""             ""inflict damage.\n""             ""May also poison."""
 Bone Club,EFFECT_HIT,75,TYPE_GROUND,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""Clubs the foe with\n""             ""a bone. May cause\n""             ""flinching."""
-Fire Blast,EFFECT_HIT,120,TYPE_FIRE,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Fire Blast,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 110 : 120,TYPE_FIRE,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_BURN","""Incinerates all\n""             ""it strikes. May\n""             ""cause a burn."""
 Waterfall,EFFECT_HIT,95,TYPE_WATER,95,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
                 .moveEffect = MOVE_EFFECT_FLINCH","""Charges the foe\n""             ""with speed to\n""             ""climb waterfalls."""
-Clamp,EFFECT_HIT,35,TYPE_WATER,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Clamp,EFFECT_HIT,35,TYPE_WATER,90,B_UPDATED_MOVE_DATA >= GEN_5 ? 15 : 10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_WRAP","""Traps and squeezes\n""             ""the foe for\n""             ""2 to 5 turns."""
 Swift,EFFECT_HIT,60,TYPE_NORMAL,0,20,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,,"""Sprays star-shaped\n""             ""rays that never\n""             ""miss."""
-Skull Bash,EFFECT_TWO_TURNS_ATTACK,120,TYPE_NORMAL,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Tucks in the head,\n""             ""then attacks on\n""             ""the next turn."""
+Skull Bash,EFFECT_TWO_TURNS_ATTACK,120,TYPE_NORMAL,100,B_UPDATED_MOVE_DATA >= GEN_6 ? 10 : 15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Tucks in the head,\n""             ""then attacks on\n""             ""the next turn."""
 Spike Cannon,EFFECT_MULTI_HIT,25,TYPE_STEEL,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Launches sharp\n""             ""spikes that strike\n""             ""2 to 5 times."""
 Constrict,EFFECT_HIT,25,TYPE_NORMAL,100,35,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SPD_MINUS_1","""Constricts to\n""             ""inflict pain. May\n""             ""lower Speed."""
 Amnesia,EFFECT_SPECIAL_DEFENSE_UP_2,0,TYPE_PSYCHIC,0,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Forgets about\n""             ""something and\n""             ""sharply raises Sp.\n""             ""Def."""
 Kinesis,EFFECT_ACCURACY_DOWN,0,TYPE_PSYCHIC,80,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Distracts the\n""             ""foe. May lower\n""             ""accuracy."""
-Soft-Boiled,EFFECT_SOFTBOILED,0,TYPE_NORMAL,100,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Recovers up to half\n""             ""the user's maximum\n""             ""HP."""
-High Jump Kick,EFFECT_RECOIL_IF_MISS,85,TYPE_FIGHTING,95,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A jumping knee\n""             ""kick. If it misses,\n""             ""user is hurt."""
+Soft-Boiled,EFFECT_SOFTBOILED,0,TYPE_NORMAL,100,B_UPDATED_MOVE_DATA >= GEN_9 ? 5 : 10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Recovers up to half\n""             ""the user's maximum\n""             ""HP."""
+High Jump Kick,EFFECT_RECOIL_IF_MISS,85,TYPE_FIGHTING,95,B_UPDATED_MOVE_DATA >= GEN_5 ? 10 : 20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A jumping knee\n""             ""kick. If it misses,\n""             ""user is hurt."""
 Glare,EFFECT_PARALYZE,0,TYPE_NORMAL,85,30,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Intimidates and\n""             ""frightens the foe\n""             ""into paralysis."""
 Dream Eater,EFFECT_DREAM_EATER,100,TYPE_PSYCHIC,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Takes one half the\n""             ""damage inflicted\n""             ""on a sleeping foe."""
-Poison Gas,EFFECT_POISON,0,TYPE_POISON,55,40,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Envelops the foe in\n""             ""a toxic gas that\n""             ""may poison."""
+Poison Gas,EFFECT_POISON,0,TYPE_POISON,55,40,B_UPDATED_MOVE_DATA >= GEN_5 ? MOVE_TARGET_BOTH : MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Envelops the foe in\n""             ""a toxic gas that\n""             ""may poison."""
 Barrage,EFFECT_MULTI_HIT,18,TYPE_NORMAL,95,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Hurls round objects\n""             ""at the foe 2 to 5\n""             ""times."""
-Leech Life,EFFECT_ABSORB,55,TYPE_BUG,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""An attack that\n""             ""steals half the\n""             ""damage inflicted."""
+Leech Life,EFFECT_ABSORB,55,TYPE_BUG,100,B_UPDATED_MOVE_DATA >= GEN_7 ? 10 : 15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""An attack that\n""             ""steals half the\n""             ""damage inflicted."""
 Lovely Kiss,EFFECT_SLEEP,0,TYPE_NORMAL,75,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Demands a kiss with\n""             ""a scary face that\n""             ""induces sleep."""
-Sky Attack,EFFECT_TWO_TURNS_ATTACK,140,TYPE_FLYING,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Searches out weak\n""             ""spots, then\n""             ""strikes the next\n""             ""turn."""
+Sky Attack,EFFECT_HIT,140,TYPE_FLYING,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_ATK_MINUS_2","""Allows a full-power\n""             ""attack, but\n""             ""sharply lowers\n""             ""Atk."""
 Transform,EFFECT_TRANSFORM,0,TYPE_NORMAL,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Alters the user's\n""             ""cells to become a\n""             ""copy of the foe."""
 Bubble,EFFECT_HIT,30,TYPE_WATER,100,30,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SPD_MINUS_1","""An attack using\n""             ""bubbles. May lower\n""             ""the foe's Speed."""
 Dizzy Punch,EFFECT_HIT,70,TYPE_NORMAL,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_CONFUSION","""A rhythmic punch\n""             ""that may confuse\n""             ""the foe."""
 Spore,EFFECT_SLEEP,0,TYPE_GRASS,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Scatters a cloud of\n""             ""spores that always\n""             ""induce sleep."""
-Flash,EFFECT_ACCURACY_DOWN,0,TYPE_NORMAL,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Looses a powerful\n""             ""blast of light\n""             ""that cuts accuracy."""
+Flash,EFFECT_ACCURACY_DOWN,0,TYPE_NORMAL,B_UPDATED_MOVE_DATA >= GEN_4 ? 100 : 70,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Looses a powerful\n""             ""blast of light\n""             ""that cuts accuracy."""
 Psywave,EFFECT_PSYWAVE,1,TYPE_PSYCHIC,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Attacks with a\n""             ""psychic wave of\n""             ""varying intensity."""
 Splash,EFFECT_DO_NOTHING,0,TYPE_NORMAL,0,40,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""It's just a\n""             ""splash... Has no\n""             ""effect whatsoever."""
-Acid Armor,EFFECT_DEFENSE_UP_2,0,TYPE_POISON,0,40,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Liquifies the\n""             ""user's body to\n""             ""sharply raise\n""             ""Defense."""
+Acid Armor,EFFECT_DEFENSE_UP_2,0,TYPE_POISON,0,B_UPDATED_MOVE_DATA >= GEN_6 ? 20 : 40,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Liquifies the\n""             ""user's body to\n""             ""sharply raise\n""             ""Defense."""
 Crabhammer,EFFECT_HIT,100,TYPE_WATER,95,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Hammers with a\n""             ""pincer. Has a high\n""             ""critical-hit ratio."""
 Explosion,EFFECT_EXPLOSION,250,TYPE_NORMAL,100,5,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_PHYSICAL,,"""Inflicts severe\n""             ""damage but makes\n""             ""the user faint."""
 Fury Swipes,EFFECT_MULTI_HIT,22,TYPE_NORMAL,95,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Rakes the foe with\n""             ""sharp claws, etc.,\n""             ""2 to 5 times."""
 Bonemerang,EFFECT_HIT,50,TYPE_GROUND,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Throws a bone\n""             ""boomerang that\n""             ""strikes twice."""
-Rest,EFFECT_REST,0,TYPE_PSYCHIC,0,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""The user sleeps for\n""             ""2 turns, restoring\n""             ""HP and status."""
+Rest,EFFECT_REST,0,TYPE_PSYCHIC,0,B_UPDATED_MOVE_DATA >= GEN_9 ? 5 : 10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""The user sleeps for\n""             ""2 turns, restoring\n""             ""HP and status."""
 Rock Slide,EFFECT_HIT,80,TYPE_ROCK,95,10,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""Large boulders are\n""             ""hurled. May cause\n""             ""flinching."""
 Hyper Fang,EFFECT_HIT,80,TYPE_NORMAL,95,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
@@ -209,33 +211,33 @@ Tri Attack,EFFECT_HIT,85,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGO
 Super Fang,EFFECT_SUPER_FANG,1,TYPE_NORMAL,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Attacks with sharp\n""             ""fangs and cuts\n""             ""half the foe's HP."""
 Slash,EFFECT_HIT,70,TYPE_NORMAL,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Slashes with claws,\n""             ""etc. Has a high\n""             ""critical-hit ratio."""
 Substitute,EFFECT_SUBSTITUTE,0,TYPE_NORMAL,0,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Creates a decoy\n""             ""using 1/4 of the\n""             ""user's maximum HP."""
-Struggle,EFFECT_RECOIL_HP_25,0,TYPE_MYSTERY,0,0,,0,,"ADDITIONAL_EFFECTS({
+Struggle,EFFECT_RECOIL_HP_25,0,,0,0,,0,,"ADDITIONAL_EFFECTS({
                 .moveEffect = MOVE_EFFECT_RECOIL_HP_25","""Used only if all PP\n""             ""are gone. Also\n""             ""hurts the user a\n""             ""little."""
 Sketch,EFFECT_SKETCH,0,TYPE_NORMAL,0,1,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Copies the foe's\n""             ""last move\n""             ""permanently."""
 Triple Kick,EFFECT_TRIPLE_KICK,12,TYPE_FIGHTING,90,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Kicks the foe 3\n""             ""times in a row\n""             ""with rising\n""             ""intensity."""
-Thief,EFFECT_HIT,40,TYPE_DARK,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Thief,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 60 : 40,TYPE_DARK,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_STEAL_ITEM","""While attacking, it\n""             ""may steal the\n""             ""foe's held item."""
 Spider Web,EFFECT_MEAN_LOOK,0,TYPE_BUG,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Ensnares the foe to\n""             ""stop it from\n""             ""fleeing or\n""             ""switching."""
-Mind Reader,EFFECT_LOCK_ON,0,TYPE_NORMAL,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Senses the foe's\n""             ""action to ensure\n""             ""the next move's\n""             ""hit."""
-Nightmare,EFFECT_NIGHTMARE,0,TYPE_GHOST,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Inflicts 1/4 damage\n""             ""on a sleeping foe\n""             ""every turn."""
+Mind Reader,EFFECT_LOCK_ON,0,TYPE_NORMAL,B_UPDATED_MOVE_DATA >= GEN_4 ? 0 : 100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Senses the foe's\n""             ""action to ensure\n""             ""the next move's\n""             ""hit."""
+Nightmare,EFFECT_NIGHTMARE,0,TYPE_GHOST,B_UPDATED_MOVE_DATA >= GEN_4 ? 100 : 0,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Inflicts 1/4 damage\n""             ""on a sleeping foe\n""             ""every turn."""
 Flame Wheel,EFFECT_HIT,65,TYPE_FIRE,100,25,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_BURN","""A fiery charge\n""             ""attack that may\n""             ""inflict a burn."""
 Snore,EFFECT_SNORE,80,TYPE_NORMAL,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""A loud attack that\n""             ""can be used only\n""             ""while asleep."""
-Curse,EFFECT_CURSE,0,TYPE_MYSTERY,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""A move that works\n""             ""differently for\n""             ""GHOSTS."""
+Curse,EFFECT_CURSE,0,B_UPDATED_MOVE_TYPES >= GEN_5 ? TYPE_GHOST : TYPE_MYSTERY,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""A move that works\n""             ""differently for\n""             ""GHOSTS."""
 Flail,EFFECT_FLAIL,1,TYPE_NORMAL,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Inflicts more\n""             ""damage when the\n""             ""user's HP is down."""
-Conversion 2,EFFECT_CONVERSION_2,0,TYPE_NORMAL,0,30,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Makes the user\n""             ""resistant to the\n""             ""last attack's type."""
+Conversion 2,EFFECT_CONVERSION_2,0,TYPE_NORMAL,0,30,B_UPDATED_MOVE_DATA >= GEN_5 ? MOVE_TARGET_SELECTED : MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Makes the user\n""             ""resistant to the\n""             ""last attack's type."""
 Aeroblast,EFFECT_HIT,100,TYPE_FLYING,95,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Launches a vacuumed\n""             ""blast. High\n""             ""critical-hit ratio."""
-Cotton Spore,EFFECT_SPEED_DOWN_2,0,TYPE_GRASS,95,40,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Spores cling to the\n""             ""foe, sharply\n""             ""reducing Speed."""
+Cotton Spore,EFFECT_SPEED_DOWN_2,0,TYPE_GRASS,95,40,B_UPDATED_MOVE_DATA >= GEN_6 ? MOVE_TARGET_BOTH : MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Spores cling to the\n""             ""foe, sharply\n""             ""reducing Speed."""
 Reversal,EFFECT_FLAIL,1,TYPE_FIGHTING,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Inflicts more\n""             ""damage when the\n""             ""user's HP is down."""
 Spite,EFFECT_SPITE,0,TYPE_GHOST,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Spitefully cuts the\n""             ""PP of the foe's\n""             ""last move."""
 Powder Snow,EFFECT_HIT,40,TYPE_ICE,100,25,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FREEZE_OR_FROSTBITE","""Blasts the foe with\n""             ""a snowy gust.\n""             ""May cause freezing."""
-Protect,EFFECT_PROTECT,0,TYPE_NORMAL,0,10,MOVE_TARGET_USER,3,DAMAGE_CATEGORY_STATUS,,"""Evades attack, but\n""             ""may fail if used\n""             ""in succession."""
+Protect,EFFECT_PROTECT,0,TYPE_NORMAL,0,10,MOVE_TARGET_USER,B_UPDATED_MOVE_DATA >= GEN_5 ? 4 : 3,DAMAGE_CATEGORY_STATUS,,"""Evades attack, but\n""             ""may fail if used\n""             ""in succession."""
 Mach Punch,EFFECT_HIT,40,TYPE_FIGHTING,100,30,MOVE_TARGET_SELECTED,1,DAMAGE_CATEGORY_PHYSICAL,,"""A punch is thrown\n""             ""at wicked speed to\n""             ""strike first."""
-Scary Face,EFFECT_SPEED_DOWN_2,0,TYPE_NORMAL,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Frightens with a\n""             ""scary face to\n""             ""sharply reduce\n""             ""Speed."""
+Scary Face,EFFECT_SPEED_DOWN_2,0,TYPE_NORMAL,B_UPDATED_MOVE_DATA >= GEN_5 ? 100 : 90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Frightens with a\n""             ""scary face to\n""             ""sharply reduce\n""             ""Speed."""
 Feint Attack,EFFECT_HIT,70,TYPE_DARK,0,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Draws the foe\n""             ""close,\n""             ""then strikes\n""             ""without fail."""
-Sweet Kiss,EFFECT_CONFUSE,0,TYPE_NORMAL,85,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Demands a kiss with\n""             ""a cute look. May\n""             ""cause confusion."""
+Sweet Kiss,EFFECT_CONFUSE,0,B_UPDATED_MOVE_TYPES >= GEN_6 ? TYPE_FAIRY : TYPE_NORMAL,85,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Demands a kiss with\n""             ""a cute look. May\n""             ""cause confusion."""
 Belly Drum,EFFECT_BELLY_DRUM,0,TYPE_NORMAL,0,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Maximizes Attack\n""             ""while sacrificing\n""             ""HP."""
 Sludge Bomb,EFFECT_HIT,95,TYPE_POISON,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_POISON","""Sludge is hurled to\n""             ""inflict damage.\n""             ""May also poison."""
@@ -244,26 +246,26 @@ Mud-Slap,EFFECT_HIT,30,TYPE_GROUND,100,25,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY
 Octazooka,EFFECT_HIT,65,TYPE_WATER,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_ACC_MINUS_1","""Fires a lump of ink\n""             ""to damage and cut\n""             ""accuracy."""
 Spikes,EFFECT_SPIKES,0,TYPE_GROUND,0,20,MOVE_TARGET_OPPONENTS_FIELD,0,DAMAGE_CATEGORY_STATUS,,"""Sets spikes that\n""             ""hurt a foe\n""             ""switching in."""
-Zap Cannon,EFFECT_HIT,120,TYPE_ELECTRIC,75,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Zap Cannon,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_4 ? 120 : 100,TYPE_ELECTRIC,75,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_PARALYSIS","""Powerful and sure\n""             ""to paralyze,\n""             ""but inaccurate."""
-Foresight,EFFECT_FORESIGHT,0,TYPE_NORMAL,100,40,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Negates the foe's\n""             ""efforts to up\n""             ""evasiveness."""
+Foresight,EFFECT_FORESIGHT,0,TYPE_NORMAL,B_UPDATED_MOVE_DATA >= GEN_5 ? 0 : 100,40,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Negates the foe's\n""             ""efforts to up\n""             ""evasiveness."""
 Destiny Bond,EFFECT_DESTINY_BOND,0,TYPE_GHOST,0,5,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""If the user faints,\n""             ""the foe is also\n""             ""made to faint."""
 Perish Song,EFFECT_PERISH_SONG,0,TYPE_NORMAL,0,5,MOVE_TARGET_ALL_BATTLERS,0,DAMAGE_CATEGORY_STATUS,,"""Any Pokémon hearing\n""             ""this song faints\n""             ""in 3 turns."""
 Icy Wind,EFFECT_HIT,55,TYPE_ICE,95,15,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SPD_MINUS_1","""A chilling attack\n""             ""that lowers the\n""             ""foe's Speed."""
-Detect,EFFECT_PROTECT,0,TYPE_FIGHTING,0,5,MOVE_TARGET_USER,3,DAMAGE_CATEGORY_STATUS,,"""Evades attack, but\n""             ""may fail if used\n""             ""in succession."""
+Detect,EFFECT_PROTECT,0,TYPE_FIGHTING,0,5,MOVE_TARGET_USER,B_UPDATED_MOVE_DATA >= GEN_5 ? 4 : 3,DAMAGE_CATEGORY_STATUS,,"""Evades attack, but\n""             ""may fail if used\n""             ""in succession."""
 Bone Rush,EFFECT_MULTI_HIT,25,TYPE_GROUND,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Strikes the foe\n""             ""with a bone in\n""             ""hand 2 to 5 times."""
-Lock-On,EFFECT_LOCK_ON,0,TYPE_NORMAL,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Locks on to the foe\n""             ""to ensure the next\n""             ""move hits."""
-Outrage,EFFECT_HIT,120,TYPE_DRAGON,100,15,MOVE_TARGET_RANDOM,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Lock-On,EFFECT_LOCK_ON,0,TYPE_NORMAL,B_UPDATED_MOVE_DATA >= GEN_4 ? 0 : 100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Locks on to the foe\n""             ""to ensure the next\n""             ""move hits."""
+Outrage,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_4 ? 120 : 90,TYPE_DRAGON,100,B_UPDATED_MOVE_DATA >= GEN_5 ? 10 : 15,MOVE_TARGET_RANDOM,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_THRASH","""A rampage of 2 to 3\n""             ""turns that\n""             ""confuses the user."""
 Sandstorm,EFFECT_SANDSTORM,0,TYPE_ROCK,0,10,MOVE_TARGET_ALL_BATTLERS,0,DAMAGE_CATEGORY_STATUS,,"""Causes a sandstorm\n""             ""that rages for\n""             ""several turns."""
-Giga Drain,EFFECT_ABSORB,80,TYPE_GRASS,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""An attack that\n""             ""steals half the\n""             ""damage inflicted."""
-Endure,EFFECT_ENDURE,0,TYPE_NORMAL,0,10,MOVE_TARGET_USER,3,DAMAGE_CATEGORY_STATUS,,"""Endures any attack\n""             ""for 1 turn,\n""             ""leaving at least\n""             ""1HP."""
-Charm,EFFECT_ATTACK_DOWN_2,0,TYPE_NORMAL,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Charms the foe and\n""             ""sharply reduces\n""             ""its Attack."""
+Giga Drain,EFFECT_ABSORB,80,TYPE_GRASS,100,B_UPDATED_MOVE_DATA >= GEN_4 ? 10 : 5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""An attack that\n""             ""steals half the\n""             ""damage inflicted."""
+Endure,EFFECT_ENDURE,0,TYPE_NORMAL,0,10,MOVE_TARGET_USER,B_UPDATED_MOVE_DATA >= GEN_5 ? 4 : 3,DAMAGE_CATEGORY_STATUS,,"""Endures any attack\n""             ""for 1 turn,\n""             ""leaving at least\n""             ""1HP."""
+Charm,EFFECT_ATTACK_DOWN_2,0,B_UPDATED_MOVE_TYPES >= GEN_6 ? TYPE_FAIRY : TYPE_NORMAL,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Charms the foe and\n""             ""sharply reduces\n""             ""its Attack."""
 Rollout,EFFECT_ROLLOUT,30,TYPE_ROCK,90,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""An attack lasting 5\n""             ""turns with rising\n""             ""intensity."""
 False Swipe,EFFECT_FALSE_SWIPE,60,TYPE_NORMAL,100,40,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,
-Swagger,EFFECT_SWAGGER,0,TYPE_NORMAL,90,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Confuses the foe,\n""             ""but also sharply\n""             ""raises Attack."""
-Milk Drink,EFFECT_SOFTBOILED,0,TYPE_NORMAL,0,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Recovers up to half\n""             ""the user's maximum\n""             ""HP."""
+Swagger,EFFECT_SWAGGER,0,TYPE_NORMAL,B_UPDATED_MOVE_DATA >= GEN_7 ? 85 : 90,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Confuses the foe,\n""             ""but also sharply\n""             ""raises Attack."""
+Milk Drink,EFFECT_SOFTBOILED,0,TYPE_NORMAL,0,B_UPDATED_MOVE_DATA >= GEN_9 ? 5 : 10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Recovers up to half\n""             ""the user's maximum\n""             ""HP."""
 Spark,EFFECT_HIT,65,TYPE_ELECTRIC,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_PARALYSIS","""An electrified\n""             ""tackle that may\n""             ""paralyze the foe."""
 Fury Cutter,EFFECT_FURY_CUTTER,25,TYPE_BUG,95,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""An attack that\n""             ""intensifies on\n""             ""each successive\n""             ""hit."""
@@ -293,7 +295,7 @@ Rapid Spin,EFFECT_RAPID_SPIN,50,TYPE_NORMAL,100,40,MOVE_TARGET_SELECTED,0,DAMAGE
         #if B_SPEED_BUFFING_RAPID_SPIN >= GEN_8
             {
                 .moveEffect = MOVE_EFFECT_SPD_PLUS_1","""Spins the body at\n""             ""high speed to\n""             ""strike the foe."""
-Sweet Scent,EFFECT_EVASION_DOWN,0,TYPE_NORMAL,100,20,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_STATUS,,"""Allures the foe to \n""             ""reduce evasiveness\n""             ""."""
+Sweet Scent,B_UPDATED_MOVE_DATA >= GEN_6 ? EFFECT_EVASION_DOWN_2 : EFFECT_EVASION_DOWN,0,TYPE_NORMAL,100,20,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_STATUS,,"""Allures the foe to \n""             ""reduce evasiveness\n""             ""."""
 Iron Tail,EFFECT_HIT,100,TYPE_STEEL,85,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_DEF_MINUS_2","""Attacks with a\n""             ""rock-hard tail.\n""             ""May lower Defense."""
 Metal Claw,EFFECT_HIT,50,TYPE_STEEL,100,35,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
@@ -301,8 +303,8 @@ Metal Claw,EFFECT_HIT,50,TYPE_STEEL,100,35,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGOR
 Vital Throw,EFFECT_HIT,70,TYPE_FIGHTING,0,10,MOVE_TARGET_SELECTED,-1,DAMAGE_CATEGORY_PHYSICAL,,"""Makes the user's\n""             ""move last, but it\n""             ""never misses."""
 Morning Sun,EFFECT_MORNING_SUN,0,TYPE_NORMAL,0,5,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Restores HP. The\n""             ""amount varies with\n""             ""the weather."""
 Synthesis,EFFECT_SYNTHESIS,0,TYPE_GRASS,0,5,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Restores HP. The\n""             ""amount varies with\n""             ""the weather."""
-Moonlight,EFFECT_MOONLIGHT,0,TYPE_NORMAL,0,5,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Restores HP. The\n""             ""amount varies with\n""             ""the weather."""
-Hidden Power,EFFECT_HIDDEN_POWER,1,TYPE_NORMAL,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""The effectiveness\n""             ""varies with the\n""             ""user."""
+Moonlight,EFFECT_MOONLIGHT,0,B_UPDATED_MOVE_TYPES >= GEN_6 ? TYPE_FAIRY : TYPE_NORMAL,0,5,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Restores HP. The\n""             ""amount varies with\n""             ""the weather."""
+Hidden Power,EFFECT_HIDDEN_POWER,B_HIDDEN_POWER_DMG >= GEN_6 ? 60 : 1,TYPE_NORMAL,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""The effectiveness\n""             ""varies with the\n""             ""user."""
 Cross Chop,EFFECT_HIT,100,TYPE_FIGHTING,95,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A double-chopping\n""             ""attack. High\n""             ""critical-hit ratio."""
 Twister,EFFECT_HIT,40,TYPE_DRAGON,100,20,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""Whips up a vicious\n""             ""twister to tear at\n""             ""the foe."""
@@ -312,39 +314,39 @@ Crunch,EFFECT_HIT,80,TYPE_DARK,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHY
             .moveEffect = MOVE_EFFECT_DEF_MINUS_1","""Crunches with\n""             ""sharp fangs.\n""             ""May lower Defense."""
 Mirror Coat,EFFECT_MIRROR_COAT,1,TYPE_PSYCHIC,100,20,MOVE_TARGET_DEPENDS,-5,DAMAGE_CATEGORY_SPECIAL,,"""Counters the foe's\n""             ""special attack at\n""             ""double the power."""
 Psych Up,EFFECT_PSYCH_UP,0,TYPE_NORMAL,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Copies the foe's\n""             ""effect(s) and\n""             ""gives to the user."""
-Extreme Speed,EFFECT_HIT,80,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,1,DAMAGE_CATEGORY_PHYSICAL,,"""An extremely fast\n""             ""and powerful\n""             ""attack."""
+Extreme Speed,EFFECT_HIT,80,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,B_UPDATED_MOVE_DATA >= GEN_5 ? 2 : 1,DAMAGE_CATEGORY_PHYSICAL,,"""An extremely fast\n""             ""and powerful\n""             ""attack."""
 Ancient Power,EFFECT_HIT,60,TYPE_ROCK,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_ALL_STATS_UP","""An attack that may\n""             ""raise all stats."""
 Shadow Ball,EFFECT_HIT,95,TYPE_GHOST,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_DEF_MINUS_1","""Hurls a black blob\n""             ""that may lower the\n""             ""foe's Sp. Def."""
-Future Sight,EFFECT_FUTURE_SIGHT,80,TYPE_PSYCHIC,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Heightens inner\n""             ""power to strike 2\n""             ""turns later."""
-Rock Smash,EFFECT_HIT,65,TYPE_FIGHTING,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Future Sight,EFFECT_FUTURE_SIGHT,80,TYPE_PSYCHIC,100,B_UPDATED_MOVE_DATA >= GEN_5 ? 10 : 15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Heightens inner\n""             ""power to strike 2\n""             ""turns later."""
+Rock Smash,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_4 ? 65 : 20,TYPE_FIGHTING,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_DEF_MINUS_1","""A rock-crushing\n""             ""attack that may\n""             ""lower Defense."""
 Whirlpool,EFFECT_HIT,35,TYPE_WATER,90,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_WRAP","""Traps and hurts the\n""             ""foe in a whirlpool\n""             ""for 2 to 5\n""             ""turns."""
 Beat Up,EFFECT_BEAT_UP,30,TYPE_DARK,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Summons party\n""             ""Pokémon to join in\n""             ""the attack."""
-Fake Out,EFFECT_FIRST_TURN_ONLY,40,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,1,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Fake Out,EFFECT_FIRST_TURN_ONLY,40,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,B_UPDATED_MOVE_DATA >= GEN_5 ? 3 : 1,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""A 1st-turn, 1st-\n""             ""strike move that\n""             ""causes flinching."""
-Uproar,EFFECT_UPROAR,50,TYPE_NORMAL,100,10,MOVE_TARGET_RANDOM,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Uproar,EFFECT_UPROAR,B_UPDATED_MOVE_DATA >= GEN_5 ? 90 : 50,TYPE_NORMAL,100,10,MOVE_TARGET_RANDOM,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_UPROAR","""Causes an uproar\n""             ""for 2 to 5 turns\n""             ""and prevents sleep."""
-Stockpile,EFFECT_STOCKPILE,0,TYPE_NORMAL,0,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Charges up power\n""             ""for up to 3 turns."""
-Spit Up,EFFECT_SPIT_UP,100,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Releases stockpiled\n""             ""power (the more\n""             ""the better)."""
+Stockpile,EFFECT_STOCKPILE,0,TYPE_NORMAL,0,B_UPDATED_MOVE_DATA >= GEN_4 ? 20 : 10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Charges up power\n""             ""for up to 3 turns."""
+Spit Up,EFFECT_SPIT_UP,B_UPDATED_MOVE_DATA >= GEN_4 ? 1 : 100,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Releases stockpiled\n""             ""power (the more\n""             ""the better)."""
 Swallow,EFFECT_SWALLOW,0,TYPE_NORMAL,0,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Absorbs stockpiled\n""             ""power and restores\n""             ""HP."""
-Heat Wave,EFFECT_HIT,95,TYPE_FIRE,100,10,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Heat Wave,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 95 : 110,TYPE_FIRE,100,10,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_BURN","""Exhales a hot\n""             ""breath on the foe.\n""             ""May inflict a burn."""
 Hail,EFFECT_HAIL,0,TYPE_ICE,0,10,MOVE_TARGET_ALL_BATTLERS,0,DAMAGE_CATEGORY_STATUS,,"""Summons a snowstorm\n""                 ""that lasts for\n""                 ""five turns.""                               ""Summons a hailstorm\n""                 ""that strikes every\n""                 ""turn."""
 Torment,EFFECT_TORMENT,0,TYPE_DARK,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Torments the foe.\n""             ""Stops successive\n""             ""use of a move."""
 Flatter,EFFECT_FLATTER,0,TYPE_DARK,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Confuses the foe,\n""             ""but raises its Sp.\n""             ""Atk."""
-Will-O-Wisp,EFFECT_WILL_O_WISP,0,TYPE_FIRE,75,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Inflicts a burn on\n""             ""the foe with\n""             ""intense fire."""
+Will-O-Wisp,EFFECT_WILL_O_WISP,0,TYPE_FIRE,B_UPDATED_MOVE_DATA >= GEN_6 ? 85 : 75,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Inflicts a burn on\n""             ""the foe with\n""             ""intense fire."""
 Memento,EFFECT_MEMENTO,0,TYPE_DARK,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""The user faints and\n""             ""lowers the foe's\n""             ""abilities."""
 Facade,EFFECT_FACADE,70,TYPE_NORMAL,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Boosts Attack when\n""             ""burned, paralyzed,\n""             ""or poisoned."""
 Focus Punch,EFFECT_FOCUS_PUNCH,150,TYPE_FIGHTING,100,20,MOVE_TARGET_SELECTED,-3,DAMAGE_CATEGORY_PHYSICAL,,"""A powerful loyalty\n""             ""attack. The user\n""             ""flinches if hit."""
-Smelling Salts,EFFECT_DOUBLE_POWER_ON_ARG_STATUS,60,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Powerful against\n""             ""paralyzed foes,\n""             ""but also heals\n""             ""them."""
-Follow Me,EFFECT_FOLLOW_ME,0,TYPE_NORMAL,100,20,MOVE_TARGET_USER,3,DAMAGE_CATEGORY_STATUS,,"""Draws attention to\n""             ""make foes attack\n""             ""only the user."""
+Smelling Salts,EFFECT_DOUBLE_POWER_ON_ARG_STATUS,B_UPDATED_MOVE_DATA >= GEN_6 ? 70 : 60,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Powerful against\n""             ""paralyzed foes,\n""             ""but also heals\n""             ""them."""
+Follow Me,EFFECT_FOLLOW_ME,0,TYPE_NORMAL,100,20,MOVE_TARGET_USER,B_UPDATED_MOVE_DATA >= GEN_6 ? 2 : 3,DAMAGE_CATEGORY_STATUS,,"""Draws attention to\n""             ""make foes attack\n""             ""only the user."""
 Nature Power,EFFECT_NATURE_POWER,1,TYPE_NORMAL,0,20,MOVE_TARGET_DEPENDS,0,DAMAGE_CATEGORY_STATUS,,"""The type of attack\n""             ""varies depending\n""             ""on the location."""
 Charge,EFFECT_CHARGE,0,TYPE_ELECTRIC,100,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Charges power to\n""             ""boost the electric\n""             ""move used next."""
 Taunt,EFFECT_TAUNT,0,TYPE_DARK,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Taunts the foe into\n""             ""only using attack\n""             ""moves."""
-Helping Hand,EFFECT_HELPING_HAND,0,TYPE_NORMAL,100,20,MOVE_TARGET_ALLY,5,DAMAGE_CATEGORY_STATUS,,"""Boosts the power of\n""             ""the recipient's\n""             ""moves."""
+Helping Hand,EFFECT_HELPING_HAND,0,TYPE_NORMAL,100,20,B_UPDATED_MOVE_DATA >= GEN_4 ? MOVE_TARGET_ALLY : MOVE_TARGET_USER,5,DAMAGE_CATEGORY_STATUS,,"""Boosts the power of\n""             ""the recipient's\n""             ""moves."""
 Trick,EFFECT_TRICK,0,TYPE_PSYCHIC,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Tricks the foe into\n""             ""trading held\n""             ""items."""
 Role Play,EFFECT_ROLE_PLAY,0,TYPE_PSYCHIC,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Mimics the target\n""             ""and copies its\n""             ""special ability."""
 Wish,EFFECT_WISH,0,TYPE_NORMAL,0,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""A wish that\n""             ""restores HP. It\n""             ""takes time to work."""
@@ -368,10 +370,10 @@ Grudge,EFFECT_GRUDGE,0,TYPE_GHOST,100,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STAT
 Snatch,EFFECT_SNATCH,0,TYPE_DARK,100,10,MOVE_TARGET_DEPENDS,4,DAMAGE_CATEGORY_STATUS,,"""Steals the effects\n""             ""of the move the\n""             ""target uses next."""
 Secret Power,EFFECT_HIT,70,TYPE_NORMAL,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SECRET_POWER","""An attack with\n""             ""effects that vary\n""             ""by location."""
-Dive,EFFECT_SEMI_INVULNERABLE,85,TYPE_WATER,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Dives underwater\n""             ""the first turn and\n""             ""strikes next turn."""
+Dive,EFFECT_SEMI_INVULNERABLE,B_UPDATED_MOVE_DATA >= GEN_4 ? 85 : 60,TYPE_WATER,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Dives underwater\n""             ""the first turn and\n""             ""strikes next turn."""
 Arm Thrust,EFFECT_MULTI_HIT,18,TYPE_FIGHTING,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Straight-arm\n""             ""punches\n""             ""that strike the\n""             ""foe 2 to 5 times."""
 Camouflage,EFFECT_CAMOUFLAGE,0,TYPE_NORMAL,100,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Alters the\n""             ""Pokémon's type\n""             ""depending on\n""             ""the location."""
-Tail Glow,EFFECT_SPECIAL_ATTACK_UP_2,0,TYPE_BUG,0,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Flashes a light\n""             ""that sharply raises\n""             ""Sp. Atk."""
+Tail Glow,B_UPDATED_MOVE_DATA >= GEN_5 ? EFFECT_SPECIAL_ATTACK_UP_3 : EFFECT_SPECIAL_ATTACK_UP_2,0,TYPE_BUG,0,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Flashes a light\n""             ""that sharply raises\n""             ""Sp. Atk."""
 Luster Purge,EFFECT_HIT,95,TYPE_PSYCHIC,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_DEF_MINUS_1","""Attacks with a\n""             ""burst of light.\n""             ""May lower Sp. Def."""
 Mist Ball,EFFECT_HIT,95,TYPE_PSYCHIC,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
@@ -384,7 +386,7 @@ Mud Sport,EFFECT_MUD_SPORT,0,TYPE_GROUND,100,15,MOVE_TARGET_ALL_BATTLERS,0,DAMAG
 Ice Ball,EFFECT_ROLLOUT,30,TYPE_ICE,90,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A 5-turn attack\n""             ""that gains power\n""             ""on successive hits."""
 Needle Arm,EFFECT_HIT,75,TYPE_GRASS,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""Attacks with thorny\n""             ""arms. May cause\n""             ""flinching."""
-Slack Off,EFFECT_RESTORE_HP,0,TYPE_NORMAL,100,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Slacks off and\n""             ""restores half the\n""             ""maximum HP."""
+Slack Off,EFFECT_RESTORE_HP,0,TYPE_NORMAL,100,B_UPDATED_MOVE_DATA >= GEN_9 ? 5 : 10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Slacks off and\n""             ""restores half the\n""             ""maximum HP."""
 Hyper Voice,EFFECT_HIT,100,TYPE_NORMAL,100,10,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,,"""A loud attack that\n""             ""uses sound waves\n""             ""to injure."""
 Poison Fang,EFFECT_HIT,65,TYPE_POISON,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_TOXIC","""A sharp-fanged\n""             ""attack. May badly\n""             ""poison the foe."""
@@ -394,7 +396,7 @@ Blast Burn,EFFECT_HIT,150,TYPE_FIRE,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_
             .moveEffect = MOVE_EFFECT_RECHARGE","""Powerful, but\n""             ""leaves the user\n""             ""immobile the next\n""             ""turn."""
 Hydro Cannon,EFFECT_HIT,150,TYPE_WATER,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_RECHARGE","""Powerful, but\n""             ""leaves the user\n""             ""immobile the next\n""             ""turn."""
-Meteor Mash,EFFECT_HIT,100,TYPE_STEEL,85,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Meteor Mash,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 90 : 100,TYPE_STEEL,B_UPDATED_MOVE_DATA >= GEN_6 ? 90 : 85,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_ATK_PLUS_2","""Fires a meteor-like\n""             ""punch. May raise\n""             ""Attack."""
 Astonish,EFFECT_HIT,45,TYPE_GHOST,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""An attack that may\n""             ""shock the foe into\n""             ""flinching."""
@@ -402,9 +404,9 @@ Weather Ball,EFFECT_WEATHER_BALL,75,TYPE_NORMAL,100,20,MOVE_TARGET_SELECTED,0,DA
 Aromatherapy,EFFECT_HEAL_BELL,0,TYPE_GRASS,0,5,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Heals all status\n""             ""problems with a\n""             ""soothing scent."""
 Fake Tears,EFFECT_SPECIAL_DEFENSE_DOWN_2,0,TYPE_DARK,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Feigns crying to\n""             ""sharply lower the\n""             ""foe's Sp. Def."""
 Air Cutter,EFFECT_HIT,65,TYPE_FLYING,95,25,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,,"""Hacks with\n""             ""razorlike wind.\n""             ""High crit ratio."""
-Overheat,EFFECT_HIT,140,TYPE_FIRE,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Overheat,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 130 : 140,TYPE_FIRE,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_ATK_MINUS_2","""Allows a full-power\n""             ""attack, but\n""             ""sharply lowers\n""             ""Sp. Atk."""
-Odor Sleuth,EFFECT_FORESIGHT,0,TYPE_NORMAL,0,40,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Negates the foe's\n""             ""efforts to heighten\n""             ""evasiveness."""
+Odor Sleuth,EFFECT_FORESIGHT,0,TYPE_NORMAL,B_UPDATED_MOVE_DATA >= GEN_4 ? 0 : 100,40,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Negates the foe's\n""             ""efforts to heighten\n""             ""evasiveness."""
 Rock Tomb,EFFECT_HIT,60,TYPE_ROCK,95,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SPD_MINUS_1","""Stops the foe from\n""             ""moving with rocks\n""             ""and cuts Speed."""
 Silver Wind,EFFECT_HIT,60,TYPE_BUG,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
@@ -417,20 +419,20 @@ Water Spout,EFFECT_POWER_BASED_ON_USER_HP,150,TYPE_WATER,100,5,MOVE_TARGET_BOTH,
 Signal Beam,EFFECT_HIT,95,TYPE_BUG,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_CONFUSION","""A strange beam\n""             ""attack that may\n""             ""confuse the foe."""
 Shadow Punch,EFFECT_HIT,75,TYPE_GHOST,0,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""An unavoidable\n""             ""punch that is\n""             ""thrown from\n""             ""shadows."""
-Extrasensory,EFFECT_HIT,80,TYPE_PSYCHIC,100,30,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Extrasensory,EFFECT_HIT,80,TYPE_PSYCHIC,100,B_UPDATED_MOVE_DATA >= GEN_6 ? 20 : 30,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""Attacks with a\n""             ""peculiar power.\n""             ""May cause\n""             ""flinching."""
 Sky Uppercut,EFFECT_HIT,85,TYPE_FIGHTING,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""An uppercut thrown\n""             ""as if leaping into\n""             ""the sky."""
 Sand Tomb,EFFECT_HIT,35,TYPE_GROUND,90,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_WRAP","""Traps and hurts the\n""             ""foe in quicksand\n""             ""for 2 to 5\n""             ""turns."""
 Sheer Cold,EFFECT_OHKO,1,TYPE_ICE,30,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""A chilling attack\n""             ""that causes\n""             ""fainting if it\n""             ""hits."""
-Muddy Water,EFFECT_HIT,95,TYPE_WATER,90,10,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Muddy Water,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 90 : 95,TYPE_WATER,90,10,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_ACC_MINUS_1","""Attacks with muddy\n""             ""water. May lower\n""             ""accuracy."""
 Bullet Seed,EFFECT_MULTI_HIT,22,TYPE_GRASS,100,30,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Shoots 2 to 5 seeds\n""             ""in a row to strike\n""             ""the foe."""
 Aerial Ace,EFFECT_HIT,70,TYPE_FLYING,0,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""An extremely speedy\n""             ""and unavoidable\n""             ""attack."""
 Icicle Spear,EFFECT_MULTI_HIT,22,TYPE_ICE,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Attacks the foe by\n""             ""firing 2 to 5\n""             ""icicles in a row."""
 Iron Defense,EFFECT_DEFENSE_UP_2,0,TYPE_STEEL,0,15,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Hardens the body's\n""             ""surface to sharply\n""             ""raise Defense."""
 Block,EFFECT_MEAN_LOOK,0,TYPE_NORMAL,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Blocks the foe's\n""             ""way to prevent\n""             ""escape."""
-Howl,EFFECT_ATTACK_UP,0,TYPE_NORMAL,0,40,"MOVE_TARGET_USER, // Targeting is handled through the script
+Howl,B_UPDATED_MOVE_DATA >= GEN_8 ? EFFECT_ATTACK_UP_USER_ALLY : EFFECT_ATTACK_UP,0,TYPE_NORMAL,0,40,"MOVE_TARGET_USER, // Targeting is handled through the script
         .priority = 0",0,DAMAGE_CATEGORY_STATUS,,"""Howls to raise the\n""             ""spirit and boosts\n""             ""Attack."""
 Dragon Claw,EFFECT_HIT,80,TYPE_DRAGON,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Slashes the foe\n""             ""with sharp claws."""
 Frenzy Plant,EFFECT_HIT,150,TYPE_GRASS,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
@@ -441,22 +443,23 @@ Mud Shot,EFFECT_HIT,55,TYPE_GROUND,95,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_
             .moveEffect = MOVE_EFFECT_SPD_MINUS_1","""Hurls mud at the\n""             ""foe and reduces\n""             ""Speed."""
 Poison Tail,EFFECT_HIT,65,TYPE_POISON,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_POISON","""Has a high\n""             ""critical-hit\n""             ""ratio. May\n""             ""also poison."""
-Covet,EFFECT_HIT,60,TYPE_NORMAL,100,40,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Covet,EFFECT_HIT,60,TYPE_NORMAL,100,B_UPDATED_MOVE_DATA >= GEN_6 ? 25 : 40,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_STEAL_ITEM","""Cutely begs to\n""             ""obtain an item\n""             ""held by the foe."""
 Volt Tackle,EFFECT_HIT,120,TYPE_ELECTRIC,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A life-risking\n""             ""tackle\n""             ""that slightly\n""             ""hurts the user."""
 Magical Leaf,EFFECT_HIT,60,TYPE_GRASS,0,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Attacks with a\n""             ""strange leaf that\n""             ""cannot be evaded."""
 Water Sport,EFFECT_WATER_SPORT,0,TYPE_WATER,100,15,MOVE_TARGET_ALL_BATTLERS,0,DAMAGE_CATEGORY_STATUS,,"""The user becomes\n""             ""soaked to raise\n""             ""resistance to fire."""
 Calm Mind,EFFECT_CALM_MIND,0,TYPE_PSYCHIC,0,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Raises Sp. Atk and\n""             ""Sp. Def by\n""             ""focusing the mind."""
-Leaf Blade,EFFECT_HIT,90,TYPE_GRASS,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Slashes with a\n""             ""sharp leaf. High\n""             ""critical-hit ratio."""
+Leaf Blade,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_4 ? 90 : 70,TYPE_GRASS,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+            .moveEffect = EFFECT_FOCUS_ENERGY","""Slashes with a\n""             ""sharp leaf. High\n""             ""critical-hit ratio."""
 Dragon Dance,EFFECT_DRAGON_DANCE,0,TYPE_DRAGON,0,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""A mystical dance\n""             ""that ups Attack\n""             ""and Speed."""
 Rock Blast,EFFECT_MULTI_HIT,25,TYPE_ROCK,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Hurls boulders at\n""             ""the foe 2 to 5\n""             ""times in a row."""
 Shock Wave,EFFECT_HIT,60,TYPE_ELECTRIC,0,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""A fast and\n""             ""unavoidable\n""             ""electric attack."""
 Water Pulse,EFFECT_HIT,60,TYPE_WATER,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_CONFUSION","""Attacks with\n""             ""ultrasonic waves.\n""             ""May confuse the\n""             ""foe."""
-Doom Desire,EFFECT_FUTURE_SIGHT,120,TYPE_STEEL,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Summons strong\n""             ""sunlight to attack\n""             ""2 turns later."""
+Doom Desire,EFFECT_FUTURE_SIGHT,B_UPDATED_MOVE_DATA >= GEN_5 ? 140 : 120,TYPE_STEEL,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Summons strong\n""             ""sunlight to attack\n""             ""2 turns later."""
 Psycho Boost,EFFECT_HIT,140,TYPE_PSYCHIC,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_ATK_MINUS_2","""Allows a full-power\n""             ""attack, but\n""             ""sharply lowers\n""             ""Sp. Atk."""
-Roost,EFFECT_ROOST,0,TYPE_FLYING,0,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Restores the user's\n""             ""HP by half of its\n""             ""max HP."""
+Roost,EFFECT_ROOST,0,TYPE_FLYING,0,B_UPDATED_MOVE_DATA >= GEN_9 ? 5 : 10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Restores the user's\n""             ""HP by half of its\n""             ""max HP."""
 Gravity,EFFECT_GRAVITY,0,TYPE_PSYCHIC,0,5,MOVE_TARGET_ALL_BATTLERS,0,DAMAGE_CATEGORY_STATUS,,"""Gravity increases\n""             ""negating\n""             ""levitation."""
 Miracle Eye,EFFECT_MIRACLE_EYE,0,TYPE_PSYCHIC,0,40,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Negate evasiveness\n""             ""and Dark-type's\n""             ""immunities."""
 Wake-Up Slap,EFFECT_DOUBLE_POWER_ON_ARG_STATUS,70,TYPE_FIGHTING,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Powerful against\n""             ""sleeping foes, but\n""             ""also heals them."""
@@ -466,11 +469,11 @@ Gyro Ball,EFFECT_GYRO_BALL,1,TYPE_STEEL,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CAT
 Healing Wish,EFFECT_HEALING_WISH,0,TYPE_PSYCHIC,0,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,
 Brine,EFFECT_BRINE,65,TYPE_WATER,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Does double damage\n""             ""to foes with half\n""             ""HP."""
 Natural Gift,EFFECT_NATURAL_GIFT,1,TYPE_NORMAL,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""The effectiveness\n""             ""varies with the\n""             ""held Berry."""
-Feint,EFFECT_HIT,50,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,2,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Feint,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_5 ? 30 : 50,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,2,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FEINT",
 Pluck,EFFECT_HIT,60,TYPE_FLYING,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_BUG_BITE",
-Tailwind,EFFECT_TAILWIND,0,TYPE_FLYING,0,30,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Whips up a\n""             ""turbulent\n""             ""breeze that raises\n""             ""Speed."""
+Tailwind,EFFECT_TAILWIND,0,TYPE_FLYING,0,B_UPDATED_MOVE_DATA >= GEN_6 ? 15 : 30,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Whips up a\n""             ""turbulent\n""             ""breeze that raises\n""             ""Speed."""
 Acupressure,EFFECT_ACUPRESSURE,0,TYPE_NORMAL,0,30,MOVE_TARGET_USER | MOVE_TARGET_ALLY,0,DAMAGE_CATEGORY_STATUS,,"""The user sharply\n""             ""raises one of its\n""             ""stats."""
 Metal Burst,EFFECT_METAL_BURST,1,TYPE_STEEL,100,10,MOVE_TARGET_DEPENDS,0,DAMAGE_CATEGORY_PHYSICAL,,"""Retaliates any hit\n""             ""with greater\n""             ""power."""
 U-turn,EFFECT_HIT_ESCAPE,70,TYPE_BUG,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,
@@ -480,7 +483,7 @@ Payback,EFFECT_PAYBACK,50,TYPE_DARK,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGOR
 Assurance,EFFECT_ASSURANCE,60,TYPE_DARK,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""An attack that\n""             ""gains power if the\n""             ""foe has been hurt."""
 Embargo,EFFECT_EMBARGO,0,TYPE_DARK,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Prevents the foe\n""             ""from using any\n""             ""items."""
 Fling,EFFECT_FLING,1,TYPE_DARK,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""The effectiveness\n""             ""varies with the\n""             ""held item."""
-Psycho Shift,EFFECT_PSYCHO_SHIFT,0,TYPE_PSYCHIC,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Transfers status\n""             ""problems to the\n""             ""foe."""
+Psycho Shift,EFFECT_PSYCHO_SHIFT,0,TYPE_PSYCHIC,B_UPDATED_MOVE_DATA >= GEN_6 ? 100 : 90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Transfers status\n""             ""problems to the\n""             ""foe."""
 Trump Card,EFFECT_TRUMP_CARD,1,TYPE_NORMAL,0,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""The less PP the\n""             ""move has the more\n""             ""damage it does."""
 Heal Block,EFFECT_HEAL_BLOCK,0,TYPE_PSYCHIC,100,15,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_STATUS,,"""Prevents the foe\n""             ""from recovering\n""             ""any HP."""
 Wring Out,EFFECT_POWER_BASED_ON_TARGET_HP,120,TYPE_NORMAL,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,
@@ -492,9 +495,9 @@ Copycat,EFFECT_COPYCAT,0,TYPE_NORMAL,0,20,MOVE_TARGET_DEPENDS,0,DAMAGE_CATEGORY_
 Power Swap,EFFECT_POWER_SWAP,0,TYPE_PSYCHIC,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Swaps changes to\n""             ""Attack and Sp. Atk\n""             ""with the foe."""
 Guard Swap,EFFECT_GUARD_SWAP,0,TYPE_PSYCHIC,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Swaps changes to\n""             ""Defense and Sp. Def\n""             ""Def with the foe."""
 Punishment,EFFECT_PUNISHMENT,60,TYPE_DARK,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Does more damage if\n""             ""the foe has\n""             ""powered up."""
-Last Resort,EFFECT_LAST_RESORT,130,TYPE_NORMAL,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Can only be used if\n""             ""every other move\n""             ""has been used."""
+Last Resort,EFFECT_LAST_RESORT,B_UPDATED_MOVE_DATA >= GEN_5 ? 140 : 130,TYPE_NORMAL,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Can only be used if\n""             ""every other move\n""             ""has been used."""
 Worry Seed,EFFECT_WORRY_SEED,0,TYPE_GRASS,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Plants a seed on\n""             ""the foe giving it\n""             ""Insomnia."""
-Sucker Punch,EFFECT_SUCKER_PUNCH,80,TYPE_DARK,100,10,MOVE_TARGET_SELECTED,1,DAMAGE_CATEGORY_PHYSICAL,,
+Sucker Punch,EFFECT_SUCKER_PUNCH,B_UPDATED_MOVE_DATA >= GEN_7 ? 70 : 80,TYPE_DARK,100,10,MOVE_TARGET_SELECTED,1,DAMAGE_CATEGORY_PHYSICAL,,
 Toxic Spikes,EFFECT_TOXIC_SPIKES,0,TYPE_POISON,0,20,MOVE_TARGET_OPPONENTS_FIELD,0,DAMAGE_CATEGORY_STATUS,,"""Sets spikes that\n""             ""poison a foe\n""             ""switching in."""
 Heart Swap,EFFECT_HEART_SWAP,0,TYPE_PSYCHIC,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Swaps any stat\n""             ""changes with the\n""             ""foe."""
 Aqua Ring,EFFECT_AQUA_RING,0,TYPE_WATER,0,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Forms a veil of\n""             ""water that\n""             ""restores HP."""
@@ -502,7 +505,7 @@ Magnet Rise,EFFECT_MAGNET_RISE,0,TYPE_ELECTRIC,0,10,MOVE_TARGET_USER,0,DAMAGE_CA
 Flare Blitz,EFFECT_RECOIL,120,TYPE_FIRE,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A charge that may\n""             ""burn the foe. Also\n""             ""hurts the user."""
 Force Palm,EFFECT_HIT,60,TYPE_FIGHTING,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_PARALYSIS","""A shock wave attack\n""             ""that may paralyze\n""             ""the foe."""
-Aura Sphere,EFFECT_HIT,90,TYPE_FIGHTING,0,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Attacks with an\n""             ""aura blast that\n""             ""cannot be evaded."""
+Aura Sphere,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 80 : 90,TYPE_FIGHTING,0,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Attacks with an\n""             ""aura blast that\n""             ""cannot be evaded."""
 Rock Polish,EFFECT_SPEED_UP_2,0,TYPE_ROCK,0,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Polishes the body\n""             ""to sharply raise\n""             ""Speed."""
 Poison Jab,EFFECT_HIT,80,TYPE_POISON,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_POISON","""A stabbing attack\n""             ""that may poison\n""             ""the foe."""
@@ -511,20 +514,20 @@ Dark Pulse,EFFECT_HIT,80,TYPE_DARK,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY
 Night Slash,EFFECT_HIT,70,TYPE_DARK,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Hits as soon as\n""             ""possible. High\n""             ""crit ratio."""
 Aqua Tail,EFFECT_HIT,90,TYPE_WATER,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""The user swings\n""             ""its tail like a\n""             ""wave to attack."""
 Seed Bomb,EFFECT_HIT,80,TYPE_GRASS,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A barrage of hard\n""             ""seeds is fired at\n""             ""the foe."""
-Air Slash,EFFECT_HIT,75,TYPE_FLYING,95,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Air Slash,EFFECT_HIT,75,TYPE_FLYING,95,B_UPDATED_MOVE_DATA >= GEN_6 ? 15 : 20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""Attacks with a\n""             ""blade of air. May\n""             ""cause flinching."""
 X-Scissor,EFFECT_HIT,80,TYPE_BUG,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Slashes the foe\n""             ""with crossed\n""             ""scythes, claws,\n""             ""etc."""
 Bug Buzz,EFFECT_HIT,90,TYPE_BUG,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_DEF_MINUS_1","""A damaging sound\n""             ""wave that may\n""             ""lower Sp. Def."""
-Dragon Pulse,EFFECT_HIT,90,TYPE_DRAGON,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Generates a shock\n""             ""wave to damage the\n""             ""foe."""
+Dragon Pulse,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 85 : 90,TYPE_DRAGON,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Generates a shock\n""             ""wave to damage the\n""             ""foe."""
 Dragon Rush,EFFECT_HIT,100,TYPE_DRAGON,75,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""Tackles the foe\n""             ""with menace. May\n""             ""cause flinching."""
-Power Gem,EFFECT_HIT,70,TYPE_ROCK,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Attacks with rays\n""             ""of light that\n""             ""sparkle like\n""             ""diamonds."""
+Power Gem,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 80 : 70,TYPE_ROCK,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Attacks with rays\n""             ""of light that\n""             ""sparkle like\n""             ""diamonds."""
 Drain Punch,EFFECT_ABSORB,75,TYPE_FIGHTING,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,
 Vacuum Wave,EFFECT_HIT,40,TYPE_FIGHTING,100,30,MOVE_TARGET_SELECTED,1,DAMAGE_CATEGORY_SPECIAL,,"""Whirls its fists to\n""             ""send a wave that\n""             ""strikes first."""
 Focus Blast,EFFECT_HIT,120,TYPE_FIGHTING,85,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_DEF_MINUS_1","""Attacks at full\n""             ""power. May lower\n""             ""Sp. Def."""
-Energy Ball,EFFECT_HIT,80,TYPE_GRASS,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Energy Ball,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 90 : 80,TYPE_GRASS,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_DEF_MINUS_1","""Draws power from\n""             ""nature to attack.\n""             ""May lower Sp. Def."""
 Brave Bird,EFFECT_RECOIL,120,TYPE_FLYING,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A low altitude\n""             ""charge that also\n""             ""hurts the user."""
 Earth Power,EFFECT_HIT,90,TYPE_GROUND,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
@@ -557,13 +560,13 @@ Rock Climb,EFFECT_HIT,90,TYPE_ROCK,90,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_
             .moveEffect = MOVE_EFFECT_CONFUSION","""A charging attack\n""             ""that may confuse\n""             ""the foe."""
 Defog,EFFECT_DEFOG,0,TYPE_FLYING,0,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Removes obstacles\n""             ""and lowers\n""             ""evasion."""
 Trick Room,EFFECT_TRICK_ROOM,0,TYPE_PSYCHIC,0,5,MOVE_TARGET_ALL_BATTLERS,-7,DAMAGE_CATEGORY_STATUS,,"""Slower Pokémon get\n""             ""to move first for\n""             ""5 turns."""
-Draco Meteor,EFFECT_HIT,140,TYPE_DRAGON,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Draco Meteor,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 130 : 140,TYPE_DRAGON,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_ATK_MINUS_2","""Casts comets onto\n""             ""the foe. Harshly\n""             ""lowers the Sp. Atk."""
 Discharge,EFFECT_HIT,80,TYPE_ELECTRIC,100,15,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_PARALYSIS","""Zaps the foes with\n""             ""electricity. May\n""             ""paralyze them."""
 Lava Plume,EFFECT_HIT,80,TYPE_FIRE,100,15,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_BURN",
-Leaf Storm,EFFECT_HIT,140,TYPE_GRASS,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Leaf Storm,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 130 : 140,TYPE_GRASS,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_ATK_MINUS_2","""Whips up a storm of\n""             ""leaves. Harshly\n""             ""lowers the Sp. Atk."""
 Power Whip,EFFECT_HIT,120,TYPE_GRASS,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Violently lashes\n""             ""the foe with vines\n""             ""or tentacles."""
 Rock Wrecker,EFFECT_HIT,150,TYPE_ROCK,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
@@ -579,7 +582,7 @@ Stone Edge,EFFECT_HIT,100,TYPE_ROCK,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY
 Captivate,EFFECT_CAPTIVATE,0,TYPE_NORMAL,100,20,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_STATUS,,"""Makes the opposite\n""             ""gender sharply\n""             ""reduce its Sp. Atk."""
 Stealth Rock,EFFECT_STEALTH_ROCK,0,TYPE_ROCK,0,20,MOVE_TARGET_OPPONENTS_FIELD,0,DAMAGE_CATEGORY_STATUS,,"""Sets floating\n""             ""stones that hurt a\n""             ""foe switching in."""
 Grass Knot,EFFECT_LOW_KICK,1,TYPE_GRASS,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""A snare attack that\n""             ""does more damage\n""             ""to heavier foes."""
-Chatter,EFFECT_HIT,60,TYPE_FLYING,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Chatter,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 65 : 60,TYPE_FLYING,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_CONFUSION","""Attacks with a\n""             ""sound wave that\n""             ""causes confusion."""
 Judgment,EFFECT_CHANGE_TYPE_ON_ITEM,100,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""The type varies\n""             ""with the kind of\n""             ""Plate held."""
 Bug Bite,EFFECT_HIT,60,TYPE_BUG,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
@@ -598,9 +601,9 @@ Roar of Time,EFFECT_HIT,150,TYPE_DRAGON,90,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEG
 Spacial Rend,EFFECT_HIT,100,TYPE_DRAGON,95,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Tears the foe, and\n""             ""space. High\n""             ""crit ratio."""
 Lunar Dance,EFFECT_HEALING_WISH,0,TYPE_PSYCHIC,0,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,
 Crush Grip,EFFECT_POWER_BASED_ON_TARGET_HP,120,TYPE_NORMAL,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,
-Magma Storm,EFFECT_HIT,120,TYPE_FIRE,85,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Magma Storm,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 100 : 120,TYPE_FIRE,B_UPDATED_MOVE_DATA >= GEN_5 ? 75 : 85,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_WRAP","""Traps the foe in a\n""             ""vortex of fire for\n""             ""2 to 5 turns."""
-Dark Void,EFFECT_DARK_VOID,0,TYPE_DARK,80,10,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_STATUS,,"""Drags the foe into\n""             ""total darkness,\n""             ""inducing Sleep."""
+Dark Void,EFFECT_DARK_VOID,0,TYPE_DARK,B_UPDATED_MOVE_DATA >= GEN_7 ? 50 : 80,10,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_STATUS,,"""Drags the foe into\n""             ""total darkness,\n""             ""inducing Sleep."""
 Seed Flare,EFFECT_HIT,120,TYPE_GRASS,85,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_DEF_MINUS_2","""Generates a shock\n""             ""wave that sharply\n""             ""reduces Sp. Def."""
 Ominous Wind,EFFECT_HIT,60,TYPE_GHOST,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
@@ -610,29 +613,29 @@ Hone Claws,EFFECT_ATTACK_ACCURACY_UP,0,TYPE_DARK,0,15,MOVE_TARGET_USER,0,DAMAGE_
 Wide Guard,EFFECT_PROTECT,0,TYPE_ROCK,0,10,MOVE_TARGET_USER,3,DAMAGE_CATEGORY_STATUS,,"""Evades wide-ranging\n""             ""attacks for one\n""             ""turn."""
 Guard Split,EFFECT_GUARD_SPLIT,0,TYPE_PSYCHIC,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Averages changes to\n""             ""Defense and Sp. Def\n""             ""Def with the foe."""
 Power Split,EFFECT_POWER_SPLIT,0,TYPE_PSYCHIC,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Averages changes to\n""             ""Attack and Sp. Atk\n""             ""with the foe."""
-Wonder Room,EFFECT_WONDER_ROOM,0,TYPE_PSYCHIC,0,10,MOVE_TARGET_ALL_BATTLERS,-7,DAMAGE_CATEGORY_STATUS,,"""Defense and Sp. Def\n""             ""stats are swapped\n""             ""for 5 turns."""
+Wonder Room,EFFECT_WONDER_ROOM,0,TYPE_PSYCHIC,0,10,MOVE_TARGET_ALL_BATTLERS,B_UPDATED_MOVE_DATA >= GEN_6 ? 0 : -7,DAMAGE_CATEGORY_STATUS,,"""Defense and Sp. Def\n""             ""stats are swapped\n""             ""for 5 turns."""
 Psyshock,EFFECT_PSYSHOCK,80,TYPE_PSYCHIC,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,
 Venoshock,EFFECT_DOUBLE_POWER_ON_ARG_STATUS,65,TYPE_POISON,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Does double damage\n""             ""if the foe is\n""             ""poisoned."""
 Autotomize,EFFECT_AUTOTOMIZE,0,TYPE_STEEL,0,15,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Sheds additional\n""             ""weight to sharply\n""             ""boost Speed."""
-Rage Powder,EFFECT_FOLLOW_ME,0,TYPE_BUG,0,20,MOVE_TARGET_USER,3,DAMAGE_CATEGORY_STATUS,,"""Scatters powder to\n""             ""make foes attack\n""             ""only the user."""
+Rage Powder,EFFECT_FOLLOW_ME,0,TYPE_BUG,0,20,MOVE_TARGET_USER,B_UPDATED_MOVE_DATA >= GEN_6 ? 2 : 3,DAMAGE_CATEGORY_STATUS,,"""Scatters powder to\n""             ""make foes attack\n""             ""only the user."""
 Telekinesis,EFFECT_TELEKINESIS,0,TYPE_PSYCHIC,0,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Makes the foe\n""             ""float. It is easier\n""             ""to hit for 3 turns."""
-Magic Room,EFFECT_MAGIC_ROOM,0,TYPE_PSYCHIC,0,10,MOVE_TARGET_ALL_BATTLERS,-7,DAMAGE_CATEGORY_STATUS,,"""Hold items lose\n""             ""their effects for\n""             ""5 turns."""
+Magic Room,EFFECT_MAGIC_ROOM,0,TYPE_PSYCHIC,0,10,MOVE_TARGET_ALL_BATTLERS,B_UPDATED_MOVE_DATA >= GEN_6 ? 0 : -7,DAMAGE_CATEGORY_STATUS,,"""Hold items lose\n""             ""their effects for\n""             ""5 turns."""
 Smack Down,EFFECT_HIT,50,TYPE_ROCK,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SMACK_DOWN","""Throws a rock to\n""             ""knock the foe down\n""             ""to the ground."""
-Storm Throw,EFFECT_HIT,40,TYPE_FIGHTING,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,
+Storm Throw,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 60 : 40,TYPE_FIGHTING,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,
 Flame Burst,EFFECT_HIT,70,TYPE_FIRE,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLAME_BURST","""A bursting flame\n""             ""that does damage\n""             ""to all foes."""
 Sludge Wave,EFFECT_HIT,95,TYPE_POISON,100,10,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_POISON","""Swamps the foe with\n""             ""a wave of sludge.\n""             ""May also poison."""
 Quiver Dance,EFFECT_QUIVER_DANCE,0,TYPE_BUG,0,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Dances to raise Sp.\n""             ""Atk, Sp. Def and\n""             ""Speed."""
 Heavy Slam,EFFECT_HEAT_CRASH,1,TYPE_STEEL,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,
-Synchronoise,EFFECT_SYNCHRONOISE,70,TYPE_PSYCHIC,100,15,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_SPECIAL,,"""An odd shock wave\n""             ""that only damages\n""             ""same-type foes."""
+Synchronoise,EFFECT_SYNCHRONOISE,B_UPDATED_MOVE_DATA >= GEN_6 ? 120 : 70,TYPE_PSYCHIC,100,B_UPDATED_MOVE_DATA >= GEN_6 ? 10 : 15,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_SPECIAL,,"""An odd shock wave\n""             ""that only damages\n""             ""same-type foes."""
 Electro Ball,EFFECT_ELECTRO_BALL,1,TYPE_ELECTRIC,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Hurls an orb that\n""             ""does more damage\n""             ""to slower foes."""
 Soak,EFFECT_SOAK,0,TYPE_WATER,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Sprays water at the\n""             ""foe making it\n""             ""Water-type."""
 Flame Charge,EFFECT_HIT,50,TYPE_FIRE,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SPD_PLUS_1","""Attacks in a cloak\n""             ""of flames. Raises\n""             ""Speed."""
 Coil,EFFECT_COIL,0,TYPE_POISON,0,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Coils up to raise\n""             ""Attack, Defense\n""             ""and Accuracy."""
-Low Sweep,EFFECT_HIT,60,TYPE_FIGHTING,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Low Sweep,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_6 ? 65 : 60,TYPE_FIGHTING,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SPD_MINUS_1","""Attacks the foe's\n""             ""legs lowering its\n""             ""Speed."""
 Acid Spray,EFFECT_HIT,40,TYPE_POISON,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_DEF_MINUS_2","""Sprays a hide-\n""             ""melting acid.\n""             ""Sharply reduces\n""             ""reduces Sp. Def."""
@@ -648,12 +651,12 @@ Clear Smog,EFFECT_HIT,50,TYPE_POISON,0,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY
             .moveEffect = MOVE_EFFECT_CLEAR_SMOG","""Attacks with white\n""             ""haze that removes\n""             ""all stat changes."""
 Stored Power,EFFECT_STORED_POWER,20,TYPE_PSYCHIC,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""The higher the\n""             ""user's stats the\n""             ""more damage caused."""
 Quick Guard,EFFECT_PROTECT,0,TYPE_FIGHTING,0,15,MOVE_TARGET_USER,3,DAMAGE_CATEGORY_STATUS,,"""Evades priority\n""             ""attacks for one\n""             ""turn."""
-Ally Switch,EFFECT_ALLY_SWITCH,0,TYPE_PSYCHIC,0,15,MOVE_TARGET_USER,1,DAMAGE_CATEGORY_STATUS,,"""The user switches\n""             ""places with its\n""             ""partner."""
+Ally Switch,EFFECT_ALLY_SWITCH,0,TYPE_PSYCHIC,0,15,MOVE_TARGET_USER,B_UPDATED_MOVE_DATA >= GEN_7 ? 2 : 1,DAMAGE_CATEGORY_STATUS,,"""The user switches\n""             ""places with its\n""             ""partner."""
 Scald,EFFECT_HIT,80,TYPE_WATER,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_BURN","""Shoots boiling\n""             ""water at the foe.\n""             ""May inflict a burn."""
 Shell Smash,EFFECT_SHELL_SMASH,0,TYPE_NORMAL,0,15,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Raises offensive\n""             ""stats, but lowers\n""             ""defensive stats."""
 Heal Pulse,EFFECT_HEAL_PULSE,0,TYPE_PSYCHIC,0,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Recovers up to half\n""             ""the target's\n""             ""maximum HP."""
-Hex,EFFECT_DOUBLE_POWER_ON_ARG_STATUS,50,TYPE_GHOST,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Does double damage\n""             ""if the foe has a\n""             ""status problem."""
+Hex,EFFECT_DOUBLE_POWER_ON_ARG_STATUS,B_UPDATED_MOVE_DATA >= GEN_6 ? 65 : 50,TYPE_GHOST,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Does double damage\n""             ""if the foe has a\n""             ""status problem."""
 Sky Drop,EFFECT_SKY_DROP,60,TYPE_FLYING,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Takes the foe into\n""             ""the sky then drops\n""             ""it the next turn."""
 Shift Gear,EFFECT_SHIFT_GEAR,0,TYPE_STEEL,0,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Rotates its gears\n""             ""to raise Attack\n""             ""and Speed."""
 Circle Throw,EFFECT_HIT_SWITCH_TARGET,60,TYPE_FIGHTING,95,10,MOVE_TARGET_SELECTED,-6,DAMAGE_CATEGORY_PHYSICAL,,
@@ -667,9 +670,9 @@ Final Gambit,EFFECT_FINAL_GAMBIT,1,TYPE_FIGHTING,100,5,MOVE_TARGET_SELECTED,0,DA
 Bestow,EFFECT_BESTOW,0,TYPE_NORMAL,0,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""The user gives its\n""             ""held item to the\n""             ""foe."""
 Inferno,EFFECT_HIT,130,TYPE_FIRE,75,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_BURN","""Powerful and sure\n""             ""to inflict a burn,\n""             ""but inaccurate."""
-Water Pledge,EFFECT_PLEDGE,50,TYPE_WATER,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Attacks with a\n""             ""column of water.\n""             ""May make a rainbow."""
-Fire Pledge,EFFECT_PLEDGE,50,TYPE_FIRE,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Attacks with a\n""             ""column of fire.\n""             ""May burn the grass."""
-Grass Pledge,EFFECT_PLEDGE,50,TYPE_GRASS,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Attacks with a\n""             ""column of grass.\n""             ""May create a swamp."""
+Water Pledge,EFFECT_PLEDGE,B_UPDATED_MOVE_DATA >= GEN_6 ? 80 : 50,TYPE_WATER,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Attacks with a\n""             ""column of water.\n""             ""May make a rainbow."""
+Fire Pledge,EFFECT_PLEDGE,B_UPDATED_MOVE_DATA >= GEN_6 ? 80 : 50,TYPE_FIRE,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Attacks with a\n""             ""column of fire.\n""             ""May burn the grass."""
+Grass Pledge,EFFECT_PLEDGE,B_UPDATED_MOVE_DATA >= GEN_6 ? 80 : 50,TYPE_GRASS,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Attacks with a\n""             ""column of grass.\n""             ""May create a swamp."""
 Volt Switch,EFFECT_HIT_ESCAPE,70,TYPE_ELECTRIC,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,
 Struggle Bug,EFFECT_HIT,50,TYPE_BUG,100,20,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_ATK_MINUS_1","""Resisting, the user\n""             ""attacks the foe.\n""             ""Lowers Sp. Atk."""
@@ -686,7 +689,7 @@ Dual Chop,EFFECT_HIT,40,TYPE_DRAGON,90,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY
 Heart Stamp,EFFECT_HIT,60,TYPE_PSYCHIC,100,25,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""A sudden blow after\n""             ""a cute act. May\n""             ""cause flinching."""
 Horn Leech,EFFECT_ABSORB,75,TYPE_GRASS,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,
-Sacred Sword,EFFECT_HIT,90,TYPE_FIGHTING,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,
+Sacred Sword,EFFECT_HIT,90,TYPE_FIGHTING,100,B_UPDATED_MOVE_DATA >= GEN_6 ? 15 : 20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,
 Razor Shell,EFFECT_HIT,75,TYPE_WATER,95,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_DEF_MINUS_1","""Tears at the foe\n""             ""with sharp shells.\n""             ""May lower Defense."""
 Heat Crash,EFFECT_HEAT_CRASH,1,TYPE_FIRE,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,
@@ -699,13 +702,13 @@ Night Daze,EFFECT_HIT,85,TYPE_DARK,95,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_
             .moveEffect = MOVE_EFFECT_ACC_MINUS_1","""Looses a black\n""             ""shock wave.\n""             ""May lower accuracy."""
 Psystrike,EFFECT_PSYSHOCK,100,TYPE_PSYCHIC,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,
 Tail Slap,EFFECT_MULTI_HIT,25,TYPE_NORMAL,85,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Strikes the foe\n""             ""with its tail 2 to\n""             ""5 times."""
-Hurricane,EFFECT_THUNDER,120,TYPE_FLYING,85,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Hurricane,EFFECT_THUNDER,B_UPDATED_MOVE_DATA >= GEN_6 ? 110 : 120,TYPE_FLYING,85,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_CONFUSION","""Traps the foe in a\n""             ""fierce wind. May\n""             ""cause confusion."""
 Head Charge,EFFECT_RECOIL,120,TYPE_NORMAL,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A charge using\n""             ""guard hair. It\n""             ""hurts the user a\n""             ""little."""
 Gear Grind,EFFECT_HIT,50,TYPE_STEEL,85,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Throws two steel\n""             ""gears that strike\n""             ""twice."""
 Searing Shot,EFFECT_HIT,100,TYPE_FIRE,100,5,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_BURN",
-Techno Blast,EFFECT_CHANGE_TYPE_ON_ITEM,85,TYPE_NORMAL,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""The type varies\n""             ""with the kind of\n""             ""Drive held."""
+Techno Blast,EFFECT_CHANGE_TYPE_ON_ITEM,B_UPDATED_MOVE_DATA >= GEN_6 ? 120 : 85,TYPE_NORMAL,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""The type varies\n""             ""with the kind of\n""             ""Drive held."""
 Relic Song,EFFECT_RELIC_SONG,75,TYPE_NORMAL,100,10,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,,"""Attacks with an\n""             ""ancient song. May\n""             ""induce sleep."""
 Secret Sword,EFFECT_PSYSHOCK,85,TYPE_FIGHTING,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Cuts with a long\n""             ""horn that does\n""             ""physical damage."""
 Glaciate,EFFECT_HIT,65,TYPE_ICE,95,10,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
@@ -725,7 +728,7 @@ Icicle Crash,EFFECT_HIT,85,TYPE_ICE,95,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY
 V-create,EFFECT_HIT,180,TYPE_FIRE,95,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Very powerful, but\n""             ""lowers Defense,\n""             ""Sp. Def and Speed."""
 Fusion Flare,EFFECT_FUSION_COMBO,100,TYPE_FIRE,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Summons a fireball.\n""             ""Works well with a\n""             ""thunderbolt."""
 Fusion Bolt,EFFECT_FUSION_COMBO,100,TYPE_ELECTRIC,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Sends thunderbolt.\n""             ""Works well with a\n""             ""fireball."""
-Flying Press,EFFECT_TWO_TYPED_MOVE,80,TYPE_FIGHTING,95,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""This attack does\n""             ""Fighting and\n""             ""Flying-type damage."""
+Flying Press,EFFECT_TWO_TYPED_MOVE,B_UPDATED_MOVE_DATA >= GEN_7 ? 100 : 80,TYPE_FIGHTING,95,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""This attack does\n""             ""Fighting and\n""             ""Flying-type damage."""
 Mat Block,EFFECT_MAT_BLOCK,0,TYPE_FIGHTING,0,15,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Evades damaging\n""             ""moves for one\n""             ""turn."""
 Belch,EFFECT_BELCH,120,TYPE_POISON,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Lets out a loud\n""             ""belch. Must eat a\n""             ""Berry to use it."""
 Rototiller,EFFECT_ROTOTILLER,0,TYPE_GROUND,0,10,MOVE_TARGET_ALL_BATTLERS,0,DAMAGE_CATEGORY_STATUS,,"""Ups the Attack and\n""             ""Sp. Atk of Grass-\n""             ""type Pokémon."""
@@ -735,13 +738,13 @@ Phantom Force,EFFECT_SEMI_INVULNERABLE,90,TYPE_GHOST,100,10,MOVE_TARGET_SELECTED
 Trick-or-Treat,EFFECT_THIRD_TYPE,0,TYPE_GHOST,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Goes trick-or-\n""             ""treating making\n""             ""the foe Ghost-type."""
 Noble Roar,EFFECT_NOBLE_ROAR,0,TYPE_NORMAL,100,30,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Intimidates the\n""             ""foe, to cut Attack\n""             ""and Sp. Atk."""
 Ion Deluge,EFFECT_ION_DELUGE,0,TYPE_ELECTRIC,0,25,MOVE_TARGET_ALL_BATTLERS,1,DAMAGE_CATEGORY_STATUS,,"""Electrifies Normal-\n""             ""type moves with\n""             ""charged atoms."""
-Parabolic Charge,EFFECT_ABSORB,50,TYPE_ELECTRIC,100,20,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_SPECIAL,,"""Damages adjacent\n""             ""Pokémon and heals\n""             ""up by half of it."""
+Parabolic Charge,EFFECT_ABSORB,B_UPDATED_MOVE_DATA >= GEN_7 ? 65 : 50,TYPE_ELECTRIC,100,20,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_SPECIAL,,"""Damages adjacent\n""             ""Pokémon and heals\n""             ""up by half of it."""
 Forest's Curse,EFFECT_THIRD_TYPE,0,TYPE_GRASS,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Puts a curse on the\n""             ""foe making the foe\n""             ""Grass-type."""
 Petal Blizzard,EFFECT_HIT,90,TYPE_GRASS,100,15,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_PHYSICAL,,"""Stirs up a violent\n""             ""storm of petals to\n""             ""attack."""
 Freeze-Dry,EFFECT_SUPER_EFFECTIVE_ON_ARG,70,TYPE_ICE,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Super effective\n""             ""on Water-types.\n""             ""May cause freezing."""
 Disarming Voice,EFFECT_HIT,40,TYPE_FAIRY,0,15,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,,"""Lets out a charming\n""             ""cry that cannot be\n""             ""evaded."""
 Parting Shot,EFFECT_PARTING_SHOT,0,TYPE_DARK,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Lowers the foe's\n""             ""Attack and Sp. Atk,\n""             ""Atk, then switches\n""             ""out."""
-Topsy-Turvy,EFFECT_TOPSY_TURVY,0,TYPE_DARK,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Swaps all stat\n""             ""changes that affect\n""             ""target."""
+Topsy-Turvy,EFFECT_TOPSY_TURVY,0,TYPE_DARK,B_UPDATED_MOVE_DATA >= GEN_7 ? 0 : 100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_STATUS,,"""Swaps all stat\n""             ""changes that affect\n""             ""target."""
 Draining Kiss,EFFECT_ABSORB,50,TYPE_FAIRY,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,
 Crafty Shield,EFFECT_PROTECT,0,TYPE_FAIRY,0,10,MOVE_TARGET_USER,3,DAMAGE_CATEGORY_STATUS,,"""Evades status moves\n""             ""for one turn."""
 Flower Shield,EFFECT_FLOWER_SHIELD,0,TYPE_FAIRY,0,10,"MOVE_TARGET_USER, // The targeting of Flower Shield is handled through a script
@@ -765,8 +768,8 @@ Steam Eruption,EFFECT_HIT,110,TYPE_WATER,95,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATE
             .moveEffect = MOVE_EFFECT_BURN","""Immerses the foe in\n""             ""heated steam. May\n""             ""inflict a burn."""
 Hyperspace Hole,EFFECT_HIT,80,TYPE_PSYCHIC,0,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FEINT",
-Water Shuriken,EFFECT_MULTI_HIT,15,TYPE_WATER,100,20,MOVE_TARGET_SELECTED,1,DAMAGE_CATEGORY_PHYSICAL,,"""Throws 2 to 5 stars\n""             ""that are sure to\n""             ""strike first."""
-Mystical Fire,EFFECT_HIT,65,TYPE_FIRE,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Water Shuriken,EFFECT_MULTI_HIT,15,TYPE_WATER,100,20,MOVE_TARGET_SELECTED,1,B_UPDATED_MOVE_DATA >= GEN_7 ? DAMAGE_CATEGORY_SPECIAL : DAMAGE_CATEGORY_PHYSICAL,,"""Throws 2 to 5 stars\n""             ""that are sure to\n""             ""strike first."""
+Mystical Fire,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_7 ? 75 : 65,TYPE_FIRE,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_ATK_MINUS_1","""Breathes a special,\n""             ""hot fire. Lowers\n""             ""Sp. Atk."""
 Spiky Shield,EFFECT_PROTECT,0,TYPE_GRASS,0,10,MOVE_TARGET_USER,4,DAMAGE_CATEGORY_STATUS,,"""Evades attack, and\n""             ""damages the foe if\n""             ""struck."""
 Aromatic Mist,EFFECT_AROMATIC_MIST,0,TYPE_FAIRY,0,20,MOVE_TARGET_ALLY,0,DAMAGE_CATEGORY_STATUS,,"""Raises the Sp. Def\n""             ""of a partner\n""             ""Pokémon."""
@@ -802,7 +805,7 @@ Dragon Ascent,EFFECT_HIT,120,TYPE_FLYING,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CA
 Hyperspace Fury,EFFECT_HYPERSPACE_FURY,100,TYPE_DARK,0,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             // Feint move effect handled in script as it goes before animation
             .moveEffect = MOVE_EFFECT_DEF_MINUS_1",
-Shore Up,EFFECT_SHORE_UP,0,TYPE_GROUND,0,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Restores the user's\n""             ""HP. More HP in a\n""             ""sandstorm."""
+Shore Up,EFFECT_SHORE_UP,0,TYPE_GROUND,0,B_UPDATED_MOVE_DATA >= GEN_9 ? 5 : 10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Restores the user's\n""             ""HP. More HP in a\n""             ""sandstorm."""
 First Impression,EFFECT_FIRST_TURN_ONLY,90,TYPE_BUG,100,10,MOVE_TARGET_SELECTED,2,DAMAGE_CATEGORY_PHYSICAL,,"""Hits hard and\n""             ""first. Only works\n""             ""first turn."""
 Baneful Bunker,EFFECT_PROTECT,0,TYPE_POISON,0,10,MOVE_TARGET_USER,4,DAMAGE_CATEGORY_STATUS,,"""Protects user and\n""             ""poisons foes on\n""             ""contact."""
 Spirit Shackle,EFFECT_HIT,80,TYPE_GHOST,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
@@ -865,31 +868,31 @@ Tearful Look,EFFECT_NOBLE_ROAR,0,TYPE_NORMAL,0,20,MOVE_TARGET_SELECTED,0,DAMAGE_
 Zing Zap,EFFECT_HIT,80,TYPE_ELECTRIC,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""An electrified\n""             ""impact that can\n""             ""cause flinching."""
 Nature's Madness,EFFECT_SUPER_FANG,1,TYPE_FAIRY,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Halves the foe's HP\n""             ""with the power of\n""             ""nature."""
-Multi-Attack,EFFECT_CHANGE_TYPE_ON_ITEM,90,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""An attack that\n""             ""changes with\n""             ""Memories."""
+Multi-Attack,EFFECT_CHANGE_TYPE_ON_ITEM,B_UPDATED_MOVE_DATA >= GEN_8 ? 120 : 90,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""An attack that\n""             ""changes with\n""             ""Memories."""
 Mind Blown,EFFECT_MIND_BLOWN,150,TYPE_FIRE,100,5,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_SPECIAL,,"""It explodes the\n""             ""user's head to\n""             ""damage everything\n""             ""around."""
 Plasma Fists,EFFECT_HIT,100,TYPE_ELECTRIC,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Hits with electrical\n""             ""fists. Normal moves\n""             ""turn Electric."""
 Photon Geyser,EFFECT_PHOTON_GEYSER,100,TYPE_PSYCHIC,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""User's highest\n""             ""attack\n""             ""stat determines\n""             ""its category."""
-Zippy Zap,EFFECT_HIT,50,TYPE_ELECTRIC,100,15,MOVE_TARGET_SELECTED,2,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Zippy Zap,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_8 ? 80 : 50,TYPE_ELECTRIC,100,B_UPDATED_MOVE_DATA >= GEN_8 ? 10 : 15,MOVE_TARGET_SELECTED,2,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_EVS_PLUS_1","""Electric bursts\n""             ""always go first\n""             ""and land a critical\n""             ""hit."""
 Splishy Splash,EFFECT_HIT,90,TYPE_WATER,100,15,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_PARALYSIS","""A huge electrified\n""             ""wave that may\n""             ""paralyze the foe."""
 Floaty Fall,EFFECT_HIT,90,TYPE_FLYING,95,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""Floats in air and\n""             ""dives at\nangle.\n""             ""May cause\n""             ""flinching."""
 Pika Papow,EFFECT_RETURN,1,TYPE_ELECTRIC,0,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Pikachu's love\n""             ""increases\n""             ""its power. It\n""             ""never misses."""
-Bouncy Bubble,EFFECT_ABSORB,90,TYPE_WATER,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""An attack that\n""             ""absorbs half the\n""             ""damage dealt."""
-Buzzy Buzz,EFFECT_HIT,90,TYPE_ELECTRIC,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Bouncy Bubble,EFFECT_ABSORB,B_UPDATED_MOVE_DATA >= GEN_8 ? 60 : 90,TYPE_WATER,100,B_UPDATED_MOVE_DATA >= GEN_8 ? 20 : 15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""An attack that\n""             ""absorbs half the\n""             ""damage dealt."""
+Buzzy Buzz,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_8 ? 60 : 90,TYPE_ELECTRIC,100,B_UPDATED_MOVE_DATA >= GEN_8 ? 20 : 15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_PARALYSIS","""Shoots a jolt of\n""             ""electricity that\n""             ""always paralyzes."""
-Sizzly Slide,EFFECT_HIT,90,TYPE_FIRE,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Sizzly Slide,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_8 ? 60 : 90,TYPE_FIRE,100,B_UPDATED_MOVE_DATA >= GEN_8 ? 20 : 15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_BURN","""User cloaked in fire\n""             ""charges. Leaves the\n""             ""foe with a burn."""
-Glitzy Glow,EFFECT_HIT,90,TYPE_PSYCHIC,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Glitzy Glow,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_8 ? 80 : 90,TYPE_PSYCHIC,B_UPDATED_MOVE_DATA >= GEN_8 ? 95 : 100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_LIGHT_SCREEN","""Telekinetic force\n""             ""that sets wall,\n""             ""lowering Sp. Atk\n""             ""damage."""
-Baddy Bad,EFFECT_HIT,90,TYPE_DARK,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Baddy Bad,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_8 ? 80 : 90,TYPE_DARK,B_UPDATED_MOVE_DATA >= GEN_8 ? 95 : 100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_REFLECT","""Acting badly, attacks.\n""             ""Sets wall, lowering\n""             ""Attack damage."""
-Sappy Seed,EFFECT_HIT,90,TYPE_GRASS,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Sappy Seed,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_8 ? 100 : 90,TYPE_GRASS,B_UPDATED_MOVE_DATA >= GEN_8 ? 90 : 100,B_UPDATED_MOVE_DATA >= GEN_8 ? 10 : 15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_LEECH_SEED","""Giant stalk\n""             ""scatters\n""             ""seeds that drain\n""             ""HP every turn."""
-Freezy Frost,EFFECT_HIT,90,TYPE_ICE,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Freezy Frost,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_8 ? 100 : 90,TYPE_ICE,B_UPDATED_MOVE_DATA >= GEN_8 ? 90 : 100,B_UPDATED_MOVE_DATA >= GEN_8 ? 10 : 15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_HAZE","""Crystal from cold\n""             ""haze\n""             ""hits.Eliminates\n""             ""all stat changes."""
-Sparkly Swirl,EFFECT_HIT,90,TYPE_FAIRY,B_UPDATED_MOVE_DATA >= GEN_8 ? 85 : 100,B_UPDATED_MOVE_DATA >= GEN_8 ? 5 : 15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Sparkly Swirl,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_8 ? 120 : 90,TYPE_FAIRY,B_UPDATED_MOVE_DATA >= GEN_8 ? 85 : 100,B_UPDATED_MOVE_DATA >= GEN_8 ? 5 : 15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_AROMATHERAPY","""Wrap foe with\n""             ""whirlwind\n""             ""of scent. Heals\n""             ""party's status."""
 Veevee Volley,EFFECT_RETURN,1,TYPE_NORMAL,0,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Eevee's love\n""             ""increases\n""             ""its power. It\n""             ""never misses."""
 Double Iron Bash,EFFECT_HIT,60,TYPE_STEEL,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
@@ -948,7 +951,7 @@ Meteor Beam,EFFECT_TWO_TURNS_ATTACK,120,TYPE_ROCK,90,10,MOVE_TARGET_SELECTED,0,D
 Shell Side Arm,EFFECT_SHELL_SIDE_ARM,90,TYPE_POISON,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_POISON","""Deals better of\n""             ""physical\n""             ""and special\n""             ""damage. May poison."""
 Misty Explosion,EFFECT_EXPLOSION,100,TYPE_FAIRY,100,5,MOVE_TARGET_FOES_AND_ALLY,0,DAMAGE_CATEGORY_SPECIAL,,"""Hit everything and\n""             ""faint.Powers up\n""             ""on Misty Terrain."""
-Grassy Glide,EFFECT_GRASSY_GLIDE,70,TYPE_GRASS,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Gliding on ground,\n""             ""hits. Goes first\n""             ""on Grassy Terrain."""
+Grassy Glide,EFFECT_GRASSY_GLIDE,B_UPDATED_MOVE_DATA >= GEN_9 ? 55 : 70,TYPE_GRASS,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Gliding on ground,\n""             ""hits. Goes first\n""             ""on Grassy Terrain."""
 Rising Voltage,EFFECT_RISING_VOLTAGE,70,TYPE_ELECTRIC,100,20,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""This move's power\n""             ""doubles when on\n""             ""Electric Terrain."""
 Terrain Pulse,EFFECT_TERRAIN_PULSE,50,TYPE_NORMAL,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Type and power\n""             ""changes depending\n""             ""on the terrain."""
 Skitter Smack,EFFECT_HIT,70,TYPE_BUG,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
@@ -965,7 +968,7 @@ Dual Wingbeat,EFFECT_HIT,40,TYPE_FLYING,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CAT
 Scorching Sands,EFFECT_HIT,70,TYPE_GROUND,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_BURN","""Throws scorching\n""             ""sand at the\n""             ""target. May leave a\n""             ""burn."""
 Jungle Healing,EFFECT_JUNGLE_HEALING,0,TYPE_GRASS,0,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Heals HP and status\n""             ""of itself and\n""             ""allies in battle."""
-Wicked Blow,EFFECT_HIT,80,TYPE_DARK,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Mastering the Dark\n""             ""style, strikes\n""             ""with a critical\n""             ""hit."""
+Wicked Blow,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_9 ? 75 : 80,TYPE_DARK,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Mastering the Dark\n""             ""style, strikes\n""             ""with a critical\n""             ""hit."""
 Surging Strikes,EFFECT_HIT,25,TYPE_WATER,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Mastering the Water\n""             ""style, strikes\n""             ""with 3 critical\n""             ""hits."""
 Thunder Cage,EFFECT_HIT,80,TYPE_ELECTRIC,90,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_WRAP","""Traps the foe in a cage\n""             ""of electricity for\n""             "" 2 to 5 turns."""
@@ -976,10 +979,10 @@ Fiery Wrath,EFFECT_HIT,90,TYPE_DARK,100,10,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SP
             .moveEffect = MOVE_EFFECT_FLINCH","""An attack fueled by\n""             ""your wrath. May\n""             ""cause flinching."""
 Thunderous Kick,EFFECT_HIT,90,TYPE_FIGHTING,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_DEF_MINUS_1","""Uses a lightning-\n""             ""like kick to hit.\n""             ""Lowers foe's\n""             ""Defense."""
-Glacial Lance,EFFECT_HIT,130,TYPE_ICE,100,5,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_PHYSICAL,,"""Hurls a blizzard-\n""             ""cloaked icicle\n""             ""lance at foes."""
+Glacial Lance,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_9 ? 120 : 130,TYPE_ICE,100,5,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_PHYSICAL,,"""Hurls a blizzard-\n""             ""cloaked icicle\n""             ""lance at foes."""
 Astral Barrage,EFFECT_HIT,120,TYPE_GHOST,100,5,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,,"""Sends a frightful\n""             ""amount of small\n""             ""ghosts at foes."""
 Eerie Spell,EFFECT_HIT,80,TYPE_PSYCHIC,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Attacks with\n""             ""psychic\n""             ""power. Foe's last\n""             ""move has 3 PP cut."""
-Dire Claw,EFFECT_HIT,60,TYPE_POISON,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Dire Claw,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_9 ? 80 : 60,TYPE_POISON,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_DIRE_CLAW","""High critical hit\n""             ""chance.\n""             ""May paralyze,\n""             ""poison or drowse."""
 Psyshield Bash,EFFECT_HIT,70,TYPE_PSYCHIC,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_DEF_PLUS_1","""Hits a foe with\n""             ""psychic energy.\n""             ""May raise Defense."""
@@ -990,29 +993,29 @@ Springtide Storm,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_9 ? 100 : 95,TYPE_FAIRY,8
             .moveEffect = MOVE_EFFECT_ATK_MINUS_1","""Wraps a foe in\n""             ""fierce winds.\n""             ""Varies with the\n""             ""user's form."""
 Mystical Power,EFFECT_HIT,70,TYPE_PSYCHIC,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SP_ATK_PLUS_1","""A mysterious power\n""             ""strikes, raising\n""             ""the user's Sp. Atk."""
-Raging Fury,EFFECT_HIT,90,TYPE_FIRE,100,10,MOVE_TARGET_RANDOM,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Raging Fury,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_9 ? 120 : 90,TYPE_FIRE,100,10,MOVE_TARGET_RANDOM,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_THRASH","""A rampage of 2 to 3\n""             ""turns that confuses\n""             ""the user."""
-Wave Crash,EFFECT_RECOIL,75,TYPE_WATER,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A slam shrouded in\n""             ""water. It also\n""             ""hurts the user."""
-Chloroblast,EFFECT_MAX_HP_50_RECOIL,120,TYPE_GRASS,95,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""A user-hurting\n""             ""blast of amassed\n""             ""chlorophyll."""
+Wave Crash,EFFECT_RECOIL,B_UPDATED_MOVE_DATA >= GEN_9 ? 120 : 75,TYPE_WATER,100,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""A slam shrouded in\n""             ""water. It also\n""             ""hurts the user."""
+Chloroblast,EFFECT_MAX_HP_50_RECOIL,B_UPDATED_MOVE_DATA >= GEN_9 ? 150 : 120,TYPE_GRASS,95,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""A user-hurting\n""             ""blast of amassed\n""             ""chlorophyll."""
 Mountain Gale,EFFECT_HIT,100,TYPE_ICE,85,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_FLINCH","""Giant chunks of ice\n""             ""damage the foe. It\n""             ""may flinch."""
 Victory Dance,EFFECT_VICTORY_DANCE,0,TYPE_FIGHTING,0,20,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""Dances to raise\n""             ""Attack, Defense\n""             ""and Speed."""
-Headlong Rush,EFFECT_HIT,100,TYPE_GROUND,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Headlong Rush,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_9 ? 120 : 100,TYPE_GROUND,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_DEF_SPDEF_DOWN","""Hits with a full-\n""             ""body tackle.\n""             ""Lowers the user's\n""             ""defenses."""
-Barb Barrage,EFFECT_DOUBLE_POWER_ON_ARG_STATUS,60,TYPE_POISON,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Can poison on\n""             ""impact. Powers up\n""             ""against poisoned\n""             ""foes."""
-Esper Wing,EFFECT_HIT,75,TYPE_PSYCHIC,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Barb Barrage,EFFECT_DOUBLE_POWER_ON_ARG_STATUS,60,TYPE_POISON,100,B_UPDATED_MOVE_DATA >= GEN_9 ? 10 : 15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Can poison on\n""             ""impact. Powers up\n""             ""against poisoned\n""             ""foes."""
+Esper Wing,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_9 ? 80 : 75,TYPE_PSYCHIC,B_UPDATED_MOVE_DATA >= GEN_9 ? 100 : 90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SPD_PLUS_1","""High critical hit\n""             ""ratio. Ups the\n""             ""user's Speed."""
-Bitter Malice,EFFECT_HIT,60,TYPE_GHOST,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Bitter Malice,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_9 ? 75 : 60,TYPE_GHOST,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_ATK_MINUS_1","""A spine-chilling\n""             ""resentment. Lowers\n""             ""the foe's Attack."""
 Shelter,EFFECT_DEFENSE_UP_2,0,TYPE_STEEL,0,10,MOVE_TARGET_USER,0,DAMAGE_CATEGORY_STATUS,,"""The user hardens\n""             ""their skin, sharply\n""             ""raising its Defense."""
-Triple Arrows,EFFECT_HIT,50,TYPE_FIGHTING,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
+Triple Arrows,EFFECT_HIT,B_UPDATED_MOVE_DATA >= GEN_9 ? 90 : 50,TYPE_FIGHTING,100,B_UPDATED_MOVE_DATA >= GEN_9 ? 10 : 15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_DEF_MINUS_1","""High critical hit\n""             ""ratio. May lower\n""             ""Defense or flinch."""
 Infernal Parade,EFFECT_DOUBLE_POWER_ON_ARG_STATUS,60,TYPE_GHOST,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_SPECIAL,,"""Hurts a foe harder\n""             ""if it has an\n""             ""ailment. May leave\n""             ""a burn."""
 Ceaseless Edge,EFFECT_HIT,65,TYPE_DARK,90,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SPIKES","""High critical hit\n""             ""ratio.\n""             ""Sets Splinters\n""             ""that hurt the foe."""
 Bleakwind Storm,EFFECT_RAIN_ALWAYS_HIT,120,TYPE_FLYING,85,10,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SPD_MINUS_1","""Hits with brutal,\n""             ""cold winds. May\n""             ""lower the foe's\n""             ""Speed."""
-Wildbolt Storm,EFFECT_RAIN_ALWAYS_HIT,95,TYPE_ELECTRIC,80,5,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
+Wildbolt Storm,EFFECT_RAIN_ALWAYS_HIT,B_UPDATED_MOVE_DATA >= GEN_9 ? 100 : 95,TYPE_ELECTRIC,80,B_UPDATED_MOVE_DATA >= GEN_9 ? 10 : 5,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_PARALYSIS","""Hits with a brutal\n""             ""tempest. May\n""             ""inflict paralysis."""
 Sandsear Storm,EFFECT_RAIN_ALWAYS_HIT,100,TYPE_GROUND,80,10,MOVE_TARGET_BOTH,0,DAMAGE_CATEGORY_SPECIAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_BURN","""Hits with brutally\n""             ""hot sand. May\n""             ""inflict a burn."""
@@ -1035,7 +1038,7 @@ Spin Out,EFFECT_HIT,100,TYPE_STEEL,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_
 Population Bomb,EFFECT_POPULATION_BOMB,20,TYPE_NORMAL,90,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""The user's fellows\n""             ""hit one to ten\n""             ""times in a row."""
 Ice Spinner,EFFECT_HIT_SET_REMOVE_TERRAIN,80,TYPE_ICE,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Ice-covered feet\n""             ""hit a foe and\n""             ""destroy the\n""             ""terrain."""
 Glaive Rush,EFFECT_GLAIVE_RUSH,120,TYPE_DRAGON,100,5,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Foe attacks next\n""             ""turn can't miss\n""             ""and do double\n""             ""damage."""
-Revival Blessing,,0,TYPE_MYSTERY,0,0,,0,,,
+Revival Blessing,,0,,0,0,,0,,,
 Salt Cure,EFFECT_HIT,40,TYPE_ROCK,100,15,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,"ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_SALT_CURE","""Hurts foe every\n""             ""turn.\n""             ""Double damage to\n""             ""Steel and Water."""
 Triple Dive,EFFECT_HIT,30,TYPE_WATER,95,10,MOVE_TARGET_SELECTED,0,DAMAGE_CATEGORY_PHYSICAL,,"""Hits target with\n""             ""splashes of water\n""             ""3 times in a row."""
