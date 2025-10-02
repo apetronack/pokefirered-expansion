@@ -60,6 +60,20 @@
       "dest_warp_id": "1"
     },
     {
+      "x": 32,
+      "y": 14,
+      "elevation": 3,
+      "dest_map": "MAP_SSANNE_1F_CORRIDOR",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 33,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_SSANNE_1F_CORRIDOR",
+      "dest_warp_id": "3"
+    },
+    {
       "x": 33,
       "y": 5,
       "elevation": 0,

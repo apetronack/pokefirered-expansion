@@ -139,19 +139,13 @@ SSAnne_Exterior_EventScript_ReturnToVermilion::
 	waitstate
 	releaseall
 	end
-`
+
 script SSAnne_Exterior_EventScript_BoardShipCheck {
 	lockall
 	if (var(VAR_MAP_SCENE_VERMILION_CITY) >= 3) {
 		goto(SSAnne_Exterior_EventScript_ShipGone)
 	}
-	getplayerxy(VAR_0x8000, VAR_0x8001)
-	if (var(VAR_0x8000) == 32) {
-		warp(MAP_SSANNE_1F_CORRIDOR, 19, 1)  # warp_id 2
-	} else {
-		warp(MAP_SSANNE_1F_CORRIDOR, 20, 0)  # warp_id 3
-	}
-	waitstate
+	# Ship is present, allow boarding - release and let warp happen
 	releaseall
 }
 
