@@ -201,32 +201,32 @@ bool32 FieldMove_IsUnlocked(enum FieldMove fieldMove)
 
 static bool32 FieldMove_IsUnlockedCut(void)
 {
-    return FlagGet(FLAG_BADGE02_GET);
+    return FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_GOT_HM01);
 }
 
 static bool32 FieldMove_IsUnlockedFly(void)
 {
-    return FlagGet(FLAG_BADGE03_GET);
+    return FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_GOT_HM02);
 }
 
 static bool32 FieldMove_IsUnlockedSurf(void)
 {
-    return FlagGet(FLAG_BADGE05_GET);
+    return FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_GOT_HM03);
 }
 
 static bool32 FieldMove_IsUnlockedStrength(void)
 {
-    return FlagGet(FLAG_BADGE04_GET);
+    return FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_GOT_HM04);
 }
 
 static bool32 FieldMove_IsUnlockedFlash(void)
 {
-    return FlagGet(FLAG_BADGE01_GET);
+    return FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_GOT_HM05);
 }
 
 static bool32 FieldMove_IsUnlockedRockSmash(void)
 {
-    return FlagGet(FLAG_BADGE06_GET);
+    return FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_GOT_HM06);
 }
 
 static bool32 FieldMove_IsUnlockedWaterfall(void)
