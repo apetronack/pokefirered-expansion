@@ -11923,12 +11923,14 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM100"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = COMPOUND_STRING(
+            "Climbs steep cliffs\n"
+            "with ease."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = NULL,
-        .secondaryId = MOVE_NONE, // Todo
+        .secondaryId = MOVE_ROCK_CLIMB, 
     },
 
     [ITEM_HM01] =

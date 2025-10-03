@@ -18,8 +18,17 @@ Route12_FishingHouse_EventScript_GiveSuperRod::
 	additem ITEM_SUPER_ROD
 	msgbox Route12_FishingHouse_Text_TakeThisAndFish
 	msgreceiveditem Route12_FishingHouse_Text_ReceivedSuperRod, ITEM_SUPER_ROD
+	checkitemspace ITEM_HM07
+	goto_if_eq VAR_RESULT, FALSE, Route12_FishingHouse_EventScript_NoRoomForHM07
+	giveitem ITEM_HM07
+	msgbox Route12_FishingHouse_Text_AlsoTakeThisWaterfall
 	setflag FLAG_GOT_SUPER_ROD
 	msgbox Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe
+	release
+	end
+
+Route12_FishingHouse_EventScript_NoRoomForHM07::
+	msgbox Route12_FishingHouse_Text_NoRoomForGift
 	release
 	end
 

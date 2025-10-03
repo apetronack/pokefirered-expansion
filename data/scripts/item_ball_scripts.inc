@@ -670,8 +670,8 @@ FourIsland_IcefallCave_1F_EventScript_ItemUltraBall::
 	finditem ITEM_ULTRA_BALL
 	end
 
-FourIsland_IcefallCave_1F_EventScript_ItemHM07::
-	finditem ITEM_HM07
+FourIsland_IcefallCave_1F_EventScript_ItemTM100::
+	finditem ITEM_TM100
 	end
 
 FourIsland_IcefallCave_B1F_EventScript_ItemFullRestore::

@@ -87,3 +87,9 @@ Route12_FishingHouse_Text_BlankChartOfSomeSort::
     .string "It has spaces for writing in\n"
     .string "records of some kind.$"
 
+Route12_FishingHouse_Text_AlsoTakeThisWaterfall::
+    .string "Oh, and take this too!\p"
+    .string "This HM teaches WATERFALL.\n"
+    .string "KANTO may not have any,\p"
+    .string "but it's still a useful move!$"
+
