@@ -143,169 +143,171 @@ SSAnne_Exterior_EventScript_TruckTile::
 # 72 "data/maps/SSAnne_Exterior/scripts.pory"
 	faceplayer
 # 73 "data/maps/SSAnne_Exterior/scripts.pory"
-	goto_if_set FLAG_ENCOUNTERED_MEW_TRUCK, SSAnne_Exterior_EventScript_TruckEmpty
+	turnobject OBJ_EVENT_ID_PLAYER, DIR_WEST
 # 74 "data/maps/SSAnne_Exterior/scripts.pory"
-	goto_if_unset FLAG_DEFEATED_CHAMP_1X, SSAnne_Exterior_EventScript_TruckNormal
+	goto_if_set FLAG_ENCOUNTERED_MEW_TRUCK, SSAnne_Exterior_EventScript_TruckEmpty
 # 75 "data/maps/SSAnne_Exterior/scripts.pory"
-	goto_if_unset FLAG_GOT_HM04, SSAnne_Exterior_EventScript_TruckNeedStrength
+	goto_if_unset FLAG_DEFEATED_CHAMP_1X, SSAnne_Exterior_EventScript_TruckNormal
 # 76 "data/maps/SSAnne_Exterior/scripts.pory"
-	msgbox SSAnne_Exterior_Text_TruckMysteriousSound
+	goto_if_unset FLAG_GOT_HM04, SSAnne_Exterior_EventScript_TruckNeedStrength
 # 77 "data/maps/SSAnne_Exterior/scripts.pory"
-	msgbox SSAnne_Exterior_Text_UseStrengthOnTruck
+	msgbox SSAnne_Exterior_Text_TruckMysteriousSound
 # 78 "data/maps/SSAnne_Exterior/scripts.pory"
-	closemessage
+	msgbox SSAnne_Exterior_Text_UseStrengthOnTruck
 # 79 "data/maps/SSAnne_Exterior/scripts.pory"
-	dofieldeffect FLDEFF_USE_STRENGTH
-# 80 "data/maps/SSAnne_Exterior/scripts.pory"
-	waitstate
-# 81 "data/maps/SSAnne_Exterior/scripts.pory"
-	msgbox SSAnne_Exterior_Text_TruckRevealsSecret
-# 82 "data/maps/SSAnne_Exterior/scripts.pory"
-	waitse
-# 83 "data/maps/SSAnne_Exterior/scripts.pory"
-	playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
-# 84 "data/maps/SSAnne_Exterior/scripts.pory"
-	delay 40
-# 85 "data/maps/SSAnne_Exterior/scripts.pory"
-	waitmoncry
-# 86 "data/maps/SSAnne_Exterior/scripts.pory"
-	playbgm MUS_ENCOUNTER_GYM_LEADER, 0
-# 87 "data/maps/SSAnne_Exterior/scripts.pory"
-	setwildbattle SPECIES_MEW, 50
-# 88 "data/maps/SSAnne_Exterior/scripts.pory"
-	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
-# 89 "data/maps/SSAnne_Exterior/scripts.pory"
-	special StartLegendaryBattle
-# 90 "data/maps/SSAnne_Exterior/scripts.pory"
-	waitstate
-# 91 "data/maps/SSAnne_Exterior/scripts.pory"
-	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
-# 92 "data/maps/SSAnne_Exterior/scripts.pory"
-	specialvar VAR_RESULT, GetBattleOutcome
-# 93 "data/maps/SSAnne_Exterior/scripts.pory"
-	goto_if_eq VAR_RESULT, B_OUTCOME_WON, SSAnne_Exterior_EventScript_DefeatedMew
-# 94 "data/maps/SSAnne_Exterior/scripts.pory"
-	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, SSAnne_Exterior_EventScript_RanFromMew
-# 95 "data/maps/SSAnne_Exterior/scripts.pory"
-	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, SSAnne_Exterior_EventScript_RanFromMew
-# 96 "data/maps/SSAnne_Exterior/scripts.pory"
-	setflag FLAG_ENCOUNTERED_MEW_TRUCK
-# 97 "data/maps/SSAnne_Exterior/scripts.pory"
-	release
-# 98 "data/maps/SSAnne_Exterior/scripts.pory"
-	end
-# 99 "data/maps/SSAnne_Exterior/scripts.pory"
-
-# 100 "data/maps/SSAnne_Exterior/scripts.pory"
-SSAnne_Exterior_EventScript_DefeatedMew::
-# 101 "data/maps/SSAnne_Exterior/scripts.pory"
-	setflag FLAG_ENCOUNTERED_MEW_TRUCK
-# 102 "data/maps/SSAnne_Exterior/scripts.pory"
-	release
-# 103 "data/maps/SSAnne_Exterior/scripts.pory"
-	end
-# 104 "data/maps/SSAnne_Exterior/scripts.pory"
-
-# 105 "data/maps/SSAnne_Exterior/scripts.pory"
-SSAnne_Exterior_EventScript_RanFromMew::
-# 106 "data/maps/SSAnne_Exterior/scripts.pory"
-	setflag FLAG_ENCOUNTERED_MEW_TRUCK
-# 107 "data/maps/SSAnne_Exterior/scripts.pory"
-	release
-# 108 "data/maps/SSAnne_Exterior/scripts.pory"
-	end
-# 109 "data/maps/SSAnne_Exterior/scripts.pory"
-
-# 110 "data/maps/SSAnne_Exterior/scripts.pory"
-SSAnne_Exterior_EventScript_TruckEmpty::
-# 111 "data/maps/SSAnne_Exterior/scripts.pory"
-	msgbox SSAnne_Exterior_Text_TruckEmpty, MSGBOX_SIGN
-# 112 "data/maps/SSAnne_Exterior/scripts.pory"
-	release
-# 113 "data/maps/SSAnne_Exterior/scripts.pory"
-	end
-# 114 "data/maps/SSAnne_Exterior/scripts.pory"
-
-# 115 "data/maps/SSAnne_Exterior/scripts.pory"
-SSAnne_Exterior_EventScript_TruckNormal::
-# 116 "data/maps/SSAnne_Exterior/scripts.pory"
-	msgbox SSAnne_Exterior_Text_TruckNormal, MSGBOX_SIGN
-# 117 "data/maps/SSAnne_Exterior/scripts.pory"
-	release
-# 118 "data/maps/SSAnne_Exterior/scripts.pory"
-	end
-# 119 "data/maps/SSAnne_Exterior/scripts.pory"
-
-# 120 "data/maps/SSAnne_Exterior/scripts.pory"
-SSAnne_Exterior_EventScript_TruckNeedStrength::
-# 121 "data/maps/SSAnne_Exterior/scripts.pory"
-	msgbox SSAnne_Exterior_Text_TruckNeedStrength, MSGBOX_SIGN
-# 122 "data/maps/SSAnne_Exterior/scripts.pory"
-	release
-# 123 "data/maps/SSAnne_Exterior/scripts.pory"
-	end
-# 124 "data/maps/SSAnne_Exterior/scripts.pory"
-
-# 125 "data/maps/SSAnne_Exterior/scripts.pory"
-SSAnne_Exterior_EventScript_ReturnSailor::
-# 126 "data/maps/SSAnne_Exterior/scripts.pory"
-	lock
-# 127 "data/maps/SSAnne_Exterior/scripts.pory"
-	faceplayer
-# 128 "data/maps/SSAnne_Exterior/scripts.pory"
-	msgbox SSAnne_Exterior_Text_ReturnSailorOffer, MSGBOX_YESNO
-# 129 "data/maps/SSAnne_Exterior/scripts.pory"
-	goto_if_eq VAR_RESULT, YES, SSAnne_Exterior_EventScript_ReturnToVermilion
-# 130 "data/maps/SSAnne_Exterior/scripts.pory"
-	msgbox SSAnne_Exterior_Text_ReturnSailorDecline
-# 131 "data/maps/SSAnne_Exterior/scripts.pory"
-	release
-# 132 "data/maps/SSAnne_Exterior/scripts.pory"
-	end
-# 133 "data/maps/SSAnne_Exterior/scripts.pory"
-
-# 134 "data/maps/SSAnne_Exterior/scripts.pory"
-SSAnne_Exterior_EventScript_ReturnToVermilion::
-# 135 "data/maps/SSAnne_Exterior/scripts.pory"
-	msgbox SSAnne_Exterior_Text_ReturnSailorAccept
-# 136 "data/maps/SSAnne_Exterior/scripts.pory"
 	closemessage
-# 137 "data/maps/SSAnne_Exterior/scripts.pory"
-	fadescreen FADE_TO_BLACK
-# 138 "data/maps/SSAnne_Exterior/scripts.pory"
-	warp MAP_VERMILION_CITY, 22, 32
-# 139 "data/maps/SSAnne_Exterior/scripts.pory"
+# 80 "data/maps/SSAnne_Exterior/scripts.pory"
+	dofieldeffect FLDEFF_USE_STRENGTH
+# 81 "data/maps/SSAnne_Exterior/scripts.pory"
 	waitstate
+# 82 "data/maps/SSAnne_Exterior/scripts.pory"
+	msgbox SSAnne_Exterior_Text_TruckRevealsSecret
+# 83 "data/maps/SSAnne_Exterior/scripts.pory"
+	waitse
+# 84 "data/maps/SSAnne_Exterior/scripts.pory"
+	playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
+# 85 "data/maps/SSAnne_Exterior/scripts.pory"
+	delay 40
+# 86 "data/maps/SSAnne_Exterior/scripts.pory"
+	waitmoncry
+# 87 "data/maps/SSAnne_Exterior/scripts.pory"
+	playbgm MUS_ENCOUNTER_GYM_LEADER, 0
+# 88 "data/maps/SSAnne_Exterior/scripts.pory"
+	setwildbattle SPECIES_MEW, 50
+# 89 "data/maps/SSAnne_Exterior/scripts.pory"
+	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+# 90 "data/maps/SSAnne_Exterior/scripts.pory"
+	special StartLegendaryBattle
+# 91 "data/maps/SSAnne_Exterior/scripts.pory"
+	waitstate
+# 92 "data/maps/SSAnne_Exterior/scripts.pory"
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+# 93 "data/maps/SSAnne_Exterior/scripts.pory"
+	specialvar VAR_RESULT, GetBattleOutcome
+# 94 "data/maps/SSAnne_Exterior/scripts.pory"
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, SSAnne_Exterior_EventScript_DefeatedMew
+# 95 "data/maps/SSAnne_Exterior/scripts.pory"
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, SSAnne_Exterior_EventScript_RanFromMew
+# 96 "data/maps/SSAnne_Exterior/scripts.pory"
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, SSAnne_Exterior_EventScript_RanFromMew
+# 97 "data/maps/SSAnne_Exterior/scripts.pory"
+	setflag FLAG_ENCOUNTERED_MEW_TRUCK
+# 98 "data/maps/SSAnne_Exterior/scripts.pory"
+	release
+# 99 "data/maps/SSAnne_Exterior/scripts.pory"
+	end
+# 100 "data/maps/SSAnne_Exterior/scripts.pory"
+
+# 101 "data/maps/SSAnne_Exterior/scripts.pory"
+SSAnne_Exterior_EventScript_DefeatedMew::
+# 102 "data/maps/SSAnne_Exterior/scripts.pory"
+	setflag FLAG_ENCOUNTERED_MEW_TRUCK
+# 103 "data/maps/SSAnne_Exterior/scripts.pory"
+	release
+# 104 "data/maps/SSAnne_Exterior/scripts.pory"
+	end
+# 105 "data/maps/SSAnne_Exterior/scripts.pory"
+
+# 106 "data/maps/SSAnne_Exterior/scripts.pory"
+SSAnne_Exterior_EventScript_RanFromMew::
+# 107 "data/maps/SSAnne_Exterior/scripts.pory"
+	setflag FLAG_ENCOUNTERED_MEW_TRUCK
+# 108 "data/maps/SSAnne_Exterior/scripts.pory"
+	release
+# 109 "data/maps/SSAnne_Exterior/scripts.pory"
+	end
+# 110 "data/maps/SSAnne_Exterior/scripts.pory"
+
+# 111 "data/maps/SSAnne_Exterior/scripts.pory"
+SSAnne_Exterior_EventScript_TruckEmpty::
+# 112 "data/maps/SSAnne_Exterior/scripts.pory"
+	msgbox SSAnne_Exterior_Text_TruckEmpty, MSGBOX_SIGN
+# 113 "data/maps/SSAnne_Exterior/scripts.pory"
+	release
+# 114 "data/maps/SSAnne_Exterior/scripts.pory"
+	end
+# 115 "data/maps/SSAnne_Exterior/scripts.pory"
+
+# 116 "data/maps/SSAnne_Exterior/scripts.pory"
+SSAnne_Exterior_EventScript_TruckNormal::
+# 117 "data/maps/SSAnne_Exterior/scripts.pory"
+	msgbox SSAnne_Exterior_Text_TruckNormal, MSGBOX_SIGN
+# 118 "data/maps/SSAnne_Exterior/scripts.pory"
+	release
+# 119 "data/maps/SSAnne_Exterior/scripts.pory"
+	end
+# 120 "data/maps/SSAnne_Exterior/scripts.pory"
+
+# 121 "data/maps/SSAnne_Exterior/scripts.pory"
+SSAnne_Exterior_EventScript_TruckNeedStrength::
+# 122 "data/maps/SSAnne_Exterior/scripts.pory"
+	msgbox SSAnne_Exterior_Text_TruckNeedStrength, MSGBOX_SIGN
+# 123 "data/maps/SSAnne_Exterior/scripts.pory"
+	release
+# 124 "data/maps/SSAnne_Exterior/scripts.pory"
+	end
+# 125 "data/maps/SSAnne_Exterior/scripts.pory"
+
+# 126 "data/maps/SSAnne_Exterior/scripts.pory"
+SSAnne_Exterior_EventScript_ReturnSailor::
+# 127 "data/maps/SSAnne_Exterior/scripts.pory"
+	lock
+# 128 "data/maps/SSAnne_Exterior/scripts.pory"
+	faceplayer
+# 129 "data/maps/SSAnne_Exterior/scripts.pory"
+	msgbox SSAnne_Exterior_Text_ReturnSailorOffer, MSGBOX_YESNO
+# 130 "data/maps/SSAnne_Exterior/scripts.pory"
+	goto_if_eq VAR_RESULT, YES, SSAnne_Exterior_EventScript_ReturnToVermilion
+# 131 "data/maps/SSAnne_Exterior/scripts.pory"
+	msgbox SSAnne_Exterior_Text_ReturnSailorDecline
+# 132 "data/maps/SSAnne_Exterior/scripts.pory"
+	release
+# 133 "data/maps/SSAnne_Exterior/scripts.pory"
+	end
+# 134 "data/maps/SSAnne_Exterior/scripts.pory"
+
+# 135 "data/maps/SSAnne_Exterior/scripts.pory"
+SSAnne_Exterior_EventScript_ReturnToVermilion::
+# 136 "data/maps/SSAnne_Exterior/scripts.pory"
+	msgbox SSAnne_Exterior_Text_ReturnSailorAccept
+# 137 "data/maps/SSAnne_Exterior/scripts.pory"
+	closemessage
+# 138 "data/maps/SSAnne_Exterior/scripts.pory"
+	fadescreen FADE_TO_BLACK
+# 139 "data/maps/SSAnne_Exterior/scripts.pory"
+	warp MAP_VERMILION_CITY, 22, 32
 # 140 "data/maps/SSAnne_Exterior/scripts.pory"
-	releaseall
+	waitstate
 # 141 "data/maps/SSAnne_Exterior/scripts.pory"
+	releaseall
+# 142 "data/maps/SSAnne_Exterior/scripts.pory"
 	end
 
 SSAnne_Exterior_EventScript_BoardShipCheck::
-# 145 "data/maps/SSAnne_Exterior/scripts.pory"
-	lockall
 # 146 "data/maps/SSAnne_Exterior/scripts.pory"
+	lockall
+# 147 "data/maps/SSAnne_Exterior/scripts.pory"
 	compare VAR_MAP_SCENE_VERMILION_CITY, 3
 	goto_if_ge SSAnne_Exterior_EventScript_BoardShipCheck_2
 SSAnne_Exterior_EventScript_BoardShipCheck_1:
-# 149 "data/maps/SSAnne_Exterior/scripts.pory"
+# 150 "data/maps/SSAnne_Exterior/scripts.pory"
 	releaseall
 	return
 
 SSAnne_Exterior_EventScript_BoardShipCheck_2:
-# 147 "data/maps/SSAnne_Exterior/scripts.pory"
+# 148 "data/maps/SSAnne_Exterior/scripts.pory"
 	goto SSAnne_Exterior_EventScript_ShipGone
 	goto SSAnne_Exterior_EventScript_BoardShipCheck_1
 
 
 SSAnne_Exterior_EventScript_ShipGone::
-# 153 "data/maps/SSAnne_Exterior/scripts.pory"
-	msgbox SSAnne_Exterior_EventScript_ShipGone_Text_0
 # 154 "data/maps/SSAnne_Exterior/scripts.pory"
+	msgbox SSAnne_Exterior_EventScript_ShipGone_Text_0
+# 155 "data/maps/SSAnne_Exterior/scripts.pory"
 	releaseall
 	return
 
 
 SSAnne_Exterior_EventScript_ShipGone_Text_0:
-# 153 "data/maps/SSAnne_Exterior/scripts.pory"
+# 154 "data/maps/SSAnne_Exterior/scripts.pory"
 	.string "The S.S. ANNE has already departed.\pThere's nothing here but an empty\ndocking area.$"
