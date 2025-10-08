@@ -71,9 +71,9 @@ Route10_PokemonCenter_1F_EventScript_Aide::
 # 36 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
 	call Route10_PokemonCenter_1F_EventScript_GetAideRequestInfo
 # 37 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
-	goto_if_set FLAG_GOT_EVERSTONE_FROM_OAKS_AIDE, Route10_PokemonCenter_1F_EventScript_AlreadyGotEverstone
+	goto_if_set FLAG_GOT_WISE_GLASSES_FROM_OAKS_AIDE, Route10_PokemonCenter_1F_EventScript_AlreadyGotWiseGlasses
 # 38 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
-	msgbox Route10_PokemonCenter_1F_Text_GiveEverstoneIfCaught20Mons, MSGBOX_YESNO
+	msgbox Route10_PokemonCenter_1F_Text_GiveWiseGlassesIfCaught20Mons, MSGBOX_YESNO
 # 39 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
 	goto_if_eq VAR_RESULT, NO, Aide_EventScript_DeclineCheckMons
 # 40 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
@@ -89,15 +89,15 @@ Route10_PokemonCenter_1F_EventScript_Aide::
 # 45 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
 	msgbox Route10_PokemonCenter_1F_Text_GreatHereYouGo
 # 46 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
-	checkitemspace ITEM_EVERSTONE
+	checkitemspace ITEM_WISE_GLASSES
 # 47 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
 	goto_if_eq VAR_RESULT, FALSE, Aide_EventScript_NoRoomForItem
 # 48 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
-	giveitem_msg Route10_PokemonCenter_1F_Text_ReceivedEverstoneFromAide, ITEM_EVERSTONE
+	giveitem_msg Route10_PokemonCenter_1F_Text_ReceivedWiseGlassesFromAide, ITEM_WISE_GLASSES
 # 49 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
-	setflag FLAG_GOT_EVERSTONE_FROM_OAKS_AIDE
+	setflag FLAG_GOT_WISE_GLASSES_FROM_OAKS_AIDE
 # 50 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
-	msgbox Route10_PokemonCenter_1F_Text_ExplainEverstone
+	msgbox Route10_PokemonCenter_1F_Text_ExplainWiseGlasses
 # 51 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
 	release
 # 52 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
@@ -105,9 +105,9 @@ Route10_PokemonCenter_1F_EventScript_Aide::
 # 53 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
 
 # 54 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
-Route10_PokemonCenter_1F_EventScript_AlreadyGotEverstone::
+Route10_PokemonCenter_1F_EventScript_AlreadyGotWiseGlasses::
 # 55 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
-	msgbox Route10_PokemonCenter_1F_Text_ExplainEverstone
+	msgbox Route10_PokemonCenter_1F_Text_ExplainWiseGlasses
 # 56 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
 	release
 # 57 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
@@ -119,6 +119,6 @@ Route10_PokemonCenter_1F_EventScript_GetAideRequestInfo::
 # 60 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
 	buffernumberstring STR_VAR_1, REQUIRED_OWNED_MONS
 # 61 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
-	bufferitemname STR_VAR_2, ITEM_EVERSTONE
+	bufferitemname STR_VAR_2, ITEM_WISE_GLASSES
 # 62 "data/maps/Route10_PokemonCenter_1F/scripts.pory"
 	return

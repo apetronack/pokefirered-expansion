@@ -93,204 +93,212 @@ Route13_BerryMart_EventScript_ErikaMart::
 # 47 "data/maps/Route13/scripts.pory"
 
 # 48 "data/maps/Route13/scripts.pory"
-Route13_BerryMart_Default_Items::
+	.align 2
 # 49 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_CHERI_BERRY
+Route13_BerryMart_Default_Items::
 # 50 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_CHESTO_BERRY
+	.2byte ITEM_CHERI_BERRY
 # 51 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_PECHA_BERRY
+	.2byte ITEM_CHESTO_BERRY
 # 52 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_RAWST_BERRY
+	.2byte ITEM_PECHA_BERRY
 # 53 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_ASPEAR_BERRY
+	.2byte ITEM_RAWST_BERRY
 # 54 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_ASPEAR_BERRY
 # 55 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_PERSIM_BERRY
+	.2byte ITEM_ORAN_BERRY
 # 56 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_PERSIM_BERRY
 # 57 "data/maps/Route13/scripts.pory"
-	release
+	.2byte ITEM_NONE
 # 58 "data/maps/Route13/scripts.pory"
-	end
+	release
 # 59 "data/maps/Route13/scripts.pory"
-
+	end
 # 60 "data/maps/Route13/scripts.pory"
-Route13_BerryMart_Erika_Items::
+
 # 61 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_CHERI_BERRY
+	.align 2
 # 62 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_CHESTO_BERRY
+Route13_BerryMart_Erika_Items::
 # 63 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_PECHA_BERRY
+	.2byte ITEM_CHERI_BERRY
 # 64 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_RAWST_BERRY
+	.2byte ITEM_CHESTO_BERRY
 # 65 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_ASPEAR_BERRY
+	.2byte ITEM_PECHA_BERRY
 # 66 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_LEPPA_BERRY
+	.2byte ITEM_RAWST_BERRY
 # 67 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_ASPEAR_BERRY
 # 68 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_PERSIM_BERRY
+	.2byte ITEM_LEPPA_BERRY
 # 69 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_SITRUS_BERRY
+	.2byte ITEM_ORAN_BERRY
 # 70 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_NONE
+	.2byte ITEM_PERSIM_BERRY
 # 71 "data/maps/Route13/scripts.pory"
-	release
+	.2byte ITEM_SITRUS_BERRY
 # 72 "data/maps/Route13/scripts.pory"
-	end
+	.2byte ITEM_NONE
 # 73 "data/maps/Route13/scripts.pory"
-
+	release
 # 74 "data/maps/Route13/scripts.pory"
-Route13_BerryMart_Koga_Items::
-# 75 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_CHERI_BERRY
-# 76 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_CHESTO_BERRY
-# 77 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_PECHA_BERRY
-# 78 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_RAWST_BERRY
-# 79 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_ASPEAR_BERRY
-# 80 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_LEPPA_BERRY
-# 81 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_ORAN_BERRY
-# 82 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_PERSIM_BERRY
-# 83 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_LUM_BERRY
-# 84 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_SITRUS_BERRY
-# 85 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_OCCA_BERRY
-# 86 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_PASSHO_BERRY
-# 87 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_WACAN_BERRY
-# 88 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_RINDO_BERRY
-# 89 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_YACHE_BERRY
-# 90 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_CHOPLE_BERRY
-# 91 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_KEBIA_BERRY
-# 92 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_SHUCA_BERRY
-# 93 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_COBA_BERRY
-# 94 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_PAYAPA_BERRY
-# 95 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_TANGA_BERRY
-# 96 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_CHARTI_BERRY
-# 97 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_KASIB_BERRY
-# 98 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_HABAN_BERRY
-# 99 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_COLBUR_BERRY
-# 100 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_BABIRI_BERRY
-# 101 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_CHILAN_BERRY
-# 102 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_NONE
-# 103 "data/maps/Route13/scripts.pory"
-	release
-# 104 "data/maps/Route13/scripts.pory"
 	end
-# 105 "data/maps/Route13/scripts.pory"
+# 75 "data/maps/Route13/scripts.pory"
 
-# 106 "data/maps/Route13/scripts.pory"
-Route13_BerryMart_Giovanni_Items::
-# 107 "data/maps/Route13/scripts.pory"
+# 76 "data/maps/Route13/scripts.pory"
+	.align 2
+# 77 "data/maps/Route13/scripts.pory"
+Route13_BerryMart_Koga_Items::
+# 78 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_CHERI_BERRY
-# 108 "data/maps/Route13/scripts.pory"
+# 79 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_CHESTO_BERRY
-# 109 "data/maps/Route13/scripts.pory"
+# 80 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_PECHA_BERRY
-# 110 "data/maps/Route13/scripts.pory"
+# 81 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_RAWST_BERRY
-# 111 "data/maps/Route13/scripts.pory"
+# 82 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_ASPEAR_BERRY
-# 112 "data/maps/Route13/scripts.pory"
+# 83 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_LEPPA_BERRY
-# 113 "data/maps/Route13/scripts.pory"
+# 84 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_ORAN_BERRY
-# 114 "data/maps/Route13/scripts.pory"
+# 85 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_PERSIM_BERRY
-# 115 "data/maps/Route13/scripts.pory"
+# 86 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_LUM_BERRY
-# 116 "data/maps/Route13/scripts.pory"
+# 87 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_SITRUS_BERRY
-# 117 "data/maps/Route13/scripts.pory"
+# 88 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_OCCA_BERRY
-# 118 "data/maps/Route13/scripts.pory"
+# 89 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_PASSHO_BERRY
-# 119 "data/maps/Route13/scripts.pory"
+# 90 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_WACAN_BERRY
-# 120 "data/maps/Route13/scripts.pory"
+# 91 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_RINDO_BERRY
-# 121 "data/maps/Route13/scripts.pory"
+# 92 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_YACHE_BERRY
-# 122 "data/maps/Route13/scripts.pory"
+# 93 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_CHOPLE_BERRY
-# 123 "data/maps/Route13/scripts.pory"
+# 94 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_KEBIA_BERRY
-# 124 "data/maps/Route13/scripts.pory"
+# 95 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_SHUCA_BERRY
-# 125 "data/maps/Route13/scripts.pory"
+# 96 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_COBA_BERRY
-# 126 "data/maps/Route13/scripts.pory"
+# 97 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_PAYAPA_BERRY
-# 127 "data/maps/Route13/scripts.pory"
+# 98 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_TANGA_BERRY
-# 128 "data/maps/Route13/scripts.pory"
+# 99 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_CHARTI_BERRY
-# 129 "data/maps/Route13/scripts.pory"
+# 100 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_KASIB_BERRY
-# 130 "data/maps/Route13/scripts.pory"
+# 101 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_HABAN_BERRY
-# 131 "data/maps/Route13/scripts.pory"
+# 102 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_COLBUR_BERRY
-# 132 "data/maps/Route13/scripts.pory"
+# 103 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_BABIRI_BERRY
-# 133 "data/maps/Route13/scripts.pory"
+# 104 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_CHILAN_BERRY
-# 134 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_LIECHI_BERRY
-# 135 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_GANLON_BERRY
-# 136 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_SALAC_BERRY
-# 137 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_PETAYA_BERRY
-# 138 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_APICOT_BERRY
-# 139 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_LANSAT_BERRY
-# 140 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_STARF_BERRY
-# 141 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_ENIGMA_BERRY
-# 142 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_MICLE_BERRY
-# 143 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_CUSTAP_BERRY
-# 144 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_JABOCA_BERRY
-# 145 "data/maps/Route13/scripts.pory"
-	.2byte ITEM_ROWAP_BERRY
-# 146 "data/maps/Route13/scripts.pory"
+# 105 "data/maps/Route13/scripts.pory"
 	.2byte ITEM_NONE
-# 147 "data/maps/Route13/scripts.pory"
+# 106 "data/maps/Route13/scripts.pory"
 	release
+# 107 "data/maps/Route13/scripts.pory"
+	end
+# 108 "data/maps/Route13/scripts.pory"
+
+# 109 "data/maps/Route13/scripts.pory"
+	.align 2
+# 110 "data/maps/Route13/scripts.pory"
+Route13_BerryMart_Giovanni_Items::
+# 111 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_CHERI_BERRY
+# 112 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_CHESTO_BERRY
+# 113 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_PECHA_BERRY
+# 114 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_RAWST_BERRY
+# 115 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_ASPEAR_BERRY
+# 116 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_LEPPA_BERRY
+# 117 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_ORAN_BERRY
+# 118 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_PERSIM_BERRY
+# 119 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_LUM_BERRY
+# 120 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_SITRUS_BERRY
+# 121 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_OCCA_BERRY
+# 122 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_PASSHO_BERRY
+# 123 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_WACAN_BERRY
+# 124 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_RINDO_BERRY
+# 125 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_YACHE_BERRY
+# 126 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_CHOPLE_BERRY
+# 127 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_KEBIA_BERRY
+# 128 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_SHUCA_BERRY
+# 129 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_COBA_BERRY
+# 130 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_PAYAPA_BERRY
+# 131 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_TANGA_BERRY
+# 132 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_CHARTI_BERRY
+# 133 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_KASIB_BERRY
+# 134 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_HABAN_BERRY
+# 135 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_COLBUR_BERRY
+# 136 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_BABIRI_BERRY
+# 137 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_CHILAN_BERRY
+# 138 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_LIECHI_BERRY
+# 139 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_GANLON_BERRY
+# 140 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_SALAC_BERRY
+# 141 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_PETAYA_BERRY
+# 142 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_APICOT_BERRY
+# 143 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_LANSAT_BERRY
+# 144 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_STARF_BERRY
+# 145 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_ENIGMA_BERRY
+# 146 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_MICLE_BERRY
+# 147 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_CUSTAP_BERRY
 # 148 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_JABOCA_BERRY
+# 149 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_ROWAP_BERRY
+# 150 "data/maps/Route13/scripts.pory"
+	.2byte ITEM_NONE
+# 151 "data/maps/Route13/scripts.pory"
+	release
+# 152 "data/maps/Route13/scripts.pory"
 	end

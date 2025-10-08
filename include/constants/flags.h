@@ -620,7 +620,7 @@
 #define FLAG_WOKE_UP_ROUTE_12_SNORLAX                    0x253
 #define FLAG_GOT_TM39_FROM_BROCK                         0x254
 #define FLAG_GOT_SUPER_ROD                               0x255
-#define FLAG_GOT_EXP_SHARE_FROM_OAKS_AIDE                0x256
+#define FLAG_GOT_MUSCLE_BAND_FROM_OAKS_AIDE                0x256
 #define FLAG_DID_MARC_TRADE                              0x257
 #define FLAG_BEAT_RIVAL_IN_OAKS_LAB                      0x258
 #define FLAG_GOT_TM06_FROM_KOGA                          0x259
@@ -786,7 +786,7 @@
 #define FLAG_DEOXYS_FLEW_AWAY                            0x2F7
 #define FLAG_TALKED_TO_TEA_LADY_AFTER_HOF                0x2F8
 #define FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION            0x2F9
-#define FLAG_GOT_EVERSTONE_FROM_OAKS_AIDE                0x2FA
+#define FLAG_GOT_WISE_GLASSES_FROM_OAKS_AIDE                0x2FA
 #define FLAG_GOT_MOON_STONE_FROM_JOYFUL_GAME_CORNER      0x2FB
 #define FLAG_GOT_FULL_RESTORE_FROM_THREE_ISLAND_DEFENDER 0x2FC
 #define FLAG_GOT_AMULET_COIN_FROM_OAKS_AIDE              0x2FD

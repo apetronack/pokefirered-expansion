@@ -51,7 +51,7 @@ Route15_WestEntrance_2F_EventScript_Aide::
 # 26 "data/maps/Route15_WestEntrance_2F/scripts.pory"
 	call Route15_WestEntrance_2F_EventScript_GetAideRequestInfo
 # 27 "data/maps/Route15_WestEntrance_2F/scripts.pory"
-	goto_if_set FLAG_GOT_EXP_SHARE_FROM_OAKS_AIDE, Route15_WestEntrance_2F_EventScript_AlreadyGotExpShare
+	goto_if_set FLAG_GOT_MUSCLE_BAND_FROM_OAKS_AIDE, Route15_WestEntrance_2F_EventScript_AlreadyGotMuscleBand
 # 28 "data/maps/Route15_WestEntrance_2F/scripts.pory"
 	msgbox Route15_WestEntrance_2F_Text_GiveItemIfCaughtEnough, MSGBOX_YESNO
 # 29 "data/maps/Route15_WestEntrance_2F/scripts.pory"
@@ -69,15 +69,15 @@ Route15_WestEntrance_2F_EventScript_Aide::
 # 35 "data/maps/Route15_WestEntrance_2F/scripts.pory"
 	msgbox Route15_WestEntrance_2F_Text_GreatHereYouGo
 # 36 "data/maps/Route15_WestEntrance_2F/scripts.pory"
-	checkitemspace ITEM_EXP_SHARE
+	checkitemspace ITEM_MUSCLE_BAND
 # 37 "data/maps/Route15_WestEntrance_2F/scripts.pory"
 	goto_if_eq VAR_RESULT, FALSE, Aide_EventScript_NoRoomForItem
 # 38 "data/maps/Route15_WestEntrance_2F/scripts.pory"
-	giveitem_msg Route15_WestEntrance_2F_Text_ReceivedItemFromAide, ITEM_EXP_SHARE
+	giveitem_msg Route15_WestEntrance_2F_Text_ReceivedItemFromAide, ITEM_MUSCLE_BAND
 # 39 "data/maps/Route15_WestEntrance_2F/scripts.pory"
-	setflag FLAG_GOT_EXP_SHARE_FROM_OAKS_AIDE
+	setflag FLAG_GOT_MUSCLE_BAND_FROM_OAKS_AIDE
 # 40 "data/maps/Route15_WestEntrance_2F/scripts.pory"
-	msgbox Route15_WestEntrance_2F_Text_ExplainExpShare
+	msgbox Route15_WestEntrance_2F_Text_ExplainMuscleBand
 # 41 "data/maps/Route15_WestEntrance_2F/scripts.pory"
 	release
 # 42 "data/maps/Route15_WestEntrance_2F/scripts.pory"
@@ -85,9 +85,9 @@ Route15_WestEntrance_2F_EventScript_Aide::
 # 43 "data/maps/Route15_WestEntrance_2F/scripts.pory"
 
 # 44 "data/maps/Route15_WestEntrance_2F/scripts.pory"
-Route15_WestEntrance_2F_EventScript_AlreadyGotExpShare::
+Route15_WestEntrance_2F_EventScript_AlreadyGotMuscleBand::
 # 45 "data/maps/Route15_WestEntrance_2F/scripts.pory"
-	msgbox Route15_WestEntrance_2F_Text_ExplainExpShare
+	msgbox Route15_WestEntrance_2F_Text_ExplainMuscleBand
 # 46 "data/maps/Route15_WestEntrance_2F/scripts.pory"
 	release
 # 47 "data/maps/Route15_WestEntrance_2F/scripts.pory"
@@ -99,6 +99,6 @@ Route15_WestEntrance_2F_EventScript_GetAideRequestInfo::
 # 50 "data/maps/Route15_WestEntrance_2F/scripts.pory"
 	buffernumberstring STR_VAR_1, REQUIRED_CAUGHT_MONS
 # 51 "data/maps/Route15_WestEntrance_2F/scripts.pory"
-	bufferitemname STR_VAR_2, ITEM_EXP_SHARE
+	bufferitemname STR_VAR_2, ITEM_MUSCLE_BAND
 # 52 "data/maps/Route15_WestEntrance_2F/scripts.pory"
 	return
