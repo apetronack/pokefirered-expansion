@@ -114,8 +114,8 @@ Route13_Text_RobertPostBattle::
 
 Route13_Text_LookToLeftOfThatPost::
     .string "TRAINER TIPS\p"
-    .string "Look, look!\n"
-    .string "Look to the left of that post!$"
+    .string "BERRIES!\n"
+    .string "Berries have unique effects!$"
 
 Route13_Text_SelectToSwitchItems::
     .string "TRAINER TIPS\p"
