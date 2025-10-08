@@ -49,18 +49,36 @@ FuchsiaCity_House2_EventScript_GiveGoodRod::
 # 25 "data/maps/FuchsiaCity_House2/scripts.pory"
 	msgbox FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons
 # 26 "data/maps/FuchsiaCity_House2/scripts.pory"
-	setflag FLAG_GOT_GOOD_ROD
+	checkitemspace ITEM_HM08
 # 27 "data/maps/FuchsiaCity_House2/scripts.pory"
-	release
+	goto_if_eq VAR_RESULT, FALSE, FuchsiaCity_House2_EventScript_NoRoomForHM08
 # 28 "data/maps/FuchsiaCity_House2/scripts.pory"
-	end
+	giveitem ITEM_HM08
 # 29 "data/maps/FuchsiaCity_House2/scripts.pory"
-
+	msgbox FuchsiaCity_House2_Text_AlsoTakeThisDive
 # 30 "data/maps/FuchsiaCity_House2/scripts.pory"
-FuchsiaCity_House2_EventScript_NoRoomForGoodRod::
+	setflag FLAG_GOT_GOOD_ROD
 # 31 "data/maps/FuchsiaCity_House2/scripts.pory"
-	msgbox FuchsiaCity_House2_Text_YouHaveNoRoomForGift
-# 32 "data/maps/FuchsiaCity_House2/scripts.pory"
 	release
+# 32 "data/maps/FuchsiaCity_House2/scripts.pory"
+	end
 # 33 "data/maps/FuchsiaCity_House2/scripts.pory"
+
+# 34 "data/maps/FuchsiaCity_House2/scripts.pory"
+FuchsiaCity_House2_EventScript_NoRoomForHM08::
+# 35 "data/maps/FuchsiaCity_House2/scripts.pory"
+	msgbox FuchsiaCity_House2_Text_YouHaveNoRoomForGift
+# 36 "data/maps/FuchsiaCity_House2/scripts.pory"
+	release
+# 37 "data/maps/FuchsiaCity_House2/scripts.pory"
+	end
+# 38 "data/maps/FuchsiaCity_House2/scripts.pory"
+
+# 39 "data/maps/FuchsiaCity_House2/scripts.pory"
+FuchsiaCity_House2_EventScript_NoRoomForGoodRod::
+# 40 "data/maps/FuchsiaCity_House2/scripts.pory"
+	msgbox FuchsiaCity_House2_Text_YouHaveNoRoomForGift
+# 41 "data/maps/FuchsiaCity_House2/scripts.pory"
+	release
+# 42 "data/maps/FuchsiaCity_House2/scripts.pory"
 	end

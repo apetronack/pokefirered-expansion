@@ -70,6 +70,7 @@ SSAnne_Exterior_Movement_WalkDown::
 SSAnne_Exterior_EventScript_TruckTile::
 	lock
 	faceplayer
+	turnobject OBJ_EVENT_ID_PLAYER, DIR_WEST
 	goto_if_set FLAG_ENCOUNTERED_MEW_TRUCK, SSAnne_Exterior_EventScript_TruckEmpty
 	goto_if_unset FLAG_DEFEATED_CHAMP_1X, SSAnne_Exterior_EventScript_TruckNormal
 	goto_if_unset FLAG_GOT_HM04, SSAnne_Exterior_EventScript_TruckNeedStrength

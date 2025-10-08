@@ -39,77 +39,77 @@ Route12_FishingHouse_EventScript_GiveSuperRod::
 # 20 "data/maps/Route12_FishingHouse/scripts.pory"
 	msgreceiveditem Route12_FishingHouse_Text_ReceivedSuperRod, ITEM_SUPER_ROD
 # 21 "data/maps/Route12_FishingHouse/scripts.pory"
-	setflag FLAG_GOT_SUPER_ROD
+	checkitemspace ITEM_HM07
 # 22 "data/maps/Route12_FishingHouse/scripts.pory"
-	msgbox Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe
+	goto_if_eq VAR_RESULT, FALSE, Route12_FishingHouse_EventScript_NoRoomForHM07
 # 23 "data/maps/Route12_FishingHouse/scripts.pory"
-	release
+	giveitem ITEM_HM07
 # 24 "data/maps/Route12_FishingHouse/scripts.pory"
-	end
+	msgbox Route12_FishingHouse_Text_AlsoTakeThisWaterfall
 # 25 "data/maps/Route12_FishingHouse/scripts.pory"
-
+	setflag FLAG_GOT_SUPER_ROD
 # 26 "data/maps/Route12_FishingHouse/scripts.pory"
-Route12_FishingHouse_EventScript_NoRoomForSuperRod::
+	msgbox Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe
 # 27 "data/maps/Route12_FishingHouse/scripts.pory"
-	msgbox Route12_FishingHouse_Text_NoRoomForGift
+	release
 # 28 "data/maps/Route12_FishingHouse/scripts.pory"
-	release
+	end
 # 29 "data/maps/Route12_FishingHouse/scripts.pory"
-	end
+
 # 30 "data/maps/Route12_FishingHouse/scripts.pory"
-
+Route12_FishingHouse_EventScript_NoRoomForHM07::
 # 31 "data/maps/Route12_FishingHouse/scripts.pory"
-Route12_FishingHouse_EventScript_CheckMagikarpRecord::
+	msgbox Route12_FishingHouse_Text_NoRoomForGift
 # 32 "data/maps/Route12_FishingHouse/scripts.pory"
-	goto_if_questlog EventScript_ReleaseEnd
+	release
 # 33 "data/maps/Route12_FishingHouse/scripts.pory"
-	special QuestLog_CutRecording
+	end
 # 34 "data/maps/Route12_FishingHouse/scripts.pory"
-	setvar VAR_0x8004, SPECIES_FEEBAS
+
 # 35 "data/maps/Route12_FishingHouse/scripts.pory"
-	specialvar VAR_RESULT, DoesPlayerPartyContainSpecies
+Route12_FishingHouse_EventScript_NoRoomForSuperRod::
 # 36 "data/maps/Route12_FishingHouse/scripts.pory"
-	goto_if_eq VAR_RESULT, FALSE, Route12_FishingHouse_EventScript_NoMagikarpInParty
+	msgbox Route12_FishingHouse_Text_NoRoomForGift
 # 37 "data/maps/Route12_FishingHouse/scripts.pory"
-	special GetMagikarpSizeRecordInfo
+	release
 # 38 "data/maps/Route12_FishingHouse/scripts.pory"
-	msgbox Route12_FishingHouse_Text_OhMagikarpAllowMeToSee
+	end
 # 39 "data/maps/Route12_FishingHouse/scripts.pory"
-	special ChoosePartyMon
+
 # 40 "data/maps/Route12_FishingHouse/scripts.pory"
-	waitstate
+Route12_FishingHouse_EventScript_CheckMagikarpRecord::
 # 41 "data/maps/Route12_FishingHouse/scripts.pory"
-	copyvar VAR_RESULT, VAR_0x8004
+	goto_if_questlog EventScript_ReleaseEnd
 # 42 "data/maps/Route12_FishingHouse/scripts.pory"
-	goto_if_ge VAR_RESULT, PARTY_SIZE, Route12_FishingHouse_EventScript_CancelShowMon
+	special QuestLog_CutRecording
 # 43 "data/maps/Route12_FishingHouse/scripts.pory"
-	special CompareMagikarpSize
+	setvar VAR_0x8004, SPECIES_FEEBAS
 # 44 "data/maps/Route12_FishingHouse/scripts.pory"
-	goto_if_eq VAR_RESULT, 1, Route12_FishingHouse_EventScript_NotMagikarp
+	specialvar VAR_RESULT, DoesPlayerPartyContainSpecies
 # 45 "data/maps/Route12_FishingHouse/scripts.pory"
-	goto_if_eq VAR_RESULT, 2, Route12_FishingHouse_EventScript_NotRecordMagikarp
+	goto_if_eq VAR_RESULT, FALSE, Route12_FishingHouse_EventScript_NoMagikarpInParty
 # 46 "data/maps/Route12_FishingHouse/scripts.pory"
-	goto_if_eq VAR_RESULT, 3, Route12_FishingHouse_EventScript_NewRecordMagikarp
+	special GetMagikarpSizeRecordInfo
 # 47 "data/maps/Route12_FishingHouse/scripts.pory"
-	goto_if_eq VAR_RESULT, 4, Route12_FishingHouse_EventScript_TieRecordMagikarp
+	msgbox Route12_FishingHouse_Text_OhMagikarpAllowMeToSee
 # 48 "data/maps/Route12_FishingHouse/scripts.pory"
-	release
+	special ChoosePartyMon
 # 49 "data/maps/Route12_FishingHouse/scripts.pory"
-	end
+	waitstate
 # 50 "data/maps/Route12_FishingHouse/scripts.pory"
-
+	copyvar VAR_RESULT, VAR_0x8004
 # 51 "data/maps/Route12_FishingHouse/scripts.pory"
-Route12_FishingHouse_EventScript_NoMagikarpInParty::
+	goto_if_ge VAR_RESULT, PARTY_SIZE, Route12_FishingHouse_EventScript_CancelShowMon
 # 52 "data/maps/Route12_FishingHouse/scripts.pory"
-	msgbox Route12_FishingHouse_Text_TryFishingBringMeMagikarp
+	special CompareMagikarpSize
 # 53 "data/maps/Route12_FishingHouse/scripts.pory"
-	release
+	goto_if_eq VAR_RESULT, 1, Route12_FishingHouse_EventScript_NotMagikarp
 # 54 "data/maps/Route12_FishingHouse/scripts.pory"
-	end
+	goto_if_eq VAR_RESULT, 2, Route12_FishingHouse_EventScript_NotRecordMagikarp
 # 55 "data/maps/Route12_FishingHouse/scripts.pory"
-
+	goto_if_eq VAR_RESULT, 3, Route12_FishingHouse_EventScript_NewRecordMagikarp
 # 56 "data/maps/Route12_FishingHouse/scripts.pory"
-Route12_FishingHouse_EventScript_CancelShowMon::
+	goto_if_eq VAR_RESULT, 4, Route12_FishingHouse_EventScript_TieRecordMagikarp
 # 57 "data/maps/Route12_FishingHouse/scripts.pory"
 	release
 # 58 "data/maps/Route12_FishingHouse/scripts.pory"
@@ -117,9 +117,9 @@ Route12_FishingHouse_EventScript_CancelShowMon::
 # 59 "data/maps/Route12_FishingHouse/scripts.pory"
 
 # 60 "data/maps/Route12_FishingHouse/scripts.pory"
-Route12_FishingHouse_EventScript_NotMagikarp::
+Route12_FishingHouse_EventScript_NoMagikarpInParty::
 # 61 "data/maps/Route12_FishingHouse/scripts.pory"
-	msgbox Route12_FishingHouse_Text_DoesntLookLikeMagikarp
+	msgbox Route12_FishingHouse_Text_TryFishingBringMeMagikarp
 # 62 "data/maps/Route12_FishingHouse/scripts.pory"
 	release
 # 63 "data/maps/Route12_FishingHouse/scripts.pory"
@@ -127,41 +127,41 @@ Route12_FishingHouse_EventScript_NotMagikarp::
 # 64 "data/maps/Route12_FishingHouse/scripts.pory"
 
 # 65 "data/maps/Route12_FishingHouse/scripts.pory"
-Route12_FishingHouse_EventScript_NotRecordMagikarp::
+Route12_FishingHouse_EventScript_CancelShowMon::
 # 66 "data/maps/Route12_FishingHouse/scripts.pory"
-	goto_if_unset FLAG_GOT_RECORD_SETTING_MAGIKARP, Route12_FishingHouse_EventScript_NewRecordMagikarp
+	release
 # 67 "data/maps/Route12_FishingHouse/scripts.pory"
-	msgbox Route12_FishingHouse_Text_HmmXInchesDoesntMeasureUp
+	end
 # 68 "data/maps/Route12_FishingHouse/scripts.pory"
-	release
+
 # 69 "data/maps/Route12_FishingHouse/scripts.pory"
-	end
+Route12_FishingHouse_EventScript_NotMagikarp::
 # 70 "data/maps/Route12_FishingHouse/scripts.pory"
-
+	msgbox Route12_FishingHouse_Text_DoesntLookLikeMagikarp
 # 71 "data/maps/Route12_FishingHouse/scripts.pory"
-Route12_FishingHouse_EventScript_TieRecordMagikarp::
-# 72 "data/maps/Route12_FishingHouse/scripts.pory"
-	goto_if_unset FLAG_GOT_RECORD_SETTING_MAGIKARP, Route12_FishingHouse_EventScript_NewRecordMagikarp
-# 73 "data/maps/Route12_FishingHouse/scripts.pory"
-	msgbox Route12_FishingHouse_Text_HuhXInchesSameSizeAsLast
-# 74 "data/maps/Route12_FishingHouse/scripts.pory"
 	release
-# 75 "data/maps/Route12_FishingHouse/scripts.pory"
+# 72 "data/maps/Route12_FishingHouse/scripts.pory"
 	end
-# 76 "data/maps/Route12_FishingHouse/scripts.pory"
+# 73 "data/maps/Route12_FishingHouse/scripts.pory"
 
+# 74 "data/maps/Route12_FishingHouse/scripts.pory"
+Route12_FishingHouse_EventScript_NotRecordMagikarp::
+# 75 "data/maps/Route12_FishingHouse/scripts.pory"
+	goto_if_unset FLAG_GOT_RECORD_SETTING_MAGIKARP, Route12_FishingHouse_EventScript_NewRecordMagikarp
+# 76 "data/maps/Route12_FishingHouse/scripts.pory"
+	msgbox Route12_FishingHouse_Text_HmmXInchesDoesntMeasureUp
 # 77 "data/maps/Route12_FishingHouse/scripts.pory"
-Route12_FishingHouse_EventScript_NewRecordMagikarp::
+	release
 # 78 "data/maps/Route12_FishingHouse/scripts.pory"
-	setflag FLAG_GOT_RECORD_SETTING_MAGIKARP
+	end
 # 79 "data/maps/Route12_FishingHouse/scripts.pory"
-	msgbox Route12_FishingHouse_Text_WhoaXInchesTakeThis
+
 # 80 "data/maps/Route12_FishingHouse/scripts.pory"
-	giveitem ITEM_NET_BALL
+Route12_FishingHouse_EventScript_TieRecordMagikarp::
 # 81 "data/maps/Route12_FishingHouse/scripts.pory"
-	goto_if_eq VAR_RESULT, FALSE, Route12_FishingHouse_EventScript_NoRoomForNetBall
+	goto_if_unset FLAG_GOT_RECORD_SETTING_MAGIKARP, Route12_FishingHouse_EventScript_NewRecordMagikarp
 # 82 "data/maps/Route12_FishingHouse/scripts.pory"
-	msgbox Route12_FishingHouse_Text_LookForwardToGreaterRecords
+	msgbox Route12_FishingHouse_Text_HuhXInchesSameSizeAsLast
 # 83 "data/maps/Route12_FishingHouse/scripts.pory"
 	release
 # 84 "data/maps/Route12_FishingHouse/scripts.pory"
@@ -169,36 +169,54 @@ Route12_FishingHouse_EventScript_NewRecordMagikarp::
 # 85 "data/maps/Route12_FishingHouse/scripts.pory"
 
 # 86 "data/maps/Route12_FishingHouse/scripts.pory"
-Route12_FishingHouse_EventScript_NoRoomForNetBall::
+Route12_FishingHouse_EventScript_NewRecordMagikarp::
 # 87 "data/maps/Route12_FishingHouse/scripts.pory"
-	msgbox Route12_FishingHouse_Text_NoRoomForGift
+	setflag FLAG_GOT_RECORD_SETTING_MAGIKARP
 # 88 "data/maps/Route12_FishingHouse/scripts.pory"
-	release
+	msgbox Route12_FishingHouse_Text_WhoaXInchesTakeThis
 # 89 "data/maps/Route12_FishingHouse/scripts.pory"
-	end
+	giveitem ITEM_NET_BALL
 # 90 "data/maps/Route12_FishingHouse/scripts.pory"
-
+	goto_if_eq VAR_RESULT, FALSE, Route12_FishingHouse_EventScript_NoRoomForNetBall
 # 91 "data/maps/Route12_FishingHouse/scripts.pory"
-Route12_FishingHouse_EventScript_MagikarpRecordSign::
+	msgbox Route12_FishingHouse_Text_LookForwardToGreaterRecords
 # 92 "data/maps/Route12_FishingHouse/scripts.pory"
-	lockall
+	release
 # 93 "data/maps/Route12_FishingHouse/scripts.pory"
-	goto_if_set FLAG_GOT_RECORD_SETTING_MAGIKARP, Route12_FishingHouse_EventScript_MagikarpRecordSignRecordSet
-# 94 "data/maps/Route12_FishingHouse/scripts.pory"
-	msgbox Route12_FishingHouse_Text_BlankChartOfSomeSort
-# 95 "data/maps/Route12_FishingHouse/scripts.pory"
-	releaseall
-# 96 "data/maps/Route12_FishingHouse/scripts.pory"
 	end
-# 97 "data/maps/Route12_FishingHouse/scripts.pory"
+# 94 "data/maps/Route12_FishingHouse/scripts.pory"
 
+# 95 "data/maps/Route12_FishingHouse/scripts.pory"
+Route12_FishingHouse_EventScript_NoRoomForNetBall::
+# 96 "data/maps/Route12_FishingHouse/scripts.pory"
+	msgbox Route12_FishingHouse_Text_NoRoomForGift
+# 97 "data/maps/Route12_FishingHouse/scripts.pory"
+	release
 # 98 "data/maps/Route12_FishingHouse/scripts.pory"
-Route12_FishingHouse_EventScript_MagikarpRecordSignRecordSet::
+	end
 # 99 "data/maps/Route12_FishingHouse/scripts.pory"
-	special GetMagikarpSizeRecordInfo
+
 # 100 "data/maps/Route12_FishingHouse/scripts.pory"
-	msgbox Route12_FishingHouse_Text_MostGiganticMagikarpXInches
+Route12_FishingHouse_EventScript_MagikarpRecordSign::
 # 101 "data/maps/Route12_FishingHouse/scripts.pory"
-	releaseall
+	lockall
 # 102 "data/maps/Route12_FishingHouse/scripts.pory"
+	goto_if_set FLAG_GOT_RECORD_SETTING_MAGIKARP, Route12_FishingHouse_EventScript_MagikarpRecordSignRecordSet
+# 103 "data/maps/Route12_FishingHouse/scripts.pory"
+	msgbox Route12_FishingHouse_Text_BlankChartOfSomeSort
+# 104 "data/maps/Route12_FishingHouse/scripts.pory"
+	releaseall
+# 105 "data/maps/Route12_FishingHouse/scripts.pory"
+	end
+# 106 "data/maps/Route12_FishingHouse/scripts.pory"
+
+# 107 "data/maps/Route12_FishingHouse/scripts.pory"
+Route12_FishingHouse_EventScript_MagikarpRecordSignRecordSet::
+# 108 "data/maps/Route12_FishingHouse/scripts.pory"
+	special GetMagikarpSizeRecordInfo
+# 109 "data/maps/Route12_FishingHouse/scripts.pory"
+	msgbox Route12_FishingHouse_Text_MostGiganticMagikarpXInches
+# 110 "data/maps/Route12_FishingHouse/scripts.pory"
+	releaseall
+# 111 "data/maps/Route12_FishingHouse/scripts.pory"
 	end
