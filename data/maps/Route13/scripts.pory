@@ -45,6 +45,7 @@ Route13_BerryMart_EventScript_ErikaMart::
 	release
 	end
 
+	.align 2
 Route13_BerryMart_Default_Items::
 	.2byte ITEM_CHERI_BERRY
 	.2byte ITEM_CHESTO_BERRY
@@ -57,6 +58,7 @@ Route13_BerryMart_Default_Items::
 	release
 	end
 
+	.align 2
 Route13_BerryMart_Erika_Items::
 	.2byte ITEM_CHERI_BERRY
 	.2byte ITEM_CHESTO_BERRY
@@ -71,6 +73,7 @@ Route13_BerryMart_Erika_Items::
 	release
 	end
 
+	.align 2
 Route13_BerryMart_Koga_Items::
 	.2byte ITEM_CHERI_BERRY
 	.2byte ITEM_CHESTO_BERRY
@@ -103,6 +106,7 @@ Route13_BerryMart_Koga_Items::
 	release
 	end
 
+	.align 2
 Route13_BerryMart_Giovanni_Items::
 	.2byte ITEM_CHERI_BERRY
 	.2byte ITEM_CHESTO_BERRY
