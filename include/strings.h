@@ -794,6 +794,8 @@ extern const u8 gText_ThreeIsland[];
 extern const u8 gText_Vermilion[];
 extern const u8 gText_Colosseum_2[];
 extern const u8 gText_BerryCrush[];
+extern const u8 gText_BoardSeagallop[];
+extern const u8 gText_GoToDockArea[];
 extern const u8 gText_EmptyLinkService1[];
 extern const u8 gText_EmptyLinkService2[];
 extern const u8 gText_RecordCorner[];

@@ -102,6 +102,14 @@ VermilionCity_Text_BoardSeagallopRainbowPass::
     .string "Would you like to board\n"
     .string "a SEAGALLOP ferry?$"
 
+VermilionCity_Text_BoardSeagallopRainbowPassOrDock::
+    .string "With your RAINBOW PASS, you can\n"
+    .string "board the SEAGALLOP ferry to the\l"
+    .string "SEVII ISLANDS.\p"
+    .string "Or if you'd like, I can still take\n"
+    .string "you to the old SS ANNE dock area.\p"
+    .string "What would you prefer?$"
+
 VermilionCity_Text_OhMysticTicketTakeYouToNavelRock::
     .string "Oh! That's a MYSTICTICKET!\n"
     .string "Now that is rare.\p"

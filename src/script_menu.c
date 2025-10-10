@@ -537,9 +537,9 @@ static const struct MenuAction sMultichoiceList_SeagallopVermilion[] = {
     { gOtherText_Exit }
 };
 
-static const struct MenuAction sMultichoiceList_62[] = {
-    { gText_Multichoice_Empty1 },
-    { gText_Multichoice_Empty2 },
+static const struct MenuAction sMultichoiceList_SeagallopOrDock[] = {
+    { gText_BoardSeagallop },
+    { gText_GoToDockArea },
     { gOtherText_Exit }
 };
 
@@ -624,7 +624,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] = {
     [MULTICHOICE_SEAGALLOP_V13]                              = MULTICHOICE(sMultichoiceList_SeagallopV13),
     [MULTICHOICE_SEAGALLOP_V12]                              = MULTICHOICE(sMultichoiceList_SeagallopV12),
     [MULTICHOICE_SEAGALLOP_VERMILION]                        = MULTICHOICE(sMultichoiceList_SeagallopVermilion),
-    [MULTICHOICE_62]                                         = MULTICHOICE(sMultichoiceList_62),
+    [MULTICHOICE_SEAGALLOP_OR_DOCK]                          = MULTICHOICE(sMultichoiceList_SeagallopOrDock),
     [MULTICHOICE_JOIN_OR_LEAD]                               = MULTICHOICE(sMultichoiceList_JoinOrLead),
     [MULTICHOICE_TRAINER_TOWER_MODE]                         = MULTICHOICE(sMultichoiceList_TrainerTowerMode),
 };
