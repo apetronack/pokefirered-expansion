@@ -6,7 +6,8 @@ script CeruleanCave_2F_EventScript_MysticGuardian{
        format("Superb, it should be said."),
        CeruleanCave_2F_EventScript_DefeatedMysticGuardian, NO_MUSIC)
        if (flag(FLAG_RECEIVED_MYSTIC_TICKET) == FALSE) {
-			msgbox(format("You have demonstrated immense skill. This is your well-earned reward."))
+			setflag(FLAG_ENABLE_SHIP_NAVEL_ROCK)
+            msgbox(format("You have demonstrated immense skill. This is your well-earned reward."))
             checkitemspace(ITEM_MYSTIC_TICKET)
             if (var(VAR_RESULT) == FALSE) {
             	msgbox("You should make room for this.$")
