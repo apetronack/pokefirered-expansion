@@ -90,8 +90,8 @@ CeruleanCave_2F_EventScript_DefeatedMysticGuardian_Text_0:
 
 CeruleanCave_2F_EventScript_DefeatedMysticGuardian_Text_1:
 # 34 "data/maps/CeruleanCave_2F/scripts.pory"
-	.string "Travel to Vermillion City and\n"
-	.string "present this ticket to the\l"
-	.string "dockmaster. He will take you to a\l"
-	.string "special place only a select few\l"
-	.string "are worthy of visiting.$"
+	.string "Travel to Vermilion City and present\n"
+	.string "this ticket to the dockmaster. He\l"
+	.string "will take you to a special place\l"
+	.string "only a select few are worthy of\l"
+	.string "visiting.$"
