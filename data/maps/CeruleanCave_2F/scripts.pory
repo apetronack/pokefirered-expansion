@@ -31,7 +31,7 @@ script CeruleanCave_2F_EventScript_DefeatedMysticGuardian{
     }
     giveitem_msg(format("{PLAYER} received a MYSTIC TICKET from the MYSTIC GUARDIAN."), ITEM_MYSTIC_TICKET)
     setflag(FLAG_RECEIVED_MYSTIC_TICKET)
-    msgbox(format("Travel to Vermillion City and present this ticket to the dockmaster. He will take you to a special place only a select few are worthy of visiting."))
+    msgbox(format("Travel to Vermilion City and present this ticket to the dockmaster. He will take you to a special place only a select few are worthy of visiting."))
     release()
     end()
 }
