@@ -63,10 +63,21 @@ def parse_level_caps(caps_file: str = 'src/caps.c') -> List[Tuple[str, int]]:
         if match:
             array_content = match.group(1)
             # Parse each line with flag and level
-            line_pattern = r'\{([^,]+),\s*(\d+)\}'
+            line_pattern = r'\{([^,]+),\s*([^}]+)\}'
             for line_match in re.finditer(line_pattern, array_content):
                 flag = line_match.group(1).strip()
-                level = int(line_match.group(2))
+                level_raw = line_match.group(2).strip()
+                
+                # Handle MAX_LEVEL constant
+                if level_raw == 'MAX_LEVEL':
+                    level = 100  # MAX_LEVEL is defined as 100
+                else:
+                    try:
+                        level = int(level_raw)
+                    except ValueError:
+                        logging.warning(f"Could not parse level value '{level_raw}', skipping entry")
+                        continue
+                
                 level_caps.append((flag, level))
         else:
             logging.warning("Could not parse sLevelCapFlagMap from caps.c")
@@ -115,6 +126,7 @@ def get_trainer_milestone_info(trainer_name: str, progression_order: List[str], 
         'TRAINER_ELITE_FOUR_AGATHA': 17,
         'TRAINER_ELITE_FOUR_LANCE': 18,
         'TRAINER_CHAMPION_FIRST': 19,
+        'TRAINER_CHAMPION_REMATCH': 20
     }
     
     # Find milestone boundary indices in progression order
@@ -143,6 +155,17 @@ def get_trainer_milestone_info(trainer_name: str, progression_order: List[str], 
             # Trainer is after this milestone
             section_start_idx = milestone_trainer_idx + 1
             current_milestone = milestone_idx + 1
+    
+    # Special handling for post-Champion trainers
+    # If trainer comes after TRAINER_CHAMPION_FIRST but we haven't hit the final milestone,
+    # they should be assigned to the final milestone (FLAG_SYS_GAME_CLEAR = level 100)
+    champion_first_trainers = [name for name in progression_order if 'TRAINER_CHAMPION_FIRST' in name]
+    if champion_first_trainers:
+        champion_first_idx = max([progression_order.index(name) for name in champion_first_trainers])
+        if trainer_index > champion_first_idx and current_milestone < len(level_caps) - 1:
+            current_milestone = len(level_caps) - 1  # Final milestone
+            section_start_idx = champion_first_idx + 1
+            section_end_idx = len(progression_order) - 1
     
     # Ensure we don't exceed bounds
     current_milestone = min(current_milestone, len(level_caps) - 1)
@@ -282,8 +305,17 @@ def scale_trainer_level(original_level: int, trainer_name: str, progression_orde
     else:
         # Scale level based on current cap, previous cap, and progression
         previous_cap = level_caps[milestone - 1][1] if milestone > 0 else 0
-        lowest_level = previous_cap - int(AFTER_GYM_SCALE_DOWN*(current_cap - previous_cap))
-        scaled_level = lowest_level + int((current_cap - lowest_level) * progression_percentage)
+        
+        # Special handling for final milestone (post-Champion, level 100)
+        if milestone == len(level_caps) - 1 and current_cap == 100:
+            # For post-Champion trainers, scale from 85 to 100 instead of using the large gap from 73
+            lowest_level = 85
+            scaled_level = lowest_level + int((current_cap - lowest_level) * progression_percentage)
+        else:
+            # Normal scaling logic for other milestones
+            lowest_level = previous_cap - int(AFTER_GYM_SCALE_DOWN*(current_cap - previous_cap))
+            scaled_level = lowest_level + int((current_cap - lowest_level) * progression_percentage)
+        
         # If party size is 1, increase level by 2
         if party_size == 1:
             scaled_level += 2

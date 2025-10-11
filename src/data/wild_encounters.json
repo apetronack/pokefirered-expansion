@@ -9413,62 +9413,62 @@
               {
                 "min_level": 67,
                 "max_level": 70,
-                "species": "SPECIES_PIDGEOTTO"
+                "species": "SPECIES_SEALEO"
               },
               {
                 "min_level": 67,
                 "max_level": 70,
-                "species": "SPECIES_SWELLOW"
+                "species": "SPECIES_PSYDUCK"
               },
               {
                 "min_level": 67,
                 "max_level": 70,
-                "species": "SPECIES_STARAVIA"
+                "species": "SPECIES_GOLDUCK"
               },
               {
                 "min_level": 67,
                 "max_level": 70,
-                "species": "SPECIES_STARAVIA"
+                "species": "SPECIES_WALREIN"
               },
               {
                 "min_level": 67,
                 "max_level": 70,
-                "species": "SPECIES_VENONAT"
+                "species": "SPECIES_SLOWBRO"
               },
               {
                 "min_level": 67,
                 "max_level": 70,
-                "species": "SPECIES_CHERRIM"
+                "species": "SPECIES_SLOWBRO"
               },
               {
                 "min_level": 67,
                 "max_level": 70,
-                "species": "SPECIES_EXEGGCUTE"
+                "species": "SPECIES_SNEASEL"
               },
               {
                 "min_level": 67,
                 "max_level": 70,
-                "species": "SPECIES_EXEGGCUTE"
+                "species": "SPECIES_SNEASEL"
               },
               {
                 "min_level": 67,
                 "max_level": 70,
-                "species": "SPECIES_VENOMOTH"
+                "species": "SPECIES_GLALIE"
               },
               {
                 "min_level": 67,
                 "max_level": 70,
-                "species": "SPECIES_HYPNO"
+                "species": "SPECIES_GLALIE"
               },
               {
                 "min_level": 70,
                 "max_level": 70,
-                "species": "SPECIES_VENOMOTH"
+                "species": "SPECIES_GLALIE"
               },
               {
                 "min_level": 70,
                 "max_level": 70,
-                "species": "SPECIES_HYPNO"
+                "species": "SPECIES_GLALIE"
               }
             ]
           },
@@ -9721,7 +9721,7 @@
               {
                 "min_level": 67,
                 "max_level": 70,
-                "species": "SPECIES_SWINUB"
+                "species": "SPECIES_PILOSWINE"
               },
               {
                 "min_level": 67,
