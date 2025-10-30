@@ -12424,7 +12424,7 @@ const struct Item gItemsInfo[] =
 
     [ITEM_DOWSING_MACHINE] =
     {
-        .name = _("Dowsing MCHN"),
+        .name = _("Itemfinder"),
         .price = 0,
         .description = COMPOUND_STRING(
             "A device that "
