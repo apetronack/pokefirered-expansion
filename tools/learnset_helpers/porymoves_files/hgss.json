@@ -1325,6 +1325,7 @@
       "MOVE_SWAGGER",
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
+      "MOVE_CUT",
       "MOVE_FLY"
     ],
     "EggMoves": [],
@@ -1578,7 +1579,8 @@
       "MOVE_PLUCK",
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
-      "MOVE_FLY"
+      "MOVE_FLY",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_AIR_CUTTER",
@@ -1691,7 +1693,8 @@
       "MOVE_PLUCK",
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
-      "MOVE_FLY"
+      "MOVE_FLY",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_AIR_CUTTER",
@@ -1810,7 +1813,8 @@
       "MOVE_PLUCK",
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
-      "MOVE_FLY"
+      "MOVE_FLY",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_AIR_CUTTER",
@@ -9715,7 +9719,8 @@
       "MOVE_SWAGGER",
       "MOVE_PLUCK",
       "MOVE_SUBSTITUTE",
-      "MOVE_FLY"
+      "MOVE_FLY",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_BRAVE_BIRD",
@@ -9840,7 +9845,8 @@
       "MOVE_DRAIN_PUNCH",
       "MOVE_SHADOW_CLAW",
       "MOVE_SWORDS_DANCE",
-      "MOVE_ROCK_SMASH"
+      "MOVE_ROCK_SMASH",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_BRAVE_BIRD",
@@ -15660,7 +15666,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_NATURAL_GIFT",
       "MOVE_SWAGGER",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_CHARM",
@@ -16157,7 +16164,8 @@
       "MOVE_DREAM_EATER",
       "MOVE_SWAGGER",
       "MOVE_SUBSTITUTE",
-      "MOVE_TRICK_ROOM"
+      "MOVE_TRICK_ROOM",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -19329,7 +19337,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_CUT",
       "MOVE_SURF",
-      "MOVE_WHIRLPOOL"
+      "MOVE_WHIRLPOOL",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_ASSIST",
@@ -19605,7 +19614,8 @@
       "MOVE_SWAGGER",
       "MOVE_PLUCK",
       "MOVE_SUBSTITUTE",
-      "MOVE_FLY"
+      "MOVE_FLY",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_AGILITY",
@@ -19736,7 +19746,8 @@
       "MOVE_SWAGGER",
       "MOVE_PLUCK",
       "MOVE_SUBSTITUTE",
-      "MOVE_FLY"
+      "MOVE_FLY",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_AGILITY",
@@ -28107,7 +28118,8 @@
       "MOVE_DREAM_EATER",
       "MOVE_SWAGGER",
       "MOVE_SUBSTITUTE",
-      "MOVE_TRICK_ROOM"
+      "MOVE_TRICK_ROOM",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -31819,7 +31831,8 @@
       "MOVE_CUT",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_ROCK_SMASH"
+      "MOVE_ROCK_SMASH",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_CHARM",
@@ -32984,7 +32997,8 @@
       "MOVE_PLUCK",
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
-      "MOVE_FLY"
+      "MOVE_FLY",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_BRAVE_BIRD",
@@ -33091,7 +33105,8 @@
       "MOVE_PLUCK",
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
-      "MOVE_FLY"
+      "MOVE_FLY",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_BRAVE_BIRD",
@@ -34819,7 +34834,8 @@
       "MOVE_SWAGGER",
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
-      "MOVE_CUT"
+      "MOVE_CUT",
+      "MOVE_FLY"
     ],
     "EggMoves": [
       "MOVE_BUG_BITE",
@@ -35029,7 +35045,8 @@
       "MOVE_SLEEP_TALK",
       "MOVE_NATURAL_GIFT",
       "MOVE_SWAGGER",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_ENDEAVOR",
@@ -40138,7 +40155,8 @@
       "MOVE_SWAGGER",
       "MOVE_PLUCK",
       "MOVE_SUBSTITUTE",
-      "MOVE_FLY"
+      "MOVE_FLY",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_AGILITY",
@@ -40280,7 +40298,8 @@
       "MOVE_PLUCK",
       "MOVE_SUBSTITUTE",
       "MOVE_FLY",
-      "MOVE_ROCK_SMASH"
+      "MOVE_ROCK_SMASH",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_AGILITY",
@@ -47739,7 +47758,8 @@
       "MOVE_PLUCK",
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
-      "MOVE_FLY"
+      "MOVE_FLY",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_ASTONISH",
@@ -47839,7 +47859,8 @@
       "MOVE_PLUCK",
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
-      "MOVE_FLY"
+      "MOVE_FLY",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_ASTONISH",
@@ -47949,7 +47970,8 @@
       "MOVE_PLUCK",
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
-      "MOVE_FLY"
+      "MOVE_FLY",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [
       "MOVE_ASTONISH",
@@ -54666,7 +54688,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_FLY"
     ],
     "EggMoves": [
       "MOVE_HAZE",
@@ -56600,6 +56623,7 @@
       "MOVE_U_TURN",
       "MOVE_SUBSTITUTE",
       "MOVE_CUT",
+      "MOVE_FLY",
       "MOVE_STRENGTH",
       "MOVE_ROCK_SMASH"
     ],
@@ -56891,7 +56915,8 @@
       "MOVE_DREAM_EATER",
       "MOVE_SWAGGER",
       "MOVE_SUBSTITUTE",
-      "MOVE_TRICK_ROOM"
+      "MOVE_TRICK_ROOM",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": [
