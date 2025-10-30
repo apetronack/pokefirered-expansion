@@ -856,7 +856,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AQUA_JET",
@@ -988,7 +989,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AQUA_JET",
@@ -1137,7 +1139,8 @@
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
       "MOVE_WATERFALL",
-      "MOVE_ROCK_CLIMB"
+      "MOVE_ROCK_CLIMB",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AQUA_JET",
@@ -6125,7 +6128,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_CONFUSE_RAY",
@@ -6266,6 +6270,7 @@
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
       "MOVE_WATERFALL",
+      "MOVE_DIVE",
       "MOVE_ROCK_CLIMB",
       "MOVE_LIGHT_SCREEN",
       "MOVE_REFLECT",
@@ -6881,7 +6886,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_BUBBLE_BEAM",
@@ -7001,7 +7007,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_BUBBLE_BEAM",
@@ -7107,6 +7114,7 @@
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
       "MOVE_WATERFALL",
+      "MOVE_DIVE",
       "MOVE_ROCK_CLIMB"
     ],
     "EggMoves": [
@@ -8269,7 +8277,8 @@
       "MOVE_CUT",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_ACUPRESSURE",
@@ -8388,7 +8397,8 @@
       "MOVE_CUT",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_ACUPRESSURE",
@@ -9101,7 +9111,8 @@
       "MOVE_TRICK_ROOM",
       "MOVE_SURF",
       "MOVE_STRENGTH",
-      "MOVE_WHIRLPOOL"
+      "MOVE_WHIRLPOOL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_BELLY_DRUM",
@@ -9255,7 +9266,8 @@
       "MOVE_SURF",
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
-      "MOVE_ROCK_SMASH"
+      "MOVE_ROCK_SMASH",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_BELLY_DRUM",
@@ -10475,7 +10487,8 @@
       "MOVE_SWAGGER",
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
-      "MOVE_WHIRLPOOL"
+      "MOVE_WHIRLPOOL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_BARRIER",
@@ -10568,7 +10581,8 @@
       "MOVE_SWAGGER",
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
-      "MOVE_WHIRLPOOL"
+      "MOVE_WHIRLPOOL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_BARRIER",
@@ -13824,7 +13838,8 @@
       "MOVE_FLASH_CANNON",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AURORA_BEAM",
@@ -13943,7 +13958,8 @@
       "MOVE_FLASH_CANNON",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AURORA_BEAM",
@@ -14283,7 +14299,8 @@
       "MOVE_FLASH_CANNON",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -14375,7 +14392,8 @@
       "MOVE_TRICK_ROOM",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -15555,7 +15573,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -15790,7 +15809,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_CHARM",
@@ -16270,7 +16290,8 @@
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AURORA_BEAM",
@@ -16398,7 +16419,8 @@
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
       "MOVE_WATERFALL",
-      "MOVE_ROCK_CLIMB"
+      "MOVE_ROCK_CLIMB",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AURORA_BEAM",
@@ -16511,7 +16533,8 @@
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AURORA_BEAM",
@@ -16651,7 +16674,8 @@
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
       "MOVE_WATERFALL",
-      "MOVE_ROCK_CLIMB"
+      "MOVE_ROCK_CLIMB",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AURORA_BEAM",
@@ -18913,7 +18937,8 @@
       "MOVE_CUT",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -19052,7 +19077,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -19205,7 +19231,8 @@
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
       "MOVE_WATERFALL",
-      "MOVE_ROCK_CLIMB"
+      "MOVE_ROCK_CLIMB",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -20468,7 +20495,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AGILITY",
@@ -20598,7 +20626,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AGILITY",
@@ -21959,7 +21988,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AMNESIA",
@@ -22091,7 +22121,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AMNESIA",
@@ -22340,7 +22371,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_BUBBLE_BEAM",
@@ -23321,7 +23353,8 @@
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -23451,7 +23484,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -23976,7 +24010,8 @@
       "MOVE_SURF",
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
-      "MOVE_ROCK_SMASH"
+      "MOVE_ROCK_SMASH",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_BELLY_DRUM",
@@ -27217,7 +27252,8 @@
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
       "MOVE_WATERFALL",
-      "MOVE_FLY"
+      "MOVE_FLY",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_HAZE",
@@ -27736,7 +27772,8 @@
       "MOVE_FLASH_CANNON",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AURORA_BEAM",
@@ -29449,7 +29486,8 @@
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
       "MOVE_WATERFALL",
-      "MOVE_ROCK_CLIMB"
+      "MOVE_ROCK_CLIMB",
+      "MOVE_DIVE"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -31175,7 +31213,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -31310,7 +31349,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -31458,7 +31498,8 @@
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
       "MOVE_WATERFALL",
-      "MOVE_ROCK_CLIMB"
+      "MOVE_ROCK_CLIMB",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -32361,7 +32402,8 @@
       "MOVE_SWAGGER",
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
-      "MOVE_WHIRLPOOL"
+      "MOVE_WHIRLPOOL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_COUNTER",
@@ -32475,7 +32517,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_COUNTER",
@@ -32578,7 +32621,8 @@
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
       "MOVE_WATERFALL",
-      "MOVE_ROCK_CLIMB"
+      "MOVE_ROCK_CLIMB",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_COUNTER",
@@ -38517,7 +38561,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AQUA_RING",
@@ -38650,7 +38695,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AQUA_RING",
@@ -41155,7 +41201,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -41295,7 +41342,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_ANCIENT_POWER",
@@ -42086,7 +42134,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_CONFUSE_RAY",
@@ -42201,7 +42250,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_CONFUSE_RAY",
@@ -43773,7 +43823,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AQUA_RING",
@@ -43893,7 +43944,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AQUA_RING",
@@ -44024,7 +44076,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AQUA_RING",
@@ -44098,7 +44151,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AQUA_RING",
@@ -44203,7 +44257,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AQUA_RING",
@@ -44315,7 +44370,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AQUA_RING",
@@ -47383,7 +47439,8 @@
       "MOVE_CUT",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AGILITY",
@@ -47510,7 +47567,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AGILITY",
@@ -47657,7 +47715,8 @@
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
       "MOVE_WATERFALL",
-      "MOVE_ROCK_CLIMB"
+      "MOVE_ROCK_CLIMB",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_AGILITY",
@@ -49922,7 +49981,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_BATON_PASS",
@@ -50044,7 +50104,8 @@
       "MOVE_STRENGTH",
       "MOVE_WHIRLPOOL",
       "MOVE_ROCK_SMASH",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_BATON_PASS",
@@ -54689,7 +54750,8 @@
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
       "MOVE_WATERFALL",
-      "MOVE_FLY"
+      "MOVE_FLY",
+      "MOVE_DIVE"
     ],
     "EggMoves": [
       "MOVE_HAZE",
@@ -58784,7 +58846,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [],
     "TutorMoves": [
@@ -58897,7 +58960,8 @@
       "MOVE_SUBSTITUTE",
       "MOVE_SURF",
       "MOVE_WHIRLPOOL",
-      "MOVE_WATERFALL"
+      "MOVE_WATERFALL",
+      "MOVE_DIVE"
     ],
     "EggMoves": [],
     "TutorMoves": [
