@@ -8,6 +8,7 @@ script Route13_MovingHouse_EventScript_ChoiceItem {
         if (checkitem(ITEM_FIRE_STONE)) {
             msgbox(format("Do you want to trade your FIRE STONE for my CHOICE SPECS?"), MSGBOX_YESNO)
             if (var(VAR_RESULT) == 1) {
+                setflag(FLAG_CHOICE_SPECS_TRADE)
                 removeitem(ITEM_FIRE_STONE, 1)
                 giveitem(ITEM_CHOICE_SPECS, 1)
                 msgbox(format("Thank you! Here are your CHOICE SPECS."))
@@ -23,6 +24,7 @@ script Route13_MovingHouse_EventScript_ChoiceItem {
         if (checkitem(ITEM_WATER_STONE)) {
             msgbox(format("Do you want to trade your WATER STONE for my CHOICE SCARF?"), MSGBOX_YESNO)
             if (var(VAR_RESULT) == 1) {
+                setflag(FLAG_CHOICE_SCARF_TRADE)
                 removeitem(ITEM_WATER_STONE, 1)
                 giveitem(ITEM_CHOICE_SCARF, 1)
                 msgbox(format("Thank you! Here are your CHOICE SCARF."))
@@ -38,6 +40,7 @@ script Route13_MovingHouse_EventScript_ChoiceItem {
         if (checkitem(ITEM_THUNDER_STONE)) {
             msgbox(format("Do you want to trade your THUNDER STONE for my CHOICE BAND?"), MSGBOX_YESNO)
             if (var(VAR_RESULT) == 1) {
+                setflag(FLAG_CHOICE_BAND_TRADE)
                 removeitem(ITEM_THUNDER_STONE, 1)
                 giveitem(ITEM_CHOICE_BAND, 1)
                 msgbox(format("Thank you! Here are your CHOICE BAND."))
