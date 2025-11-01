@@ -275,7 +275,7 @@ SSAnne_Exterior_EventScript_ReturnToVermilion::
 # 138 "data/maps/SSAnne_Exterior/scripts.pory"
 	fadescreen FADE_TO_BLACK
 # 139 "data/maps/SSAnne_Exterior/scripts.pory"
-	warp MAP_VERMILION_CITY, 22, 32
+	warp MAP_VERMILION_CITY, 23, 34
 # 140 "data/maps/SSAnne_Exterior/scripts.pory"
 	waitstate
 # 141 "data/maps/SSAnne_Exterior/scripts.pory"
@@ -304,10 +304,18 @@ SSAnne_Exterior_EventScript_ShipGone::
 # 154 "data/maps/SSAnne_Exterior/scripts.pory"
 	msgbox SSAnne_Exterior_EventScript_ShipGone_Text_0
 # 155 "data/maps/SSAnne_Exterior/scripts.pory"
+	closemessage
+# 156 "data/maps/SSAnne_Exterior/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkUp
+# 157 "data/maps/SSAnne_Exterior/scripts.pory"
+	waitmovement 0
+# 158 "data/maps/SSAnne_Exterior/scripts.pory"
 	releaseall
 	return
 
 
 SSAnne_Exterior_EventScript_ShipGone_Text_0:
 # 154 "data/maps/SSAnne_Exterior/scripts.pory"
-	.string "The S.S. ANNE has already departed.\pThere's nothing here but an empty\ndocking area.$"
+	.string "The S.S. ANNE has already\n"
+	.string "departed. There's nothing here but\l"
+	.string "an empty docking area.$"

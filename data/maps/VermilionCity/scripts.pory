@@ -8,29 +8,47 @@ VermilionCity_MapScripts::
 
 VermilionCity_OnFrame::
 	map_script_2 VAR_MAP_SCENE_VERMILION_CITY, 2, VermilionCity_EventScript_ExitSSAnne
+	map_script_2 VAR_TEMP_0, 1, VermilionCity_EventScript_WalkUpFromSSAnne
 	.2byte 0
 
 VermilionCity_EventScript_ExitSSAnne::
 	lockall
-	applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Movement_ExitSSAnne
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkUp4
 	waitmovement 0
 	setvar VAR_MAP_SCENE_VERMILION_CITY, 3
 	releaseall
 	end
 
-VermilionCity_Movement_ExitSSAnne::
-	walk_up
-	walk_up
-	step_end
-
 VermilionCity_OnTransition::
 	setworldmapflag FLAG_WORLD_MAP_VERMILION_CITY
 	call_if_set FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION, VermilionCity_EventScript_HideOaksAide
+	call VermilionCity_EventScript_CheckSSAnneWarp
 	end
 
 VermilionCity_EventScript_HideOaksAide::
 	setflag FLAG_HIDE_VERMILION_CITY_OAKS_AIDE
 	return
+
+VermilionCity_EventScript_CheckSSAnneWarp::
+	getplayerxy VAR_0x8000, VAR_0x8001
+	goto_if_eq VAR_0x8000, 23, VermilionCity_EventScript_CheckSSAnneWarpY
+	return
+
+VermilionCity_EventScript_CheckSSAnneWarpY::
+	goto_if_eq VAR_0x8001, 34, VermilionCity_EventScript_SetSSAnneExitFlag
+	return
+
+VermilionCity_EventScript_SetSSAnneExitFlag::
+	setvar VAR_TEMP_0, 1
+	return
+
+VermilionCity_EventScript_WalkUpFromSSAnne::
+	lockall
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkUp4
+	waitmovement 0
+	setvar VAR_TEMP_0, 0
+	releaseall
+	end
 
 VermilionCity_EventScript_Woman::
 	msgbox VermilionCity_Text_GrimerMultipliesInSludge, MSGBOX_NPC
