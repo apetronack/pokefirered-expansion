@@ -159,21 +159,21 @@
       "y": 34,
       "elevation": 3,
       "dest_map": "MAP_SSANNE_EXTERIOR",
-      "dest_warp_id": "1"
+      "dest_warp_id": "0"
     },
     {
       "x": 23,
       "y": 34,
       "elevation": 3,
       "dest_map": "MAP_SSANNE_EXTERIOR",
-      "dest_warp_id": "1"
+      "dest_warp_id": "0"
     },
     {
       "x": 24,
       "y": 34,
       "elevation": 3,
       "dest_map": "MAP_SSANNE_EXTERIOR",
-      "dest_warp_id": "1"
+      "dest_warp_id": "0"
     },
     {
       "x": 9,
