@@ -240,6 +240,7 @@ Ability: Keen Eye
 Adamant Nature
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+EVs: 20 Spe / 20 Atk / 6 SpD
 - Tackle
 - Wing Attack
 - Quick Attack
@@ -250,6 +251,7 @@ Ability: Torrent
 Relaxed Nature
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+EVs: 20 Def / 20 SpD / 6 HP
 - Tackle
 - Tail Whip
 - Bubble
@@ -268,6 +270,7 @@ Ability: Keen Eye
 Adamant Nature
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+EVs: 20 Spe / 20 Atk / 6 SpD
 - Tackle
 - Wing Attack
 - Quick Attack
@@ -278,6 +281,7 @@ Ability: Overgrow
 Sassy Nature
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+EVs: 20 SpD / 20 Atk / 6 HP
 - Tackle
 - Growl
 - Leech Seed
@@ -296,6 +300,7 @@ Ability: Keen Eye
 Adamant Nature
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+EVs: 20 Spe / 20 Atk / 6 SpD
 - Tackle
 - Wing Attack
 - Quick Attack
@@ -306,6 +311,7 @@ Ability: Blaze
 Quiet Nature
 Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+EVs: 20 SpA / 20 Atk / 6 HP
 - Scratch
 - Growl
 - Ember
@@ -1045,6 +1051,7 @@ Ability: Intimidate
 Adamant Nature
 Level: 19
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 52 Atk / 52 Spe / 6 HP
 - Wing Attack
 - Growl
 - Double Team
@@ -1055,6 +1062,7 @@ Ability: Synchronize
 Naughty Nature
 Level: 19
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 52 SpA / 52 Spe / 6 SpD
 - Teleport
 - Hidden Power
 - Confusion
@@ -1065,6 +1073,7 @@ Ability: Static
 Lax Nature
 Level: 20
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 52 Atk / 52 Def / 6 SpA
 - Thunder Wave
 - Thunder Shock
 - Growl
@@ -1075,6 +1084,7 @@ Ability: Torrent
 Mild Nature
 Level: 21
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 52 Def / 52 SpD / 6 HP
 - Secret Power
 - Tail Whip
 - Withdraw
@@ -1094,6 +1104,7 @@ Ability: Intimidate
 Adamant Nature
 Level: 19
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 52 Atk / 52 Spe / 6 HP
 - Wing Attack
 - Growl
 - Double Team
@@ -1104,6 +1115,7 @@ Ability: Synchronize
 Naughty Nature
 Level: 19
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 52 SpA / 52 Spe / 6 SpD
 - Teleport
 - Hidden Power
 - Confusion
@@ -1114,6 +1126,7 @@ Ability: Static
 Lax Nature
 Level: 20
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 52 Atk / 52 Def / 6 SpA
 - Thunder Wave
 - Thunder Shock
 - Growl
@@ -1124,6 +1137,7 @@ Ability: Overgrow
 Quiet Nature
 Level: 21
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 52 SpD / 52 Atk / 6 HP
 - Secret Power
 - Poison Powder
 - Vine Whip
@@ -1143,6 +1157,7 @@ Ability: Intimidate
 Adamant Nature
 Level: 19
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 52 Atk / 52 Spe / 6 HP
 - Wing Attack
 - Growl
 - Double Team
@@ -1153,6 +1168,7 @@ Ability: Synchronize
 Naughty Nature
 Level: 19
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 52 SpA / 52 Spe / 6 SpD
 - Teleport
 - Hidden Power
 - Confusion
@@ -1163,6 +1179,7 @@ Ability: Static
 Lax Nature
 Level: 20
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 52 Atk / 52 Def / 6 SpA
 - Thunder Wave
 - Thunder Shock
 - Growl
@@ -1173,6 +1190,7 @@ Ability: Blaze
 Naughty Nature
 Level: 21
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 52 SpA / 52 Atk / 6 Spe
 - Metal Claw
 - Ember
 - Growl
@@ -1731,6 +1749,7 @@ Ability: Keen Eye
 Impish Nature
 Level: 23
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 75 Def / 75 HP / 6 SpD
 - Swift
 - Sand Attack
 - Peck
@@ -1740,6 +1759,7 @@ Cubone @ Thick Club
 Ability: Lightning Rod
 Level: 23
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 75 Atk / 75 Def / 6 HP
 - Bonemerang
 - Headbutt
 - Focus Energy
@@ -1749,6 +1769,7 @@ SPECIES_SNEASEL_HISUI
 Ability: Keen Eye
 Level: 23
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 75 Atk / 75 Spe / 6 SpD
 - Metal Claw
 - Quick Attack
 - Rock Smash
@@ -1758,6 +1779,7 @@ Elekid
 Ability: Static
 Level: 23
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
+EVs: 75 Atk / 75 SpA / 6 Spe
 - Low Kick
 - Shock Wave
 - Quick Attack
@@ -2868,6 +2890,7 @@ Ability: Intimidate
 Adamant Nature
 Level: 26
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 Atk / 78 Spe / 6 HP
 - Wing Attack
 - Secret Power
 - Endeavor
@@ -2878,6 +2901,7 @@ Ability: Static
 Lax Nature
 Level: 26
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 Atk / 78 Def / 6 SpA
 - Thunder Wave
 - Shock Wave
 - Mega Punch
@@ -2888,6 +2912,7 @@ Ability: Synchronize
 Mild Nature
 Level: 27
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 SpA / 78 Spe / 6 SpD
 - Hidden Power
 - Confusion
 - Disable
@@ -2898,6 +2923,7 @@ Ability: Sturdy
 Adamant Nature
 Level: 27
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 Atk / 78 Def / 6 SpD
 - Iron Defense
 - Metal Claw
 - Headbutt
@@ -2908,6 +2934,7 @@ Ability: Torrent
 Mild Nature
 Level: 28
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 SpA / 78 Def / 6 HP
 - Water Pulse
 - Bite
 - Withdraw
@@ -2927,6 +2954,7 @@ Ability: Intimidate
 Adamant Nature
 Level: 26
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 Atk / 78 Spe / 6 HP
 - Wing Attack
 - Secret Power
 - Endeavor
@@ -2937,6 +2965,7 @@ Ability: Static
 Lax Nature
 Level: 26
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 Atk / 78 Def / 6 SpA
 - Thunder Wave
 - Shock Wave
 - Mega Punch
@@ -2947,6 +2976,7 @@ Ability: Synchronize
 Mild Nature
 Level: 27
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 SpA / 78 Spe / 6 SpD
 - Hidden Power
 - Confusion
 - Disable
@@ -2957,6 +2987,7 @@ Ability: Sturdy
 Adamant Nature
 Level: 27
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 Atk / 78 Def / 6 SpD
 - Iron Defense
 - Metal Claw
 - Headbutt
@@ -2967,6 +2998,7 @@ Ability: Overgrow
 Mild Nature
 Level: 28
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 Atk / 78 SpD / 6 Def
 - Razor Leaf
 - Take Down
 - Leech Seed
@@ -2986,6 +3018,7 @@ Ability: Intimidate
 Adamant Nature
 Level: 26
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 Atk / 78 Spe / 6 HP
 - Wing Attack
 - Secret Power
 - Endeavor
@@ -2996,6 +3029,7 @@ Ability: Static
 Lax Nature
 Level: 26
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 Atk / 78 Def / 6 SpA
 - Thunder Wave
 - Shock Wave
 - Mega Punch
@@ -3006,6 +3040,7 @@ Ability: Sturdy
 Adamant Nature
 Level: 27
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 Atk / 78 Def / 6 SpD
 - Iron Defense
 - Metal Claw
 - Headbutt
@@ -3016,6 +3051,7 @@ Ability: Synchronize
 Mild Nature
 Level: 27
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 SpA / 78 Spe / 6 SpD
 - Hidden Power
 - Confusion
 - Disable
@@ -3026,6 +3062,7 @@ Ability: Blaze
 Level: 28
 Rash Nature
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+EVs: 78 Atk / 78 SpA / 6 Spe
 - Dragon Rage
 - Ember
 - Metal Claw 
@@ -5004,6 +5041,7 @@ Ability: Hyper Cutter
 Jolly Nature
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 120 Atk / 120 Spe / 6 SpD
 - Poison Jab
 - Slash
 - Feint Attack
@@ -5014,6 +5052,7 @@ Ability: Sand Veil
 Jolly Nature
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 120 Atk / 120 Spe / 6 HP
 - Fury Cutter
 - Rock Slide
 - Crush Claw
@@ -5024,6 +5063,7 @@ Ability: Scrappy
 Naughty Nature
 Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 120 Atk / 120 HP / 6 Def
 - Mega Punch
 - Rock Smash
 - Crunch
@@ -5034,6 +5074,7 @@ Ability: Sheer Force
 Adamant Nature
 Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 120 Atk / 120 SpD / 6 Spe
 - Rock Slide
 - X-Scissor
 - Air Slash
@@ -5053,6 +5094,7 @@ Ability: Keen Eye
 Impish Nature
 Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 104 Def / 104 HP / 6 Atk
 - Roar
 - Stealth Rock
 - Wing Attack
@@ -5062,6 +5104,7 @@ SPECIES_MAROWAK_ALOLA @ Thick Club
 Ability: Rock Head
 Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 104 Atk / 104 Def / 6 HP
 - Bone Rush
 - Shadow Punch
 - Flame Wheel
@@ -5071,6 +5114,7 @@ SPECIES_SNEASEL_HISUI
 Ability: Keen Eye
 Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 104 Atk / 104 Spe / 6 SpD
 - Metal Claw
 - Poison Jab
 - Brick Break
@@ -5080,6 +5124,7 @@ Electabuzz
 Ability: Static
 Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 104 SpA / 104 Atk / 6 Spe
 - Counter
 - Thunder Punch
 - Secret Power
@@ -5089,6 +5134,7 @@ Cacturne
 Ability: Sand Veil
 Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+EVs: 104 Atk / 104 SpA / 6 Def
 - Faint Attack
 - Pin Missile
 - Leech Seed
@@ -5108,6 +5154,7 @@ Ability: Intimidate
 Adamant Nature
 Level: 36
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 Atk / 104 Spe / 6 HP
 - Aerial Ace
 - Close Combat
 - Quick Attack
@@ -5118,6 +5165,7 @@ Ability: Static
 Lax Nature
 Level: 37
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 SpA / 104 Atk / 6 Def
 - Thunder Wave
 - Discharge
 - Mega Punch
@@ -5128,6 +5176,7 @@ Ability: White Smoke
 Relaxed Nature
 Level: 37
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 Def / 104 SpA / 6 SpD
 - Flamethrower
 - Rock Slide
 - Curse
@@ -5138,6 +5187,7 @@ Level: 38
 Ability: Chlorophyll
 Adamant Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 Atk / 104 Def / 6 Spe
 - Stomp
 - Magical Leaf
 - Growth
@@ -5148,6 +5198,7 @@ Ability: Synchronize
 Mild Nature
 Level: 38
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 SpA / 104 Spe / 6 SpD
 - Psybeam
 - Hidden Power
 - Disable
@@ -5158,6 +5209,7 @@ Ability: Torrent
 Mild Nature
 Level: 39
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 SpA / 104 Def / 6 HP
 - Water Pulse
 - Body Slam
 - Bite
@@ -5177,6 +5229,7 @@ Ability: Intimidate
 Adamant Nature
 Level: 36
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 Atk / 104 Spe / 6 HP
 - Aerial Ace
 - Close Combat
 - Quick Attack
@@ -5187,6 +5240,7 @@ Ability: Static
 Lax Nature
 Level: 37
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 SpA / 104 Atk / 6 Def
 - Thunder Wave
 - Discharge
 - Mega Punch
@@ -5197,6 +5251,7 @@ Ability: White Smoke
 Relaxed Nature
 Level: 37
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 Def / 104 SpA / 6 SpD
 - Flamethrower
 - Rock Slide
 - Curse
@@ -5207,6 +5262,7 @@ Ability: Keen Eye
 Mild Nature
 Level: 38
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 SpA / 104 SpD / 6 HP
 - Water Pulse
 - Wing Attack
 - Supersonic
@@ -5217,6 +5273,7 @@ Ability: Synchronize
 Mild Nature
 Level: 38
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 SpA / 104 Spe / 6 SpD
 - Psybeam
 - Hidden Power
 - Disable
@@ -5227,6 +5284,7 @@ Ability: Overgrow
 Mild Nature
 Level: 39
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 Atk / 104 SpD / 6 Spe
 - Razor Leaf
 - Leech Seed
 - Sleep Powder
@@ -5246,6 +5304,7 @@ Ability: Intimidate
 Adamant Nature
 Level: 36
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 Atk / 104 Spe / 6 HP
 - Aerial Ace
 - Close Combat
 - Quick Attack
@@ -5256,6 +5315,7 @@ Ability: Static
 Lax Nature
 Level: 37
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 SpA / 104 Atk / 6 Def
 - Thunder Wave
 - Discharge
 - Mega Punch
@@ -5266,6 +5326,7 @@ Level: 37
 Ability: Chlorophyll
 Adamant Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 Atk / 104 Def / 6 Spe
 - Stomp
 - Magical Leaf
 - Growth
@@ -5276,6 +5337,7 @@ Ability: Keen Eye
 Mild Nature
 Level: 38
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 SpA / 104 SpD / 6 HP
 - Water Pulse
 - Wing Attack
 - Supersonic
@@ -5286,6 +5348,7 @@ Ability: Synchronize
 Mild Nature
 Level: 38
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 SpA / 104 Spe / 6 SpD
 - Psybeam
 - Hidden Power
 - Disable
@@ -5296,6 +5359,7 @@ Ability: Blaze
 Rash Nature
 Level: 39
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+EVs: 104 Atk / 104 Spe / 6 SpD
 - Dragon Rage
 - Metal Claw
 - Fire Fang
@@ -5675,6 +5739,7 @@ Ability: Shell Armor
 Adamant Nature
 Level: 38
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+EVs: 120 Atk / 120 SpD / 6 HP
 - Knock Off
 - Body Slam
 - Waterfall
@@ -5685,6 +5750,7 @@ Ability: Truant
 Naughty Nature
 Level: 38
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+EVs: 120 Atk / 120 Def / 6 Spe
 - Counter
 - Faint Attack
 - Body Slam
@@ -5694,6 +5760,7 @@ Dodrio
 Ability: Early Bird
 Level: 38
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+EVs: 120 Atk / 120 Spe / 6 SpD
 - Tri Attack
 - Acupressure
 - Steel Wing
@@ -5703,6 +5770,7 @@ Grumpig
 Ability: Thick Fat
 Level: 38
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+EVs: 120 Atk / 120 SpD / 6 Def
 - Payback
 - Zen Headbutt
 - Confuse Ray
@@ -5712,6 +5780,7 @@ Raichu
 Ability: Static
 Level: 38
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
+EVs: 120 SpA / 120 Spe / 6 Atk
 - Thunderbolt
 - Nasty Plot
 - Surf
@@ -8466,6 +8535,7 @@ Staraptor @ Focus Sash
 Ability: Intimidate
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 Atk / 152 Spe / 6 HP
 - Close Combat
 - Brave Bird
 - Quick Attack
@@ -8475,6 +8545,7 @@ Typhlosion @ Power Herb
 Ability: Blaze
 Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 SpA / 152 SpD / 6 Def
 - Flamethrower
 - Sunny Day
 - Focus Blast
@@ -8484,6 +8555,7 @@ Sceptile @ Razor Claw
 Ability: Overgrow
 Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 Atk / 152 Spe / 6 HP
 - Leaf Blade
 - X-Scissor
 - Night Slash
@@ -8493,6 +8565,7 @@ Alakazam @ Twisted Spoon
 Ability: Synchronize
 Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 SpA / 152 Spe / 6 SpD
 - Calm Mind
 - Psychic
 - Fire Punch
@@ -8502,6 +8575,7 @@ Ampharos @ Expert Belt
 Ability: Static
 Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 SpA / 152 Def / 6 SpD
 - Thunder Wave
 - Thunderbolt
 - Signal Beam
@@ -8511,6 +8585,7 @@ Blastoise @ Sitrus Berry
 Ability: Torrent
 Level: 48
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 Def / 152 SpD / 6 HP
 - Aqua Tail
 - Skull Bash
 - Flash Cannon
@@ -8529,6 +8604,7 @@ Staraptor @ Focus Sash
 Ability: Intimidate
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 Atk / 152 Spe / 6 HP
 - Close Combat
 - Brave Bird
 - Quick Attack
@@ -8538,6 +8614,7 @@ Feraligatr @ Muscle Band
 Ability: Torrent
 Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 Atk / 152 Def / 6 HP
 - Ice Fang
 - Crunch
 - Slash
@@ -8547,6 +8624,7 @@ Blaziken @ Black Belt
 Ability: Blaze
 Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 Atk / 152 Spe / 6 SpD
 - Bulk Up
 - Blaze Kick
 - Brick Break
@@ -8556,6 +8634,7 @@ Alakazam @ Twisted Spoon
 Ability: Synchronize
 Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 SpA / 152 Spe / 6 SpD
 - Calm Mind
 - Psychic
 - Fire Punch
@@ -8565,6 +8644,7 @@ Ampharos @ Expert Belt
 Ability: Static
 Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 SpA / 152 Def / 6 SpD
 - Thunder Wave
 - Thunderbolt
 - Signal Beam
@@ -8574,6 +8654,7 @@ Venusaur @ Sitrus Berry
 Ability: Overgrow
 Level: 48
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 SpA / 152 SpD / 6 Def
 - Growth
 - Leech Seed
 - Sleep Powder
@@ -8592,6 +8673,7 @@ Staraptor @ Focus Sash
 Ability: Intimidate
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 Atk / 152 Spe / 6 HP
 - Close Combat
 - Brave Bird
 - Quick Attack
@@ -8601,6 +8683,7 @@ Meganium @ Light Clay
 Ability: Overgrow
 Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 SpD / 152 Def / 6 SpA
 - Light Screen
 - Energy Ball
 - Poison Powder
@@ -8610,6 +8693,7 @@ Swampert @ NevermeltIce
 Ability: Torrent
 Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 Atk / 152 Def / 6 HP
 - Waterfall
 - Brick Break
 - Avalanche
@@ -8619,6 +8703,7 @@ Alakazam @ Twisted Spoon
 Ability: Synchronize
 Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 SpA / 152 Spe / 6 SpD
 - Calm Mind
 - Psychic
 - Fire Punch
@@ -8628,6 +8713,7 @@ Ampharos @ Expert Belt
 Ability: Static
 Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 SpA / 152 Def / 6 SpD
 - Thunder Wave
 - Thunderbolt
 - Signal Beam
@@ -8637,6 +8723,7 @@ Charizard @ Sitrus Berry
 Ability: Blaze
 Level: 48
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+EVs: 152 SpA / 152 Atk / 6 Spe
 - Air Slash
 - Flamethrower
 - Smokescreen
@@ -8981,6 +9068,7 @@ Ability: Sand Stream
 Adamant Nature
 Level: 45
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+EVs: 160 HP / 160 Atk / 6 Def
 - Ice Fang
 - Crunch
 - Earthquake
@@ -8991,6 +9079,7 @@ Ability: Sand Veil
 Jolly Nature
 Level: 45
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+EVs: 160 Atk / 160 Spe / 6 SpD
 - Aerial Ace
 - Fire Fang
 - Poison Tail
@@ -9001,6 +9090,7 @@ Ability: Torrent
 Sassy Nature
 Level: 47
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+EVs: 160 Atk / 160 Def / 6 SpD
 - Brick Break
 - Earthquake
 - Waterfall
@@ -9011,6 +9101,7 @@ Ability: Overgrow
 Adamant Nature
 Level: 47
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+EVs: 160 HP / 160 Atk / 6 Def
 - Curse
 - Seed Bomb
 - Earthquake
@@ -9021,6 +9112,7 @@ Ability: Poison Point
 Level: 49
 Docile Nature
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+EVs: 160 SpA / 160 Def / 6 SpD
 - Body Slam
 - Sludge Bomb
 - Earth Power
@@ -9285,6 +9377,7 @@ Ability: Keen Eye
 Impish Nature
 Level: 49
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+EVs: 160 Def / 160 HP / 6 SpD
 - Roar
 - Stealth Rock
 - Drill Peck
@@ -9295,6 +9388,7 @@ Ability: Rock Head
 Relaxed Nature
 Level: 49
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+EVs: 160 Atk / 160 Def/ 6 HP
 - Bonemerang
 - Shadow Claw
 - Flame Wheel
@@ -9305,6 +9399,7 @@ Ability: Unburden
 Jolly Nature
 Level: 49
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+EVs: 160 Atk / 160 Spe / 6 SpD
 - Night Slash
 - Poison Jab
 - Brick Break
@@ -9315,6 +9410,7 @@ Ability: Static
 Rash Nature
 Level: 49
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+EVs: 160 SpA / 160 Atk / 6 Def
 - Ice Punch
 - Thunderbolt
 - Light Screen
@@ -9325,6 +9421,7 @@ Ability: Sand Veil
 Impish Nature
 Level: 49
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+EVs: 160 Atk / 160 SpA / 6 Def
 - Sucker Punch
 - Pin Missile
 - Leech Seed
@@ -9335,6 +9432,7 @@ Ability: Water Veil
 Adamant Nature
 Level: 49
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
+EVs: 160 Atk / 160 Def / 6 SpD
 - Waterfall
 - Crunch
 - Screech
@@ -10437,6 +10535,7 @@ Ability: Keen Eye
 Impish Nature
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+EVs: 176 Def / 176 HP / 6 SpD
 - Roar
 - Stealth Rock
 - Drill Peck
@@ -10447,6 +10546,7 @@ Ability: Rock Head
 Relaxed Nature
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+EVs: 176 Atk / 176 Def / 6 SpD
 - Bonemerang
 - Shadow Claw
 - Flame Wheel
@@ -10457,6 +10557,7 @@ Ability: Unburden
 Jolly Nature
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+EVs: 176 Atk / 176 Spe / 6 SpD
 - Night Slash
 - Poison Jab
 - Brick Break
@@ -10467,6 +10568,7 @@ Ability: Motor Drive
 Rash Nature
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+EVs: 176 SpA / 176 Atk / 6 Def
 - Ice Punch
 - Thunderbolt
 - Light Screen
@@ -10477,6 +10579,7 @@ Ability: Gluttony
 Impish Nature
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+EVs: 176 SpA / 176 Spe / 6 SpD
 - Sludge Bomb
 - Energy Ball
 - Sleep Powder
@@ -10487,6 +10590,7 @@ Ability: Sheer Force
 Adamant Nature
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+EVs: 176 Atk / 176 Def / 6 Spe
 - Waterfall
 - Crunch
 - Dragon Dance
@@ -12050,6 +12154,7 @@ Staraptor @ Choice Band
 Ability: Intimidate
 Level: 59
 IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+EVs: 200 Atk / 200 Spe / 6 HP
 - Brave Bird
 - Close Combat
 - Steel Wing
@@ -12059,6 +12164,7 @@ Ampharos @ Magnet
 Ability: Static
 Level: 61
 IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+EVs: 200 SpA / 200 Def / 6 SpD
 - Thunderbolt
 - Focus Blast
 - Signal Beam
@@ -12068,6 +12174,7 @@ Milotic @ Leftovers
 Ability: Marvel Scale
 Level: 61
 IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+EVs: 200 HP / 200 Def / 6 SpD
 - Aqua Ring
 - Toxic
 - Dive
@@ -12077,6 +12184,7 @@ Arcanine @ Kings Rock
 Ability: Intimidate
 Level: 63
 IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+EVs: 200 Atk / 200 Spe / 6 HP
 - Thunder Fang
 - Extreme Speed
 - Crunch
@@ -12086,6 +12194,7 @@ Alakazam @ Choice Specs
 Ability: Synchronize
 Level: 63
 IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+EVs: 200 SpA / 200 Spe / 6 SpD
 - Psychic
 - Shadow Ball
 - Energy Ball
@@ -12095,6 +12204,7 @@ Venusaur @ Sitrus Berry
 Ability: Overgrow
 Level: 64
 IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
+EVs: 200 SpA / 200 Def / 6 HP
 - Petal Dance
 - Sludge Bomb
 - Growth
@@ -12113,6 +12223,7 @@ Staraptor @ Choice Band
 Ability: Intimidate
 Level: 59
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 200 Atk / 200 Spe / 6 HP
 - Brave Bird
 - Close Combat
 - Steel Wing
@@ -12122,6 +12233,7 @@ Ampharos @ Magnet
 Ability: Static
 Level: 61
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 200 SpA / 200 Def / 6 SpD
 - Thunderbolt
 - Focus Blast
 - Signal Beam
@@ -12131,6 +12243,7 @@ Arcanine @ Kings Rock
 Ability: Intimidate
 Level: 61
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 200 Atk / 200 Spe / 6 HP
 - Thunder Fang
 - Extreme Speed
 - Crunch
@@ -12140,6 +12253,7 @@ Roserade @ Black Sludge
 Ability: Poison Point
 Level: 63
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 200 SpA / 200 SpD / 6 Spe
 - Sludge Bomb
 - Giga Drain
 - Leech Seed
@@ -12149,6 +12263,7 @@ Alakazam @ Choice Specs
 Ability: Synchronize
 Level: 63
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 200 SpA / 200 Spe / 6 SpD
 - Psychic
 - Shadow Ball
 - Energy Ball
@@ -12158,6 +12273,7 @@ Blastoise @ Sitrus Berry
 Ability: Torrent
 Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 200 SpD / 200 Def / 6 HP
 - Surf
 - Rain Dance
 - Ice Beam
@@ -12176,6 +12292,7 @@ Staraptor @ Choice Band
 Ability: Intimidate
 Level: 59
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 200 Atk / 200 Spe / 6 HP
 - Brave Bird
 - Close Combat
 - Steel Wing
@@ -12185,6 +12302,7 @@ Ampharos @ Magnet
 Ability: Static
 Level: 61
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 200 SpA / 200 Def / 6 SpD
 - Thunderbolt
 - Focus Blast
 - Signal Beam
@@ -12194,6 +12312,7 @@ Roserade @ Black Sludge
 Ability: Poison Point
 Level: 61
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 200 SpA / 200 SpD / 6 Spe
 - Sludge Bomb
 - Giga Drain
 - Leech Seed
@@ -12203,6 +12322,7 @@ Milotic @ Leftovers
 Ability: Marvel Scale
 Level: 63
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 200 HP / 200 Def / 6 SpD
 - Aqua Ring
 - Toxic
 - Dive
@@ -12212,6 +12332,7 @@ Alakazam @ Choice Specs
 Ability: Synchronize
 Level: 63
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 200 SpA / 200 Spe / 6 SpD
 - Psychic
 - Shadow Ball
 - Energy Ball
@@ -12221,6 +12342,7 @@ Charizard @ Sitrus Berry
 Ability: Blaze
 Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 200 SpA / 200 Atk / 6 Spe
 - Flamethrower
 - Air Slash
 - Dragon Pulse
@@ -13294,6 +13416,7 @@ Ability: Sand Stream
 Adamant Nature
 Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Def / 6 Spe
 - Stone Edge
 - Crunch
 - Earthquake
@@ -13304,6 +13427,7 @@ Ability: Levitate
 Naive Nature
 Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 SpD
 - Earthquake
 - Fire Blast
 - U Turn
@@ -13314,6 +13438,7 @@ Ability: Torrent
 Sassy Nature
 Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Def / 252 HP / 6 SpD
 - Waterfall
 - Earthquake
 - Mirror Coat
@@ -13324,6 +13449,7 @@ Ability: Sturdy
 Modest Nature
 Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Def / 6 Spe
 - Zap Cannon
 - Magnet Rise
 - Tri Attack
@@ -13334,6 +13460,7 @@ Ability: Technician
 Adamant Nature
 Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 Def
 - Swords Dance
 - Bullet Punch
 - X Scissor
@@ -13344,6 +13471,7 @@ Ability: Rock Head
 Adamant Nature
 Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 Def
 - Flare Blitz
 - Double Edge
 - Close Combat
@@ -13362,6 +13490,7 @@ Dusknoir @ Leftovers
 Ability: Pressure
 Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Def / 252 SpD / 6 HP
 - Trick Room
 - Will O Wisp
 - Pain Split
@@ -13371,6 +13500,7 @@ Torkoal @ Heat Rock
 Ability: Drought
 Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Def / 252 SpA / 6 HP
 - Eruption
 - Heat Wave
 - Solar Beam
@@ -13380,6 +13510,7 @@ Bronzong @ Occa Berry
 Ability: Levitate
 Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD / 6 Def
 - Gyro Ball
 - Earthquake
 - Explosion
@@ -13389,6 +13520,7 @@ Rhyperior @ Life Orb
 Ability: Solid Rock
 Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Def / 6 HP
 - Stone Edge
 - Earthquake
 - Megahorn
@@ -13398,6 +13530,7 @@ Slowking @ Leftovers
 Ability: Own Tempo
 Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 SpD / 6 Def
 - Trick Room
 - Psychic
 - Ice Beam
@@ -13407,6 +13540,7 @@ Exeggutor @ Sitrus Berry
 Ability: Harvest
 Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Def / 6 HP
 - Trick Room
 - Sleep Powder
 - Solar Beam
