@@ -136,7 +136,7 @@ SSAnne_Exterior_EventScript_ReturnToVermilion::
 	msgbox SSAnne_Exterior_Text_ReturnSailorAccept
 	closemessage
 	fadescreen FADE_TO_BLACK
-	warp MAP_VERMILION_CITY, 22, 32
+	warp MAP_VERMILION_CITY, 23, 34
 	waitstate
 	releaseall
 	end
@@ -151,6 +151,9 @@ script SSAnne_Exterior_EventScript_BoardShipCheck {
 }
 
 script SSAnne_Exterior_EventScript_ShipGone {
-	msgbox("The S.S. ANNE has already departed.\pThere's nothing here but an empty\ndocking area.")
+	msgbox(format("The S.S. ANNE has already departed. There's nothing here but an empty docking area."))
+	closemessage
+	applymovement(OBJ_EVENT_ID_PLAYER, Common_Movement_WalkUp)
+	waitmovement(0)
 	releaseall
 }
