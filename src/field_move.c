@@ -7,6 +7,7 @@
 #include "constants/moves.h"
 #include "constants/party_menu.h"
 
+static bool32 FieldMove_IsUnlockedDig(void);
 static bool32 FieldMove_IsUnlockedCut(void);
 static bool32 FieldMove_IsUnlockedFly(void);
 static bool32 FieldMove_IsUnlockedSurf(void);
@@ -142,7 +143,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     [FIELD_MOVE_DIG] =
     {
         .defaultSpecies = SPECIES_ONIX,
-        .isUnlockedFunc = NULL,
+        .isUnlockedFunc = FieldMove_IsUnlockedDig,
         .moveId = MOVE_DIG,
         .partyMessageId = PARTY_MSG_CANT_USE_HERE,
         .description = COMPOUND_STRING("Escape from here."),
@@ -197,6 +198,11 @@ bool32 FieldMove_IsUnlocked(enum FieldMove fieldMove)
         return TRUE;
 
     return gFieldMovesInfo[fieldMove].isUnlockedFunc();
+}
+
+static bool32 FieldMove_IsUnlockedDig(void)
+{
+    return FlagGet(FLAG_GOT_TM28_FROM_ROCKET);
 }
 
 static bool32 FieldMove_IsUnlockedCut(void)
