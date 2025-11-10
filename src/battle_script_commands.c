@@ -302,7 +302,7 @@ static const u16 sTrappingMoves[NUM_TRAPPING_MOVES] =
     MOVE_THUNDER_CAGE
 };
 
-static const u16 sWhiteOutBadgeMoney[9] = { 8, 16, 24, 36, 48, 64, 80, 100, 120 };
+static const u16 sWhiteOutBadgeMoney[9] = { 4, 8, 12, 18, 24, 32, 40, 50, 60 };
 
 enum GiveCaughtMonStates
 {
@@ -8845,11 +8845,11 @@ static u32 GetTrainerMoneyToGive(u16 trainerId)
         trainerMoney = gTrainerClasses[GetTrainerClassFromId(trainerId)].money ?: 5;
 
         if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS)
-            moneyReward = 4 * lastMonLevel * gBattleStruct->moneyMultiplier * trainerMoney;
+            moneyReward = 6 * lastMonLevel * gBattleStruct->moneyMultiplier * trainerMoney;
         else if (IsDoubleBattle())
-            moneyReward = 4 * lastMonLevel * gBattleStruct->moneyMultiplier * 2 * trainerMoney;
+            moneyReward = 6 * lastMonLevel * gBattleStruct->moneyMultiplier * 2 * trainerMoney;
         else
-            moneyReward = 4 * lastMonLevel * gBattleStruct->moneyMultiplier * trainerMoney;
+            moneyReward = 6 * lastMonLevel * gBattleStruct->moneyMultiplier * trainerMoney;
     }
 
     return moneyReward;
