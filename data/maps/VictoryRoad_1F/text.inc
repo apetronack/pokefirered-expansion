@@ -14,7 +14,10 @@ VictoryRoad_1F_Text_RolandoIntro::
     .string "Let me see exactly how good!$"
 
 VictoryRoad_1F_Text_RolandoDefeat::
-    .string "I had a chance…$"
+    .string "I had a chance…\n"
+    .string "But I blew it!\p"
+    .string "You'll need resolve to carry on!\p"
+    .string "I've healed your POKéMON for you.$"
 
 VictoryRoad_1F_Text_RolandoPostBattle::
     .string "Tch!\n"

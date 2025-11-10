@@ -60,7 +60,9 @@ RockTunnel_1F_Text_DanaIntro::
     .string "POKéMON.$"
 
 RockTunnel_1F_Text_DanaDefeat::
-    .string "I'm out of POKéMON!$"
+    .string "I'm out of POKéMON!\p"
+    .string "Well, you made it this far.\n"
+    .string "I've healed your POKéMON.$"
 
 RockTunnel_1F_Text_DanaPostBattle::
     .string "You looked cute and harmless.\n"

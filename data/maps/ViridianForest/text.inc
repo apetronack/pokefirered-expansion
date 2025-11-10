@@ -40,7 +40,9 @@ ViridianForest_Text_SammyIntro::
 
 ViridianForest_Text_SammyDefeat::
     .string "I give!\n"
-    .string "You're good at this!$"
+    .string "You're good at this!\p"
+    .string "Thanks for the battle!\n"
+    .string "I've healed your POKéMON.$"
 
 ViridianForest_Text_SammyPostBattle::
     .string "Sometimes, you can find stuff on\n"

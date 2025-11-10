@@ -41,6 +41,7 @@ MtMoon_B2F_EventScript_BattleMiguel::
 	waitbuttonpress
 	setvar VAR_LAST_TALKED, LOCALID_MIGUEL
 	trainerbattle_no_intro TRAINER_SUPER_NERD_MIGUEL, MtMoon_B2F_Text_MiguelDefeat
+	special HealPlayerParty
 	setvar VAR_MAP_SCENE_MT_MOON_B2F, 1
 	msgbox MtMoon_B2F_Text_WellEachTakeAFossil
 	return

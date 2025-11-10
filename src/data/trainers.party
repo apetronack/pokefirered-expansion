@@ -13030,28 +13030,6 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 Mugshot: Pink
 
-Drifblim @ Wise Glasses
-Ability: Aftermath
-Modest Nature
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 HP / 252 SpA / 6 SpD
-Level: 69
-- Shadow Ball
-- Thunderbolt
-- Psychic
-- Calm Mind
-
-Spiritomb @ Leftovers
-Ability: Pressure
-Calm Nature
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Def / 252 SpD / 6 HP
-Level: 71
-- Nasty Plot
-- Dark Pulse
-- Shadow Ball
-- Pain Split
-
 Mismagius @ Choice Specs
 Ability: Levitate
 Timid Nature
@@ -13066,13 +13044,35 @@ EVs: 252 SpD / 252 SpA / 6 Spe
 Shedinja @ Focus Band
 Ability: Wonder Guard
 Rash Nature
-Level: 73
+Level: 71
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe / 6 SpA
 - Shadow Sneak
-- Bug Buzz
-- Aerial Ace
+- X Scissor
+- Dig
+- Toxic
+
+Spiritomb @ Leftovers
+Ability: Pressure
+Calm Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Def / 252 SpD / 6 HP
+Level: 71
+- Nasty Plot
+- Dark Pulse
 - Shadow Ball
+- Pain Split
+
+Gengar @ Big Root
+Ability: Levitate
+Timid Nature
+Level: 73
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe / 6 Atk
+- Giga Drain
+- Drain Punch
+- Hypnosis
+- Dream Eater
 
 SPECIES_MAROWAK_ALOLA @ Thick Club
 Ability: Rock Head
@@ -13085,16 +13085,16 @@ EVs: 252 Atk / 252 Def / 6 HP
 - Earthquake
 - Brick Break
 
-Gengar @ Big Root
+Gengar @ Wise Glasses
 Ability: Levitate
-Timid Nature
+Modest Nature
 Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 SpA / 252 Spe / 6 Atk
+EVs: 252 SpA / 252 Spe / 6 HP
 - Shadow Ball
-- Drain Punch
-- Hypnosis
-- Dream Eater
+- Focus Blast
+- Sludge Bomb
+- Thunderbolt
 
 === TRAINER_ELITE_FOUR_LANCE ===
 Name: LANCE
@@ -13107,16 +13107,16 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 Mugshot: Blue
 
-Skarmory @ Leftovers
-Ability: Sturdy
-Modest Nature
+Feraligatr @ Razor Claw
+Ability: Torrent
+Adamant Nature
 Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Def / 252 SpD / 6 HP
-- Fly
-- Stealth Rock
-- Curse
-- Toxic
+EVs: 252 Atk / 252 Def / 6 Spe
+- Dragon Dance
+- Earthquake
+- Aqua Tail
+- Ice Punch
 
 Aerodactyl @ Choice Band
 Ability: Rock Head
@@ -13131,6 +13131,7 @@ EVs: 252 Atk / 252 Spe / 6 HP
 
 Kingdra @ Chesto Berry
 Ability: Sniper
+Modest Nature
 Level: 72
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe / 6 SpD
@@ -13141,7 +13142,7 @@ EVs: 252 SpA / 252 Spe / 6 SpD
 
 SPECIES_EXEGGUTOR_ALOLA @ Yache Berry
 Ability: Harvest
-Modest Nature
+Calm Nature
 Level: 74
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Def / 252 SpA / 6 SpD
@@ -13150,26 +13151,26 @@ EVs: 252 Def / 252 SpA / 6 SpD
 - Leech Seed
 - Sleep Powder
 
-Garchomp @ Muscle Band
-Ability: Rough Skin
-Adamant Nature
-Level: 74
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 Spe / 6 SpD
-- Outrage
-- Earthquake
-- Swords Dance
-- Brick Break
-
 Altaria @ Life Orb
 Ability: Natural Cure
-Level: 76
+Level: 74
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpD / 252 Atk / 6 Spe
 - Dragon Dance
 - Dragon Claw
 - Sky Attack
 - Fire Blast
+
+Garchomp @ Muscle Band
+Ability: Rough Skin
+Adamant Nature
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 SpD
+- Outrage
+- Earthquake
+- Swords Dance
+- Brick Break
 
 === TRAINER_CHAMPION_FIRST_BULBASAUR ===
 Name: TERRY

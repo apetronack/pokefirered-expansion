@@ -17,6 +17,11 @@ Route13_Text_SusieDefeat::
     .string "Ohh!\n"
     .string "I lost!$"
 
+Route13_Text_NurseHeal::
+    .string "You've come a long way.\n"
+    .string "Your POKéMON must be tired.\p"
+    .string "Let me heal your POKéMON for you.$"
+
 Route13_Text_SusiePostBattle::
     .string "I want to become a good TRAINER.\n"
     .string "I'll train hard, just watch.$"

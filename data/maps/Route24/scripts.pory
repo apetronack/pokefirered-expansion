@@ -58,6 +58,7 @@ Route24_EventScript_BattleRocket::
 	waitbuttonpress
 	setvar VAR_LAST_TALKED, LOCALID_ROCKET
 	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_6, Route24_Text_RocketDefeat
+	special HealPlayerParty
 	msgbox Route24_Text_YoudBecomeTopRocketLeader
 	setvar VAR_MAP_SCENE_ROUTE24, 1
 	return

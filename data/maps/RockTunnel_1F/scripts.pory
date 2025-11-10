@@ -84,6 +84,7 @@ RockTunnel_1F_EventScript_Ariana::
 
 RockTunnel_1F_EventScript_Dana::
 	trainerbattle_single TRAINER_PICNICKER_DANA, RockTunnel_1F_Text_DanaIntro, RockTunnel_1F_Text_DanaDefeat
+	special HealPlayerParty
 	msgbox RockTunnel_1F_Text_DanaPostBattle, MSGBOX_AUTOCLOSE
 	end
 `

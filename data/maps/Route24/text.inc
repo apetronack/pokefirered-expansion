@@ -25,7 +25,9 @@ Route24_Text_JoinTeamRocket::
 
 Route24_Text_RocketDefeat::
     .string "Arrgh!\n"
-    .string "You are good!$"
+    .string "You are good!\p"
+    .string "Fair is fair, I guess.\n"
+    .string "I've healed your POKéMON.$"
 
 Route24_Text_YoudBecomeTopRocketLeader::
     .string "With your ability, you'd become\n"

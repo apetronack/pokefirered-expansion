@@ -4,7 +4,9 @@ VictoryRoad_2F_Text_DawsonIntro::
 
 VictoryRoad_2F_Text_DawsonDefeat::
     .string "No!\n"
-    .string "Unbelievable!$"
+    .string "Unbelievable!\p"
+    .string "Well done. I've been beaten.\p"
+    .string "I've healed your POKéMON for you.$"
 
 VictoryRoad_2F_Text_DawsonPostBattle::
     .string "I can beat you when it comes to\n"
@@ -26,7 +28,9 @@ VictoryRoad_2F_Text_NelsonIntro::
     .string "ELITE FOUR?$"
 
 VictoryRoad_2F_Text_NelsonDefeat::
-    .string "You got me!$"
+    .string "You got me!\p"
+    .string "You're almost there!\n"
+    .string "I've healed your POKéMON for you.$"
 
 VictoryRoad_2F_Text_NelsonPostBattle::
     .string "{RIVAL} also came through here.$"

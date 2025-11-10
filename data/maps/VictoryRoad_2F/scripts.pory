@@ -57,6 +57,7 @@ VictoryRoad_2F_EventScript_FloorSwitch2AlreadyPressed::
 
 VictoryRoad_2F_EventScript_Dawson::
 	trainerbattle_single TRAINER_POKEMANIAC_DAWSON, VictoryRoad_2F_Text_DawsonIntro, VictoryRoad_2F_Text_DawsonDefeat
+	special HealPlayerParty
 	msgbox VictoryRoad_2F_Text_DawsonPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -67,6 +68,7 @@ VictoryRoad_2F_EventScript_Daisuke::
 
 VictoryRoad_2F_EventScript_Nelson::
 	trainerbattle_single TRAINER_JUGGLER_NELSON, VictoryRoad_2F_Text_NelsonIntro, VictoryRoad_2F_Text_NelsonDefeat
+	special HealPlayerParty
 	msgbox VictoryRoad_2F_Text_NelsonPostBattle, MSGBOX_AUTOCLOSE
 	end
 

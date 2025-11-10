@@ -8,6 +8,8 @@ MtMoon_B2F_Text_MiguelDefeat::
     .string "I'll share!$"
 
 MtMoon_B2F_Text_WellEachTakeAFossil::
+    .string "Whoa, you're tough!\n"
+    .string "I've healed your POKéMON.\p"
     .string "We'll each take a fossil!\n"
     .string "No being greedy!$"
 

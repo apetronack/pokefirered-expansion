@@ -25,6 +25,7 @@ PokemonTower_6F_EventScript_DefeatedMarowakGhost::
 	waitbuttonpress
 	waitmoncry
 	msgbox PokemonTower_6F_Text_MothersSpiritWasCalmed
+	special HealPlayerParty
 	setvar VAR_MAP_SCENE_POKEMON_TOWER_6F, 1
 	releaseall
 	end

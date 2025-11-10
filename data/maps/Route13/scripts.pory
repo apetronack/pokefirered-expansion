@@ -10,6 +10,14 @@ Route13_EventScript_TrainerTips2::
 	msgbox Route13_Text_SelectToSwitchItems, MSGBOX_SIGN
 	end
 
+Route13_EventScript_NurseHeal::
+	lock
+	faceplayer
+	msgbox Route13_Text_NurseHeal, MSGBOX_AUTOCLOSE
+	special HealPlayerParty
+	release
+	end
+
 Route13_EventScript_RouteSign::
 	msgbox Route13_Text_RouteSign, MSGBOX_SIGN
 	end
