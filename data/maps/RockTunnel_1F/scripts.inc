@@ -171,6 +171,8 @@ RockTunnel_1F_EventScript_Dana::
 # 86 "data/maps/RockTunnel_1F/scripts.pory"
 	trainerbattle_single TRAINER_PICNICKER_DANA, RockTunnel_1F_Text_DanaIntro, RockTunnel_1F_Text_DanaDefeat
 # 87 "data/maps/RockTunnel_1F/scripts.pory"
-	msgbox RockTunnel_1F_Text_DanaPostBattle, MSGBOX_AUTOCLOSE
+	special HealPlayerParty
 # 88 "data/maps/RockTunnel_1F/scripts.pory"
+	msgbox RockTunnel_1F_Text_DanaPostBattle, MSGBOX_AUTOCLOSE
+# 89 "data/maps/RockTunnel_1F/scripts.pory"
 	end

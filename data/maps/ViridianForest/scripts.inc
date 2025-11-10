@@ -119,26 +119,28 @@ ViridianForest_EventScript_Sammy::
 # 60 "data/maps/ViridianForest/scripts.pory"
 	trainerbattle_single TRAINER_BUG_CATCHER_SAMMY, ViridianForest_Text_SammyIntro, ViridianForest_Text_SammyDefeat
 # 61 "data/maps/ViridianForest/scripts.pory"
-	msgbox ViridianForest_Text_SammyPostBattle, MSGBOX_AUTOCLOSE
+	special HealPlayerParty
 # 62 "data/maps/ViridianForest/scripts.pory"
-	end
+	msgbox ViridianForest_Text_SammyPostBattle, MSGBOX_AUTOCLOSE
 # 63 "data/maps/ViridianForest/scripts.pory"
-
-# 64 "data/maps/ViridianForest/scripts.pory"
-ViridianForest_EventScript_Anthony::
-# 65 "data/maps/ViridianForest/scripts.pory"
-	trainerbattle_single TRAINER_BUG_CATCHER_ANTHONY, ViridianForest_Text_AnthonyIntro, ViridianForest_Text_AnthonyDefeat
-# 66 "data/maps/ViridianForest/scripts.pory"
-	msgbox ViridianForest_Text_AnthonyPostBattle, MSGBOX_AUTOCLOSE
-# 67 "data/maps/ViridianForest/scripts.pory"
 	end
-# 68 "data/maps/ViridianForest/scripts.pory"
+# 64 "data/maps/ViridianForest/scripts.pory"
 
+# 65 "data/maps/ViridianForest/scripts.pory"
+ViridianForest_EventScript_Anthony::
+# 66 "data/maps/ViridianForest/scripts.pory"
+	trainerbattle_single TRAINER_BUG_CATCHER_ANTHONY, ViridianForest_Text_AnthonyIntro, ViridianForest_Text_AnthonyDefeat
+# 67 "data/maps/ViridianForest/scripts.pory"
+	msgbox ViridianForest_Text_AnthonyPostBattle, MSGBOX_AUTOCLOSE
+# 68 "data/maps/ViridianForest/scripts.pory"
+	end
 # 69 "data/maps/ViridianForest/scripts.pory"
-ViridianForest_EventScript_Charlie::
+
 # 70 "data/maps/ViridianForest/scripts.pory"
-	trainerbattle_single TRAINER_BUG_CATCHER_CHARLIE, ViridianForest_Text_CharlieIntro, ViridianForest_Text_CharlieDefeat
+ViridianForest_EventScript_Charlie::
 # 71 "data/maps/ViridianForest/scripts.pory"
-	msgbox ViridianForest_Text_CharliePostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_BUG_CATCHER_CHARLIE, ViridianForest_Text_CharlieIntro, ViridianForest_Text_CharlieDefeat
 # 72 "data/maps/ViridianForest/scripts.pory"
+	msgbox ViridianForest_Text_CharliePostBattle, MSGBOX_AUTOCLOSE
+# 73 "data/maps/ViridianForest/scripts.pory"
 	end

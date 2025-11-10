@@ -89,6 +89,8 @@ VictoryRoad_1F_EventScript_Rolando::
 # 45 "data/maps/VictoryRoad_1F/scripts.pory"
 	trainerbattle_single TRAINER_COOLTRAINER_ROLANDO, VictoryRoad_1F_Text_RolandoIntro, VictoryRoad_1F_Text_RolandoDefeat
 # 46 "data/maps/VictoryRoad_1F/scripts.pory"
-	msgbox VictoryRoad_1F_Text_RolandoPostBattle, MSGBOX_AUTOCLOSE
+	special HealPlayerParty
 # 47 "data/maps/VictoryRoad_1F/scripts.pory"
+	msgbox VictoryRoad_1F_Text_RolandoPostBattle, MSGBOX_AUTOCLOSE
+# 48 "data/maps/VictoryRoad_1F/scripts.pory"
 	end

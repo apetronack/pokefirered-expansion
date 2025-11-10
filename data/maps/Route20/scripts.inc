@@ -64,3 +64,19 @@ Route20_EventScript_SeafoamIslandsSign::
 	msgbox Route20_Text_SeafoamIslands, MSGBOX_SIGN
 # 33 "data/maps/Route20/scripts.pory"
 	end
+# 34 "data/maps/Route20/scripts.pory"
+
+# 35 "data/maps/Route20/scripts.pory"
+Route20_EventScript_NurseHeal::
+# 36 "data/maps/Route20/scripts.pory"
+	lock
+# 37 "data/maps/Route20/scripts.pory"
+	faceplayer
+# 38 "data/maps/Route20/scripts.pory"
+	msgbox Route20_Text_NurseHeal, MSGBOX_AUTOCLOSE
+# 39 "data/maps/Route20/scripts.pory"
+	special HealPlayerParty
+# 40 "data/maps/Route20/scripts.pory"
+	release
+# 41 "data/maps/Route20/scripts.pory"
+	end

@@ -119,82 +119,84 @@ Route24_EventScript_BattleRocket::
 # 60 "data/maps/Route24/scripts.pory"
 	trainerbattle_no_intro TRAINER_TEAM_ROCKET_GRUNT_6, Route24_Text_RocketDefeat
 # 61 "data/maps/Route24/scripts.pory"
-	msgbox Route24_Text_YoudBecomeTopRocketLeader
+	special HealPlayerParty
 # 62 "data/maps/Route24/scripts.pory"
-	setvar VAR_MAP_SCENE_ROUTE24, 1
+	msgbox Route24_Text_YoudBecomeTopRocketLeader
 # 63 "data/maps/Route24/scripts.pory"
-	return
+	setvar VAR_MAP_SCENE_ROUTE24, 1
 # 64 "data/maps/Route24/scripts.pory"
-
+	return
 # 65 "data/maps/Route24/scripts.pory"
-Route24_EventScript_RocketApproachPlayer::
+
 # 66 "data/maps/Route24/scripts.pory"
-	applymovement LOCALID_ROCKET, Route24_Movement_RocketApproachPlayer
+Route24_EventScript_RocketApproachPlayer::
 # 67 "data/maps/Route24/scripts.pory"
-	waitmovement 0
+	applymovement LOCALID_ROCKET, Route24_Movement_RocketApproachPlayer
 # 68 "data/maps/Route24/scripts.pory"
-	return
+	waitmovement 0
 # 69 "data/maps/Route24/scripts.pory"
-
+	return
 # 70 "data/maps/Route24/scripts.pory"
-Route24_EventScript_RocketMotionToPlayer::
+
 # 71 "data/maps/Route24/scripts.pory"
-	applymovement LOCALID_ROCKET, Common_Movement_WalkInPlaceFasterLeft
+Route24_EventScript_RocketMotionToPlayer::
 # 72 "data/maps/Route24/scripts.pory"
-	waitmovement 0
+	applymovement LOCALID_ROCKET, Common_Movement_WalkInPlaceFasterLeft
 # 73 "data/maps/Route24/scripts.pory"
-	return
+	waitmovement 0
 # 74 "data/maps/Route24/scripts.pory"
-
-# 75 "data/maps/Route24/scripts.pory"
-Route24_EventScript_NoRoomForNuggetTrigger::
-# 76 "data/maps/Route24/scripts.pory"
-	msgbox Route24_Text_YouDontHaveAnyRoom
-# 77 "data/maps/Route24/scripts.pory"
-	closemessage
-# 78 "data/maps/Route24/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, Route24_Movement_WalkDown
-# 79 "data/maps/Route24/scripts.pory"
-	waitmovement 0
-# 80 "data/maps/Route24/scripts.pory"
-	call_if_eq VAR_TEMP_1, 0, Route24_EventScript_RocketWalkBackToPos
-# 81 "data/maps/Route24/scripts.pory"
-	release
-# 82 "data/maps/Route24/scripts.pory"
-	end
-# 83 "data/maps/Route24/scripts.pory"
-
-# 84 "data/maps/Route24/scripts.pory"
-Route24_EventScript_RocketWalkBackToPos::
-# 85 "data/maps/Route24/scripts.pory"
-	applymovement LOCALID_ROCKET, Route24_Movement_RocketWalkBackToPos
-# 86 "data/maps/Route24/scripts.pory"
-	waitmovement 0
-# 87 "data/maps/Route24/scripts.pory"
 	return
+# 75 "data/maps/Route24/scripts.pory"
+
+# 76 "data/maps/Route24/scripts.pory"
+Route24_EventScript_NoRoomForNuggetTrigger::
+# 77 "data/maps/Route24/scripts.pory"
+	msgbox Route24_Text_YouDontHaveAnyRoom
+# 78 "data/maps/Route24/scripts.pory"
+	closemessage
+# 79 "data/maps/Route24/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, Route24_Movement_WalkDown
+# 80 "data/maps/Route24/scripts.pory"
+	waitmovement 0
+# 81 "data/maps/Route24/scripts.pory"
+	call_if_eq VAR_TEMP_1, 0, Route24_EventScript_RocketWalkBackToPos
+# 82 "data/maps/Route24/scripts.pory"
+	release
+# 83 "data/maps/Route24/scripts.pory"
+	end
+# 84 "data/maps/Route24/scripts.pory"
+
+# 85 "data/maps/Route24/scripts.pory"
+Route24_EventScript_RocketWalkBackToPos::
+# 86 "data/maps/Route24/scripts.pory"
+	applymovement LOCALID_ROCKET, Route24_Movement_RocketWalkBackToPos
+# 87 "data/maps/Route24/scripts.pory"
+	waitmovement 0
 # 88 "data/maps/Route24/scripts.pory"
-
+	return
 # 89 "data/maps/Route24/scripts.pory"
-Route24_Movement_RocketApproachPlayer::
+
 # 90 "data/maps/Route24/scripts.pory"
-	walk_left
+Route24_Movement_RocketApproachPlayer::
 # 91 "data/maps/Route24/scripts.pory"
-	step_end
+	walk_left
 # 92 "data/maps/Route24/scripts.pory"
-
-# 93 "data/maps/Route24/scripts.pory"
-Route24_Movement_RocketWalkBackToPos::
-# 94 "data/maps/Route24/scripts.pory"
-	walk_right
-# 95 "data/maps/Route24/scripts.pory"
-	walk_in_place_faster_left
-# 96 "data/maps/Route24/scripts.pory"
 	step_end
-# 97 "data/maps/Route24/scripts.pory"
+# 93 "data/maps/Route24/scripts.pory"
 
+# 94 "data/maps/Route24/scripts.pory"
+Route24_Movement_RocketWalkBackToPos::
+# 95 "data/maps/Route24/scripts.pory"
+	walk_right
+# 96 "data/maps/Route24/scripts.pory"
+	walk_in_place_faster_left
+# 97 "data/maps/Route24/scripts.pory"
+	step_end
 # 98 "data/maps/Route24/scripts.pory"
-Route24_Movement_WalkDown::
+
 # 99 "data/maps/Route24/scripts.pory"
-	walk_down
+Route24_Movement_WalkDown::
 # 100 "data/maps/Route24/scripts.pory"
+	walk_down
+# 101 "data/maps/Route24/scripts.pory"
 	step_end
