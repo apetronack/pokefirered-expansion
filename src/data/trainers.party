@@ -219,7 +219,7 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 Butterfree
 Ability: Compound Eyes
 Rash Nature
-Level: 7
+Level: 9
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Confusion
 - Harden
@@ -2437,7 +2437,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
 Ability: Intimidate
-Level: 27
+Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Bite
 - Flame Wheel
@@ -2446,7 +2446,7 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
 Breloom
 Ability: Effect Spore
-Level:22
+Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Headbutt
 - Mega Drain

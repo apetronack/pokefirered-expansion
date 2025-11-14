@@ -5040,11 +5040,11 @@ static void Cmd_getexp(void)
             {
                 if (viaExpShare) // at least one mon is getting exp via exp share
                 {
-                    *exp = SAFE_DIV(calculatedExp / 2, viaSentIn); // half to sent-in mons
+                    *exp = 2 * SAFE_DIV(calculatedExp / 3, viaSentIn); // 2/3 to sent-in mons
                     if (*exp == 0)
                         *exp = 1;
 
-                    gBattleStruct->expShareExpValue = calculatedExp / 2 / viaExpShare; // half to exp share mons
+                    gBattleStruct->expShareExpValue = calculatedExp / 2 / viaExpShare; // Give more to exp share mons
                     if (gBattleStruct->expShareExpValue == 0)
                         gBattleStruct->expShareExpValue = 1;
                 }
