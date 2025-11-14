@@ -5030,7 +5030,8 @@ static void Cmd_getexp(void)
             if (B_SCALED_EXP >= GEN_5 && B_SCALED_EXP != GEN_6)
                 calculatedExp /= 5;
             else
-                calculatedExp /= 7;
+            // Default formula
+                calculatedExp /= 3; // Changed from 7 to 3 to dramatically increase exp gain
 
             if (B_TRAINER_EXP_MULTIPLIER <= GEN_7 && gBattleTypeFlags & BATTLE_TYPE_TRAINER)
                 calculatedExp = (calculatedExp * 150) / 100;
@@ -5039,11 +5040,11 @@ static void Cmd_getexp(void)
             {
                 if (viaExpShare) // at least one mon is getting exp via exp share
                 {
-                    *exp = SAFE_DIV(calculatedExp / 2, viaSentIn);
+                    *exp = SAFE_DIV(calculatedExp / 2, viaSentIn); // half to sent-in mons
                     if (*exp == 0)
                         *exp = 1;
 
-                    gBattleStruct->expShareExpValue = calculatedExp / 2 / viaExpShare;
+                    gBattleStruct->expShareExpValue = calculatedExp / 2 / viaExpShare; // half to exp share mons
                     if (gBattleStruct->expShareExpValue == 0)
                         gBattleStruct->expShareExpValue = 1;
                 }

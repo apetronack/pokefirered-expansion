@@ -103,7 +103,7 @@ SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian_Text_0:
 
 SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian_Text_1:
 # 41 "data/maps/SixIsland_AlteringCave/scripts.pory"
-	.string "Travel to Vermillion City and\n"
+	.string "Travel to Vermilion City and\n"
 	.string "present this ticket to the\l"
 	.string "dockmaster. He will take you to a\l"
 	.string "special place only a select few\l"
