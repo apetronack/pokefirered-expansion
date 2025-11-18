@@ -5417,7 +5417,7 @@
               {
                 "min_level": 47,
                 "max_level": 49,
-                "species": "SPECIES_POLIWHIRL"
+                "species": "SPECIES_KABUTO"
               },
               {
                 "min_level": 47,
@@ -5427,7 +5427,7 @@
               {
                 "min_level": 47,
                 "max_level": 49,
-                "species": "SPECIES_PILOSWINE"
+                "species": "SPECIES_KABUTO"
               },
               {
                 "min_level": 47,
@@ -16932,7 +16932,7 @@
               {
                 "min_level": 8,
                 "max_level": 10,
-                "species": "SPECIES_STARLY"
+                "species": "SPECIES_CLEFAIRY"
               },
               {
                 "min_level": 8,
@@ -16972,7 +16972,7 @@
               {
                 "min_level": 8,
                 "max_level": 10,
-                "species": "SPECIES_SNEASEL"
+                "species": "SPECIES_ABRA"
               },
               {
                 "min_level": 8,
@@ -16982,7 +16982,7 @@
               {
                 "min_level": 8,
                 "max_level": 10,
-                "species": "SPECIES_SNEASEL"
+                "species": "SPECIES_ABRA"
               },
               {
                 "min_level": 8,
@@ -17987,7 +17987,7 @@
               {
                 "min_level": 28,
                 "max_level": 30,
-                "species": "SPECIES_TROPIUS"
+                "species": "SPECIES_KOFFING"
               },
               {
                 "min_level": 28,
@@ -18007,7 +18007,7 @@
               {
                 "min_level": 28,
                 "max_level": 30,
-                "species": "SPECIES_TROPIUS"
+                "species": "SPECIES_KOFFING"
               },
               {
                 "min_level": 28,
@@ -18017,7 +18017,7 @@
               {
                 "min_level": 28,
                 "max_level": 30,
-                "species": "SPECIES_TROPIUS"
+                "species": "SPECIES_KOFFING"
               }
             ]
           }
@@ -18392,7 +18392,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_MAREEP"
+                "species": "SPECIES_MAGNEMITE"
               },
               {
                 "min_level": 16,
@@ -18412,7 +18412,7 @@
               {
                 "min_level": 13,
                 "max_level": 13,
-                "species": "SPECIES_MAREEP"
+                "species": "SPECIES_MAGNEMITE"
               },
               {
                 "min_level": 14,
@@ -18447,7 +18447,7 @@
               {
                 "min_level": 17,
                 "max_level": 17,
-                "species": "SPECIES_MAREEP"
+                "species": "SPECIES_MAGNEMITE"
               }
             ]
           },
@@ -18894,12 +18894,12 @@
               {
                 "min_level": 28,
                 "max_level": 30,
-                "species": "SPECIES_SPOINK"
+                "species": "SPECIES_MACHOKE"
               },
               {
                 "min_level": 28,
                 "max_level": 30,
-                "species": "SPECIES_SPOINK"
+                "species": "SPECIES_MACHOKE"
               },
               {
                 "min_level": 28,
@@ -18909,7 +18909,7 @@
               {
                 "min_level": 28,
                 "max_level": 30,
-                "species": "SPECIES_SPOINK"
+                "species": "SPECIES_MACHOKE"
               }
             ]
           },
