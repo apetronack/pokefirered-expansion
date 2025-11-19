@@ -2097,7 +2097,7 @@
               {
                 "min_level": 53,
                 "max_level": 55,
-                "species": "SPECIES_MAROWAK"
+                "species": "SPECIES_CACTURNE"
               },
               {
                 "min_level": 53,
@@ -2107,7 +2107,7 @@
               {
                 "min_level": 53,
                 "max_level": 55,
-                "species": "SPECIES_MAROWAK"
+                "species": "SPECIES_CACTURNE"
               },
               {
                 "min_level": 53,
@@ -6437,12 +6437,12 @@
               {
                 "min_level": 30,
                 "max_level": 32,
-                "species": "SPECIES_DRIFBLIM"
+                "species": "SPECIES_DRIFLOON"
               },
               {
                 "min_level": 30,
                 "max_level": 32,
-                "species": "SPECIES_DRIFBLIM"
+                "species": "SPECIES_DRIFLOON"
               },
               {
                 "min_level": 30,
@@ -18263,7 +18263,7 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_PIKACHU"
+                "species": "SPECIES_ELECTRIKE"
               },
               {
                 "min_level": 28,
