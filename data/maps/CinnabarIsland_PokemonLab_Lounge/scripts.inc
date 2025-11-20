@@ -89,7 +89,7 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_Norma::
 # 45 "data/maps/CinnabarIsland_PokemonLab_Lounge/scripts.pory"
 	faceplayer
 # 46 "data/maps/CinnabarIsland_PokemonLab_Lounge/scripts.pory"
-	setvar VAR_0x8008, INGAME_TRADE_TANGELA
+	setvar VAR_0x8008, INGAME_TRADE_MAWILE
 # 47 "data/maps/CinnabarIsland_PokemonLab_Lounge/scripts.pory"
 	copyvar VAR_0x8004, VAR_0x8008
 # 48 "data/maps/CinnabarIsland_PokemonLab_Lounge/scripts.pory"
@@ -97,7 +97,7 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_Norma::
 # 49 "data/maps/CinnabarIsland_PokemonLab_Lounge/scripts.pory"
 	copyvar VAR_0x8009, VAR_RESULT
 # 50 "data/maps/CinnabarIsland_PokemonLab_Lounge/scripts.pory"
-	goto_if_set FLAG_DID_TANGENY_TRADE, CinnabarIsland_PokemonLab_Lounge_EventScript_NormaAlreadyTraded
+	goto_if_set FLAG_DID_MAWILE_TRADE, CinnabarIsland_PokemonLab_Lounge_EventScript_NormaAlreadyTraded
 # 51 "data/maps/CinnabarIsland_PokemonLab_Lounge/scripts.pory"
 	msgbox Trade_Text_DoYouHaveMonWantToTradeForMon, MSGBOX_YESNO
 # 52 "data/maps/CinnabarIsland_PokemonLab_Lounge/scripts.pory"
@@ -131,7 +131,7 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_Norma::
 # 66 "data/maps/CinnabarIsland_PokemonLab_Lounge/scripts.pory"
 	msgbox Trade_Text_ThanksYoureAPal
 # 67 "data/maps/CinnabarIsland_PokemonLab_Lounge/scripts.pory"
-	setflag FLAG_DID_TANGENY_TRADE
+	setflag FLAG_DID_MAWILE_TRADE
 # 68 "data/maps/CinnabarIsland_PokemonLab_Lounge/scripts.pory"
 	release
 # 69 "data/maps/CinnabarIsland_PokemonLab_Lounge/scripts.pory"

@@ -29,11 +29,11 @@ Route18_EastEntrance_2F_EventScript_Haden::
 # 15 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 	faceplayer
 # 16 "data/maps/Route18_EastEntrance_2F/scripts.pory"
-	setvar VAR_0x8008, INGAME_TRADE_GIRAFARIG
+	setvar VAR_0x8008, INGAME_TRADE_MILTANK
 # 17 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 	call EventScript_GetInGameTradeSpeciesInfo
 # 18 "data/maps/Route18_EastEntrance_2F/scripts.pory"
-	goto_if_set FLAG_DID_MARC_TRADE, Route18_EastEntrance_2F_EventScript_AlreadyTraded
+	goto_if_set FLAG_DID_MILTANK_TRADE, Route18_EastEntrance_2F_EventScript_AlreadyTraded
 # 19 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 	msgbox Trade_Text_LookingForMonWannaTradeForMon, MSGBOX_YESNO
 # 20 "data/maps/Route18_EastEntrance_2F/scripts.pory"
@@ -51,7 +51,7 @@ Route18_EastEntrance_2F_EventScript_Haden::
 # 26 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 	msgbox Trade_Text_HeyThanks
 # 27 "data/maps/Route18_EastEntrance_2F/scripts.pory"
-	setflag FLAG_DID_MARC_TRADE
+	setflag FLAG_DID_MILTANK_TRADE
 # 28 "data/maps/Route18_EastEntrance_2F/scripts.pory"
 	release
 # 29 "data/maps/Route18_EastEntrance_2F/scripts.pory"

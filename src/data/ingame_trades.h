@@ -1,9 +1,9 @@
 static const struct InGameTrade sInGameTrades[] = {
-    [INGAME_TRADE_MR_MIME] = 
+    [INGAME_TRADE_SPOINK] = 
     {
-        .nickname = _("MIMIEN"),
-        .species = SPECIES_MR_MIME,
-        .ivs = {20, 15, 17, 24, 23, 22},
+        .nickname = _("BABE"),
+        .species = SPECIES_SPOINK,
+        .ivs = {20, 21, 19, 24, 23, 22},
         .abilityNum = 0,
         .otId = 1985,
         .conditions = {5, 5, 5, 30, 5},
@@ -13,7 +13,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("REYLEY"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_ABRA
+        .requestedSpecies = SPECIES_RALTS
     }, 
     [INGAME_TRADE_SNEASEL] = 
     {
@@ -111,11 +111,11 @@ static const struct InGameTrade sInGameTrades[] = {
         .requestedSpecies = SPECIES_NIDORINA
 #endif
     }, 
-    [INGAME_TRADE_GIRAFARIG] = 
+    [INGAME_TRADE_MILTANK] = 
     {
-        .nickname = _("GEOFF"),
-        .species = SPECIES_GIRAFARIG,
-        .ivs = {24, 19, 21, 15, 23, 21},
+        .nickname = _("OTIS"),
+        .species = SPECIES_MILTANK,
+        .ivs = {24, 26, 21, 15, 23, 21},
         .abilityNum = 0,
         .otId = 1239,
         .conditions = {5, 5, 5, 5, 30},
@@ -147,16 +147,16 @@ static const struct InGameTrade sInGameTrades[] = {
         .sheen = 10,
         .requestedSpecies = SPECIES_RAICHU
     }, 
-    [INGAME_TRADE_TANGELA] = 
+    [INGAME_TRADE_MAWILE] = 
     {
-        .nickname = _("TANGENY"),
-        .species = SPECIES_TANGELA,
-        .ivs = {22, 17, 25, 16, 23, 20},
+        .nickname = _("TWO-TOOTH"),
+        .species = SPECIES_MAWILE,
+        .ivs = {22, 24, 25, 16, 23, 20},
         .abilityNum = 0,
         .otId = 60042,
         .conditions = {5, 5, 30, 5, 5},
         .personality = 0x5c77ecfa,
-        .heldItem = ITEM_STARDUST,
+        .heldItem = ITEM_METAL_COAT,
         .mailNum = 255,
         .otName = _("NORMA"),
         .otGender = FEMALE,
@@ -209,7 +209,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("RUBY"),
         .otGender = FEMALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_ARON,
+        .requestedSpecies = SPECIES_GEODUDE,
     },
     [INGAME_TRADE_CYNDAQUIL] =
     {
@@ -225,7 +225,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("TREVOR"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_SANDSHREW,
+        .requestedSpecies = SPECIES_CUBONE,
     },
     [INGAME_TRADE_MUDKIP] =
     {
@@ -257,7 +257,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("KEN"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_TROPIUS,
+        .requestedSpecies = SPECIES_MURKROW,
     },
     [INGAME_TRADE_TORCHIC] =
     {
@@ -273,7 +273,7 @@ static const struct InGameTrade sInGameTrades[] = {
         .otName = _("ALAINA"),
         .otGender = FEMALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_TORKOAL,
+        .requestedSpecies = SPECIES_MAGNEMITE,
     }
 };
 

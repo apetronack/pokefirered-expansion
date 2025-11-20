@@ -606,7 +606,7 @@
 #define FLAG_GOT_TM29_FROM_MR_PSYCHIC                    0x245
 #define FLAG_GOT_LAPRAS_FROM_SILPH                       0x246
 #define FLAG_GOT_POKEBALLS_FROM_OAK_AFTER_22_RIVAL       0x247
-#define FLAG_DID_MIMIEN_TRADE                            0x248
+#define FLAG_DID_BABE_TRADE                            0x248
 #define FLAG_BOUGHT_FEEBAS                             0x249
 #define FLAG_DID_ZYNX_TRADE                              0x24A
 #define FLAG_DID_MS_NIDO_TRADE                           0x24B
@@ -621,7 +621,7 @@
 #define FLAG_GOT_TM39_FROM_BROCK                         0x254
 #define FLAG_GOT_SUPER_ROD                               0x255
 #define FLAG_GOT_MUSCLE_BAND_FROM_OAKS_AIDE                0x256
-#define FLAG_DID_MARC_TRADE                              0x257
+#define FLAG_DID_MILTANK_TRADE                              0x257
 #define FLAG_BEAT_RIVAL_IN_OAKS_LAB                      0x258
 #define FLAG_GOT_TM06_FROM_KOGA                          0x259
 #define FLAG_0x25A                                       0x25A
@@ -651,7 +651,7 @@
 #define FLAG_GOT_DOME_FOSSIL                             0x272
 #define FLAG_GOT_HELIX_FOSSIL                            0x273
 #define FLAG_DID_ESPHERE_TRADE                           0x274
-#define FLAG_DID_TANGENY_TRADE                           0x275
+#define FLAG_DID_MAWILE_TRADE                           0x275
 #define FLAG_DID_SEELOR_TRADE                            0x276
 #define FLAG_0x277                                       0x277
 #define FLAG_GOT_HITMON_FROM_DOJO                        0x278

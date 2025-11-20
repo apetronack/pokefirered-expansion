@@ -10,14 +10,14 @@
 #define LINK_TRADE_TIMEOUT 300
 
 // In-game Trade IDs
-#define INGAME_TRADE_MR_MIME   0
+#define INGAME_TRADE_SPOINK   0
 #define INGAME_TRADE_SNEASEL      1
 #define INGAME_TRADE_NIDORAN   2  // M or F depending on version
 #define INGAME_TRADE_DODUO 3
 #define INGAME_TRADE_NIDORINOA 4  // Nidorino or Nidorina depending on version
-#define INGAME_TRADE_GIRAFARIG 5
+#define INGAME_TRADE_MILTANK 5
 #define INGAME_TRADE_ELECTABUZZ 6
-#define INGAME_TRADE_TANGELA   7
+#define INGAME_TRADE_MAWILE   7
 #define INGAME_TRADE_SPHEAL      8
 #define INGAME_TRADE_TOTODILE 9
 #define INGAME_TRADE_CHIKORITA 10

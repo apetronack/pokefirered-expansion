@@ -21,11 +21,11 @@ Route2_House_EventScript_Reyley::
 # 11 "data/maps/Route2_House/scripts.pory"
 	faceplayer
 # 12 "data/maps/Route2_House/scripts.pory"
-	setvar VAR_0x8008, INGAME_TRADE_MR_MIME
+	setvar VAR_0x8008, INGAME_TRADE_SPOINK
 # 13 "data/maps/Route2_House/scripts.pory"
 	call EventScript_GetInGameTradeSpeciesInfo
 # 14 "data/maps/Route2_House/scripts.pory"
-	goto_if_set FLAG_DID_MIMIEN_TRADE, Route2_House_EventScript_AlreadyTraded
+	goto_if_set FLAG_DID_BABE_TRADE, Route2_House_EventScript_AlreadyTraded
 # 15 "data/maps/Route2_House/scripts.pory"
 	msgbox Trade_Text_LookingForMonWannaTradeForMon, MSGBOX_YESNO
 # 16 "data/maps/Route2_House/scripts.pory"
@@ -43,7 +43,7 @@ Route2_House_EventScript_Reyley::
 # 22 "data/maps/Route2_House/scripts.pory"
 	msgbox Trade_Text_HeyThanks
 # 23 "data/maps/Route2_House/scripts.pory"
-	setflag FLAG_DID_MIMIEN_TRADE
+	setflag FLAG_DID_BABE_TRADE
 # 24 "data/maps/Route2_House/scripts.pory"
 	release
 # 25 "data/maps/Route2_House/scripts.pory"
