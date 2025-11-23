@@ -73,3 +73,4 @@ tools/trainerproc/trainerproc
 ~$*
 *.log
 updated_trainers.party
+encounters_updated.json
