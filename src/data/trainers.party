@@ -74,13 +74,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - String Shot
 - Tackle
 
-Pineco
-Ability: Sturdy
+Spinarak
+Ability: Swarm
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Protect
-- Tackle
-- Selfdestruct
 
 === TRAINER_BUG_CATCHER_DOUG ===
 Name: DOUG
@@ -99,21 +96,13 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - String Shot
 - Tackle
 
-Paras
-Ability: Effect Spore
-Level: 5
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Stun Spore
-- Poison Powder
-- Scratch
-
-Nincada
+Venonat
 Ability: Compound Eyes
 Level: 5
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Sand Attack
-- Scratch
-- Harden
+- Tackle
+- Supersonic
+- Disable
 
 === TRAINER_BUG_CATCHER_ANTHONY ===
 Name: ANTHONY
@@ -133,13 +122,12 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - Tackle
 - Supersonic
 
-Nincada
-Ability: Compound Eyes
+Spinarak
+Ability: Swarm
 Level: 5
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Leech Life
-- Scratch
-- Harden
+- Poison Sting
+- String Shot
 
 Spinarak
 Ability: Swarm
@@ -157,13 +145,12 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Skorupi
-Ability: Sniper
+Caterpie
+Ability: Shield Dust
 Level: 6
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Bite
-- Poison Sting
-- Leer
+- String Shot
+- Tackle
 
 Metapod
 Ability: Shed Skin
@@ -173,21 +160,15 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 - String Shot
 - Tackle
 
-Paras
+Venonat
 Ability: Effect Spore
 Level: 6
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Stun Spore
-- Poison Powder
-- Scratch
 
-Pineco
+Venonat
 Ability: Sturdy
 Level: 6
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Protect
-- Tackle
-- Selfdestruct
 
 === TRAINER_BUG_CATCHER_SAMMY ===
 Name: SAMMY
@@ -198,23 +179,20 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Nincada
+Caterpie
+Ability: Shield Dust
+Level: 7
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Venonat
 Ability: Compound Eyes
 Level: 7
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Harden
-- Scratch
-- Leech Life
-- Sand Attack
 
-Pineco
-Ability: Sturdy
+Metapod
+Ability: Shed Skin
 Level: 7
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Take Down
-- Selfdestruct
-- Tackle
-- Protect
 
 Butterfree
 Ability: Compound Eyes
@@ -325,35 +303,35 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Shuckle
+Geodude
 Ability: Sturdy
 Bashful Nature
 Level: 11
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Sandstorm
-- Constrict
-- Withdraw
-- Bide
+- Rock Throw
+- Sand Storm
+- Rock Polish
+- Defense Curl
 
-Sandshrew
-Ability: Sand Veil
+Cubone
+Ability: Rock Head
 Adamant Nature
 Level: 11
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Scratch
-- Defense Curl
-- Poison Sting
-- Rock Tomb
+- Headbutt
+- Bone Club
+- Growl
+- Tail Whip
 
-Aron
+Shuckle
 Ability: Sturdy
 Impish Nature
 Level: 11
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Headbutt
-- Mud Slap
-- Harden
-- Rock Tomb
+- Bide
+- Withdraw
+- Constrict
+- Sandstorm
 
 Larvitar
 Ability: Guts
@@ -428,23 +406,19 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Pidgey
+Starly
 Ability: Keen Eye
 Level: 12
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Growl
+- Wing Attack
 - Quick Attack
-- Gust
-- Sand Attack
 - Tackle
 
-Hoothoot
-Ability: Insomnia
+Wingull
+Ability: Keen Eye
 Level: 12
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Peck
-- Hypnosis
-- Foresight
-- Tackle
 
 === TRAINER_BUG_CATCHER_COLTON ===
 Name: COLTON
@@ -464,14 +438,14 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Supersonic
 - Disable
 
-Paras
-Ability: Effect Spore
+Butterfree
+Ability: Compound Eyes
 Level: 12
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Leech Life
-- Stun Spore
+- Confusion
+- String Shot
 - Poison Powder
-- Scratch
+- Tackle
 
 === TRAINER_YOUNGSTER_BEN ===
 Name: BEN
@@ -562,14 +536,14 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Leer
 - Rock Tomb
 
-Poochyena
-Ability: Quick Feet
+Pikachu
+Ability: Static
 Level: 13
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Poison Fang
-- Sand Attack
-- Howl
-- Bite
+- Quick Attack
+- Thunder Wave
+- Thundershock
+- Tail Whip
 
 === TRAINER_LASS_SALLY ===
 Name: SALLY
@@ -580,14 +554,13 @@ Music: Female
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Sentret
-Ability: Keen Eye
+Magby
+Ability: Flame Body
 Level: 14
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Fury Swipes
-- Defense Curl
-- Quick Attack
-- Assist
+- Smokescreen
+- Ember
+- Smog
 
 Zigzagoon @ Oran Berry
 Ability: Gluttony
@@ -607,23 +580,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Pineco
-Ability: Sturdy
-Level: 14
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Rapid Spin
-- Take Down
-- Protect
-- Selfdestruct
-
-Paras
-Ability: Effect Spore
+Spinarak
+Ability: Swarm
 Level: 14
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Leech Life
-- Stun Spore
+- Constrict
+- Scary Face
+- Poison Sting
+
+Venomoth
+Ability: Shield Dust
+Level: 14
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Poison Powder
-- Scratch
+- Confusion
+- Supersonic
+- Tackle
 
 === TRAINER_LASS_ROBIN ===
 Name: ROBIN
@@ -670,14 +643,10 @@ IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Poison Sting
 - Scary Face
 
-Nincada
+Venomoth
 Ability: Compound Eyes
 Level: 15
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Fury Swipes
-- Leech Life
-- Harden
-- Sand Attack
 
 === TRAINER_LASS_IRIS ===
 Name: IRIS
@@ -688,14 +657,14 @@ Music: Female
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Houndour
+Vulpix
 Ability: Flash Fire
 Level: 15
 IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Will O Wisp
+- Quick Attack
 - Ember
 - Roar
-- Smog
-- Leer
 
 Cherubi
 Ability: Chlorophyll
@@ -724,14 +693,14 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Supersonic
 - SonicBoom
 
-SPECIES_SANDSHREW_ALOLA
-Ability: Snow Cloak
+SPECIES_GEODUDE_ALOLA
+Ability: Sturdy
 Level: 16
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Ice Ball
-- Rapid Spin
-- Metal Claw
+- Spark
+- Rollout
 - Defense Curl
+- Rock Tomb
 
 Pikachu
 Ability: Static
@@ -760,14 +729,14 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Skorupi
+Anorith
 Ability: Battle Armor
 Level: 16
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Bite
-- Pin Missile
-- Poison Sting
-- Leer
+- Water Gun
+- Mud Sport
+- Harden
+- Scratch
 
 Butterfree
 Level: 16
@@ -813,22 +782,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Gulpin
-Ability: Liquid Ooze
+Nidorino
+Ability: Poison Point
 Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Sludge
-- Poison Gas
-- Pound
+- Poison Sting
+- Double Kick
+- Peck
+- Leer
 
-Whismur
+SPECIES_WOOPER_PALDEA
 Ability: Soundproof
 Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Howl
-- Astonish
-- Pound
-- Uproar
+- Slam
+- Mud Shot
+- Water Gun
+- Mist
 
 Doduo
 Ability: Early Bird
@@ -848,13 +818,13 @@ Music: Hiker
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Aron
-Ability: Sturdy
+Lileep
+Ability: Suction Cups
 Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Mud Slap
-- Headbutt
-- Metal Claw
+- Ingrain
+- Acid
+- Astonish
 - Rock Tomb
 
 Omanyte
@@ -875,6 +845,15 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
+Larvitar
+Ability: Guts
+Level: 18
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Bite
+- Leer
+- Rock Slide
+- Sandstorm
+
 Numel
 Ability: Oblivious
 Level: 18
@@ -884,23 +863,13 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Ember
 - Growl
 
-Zubat
-Ability: Inner Focus
+Mawile
+Ability: Intimidate
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Bite
-- Leech Life
 - Astonish
-- Supersonic
-
-Skorupi
-Ability: Sniper
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Pin Missile
-- Leer
-- Poison Sting
-- Bite
+- Rock Tomb
 
 === TRAINER_TEAM_ROCKET_GRUNT_4 ===
 Name: GRUNT
@@ -920,13 +889,13 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Disable
 - Headbutt
 
-Shuppet
-Ability: Insomnia
+Gastly
+Ability: Levitate
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Mean Look
 - Curse
-- Knock Off
-- Screech
+- Lick
 - Night Shade
 
 === TRAINER_TEAM_ROCKET_GRUNT_3 ===
@@ -947,14 +916,14 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Disable
 - Night Shade
 
-Gulpin
+Tentacool
 Ability: Liquid Ooze
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Amnesia
-- Sludge
-- Yawn
-- Pound
+- Acid
+- Supersonic
+- Constrict
+- Poison Sting
 
 === TRAINER_TEAM_ROCKET_GRUNT ===
 Name: GRUNT
@@ -992,14 +961,14 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Scary Face
 - Poison Sting
 
-Cacnea
-Ability: Water Absorb
+Luxio
+Ability: Intimidate
 Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Sand Attack
-- Leech Seed
-- Absorb
-- Counter
+- Spark
+- Bite
+- Leer
+- Charge
 
 === TRAINER_SUPER_NERD_MIGUEL ===
 Name: MIGUEL
@@ -1010,23 +979,23 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Electrike
+Pikachu
 Ability: Static
 Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Howl
 - Quick Attack
+- Double Team
 - Thunder Wave
-- Thunder Fang
+- Thundershock
 
-Koffing
-Ability: Levitate
+Staryu
+Ability: Natural Cure
 Level: 19
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Assurance
-- Smog
-- Smokescreen
-- Pain Split
+- Recover
+- Rapid Spin
+- Water Gun
+- Harden
 
 Mawile
 Ability: Intimidate
@@ -1057,16 +1026,16 @@ EVs: 52 Atk / 52 Spe / 6 HP
 - Double Team
 - Secret Power
 
-Kadabra
-Ability: Synchronize
+Spoink
+Ability: Thick Fat
 Naughty Nature
 Level: 19
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 EVs: 52 SpA / 52 Spe / 6 SpD
-- Teleport
+- Confuse Ray
 - Hidden Power
-- Confusion
-- Disable
+- Psybeam
+- Psych Up
 
 Flaaffy
 Ability: Static
@@ -1110,16 +1079,16 @@ EVs: 52 Atk / 52 Spe / 6 HP
 - Double Team
 - Secret Power
 
-Kadabra
-Ability: Synchronize
+Spoink
+Ability: Thick Fat
 Naughty Nature
 Level: 19
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 EVs: 52 SpA / 52 Spe / 6 SpD
-- Teleport
+- Confuse Ray
 - Hidden Power
-- Confusion
-- Disable
+- Psybeam
+- Psych Up
 
 Flaaffy
 Ability: Static
@@ -1163,16 +1132,16 @@ EVs: 52 Atk / 52 Spe / 6 HP
 - Double Team
 - Secret Power
 
-Kadabra
-Ability: Synchronize
+Spoink
+Ability: Thick Fat
 Naughty Nature
 Level: 19
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 EVs: 52 SpA / 52 Spe / 6 SpD
-- Teleport
+- Confuse Ray
 - Hidden Power
-- Confusion
-- Disable
+- Psybeam
+- Psych Up
 
 Flaaffy
 Ability: Static
@@ -1207,21 +1176,12 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Butterfree
 Ability: Tinted Lens
-Level: 20
+Level: 21
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Supersonic
 - Sleep Powder
 - Confusion
 - Gust
-
-Ninjask
-Ability: Speed Boost
-Level: 20
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Screech
-- Double Team
-- Bug Bite
-- Mud Slap
 
 === TRAINER_LASS_ALI ===
 Name: ALI
@@ -1232,14 +1192,14 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Taillow
-Ability: Guts
+Shroomish
+Ability: Effect Spore
 Level: 20
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Wing Attack
-- Quick Attack
-- Growl
-- Focus Energy
+- Bullet Seed
+- Leech Seed
+- Stun Spore
+- Secret Power
 
 Bellsprout
 Ability: Chlorophyll
@@ -1259,23 +1219,14 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Sandshrew
-Ability: Sand Veil
-Level: 20
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Rollout
-- Rapid Spin
-- Defense Curl
-- Poison Sting
-
-Natu
-Ability: Synchronize
+Magby
+Ability: Flame Body
 Level: 20
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Faint Attack
-- Peck
-- Night Shade
-- Feather Dance
+- Smokescreen
+- Ember
+- Smog
 
 Elekid
 Ability: Static
@@ -1331,14 +1282,14 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Poison Sting
 - Astonish
 
-Loudred
-Ability: Soundproof
+SPECIES_SLOWPOKE_GALAR
+Ability: Own Tempo
 Level: 20
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Astonish
-- Bite
-- Howl
-- Uproar
+- Acid
+- Water Pulse
+- Confusion
+- Yawn
 
 === TRAINER_TEAM_ROCKET_GRUNT_6 ===
 Name: GRUNT
@@ -1349,23 +1300,23 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Gulpin
-Ability: Liquid Ooze
+Nidorina
+Ability: Poison Point
 Level: 21
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Amnesia
-- Sludge
-- Yawn
-- Pound
+- Poison Sting
+- Double Kick
+- Tail Whip
+- Poison Sting
 
-Golbat
-Ability: Inner Focus
+Nidorino
+Ability: Poison Point
 Level: 21
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Confuse Ray
-- Leech Life
-- Bite
-- Wing Attack
+- Fury Attack
+- Peck
+- Double Kick
+- Poison Sting
 
 Drifloon @ Starf Berry
 Ability: Unburden
@@ -1403,14 +1354,14 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Metronome
 - Yawn
 
-Exeggcute
+Weepinbell
 Ability: Chlorophyll
 Level: 21
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Stun Spore
 - Bullet Seed
-- Leech Seed
-- Reflect
+- Growth
+- Wrap
 
 === TRAINER_HIKER_FRANKLIN ===
 Name: FRANKLIN
@@ -1421,14 +1372,14 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machop
+Makuhita
 Ability: Guts
 Level: 21
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Seismic Toss
-- Karate Chop
-- Foresight
-- Leer
+- Knock Off
+- Vital Throw
+- Fake Out
+- Rock Tomb
 
 Geodude
 Ability: Sturdy
@@ -1502,14 +1453,14 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Sand Attack
 - Growl
 
-Furret
-Ability: Keen Eye
+Staravia
+Ability: Intimidate
 Level: 21
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Fury Swipes
-- Defense Curl
-- Charm
-- Assist
+- Endeavor
+- Quick Attack
+- Wing Attack
+- Double Team
 
 === TRAINER_YOUNGSTER_DAN ===
 Name: DAN
@@ -1547,23 +1498,23 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
-Ability: Levitate
+Snover
+Ability: Snow Warning
 Level: 22
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Self Destruct
-- Assurance
-- Smokescreen
-- Smog
+- Grasswhistle
+- Icy Wind
+- Razor Leaf
+- Leer
 
-Roselia
-Ability: Poison Point
+Spheal
+Ability: Ice Body
 Level: 22
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Magical Leaf
-- Leech Seed
-- Poison Sting
-- Stun Spore
+- Body Slam
+- Ice Ball
+- Water Gun
+- Defense Curl
 
 === TRAINER_HIKER_NOB ===
 Name: NOB
@@ -1619,13 +1570,14 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Noctowl
+Murkrow
+Ability: Super Luck
 Level: 22
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Confusion
-- Reflect
-- Peck
-- Hypnosis
+- Night Shade
+- Wing Attack
+- Pursuit
+- Haze
 
 SPECIES_LINOONE_GALAR @ Liechi Berry
 Ability: Gluttony
@@ -1654,14 +1606,14 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Headbutt
 - Nasty Plot
 
-Sandslash
-Ability: Sand Veil
+Grotle
+Ability: Overgrow
 Level: 22
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Defense Curl
-- Rollout
-- Rapid Spin
-- Sand Attack
+- Bite
+- Curse
+- Razor Leaf
+- Cut
 
 Ariados
 Ability: Swarm
@@ -1681,14 +1633,14 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Pidgeotto
-Ability: Keen Eye
+Numel
+Ability: Oblivious
 Level: 23
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Twister
-- Gust
-- Sand Attack
-- Quick Attack
+- Take Down
+- Ember
+- Magnitude
+- Rock Tomb
 
 Pikachu
 Ability: Static
@@ -1708,23 +1660,23 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machop
+Larvitar
 Ability: Guts
 Level: 23
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Revenge
-- Foresight
-- Karate Chop
-- Seismic Toss
+- Dig
+- Bite
+- Thrash
+- Rock Slide
 
-Mightyena
-Ability: Intimidate
+Duskull
+Ability: Levitate
 Level: 23
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Sand Attack
-- Bite
-- Howl
-- Poison Fang
+- Shadow Sneak
+- Confuse Ray
+- Disable
+- Secret Power
 
 Riolu
 Ability: Steadfast
@@ -1821,7 +1773,7 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Smokescreen
 - Secret Power
 
-Shellder
+XXX
 Ability: Shell Armor
 Level: 23
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
@@ -1848,7 +1800,7 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Acid
 - Supersonic
 
-Azumarill
+XXX
 Ability: Huge Power
 Level: 23
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
@@ -1976,7 +1928,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Ninjask
+XXX
 Ability: Speed Boost
 Level: 24
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
@@ -2030,7 +1982,7 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Swablu
+XXX
 Ability: Natural Cure
 Level: 24
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
@@ -2066,7 +2018,7 @@ Music: Male
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Heracross
+XXX
 Ability: Guts
 Level: 24
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
@@ -2093,7 +2045,7 @@ Music: Girl
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER  
 
-Pidgeotto
+XXX
 Ability: Keen Eye
 Level: 24
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
@@ -2120,7 +2072,7 @@ Music: Male
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER  
 
-Swellow @ Flame Orb
+XXX @ Flame Orb
 Ability: Guts
 Level: 24
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
@@ -2129,7 +2081,7 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Double Team
 - Secret Power
 
-Furret
+XXX
 Ability: Keen Eye
 Level: 24
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
@@ -2156,7 +2108,7 @@ IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
 - Mud Slap
 - Poison Sting
 
-Vigoroth
+XXX
 Ability: Vital Spirit
 Level: 24
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
@@ -2228,7 +2180,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Exeggcute
+XXX
 Ability: Chlorophyll
 Level: 24
 IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
@@ -2300,7 +2252,7 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Mist
 - Secret Power
 
-Loudred
+XXX
 Ability: Soundproof
 Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
@@ -2318,7 +2270,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Tangela
+XXX
 Ability: Chlorophyll
 Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
@@ -2408,7 +2360,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Mightyena
+XXX
 Ability: Intimidate
 Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
@@ -2417,7 +2369,7 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Bite
 - Ice Fang
 
-Noctowl
+XXX
 Ability: Insomnia
 Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
@@ -2471,7 +2423,7 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Leech Life
 - Poison Sting
 
-Tropius
+XXX
 Ability: Chlorophyll
 Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
@@ -2525,7 +2477,7 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Recover
 - Shock Wave
 
-Aron
+XXX
 Ability: Sturdy
 Level:23
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
@@ -2588,7 +2540,7 @@ IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 - Knock Off
 - Cut
 
-Psyduck
+XXX
 Ability: Cloud Nine
 Level: 26
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
@@ -2606,7 +2558,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Wailmer
+XXX
 Ability: Oblivious
 Level: 26
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
@@ -2660,7 +2612,7 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Azumarill
+XXX
 Ability: Huge Power
 Level: 26
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
@@ -2768,7 +2720,7 @@ Music: Rich
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Roselia
+XXX
 Ability: Poison Point
 Level: 26
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
@@ -2777,7 +2729,7 @@ IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 - Stun Spore
 - Poison Sting
 
-Vigoroth
+XXX
 Ability: Vital Spirit
 Level: 26
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
@@ -2822,7 +2774,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Gulpin @ Poison Barb
+XXX @ Poison Barb
 Ability: Sticky Hold
 Level: 26
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
@@ -2907,7 +2859,7 @@ EVs: 78 Atk / 78 Def / 6 SpA
 - Mega Punch
 - Growl
 
-Kadabra
+KadXXX
 Ability: Synchronize
 Mild Nature
 Level: 27
@@ -2918,7 +2870,7 @@ EVs: 78 SpA / 78 Spe / 6 SpD
 - Disable
 - Kinesis
 
-Aron @ Sitrus Berry
+XXX @ Sitrus Berry
 Ability: Sturdy
 Adamant Nature
 Level: 27
@@ -2971,7 +2923,7 @@ EVs: 78 Atk / 78 Def / 6 SpA
 - Mega Punch
 - Growl
 
-Kadabra
+KadXXX
 Ability: Synchronize
 Mild Nature
 Level: 27
@@ -2982,7 +2934,7 @@ EVs: 78 SpA / 78 Spe / 6 SpD
 - Disable
 - Kinesis
 
-Aron @ Sitrus Berry
+XXX @ Sitrus Berry
 Ability: Sturdy
 Adamant Nature
 Level: 27
@@ -3035,7 +2987,7 @@ EVs: 78 Atk / 78 Def / 6 SpA
 - Mega Punch
 - Growl
 
-Aron @ Sitrus Berry
+XXX @ Sitrus Berry
 Ability: Sturdy
 Adamant Nature
 Level: 27
@@ -3046,7 +2998,7 @@ EVs: 78 Atk / 78 Def / 6 SpD
 - Headbutt
 - Mud Slap
 
-Kadabra
+KadXXX
 Ability: Synchronize
 Mild Nature
 Level: 27
@@ -3140,7 +3092,7 @@ Level: 27
 - Thunder Wave
 - Shock Wave
 
-Electrike
+XXX
 Ability: Static
 IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 Level: 27
@@ -3167,7 +3119,7 @@ IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
 - Thunderbolt
 - Thunder Wave
 
-Manectric @ Sitrus Berry
+XXX @ Sitrus Berry
 Ability: Static
 Level: 28
 IVs: 11 HP / 11 Atk / 11 Def / 11 SpA / 11 SpD / 11 Spe
@@ -3286,7 +3238,7 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machoke
+XXX
 Ability: Guts
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3348,7 +3300,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Skorupi
+XXX
 Level: 29
 Ability: Battle Armor
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3375,7 +3327,7 @@ Music: Male
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Sandslash
+XXX
 Ability: Sand Veil
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3447,7 +3399,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Polish
 - Magnitude
 
-Machoke
+XXX
 Ability: Guts
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3456,7 +3408,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Revenge
 - Seismic Toss
 
-Vigoroth
+XXX
 Ability: Vital Spirit
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3474,7 +3426,7 @@ Music: Hiker
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Solrock
+XXX
 Ability: Levitate
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3483,7 +3435,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Confusion
 - Reflect
 
-Lunatone
+XXX
 Ability: Levitate
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3501,7 +3453,7 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Roselia
+XXX
 Ability: Poison Point
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3600,7 +3552,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sand Attack
 - Secret Power
 
-Mr. Mime
+XXX
 Ability: Filter
 Level: 30
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3609,7 +3561,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Light Screen
 - Magical Leaf
 
-Heracross
+XXX
 Ability: Guts
 Level: 30
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3627,7 +3579,7 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Tangela
+XXX
 Ability: Chlorophyll
 Level: 30
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3708,7 +3660,7 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Rhyhorn
+XXX
 Ability: Rock Head
 Level: 30
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3780,7 +3732,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Tomb
 - Secret Power
 
-Loudred
+XXX
 Ability: Soundproof
 Level: 30
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3789,7 +3741,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Howl
 - Shock Wave
 
-Sandslash
+XXX
 Ability: Sand Veil
 Level: 30
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3843,7 +3795,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Hypnosis
 - Nightmare
 
-Pidgeotto
+XXX
 Ability: Keen Eye
 Level: 30
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3861,7 +3813,7 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Mightyena
+XXX
 Ability: Intimidate
 Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3870,7 +3822,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bite
 - Secret Power
 
-Koffing
+XXX
 Ability: Levitate
 Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3896,7 +3848,7 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Golbat
+XXX
 Ability: Inner Focus
 Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3959,7 +3911,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Swallow
 - Bubblebeam
 
-Houndoom
+XXX
 Ability: Flash Fire
 Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3968,7 +3920,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Ember
 - Roar
 
-Girafarig
+XXX
 Ability: Inner Focus
 Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -3995,7 +3947,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Tomb
 - Mega Punch
 
-Swellow
+XXX
 Ability: Guts
 Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4067,7 +4019,7 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Swalot
+XXX
 Ability: Liquid Ooze
 Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4076,7 +4028,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Amnesia
 - Sludge
 
-Kangaskhan
+XXX
 Ability: Scrappy
 Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4139,7 +4091,7 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Wailmer
+XXX
 Ability: Oblivious
 Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4211,7 +4163,7 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Cloyster
+XXX
 Ability: Shell Armor
 Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4292,7 +4244,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Manectric
+XXX
 Ability: Static
 Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4337,7 +4289,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Fang
 - Shock Wave
 
-Lairon
+XXX
 Ability: Sturdy
 Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4355,7 +4307,7 @@ Music: Twins
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Furret
+XXX
 Ability: Keen Eye
 Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4382,7 +4334,7 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Solrock
+XXX
 Ability: Levitate
 Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4454,7 +4406,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Cut
 - Shock Wave
 
-Golduck
+XXX
 Ability: Cloud Nine
 Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4490,7 +4442,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Aqua Tail
 - Thunder Wave
 
-Vigoroth
+XXX
 Ability: Vital Spirit
 Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4508,7 +4460,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Tropius
+XXX
 Ability: Chlorophyll
 Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4517,7 +4469,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Growth
 - Aerial Ace
 
-Sandslash
+XXX
 Ability: Sand Veil
 Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4535,7 +4487,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Swalot
+XXX
 Ability: Liquid Ooze
 Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4606,7 +4558,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Tackle
 - Charge
 
-Koffing
+XXX
 Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sludge
@@ -4639,7 +4591,7 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Banette
+XXX
 Ability: Insomnia
 Level: 33
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
@@ -4684,7 +4636,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Screech
 - Taunt
 
-Zubat
+XXX
 Ability: Inner Focus
 Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4738,7 +4690,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Headbutt
 - Brick Break
 
-Machoke
+XXX
 Ability: Guts
 Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4756,7 +4708,7 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Koffing
+XXX
 Ability: Levitate
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4783,7 +4735,7 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Golbat
+XXX
 Ability: Inner Focus
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4801,7 +4753,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Polish
 - Slam
 
-Houndoom
+XXX
 Ability: Flash Fire
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4819,7 +4771,7 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Vigoroth
+XXX
 Ability: Vital Spirit
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4828,7 +4780,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Smash
 - Yawn
 
-Ninjask
+XXX
 Ability: Speed Boost
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4855,7 +4807,7 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Mightyena
+XXX
 Ability: Intimidate
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4864,7 +4816,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Secret Power
 - Howl
 
-Noctowl
+XXX
 Ability: Insomnia
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4945,7 +4897,7 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Banette
+XXX
 Ability: Insomnia
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4954,7 +4906,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Faint Attack
 - Shock Wave
 
-Golbat
+XXX
 Ability: Inner Focus
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4981,7 +4933,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Pain Split
 - Spite
 
-Swalot
+XXX
 Ability: Liquid Ooze
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -5047,7 +4999,7 @@ EVs: 120 Atk / 120 Spe / 6 SpD
 - Feint Attack
 - Aerial Ace
 
-Sandslash 
+XXX 
 Ability: Sand Veil
 Jolly Nature
 Level: 34
@@ -5058,7 +5010,7 @@ EVs: 120 Atk / 120 Spe / 6 HP
 - Crush Claw
 - Swords Dance
 
-Kangaskhan @ Muscle Band
+XXX @ Muscle Band
 Ability: Scrappy
 Naughty Nature
 Level: 35
@@ -5130,7 +5082,7 @@ EVs: 104 SpA / 104 Atk / 6 Spe
 - Secret Power
 - Psychic
 
-Cacturne
+XXX
 Ability: Sand Veil
 Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -5182,7 +5134,7 @@ EVs: 104 Def / 104 SpA / 6 SpD
 - Curse
 - Body Slam
 
-Tropius @ Wide Lens
+XXX @ Wide Lens
 Level: 38
 Ability: Chlorophyll
 Adamant Nature
@@ -5193,7 +5145,7 @@ EVs: 104 Atk / 104 Def / 6 Spe
 - Growth
 - Aerial Ace
 
-Kadabra
+KadXXX
 Ability: Synchronize
 Mild Nature
 Level: 38
@@ -5268,7 +5220,7 @@ EVs: 104 SpA / 104 SpD / 6 HP
 - Supersonic
 - Payback
 
-Kadabra
+KadXXX
 Ability: Synchronize
 Mild Nature
 Level: 38
@@ -5321,7 +5273,7 @@ EVs: 104 SpA / 104 Atk / 6 Def
 - Mega Punch
 - Fire Punch
 
-Tropius @ Wide Lens
+XXX @ Wide Lens
 Level: 37
 Ability: Chlorophyll
 Adamant Nature
@@ -5343,7 +5295,7 @@ EVs: 104 SpA / 104 SpD / 6 HP
 - Supersonic
 - Payback
 
-Kadabra
+KadXXX
 Ability: Synchronize
 Mild Nature
 Level: 38
@@ -5410,7 +5362,7 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Banette
+XXX
 Ability: Insomnia
 Level: 39
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
@@ -5473,7 +5425,7 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Houndoom
+XXX
 Ability: Flash Fire
 Level: 39
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
@@ -5545,7 +5497,7 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Banette
+XXX
 Ability: Insomnia
 Level: 39
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -5563,7 +5515,7 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Girafarig
+XXX
 Ability: Inner Focus
 Level: 37
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -5581,7 +5533,7 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Payback
 - Brick Break
 
-Parasect
+XXXect
 Ability: Effect Spore
 Level: 37
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -5599,7 +5551,7 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Claydol
+XXX
 Ability: Levitate
 Level: 39
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -5698,7 +5650,7 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Pidgeot
+XXX
 Ability: Keen Eye
 Level: 38
 IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
@@ -5745,7 +5697,7 @@ EVs: 120 Atk / 120 SpD / 6 HP
 - Waterfall
 - Rock Slide
 
-Slaking
+XXX
 Ability: Truant
 Naughty Nature
 Level: 38
@@ -5795,7 +5747,7 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Tropius
+XXX
 Ability: Chlorophyll
 Level: 38
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
@@ -5840,7 +5792,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Growth
 - Secret Power
 
-Tangela
+XXX
 Ability: Chlorophyll
 Level: 38
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
@@ -5849,7 +5801,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Sleep Powder
 - Giga Drain
 
-Roselia
+XXX
 Ability: Poison Point
 Level: 38
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
@@ -5930,7 +5882,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Sand Attack
 - Shadow Ball
 
-Parasect
+XXXect
 Ability: Effect Spore
 Level: 38
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
@@ -5966,7 +5918,7 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Exeggutor
+XXX
 Ability: Chlorophyll
 Level: 40
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
@@ -5984,7 +5936,7 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Roserade
+XXX
 Ability: Natural Cure
 Level: 38
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
@@ -5993,7 +5945,7 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Toxic Spikes
 - Leech Seed
 
-Tangrowth
+XXX
 Ability: Chlorophyll
 Level: 38
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
@@ -6012,7 +5964,7 @@ Items: Energy Root / X Sp Def
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Exeggutor @ Heat Rock
+XXX @ Heat Rock
 Ability: Chlorophyll
 Timid Nature
 Level: 38
@@ -6166,7 +6118,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Barrier
 - Toxic Spikes
 
-Golduck
+XXX
 Ability: Cloud Nine
 Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6193,7 +6145,7 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Swellow
+XXX
 Ability: Guts
 Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6220,7 +6172,7 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Loudred
+XXX
 Ability: Soundproof
 Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6283,7 +6235,7 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Xatu
+XXX
 Ability: Synchronize
 Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6319,7 +6271,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Headbutt
 - Slack Off
 
-Forretress
+XXX
 Ability: Sturdy
 Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6337,7 +6289,7 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Heracross @ Sitrus Berry
+XXX @ Sitrus Berry
 Ability: Guts
 Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6382,7 +6334,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Thunder Wave
 - Swagger
 
-Altaria
+XXX
 Ability: Natural Cure
 Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6400,7 +6352,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Weezing @ Charcoal
+XXX @ Charcoal
 Ability: Levitate
 Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6427,7 +6379,7 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Swellow
+XXX
 Ability: Guts
 Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6445,7 +6397,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Pluck
 - Faint Attack
 
-Crobat
+XXX
 Ability: Inner Focus
 Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6463,7 +6415,7 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Ninjask
+XXX
 Ability: Speed Boost
 Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6472,7 +6424,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Leech Life
 - Night Slash
 
-Pidgeot
+XXX
 Ability: Keen Eye
 Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6598,7 +6550,7 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Noctowl
+XXX
 Ability: Insomnia
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6616,7 +6568,7 @@ Music: Cool
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Xatu
+XXX
 Ability: Synchronize
 Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6670,7 +6622,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Weezing
+XXX
 Ability: Levitate
 Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6679,7 +6631,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Selfdestruct
 - Will O Wisp
 
-Swalot @ Silk Scarf
+XXX @ Silk Scarf
 Ability: Sticky Hold
 Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6688,7 +6640,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Body Slam
 - Yawn
 
-Roserade
+XXX
 Ability: Poison Point
 Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6706,7 +6658,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machamp
+XXX
 Ability: No Guard
 Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6787,7 +6739,7 @@ Music: Male
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Cacturne @ Bright Powder
+XXX @ Bright Powder
 Ability: Sand Veil
 Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6796,7 +6748,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sand Attack
 - Seed Bomb
 
-Lairon
+XXX
 Ability: Sturdy
 Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6805,7 +6757,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Take Down
 - Iron Head
 
-Forretress @ Salac Berry
+XXX @ Salac Berry
 Ability: Sturdy
 Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6814,7 +6766,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Explosion
 - Counter
 
-Bronzong @ Iron Ball 
+XXX @ Iron Ball 
 Ability: Levitate
 Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6859,7 +6811,7 @@ Music: Female
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Girafarig
+XXX
 Ability: Inner Focus
 Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6958,7 +6910,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Pluck
 - Acupressure
 
-Altaria
+XXX
 Ability: Natural Cure
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6967,7 +6919,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Aerial Ace
 - Body Slam
 
-Swellow
+XXX
 Ability: Guts
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6985,7 +6937,7 @@ Music: Cool
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Noctowl
+XXX
 Ability: Insomnia
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6994,7 +6946,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Hypnosis
 - Shadow Ball
 
-Pidgeot
+XXX
 Ability: Keen Eye
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7003,7 +6955,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Quick Attack
 - Steel Wing
 
-Xatu
+XXX
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Wish
@@ -7038,7 +6990,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Shadow Ball
 - Morning Sun
 
-Azumarill
+XXX
 Ability: Huge Power
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7056,7 +7008,7 @@ Music: Girl
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Swalot @ Quick Claw
+XXX @ Quick Claw
 Ability: Sticky Hold
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7254,7 +7206,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Weezing
+XXX
 Ability: Levitate
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7272,7 +7224,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Mightyena
+XXX
 Ability: Intimidate
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7281,7 +7233,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Howl
 - Body Slam
 
-Swalot
+XXX
 Ability: Liquid Ooze
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7290,7 +7242,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Spit Up
 - Toxic
 
-Rhyhorn
+XXX
 Ability: Rock Head
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7317,7 +7269,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Yawn
 - Slam
 
-Lunatone
+XXX
 Ability: Levitate
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7344,7 +7296,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Vital Throw
 - Whirlwind
 
-Girafarig
+XXX
 Ability: Inner Focus
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7398,7 +7350,7 @@ Music: Male
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Manectric
+XXX
 Ability: Static
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7407,7 +7359,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Ice Fang
 - Thunder Wave
 
-Solrock
+XXX
 Ability: Levitate
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7479,7 +7431,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Mud Bomb
 - Brick Break
 
-Houndoom
+XXX
 Ability: Flash Fire
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7488,7 +7440,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Faint Attack
 - Roar
 
-Banette
+XXX
 Ability: Insomnia
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7506,7 +7458,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Heracross @ Salac Berry
+XXX @ Salac Berry
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Megahorn
@@ -7523,7 +7475,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Furret @ Choice Band
+XXX @ Choice Band
 Ability: Keen Eye
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7577,7 +7529,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Weezing @ Lansat Berry
+XXX @ Lansat Berry
 Ability: Levitate
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7586,7 +7538,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Assurance
 - Smokescreen
 
-Machamp @ Flame Orb
+XXX @ Flame Orb
 Ability: Guts
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7613,7 +7565,7 @@ Music: Cool
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Xatu @ Persim Berry
+XXX @ Persim Berry
 Ability: Synchronize
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7622,7 +7574,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Psychic
 - Tailwind
 
-Tropius @ Yache Berry
+XXX @ Yache Berry
 Ability: Chlorophyll
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7631,7 +7583,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Body Slam
 - Growth
 
-Altaria
+XXX
 Ability: Natural Cure
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7649,7 +7601,7 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Ninjask
+XXX
 Ability: Speed Boost
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7658,7 +7610,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Leech Life
 - Double Team
 
-Noctowl
+XXX
 Ability: Insomnia
 Level: 42
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7703,7 +7655,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Surf
 - Rain Dance
 
-Cloyster
+XXX
 Ability: Shell Armor
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7793,7 +7745,7 @@ Music: Intense
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Machamp @ Black Belt
+XXX @ Black Belt
 Ability: No Guard
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7847,7 +7799,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Screech
 - Assurance
 
-Heracross @ Black Belt
+XXX @ Black Belt
 Ability: Guts
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7946,7 +7898,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Flamethrower
 - Iron Tail
 
-Manectric
+XXX
 Ability: Static
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -7964,7 +7916,7 @@ Music: Aqua
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Cacturne
+XXX
 Ability: Sand Veil
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8171,7 +8123,7 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Exploud
+XXX
 Ability: Soundproof
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8216,7 +8168,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Confuse Ray
 - Screech
 
-Houndoom @ Petaya Berry
+XXX @ Petaya Berry
 Ability: Flash Fire
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8288,7 +8240,7 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Mr Mime @ Light Clay
+XXX @ Light Clay
 Ability: Soundproof
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8378,7 +8330,7 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Aggron
+XXX
 Ability: Sturdy
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8423,7 +8375,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Magnet Rise
 - Swift
 
-Weezing
+XXX
 Ability: Levitate
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8450,7 +8402,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Focus Energy
 - Double Kick
 
-Golbat
+XXX
 Ability: Inner Focus
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8477,7 +8429,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Ice Punch
 - Water Pulse
 
-Piloswine
+XXX
 Ability: Snow Cloak
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8495,7 +8447,7 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Manectric
+XXX
 Ability: Static
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8504,7 +8456,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Fire Fang
 - Crunch
 
-Banette
+XXX
 Ability: Insomnia
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8513,7 +8465,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Shadow Sneak
 - Thunderbolt
 
-Cloyster
+XXX
 Ability: Shell Armor
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8561,7 +8513,7 @@ EVs: 152 Atk / 152 Spe / 6 HP
 - Night Slash
 - Slam
 
-Alakazam @ Twisted Spoon
+XXX @ Twisted Spoon
 Ability: Synchronize
 Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8630,7 +8582,7 @@ EVs: 152 Atk / 152 Spe / 6 SpD
 - Brick Break
 - Rock Slide
 
-Alakazam @ Twisted Spoon
+XXX @ Twisted Spoon
 Ability: Synchronize
 Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8699,7 +8651,7 @@ EVs: 152 Atk / 152 Def / 6 HP
 - Avalanche
 - Earthquake
 
-Alakazam @ Twisted Spoon
+XXX @ Twisted Spoon
 Ability: Synchronize
 Level: 47
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8738,7 +8690,7 @@ Music: Suspicious
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Heracross
+XXX
 Ability: Guts
 Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8774,7 +8726,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Will O Wisp
 - Shadow Ball
 
-Claydol
+XXX
 Ability: Levitate
 Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8783,7 +8735,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Rapid Spin
 - Ice Beam
 
-Swalot
+XXX
 Ability: Liquid Ooze
 Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8801,7 +8753,7 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Golduck
+XXX
 Ability: Cloud Nine
 Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8873,7 +8825,7 @@ Music: Aqua
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Xatu
+XXX
 Ability: Synchronize
 Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -8900,7 +8852,7 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Roserade
+XXX
 Ability: Poison Point
 Level: 46
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
@@ -8918,7 +8870,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Bubblebeam
 - Confuse Ray
 
-Pidgeot
+XXX
 Ability: Keen Eye
 Level: 46
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
@@ -8945,7 +8897,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Mud Shot
 - Rock Slide
 
-Bronzong
+XXX
 Ability: Levitate
 Level: 46
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
@@ -8990,7 +8942,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Thunder Fang
 - Ice Fang
 
-Mamoswine
+XXX
 Ability: Oblivious
 Level: 46
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
@@ -8999,7 +8951,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Ice Shard
 - Rock Slide
 
-Rhydon @ Focus Sash
+XXX @ Focus Sash
 Ability: Rock Head
 Level: 46
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
@@ -9044,7 +8996,7 @@ IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
 - Psychic
 - Dark Pulse
 
-Slaking @ Life Orb
+XXX @ Life Orb
 Ability: Truant
 Level: 46
 IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
@@ -9127,7 +9079,7 @@ Music: Intense
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Xatu 
+XXX 
 Ability: Synchronize
 Level: 47
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
@@ -9154,7 +9106,7 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Lunatone
+XXX
 Ability: Levitate
 Level: 47
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
@@ -9190,7 +9142,7 @@ Music: Intense
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Mr Mime @ Light Clay
+XXX @ Light Clay
 Ability: Soundproof
 Level: 47
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
@@ -9199,7 +9151,7 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Psychic
 - Focus Blast
 
-Solrock @ Charcoal
+XXX @ Charcoal
 Ability: Levitate
 Level: 47
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
@@ -9217,7 +9169,7 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Farigiraf
+XXX
 Ability: Inner Focus
 Level: 49
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
@@ -9262,7 +9214,7 @@ Music: Suspicious
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Exeggutor @ Sitrus Berry
+XXX @ Sitrus Berry
 Ability: Harvest
 Level: 48
 IVs: 21 HP / 21 Atk / 21 Def / 21 SpA / 21 SpD / 21 Spe
@@ -9308,7 +9260,7 @@ Items: X Defense / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
 
-Mr Mime @ Light Clay
+XXX @ Light Clay
 Ability: Filter
 Timid Nature
 Level: 47
@@ -9319,7 +9271,7 @@ EVs: 140 Spe / 140 SpA / 6 Def
 - Baton Pass
 - Calm Mind
 
-Bronzong @ Macho Brace
+XXX @ Macho Brace
 Ability: Levitate
 Sassy Nature
 Level: 47
@@ -9416,7 +9368,7 @@ EVs: 160 SpA / 160 Atk / 6 Def
 - Light Screen
 - Psychic
 
-Cacturne
+XXX
 Ability: Sand Veil
 Impish Nature
 Level: 49
@@ -9474,7 +9426,7 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Crobat
+XXX
 Ability: Inner Focus
 Level: 52
 IVs: 22 HP / 22 Atk / 22 Def / 22 SpA / 22 SpD / 22 Spe
@@ -9492,7 +9444,7 @@ Music: Hiker
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Drapion
+XXX
 Ability: Battle Armor
 Level: 51
 IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
@@ -9528,7 +9480,7 @@ IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
 - Energy Ball
 - Sleep Powder
 
-Swalot @ Leftovers
+XXX @ Leftovers
 Ability: Sticky Hold
 Level: 52
 IVs: 23 HP / 23 Atk / 23 Def / 23 SpA / 23 SpD / 23 Spe
@@ -9612,7 +9564,7 @@ EVs: 160 Atk / 160 Def / 6 HP
 - Poison Jab
 - Toxic
 
-Roserade @ Metronome
+XXX @ Metronome
 Level: 53
 Ability: Natural Cure
 Modest Nature
@@ -9645,7 +9597,7 @@ EVs: 160 Atk / 160 SpD / 6 Def
 - Poison Tail
 - Curse
 
-Weezing @ Custap Berry
+XXX @ Custap Berry
 Level: 57
 Ability: Levitate
 Serious Nature
@@ -9665,7 +9617,7 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Parasect
+XXXect
 Ability: Dry Skin
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -9674,7 +9626,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Giga Drain
 - Swords Dance
 
-Roserade
+XXX
 Ability: Poison Point
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -9683,7 +9635,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Extrasensory
 - Giga Drain
 
-Tangrowth
+XXX
 Ability: Leaf Guard
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -9701,7 +9653,7 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Rhydon
+XXX
 Ability: Rock Head
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -9710,7 +9662,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Hammer Arm
 - Take Down
 
-Kangaskhan
+XXX
 Ability: Scrappy
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -9728,7 +9680,7 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Golduck
+XXX
 Ability: Damp
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -9818,7 +9770,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Psychic
 - Hydro Pump
 
-Cloyster
+XXX
 Ability: Skill Link
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -9908,7 +9860,7 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Wailord
+XXX
 Ability: Oblivious
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -9944,7 +9896,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Bulk Up
 - Brick Break
 
-Golduck
+XXX
 Ability: Damp
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -10070,7 +10022,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Aqua Jet
 - Headbutt
 
-Azumarill
+XXX
 Ability: Thick Fat
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -10133,7 +10085,7 @@ Music: Cool
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Swellow
+XXX
 Ability: Guts
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -10232,7 +10184,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Swords Dance
 - X Scissor
 
-Sandslash
+XXX
 Ability: Sand Veil
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -10259,7 +10211,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Surf
 - Ice Beam
 
-Wailord @ Sitrus Berry
+XXX @ Sitrus Berry
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Water Spout
@@ -10377,7 +10329,7 @@ Music: Swimmer
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Golduck
+XXX
 Ability: Cloud Nine
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -10386,7 +10338,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Mud Bomb
 - Surf
 
-Cloyster
+XXX
 Ability: Shell Armor
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -10605,7 +10557,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Ninjask
+XXX
 Ability: Speed Boost
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -10650,7 +10602,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Dragon Pulse
 - Roost
 
-Aggron
+XXX
 Ability: Rock Head
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -10704,7 +10656,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Mirror Shot
 - Tri Attack
 
-Claydol
+XXX
 Ability: Levitate
 Level: 55
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -10812,7 +10764,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Aura Sphere
 - Ancient Power
 
-Golduck
+XXX
 Ability: Cloud Nine
 Level: 56
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -10875,7 +10827,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Body Slam
 - Gyro Ball
 
-Sandslash
+XXX
 Level: 56
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Slash
@@ -10945,7 +10897,7 @@ Music: Intense
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Machamp @ Black Belt
+XXX @ Black Belt
 Ability: No Guard
 Level: 56
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -10999,7 +10951,7 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Aggron @ Black Belt
+XXX @ Black Belt
 Ability: Sturdy
 Level: 56
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11026,7 +10978,7 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Exploud @ Black Belt
+XXX @ Black Belt
 Ability: Soundproof
 Level: 56
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11208,7 +11160,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Swords Dance
 - Rock Slide
 
-Exeggutor
+XXX
 Ability: Chlorophyll
 Level: 56
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11226,7 +11178,7 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Mightyena
+XXX
 Ability: Intimidate
 Level: 56
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11271,7 +11223,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Crunch
 - Flamethrower
 
-Drapion
+XXX
 Ability: Sniper
 Level: 56
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11289,7 +11241,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Weezing
+XXX
 Ability: Levitate
 Level: 56
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11334,7 +11286,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Houndoom
+XXX
 Ability: Flash Fire
 Level: 58
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11361,7 +11313,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Ice Fang
 - Roar
 
-Crobat
+XXX
 Ability: Inner Focus
 Level: 56
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11388,7 +11340,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Nasty Plot
 - Light Screen
 
-Azumarill
+XXX
 Ability: Huge Power
 Level: 56
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11424,7 +11376,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Earthquake
 - Counter
 
-Altaria @ White Herb
+XXX @ White Herb
 Ability: Cloud Nine
 Level: 56
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11532,7 +11484,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Slam
 - Leech Life
 
-Roserade
+XXX
 Ability: Poison Point
 Level: 56
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11712,7 +11664,7 @@ Music: Suspicious
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Houndoom
+XXX
 Ability: Early Bird
 Level: 56
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11751,7 +11703,7 @@ EVs: 180 SpA / 180 Spe / 6 SpD
 - Nasty Plot
 - Energy Ball
 
-Houndoom @ Meadow Plate
+XXX @ Meadow Plate
 Ability: Early Bird
 Modest Nature
 Level: 55
@@ -11812,7 +11764,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - U Turn
 - Frustration
 
-Heracross @ Black Belt
+XXX @ Black Belt
 Ability: Guts
 Level: 57
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11848,7 +11800,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Crunch
 - Rock Slide
 
-Mamoswine
+XXX
 Ability: Oblivious
 Level: 57
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11866,7 +11818,7 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Aggron @ Black Belt
+XXX @ Black Belt
 Ability: Sturdy
 Level: 59
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11885,7 +11837,7 @@ Items: Hyper Potion
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Sandslash
+XXX
 Ability: Sand Veil
 Level: 57
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
@@ -11976,7 +11928,7 @@ Items: Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Exploud @ Silk Scarf
+XXX @ Silk Scarf
 Ability: Soundproof
 Level: 58
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
@@ -12031,7 +11983,7 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Shuckle @ Chesto Berry
+XXX @ Chesto Berry
 Ability: Sturdy
 Level: 58
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
@@ -12049,7 +12001,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Sleep Powder
 - Giga Drain
 
-Forretress
+XXX
 Ability: Sturdy
 Level: 58
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
@@ -12058,7 +12010,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Counter
 - Light Screen
 
-Heracross
+XXX
 Ability: Guts
 Level: 58
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
@@ -12067,7 +12019,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Earthquake
 - Bulk Up
 
-Parasect
+XXXect
 Ability: Dry Skin
 Level: 58
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
@@ -12130,7 +12082,7 @@ EVs: 200 Atk / 200 SpD / 6 SpA
 - Sludge Bomb
 - Earthquake
 
-Rhyperior @ Lansat Berry
+XXX @ Lansat Berry
 Ability: Reckless
 Careful Nature
 Level: 61
@@ -12190,7 +12142,7 @@ EVs: 200 Atk / 200 Spe / 6 HP
 - Crunch
 - Flare Blitz
 
-Alakazam @ Choice Specs
+XXX @ Choice Specs
 Ability: Synchronize
 Level: 63
 IVs: 27 HP / 27 Atk / 27 Def / 27 SpA / 27 SpD / 27 Spe
@@ -12249,7 +12201,7 @@ EVs: 200 Atk / 200 Spe / 6 HP
 - Crunch
 - Flare Blitz
 
-Roserade @ Black Sludge
+XXX @ Black Sludge
 Ability: Poison Point
 Level: 63
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12259,7 +12211,7 @@ EVs: 200 SpA / 200 SpD / 6 Spe
 - Leech Seed
 - Toxic Spikes
 
-Alakazam @ Choice Specs
+XXX @ Choice Specs
 Ability: Synchronize
 Level: 63
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12308,7 +12260,7 @@ EVs: 200 SpA / 200 Def / 6 SpD
 - Signal Beam
 - Light Screen
 
-Roserade @ Black Sludge
+XXX @ Black Sludge
 Ability: Poison Point
 Level: 61
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12328,7 +12280,7 @@ EVs: 200 HP / 200 Def / 6 SpD
 - Dive
 - Ice Beam
 
-Alakazam @ Choice Specs
+XXX @ Choice Specs
 Ability: Synchronize
 Level: 63
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12367,7 +12319,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Earthquake
 - Focus Blast
 
-Weezing
+XXX
 Ability: Levitate
 Level: 60
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12385,7 +12337,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Rock Slide
 - Curse
 
-Wailord
+XXX
 Ability: Water Veil
 Level: 60
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12503,7 +12455,7 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Crobat
+XXX
 Ability: Inner Focus
 Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12557,7 +12509,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - X Scissor
 - Rock Slide
 
-Claydol
+XXX
 Ability: Levitate
 Level: 63
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12594,7 +12546,7 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Cloyster
+XXX
 Ability: Skill Link
 Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12603,7 +12555,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Icicle Spear
 - Poison Jab
 
-Exeggutor
+XXX
 Ability: Chlorophyll
 Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12658,7 +12610,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Body Slam
 - Softboiled
 
-Farigiraf
+XXX
 Ability: Inner Focus
 Level: 65
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12711,7 +12663,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Double Edge
 - Roost
 
-Exploud
+XXX
 Ability: Soundproof
 Level: 66
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12793,7 +12745,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Double Edge
 - Fire Blast
 
-Parasect @ Big Root
+XXXect @ Big Root
 Ability: Effect Spore
 Level: 66
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12838,7 +12790,7 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Slaking
+XXX
 Ability: Truant
 Level: 68
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12856,7 +12808,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Flamethrower
 - Synthesis
 
-Kangaskhan
+XXX
 Ability: Scrappy
 Level: 68
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -12887,7 +12839,7 @@ EVs: 252 Atk / 252 SpA / 6 HP
 - Growth
 - Brick Break
 
-Cloyster @ Lum Berry
+XXX @ Lum Berry
 Level: 69
 Ability: Shell Armor
 Modest Nature
@@ -12920,7 +12872,7 @@ EVs: 252 Atk / 252 Spe / 6 Def
 - Swords Dance
 - Metal Claw
 
-Mr. Rime @ NevermeltIce
+XXX @ NevermeltIce
 Ability: Ice Body
 Timid Nature
 Level: 71
@@ -12964,7 +12916,7 @@ EVs: 252 Atk / 252 Def / 6 HP
 - Thunder Fang
 - Roar
 
-Heracross @ Choice Scarf
+XXX @ Choice Scarf
 Ability: Guts
 Jolly Nature
 Level: 70
@@ -13008,7 +12960,7 @@ EVs: 252 SpA / 252 Def / 6 Spe
 - Dark Pulse
 - Water Pulse
 
-Machamp @ Expert Belt
+XXX @ Expert Belt
 Level: 74
 Ability: No Guard
 Adamant Nature
@@ -13041,7 +12993,7 @@ EVs: 252 SpD / 252 SpA / 6 Spe
 - Psychic
 - Thunderbolt
 
-Shedinja @ Focus Band
+XXX @ Focus Band
 Ability: Wonder Guard
 Rash Nature
 Level: 71
@@ -13052,7 +13004,7 @@ EVs: 252 Atk / 252 Spe / 6 SpA
 - Dig
 - Toxic
 
-Spiritomb @ Leftovers
+XXX @ Leftovers
 Ability: Pressure
 Calm Nature
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -13140,7 +13092,7 @@ EVs: 252 SpA / 252 Spe / 6 SpD
 - Dragon Pulse
 - Hydro Pump
 
-SPECIES_EXEGGUTOR_ALOLA @ Yache Berry
+SPECIES_XXX_ALOLA @ Yache Berry
 Ability: Harvest
 Calm Nature
 Level: 74
@@ -13151,7 +13103,7 @@ EVs: 252 Def / 252 SpA / 6 SpD
 - Leech Seed
 - Sleep Powder
 
-Altaria @ Life Orb
+XXX @ Life Orb
 Ability: Natural Cure
 Level: 74
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -13194,7 +13146,7 @@ EVs: 252 Atk / 252 Spe / 6 Def
 - Close Combat
 - U-turn
 
-Alakazam @ Light Clay
+XXX @ Light Clay
 Modest Nature
 Ability: Synchronize
 Level: 73
@@ -13271,7 +13223,7 @@ EVs: 252 Atk / 252 Spe / 6 Def
 - Close Combat
 - U-turn
 
-Alakazam @ Light Clay
+XXX @ Light Clay
 Modest Nature
 Ability: Synchronize
 Level: 73
@@ -13348,7 +13300,7 @@ EVs: 252 Atk / 252 Spe / 6 Def
 - Close Combat
 - U-turn
 
-Alakazam @ Light Clay
+XXX @ Light Clay
 Modest Nature
 Ability: Synchronize
 Level: 73
@@ -14557,7 +14509,7 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Shuckle
+XXX
 Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
@@ -18153,7 +18105,7 @@ Pidgeotto
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-Shuckle
+XXX
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
