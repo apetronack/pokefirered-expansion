@@ -92,6 +92,14 @@ VermilionCity_Text_BoardSeagallopTriPass::
     .string "Would you like to board\n"
     .string "a SEAGALLOP ferry?$"
 
+VermilionCity_Text_BoardSeagallopTriPassOrDock::
+    .string "With your TRI-PASS, you can\n"
+    .string "board the SEAGALLOP ferry to the\l"
+    .string "SEVII ISLANDS.\p"
+    .string "Or if you'd like, I can still take\n"
+    .string "you to the old SS ANNE dock area.\p"
+    .string "What would you prefer?$"
+
 VermilionCity_Text_Seagallop7Departing::
     .string "Okay, everything's in order.\p"
     .string "SEAGALLOP HI-SPEED 7 will be\n"

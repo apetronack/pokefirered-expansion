@@ -220,9 +220,21 @@ EventScript_SailToBirthIsland::
 	end
 
 VermilionCity_EventScript_ChooseSeagallopDestTriPass::
+	goto_if_questlog EventScript_ReleaseEnd
+	special QuestLog_CutRecording
+	msgbox VermilionCity_Text_BoardSeagallopTriPassOrDock, MSGBOX_DEFAULT
+	multichoice 0, 0, MULTICHOICE_SEAGALLOP_OR_DOCK, FALSE
+	switch VAR_RESULT
+	case 0, VermilionCity_EventScript_BoardSeagallopTriPass
+	case 1, VermilionCity_EventScript_TakeToDockArea
+	case 2, VermilionCity_EventScript_DeclineSeagallop
+	case 127, VermilionCity_EventScript_DeclineSeagallop
+	end
+
+VermilionCity_EventScript_BoardSeagallopTriPass::
+	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
 	message VermilionCity_Text_BoardSeagallopTriPass
 	waitmessage
-	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
 	multichoice 19, 5, MULTICHOICE_SEAGALLOP_123, FALSE
 	switch VAR_RESULT
 	case 0, EventScript_SailToOneIsland2
