@@ -2915,12 +2915,12 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_FLAAFFY"
+                "species": "SPECIES_LARVITAR"
               },
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_QUAGSIRE"
+                "species": "SPECIES_LARVITAR"
               },
               {
                 "min_level": 30,
@@ -2930,7 +2930,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_MILTANK"
+                "species": "SPECIES_SKARMORY"
               },
               {
                 "min_level": 25,
@@ -2940,7 +2940,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_MILTANK"
+                "species": "SPECIES_SKARMORY"
               }
             ]
           },
@@ -3213,12 +3213,12 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_ROSELIA"
+                "species": "SPECIES_TROPIUS"
               },
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_MAWILE"
+                "species": "SPECIES_TROPIUS"
               },
               {
                 "min_level": 33,
@@ -3228,7 +3228,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_TROPIUS"
+                "species": "SPECIES_LAIRON"
               },
               {
                 "min_level": 26,
@@ -3238,7 +3238,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_KIRLIA"
+                "species": "SPECIES_VIBRAVA"
               },
               {
                 "min_level": 25,
@@ -3248,7 +3248,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_KIRLIA"
+                "species": "SPECIES_VIBRAVA"
               }
             ]
           },
@@ -3501,22 +3501,22 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_CHIMCHAR"
+                "species": "SPECIES_NINJASK"
               },
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_PIPLUP"
+                "species": "SPECIES_MANECTRIC"
               },
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_TURTWIG"
+                "species": "SPECIES_LUXRAY"
               },
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_TURTWIG"
+                "species": "SPECIES_LUXRAY"
               },
               {
                 "min_level": 25,
