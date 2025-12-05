@@ -160,3 +160,71 @@ SixIsland_PokemonCenter_1F_EventScript_OldMan::
 	msgbox SixIsland_PokemonCenter_1F_Text_SomeMonsEvolveByTradingWithHeldItem, MSGBOX_NPC
 # 81 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
 	end
+# 82 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+
+# 83 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+SixIsland_PokemonCenter_1F_EventScript_Morgan::
+# 84 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	lock
+# 85 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	faceplayer
+# 86 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	setvar VAR_0x8008, INGAME_TRADE_ABSOL
+# 87 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	call EventScript_GetInGameTradeSpeciesInfo
+# 88 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	goto_if_set FLAG_DID_ABSOL_TRADE, SixIsland_PokemonCenter_1F_EventScript_AlreadyTraded
+# 89 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	msgbox SixIsland_PokemonCenter_1F_Text_DoYouHaveMonWantToTradeForMyMon, MSGBOX_YESNO
+# 90 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	goto_if_eq VAR_RESULT, NO, SixIsland_PokemonCenter_1F_EventScript_DeclineTrade
+# 91 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	call EventScript_ChooseMonForInGameTrade
+# 92 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	goto_if_ge VAR_0x8004, PARTY_SIZE, SixIsland_PokemonCenter_1F_EventScript_DeclineTrade
+# 93 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	call EventScript_GetInGameTradeSpecies
+# 94 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	goto_if_ne VAR_RESULT, VAR_0x8009, SixIsland_PokemonCenter_1F_EventScript_NotRequestedMon
+# 95 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	call EventScript_DoInGameTrade
+# 96 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	msgbox SixIsland_PokemonCenter_1F_Text_ThankYou
+# 97 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	setflag FLAG_DID_ABSOL_TRADE
+# 98 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	release
+# 99 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	end
+# 100 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+
+# 101 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+SixIsland_PokemonCenter_1F_EventScript_DeclineTrade::
+# 102 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	msgbox SixIsland_PokemonCenter_1F_Text_ThatsTooBad
+# 103 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	release
+# 104 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	end
+# 105 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+
+# 106 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+SixIsland_PokemonCenter_1F_EventScript_NotRequestedMon::
+# 107 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	bufferspeciesname STR_VAR_1, VAR_0x8009
+# 108 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	msgbox SixIsland_PokemonCenter_1F_Text_ThisIsNoMon
+# 109 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	release
+# 110 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	end
+# 111 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+
+# 112 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+SixIsland_PokemonCenter_1F_EventScript_AlreadyTraded::
+# 113 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	msgbox SixIsland_PokemonCenter_1F_Text_HowIsMyOldMon
+# 114 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	release
+# 115 "data/maps/SixIsland_PokemonCenter_1F/scripts.pory"
+	end

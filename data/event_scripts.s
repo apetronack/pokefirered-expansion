@@ -604,6 +604,7 @@ gStdScriptsEnd::
 	.include "data/maps/MtEmber_Exterior/text.inc"
 	.include "data/maps/MtEmber_RubyPath_B3F/text.inc"
 	.include "data/maps/ThreeIsland_BerryForest/text.inc"
+	.include "data/maps/FourIsland_IcefallCave_Entrance/text.inc"
 	.include "data/maps/FourIsland_IcefallCave_Back/text.inc"
 	.include "data/maps/FiveIsland_RocketWarehouse/text.inc"
 	.include "data/maps/SixIsland_DottedHole_SapphireRoom/text.inc"

@@ -34,3 +34,23 @@ SixIsland_PokemonCenter_1F_Text_RivalImpossibleToGetAllMonsAroundHere::
     .string "That's that, then!\n"
     .string "Smell ya later!$"
 
+SixIsland_PokemonCenter_1F_Text_DoYouHaveMonWantToTradeForMyMon::
+	.string "Hi!\n"
+	.string "Do you have a {STR_VAR_1}?\p"
+	.string "Want to trade it for my\n"
+	.string "{STR_VAR_2}?$"
+
+SixIsland_PokemonCenter_1F_Text_ThatsTooBad::
+	.string "That's too bad.$"
+
+SixIsland_PokemonCenter_1F_Text_ThisIsNoMon::
+	.string "…This is no {STR_VAR_1}.\p"
+	.string "If you get one, please trade it\n"
+	.string "to me!$"
+
+SixIsland_PokemonCenter_1F_Text_ThankYou::
+	.string "Thank you!$"
+
+SixIsland_PokemonCenter_1F_Text_HowIsMyOldMon::
+	.string "How is my old {STR_VAR_2}?\p"
+	.string "My {STR_VAR_1} is doing great!$"

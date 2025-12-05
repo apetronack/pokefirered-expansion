@@ -25,6 +25,11 @@
 #define INGAME_TRADE_MUDKIP 12
 #define INGAME_TRADE_TREECKO 13
 #define INGAME_TRADE_TORCHIC 14
+#define INGAME_TRADE_ZANGOOSE 15
+#define INGAME_TRADE_SEVIPER 16
+#define INGAME_TRADE_ABSOL 17
+#define INGAME_TRADE_PINSIR 18
+#define INGAME_TRADE_CARNIVINE 19
 
 // Return values for CanTradeSelectedMon and CanSpinTradeMon
 #define CAN_TRADE_MON              0

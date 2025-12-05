@@ -535,7 +535,7 @@
 #line 220
             .ability = ABILITY_COMPOUND_EYES,
 #line 222
-            .lvl = 7,
+            .lvl = 9,
 #line 221
             .nature = NATURE_RASH,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
@@ -5532,7 +5532,7 @@ F_TRAINER_FEMALE |
 #line 2439
             .ability = ABILITY_INTIMIDATE,
 #line 2440
-            .lvl = 27,
+            .lvl = 25,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -5552,7 +5552,7 @@ F_TRAINER_FEMALE |
 #line 2448
             .ability = ABILITY_EFFECT_SPORE,
 #line 2449
-            .lvl = 22,
+            .lvl = 25,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {

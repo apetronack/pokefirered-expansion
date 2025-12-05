@@ -821,11 +821,11 @@
 #define FLAG_CHOICE_BAND_TRADE   0x317
 #define FLAG_BEAT_MYSTIC_GUARDIAN               0x318
 #define FLAG_BEAT_AURORA_GUARDIAN               0x319
-#define FLAG_0x31A               0x31A
-#define FLAG_0x31B               0x31B
-#define FLAG_0x31C               0x31C
-#define FLAG_0x31D               0x31D
-#define FLAG_0x31E               0x31E
+#define FLAG_DID_ZANGOOSE_TRADE  0x31A
+#define FLAG_DID_SEVIPER_TRADE   0x31B
+#define FLAG_DID_ABSOL_TRADE     0x31C
+#define FLAG_DID_PINSIR_TRADE    0x31D
+#define FLAG_DID_CARNIVINE_TRADE 0x31E
 #define FLAG_0x31F               0x31F
 #define FLAG_0x320               0x320
 #define FLAG_0x321               0x321
