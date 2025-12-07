@@ -199,8 +199,8 @@
 #define FLAG_FOUGHT_TURTWIG      0x0B5
 #define FLAG_0x0B6               0x0B6
 #define FLAG_HIDE_VERMILION_DOCK_GUIDE                     0x0B7
-#define FLAG_0x0B8               0x0B8
-#define FLAG_0x0B9               0x0B9
+#define FLAG_HIDE_SKULL_FOSSIL   0x0B8
+#define FLAG_HIDE_ARMOR_FOSSIL   0x0B9
 #define FLAG_0x0BA               0x0BA
 #define FLAG_0x0BB               0x0BB
 #define FLAG_0x0BC               0x0BC
@@ -826,12 +826,12 @@
 #define FLAG_DID_ABSOL_TRADE     0x31C
 #define FLAG_DID_PINSIR_TRADE    0x31D
 #define FLAG_DID_CARNIVINE_TRADE 0x31E
-#define FLAG_0x31F               0x31F
-#define FLAG_0x320               0x320
-#define FLAG_0x321               0x321
-#define FLAG_0x322               0x322
-#define FLAG_0x323               0x323
-#define FLAG_0x324               0x324
+#define FLAG_GOT_SKULL_FOSSIL    0x31F
+#define FLAG_GOT_ARMOR_FOSSIL    0x320
+#define FLAG_REVIVED_SKULL       0x321
+#define FLAG_REVIVED_ARMOR       0x322
+#define FLAG_0x323   0x323
+#define FLAG_0x324   0x324
 #define FLAG_0x325               0x325
 #define FLAG_0x326               0x326
 #define FLAG_0x327               0x327
@@ -940,7 +940,8 @@
 #define FLAG_0x38E               0x38E
 #define FLAG_0x38F               0x38F
 
-#define DAILY_FLAGS_START                           (FLAG_0x38F + (8 - FLAG_0x38F % 8))
+#define ALIGN_TO_8(x) (((x) + 7) & ~7)
+#define DAILY_FLAGS_START ALIGN_TO_8(FLAG_0x38F)
 
 #define FLAG_0x390               0x390
 #define FLAG_0x391               0x391

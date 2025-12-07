@@ -221,6 +221,16 @@ static const struct MenuAction sMultichoiceList_DomeAmber[] = {
     { gOtherText_Exit }
 };
 
+static const struct MenuAction sMultichoiceList_Skull[] = {
+    { gText_SkullFossil },
+    { gOtherText_Exit }
+};
+
+static const struct MenuAction sMultichoiceList_Armor[] = {
+    { gText_ArmorFossil },
+    { gOtherText_Exit }
+};
+
 static const struct MenuAction sMultichoiceList_CeladonVendingMachine[] = {
     { gText_FreshWater_200 },
     { gText_SodaPop_300 },
@@ -588,6 +598,8 @@ static const struct MultichoiceListStruct sMultichoiceLists[] = {
     [MULTICHOICE_AMBER]                                      = MULTICHOICE(sMultichoiceList_Amber),
     [MULTICHOICE_HELIX_AMBER]                                = MULTICHOICE(sMultichoiceList_HelixAmber),
     [MULTICHOICE_DOME_AMBER]                                 = MULTICHOICE(sMultichoiceList_DomeAmber),
+    [MULTICHOICE_SKULL]                                      = MULTICHOICE(sMultichoiceList_Skull),
+    [MULTICHOICE_ARMOR]                                      = MULTICHOICE(sMultichoiceList_Armor),
     [MULTICHOICE_CELADON_VENDING_MACHINE]                    = MULTICHOICE(sMultichoiceList_CeladonVendingMachine),
     [MULTICHOICE_GAME_CORNER_COIN_PURCHASE_COUNTER]          = MULTICHOICE(sMultichoiceList_GameCornerCoinPurchaseCounter),
     [MULTICHOICE_EXCELLENT_NOT_SO_BAD]                       = MULTICHOICE(sMultichoiceList_Excellent_NotSoBad),
