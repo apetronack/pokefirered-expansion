@@ -612,6 +612,7 @@ gStdScriptsEnd::
 	.include "data/maps/TrainerTower_Lobby/text.inc"
 	.include "data/maps/FiveIsland_LostCave_Room1/text.inc"
 	.include "data/maps/FiveIsland_LostCave_Room4/text.inc"
+	.include "data/maps/FiveIsland_LostCave_Room6/text.inc"
 	.include "data/maps/FiveIsland_LostCave_Room9/text.inc"
 	.include "data/maps/FiveIsland_LostCave_Room10/text.inc"
 	.include "data/maps/ThreeIsland_DunsparceTunnel/text.inc"
