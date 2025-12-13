@@ -13033,7 +13033,7 @@ Mugshot: Pink
 Mismagius @ Choice Specs
 Ability: Levitate
 Timid Nature
-Level: 71
+Level: 69
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpD / 252 SpA / 6 Spe
 - Shadow Ball
@@ -13620,7 +13620,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pachirisu
 Ability: Run Away
-Level: 87
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Super Fang
 - Sweet Kiss
@@ -13629,7 +13629,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Roserade
 Ability: Poison Point
-Level: 87
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Giga Drain
 - Sludge Bomb
@@ -14465,7 +14465,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pelipper
 Ability: Drizzle
-Level: 92
+Level: 90
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stockpile
 - Swallow
@@ -14474,7 +14474,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Azumarill
 Ability: Huge Power
-Level: 92
+Level: 90
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aqua Tail
 - Double Edge
@@ -14726,7 +14726,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Tyranitar
 Ability: Sand Stream
-Level: 94
+Level: 92
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Dragon Dance
@@ -14735,7 +14735,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Aggron
 Ability: Sturdy
-Level: 94
+Level: 92
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 - Earthquake
@@ -14744,7 +14744,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Shuckle
 Ability: Sturdy
-Level: 94
+Level: 92
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Defense Curl
 - Rollout
@@ -15239,7 +15239,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Zangoose
 Ability: Immunity
-Level: 96
+Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - X Scissor
 - Close Combat
@@ -15248,7 +15248,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Dragonite
 Ability: Inner Focus
-Level: 96
+Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Dance
 - Slam
@@ -15257,7 +15257,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Mismagius
 Ability: Levitate
-Level: 96
+Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
 - Psychic
@@ -15266,7 +15266,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Cacturne
 Ability: Water Absorb
-Level: 96
+Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Needle Arm
 - Sucker Punch
@@ -15275,7 +15275,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Houndoom
 Ability: Flash Fire
-Level: 96
+Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Overheat
 - Dark Pulse
@@ -15284,7 +15284,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Toxicroak
 Ability: Dry Skin
-Level: 96
+Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flatter
 - Poison Jab
@@ -15928,7 +15928,7 @@ EVs: 252 Atk / 252 SpA / 6 HP
 Walrein @ Chesto Berry
 Ability: Thick Fat
 Rash Nature
-Level: 97
+Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 HP / 6 Def
 - Ice Beam
@@ -15939,7 +15939,7 @@ EVs: 252 SpA / 252 HP / 6 Def
 Cloyster @ Leftovers
 Ability: Shell Armor
 Bold Nature
-Level: 97
+Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Def / 252 HP / 6 SpA
 - Ice Beam
@@ -15950,7 +15950,7 @@ EVs: 252 Def / 252 HP / 6 SpA
 Piloswine @ Soft Sand
 Ability: Oblivious
 Sassy Nature
-Level: 100
+Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 SpD / 6 Def
 - Blizzard
@@ -15961,7 +15961,7 @@ EVs: 252 Atk / 252 SpD / 6 Def
 Glalie @ Choice Scarf
 Ability: Inner Focus
 Jolly Nature
-Level: 100
+Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Spe / 252 Atk / 6 HP
 - Ice Beam
@@ -15972,7 +15972,7 @@ EVs: 252 Spe / 252 Atk / 6 HP
 Lapras @ Cheri Berry
 Ability: Water Absorb
 Calm Nature
-Level: 103
+Level: 105
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 SpA / 6 Def
 - Ice Beam
@@ -16005,7 +16005,7 @@ EVs: 252 Atk / 252 Def / 6 HP
 Pinsir @ Choice Scarf
 Ability: Hyper Cutter
 Adamant Nature
-Level: 97
+Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe / 6 HP
 - X Scissor
@@ -16016,7 +16016,7 @@ EVs: 252 Atk / 252 Spe / 6 HP
 Breloom @ Focus Sash
 Ability: Technician
 Jolly Nature
-Level: 97
+Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe / 6 HP
 - Sky Uppercut
@@ -16027,7 +16027,7 @@ EVs: 252 Atk / 252 Spe / 6 HP
 Medicham @ Lum Berry
 Ability: Pure Power
 Adamant Nature
-Level: 100
+Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe / 6 HP
 - Zen Headbutt
@@ -16038,7 +16038,7 @@ EVs: 252 Atk / 252 Spe / 6 HP
 Lucario @ Wise Glasses
 Ability: Inner Focus
 Modest Nature
-Level: 100
+Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe / 6 HP
 - Calm Mind
@@ -16049,7 +16049,7 @@ EVs: 252 SpA / 252 Spe / 6 HP
 Machamp @ Lum Berry
 Ability: No Guard
 Careful Nature
-Level: 103
+Level: 105
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 HP / 6 Def
 - Dynamic Punch
@@ -16082,7 +16082,7 @@ EVs: 252 SpA / 252 Spe / 6 HP
 Shiftry
 Ability: Pickpocket
 Hasty Nature
-Level: 97
+Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Spe / 252 SpA / 6 HP
 - Torment
@@ -16093,7 +16093,7 @@ EVs: 252 Spe / 252 SpA / 6 HP
 Crobat @ Choice Band
 Ability: Inner Focus
 Jolly Nature
-Level: 97
+Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe / 6 HP
 - U Turn
@@ -16104,7 +16104,7 @@ EVs: 252 Atk / 252 Spe / 6 HP
 Spiritomb @ Leftovers
 Ability: Pressure
 Bold Nature
-Level: 100
+Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpD / 252 Def / 6 HP
 - Shadow Ball
@@ -16115,7 +16115,7 @@ EVs: 252 SpD / 252 Def / 6 HP
 Toxicroak @ Black Sludge
 Ability: Dry Skin
 Modest Nature
-Level: 100
+Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe / 6 HP
 - Sludge Bomb
@@ -16126,7 +16126,7 @@ EVs: 252 SpA / 252 Spe / 6 HP
 Dusknoir @ Leftovers
 Ability: Pressure
 Calm Nature
-Level: 103
+Level: 105
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Def / 6 SpD
 - Will O Wisp
@@ -16158,7 +16158,7 @@ EVs: 252 Atk / 252 Spe / 6 HP
 Dragonite @ Yache Berry
 Ability: Inner Focus
 Adamant Nature
-Level: 97
+Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe / 6 HP
 - Hyper Beam
@@ -16178,7 +16178,7 @@ EVs: 252 SpA / 252 Spe / 6 HP
 
 Aggron @ Shuca Berry
 Ability: Sturdy
-Level: 100
+Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Def / 6 HP
 - Metal Burst
@@ -16189,7 +16189,7 @@ EVs: 252 Atk / 252 Def / 6 HP
 Aerodactyl @ Choice Band
 Ability: Rock Head
 Jolly Nature
-Level: 100
+Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe / 6 HP
 - Double Edge
@@ -16199,7 +16199,7 @@ EVs: 252 Atk / 252 Spe / 6 HP
 
 Garchomp @ Persim Berry
 Ability: Rough Skin
-Level: 103
+Level: 105
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe / 6 HP
 - Thrash
