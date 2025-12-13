@@ -14130,29 +14130,50 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Weezing
+SPECIES_ARCANINE_HISUI
+Ability: Intimidate
 Level: 88
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sludge Bomb
-- Screech
-- Minimize
-- Rock Tomb
+- Fire Blast
+- Extreme Speed
+- Rock Slide
+- Crunch
 
-Swalot
+Pinsir
+Ability: Mold Breaker
 Level: 88
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sludge Bomb
-- Bite
+- X Scissor
+- Swords Dance
 - Earthquake
-- Iron Tail
+- Stone Edge
 
-Victreebel
+Obstagoon
+Ability: Reckless
 Level: 88
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sludge Bomb
-- Giga Drain
-- Sleep Powder
-- Stun Spore
+- Double Edge
+- Submission
+- Night Slash
+- Bulk Up
+
+Ariados
+Ability: Swarm
+Level: 88
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Poison Jab
+- Sucker Punch
+- Spider Web
+- Leech Life
+
+Huntail
+Ability: Swift Swim
+Level: 88
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Waterfall
+- Crunch
+- Dragon Dance
+- Ice Fang
 
 === TRAINER_TEAM_ROCKET_ADMIN_2 ===
 Name: ADMIN
@@ -14164,29 +14185,50 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Crobat
+Masquerain
+Ability: Intimidate
 Level: 89
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Confuse Ray
-- Sludge Bomb
-- Air Cutter
-- Shadow Ball
+- Bug Buzz
+- Air Slash
+- Hydro Pump
+- Agility
 
-Weezing
+Ninetales
+Ability: Drought
 Level: 89
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sludge Bomb
-- Thunderbolt
-- Explosion
-- Shadow Ball
+- Heat Wave
+- Extrasensory
+- Will O Wisp
+- Solar Beam
 
-Houndoom
+Shiftry
+Ability: Chlorophyll
 Level: 89
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
+- Nasty Plot
+- Leaf Storm
+- Extrasensory
+- Dark Pulse
+
+Metagross
+Ability: Clear Body
+Level: 89
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Meteor Mash
+- Agility
+- Psychic
+- Earthquake
+
+Seviper
+Ability: Shed Skin
+Level: 89
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Glare
+- Poison Jab
 - Crunch
-- Iron Tail
-- Shadow Ball
+- Giga Drain
 
 === TRAINER_RUIN_MANIAC_LAWSON ===
 Name: LAWSON
@@ -14197,17 +14239,32 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
+Rampardos
+Ability: Mold Breaker
+Level: 89
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Head Smash
+- Zen Headbutt
+- Iron Tail
+- Earthquake
+
+Parasect
+Ability: Dry Skin
+Level: 89
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Spore
+- X Scissor
+- Swords Dance
+- Brick Break
+
 Steelix
+Ability: Rock Head
 Level: 89
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-
-Golem
-Level: 89
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-
-Marowak
-Level: 89
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Iron Tail
+- Double Edge
+- Earthquake
+- Stone Edge
 
 === TRAINER_PSYCHIC_LAURA ===
 Name: LAURA
@@ -14218,17 +14275,32 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Xatu
+Farigiraf
+Ability: Armor Tail
 Level: 89
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Nasty Plot
+- Psychic
+- Reflect
+- Thunderbolt
 
 Claydol
+Ability: Levitate
 Level: 89
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earth Power
+- Psychic
+- Light Screen
+- Charge Beam
 
-Gardevoir
+Gardevoir @ Wide Lens
+Ability: Synchronize
 Level: 89
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hypnosis
+- Dream Eater
+- Calm Mind
+- Thunderbolt
 
 === TRAINER_LADY_SELPHY ===
 Name: SELPHY
@@ -14265,17 +14337,41 @@ Music: Aqua
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Manectric
+Raticate
+Ability: Guts
 Level: 89
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Double Edge
+- Sucker Punch
+- Swords Dance
+- Iron Tail
+
+Manectric
+Ability: Static
+Level: 89
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Flamethrower
+- Quick Attack
+- Roar
 
 Crobat
+Ability: Inner Focus
 Level: 89
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sludge Bomb
+- Giga Drain
+- Air Cutter
+- Confuse Ray
 
 Grumpig
+Ability: Thick Fat
 Level: 89
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Power Gem
+- Psychic
+- Confuse Ray
+- Energy Ball
 
 === TRAINER_FISHERMAN_TYLOR ===
 Name: TYLOR
@@ -14286,13 +14382,23 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Tentacruel
+Seaking
+Ability: Swift Swim
 Level: 90
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Megahorn
+- Agility
+- Waterfall
+- Double Edge
 
-Huntail
+Tentacruel
+Ability: Clear Body
 Level: 90
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sludge Bomb
+- Hydro Pump
+- Ice Beam
+- Giga Drain
 
 === TRAINER_SWIMMER_MALE_MYMO ===
 Name: MYMO
@@ -14303,13 +14409,23 @@ Music: Swimmer
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Floatzel
+Sharpedo
+Ability: Rough Skin
 Level: 90
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aqua Jet
+- Ice Fang
+- Crunch
+- Swagger
 
-Blastoise
+Wailord @ Leftovers
+Ability: Oblivious
 Level: 90
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Amnesia
+- Water Spout
+- Earthquake
+- Curse
 
 === TRAINER_SIS_AND_BRO_AVA_GEB ===
 Name: AVA & GEB
@@ -14320,13 +14436,23 @@ Music: Swimmer
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Politoed
+Kingler
+Ability: Hyper Cutter
 Level: 90
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Crabhammer
+- Swords Dance
+- X Scissor
+- Rock Slide
 
 Starmie
+Ability: Natural Cure
 Level: 90
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ice Beam
+- Thunderbolt
+- Psychic
+- Bubblebeam
 
 === TRAINER_SWIMMER_FEMALE_NICOLE ===
 Name: NICOLE
@@ -14337,9 +14463,23 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Azumarill
+Pelipper
+Ability: Drizzle
 Level: 92
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stockpile
+- Swallow
+- Hydro Pump
+- Air Slash
+
+Azumarill
+Ability: Huge Power
+Level: 92
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aqua Tail
+- Double Edge
+- Aqua Ring
+- Brick Break
 
 === TRAINER_PSYCHIC_JACLYN ===
 Name: JACLYN
@@ -14350,15 +14490,17 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Xatu
+Lunatone
+Ability: Levitate
 Level: 90
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Night Shade
-- Confuse Ray
+- Cosmic Power
+- Explosion
 - Psychic
-- Wish
+- Ice Beam
 
 Slowbro
+Ability: Oblivious
 Level: 90
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
@@ -14367,6 +14509,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Yawn
 
 Alakazam
+Ability: Synchronize
 Level: 90
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
@@ -14384,12 +14527,31 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Roserade
+Ability: Poison Point
 Level: 91
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sleep Powder
+- Sludge Bomb
+- Shadow Ball
+- Giga Drain
 
 Sunflora
+Ability: Drought
 Level: 91
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Solar Beam
+- Growth
+- Synthesis
+
+Bellossom
+Ability: Chlorophyll
+Level: 91
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leaf Storm
+- Synthesis
+- Toxic
+- Sludge Bomb
 
 === TRAINER_TWINS_MIU_MIA ===
 Name: MIU & MIA
@@ -14400,13 +14562,23 @@ Music: Twins
 Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Breloom
+Delcatty
+Ability: Cute Charm
 Level: 91
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fake Out
+- Helping Hand
+- Charm
+- Thunderbolt
 
-Raichu
+Heracross
+Ability: Swarm
 Level: 91
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Megahorn
+- Close Combat
+- Stone Edge
+- Swords Dance
 
 === TRAINER_SWIMMER_MALE_SAMIR ===
 Name: SAMIR
@@ -14418,8 +14590,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Milotic
+Ability: Marvel Scale
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
+- Blizzard
+- Captivate
+- Recover
 
 === TRAINER_SWIMMER_FEMALE_DENISE ===
 Name: DENISE
@@ -14431,12 +14608,22 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Empoleon
+Ability: Torrent
 Level: 91
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Swords Dance
+- Drill Peck
+- Waterfall
+- Steel Wing
 
 Lanturn
+Ability: Volt Absorb
 Level: 91
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
+- Stockpile
+- Thunder
+- Confuse Ray
 
 === TRAINER_JUGGLER_EDWARD ===
 Name: EDWARD
@@ -14447,23 +14634,8 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Banette
-Level: 91
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunderbolt
-- Shadow Ball
-- Sucker Punch
-- Shadow Sneak
-
-Medicham
-Level: 91
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Bulk Up
-- Rock Slide
-- High Jump Kick
-- Ice Punch
-
 Electrode
+Ability: Soundproof
 Level: 91
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Light Screen
@@ -14472,12 +14644,40 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Screech
 
 Mr Mime
+Ability: Soundproof
 Level: 91
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Role Play
 - Reflect
 - Encore
+
+Weavile
+Ability: Pressure
+Level: 91
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Night Slash
+- Ice Shard
+- Iron Tail
+- Aerial Ace
+
+Banette
+Ability: Insomnia
+Level: 91
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunderbolt
+- Shadow Ball
+- Sucker Punch
+- Shadow Sneak
+
+Medicham
+Ability: Pure Power
+Level: 91
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Bulk Up
+- Rock Slide
+- High Jump Kick
+- Ice Punch
 
 === TRAINER_HIKER_EARL ===
 Name: EARL
@@ -14489,12 +14689,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Hippowdon
+Ability: Sand Stream
 Level: 92
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Yawn
+- Crunch
+- Stone Edge
 
 Nidoking
+Abillity: Poison Point
 Level: 92
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Megahorn
+- Poison Jab
+- Earthquake
+- Thunder
+
+Donphan
+Ability: Sturdy
+Level: 92
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Stone Edge
+- Earthquake
+- Body Slam
+- Poison Jab
 
 === TRAINER_HIKER_DARYL ===
 Name: DARYL
@@ -14505,9 +14724,32 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Aggron
+Tyranitar
+Ability: Sand Stream
 Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Crunch
+- Dragon Dance
+- Stone Edge
+- Aerial Ace
+
+Aggron
+Ability: Sturdy
+Level: 94
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rock Slide
+- Earthquake
+- Iron Tail
+- Shadow Claw
+
+Shuckle
+Ability: Sturdy
+Level: 94
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Defense Curl
+- Rollout
+- Toxic
+- Rest
 
 === TRAINER_POKEMANIAC_HECTOR ===
 Name: HECTOR
@@ -14518,13 +14760,50 @@ Music: Suspicious
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Rhyperior
+Tauros
+Ability: Intimidate
 Level: 92
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Zen Headbutt
+- Earthquake
+- Stone Edge
+- Iron Tail
 
-Kangaskhan
+Rapidash
+Ability: Flash Fire
 Level: 92
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Megahorn
+- Flare Blitz
+- Bounce
+- Frustration
+
+Carnivine
+Ability: Levitate
+Level: 92
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Power Whip
+- Crunch
+- Swords Dance
+- Stockpile
+
+Absol
+Ability: Pressure
+Level: 92
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Swords Dance
+- Night Slash
+- Psycho Cut
+- Razor Wind
+
+Dragonite
+Ability: Inner Focus
+Level: 92
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Dance
+- Outrage
+- Thunder Punch
+- Fire Punch
 
 === TRAINER_RUIN_MANIAC_STANLY ===
 Name: STANLY
@@ -14535,17 +14814,32 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Golem
+Solrock
+Ability: Levitate
 Level: 92
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sunny Day
+- Solar Beam
+- Flamethrower
+- Rock Slide
 
-Aggron
+Skarmory
+Ability: Sturdy
 Level: 92
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Steel Wing
+- Drill Peck
+- Agility
+- Rock Slide
 
 Torterra
+Ability: Overgrow
 Level: 92
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wood Hammer
+- Earthquake
+- Stone Edge
+- Synthesis
 
 === TRAINER_RUIN_MANIAC_FOSTER ===
 Name: FOSTER
@@ -14557,8 +14851,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Swampert
+Ability: Torrent
 Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Waterfall
+- Hammer Arm
+- Blizzard
 
 === TRAINER_RUIN_MANIAC_LARRY ===
 Name: LARRY
@@ -14569,13 +14868,32 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Machamp
+Sableye
+Ability: Keen Eye
 Level: 92
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Ball
+- Power Gem
+- Knock Off
+- Will O Wisp
 
-Hariyama
+Mawile
+Ability: Intimidate
 Level: 92
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Iron Head
+- Swords Dance
+- Sucker Punch
+- Double Edge
+
+Aerodactyl
+Ability: Pressure
+Level: 92
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rock Slide
+- Iron Head
+- Crunch
+- Aerial Ace
 
 === TRAINER_LASS_DALIA ===
 Name: DALIA
@@ -14587,20 +14905,40 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Meganium
+Ability: Overgrow
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Substitute
+- Leech Seed
+- Reflect
+- Poison Powder
 
 Exeggutor
+Ability: Chlorophyll
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Psychic
+- Giga Drain
+- Sleep Powder
+- Light Screen
 
-Tropius
+Tropius @ Yache Berry
+Ability: Harvest
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Slam
+- Earthquake
+- Swords Dance
+- Steel Wing
 
 Breloom
+Ability: Effect Spore
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Spore
+- Bulk Up
+- Sky Uppercut
+- Seed Bomb
 
 === TRAINER_CAMPER_RILEY ===
 Name: RILEY
@@ -14611,13 +14949,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Scyther
+Pinsir
+Ability: Hyper Cutter
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Megahorn
+- Swords Dance
+- Earthquake
+- Rock Slide
 
 Heracross
+Ability: Guts
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
+- Night Slash
+- Stone Edge
+- Megahorn
 
 === TRAINER_PKMN_BREEDER_ALLISON ===
 Name: ALLISON
@@ -14628,17 +14976,59 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Skuntank
+Purugly
+Ability: Thick Fat
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fake Out
+- Body Slam
+- Assist
+- Sucker Punch
+
+Skuntank
+Ability: Aftermath
+Level: 93
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Sludge Bomb
+- Sucker Punch
+- Toxic
 
 Flygon
+Ability: Levitate
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Dance
+- Earthquake
+- Outrage
+- Fire Blast
 
 Clefable
+Ability: Cute Charm
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Cosmic Power
+- Wish
+- Meteor Mash
+- Psychic
+
+Bastiodon
+Ability: Sturdy
+Level: 93
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Curse
+- Gyro Ball
+- Rock Slide
+- Earthquake
+
+Dunsparce
+Ability: Serene Grace
+Level: 93
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Roost
+- Glare
+- Ancient Power
+- Headbutt
 
 === TRAINER_BUG_CATCHER_JONAH ===
 Name: JONAH
@@ -14649,21 +15039,41 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Heracross
+Yanmega
+Ability: Speed Boost
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Bug Buzz
+- Air Slash
+- Ancient Power
+- Giga Drain
 
-Scyther
+Masquerain
+Ability: Intimidate
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- U Turn
+- Air Slash
+- Bug Buzz
+- Hydro Pump
 
 Scizor
+Ability: Technician
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Bullet Punch
+- Swords Dance
+- X Scissor
+- Metal Claw
 
 Venomoth
+Ability: Tinted Lens
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sleep Powder
+- Psychic
+- Bug Buzz
+- Sludge Bomb
 
 === TRAINER_PICNICKER_MARCY ===
 Name: MARCY
@@ -14674,17 +15084,32 @@ Music: Girl
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Roserade
+Bellossom
+Ability: Chlorophyll
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Giga Drain
+- Sleep Powder
+- Sludge Bomb
+- Drain Punch
 
 Ludicolo
+Ability: Swift Swim
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rain Dance
+- Double Team
+- Hydro Pump
+- Giga Drain
 
 Parasect
+Ability: Dry Skin
 Level: 93
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Spore
+- X Scissor
+- Swords Dance
+- Brick Break
 
 === TRAINER_RUIN_MANIAC_LAYTON ===
 Name: LAYTON
@@ -14695,17 +15120,32 @@ Music: Hiker
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Tyranitar
+Hippowdon
+Ability: Sand Stream
 Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Crunch
+- Earthquake
+- Stone Edge
+- Slack Off
 
 Mamoswine
+Ability: Thick Fat
 Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Avalanche
+- Ice Shard
+- Stone Edge
 
 Sandslash
+Ability: Sand Veil
 Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Swords Dance
+- Rock Slide
+- Iron Tail
 
 === TRAINER_YOUNGSTER_NASH ===
 Name: NASH
@@ -14716,17 +15156,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Gliscor
+Rapidash
+Ability: Flash Fire
 Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Megahorn
+- Flare Blitz
+- Bounce
+- Fire Blast
 
-Miltank
+Ursaring
+Ability: Guts
 Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Bulk Up
+- Close Combat
+- Earthquake
+- Strength
 
-Victreebel
+Vileplume
+Ability: Chlorophyll
 Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sludge Bomb
+- Giga Drain
+- Sleep Powder
+- Moonlight
 
 === TRAINER_BUG_CATCHER_VANCE ===
 Name: VANCE
@@ -14737,13 +15192,23 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Shuckle
+Ninjask
+Ability: Speed Boost
 Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Swords Dance
+- Baton Pass
+- Protect
+- X Scissor
 
-Venomoth
+Shuckle
+Ability: Sturdy
 Level: 94
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Defense Curl
+- Rollout
+- Rest
+- Toxic
 
 === TRAINER_LASS_JOANA ===
 Name: JOANA
@@ -14755,8 +15220,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Exploud
+Ability: Soundproof
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hyper Voice
+- Ice Beam
+- Flamethrower
+- Shadow Ball
 
 === TRAINER_PKMN_BREEDER_BETHANY ===
 Name: BETHANY
@@ -14767,9 +15237,59 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Miltank
+Zangoose
+Ability: Immunity
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- X Scissor
+- Close Combat
+- Crush Claw
+- Swords Dance
+
+Dragonite
+Ability: Inner Focus
+Level: 96
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Dance
+- Slam
+- Thunder Punch
+- Fire Punch
+
+Mismagius
+Ability: Levitate
+Level: 96
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Ball
+- Psychic
+- Thunderbolt
+- Calm Mind
+
+Cacturne
+Ability: Water Absorb
+Level: 96
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Needle Arm
+- Sucker Punch
+- Swords Dance
+- Drain Punch
+
+Houndoom
+Ability: Flash Fire
+Level: 96
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Overheat
+- Dark Pulse
+- Nasty Plot
+- Will O Wisp
+
+Toxicroak
+Ability: Dry Skin
+Level: 96
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flatter
+- Poison Jab
+- Cross Chop
+- Sucker Punch
 
 === TRAINER_BUG_CATCHER_GARRET ===
 Name: GARRET
@@ -14780,9 +15300,14 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Heracross
+Scyther
+Ability: Technician
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wing Attack
+- Fury Cutter
+- Swords Dance
+- Steel Wing
 
 === TRAINER_YOUNGSTER_CORDELL ===
 Name: CORDELL
@@ -14793,13 +15318,32 @@ Music: Male
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Noctowl
+Seviper
+Ability: Shed Skin
 Level: 95
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Glare
+- Sludge Bomb
+- Crunch
+- Earthquake
+
+Noctowl
+Ability: Insomnia
+Level: 95
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Reflect
+- Psychic
+- Roost
+- Shadow Ball
 
 Obstagoon
+Ability: Guts
 Level: 95
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Double Edge
+- Night Slash
+- Cross Chop
+- Swords Dance
 
 === TRAINER_PSYCHIC_RODETTE ===
 Name: RODETTE
@@ -14832,7 +15376,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Hypnosis
 - Psych Up
-- Future Sight
+- Dark Pulse
 
 === TRAINER_PSYCHIC_DARIO ===
 Name: DARIO
@@ -14860,13 +15404,23 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Roserade
+Torterra
+Ability: Overgrow
 Level: 95
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Seed Bomb
+- Earthquake
+- Synthesis
+- Curse
 
 Meganium
+Ability: Overgrow
 Level: 95
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Reflect
+- Energy Ball
+- Leech Seed
+- Attract
 
 === TRAINER_JUGGLER_MASON ===
 Name: MASON
@@ -14878,6 +15432,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Electrode
+Ability: Static
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rain Dance
@@ -14886,6 +15441,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sonic Boom
 
 Forretress
+Ability: Sturdy
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Spikes
@@ -14894,6 +15450,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Take Down
 
 Dodrio
+Ability: Run Away
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - High Jump Kick
@@ -14902,6 +15459,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Acupressure
 
 Ninetales
+Ability: Flash Fire
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Confuse Ray
@@ -14920,6 +15478,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Leafeon
+Ability: Leaf Guard
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leaf Blade
@@ -14927,7 +15486,8 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Curse
 - X Scissor
 
-Victreebel
+Vileplume
+Ability: Chlorophyll
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Petal Dance
@@ -14946,6 +15506,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sceptile
+Ability: Overgrow
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leaf Blade
@@ -14954,6 +15515,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 
 Victreebel
+Ability: Chlorophyll
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leaf Blade
@@ -14971,12 +15533,22 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Golduck
+Ability: Cloud Nine
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
+- Psychic
+- Ice Beam
+- Calm Mind
 
-Slowbro
+SPECIES_SLOWBRO_GALAR
+Ability: Regenerator
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Yawn
+- Psychic
+- Slack Off
+- Sludge Bomb
 
 === TRAINER_COOL_COUPLE_LEX_NYA ===
 Name: LEX & NYA
@@ -14989,14 +15561,16 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Miltank
+Ability: Thick Fat
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Body Slam
 - Milk Drink
-- Growl
+- Rollout
 - Defense Curl
 
 Mightyena
+Ability: Intimidate
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Poison Fang
@@ -15014,16 +15588,31 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Sandslash
+Ability: Sand Veil
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Swords Dance
+- X Scissor
+- Poison Jab
 
 Kangaskhan
+Ability: Scrappy
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dizzy Punch
+- Fake Out
+- Double Edge
+- Brick Break
 
-Hippowdon
+Carnivine
+Ability: Levitate
 Level: 96
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Power Whip
+- Crunch
+- Swords Dance
+- Stockpile
 
 === TRAINER_PKMN_RANGER_JACKSON ===
 Name: JACKSON
@@ -15069,13 +15658,14 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Miltank
+Muk @ Leftovers
+Ability: Stench
 Level: 99
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Body Slam
-- Defense Curl
-- Milk Drink
-- Zen Headbutt
+- Minimize
+- Gunk Shot
+- Curse
+- Focus Punch
 
 === TRAINER_CRUSH_GIRL_CYNDY ===
 Name: CYNDY
@@ -15086,17 +15676,32 @@ Music: Intense
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Primeape @ Black Belt
+Annihilape @ Black Belt
+Ability: Vital Spirit
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dynamic Punch
+- Knock Off
+- Shadow Punch
+- Seed Bomb
 
-Heracross @ Black Belt
+Blaziken @ Black Belt
+Ability: Speed Boost
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Bulk Up
+- Sky Uppercut
+- Blaze Kick
+- Earthquake
 
 Machamp @ Black Belt
+Ability: Guts
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Cross Chop
+- Stone Edge
+- Payback
+- Bullet Punch
 
 === TRAINER_COOLTRAINER_LEROY ===
 Name: LEROY
@@ -15109,6 +15714,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rhyperior
+Ability: Solid Rock
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Take Down
@@ -15117,6 +15723,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Scary Face
 
 Slowbro
+Ability: Own Tempo
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
@@ -15125,14 +15732,16 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Disable
 
 Kangaskhan
+Ability: Scrappy
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dizzy Punch
-- Bite
+- Sucker Punch
 - Endure
 - Reversal
 
 Machamp
+Ability: Guts
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Cross Chop
@@ -15141,12 +15750,13 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Seismic Toss
 
 Flygon
+Ability: Levitate
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Claw
 - Crunch
 - Screech
-- Sand Tomb
+- Earthquake
 
 === TRAINER_COOLTRAINER_MICHELLE ===
 Name: MICHELLE
@@ -15162,9 +15772,9 @@ Linoone
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Slash
-- Screech
-- Faint Attack
-- Bite
+- Belly Drum
+- Pin Missile
+- Sucker Punch
 
 Walrein
 Level: 97
@@ -15194,7 +15804,7 @@ Farigiraf
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
-- Psybeam
+- Psychic
 - Stomp
 - Reflect
 
@@ -15208,8 +15818,13 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Steelix
+Ability: Sturdy
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Iron Tail
+- Earthquake
+- Rock Slide
+- Crunch
 
 === TRAINER_GENTLEMAN_CLIFFORD ===
 Name: CLIFFORD
@@ -15217,16 +15832,26 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: No
+Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
-Marowak
+Marowak @ Thick Club
+Ability: Lightning Rod
 Level: 98
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Bonemerang
+- Double Edge
+- Iron Tail
+- Aerial Ace
 
 Golduck
+Ability: Cloud Nine
 Level: 98
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
+- Psychic
+- Ice Beam
+- Calm Mind
 
 === TRAINER_PAINTER_EDNA ===
 Name: EDNA
@@ -15237,13 +15862,13 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Smeargle
+Grumpig
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fake Out
-- Extreme Speed
-- Protect
-- Quick Attack
+- Psychic
+- Calm Mind
+- Thunderbolt
+- Shadow Ball
 
 === TRAINER_RUIN_MANIAC_BENJAMIN ===
 Name: BENJAMIN
@@ -15289,11 +15914,23 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Purple
 
+Abomasnow @ Focus Sash
+Level: 97
+Ability: Snow Warning
+Quirky Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 SpA / 6 HP
+- Ice Shard
+- Seed Bomb
+- Swords Dance
+- Brick Break
+
 Walrein @ Chesto Berry
 Ability: Thick Fat
 Rash Nature
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 HP / 6 Def
 - Ice Beam
 - Surf
 - Body Slam
@@ -15304,6 +15941,7 @@ Ability: Shell Armor
 Bold Nature
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Def / 252 HP / 6 SpA
 - Ice Beam
 - Toxic
 - Dive
@@ -15314,6 +15952,7 @@ Ability: Oblivious
 Sassy Nature
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 SpD / 6 Def
 - Blizzard
 - Earthquake
 - Double Edge
@@ -15324,6 +15963,7 @@ Ability: Inner Focus
 Jolly Nature
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Spe / 252 Atk / 6 HP
 - Ice Beam
 - Crunch
 - Earthquake
@@ -15334,6 +15974,7 @@ Ability: Water Absorb
 Calm Nature
 Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA / 6 Def
 - Ice Beam
 - Surf
 - Psychic
@@ -15355,16 +15996,29 @@ Ability: Sturdy
 Lonely Nature
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Def / 6 HP
 - Earthquake
 - Iron Tail
 - Crunch
 - Rock Slide
+
+Pinsir @ Choice Scarf
+Ability: Hyper Cutter
+Adamant Nature
+Level: 97
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 HP
+- X Scissor
+- Earthquake
+- Stone Edge
+- Close Combat
 
 Breloom @ Focus Sash
 Ability: Technician
 Jolly Nature
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 HP
 - Sky Uppercut
 - Mach Punch
 - Seed Bomb
@@ -15375,6 +16029,7 @@ Ability: Pure Power
 Adamant Nature
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 HP
 - Zen Headbutt
 - High Jump Kick
 - Bulk Up
@@ -15385,6 +16040,7 @@ Ability: Inner Focus
 Modest Nature
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe / 6 HP
 - Calm Mind
 - Dark Pulse
 - Vacuum Wave
@@ -15395,6 +16051,7 @@ Ability: No Guard
 Careful Nature
 Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 HP / 6 Def
 - Dynamic Punch
 - Earthquake
 - Bulk Up
@@ -15416,16 +16073,29 @@ Ability: Levitate
 Naive Nature
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe / 6 HP
 - Drain Punch
 - Hypnosis
 - Giga Drain
 - Dream Eater
+
+Shiftry
+Ability: Pickpocket
+Hasty Nature
+Level: 97
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Spe / 252 SpA / 6 HP
+- Torment
+- Explosion
+- Focus Blast
+- Energy Ball
 
 Crobat @ Choice Band
 Ability: Inner Focus
 Jolly Nature
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 HP
 - U Turn
 - Brave Bird
 - Cross Poison
@@ -15436,6 +16106,7 @@ Ability: Pressure
 Bold Nature
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpD / 252 Def / 6 HP
 - Shadow Ball
 - Dark Pulse
 - Destiny Bond
@@ -15446,6 +16117,7 @@ Ability: Dry Skin
 Modest Nature
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe / 6 HP
 - Sludge Bomb
 - Nasty Plot
 - Vacuum Wave
@@ -15456,6 +16128,7 @@ Ability: Pressure
 Calm Nature
 Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def / 6 SpD
 - Will O Wisp
 - Shadow Sneak
 - Brick Break
@@ -15476,6 +16149,7 @@ Huntail @ Salac Berry
 Ability: Swift Swim
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 HP
 - Dragon Dance
 - Baton Pass
 - Double Edge
@@ -15486,6 +16160,7 @@ Ability: Inner Focus
 Adamant Nature
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 HP
 - Hyper Beam
 - Earthquake
 - Dragon Claw
@@ -15495,16 +16170,28 @@ Kingdra @ White Herb
 Ability: Swift Swim
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe / 6 HP
 - Rain Dance
 - Draco Meteor
 - Hydro Pump
 - Ice Beam
+
+Aggron @ Shuca Berry
+Ability: Sturdy
+Level: 100
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Def / 6 HP
+- Metal Burst
+- Counter
+- Stone Edge
+- Dragon Claw
 
 Aerodactyl @ Choice Band
 Ability: Rock Head
 Jolly Nature
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 HP
 - Double Edge
 - Stone Edge
 - Fly
@@ -15514,6 +16201,7 @@ Garchomp @ Persim Berry
 Ability: Rough Skin
 Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 HP
 - Thrash
 - Outrage
 - Iron Head
@@ -15535,6 +16223,7 @@ Ability: Soundproof
 Timid Nature
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Spe / 252 SpA / 6 HP
 - Light Screen
 - Thunder
 - Explosion
@@ -15545,6 +16234,7 @@ Ability: Swift Swim
 Calm Nature
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA / 6 Def
 - Surf
 - Giga Drain
 - Double Team
@@ -15555,6 +16245,7 @@ Ability: Serene Grace
 Timid Nature
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe / 6 HP
 - Rain Dance
 - Thunder
 - Water Pulse
@@ -15565,6 +16256,7 @@ Ability: Torrent
 Relaxed Nature
 Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 HP / 6 Def
 - Stealth Rock
 - Earthquake
 - Blizzard
@@ -15575,6 +16267,7 @@ Ability: Swift Swim
 Adamant Nature
 Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 HP
 - Waterfall
 - Stone Edge
 - Aqua Jet
@@ -15585,6 +16278,7 @@ Ability: Pressure
 Timid Nature
 Level: 105
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe / 6 HP
 - Thunder
 - Drill Peck
 - U-turn
@@ -15606,6 +16300,7 @@ Ability: Sand Stream
 Adamant Nature
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 HP / 6 Def
 - Stone Edge
 - Crunch
 - Thunderbolt
@@ -15616,6 +16311,7 @@ Ability: Sand Stream
 Impish Nature
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def / 6 Atk
 - Earthquake
 - Slack Off
 - Roar
@@ -15626,36 +16322,40 @@ Ability: Sand Veil
 Jolly Nature
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 HP
 - Swords Dance
 - Earthquake
 - Dragon Claw
 - Fire Fang
-
-Lucario @ Life Orb
-Ability: Inner Focus
-Timid Nature
-Level: 103
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aura Sphere
-- Shadow Ball
-- Extreme Speed
-- Dragon Pulse
 
 Swampert @ Leftovers
 Ability: Torrent
 Relaxed Nature
 Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 HP / 6 Def
 - Earthquake
 - Protect
 - Surf
 - Roar
+
+Suicune @ Leftovers
+Ability: Pressure
+Modest Nature
+Level: 103
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA / 6 Def
+- Calm Mind
+- Rest
+- Ice Beam
+- Surf
 
 Skarmory @ Leftovers
 Ability: Keen Eye 
 Impish Nature
 Level: 105
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Def / 252 HP / 6 Atk
 - Roost
 - Spikes
 - Whirlwind
@@ -15677,6 +16377,7 @@ Ability: Drought
 Timid Nature
 Level: 97
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe / 6 HP
 - Flamethrower
 - Confuse Ray
 - Solar Beam
@@ -15687,6 +16388,7 @@ Ability: Chlorophyll
 Modest Nature
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe / 6 HP
 - Solar Beam
 - Sludge Bomb
 - Earthquake
@@ -15697,16 +16399,18 @@ Ability: Levitate
 Jolly Nature
 Level: 100
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 HP
 - Earthquake
 - Stone Edge
 - Draco Meteor
 - U-Turn
 
-Exeggutor @ Choice Specs
+Exeggutor @ Tanga Berry
 Ability: Chlorophyll
 Modest Nature
 Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe / 6 HP
 - Solar Beam
 - Psychic
 - Leech Seed
@@ -15717,6 +16421,7 @@ Ability: Intimidate
 Adamant Nature
 Level: 103
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 HP
 - Flare Blitz
 - Extreme Speed
 - Thunder Fang
@@ -15727,6 +16432,7 @@ Ability: Pressure
 Timid Nature
 Level: 105
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe / 6 HP
 - Thunderbolt
 - Extreme Speed
 - Shadow Ball
