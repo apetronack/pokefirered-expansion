@@ -4768,7 +4768,7 @@
               {
                 "min_level": 50,
                 "max_level": 60,
-                "species": "SPECIES_AZUMARILL"
+                "species": "SPECIES_MANAPHY"
               }
             ]
           },
@@ -7581,7 +7581,7 @@
               {
                 "min_level": 51,
                 "max_level": 53,
-                "species": "SPECIES_MUK"
+                "species": "SPECIES_GRIMER"
               },
               {
                 "min_level": 51,
@@ -8917,12 +8917,12 @@
               {
                 "min_level": 51,
                 "max_level": 53,
-                "species": "SPECIES_MUK"
+                "species": "SPECIES_GRIMER"
               },
               {
                 "min_level": 51,
                 "max_level": 53,
-                "species": "SPECIES_MUK"
+                "species": "SPECIES_GRIMER"
               },
               {
                 "min_level": 51,
@@ -16210,7 +16210,7 @@
               {
                 "min_level": 50,
                 "max_level": 50,
-                "species": "SPECIES_LYCANROC_DUSK"
+                "species": "SPECIES_LAIRON"
               },
               {
                 "min_level": 52,
