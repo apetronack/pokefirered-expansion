@@ -2127,7 +2127,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sRattataTeachableLearnset,
         .eggMoveLearnset = sRattataEggMoveLearnset,
         .formSpeciesIdTable = sRattataFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_RATICATE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_RATICATE},
+        {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_RATTATA_ALOLA}),
     },
 
     [SPECIES_RATICATE] =
@@ -2218,6 +2219,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sRaticateLevelUpLearnset,
         .teachableLearnset = sRaticateTeachableLearnset,
         .formSpeciesIdTable = sRaticateFormSpeciesIdTable,
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_LINKING_CORD, SPECIES_RATICATE_ALOLA}),
     },
 
 #if P_ALOLAN_FORMS
@@ -2287,7 +2289,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .eggMoveLearnset = sRattataAlolaEggMoveLearnset,
         .formSpeciesIdTable = sRattataFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_RATICATE_ALOLA},
-                                {EVO_NONE, 0, SPECIES_RATICATE_ALOLA_TOTEM}),
+                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_RATTATA}),
     },
 
     [SPECIES_RATICATE_ALOLA] =
@@ -2350,6 +2352,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sRaticateAlolaLevelUpLearnset,
         .teachableLearnset = sRaticateAlolaTeachableLearnset,
         .formSpeciesIdTable = sRaticateFormSpeciesIdTable,
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_LINKING_CORD, SPECIES_RATICATE}),
     },
 
     [SPECIES_RATICATE_ALOLA_TOTEM] =
@@ -11323,7 +11326,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sGrimerTeachableLearnset,
         .eggMoveLearnset = sGrimerEggMoveLearnset,
         .formSpeciesIdTable = sGrimerFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_MUK}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_MUK}, 
+            {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_MUK_ALOLA}),
     },
 
     [SPECIES_MUK] =
@@ -11397,6 +11401,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sMukLevelUpLearnset,
         .teachableLearnset = sMukTeachableLearnset,
         .formSpeciesIdTable = sMukFormSpeciesIdTable,
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_LINKING_CORD, SPECIES_MUK_ALOLA}),
     },
 
 #if P_ALOLAN_FORMS
@@ -11465,7 +11470,8 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sGrimerAlolaTeachableLearnset,
         .eggMoveLearnset = sGrimerAlolaEggMoveLearnset,
         .formSpeciesIdTable = sGrimerFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_MUK_ALOLA}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_MUK_ALOLA},
+            {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GRIMER}),
     },
 
     [SPECIES_MUK_ALOLA] =
@@ -11534,6 +11540,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sMukAlolaLevelUpLearnset,
         .teachableLearnset = sMukAlolaTeachableLearnset,
         .formSpeciesIdTable = sMukFormSpeciesIdTable,
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_LINKING_CORD, SPECIES_MUK}),
     },
 #endif //P_ALOLAN_FORMS
 #endif //P_FAMILY_GRIMER
