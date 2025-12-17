@@ -7580,7 +7580,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sPrimeapeLevelUpLearnset,
         .teachableLearnset = sPrimeapeTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_DUSK_STONE, SPECIES_ANNIHILAPE}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_MOON_STONE, SPECIES_ANNIHILAPE}),
     },
     
 
@@ -13022,7 +13022,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sExeggcuteTeachableLearnset,
         .eggMoveLearnset = sExeggcuteEggMoveLearnset,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_LEAF_STONE, SPECIES_EXEGGUTOR},
-                                {EVO_NONE, 0, SPECIES_EXEGGUTOR_ALOLA}),
+                                {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_EXEGGUTOR_ALOLA}),
     },
 
 #if P_UPDATED_EXP_YIELDS >= GEN_7
@@ -14286,7 +14286,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sRhydonLevelUpLearnset,
         .teachableLearnset = sRhydonTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_PROTECTOR, SPECIES_RHYPERIOR}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_HARD_STONE, SPECIES_RHYPERIOR}),
     },
 
 #if P_GEN_4_CROSS_EVOS
@@ -16228,7 +16228,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 72 : 106,
         .evYield_Speed = 1,
-        .itemRare = ITEM_ELECTIRIZER,
+        .itemRare = ITEM_THUNDER_STONE,
         .genderRatio = PERCENT_FEMALE(25),
         .eggCycles = 25,
         .friendship = STANDARD_FRIENDSHIP,
@@ -16300,7 +16300,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 172 : 156,
         .evYield_Speed = 2,
-        .itemRare = ITEM_ELECTIRIZER,
+        .itemRare = ITEM_THUNDER_STONE,
         .genderRatio = PERCENT_FEMALE(25),
         .eggCycles = 25,
         .friendship = STANDARD_FRIENDSHIP,
@@ -16357,7 +16357,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sElectabuzzLevelUpLearnset,
         .teachableLearnset = sElectabuzzTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_ELECTIRIZER, SPECIES_ELECTIVIRE}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_ELECTIVIRE}),
     },
 
 #if P_GEN_4_CROSS_EVOS
@@ -16379,7 +16379,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .expYield = 199,
     #endif
         .evYield_Attack = 3,
-        .itemRare = ITEM_ELECTIRIZER,
+        .itemRare = ITEM_THUNDER_STONE,
         .genderRatio = PERCENT_FEMALE(25),
         .eggCycles = 25,
         .friendship = STANDARD_FRIENDSHIP,
@@ -16451,7 +16451,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 73 : 117,
         .evYield_Speed = 1,
-        .itemRare = ITEM_MAGMARIZER,
+        .itemRare = ITEM_FIRE_STONE,
         .genderRatio = PERCENT_FEMALE(25),
         .eggCycles = 25,
         .friendship = STANDARD_FRIENDSHIP,
@@ -16524,7 +16524,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .catchRate = 45,
         .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 173 : 167,
         .evYield_SpAttack = 2,
-        .itemRare = ITEM_MAGMARIZER,
+        .itemRare = ITEM_FIRE_STONE,
         .genderRatio = PERCENT_FEMALE(25),
         .eggCycles = 25,
         .friendship = STANDARD_FRIENDSHIP,
@@ -16577,7 +16577,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sMagmarLevelUpLearnset,
         .teachableLearnset = sMagmarTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_ITEM, ITEM_MAGMARIZER, SPECIES_MAGMORTAR}),
+        .evolutions = EVOLUTION({EVO_ITEM, ITEM_FIRE_STONE, SPECIES_MAGMORTAR}),
     },
 
 #if P_GEN_4_CROSS_EVOS
@@ -16599,7 +16599,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .expYield = 199,
     #endif
         .evYield_SpAttack = 3,
-        .itemRare = ITEM_MAGMARIZER,
+        .itemRare = ITEM_FIRE_STONE,
         .genderRatio = PERCENT_FEMALE(25),
         .eggCycles = 25,
         .friendship = STANDARD_FRIENDSHIP,

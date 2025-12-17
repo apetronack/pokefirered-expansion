@@ -334,7 +334,8 @@ def parse_families_file(filename, enabled_families):
     
     # Regular expression pattern to match each Pokémon species entry
     # This pattern now handles complex species definitions with conditional compilation
-    species_pattern = re.compile(r'\[SPECIES_(\w+)\]\s*=\s*\{(.*?)\},\s*(?=\n\s*(?:\[SPECIES_|\#endif|\#if))', re.DOTALL)
+    # Use a more robust pattern that matches balanced braces
+    species_pattern = re.compile(r'\[SPECIES_(\w+)\]\s*=\s*\{((?:[^{}]+|\{[^}]*\})*)\}', re.DOTALL)
 
     # Regular expression pattern to match mega and G-Max forms if needed
     stat_patterns = {
