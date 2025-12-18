@@ -12865,6 +12865,81 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Crush Claw
 - Sucker Punch
 
+=== TRAINER_PETRO ===
+Name: GRUNT
+Class: Rich Boy
+Pic: Red
+Gender: Male
+Music: Elite Four
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+
+Tyranitar @ Lum Berry
+Ability: Sand Stream
+Adamant Nature
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Def / 6 HP
+- Dragon Dance
+- Stone Edge
+- Earthquake
+- Fire Blast
+
+Forretress @ Salac Berry
+Ability: Sturdy
+Jolly Nature
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 Def
+- Explosion
+- Spikes
+- Toxic Spikes
+- Reflect
+
+Empoleon @ Zoom Lens
+Ability: Torrent
+Modest Nature
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 SpD / 6 HP
+- Hydro Pump
+- Blizzard
+- Flash Cannon
+- Grass Knot
+
+Cradily @ Leftovers
+Ability: Suction Cups
+Relaxed Nature
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Def / 252 SpD / 6 HP
+- Stockpile
+- Giga Drain
+- Leech Seed
+- Rock Slide
+
+Flygon @ Yache Berry
+Ability: Levitate
+Jolly Nature
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 Def
+- Earthquake
+- Dragon Claw
+- Fire Blast
+- Fly
+
+SPECIES_ARCANINE_HISUI @ Choice Band
+Ability: Rock Head
+Adamant Nature
+Level: 72
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 HP
+- Flare Blitz
+- Iron Head
+- Double Edge
+- Close Combat
+
 === TRAINER_ELITE_FOUR_LORELEI ===
 Name: LORELEI
 Class: Elite Four
@@ -14698,7 +14773,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stone Edge
 
 Nidoking
-Abillity: Poison Point
+Ability: Poison Point
 Level: 92
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Megahorn
@@ -20227,19 +20302,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Name: PH
 Class: RS Cooltrainer
 Pic: RS Cooltrainer F
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Gulpin
-Level: 102
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-
-=== TRAINER_RS_COOLTRAINER_M ===
-Name: PH
-Class: RS Cooltrainer
-Pic: RS Cooltrainer M
 Gender: Male
 Music: Cool
 Double Battle: No

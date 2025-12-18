@@ -75,40 +75,24 @@ CeladonCity_DepartmentStore_4F_Items::
 # 38 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
 	.2byte ITEM_MOON_STONE
 # 39 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
-	.2byte ITEM_SHINY_STONE
-# 40 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
-	.2byte ITEM_DUSK_STONE
-# 41 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
 	.2byte ITEM_DAWN_STONE
-# 42 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+# 40 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
 	.2byte ITEM_HARD_STONE
-# 43 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+# 41 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
 	.2byte ITEM_DRAGON_SCALE
-# 44 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+# 42 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
 	.2byte ITEM_UPGRADE
-# 45 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+# 43 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
 	.2byte ITEM_METAL_COAT
-# 46 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
-	.2byte ITEM_ELECTIRIZER
-# 47 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
-	.2byte ITEM_MAGMARIZER
-# 48 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+# 44 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
 	.2byte ITEM_DUBIOUS_DISC
-# 49 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
-	.2byte ITEM_PROTECTOR
-# 50 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
-	.2byte ITEM_REAPER_CLOTH
-# 51 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
-	.2byte ITEM_OVAL_STONE
-# 52 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+# 45 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
 	.2byte ITEM_EVERSTONE
-# 53 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
-	.2byte ITEM_PRISM_SCALE
-# 54 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+# 46 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
 	.2byte ITEM_LINKING_CORD
-# 55 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+# 47 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
 	.2byte ITEM_NONE
-# 56 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+# 48 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
 	release
-# 57 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
+# 49 "data/maps/CeladonCity_DepartmentStore_4F/scripts.pory"
 	end

@@ -272,3 +272,80 @@ Route23_EventScript_VictoryRoadGateSign::
 	msgbox Route23_Text_VictoryRoadGateSign, MSGBOX_SIGN
 # 137 "data/maps/Route23/scripts.pory"
 	end
+
+Route23_EventScript_Petro::
+# 153 "data/maps/Route23/scripts.pory"
+	lock
+# 154 "data/maps/Route23/scripts.pory"
+	faceplayer
+# 155 "data/maps/Route23/scripts.pory"
+	setvar VAR_LAST_TALKED, 8
+# 156 "data/maps/Route23/scripts.pory"
+	msgbox Route23_EventScript_Petro_Text_0, MSGBOX_YESNO
+# 157 "data/maps/Route23/scripts.pory"
+	compare VAR_RESULT, 1
+	goto_if_eq Route23_EventScript_Petro_2
+# 169 "data/maps/Route23/scripts.pory"
+	msgbox Route23_EventScript_Petro_Text_5
+# 170 "data/maps/Route23/scripts.pory"
+	release
+	end
+
+Route23_EventScript_Petro_1:
+# 173 "data/maps/Route23/scripts.pory"
+	release
+	end
+
+Route23_EventScript_Petro_2:
+# 158 "data/maps/Route23/scripts.pory"
+	special HealPlayerParty
+# 159 "data/maps/Route23/scripts.pory"
+	trainerbattle_single TRAINER_PETRO, Route23_EventScript_Petro_Text_1, Route23_EventScript_Petro_Text_2
+# 160 "data/maps/Route23/scripts.pory"
+	checktrainerflag TRAINER_PETRO
+	goto_if 1, Route23_EventScript_Petro_5
+# 166 "data/maps/Route23/scripts.pory"
+	msgbox Route23_EventScript_Petro_Text_4
+	goto Route23_EventScript_Petro_1
+
+Route23_EventScript_Petro_5:
+# 162 "data/maps/Route23/scripts.pory"
+	msgbox Route23_EventScript_Petro_Text_3
+# 163 "data/maps/Route23/scripts.pory"
+	giveitem ITEM_BIG_NUGGET, 1
+	goto Route23_EventScript_Petro_1
+
+
+Route23_EventScript_Petro_Text_0:
+# 156 "data/maps/Route23/scripts.pory"
+	.string "Hi, I'm PETRO, the creator of this\n"
+	.string "hack! You have done well to make\l"
+	.string "it this far. If you like, you can\l"
+	.string "face me now to prepare for the\l"
+	.string "challenge ahead. I will heal your\l"
+	.string "party before we battle.$"
+
+Route23_EventScript_Petro_Text_1:
+# 159 "data/maps/Route23/scripts.pory"
+	.string "Give me your all!$"
+
+Route23_EventScript_Petro_Text_2:
+# 159 "data/maps/Route23/scripts.pory"
+	.string "Nicely done!$"
+
+Route23_EventScript_Petro_Text_3:
+# 162 "data/maps/Route23/scripts.pory"
+	.string "Impressive! You are well on your\n"
+	.string "way to being prepared to take on\l"
+	.string "the Pokemon League. Here, take\l"
+	.string "this Big Nugget as a reward for\l"
+	.string "your victory!$"
+
+Route23_EventScript_Petro_Text_4:
+# 166 "data/maps/Route23/scripts.pory"
+	.string "Keep trying! You can do it!$"
+
+Route23_EventScript_Petro_Text_5:
+# 169 "data/maps/Route23/scripts.pory"
+	.string "You know where to find me if you\n"
+	.string "change your mind!$"
