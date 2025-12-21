@@ -2118,7 +2118,7 @@ Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: AI_FLAG_BASIC_TRAINER  
+AI: AI_FLAG_DOUBLE_BATTLE 
 
 Swellow @ Flame Orb
 Ability: Guts
@@ -5822,14 +5822,14 @@ Music: Female
 Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
-Sunflora
-Ability: Drought
+Roselia @ Quick Claw
+Ability: Poison Point
 Level: 38
 IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Flamethrower
-- Razor Leaf
-- Worry Seed
-- Ingrain
+- Sunny Day
+- Giga Drain
+- Growth
+- Sludge Bomb
 
 Cherrim
 Ability: Flower Gift
@@ -5848,15 +5848,6 @@ IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
 - Ancient Power
 - Sleep Powder
 - Giga Drain
-
-Roselia
-Ability: Poison Point
-Level: 38
-IVs: 17 HP / 17 Atk / 17 Def / 17 SpA / 17 SpD / 17 Spe
-- Toxic
-- Giga Drain
-- Growth
-- Sludge Bomb
 
 === TRAINER_PICNICKER_TINA ===
 Name: TINA
@@ -6010,18 +6001,27 @@ Gender: Male
 Music: Female
 Items: Energy Root / X Sp Def
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING / AI_FLAG_SMART_MON_CHOICES / AI_FLAG_WEIGH_ABILITY_PREDICTION
+AI: AI_FLAG_SMART_TRAINER
 
-Exeggutor @ Heat Rock
+Sunflora @ Charcoal
+Ability: Drought
+Level: 38
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Flamethrower
+- Giga Drain
+- Worry Seed
+- Leech Seed
+
+Exeggutor @ Light Clay
 Ability: Chlorophyll
 Timid Nature
 Level: 38
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 EVs: 120 SpD / 120 SpA / 6 HP
-- Sunny Day
-- Leech Seed
+- Light Screen
+- Reflect
 - Sleep Powder
-- Giga Drain
+- Psychic
 
 Breloom @ Toxic Orb
 Ability: Poison Heal
