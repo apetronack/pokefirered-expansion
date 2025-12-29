@@ -1686,7 +1686,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "it down on the foe."
         ),
         .effect = EFFECT_HIT,
-        .power = B_UPDATED_MOVE_DATA >= GEN_6 ? 90 : 75,
+        .power = 80,
         .type = TYPE_WATER,
         .accuracy = 100,
         .pp = 15,
