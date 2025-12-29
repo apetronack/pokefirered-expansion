@@ -3309,9 +3309,12 @@ void AnimPowerAbsorptionOrb(struct Sprite *sprite)
     sprite->data[2] = GetBattlerSpriteCoord(gBattleAnimAttacker, BATTLER_COORD_X_2);
     sprite->data[4] = GetBattlerSpriteCoord(gBattleAnimAttacker, BATTLER_COORD_Y_PIC_OFFSET);
     
-    // Set sprite priority to render behind text box and interface elements
-    sprite->oam.priority = 3;  // Lowest priority (behind text box)
-    sprite->subpriority = 240; // Very low subpriority
+    // Prevent orbs from getting near text box area entirely
+    // Text box appears to be in lower portion of screen - use conservative boundary
+    if (sprite->y > 100)
+        sprite->y = 100;
+    if (sprite->data[4] > 100)
+        sprite->data[4] = 100;
     
     sprite->callback = StartAnimLinearTranslation;
     StoreSpriteCallbackInData6(sprite, DestroySpriteAndMatrix);
