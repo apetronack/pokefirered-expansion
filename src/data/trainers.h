@@ -29399,7 +29399,7 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_PETRO] =
     {
 #line 12869
-        .trainerName = _("GRUNT"),
+        .trainerName = _("PETRO"),
 #line 12870
         .trainerClass = TRAINER_CLASS_RICH_BOY,
 #line 12871

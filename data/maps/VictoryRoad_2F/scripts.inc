@@ -115,52 +115,100 @@ VictoryRoad_2F_EventScript_FloorSwitch2AlreadyPressed::
 # 58 "data/maps/VictoryRoad_2F/scripts.pory"
 VictoryRoad_2F_EventScript_Dawson::
 # 59 "data/maps/VictoryRoad_2F/scripts.pory"
-	trainerbattle_single TRAINER_POKEMANIAC_DAWSON, VictoryRoad_2F_Text_DawsonIntro, VictoryRoad_2F_Text_DawsonDefeat
+	trainerbattle_single TRAINER_POKEMANIAC_DAWSON, VictoryRoad_2F_Text_DawsonIntro, VictoryRoad_2F_Text_DawsonDefeat, VictoryRoad_2F_EventScript_DawsonDefeated
 # 60 "data/maps/VictoryRoad_2F/scripts.pory"
-	special HealPlayerParty
+	goto_if_defeated TRAINER_POKEMANIAC_DAWSON, VictoryRoad_2F_EventScript_DawsonHealPlayer
 # 61 "data/maps/VictoryRoad_2F/scripts.pory"
-	msgbox VictoryRoad_2F_Text_DawsonPostBattle, MSGBOX_AUTOCLOSE
+	release
 # 62 "data/maps/VictoryRoad_2F/scripts.pory"
 	end
 # 63 "data/maps/VictoryRoad_2F/scripts.pory"
 
 # 64 "data/maps/VictoryRoad_2F/scripts.pory"
-VictoryRoad_2F_EventScript_Daisuke::
+VictoryRoad_2F_EventScript_DawsonDefeated::
 # 65 "data/maps/VictoryRoad_2F/scripts.pory"
-	trainerbattle_single TRAINER_BLACK_BELT_DAISUKE, VictoryRoad_2F_Text_DaisukeIntro, VictoryRoad_2F_Text_DaisukeDefeat
+	special HealPlayerParty
 # 66 "data/maps/VictoryRoad_2F/scripts.pory"
-	msgbox VictoryRoad_2F_Text_DaisukePostBattle, MSGBOX_AUTOCLOSE
+	msgbox VictoryRoad_2F_Text_DawsonPostBattle, MSGBOX_AUTOCLOSE
 # 67 "data/maps/VictoryRoad_2F/scripts.pory"
-	end
+	release
 # 68 "data/maps/VictoryRoad_2F/scripts.pory"
-
+	end
 # 69 "data/maps/VictoryRoad_2F/scripts.pory"
-VictoryRoad_2F_EventScript_Nelson::
+
 # 70 "data/maps/VictoryRoad_2F/scripts.pory"
-	trainerbattle_single TRAINER_JUGGLER_NELSON, VictoryRoad_2F_Text_NelsonIntro, VictoryRoad_2F_Text_NelsonDefeat
+VictoryRoad_2F_EventScript_DawsonHealPlayer::
 # 71 "data/maps/VictoryRoad_2F/scripts.pory"
 	special HealPlayerParty
 # 72 "data/maps/VictoryRoad_2F/scripts.pory"
-	msgbox VictoryRoad_2F_Text_NelsonPostBattle, MSGBOX_AUTOCLOSE
+	msgbox VictoryRoad_2F_Text_DawsonPostBattle, MSGBOX_AUTOCLOSE
 # 73 "data/maps/VictoryRoad_2F/scripts.pory"
-	end
+	release
 # 74 "data/maps/VictoryRoad_2F/scripts.pory"
-
-# 75 "data/maps/VictoryRoad_2F/scripts.pory"
-VictoryRoad_2F_EventScript_Gregory::
-# 76 "data/maps/VictoryRoad_2F/scripts.pory"
-	trainerbattle_single TRAINER_JUGGLER_GREGORY, VictoryRoad_2F_Text_GregoryIntro, VictoryRoad_2F_Text_GregoryDefeat
-# 77 "data/maps/VictoryRoad_2F/scripts.pory"
-	msgbox VictoryRoad_2F_Text_GregoryPostBattle, MSGBOX_AUTOCLOSE
-# 78 "data/maps/VictoryRoad_2F/scripts.pory"
 	end
-# 79 "data/maps/VictoryRoad_2F/scripts.pory"
+# 75 "data/maps/VictoryRoad_2F/scripts.pory"
 
+# 76 "data/maps/VictoryRoad_2F/scripts.pory"
+VictoryRoad_2F_EventScript_Daisuke::
+# 77 "data/maps/VictoryRoad_2F/scripts.pory"
+	trainerbattle_single TRAINER_BLACK_BELT_DAISUKE, VictoryRoad_2F_Text_DaisukeIntro, VictoryRoad_2F_Text_DaisukeDefeat
+# 78 "data/maps/VictoryRoad_2F/scripts.pory"
+	msgbox VictoryRoad_2F_Text_DaisukePostBattle, MSGBOX_AUTOCLOSE
+# 79 "data/maps/VictoryRoad_2F/scripts.pory"
+	end
 # 80 "data/maps/VictoryRoad_2F/scripts.pory"
-VictoryRoad_2F_EventScript_Vincent::
+
 # 81 "data/maps/VictoryRoad_2F/scripts.pory"
-	trainerbattle_single TRAINER_TAMER_VINCENT, VictoryRoad_2F_Text_VincentIntro, VictoryRoad_2F_Text_VincentDefeat
+VictoryRoad_2F_EventScript_Nelson::
 # 82 "data/maps/VictoryRoad_2F/scripts.pory"
-	msgbox VictoryRoad_2F_Text_VincentPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_JUGGLER_NELSON, VictoryRoad_2F_Text_NelsonIntro, VictoryRoad_2F_Text_NelsonDefeat, VictoryRoad_2F_EventScript_NelsonDefeated
 # 83 "data/maps/VictoryRoad_2F/scripts.pory"
+	goto_if_defeated TRAINER_JUGGLER_NELSON, VictoryRoad_2F_EventScript_NelsonHealPlayer
+# 84 "data/maps/VictoryRoad_2F/scripts.pory"
+	release
+# 85 "data/maps/VictoryRoad_2F/scripts.pory"
+	end
+# 86 "data/maps/VictoryRoad_2F/scripts.pory"
+
+# 87 "data/maps/VictoryRoad_2F/scripts.pory"
+VictoryRoad_2F_EventScript_NelsonDefeated::
+# 88 "data/maps/VictoryRoad_2F/scripts.pory"
+	special HealPlayerParty
+# 89 "data/maps/VictoryRoad_2F/scripts.pory"
+	msgbox VictoryRoad_2F_Text_NelsonPostBattle, MSGBOX_AUTOCLOSE
+# 90 "data/maps/VictoryRoad_2F/scripts.pory"
+	release
+# 91 "data/maps/VictoryRoad_2F/scripts.pory"
+	end
+# 92 "data/maps/VictoryRoad_2F/scripts.pory"
+
+# 93 "data/maps/VictoryRoad_2F/scripts.pory"
+VictoryRoad_2F_EventScript_NelsonHealPlayer::
+# 94 "data/maps/VictoryRoad_2F/scripts.pory"
+	special HealPlayerParty
+# 95 "data/maps/VictoryRoad_2F/scripts.pory"
+	msgbox VictoryRoad_2F_Text_NelsonPostBattle, MSGBOX_AUTOCLOSE
+# 96 "data/maps/VictoryRoad_2F/scripts.pory"
+	release
+# 97 "data/maps/VictoryRoad_2F/scripts.pory"
+	end
+# 98 "data/maps/VictoryRoad_2F/scripts.pory"
+
+# 99 "data/maps/VictoryRoad_2F/scripts.pory"
+VictoryRoad_2F_EventScript_Gregory::
+# 100 "data/maps/VictoryRoad_2F/scripts.pory"
+	trainerbattle_single TRAINER_JUGGLER_GREGORY, VictoryRoad_2F_Text_GregoryIntro, VictoryRoad_2F_Text_GregoryDefeat
+# 101 "data/maps/VictoryRoad_2F/scripts.pory"
+	msgbox VictoryRoad_2F_Text_GregoryPostBattle, MSGBOX_AUTOCLOSE
+# 102 "data/maps/VictoryRoad_2F/scripts.pory"
+	end
+# 103 "data/maps/VictoryRoad_2F/scripts.pory"
+
+# 104 "data/maps/VictoryRoad_2F/scripts.pory"
+VictoryRoad_2F_EventScript_Vincent::
+# 105 "data/maps/VictoryRoad_2F/scripts.pory"
+	trainerbattle_single TRAINER_TAMER_VINCENT, VictoryRoad_2F_Text_VincentIntro, VictoryRoad_2F_Text_VincentDefeat
+# 106 "data/maps/VictoryRoad_2F/scripts.pory"
+	msgbox VictoryRoad_2F_Text_VincentPostBattle, MSGBOX_AUTOCLOSE
+# 107 "data/maps/VictoryRoad_2F/scripts.pory"
 	end

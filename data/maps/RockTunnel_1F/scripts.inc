@@ -169,10 +169,34 @@ RockTunnel_1F_EventScript_Ariana::
 # 85 "data/maps/RockTunnel_1F/scripts.pory"
 RockTunnel_1F_EventScript_Dana::
 # 86 "data/maps/RockTunnel_1F/scripts.pory"
-	trainerbattle_single TRAINER_PICNICKER_DANA, RockTunnel_1F_Text_DanaIntro, RockTunnel_1F_Text_DanaDefeat
+	trainerbattle_single TRAINER_PICNICKER_DANA, RockTunnel_1F_Text_DanaIntro, RockTunnel_1F_Text_DanaDefeat, RockTunnel_1F_EventScript_DanaDefeated
 # 87 "data/maps/RockTunnel_1F/scripts.pory"
-	special HealPlayerParty
+	goto_if_defeated TRAINER_PICNICKER_DANA, RockTunnel_1F_EventScript_DanaHealPlayer
 # 88 "data/maps/RockTunnel_1F/scripts.pory"
-	msgbox RockTunnel_1F_Text_DanaPostBattle, MSGBOX_AUTOCLOSE
+	release
 # 89 "data/maps/RockTunnel_1F/scripts.pory"
+	end
+# 90 "data/maps/RockTunnel_1F/scripts.pory"
+
+# 91 "data/maps/RockTunnel_1F/scripts.pory"
+RockTunnel_1F_EventScript_DanaDefeated::
+# 92 "data/maps/RockTunnel_1F/scripts.pory"
+	special HealPlayerParty
+# 93 "data/maps/RockTunnel_1F/scripts.pory"
+	msgbox RockTunnel_1F_Text_DanaPostBattle, MSGBOX_AUTOCLOSE
+# 94 "data/maps/RockTunnel_1F/scripts.pory"
+	release
+# 95 "data/maps/RockTunnel_1F/scripts.pory"
+	end
+# 96 "data/maps/RockTunnel_1F/scripts.pory"
+
+# 97 "data/maps/RockTunnel_1F/scripts.pory"
+RockTunnel_1F_EventScript_DanaHealPlayer::
+# 98 "data/maps/RockTunnel_1F/scripts.pory"
+	special HealPlayerParty
+# 99 "data/maps/RockTunnel_1F/scripts.pory"
+	msgbox RockTunnel_1F_Text_DanaPostBattle, MSGBOX_AUTOCLOSE
+# 100 "data/maps/RockTunnel_1F/scripts.pory"
+	release
+# 101 "data/maps/RockTunnel_1F/scripts.pory"
 	end

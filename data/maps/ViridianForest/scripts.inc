@@ -117,30 +117,54 @@ ViridianForest_EventScript_Doug::
 # 59 "data/maps/ViridianForest/scripts.pory"
 ViridianForest_EventScript_Sammy::
 # 60 "data/maps/ViridianForest/scripts.pory"
-	trainerbattle_single TRAINER_BUG_CATCHER_SAMMY, ViridianForest_Text_SammyIntro, ViridianForest_Text_SammyDefeat
+	trainerbattle_single TRAINER_BUG_CATCHER_SAMMY, ViridianForest_Text_SammyIntro, ViridianForest_Text_SammyDefeat, ViridianForest_EventScript_SammyDefeated
 # 61 "data/maps/ViridianForest/scripts.pory"
-	special HealPlayerParty
+	goto_if_defeated TRAINER_BUG_CATCHER_SAMMY, ViridianForest_EventScript_SammyHealPlayer
 # 62 "data/maps/ViridianForest/scripts.pory"
-	msgbox ViridianForest_Text_SammyPostBattle, MSGBOX_AUTOCLOSE
+	release
 # 63 "data/maps/ViridianForest/scripts.pory"
 	end
 # 64 "data/maps/ViridianForest/scripts.pory"
 
 # 65 "data/maps/ViridianForest/scripts.pory"
-ViridianForest_EventScript_Anthony::
+ViridianForest_EventScript_SammyDefeated::
 # 66 "data/maps/ViridianForest/scripts.pory"
-	trainerbattle_single TRAINER_BUG_CATCHER_ANTHONY, ViridianForest_Text_AnthonyIntro, ViridianForest_Text_AnthonyDefeat
+	special HealPlayerParty
 # 67 "data/maps/ViridianForest/scripts.pory"
-	msgbox ViridianForest_Text_AnthonyPostBattle, MSGBOX_AUTOCLOSE
+	msgbox ViridianForest_Text_SammyPostBattle, MSGBOX_AUTOCLOSE
 # 68 "data/maps/ViridianForest/scripts.pory"
-	end
+	release
 # 69 "data/maps/ViridianForest/scripts.pory"
-
+	end
 # 70 "data/maps/ViridianForest/scripts.pory"
-ViridianForest_EventScript_Charlie::
+
 # 71 "data/maps/ViridianForest/scripts.pory"
-	trainerbattle_single TRAINER_BUG_CATCHER_CHARLIE, ViridianForest_Text_CharlieIntro, ViridianForest_Text_CharlieDefeat
+ViridianForest_EventScript_SammyHealPlayer::
 # 72 "data/maps/ViridianForest/scripts.pory"
-	msgbox ViridianForest_Text_CharliePostBattle, MSGBOX_AUTOCLOSE
+	special HealPlayerParty
 # 73 "data/maps/ViridianForest/scripts.pory"
+	msgbox ViridianForest_Text_SammyPostBattle, MSGBOX_AUTOCLOSE
+# 74 "data/maps/ViridianForest/scripts.pory"
+	release
+# 75 "data/maps/ViridianForest/scripts.pory"
+	end
+# 76 "data/maps/ViridianForest/scripts.pory"
+
+# 77 "data/maps/ViridianForest/scripts.pory"
+ViridianForest_EventScript_Anthony::
+# 78 "data/maps/ViridianForest/scripts.pory"
+	trainerbattle_single TRAINER_BUG_CATCHER_ANTHONY, ViridianForest_Text_AnthonyIntro, ViridianForest_Text_AnthonyDefeat
+# 79 "data/maps/ViridianForest/scripts.pory"
+	msgbox ViridianForest_Text_AnthonyPostBattle, MSGBOX_AUTOCLOSE
+# 80 "data/maps/ViridianForest/scripts.pory"
+	end
+# 81 "data/maps/ViridianForest/scripts.pory"
+
+# 82 "data/maps/ViridianForest/scripts.pory"
+ViridianForest_EventScript_Charlie::
+# 83 "data/maps/ViridianForest/scripts.pory"
+	trainerbattle_single TRAINER_BUG_CATCHER_CHARLIE, ViridianForest_Text_CharlieIntro, ViridianForest_Text_CharlieDefeat
+# 84 "data/maps/ViridianForest/scripts.pory"
+	msgbox ViridianForest_Text_CharliePostBattle, MSGBOX_AUTOCLOSE
+# 85 "data/maps/ViridianForest/scripts.pory"
 	end

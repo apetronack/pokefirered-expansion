@@ -21,56 +21,68 @@ SixIsland_AlteringCave_EventScript_AuroraGuardian::
 # 15 "data/maps/SixIsland_AlteringCave/scripts.pory"
 	goto_if_unset FLAG_RECEIVED_AURORA_TICKET, SixIsland_AlteringCave_EventScript_AuroraGuardian_2
 SixIsland_AlteringCave_EventScript_AuroraGuardian_1:
-# 25 "data/maps/SixIsland_AlteringCave/scripts.pory"
-	msgbox SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_4
-# 26 "data/maps/SixIsland_AlteringCave/scripts.pory"
+# 27 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	msgbox SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_6
+# 28 "data/maps/SixIsland_AlteringCave/scripts.pory"
 	release
 	end
 
 SixIsland_AlteringCave_EventScript_AuroraGuardian_2:
 # 16 "data/maps/SixIsland_AlteringCave/scripts.pory"
-	setflag FLAG_ENABLE_SHIP_BIRTH_ISLAND
-# 17 "data/maps/SixIsland_AlteringCave/scripts.pory"
 	msgbox SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_2
-# 18 "data/maps/SixIsland_AlteringCave/scripts.pory"
+# 17 "data/maps/SixIsland_AlteringCave/scripts.pory"
 	checkitemspace ITEM_AURORA_TICKET
-# 19 "data/maps/SixIsland_AlteringCave/scripts.pory"
+# 18 "data/maps/SixIsland_AlteringCave/scripts.pory"
 	compare VAR_RESULT, FALSE
-	goto_if_eq SixIsland_AlteringCave_EventScript_AuroraGuardian_4
+	goto_if_eq SixIsland_AlteringCave_EventScript_AuroraGuardian_5
+# 23 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	giveitem_msg SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_4, ITEM_AURORA_TICKET
+# 24 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	setflag FLAG_RECEIVED_AURORA_TICKET
+# 25 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	msgbox SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_5
 	goto SixIsland_AlteringCave_EventScript_AuroraGuardian_1
 
-SixIsland_AlteringCave_EventScript_AuroraGuardian_4:
-# 20 "data/maps/SixIsland_AlteringCave/scripts.pory"
+SixIsland_AlteringCave_EventScript_AuroraGuardian_5:
+# 19 "data/maps/SixIsland_AlteringCave/scripts.pory"
 	msgbox SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_3
-# 21 "data/maps/SixIsland_AlteringCave/scripts.pory"
+# 20 "data/maps/SixIsland_AlteringCave/scripts.pory"
 	release
 	end
 
 
 SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian::
-# 31 "data/maps/SixIsland_AlteringCave/scripts.pory"
-	setflag FLAG_BEAT_AURORA_GUARDIAN
-# 32 "data/maps/SixIsland_AlteringCave/scripts.pory"
-	msgbox SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_2
 # 33 "data/maps/SixIsland_AlteringCave/scripts.pory"
-	checkitemspace ITEM_AURORA_TICKET
+	setflag FLAG_BEAT_AURORA_GUARDIAN
 # 34 "data/maps/SixIsland_AlteringCave/scripts.pory"
-	compare VAR_RESULT, FALSE
-	goto_if_eq SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian_2
-# 39 "data/maps/SixIsland_AlteringCave/scripts.pory"
-	giveitem_msg SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian_Text_0, ITEM_AURORA_TICKET
-# 40 "data/maps/SixIsland_AlteringCave/scripts.pory"
-	setflag FLAG_RECEIVED_AURORA_TICKET
-# 41 "data/maps/SixIsland_AlteringCave/scripts.pory"
-	msgbox SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian_Text_1
-# 42 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	setflag FLAG_ENABLE_SHIP_BIRTH_ISLAND
+# 35 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	goto_if_unset FLAG_RECEIVED_AURORA_TICKET, SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian_2
+SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian_1:
+# 47 "data/maps/SixIsland_AlteringCave/scripts.pory"
 	release
 	end
 
 SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian_2:
-# 35 "data/maps/SixIsland_AlteringCave/scripts.pory"
-	msgbox SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_3
 # 36 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	msgbox SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_2
+# 37 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	checkitemspace ITEM_AURORA_TICKET
+# 38 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	compare VAR_RESULT, FALSE
+	goto_if_eq SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian_5
+# 43 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	giveitem_msg SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_4, ITEM_AURORA_TICKET
+# 44 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	setflag FLAG_RECEIVED_AURORA_TICKET
+# 45 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	msgbox SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_5
+	goto SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian_1
+
+SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian_5:
+# 39 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	msgbox SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_3
+# 40 "data/maps/SixIsland_AlteringCave/scripts.pory"
 	release
 	end
 
@@ -84,27 +96,27 @@ SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_1:
 	.string "Superb, it should be said.$"
 
 SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_2:
-# 17 "data/maps/SixIsland_AlteringCave/scripts.pory"
+# 16 "data/maps/SixIsland_AlteringCave/scripts.pory"
 	.string "You have demonstrated immense skill.\n"
 	.string "This is your well-earned reward.$"
 
 SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_3:
-# 20 "data/maps/SixIsland_AlteringCave/scripts.pory"
+# 19 "data/maps/SixIsland_AlteringCave/scripts.pory"
 	.string "You should make room for this.$"
 
 SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_4:
-# 25 "data/maps/SixIsland_AlteringCave/scripts.pory"
-	.string "Safe travels, skilled one.$"
-
-SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian_Text_0:
-# 39 "data/maps/SixIsland_AlteringCave/scripts.pory"
+# 23 "data/maps/SixIsland_AlteringCave/scripts.pory"
 	.string "{PLAYER} received an AURORA\n"
 	.string "TICKET from the AURORA GUARDIAN.$"
 
-SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian_Text_1:
-# 41 "data/maps/SixIsland_AlteringCave/scripts.pory"
-	.string "Travel to Vermilion City and\n"
+SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_5:
+# 25 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	.string "Travel to Vermillion City and\n"
 	.string "present this ticket to the\l"
 	.string "dockmaster. He will take you to a\l"
 	.string "special place only a select few\l"
 	.string "are worthy of visiting.$"
+
+SixIsland_AlteringCave_EventScript_AuroraGuardian_Text_6:
+# 27 "data/maps/SixIsland_AlteringCave/scripts.pory"
+	.string "Safe travels, skilled one.$"

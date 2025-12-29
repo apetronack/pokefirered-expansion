@@ -87,10 +87,34 @@ VictoryRoad_1F_EventScript_Naomi::
 # 44 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_EventScript_Rolando::
 # 45 "data/maps/VictoryRoad_1F/scripts.pory"
-	trainerbattle_single TRAINER_COOLTRAINER_ROLANDO, VictoryRoad_1F_Text_RolandoIntro, VictoryRoad_1F_Text_RolandoDefeat
+	trainerbattle_single TRAINER_COOLTRAINER_ROLANDO, VictoryRoad_1F_Text_RolandoIntro, VictoryRoad_1F_Text_RolandoDefeat, VictoryRoad_1F_EventScript_RolandoDefeated
 # 46 "data/maps/VictoryRoad_1F/scripts.pory"
-	special HealPlayerParty
+	goto_if_defeated TRAINER_COOLTRAINER_ROLANDO, VictoryRoad_1F_EventScript_RolandoHealPlayer
 # 47 "data/maps/VictoryRoad_1F/scripts.pory"
-	msgbox VictoryRoad_1F_Text_RolandoPostBattle, MSGBOX_AUTOCLOSE
+	release
 # 48 "data/maps/VictoryRoad_1F/scripts.pory"
+	end
+# 49 "data/maps/VictoryRoad_1F/scripts.pory"
+
+# 50 "data/maps/VictoryRoad_1F/scripts.pory"
+VictoryRoad_1F_EventScript_RolandoDefeated::
+# 51 "data/maps/VictoryRoad_1F/scripts.pory"
+	special HealPlayerParty
+# 52 "data/maps/VictoryRoad_1F/scripts.pory"
+	msgbox VictoryRoad_1F_Text_RolandoPostBattle, MSGBOX_AUTOCLOSE
+# 53 "data/maps/VictoryRoad_1F/scripts.pory"
+	release
+# 54 "data/maps/VictoryRoad_1F/scripts.pory"
+	end
+# 55 "data/maps/VictoryRoad_1F/scripts.pory"
+
+# 56 "data/maps/VictoryRoad_1F/scripts.pory"
+VictoryRoad_1F_EventScript_RolandoHealPlayer::
+# 57 "data/maps/VictoryRoad_1F/scripts.pory"
+	special HealPlayerParty
+# 58 "data/maps/VictoryRoad_1F/scripts.pory"
+	msgbox VictoryRoad_1F_Text_RolandoPostBattle, MSGBOX_AUTOCLOSE
+# 59 "data/maps/VictoryRoad_1F/scripts.pory"
+	release
+# 60 "data/maps/VictoryRoad_1F/scripts.pory"
 	end
