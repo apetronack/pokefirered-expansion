@@ -3305,19 +3305,14 @@ void AnimPowerAbsorptionOrb(struct Sprite *sprite)
 {
     InitSpritePosToAnimAttacker(sprite, TRUE);
     
-    // In double battles, prevent charging orbs from going off-screen and causing visual glitches
-    if (IsDoubleBattle())
-    {
-        // Clamp sprite Y position to visible screen area (0 to ~150)
-        if (sprite->y < 8)
-            sprite->y = 8;
-        else if (sprite->y > 140)
-            sprite->y = 140;
-    }
-    
     sprite->data[0] = gBattleAnimArgs[2];
     sprite->data[2] = GetBattlerSpriteCoord(gBattleAnimAttacker, BATTLER_COORD_X_2);
     sprite->data[4] = GetBattlerSpriteCoord(gBattleAnimAttacker, BATTLER_COORD_Y_PIC_OFFSET);
+    
+    // Set sprite priority to render behind text box and interface elements
+    sprite->oam.priority = 3;  // Lowest priority (behind text box)
+    sprite->subpriority = 240; // Very low subpriority
+    
     sprite->callback = StartAnimLinearTranslation;
     StoreSpriteCallbackInData6(sprite, DestroySpriteAndMatrix);
 }
