@@ -3851,7 +3851,10 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 
             if (!gSpecialStatuses[battler].switchInAbilityDone)
             {
                 gSpecialStatuses[battler].switchInAbilityDone = TRUE;
-                BattleScriptPushCursorAndCallback(BattleScript_AnnounceAirLockCloudNine);
+                if (gBattleWeather != B_WEATHER_NONE)
+                    BattleScriptPushCursorAndCallback(BattleScript_AnnounceAirLockCloudNineWeatherCleared);
+                else
+                    BattleScriptPushCursorAndCallback(BattleScript_AnnounceAirLockCloudNine);
                 effect++;
             }
             break;
