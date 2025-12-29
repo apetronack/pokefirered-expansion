@@ -13,14 +13,16 @@ script SixIsland_AlteringCave_EventScript_AuroraGuardian{
        format("Superb, it should be said."),
        SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian, NO_MUSIC)
        if (flag(FLAG_RECEIVED_AURORA_TICKET) == FALSE) {
-			setflag(FLAG_ENABLE_SHIP_BIRTH_ISLAND)
             msgbox(format("You have demonstrated immense skill. This is your well-earned reward."))
             checkitemspace(ITEM_AURORA_TICKET)
             if (var(VAR_RESULT) == FALSE) {
-            	msgbox("You should make room for this.$")
+                msgbox("You should make room for this.$")
                 release()
                 end()
             }
+            giveitem_msg(format("{PLAYER} received an AURORA TICKET from the AURORA GUARDIAN."), ITEM_AURORA_TICKET)
+            setflag(FLAG_RECEIVED_AURORA_TICKET)
+            msgbox(format("Travel to Vermillion City and present this ticket to the dockmaster. He will take you to a special place only a select few are worthy of visiting."))
        }
        msgbox(format("Safe travels, skilled one."))
        release()
@@ -29,16 +31,19 @@ script SixIsland_AlteringCave_EventScript_AuroraGuardian{
 
 script SixIsland_AlteringCave_EventScript_DefeatedAuroraGuardian{
     setflag(FLAG_BEAT_AURORA_GUARDIAN)
-    msgbox(format("You have demonstrated immense skill. This is your well-earned reward."))
-    checkitemspace(ITEM_AURORA_TICKET)
-    if (var(VAR_RESULT) == FALSE) {
-    	msgbox("You should make room for this.$")
-        release()
-        end()
+    setflag(FLAG_ENABLE_SHIP_BIRTH_ISLAND)
+    if (flag(FLAG_RECEIVED_AURORA_TICKET) == FALSE) {
+        msgbox(format("You have demonstrated immense skill. This is your well-earned reward."))
+        checkitemspace(ITEM_AURORA_TICKET)
+        if (var(VAR_RESULT) == FALSE) {
+            msgbox("You should make room for this.$")
+            release()
+            end()
+        }
+        giveitem_msg(format("{PLAYER} received an AURORA TICKET from the AURORA GUARDIAN."), ITEM_AURORA_TICKET)
+        setflag(FLAG_RECEIVED_AURORA_TICKET)
+        msgbox(format("Travel to Vermillion City and present this ticket to the dockmaster. He will take you to a special place only a select few are worthy of visiting."))
     }
-    giveitem_msg(format("{PLAYER} received an AURORA TICKET from the AURORA GUARDIAN."), ITEM_AURORA_TICKET)
-    setflag(FLAG_RECEIVED_AURORA_TICKET)
-    msgbox(format("Travel to Vermillion City and present this ticket to the dockmaster. He will take you to a special place only a select few are worthy of visiting."))
     release()
     end()
 }
