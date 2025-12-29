@@ -3304,6 +3304,17 @@ static void AnimMovePowderParticle_Step(struct Sprite *sprite)
 void AnimPowerAbsorptionOrb(struct Sprite *sprite)
 {
     InitSpritePosToAnimAttacker(sprite, TRUE);
+    
+    // In double battles, prevent charging orbs from going off-screen and causing visual glitches
+    if (IsDoubleBattle())
+    {
+        // Clamp sprite Y position to visible screen area (0 to ~150)
+        if (sprite->y < 8)
+            sprite->y = 8;
+        else if (sprite->y > 140)
+            sprite->y = 140;
+    }
+    
     sprite->data[0] = gBattleAnimArgs[2];
     sprite->data[2] = GetBattlerSpriteCoord(gBattleAnimAttacker, BATTLER_COORD_X_2);
     sprite->data[4] = GetBattlerSpriteCoord(gBattleAnimAttacker, BATTLER_COORD_Y_PIC_OFFSET);
@@ -3371,6 +3382,15 @@ static void AnimSolarBeamSmallOrb_Step(struct Sprite *sprite)
 
         sprite->x2 += Sin(sprite->data[5], 5);
         sprite->y2 += Cos(sprite->data[5], 14);
+        
+        // In double battles, prevent orbs from visually glitching into text box area
+        // Text box starts around Y=120, so clamp orbs above that threshold
+        if (IsDoubleBattle() && (sprite->y + sprite->y2) > 110)
+        {
+            // Clamp the sprite to the boundary instead of snapping oscillation to 0
+            sprite->y2 = 110 - sprite->y;
+        }
+        
         sprite->data[5] = (sprite->data[5] + 15) & 0xFF;
     }
 }
