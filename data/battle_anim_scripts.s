@@ -23411,7 +23411,8 @@ SolarBeamEnd:
 	end
 SolarBeamSetUp:
 	monbg ANIM_ATK_PARTNER
-	setalpha 12, 8
+	setbldcnt 0x40, 0x3E @ BLDCNT_EFFECT_BLEND with all targets except BG0
+	setalpha 12, 8 @ Set blend amounts only
 	createvisualtask AnimTask_BlendColorCycle, 2, F_PAL_ATTACKER, 1, 4, 0, 11, RGB(31, 31, 11)
 	playsewithpan SE_M_MEGA_KICK, SOUND_PAN_ATTACKER
 	call SolarBeamAbsorbEffect
