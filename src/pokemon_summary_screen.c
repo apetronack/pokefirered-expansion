@@ -3339,7 +3339,7 @@ static void PokeSum_PrintSelectedMoveStats(void)
         if (B_SHOW_CATEGORY_ICON == TRUE)
         {
             u32 category;
-            if (gMain.inBattle)
+            if (gMain.inBattle && sMonSummaryScreen->mode != PSS_MODE_SELECT_MOVE)
                 category = GetBattleMoveCategory(sMonSummaryScreen->moveIds[sMoveSelectionCursorPos]);
             else
                 category = GetMoveCategory(sMonSummaryScreen->moveIds[sMoveSelectionCursorPos]);

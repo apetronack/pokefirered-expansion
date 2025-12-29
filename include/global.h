@@ -505,8 +505,8 @@ struct Roamer
 struct RoamerGroup
 {
     /*0x00*/ struct Roamer originalRoamer;     // Original starter-dependent roamer
-    /*0x1C*/ struct Roamer legendaryBeasts[2]; // Entei and Raikou after champion
-    /*0x54*/ u8 beastRoamersActive;            // Bitfield: bit 0 = Entei, bit 1 = Raikou
+    /*0x1C*/ struct Roamer legendaryBeasts[2]; // Remaining two roamers after champion
+    /*0x54*/ u8 beastRoamersActive;            // Bitfield: bit 0 = other roamer 1, bit 1 = other roamer 2
     /*0x55*/ u8 filler[0x3];
 };
 

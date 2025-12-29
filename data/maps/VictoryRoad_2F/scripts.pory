@@ -56,9 +56,21 @@ VictoryRoad_2F_EventScript_FloorSwitch2AlreadyPressed::
 	end
 
 VictoryRoad_2F_EventScript_Dawson::
-	trainerbattle_single TRAINER_POKEMANIAC_DAWSON, VictoryRoad_2F_Text_DawsonIntro, VictoryRoad_2F_Text_DawsonDefeat
+	trainerbattle_single TRAINER_POKEMANIAC_DAWSON, VictoryRoad_2F_Text_DawsonIntro, VictoryRoad_2F_Text_DawsonDefeat, VictoryRoad_2F_EventScript_DawsonDefeated
+	goto_if_defeated TRAINER_POKEMANIAC_DAWSON, VictoryRoad_2F_EventScript_DawsonHealPlayer
+	release
+	end
+
+VictoryRoad_2F_EventScript_DawsonDefeated::
 	special HealPlayerParty
 	msgbox VictoryRoad_2F_Text_DawsonPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+VictoryRoad_2F_EventScript_DawsonHealPlayer::
+	special HealPlayerParty
+	msgbox VictoryRoad_2F_Text_DawsonPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 VictoryRoad_2F_EventScript_Daisuke::
@@ -67,9 +79,21 @@ VictoryRoad_2F_EventScript_Daisuke::
 	end
 
 VictoryRoad_2F_EventScript_Nelson::
-	trainerbattle_single TRAINER_JUGGLER_NELSON, VictoryRoad_2F_Text_NelsonIntro, VictoryRoad_2F_Text_NelsonDefeat
+	trainerbattle_single TRAINER_JUGGLER_NELSON, VictoryRoad_2F_Text_NelsonIntro, VictoryRoad_2F_Text_NelsonDefeat, VictoryRoad_2F_EventScript_NelsonDefeated
+	goto_if_defeated TRAINER_JUGGLER_NELSON, VictoryRoad_2F_EventScript_NelsonHealPlayer
+	release
+	end
+
+VictoryRoad_2F_EventScript_NelsonDefeated::
 	special HealPlayerParty
 	msgbox VictoryRoad_2F_Text_NelsonPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+VictoryRoad_2F_EventScript_NelsonHealPlayer::
+	special HealPlayerParty
+	msgbox VictoryRoad_2F_Text_NelsonPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 VictoryRoad_2F_EventScript_Gregory::

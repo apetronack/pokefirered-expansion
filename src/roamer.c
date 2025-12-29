@@ -32,6 +32,8 @@ enum
 EWRAM_DATA u8 sLocationHistory[3][2] = {};
 EWRAM_DATA u8 sRoamerLocation[2] = {};
 EWRAM_DATA u8 sBeastRoamerLocations[NUM_BEAST_ROAMERS][2] = {};
+EWRAM_DATA u8 sLastEncounteredRoamerType = 0; // 0 = none, 1 = original, 2+ = beast roamer (id+2)
+EWRAM_DATA u8 sLastEncounteredBeastId = 0;
 
 static void BeastRoamerMove(u8 beastId);
 static void BeastRoamerMoveToOtherLocationSet(u8 beastId);
@@ -99,6 +101,8 @@ void ClearRoamerData(void)
         sLocationHistory[i][MAP_GRP] = 0;
         sLocationHistory[i][MAP_NUM] = 0;
     }
+    sLastEncounteredRoamerType = 0;
+    sLastEncounteredBeastId = 0;
 }
 
 #define GetRoamerSpecies() ({\
@@ -294,39 +298,40 @@ void RoamerMove(void)
     u8 locSet = 0;
     u32 i;
 
-    if ((Random() % 16) == 0)
+    // Move original roamer if active
+    if (ROAMER->active)
     {
-        RoamerMoveToOtherLocationSet();
-    }
-    else
-    {
-        if (!ROAMER->active)
-            return;
-
-        while (locSet < NUM_LOCATION_SETS)
+        if ((Random() % 16) == 0)
         {
-            // Find the location set that starts with the roamer's current map
-            if (sRoamerLocation[MAP_NUM] == sRoamerLocations[locSet][0])
+            RoamerMoveToOtherLocationSet();
+        }
+        else
+        {
+            while (locSet < NUM_LOCATION_SETS)
             {
-                u8 mapNum;
-                while (1)
+                // Find the location set that starts with the roamer's current map
+                if (sRoamerLocation[MAP_NUM] == sRoamerLocations[locSet][0])
                 {
-                    // Choose a new map (excluding the first) within this set
-                    // Also exclude a map if the roamer was there 2 moves ago
-                    mapNum = sRoamerLocations[locSet][(Random() % (NUM_LOCATIONS_PER_SET - 1)) + 1];
-                    if (!(sLocationHistory[2][MAP_GRP] == ROAMER_MAP_GROUP
-                       && sLocationHistory[2][MAP_NUM] == mapNum)
-                       && mapNum != MAP_NUM(UNDEFINED))
-                        break;
+                    u8 mapNum;
+                    while (1)
+                    {
+                        // Choose a new map (excluding the first) within this set
+                        // Also exclude a map if the roamer was there 2 moves ago
+                        mapNum = sRoamerLocations[locSet][(Random() % (NUM_LOCATIONS_PER_SET - 1)) + 1];
+                        if (!(sLocationHistory[2][MAP_GRP] == ROAMER_MAP_GROUP
+                           && sLocationHistory[2][MAP_NUM] == mapNum)
+                           && mapNum != MAP_NUM(UNDEFINED))
+                            break;
+                    }
+                    sRoamerLocation[MAP_NUM] = mapNum;
+                    break;
                 }
-                sRoamerLocation[MAP_NUM] = mapNum;
-                return;
+                locSet++;
             }
-            locSet++;
         }
     }
     
-    // Move beast roamers too
+    // Move beast roamers regardless of original roamer status
     for (i = 0; i < NUM_BEAST_ROAMERS; i++)
     {
         if (BEAST_ROAMERS_ACTIVE & (1 << i))
@@ -455,11 +460,16 @@ bool8 TryStartRoamerEncounter(void)
     u8 mapNum = gSaveBlock1Ptr->location.mapNum;
     u32 i;
     
+    // Clear previous encounter tracking
+    sLastEncounteredRoamerType = 0;
+    sLastEncounteredBeastId = 0;
+    
     // First check original roamer
-    if (IsRoamerAt(mapGroup, mapNum) && (Random() % 4) == 0)
+    if (IsRoamerAt(mapGroup, mapNum) && ROAMER->active)
     {
         if (!IsWildLevelAllowedByRepel(ROAMER->level))
             return FALSE;
+        sLastEncounteredRoamerType = 1; // Original roamer
         CreateRoamerMonInstance();
         return TRUE;
     }
@@ -467,10 +477,12 @@ bool8 TryStartRoamerEncounter(void)
     // Then check beast roamers
     for (i = 0; i < NUM_BEAST_ROAMERS; i++)
     {
-        if (IsBeastRoamerAt(i, mapGroup, mapNum) && (Random() % 4) == 0)
+        if (IsBeastRoamerAt(i, mapGroup, mapNum))
         {
             if (!IsWildLevelAllowedByRepel(BEAST_ROAMER(i)->level))
                 return FALSE;
+            sLastEncounteredRoamerType = i + 2; // Beast roamer (offset by 2)
+            sLastEncounteredBeastId = i;
             CreateBeastRoamerMonInstance(i);
             return TRUE;
         }
@@ -484,7 +496,27 @@ void UpdateRoamerHPStatus(struct Pokemon *mon)
     u8 mapNum = gSaveBlock1Ptr->location.mapNum;
     u32 i;
     
-    // Check which roamer was battled and update accordingly
+    // Use encounter tracking first for more reliable identification
+    if (sLastEncounteredRoamerType == 1) // Original roamer
+    {
+        ROAMER->hp = GetMonData(mon, MON_DATA_HP);
+        ROAMER->status = GetMonData(mon, MON_DATA_STATUS);
+        RoamerMoveToOtherLocationSet();
+        return;
+    }
+    else if (sLastEncounteredRoamerType >= 2) // Beast roamer
+    {
+        u8 beastId = sLastEncounteredBeastId;
+        if (beastId < NUM_BEAST_ROAMERS && (BEAST_ROAMERS_ACTIVE & (1 << beastId)))
+        {
+            BEAST_ROAMER(beastId)->hp = GetMonData(mon, MON_DATA_HP);
+            BEAST_ROAMER(beastId)->status = GetMonData(mon, MON_DATA_STATUS);
+            BeastRoamerMoveToOtherLocationSet(beastId);
+            return;
+        }
+    }
+    
+    // Fallback: Check which roamer was battled and update accordingly
     if (IsRoamerAt(mapGroup, mapNum))
     {
         ROAMER->hp = GetMonData(mon, MON_DATA_HP);
@@ -512,7 +544,27 @@ void SetRoamerInactive(void)
     u8 mapNum = gSaveBlock1Ptr->location.mapNum;
     u32 i;
     
-    // Check which roamer was caught/defeated and deactivate
+    // Use encounter tracking first, then fall back to location-based detection
+    if (sLastEncounteredRoamerType == 1) // Original roamer
+    {
+        ROAMER->active = FALSE;
+        sLastEncounteredRoamerType = 0;
+        return;
+    }
+    else if (sLastEncounteredRoamerType >= 2) // Beast roamer
+    {
+        u8 beastId = sLastEncounteredBeastId;
+        if (beastId < NUM_BEAST_ROAMERS)
+        {
+            BEAST_ROAMER(beastId)->active = FALSE;
+            BEAST_ROAMERS_ACTIVE &= ~(1 << beastId);
+            sLastEncounteredRoamerType = 0;
+            sLastEncounteredBeastId = 0;
+            return;
+        }
+    }
+    
+    // Fallback: Check which roamer was caught/defeated and deactivate based on location
     if (IsRoamerAt(mapGroup, mapNum))
     {
         ROAMER->active = FALSE;
@@ -555,4 +607,26 @@ u16 GetBeastRoamerLocationMapSectionId(u8 beastId)
     if (!(BEAST_ROAMERS_ACTIVE & (1 << beastId)) || !BEAST_ROAMER(beastId)->active)
         return MAPSEC_NONE;
     return Overworld_GetMapHeaderByGroupAndId(sBeastRoamerLocations[beastId][MAP_GRP], sBeastRoamerLocations[beastId][MAP_NUM])->regionMapSectionId;
+}
+
+// Debug function to check roamer status - call this from a field special if needed
+void DebugPrintRoamerStatus(void)
+{
+    u32 i;
+    
+    // Original roamer status
+    if (ROAMER->active)
+    {
+        // Can add debug prints here if your system supports them
+        // DebugPrint("Original roamer %d active at map %d-%d", ROAMER->species, sRoamerLocation[MAP_GRP], sRoamerLocation[MAP_NUM]);
+    }
+    
+    // Beast roamer status
+    for (i = 0; i < NUM_BEAST_ROAMERS; i++)
+    {
+        if ((BEAST_ROAMERS_ACTIVE & (1 << i)) && BEAST_ROAMER(i)->active)
+        {
+            // DebugPrint("Beast roamer %d: species %d active at map %d-%d", i, BEAST_ROAMER(i)->species, sBeastRoamerLocations[i][MAP_GRP], sBeastRoamerLocations[i][MAP_NUM]);
+        }
+    }
 }

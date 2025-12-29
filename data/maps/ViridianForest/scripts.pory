@@ -57,9 +57,21 @@ ViridianForest_EventScript_Doug::
 	end
 
 ViridianForest_EventScript_Sammy::
-	trainerbattle_single TRAINER_BUG_CATCHER_SAMMY, ViridianForest_Text_SammyIntro, ViridianForest_Text_SammyDefeat
+	trainerbattle_single TRAINER_BUG_CATCHER_SAMMY, ViridianForest_Text_SammyIntro, ViridianForest_Text_SammyDefeat, ViridianForest_EventScript_SammyDefeated
+	goto_if_defeated TRAINER_BUG_CATCHER_SAMMY, ViridianForest_EventScript_SammyHealPlayer
+	release
+	end
+
+ViridianForest_EventScript_SammyDefeated::
 	special HealPlayerParty
 	msgbox ViridianForest_Text_SammyPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+
+ViridianForest_EventScript_SammyHealPlayer::
+	special HealPlayerParty
+	msgbox ViridianForest_Text_SammyPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 ViridianForest_EventScript_Anthony::
