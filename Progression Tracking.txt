@@ -550,6 +550,7 @@ Cap 16: Lorelei, level 69
         TRAINER_COOLTRAINER_CAROLINE
         TRAINER_COOL_COUPLE_RAY_TYRA
         TRAINER_POKEMANIAC_DAWSON
+        TRAINER_PETRO
     Pokemon League 1
         TRAINER_ELITE_FOUR_LORELEI
 Cap 17: Bruno, level 70

@@ -13,7 +13,7 @@
 #define TRAINER_CELADON_GYM_GUARDIAN               6
 #define TRAINER_FUSCHIA_GYM_GUARDIAN               7
 #define TRAINER_CINNABAR_MANSION_GUARDIAN          8
-#define TRAINER_RS_COOLTRAINER_M                   9
+#define TRAINER_PETRO                9
 #define TRAINER_RS_COOLTRAINER_F                  10
 #define TRAINER_HEX_MANIAC                        11
 #define TRAINER_RS_LADY                           12

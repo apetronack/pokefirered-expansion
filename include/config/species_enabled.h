@@ -257,7 +257,7 @@
 #define P_FAMILY_GROUDON                 FALSE
 #define P_FAMILY_RAYQUAZA                FALSE
 #define P_FAMILY_JIRACHI                 FALSE
-#define P_FAMILY_DEOXYS                  FALSE
+#define P_FAMILY_DEOXYS                  TRUE
 
 #define P_FAMILY_TURTWIG                 P_GEN_4_POKEMON
 #define P_FAMILY_CHIMCHAR                P_GEN_4_POKEMON
