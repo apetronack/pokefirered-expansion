@@ -13478,150 +13478,6 @@ EVs: 252 SpA / 252 Atk / 6 Spe
 - Focus Blast
 - Steel Wing
 
-=== TRAINER_MYSTIC_GUARDIAN ===
-Name: Antiqua
-Class: Cooltrainer
-Pic: Cooltrainer F
-Gender: Female
-Music: Cool
-Double Battle: No
-AI: AI_FLAG_SMART_TRAINER
-
-Tyranitar @ Leftovers
-Ability: Sand Stream
-Adamant Nature
-Level: 85
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 Def / 6 Spe
-- Stone Edge
-- Crunch
-- Earthquake
-- Dragon Dance
-
-Flygon @ Yache Berry
-Ability: Levitate
-Naive Nature
-Level: 85
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 Spe / 6 SpD
-- Earthquake
-- Fire Blast
-- U Turn
-- Dragon Dance
-
-Swampert @ Leftovers
-Ability: Torrent
-Sassy Nature
-Level: 85
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Def / 252 HP / 6 SpD
-- Waterfall
-- Earthquake
-- Mirror Coat
-- Curse
-
-Magnezone @ Zoom Lens
-Ability: Sturdy
-Modest Nature
-Level: 85
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 SpA / 252 Def / 6 Spe
-- Zap Cannon
-- Magnet Rise
-- Tri Attack
-- Flash Cannon
-
-Scizor @ Occa Berry
-Ability: Technician
-Adamant Nature
-Level: 85
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 Spe / 6 Def
-- Swords Dance
-- Bullet Punch
-- X Scissor
-- Razor Wind
-
-SPECIES_ARCANINE_HISUI @ Life Orb
-Ability: Rock Head
-Adamant Nature
-Level: 85
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 Spe / 6 Def
-- Flare Blitz
-- Double Edge
-- Close Combat
-- Rock Slide
-
-=== TRAINER_AURORA_GUARDIAN ===
-Name: Prospecto
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Double Battle: Yes
-AI: AI_FLAG_SMART_TRAINER
-
-Dusknoir @ Leftovers
-Ability: Pressure
-Level: 85
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Def / 252 SpD / 6 HP
-- Trick Room
-- Will O Wisp
-- Pain Split
-- Seismic Toss
-
-Torkoal @ Heat Rock
-Ability: Drought
-Level: 85
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Def / 252 SpA / 6 HP
-- Eruption
-- Heat Wave
-- Solar Beam
-- Protect
-
-Bronzong @ Occa Berry
-Ability: Levitate
-Level: 85
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 HP / 252 SpD / 6 Def
-- Gyro Ball
-- Earthquake
-- Explosion
-- Trick Room
-
-Rhyperior @ Life Orb
-Ability: Solid Rock
-Level: 85
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 Def / 6 HP
-- Stone Edge
-- Earthquake
-- Megahorn
-- Protect
-
-Slowking @ Leftovers
-Ability: Own Tempo
-Level: 85
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 SpA / 252 SpD / 6 Def
-- Trick Room
-- Psychic
-- Ice Beam
-- Calm Mind
-
-Exeggutor @ Sitrus Berry
-Ability: Harvest
-Level: 85
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 SpA / 252 Def / 6 HP
-- Trick Room
-- Sleep Powder
-- Solar Beam
-- Sludge Bomb
-
 === TRAINER_TEAM_ROCKET_GRUNT_45 ===
 Name: GRUNT
 Class: Team Rocket
@@ -13789,7 +13645,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Jumpluff
 Ability: Chlorophyll
-Level: 78
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
 - Swords Dance
@@ -13807,7 +13663,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Sharpedo
 Ability: Rough Skin
-Level: 76
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Waterfall
@@ -13816,7 +13672,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Bibarel
 Ability: Simple
-Level: 76
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Yawn
 - Headbutt
@@ -13825,7 +13681,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Poliwrath
 Ability: Water Absorb
-Level: 76
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Waterfall
 - Bulk Up
@@ -14040,7 +13896,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeot
 Ability: Keen Eye
-Level: 77
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tailwind
 - Steel Wing
@@ -14049,7 +13905,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Mantine
 Ability: Water Absorb
-Level: 77
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Signal Beam
 - Hydro Pump
@@ -14066,7 +13922,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Electrode
-Level: 77
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
 - Light Screen
@@ -14074,7 +13930,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Explosion
 
 Lanturn
-Level: 77
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Surf
 - Confuse Ray
@@ -14082,7 +13938,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 
 Magnezone
-Level: 77
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mirror Shot
 - Metal Sound
@@ -14090,7 +13946,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
 
 Luxray
-Level: 77
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Ice Fang
@@ -14098,7 +13954,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Charge
 
 SPECIES_PORYGON_Z
-Level: 77
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tri Attack
 - Charge Beam
@@ -14352,7 +14208,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Farigiraf
 Ability: Armor Tail
-Level: 78
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Nasty Plot
 - Psychic
@@ -14361,7 +14217,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Claydol
 Ability: Levitate
-Level: 78
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earth Power
 - Psychic
@@ -14370,7 +14226,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Gardevoir @ Wide Lens
 Ability: Synchronize
-Level: 78
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hypnosis
 - Dream Eater
@@ -14388,7 +14244,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Linoone @ Sitrus Berry
-Level: 78
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Headbutt
 - Pin Missile
@@ -14396,7 +14252,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Claw
 
 Swellow @ Nugget
-Level: 78
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aerial Ace
 - Double Team
@@ -14603,7 +14459,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Roserade
 Ability: Poison Point
-Level: 79
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
 - Sludge Bomb
@@ -14612,7 +14468,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Sunflora
 Ability: Drought
-Level: 79
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 - Solar Beam
@@ -14621,7 +14477,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Bellossom
 Ability: Chlorophyll
-Level: 79
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leaf Storm
 - Synthesis
@@ -14639,7 +14495,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Delcatty
 Ability: Cute Charm
-Level: 79
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out
 - Helping Hand
@@ -14648,7 +14504,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Heracross
 Ability: Swarm
-Level: 79
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Megahorn
 - Close Combat
@@ -14891,7 +14747,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Solrock
 Ability: Levitate
-Level: 80
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sunny Day
 - Solar Beam
@@ -14900,7 +14756,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Skarmory
 Ability: Sturdy
-Level: 80
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Steel Wing
 - Drill Peck
@@ -14909,7 +14765,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Torterra
 Ability: Overgrow
-Level: 80
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Wood Hammer
 - Earthquake
@@ -14927,7 +14783,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Swampert
 Ability: Torrent
-Level: 82
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Waterfall
@@ -15197,7 +15053,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Hippowdon
 Ability: Sand Stream
-Level: 81
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Earthquake
@@ -15206,7 +15062,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Mamoswine
 Ability: Thick Fat
-Level: 81
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Avalanche
@@ -15215,7 +15071,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Sandslash
 Ability: Sand Veil
-Level: 81
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Swords Dance
@@ -15233,7 +15089,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Rapidash
 Ability: Flash Fire
-Level: 81
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Megahorn
 - Flare Blitz
@@ -15242,7 +15098,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Ursaring
 Ability: Guts
-Level: 81
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bulk Up
 - Close Combat
@@ -15251,7 +15107,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Vileplume
 Ability: Chlorophyll
-Level: 81
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sludge Bomb
 - Giga Drain
@@ -15463,7 +15319,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Farigiraf
-Level: 84
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Psybeam
@@ -15481,7 +15337,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Torterra
 Ability: Overgrow
-Level: 82
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Seed Bomb
 - Earthquake
@@ -15490,7 +15346,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Meganium
 Ability: Overgrow
-Level: 82
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reflect
 - Energy Ball
@@ -15700,7 +15556,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Tangrowth
-Level: 83
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Slam
 - Giga Drain
@@ -15708,7 +15564,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ingrain
 
 Slaking
-Level: 83
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Giga Impact
 - Earthquake
@@ -15716,7 +15572,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Yawn
 
 Exeggutor
-Level: 83
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Egg Bomb
@@ -15735,7 +15591,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Muk @ Leftovers
 Ability: Stench
-Level: 85
+Level: 84
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Minimize
 - Gunk Shot
@@ -15955,7 +15811,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Onix
-Level: 84
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Rock Blast
@@ -15963,7 +15819,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Screech
 
 Armaldo
-Level: 84
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Rock Slide
@@ -15971,12 +15827,156 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - X Scissor
 
 Golem
-Level: 84
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Rock Blast
 - Rock Polish
 - Explosion
+
+=== TRAINER_MYSTIC_GUARDIAN ===
+Name: Antiqua
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_SMART_TRAINER
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+Adamant Nature
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Def / 6 Spe
+- Stone Edge
+- Crunch
+- Earthquake
+- Dragon Dance
+
+Flygon @ Yache Berry
+Ability: Levitate
+Naive Nature
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 SpD
+- Earthquake
+- Fire Blast
+- U Turn
+- Dragon Dance
+
+Swampert @ Leftovers
+Ability: Torrent
+Sassy Nature
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Def / 252 HP / 6 SpD
+- Waterfall
+- Earthquake
+- Mirror Coat
+- Curse
+
+Magnezone @ Zoom Lens
+Ability: Sturdy
+Modest Nature
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Def / 6 Spe
+- Zap Cannon
+- Magnet Rise
+- Tri Attack
+- Flash Cannon
+
+Scizor @ Occa Berry
+Ability: Technician
+Adamant Nature
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 Def
+- Swords Dance
+- Bullet Punch
+- X Scissor
+- Razor Wind
+
+SPECIES_ARCANINE_HISUI @ Life Orb
+Ability: Rock Head
+Adamant Nature
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 Def
+- Flare Blitz
+- Double Edge
+- Close Combat
+- Rock Slide
+
+=== TRAINER_AURORA_GUARDIAN ===
+Name: Prospecto
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: Yes
+AI: AI_FLAG_SMART_TRAINER
+
+Dusknoir @ Leftovers
+Ability: Pressure
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Def / 252 SpD / 6 HP
+- Trick Room
+- Will O Wisp
+- Pain Split
+- Seismic Toss
+
+Torkoal @ Heat Rock
+Ability: Drought
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Def / 252 SpA / 6 HP
+- Eruption
+- Heat Wave
+- Solar Beam
+- Protect
+
+Bronzong @ Occa Berry
+Ability: Levitate
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD / 6 Def
+- Gyro Ball
+- Earthquake
+- Explosion
+- Trick Room
+
+Rhyperior @ Life Orb
+Ability: Solid Rock
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Def / 6 HP
+- Stone Edge
+- Earthquake
+- Megahorn
+- Protect
+
+Slowking @ Leftovers
+Ability: Own Tempo
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 SpD / 6 Def
+- Trick Room
+- Psychic
+- Ice Beam
+- Calm Mind
+
+Exeggutor @ Sitrus Berry
+Ability: Harvest
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Def / 6 HP
+- Trick Room
+- Sleep Powder
+- Solar Beam
+- Sludge Bomb
 
 === TRAINER_ELITE_FOUR_LORELEI_2 ===
 Name: LORELEI
