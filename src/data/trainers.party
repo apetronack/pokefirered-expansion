@@ -6015,7 +6015,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Exeggutor @ Light Clay
 Ability: Chlorophyll
 Timid Nature
-Level: 38
+Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 EVs: 120 SpD / 120 SpA / 6 HP
 - Light Screen
@@ -6026,7 +6026,7 @@ EVs: 120 SpD / 120 SpA / 6 HP
 Breloom @ Toxic Orb
 Ability: Poison Heal
 Adamant Nature
-Level: 38
+Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 EVs: 120 Atk / 120 Spe / 6 Def
 - Sky Uppercut
@@ -6037,7 +6037,7 @@ EVs: 120 Atk / 120 Spe / 6 Def
 Victreebel @ Black Sludge
 Ability: Chlorophyll
 Modest Nature
-Level: 39
+Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 EVs: 120 Spe / 120 SpA / 6 SpD
 - Weather Ball
@@ -6046,7 +6046,7 @@ EVs: 120 Spe / 120 SpA / 6 SpD
 - Giga Drain
 
 Torterra @ Wide Lens
-Level: 39
+Level: 40
 Ability: Overgrow
 Adamant Nature
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -6059,7 +6059,7 @@ EVs: 120 Atk / 120 Def / 6 SpD
 Cradily @ Sitrus Berry
 Ability: Storm Drain
 Relaxed Nature
-Level: 40
+Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 EVs: 120 SpD / 120 Def / 6 HP
 - Giga Drain
@@ -12550,7 +12550,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Sceptile
 Ability: Overgrow
-Level: 63
+Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Slam
 - Leaf Blade
@@ -12559,7 +12559,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Claydol
 Ability: Levitate
-Level: 63
+Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Cosmic Power
 - Earth Power
@@ -12651,7 +12651,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Clefable
 Ability: Magic Guard
-Level: 65
+Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Light Screen
 - Reflect
@@ -12660,7 +12660,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Farigiraf
 Ability: Inner Focus
-Level: 65
+Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Nasty Plot
 - Psychic
@@ -12669,7 +12669,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Meganium @ Persim Berry
 Ability: Overgrow
-Level: 65
+Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Synthesis
 - Reflect
@@ -12677,7 +12677,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Earthquake
 
 Walrein @ Chesto Berry
-Level: 65
+Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Sheer Cold
 - Surf
@@ -12685,7 +12685,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Ice Beam
 
 Miltank
-Level: 65
+Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Milk Drink
 - Zen Headbutt
@@ -12704,7 +12704,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Aerodactyl
 Ability: Rock Head
-Level: 66
+Level: 65
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Rock Slide
 - Iron Head
@@ -12713,7 +12713,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Exploud
 Ability: Soundproof
-Level: 66
+Level: 65
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Hyper Voice
 - Howl
@@ -12722,7 +12722,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Jolteon
 Ability: Volt Absorb
-Level: 66
+Level: 65
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Thunderbolt
 - Thunder Wave
@@ -12731,7 +12731,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Steelix
 Ability: Sturdy
-Level: 66
+Level: 65
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Stone Edge
 - Screech
@@ -12740,7 +12740,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Feraligatr
 Ability: Torrent
-Level: 66
+Level: 65
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Aqua Tail
 - Superpower
@@ -12813,7 +12813,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidoqueen
 Ability: Rivalry
-Level: 67
+Level: 66
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Superpower
 - Thunderbolt
@@ -12822,7 +12822,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Nidoking
 Ability: Rivalry
-Level: 67
+Level: 66
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Megahorn
 - Poison Jab
@@ -12840,7 +12840,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Slaking
 Ability: Truant
-Level: 68
+Level: 67
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Giga Impact
 - Hammer Arm
@@ -12849,7 +12849,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Sunflora
 Ability: Drought
-Level: 68
+Level: 67
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Solar Beam
 - Sludge Bomb
@@ -12858,7 +12858,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Kangaskhan
 Ability: Scrappy
-Level: 68
+Level: 67
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Fake Out
 - Hammer Arm
@@ -13633,7 +13633,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Muk
 Ability: Stench
-Level: 85
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Gunk Shot
 - Acid Armor
@@ -13641,7 +13641,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Frustration
 
 Sharpedo
-Level: 85
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Aqua Jet
@@ -13649,7 +13649,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Poison Jab
 
 Seviper
-Level: 85
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Poison Jab
 - Crunch
@@ -13668,7 +13668,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Bellossom @ Stardust
 Ability: Chlorophyll
-Level: 85
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
 - Drain Punch
@@ -13677,7 +13677,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Leafeon @ Stardust
 Ability: Leaf Guard
-Level: 85
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leaf Blade
 - Iron Tail
@@ -13695,7 +13695,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pachirisu
 Ability: Run Away
-Level: 85
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Super Fang
 - Sweet Kiss
@@ -13704,7 +13704,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Roserade
 Ability: Poison Point
-Level: 85
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Giga Drain
 - Sludge Bomb
@@ -13722,7 +13722,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Donphan
 Ability: Sturdy
-Level: 85
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Slam
@@ -13731,7 +13731,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Vileplume
 Ability: Chlorophyll
-Level: 85
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sunny Day
 - Solar Beam
@@ -13749,15 +13749,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Mareep @ Stardust
-Level: 86
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Flaaffy @ Stardust
-Level: 86
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Ampharos @ Nugget
-Level: 86
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PAINTER_RAYNA ===
@@ -13771,7 +13771,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Delcatty @ Silk Scarf
 Ability: Cute Charm
-Level: 88
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out
 - Double Edge
@@ -13789,7 +13789,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Jumpluff
 Ability: Chlorophyll
-Level: 88
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
 - Swords Dance
@@ -13807,7 +13807,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Sharpedo
 Ability: Rough Skin
-Level: 86
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Waterfall
@@ -13816,7 +13816,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Bibarel
 Ability: Simple
-Level: 86
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Yawn
 - Headbutt
@@ -13825,7 +13825,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Poliwrath
 Ability: Water Absorb
-Level: 86
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Waterfall
 - Bulk Up
@@ -13842,7 +13842,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Tauros
-Level: 86
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Zen Headbutt
 - Stone Edge
@@ -13851,7 +13851,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Shiftry
 Ability: Chlorophyll
-Level: 86
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Nasty Plot
 - Leaf Storm
@@ -13860,7 +13860,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pinsir
 Ability: Hyper Cutter
-Level: 86
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Swords Dance
 - X Scissor
@@ -13878,7 +13878,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Drapion
 Ability: Sniper
-Level: 87
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Cross Poison
 - Crunch
@@ -13887,7 +13887,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Kingler
 Ability: Hyper Cutter
-Level: 87
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crabhammer
 - Swords Dance
@@ -13896,7 +13896,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Ursaring
 Ability: Guts
-Level: 87
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bulk Up
 - Thrash
@@ -13914,7 +13914,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Huntail
 Ability: Swift Swim
-Level: 87
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Dance
 - Baton Pass
@@ -13923,7 +13923,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Carnivine
 Ability: Levitate
-Level: 87
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Power Whip
@@ -13941,7 +13941,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Absol
 Ability: Super Luck
-Level: 87
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Night Slash
 - Swords Dance
@@ -13950,7 +13950,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Shiftry
 Ability: Chlorophyll
-Level: 87
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leech Seed
 - Swords Dance
@@ -13959,7 +13959,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Zangoose
 Ability: Immunity
-Level: 87
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Close Combat
 - Crush Claw
@@ -13977,7 +13977,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Staraptor
 Ability: Intimidate
-Level: 87
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Endeavor
 - Quick Attack
@@ -13986,7 +13986,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Yanmega
 Ability: Speed Boost
-Level: 87
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bug Buzz
 - Air Slash
@@ -13995,7 +13995,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Noctowl
 Ability: Insomnia
-Level: 87
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hypnosis
 - Extrasensory
@@ -14013,7 +14013,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Altaria
 Ability: Natural Cure
-Level: 87
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Pulse
 - Sky Attack
@@ -14022,7 +14022,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
 Ability: Guts
-Level: 87
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aerial Ace
 - Steel Wing
@@ -14040,7 +14040,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeot
 Ability: Keen Eye
-Level: 88
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tailwind
 - Steel Wing
@@ -14049,7 +14049,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Mantine
 Ability: Water Absorb
-Level: 88
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Signal Beam
 - Hydro Pump
@@ -14066,7 +14066,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Electrode
-Level: 88
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
 - Light Screen
@@ -14074,7 +14074,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Explosion
 
 Lanturn
-Level: 88
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Surf
 - Confuse Ray
@@ -14082,7 +14082,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 
 Magnezone
-Level: 88
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mirror Shot
 - Metal Sound
@@ -14090,7 +14090,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
 
 Luxray
-Level: 88
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Ice Fang
@@ -14098,7 +14098,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Charge
 
 SPECIES_PORYGON_Z
-Level: 88
+Level: 76
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Tri Attack
 - Charge Beam
@@ -14116,7 +14116,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Masquerain
 Ability: Intimidate
-Level: 88
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bug Buzz
 - Air Slash
@@ -14125,7 +14125,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Rapidash
 Ability: Flash Fire
-Level: 88
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flare Blitz
 - Megahorn
@@ -14143,7 +14143,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Ursaring
 Ability: Guts
-Level: 88
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Hammer Arm
@@ -14152,7 +14152,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Muk
 Ability: Stench
-Level: 88
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Gunk Shot
 - Acid Armor
@@ -14161,7 +14161,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Machamp
 Ability: No Guard
-Level: 88
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dynamic Punch
 - Stone Edge
@@ -14179,7 +14179,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Cradily
 Ability: Suction Cups
-Level: 88
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bullet Seed
 - Swords Dance
@@ -14188,7 +14188,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Bastiodon
 Ability: Sturdy
-Level: 88
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Iron Head
 - Taunt
@@ -14207,7 +14207,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 SPECIES_ARCANINE_HISUI
 Ability: Intimidate
-Level: 88
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fire Blast
 - Extreme Speed
@@ -14216,7 +14216,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pinsir
 Ability: Mold Breaker
-Level: 88
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - X Scissor
 - Swords Dance
@@ -14225,7 +14225,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Obstagoon
 Ability: Reckless
-Level: 88
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Edge
 - Submission
@@ -14234,7 +14234,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Ariados
 Ability: Swarm
-Level: 88
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Poison Jab
 - Sucker Punch
@@ -14243,7 +14243,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Huntail
 Ability: Swift Swim
-Level: 88
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Waterfall
 - Crunch
@@ -14262,7 +14262,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Masquerain
 Ability: Intimidate
-Level: 89
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bug Buzz
 - Air Slash
@@ -14271,7 +14271,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Ninetales
 Ability: Drought
-Level: 89
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Heat Wave
 - Extrasensory
@@ -14280,7 +14280,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Shiftry
 Ability: Chlorophyll
-Level: 89
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Nasty Plot
 - Leaf Storm
@@ -14289,7 +14289,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Metagross
 Ability: Clear Body
-Level: 89
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Meteor Mash
 - Agility
@@ -14298,7 +14298,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Seviper
 Ability: Shed Skin
-Level: 89
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Glare
 - Poison Jab
@@ -14316,7 +14316,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Rampardos
 Ability: Mold Breaker
-Level: 89
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Head Smash
 - Zen Headbutt
@@ -14325,7 +14325,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Parasect
 Ability: Dry Skin
-Level: 89
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Spore
 - X Scissor
@@ -14334,7 +14334,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Steelix
 Ability: Rock Head
-Level: 89
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Iron Tail
 - Double Edge
@@ -14352,7 +14352,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Farigiraf
 Ability: Armor Tail
-Level: 89
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Nasty Plot
 - Psychic
@@ -14361,7 +14361,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Claydol
 Ability: Levitate
-Level: 89
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earth Power
 - Psychic
@@ -14370,7 +14370,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Gardevoir @ Wide Lens
 Ability: Synchronize
-Level: 89
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hypnosis
 - Dream Eater
@@ -14388,7 +14388,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Linoone @ Sitrus Berry
-Level: 89
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Headbutt
 - Pin Missile
@@ -14396,7 +14396,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Claw
 
 Swellow @ Nugget
-Level: 89
+Level: 77
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aerial Ace
 - Double Team
@@ -14414,7 +14414,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Raticate
 Ability: Guts
-Level: 89
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Edge
 - Sucker Punch
@@ -14423,7 +14423,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Manectric
 Ability: Static
-Level: 89
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunderbolt
 - Flamethrower
@@ -14432,7 +14432,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Crobat
 Ability: Inner Focus
-Level: 89
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sludge Bomb
 - Giga Drain
@@ -14441,7 +14441,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Grumpig
 Ability: Thick Fat
-Level: 89
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Power Gem
 - Psychic
@@ -14459,7 +14459,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Seaking
 Ability: Swift Swim
-Level: 90
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Megahorn
 - Agility
@@ -14468,7 +14468,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Tentacruel
 Ability: Clear Body
-Level: 90
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sludge Bomb
 - Hydro Pump
@@ -14486,7 +14486,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Sharpedo
 Ability: Rough Skin
-Level: 90
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aqua Jet
 - Ice Fang
@@ -14495,7 +14495,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Wailord @ Leftovers
 Ability: Oblivious
-Level: 90
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Amnesia
 - Water Spout
@@ -14513,7 +14513,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Kingler
 Ability: Hyper Cutter
-Level: 90
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crabhammer
 - Swords Dance
@@ -14522,7 +14522,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Starmie
 Ability: Natural Cure
-Level: 90
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Thunderbolt
@@ -14540,7 +14540,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pelipper
 Ability: Drizzle
-Level: 90
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stockpile
 - Swallow
@@ -14549,7 +14549,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Azumarill
 Ability: Huge Power
-Level: 90
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aqua Tail
 - Double Edge
@@ -14567,7 +14567,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Lunatone
 Ability: Levitate
-Level: 90
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Cosmic Power
 - Explosion
@@ -14576,7 +14576,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Slowbro
 Ability: Oblivious
-Level: 90
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Blizzard
@@ -14585,7 +14585,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Alakazam
 Ability: Synchronize
-Level: 90
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Focus Blast
@@ -14603,7 +14603,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Roserade
 Ability: Poison Point
-Level: 91
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
 - Sludge Bomb
@@ -14612,7 +14612,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Sunflora
 Ability: Drought
-Level: 91
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 - Solar Beam
@@ -14621,7 +14621,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Bellossom
 Ability: Chlorophyll
-Level: 91
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leaf Storm
 - Synthesis
@@ -14639,7 +14639,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Delcatty
 Ability: Cute Charm
-Level: 91
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out
 - Helping Hand
@@ -14648,7 +14648,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Heracross
 Ability: Swarm
-Level: 91
+Level: 78
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Megahorn
 - Close Combat
@@ -14666,7 +14666,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Milotic
 Ability: Marvel Scale
-Level: 93
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hydro Pump
 - Blizzard
@@ -14684,7 +14684,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Empoleon
 Ability: Torrent
-Level: 91
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Swords Dance
 - Drill Peck
@@ -14693,7 +14693,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Lanturn
 Ability: Volt Absorb
-Level: 91
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hydro Pump
 - Stockpile
@@ -14711,7 +14711,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Electrode
 Ability: Soundproof
-Level: 91
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Light Screen
 - Thunderbolt
@@ -14720,7 +14720,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Mr Mime
 Ability: Soundproof
-Level: 91
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Role Play
@@ -14729,7 +14729,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Weavile
 Ability: Pressure
-Level: 91
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Night Slash
 - Ice Shard
@@ -14738,7 +14738,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Banette
 Ability: Insomnia
-Level: 91
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunderbolt
 - Shadow Ball
@@ -14747,7 +14747,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Medicham
 Ability: Pure Power
-Level: 91
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bulk Up
 - Rock Slide
@@ -14765,7 +14765,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Hippowdon
 Ability: Sand Stream
-Level: 92
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Yawn
@@ -14774,7 +14774,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nidoking
 Ability: Poison Point
-Level: 92
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Megahorn
 - Poison Jab
@@ -14783,7 +14783,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Donphan
 Ability: Sturdy
-Level: 92
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stone Edge
 - Earthquake
@@ -14801,7 +14801,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Tyranitar
 Ability: Sand Stream
-Level: 92
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Dragon Dance
@@ -14810,7 +14810,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Aggron
 Ability: Sturdy
-Level: 92
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 - Earthquake
@@ -14819,7 +14819,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Shuckle
 Ability: Sturdy
-Level: 92
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Defense Curl
 - Rollout
@@ -14837,7 +14837,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Tauros
 Ability: Intimidate
-Level: 92
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Zen Headbutt
 - Earthquake
@@ -14846,7 +14846,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Rapidash
 Ability: Flash Fire
-Level: 92
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Megahorn
 - Flare Blitz
@@ -14855,7 +14855,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Carnivine
 Ability: Levitate
-Level: 92
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Power Whip
 - Crunch
@@ -14864,7 +14864,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Absol
 Ability: Pressure
-Level: 92
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Swords Dance
 - Night Slash
@@ -14873,7 +14873,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Dragonite
 Ability: Inner Focus
-Level: 92
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Dance
 - Outrage
@@ -14891,7 +14891,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Solrock
 Ability: Levitate
-Level: 92
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sunny Day
 - Solar Beam
@@ -14900,7 +14900,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Skarmory
 Ability: Sturdy
-Level: 92
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Steel Wing
 - Drill Peck
@@ -14909,7 +14909,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Torterra
 Ability: Overgrow
-Level: 92
+Level: 79
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Wood Hammer
 - Earthquake
@@ -14927,7 +14927,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Swampert
 Ability: Torrent
-Level: 94
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Waterfall
@@ -14945,7 +14945,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Sableye
 Ability: Keen Eye
-Level: 92
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
 - Power Gem
@@ -14954,7 +14954,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Mawile
 Ability: Intimidate
-Level: 92
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Iron Head
 - Swords Dance
@@ -14963,7 +14963,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Aerodactyl
 Ability: Pressure
-Level: 92
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 - Iron Head
@@ -14981,7 +14981,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Meganium
 Ability: Overgrow
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Substitute
 - Leech Seed
@@ -14990,7 +14990,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Exeggutor
 Ability: Chlorophyll
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Giga Drain
@@ -14999,7 +14999,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Tropius @ Yache Berry
 Ability: Harvest
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Body Slam
 - Earthquake
@@ -15008,7 +15008,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Breloom
 Ability: Effect Spore
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Spore
 - Bulk Up
@@ -15026,7 +15026,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Pinsir
 Ability: Hyper Cutter
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Megahorn
 - Swords Dance
@@ -15035,7 +15035,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Heracross
 Ability: Guts
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Close Combat
 - Night Slash
@@ -15053,7 +15053,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Purugly
 Ability: Thick Fat
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out
 - Body Slam
@@ -15062,7 +15062,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Skuntank
 Ability: Aftermath
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 - Sludge Bomb
@@ -15071,7 +15071,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Flygon
 Ability: Levitate
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Dance
 - Earthquake
@@ -15080,7 +15080,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Clefable
 Ability: Cute Charm
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Cosmic Power
 - Wish
@@ -15089,7 +15089,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Bastiodon
 Ability: Sturdy
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Curse
 - Gyro Ball
@@ -15098,7 +15098,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Dunsparce
 Ability: Serene Grace
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Roost
 - Glare
@@ -15116,7 +15116,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Yanmega
 Ability: Speed Boost
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bug Buzz
 - Air Slash
@@ -15125,7 +15125,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Masquerain
 Ability: Intimidate
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - U Turn
 - Air Slash
@@ -15134,7 +15134,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Scizor
 Ability: Technician
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bullet Punch
 - Swords Dance
@@ -15143,7 +15143,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Venomoth
 Ability: Tinted Lens
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
 - Psychic
@@ -15161,7 +15161,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Bellossom
 Ability: Chlorophyll
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Giga Drain
 - Sleep Powder
@@ -15170,7 +15170,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Ludicolo
 Ability: Swift Swim
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rain Dance
 - Double Team
@@ -15179,7 +15179,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Parasect
 Ability: Dry Skin
-Level: 93
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Spore
 - X Scissor
@@ -15197,7 +15197,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Hippowdon
 Ability: Sand Stream
-Level: 94
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Earthquake
@@ -15206,7 +15206,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Mamoswine
 Ability: Thick Fat
-Level: 94
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Avalanche
@@ -15215,7 +15215,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Sandslash
 Ability: Sand Veil
-Level: 94
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Swords Dance
@@ -15233,7 +15233,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Rapidash
 Ability: Flash Fire
-Level: 94
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Megahorn
 - Flare Blitz
@@ -15242,7 +15242,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Ursaring
 Ability: Guts
-Level: 94
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bulk Up
 - Close Combat
@@ -15251,7 +15251,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Vileplume
 Ability: Chlorophyll
-Level: 94
+Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sludge Bomb
 - Giga Drain
@@ -15269,7 +15269,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Ninjask
 Ability: Speed Boost
-Level: 94
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Swords Dance
 - Baton Pass
@@ -15278,7 +15278,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Shuckle
 Ability: Sturdy
-Level: 94
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Defense Curl
 - Rollout
@@ -15296,7 +15296,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Exploud
 Ability: Soundproof
-Level: 96
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hyper Voice
 - Ice Beam
@@ -15314,7 +15314,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Zangoose
 Ability: Immunity
-Level: 94
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - X Scissor
 - Close Combat
@@ -15323,7 +15323,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Dragonite
 Ability: Inner Focus
-Level: 94
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Dance
 - Slam
@@ -15332,7 +15332,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Mismagius
 Ability: Levitate
-Level: 94
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
 - Psychic
@@ -15341,7 +15341,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Cacturne
 Ability: Water Absorb
-Level: 94
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Needle Arm
 - Sucker Punch
@@ -15350,7 +15350,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Houndoom
 Ability: Flash Fire
-Level: 94
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Overheat
 - Dark Pulse
@@ -15359,7 +15359,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Toxicroak
 Ability: Dry Skin
-Level: 94
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flatter
 - Poison Jab
@@ -15377,7 +15377,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Scyther
 Ability: Technician
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Wing Attack
 - Fury Cutter
@@ -15395,7 +15395,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Seviper
 Ability: Shed Skin
-Level: 95
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Glare
 - Sludge Bomb
@@ -15404,7 +15404,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Noctowl
 Ability: Insomnia
-Level: 95
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reflect
 - Psychic
@@ -15413,7 +15413,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Obstagoon
 Ability: Guts
-Level: 95
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Edge
 - Night Slash
@@ -15430,7 +15430,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Xatu
-Level: 95
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Night Shade
 - Confuse Ray
@@ -15438,7 +15438,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 
 Mismagius
-Level: 95
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Disable
@@ -15446,7 +15446,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
 
 Hypno
-Level: 95
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Hypnosis
@@ -15463,7 +15463,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Farigiraf
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Psybeam
@@ -15481,7 +15481,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Torterra
 Ability: Overgrow
-Level: 95
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Seed Bomb
 - Earthquake
@@ -15490,7 +15490,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Meganium
 Ability: Overgrow
-Level: 95
+Level: 81
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reflect
 - Energy Ball
@@ -15508,7 +15508,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Electrode
 Ability: Static
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rain Dance
 - Light Screen
@@ -15517,7 +15517,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Forretress
 Ability: Sturdy
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Spikes
 - Bide
@@ -15526,7 +15526,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Dodrio
 Ability: Run Away
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - High Jump Kick
 - Drill Peck
@@ -15535,7 +15535,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Ninetales
 Ability: Flash Fire
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Confuse Ray
 - Flamethrower
@@ -15554,7 +15554,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Leafeon
 Ability: Leaf Guard
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leaf Blade
 - Synthesis
@@ -15563,7 +15563,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Vileplume
 Ability: Chlorophyll
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Petal Dance
 - Moonlight
@@ -15582,7 +15582,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Sceptile
 Ability: Overgrow
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leaf Blade
 - Dragon Claw
@@ -15591,7 +15591,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Victreebel
 Ability: Chlorophyll
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leaf Blade
 - Sludge Bomb
@@ -15609,7 +15609,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Golduck
 Ability: Cloud Nine
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hydro Pump
 - Psychic
@@ -15618,7 +15618,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 SPECIES_SLOWBRO_GALAR
 Ability: Regenerator
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Yawn
 - Psychic
@@ -15637,7 +15637,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Miltank
 Ability: Thick Fat
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Body Slam
 - Milk Drink
@@ -15646,7 +15646,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Mightyena
 Ability: Intimidate
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Poison Fang
 - Crunch
@@ -15664,7 +15664,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Sandslash
 Ability: Sand Veil
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Swords Dance
@@ -15673,7 +15673,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Kangaskhan
 Ability: Scrappy
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dizzy Punch
 - Fake Out
@@ -15682,7 +15682,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Carnivine
 Ability: Levitate
-Level: 96
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Power Whip
 - Crunch
@@ -15700,7 +15700,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Tangrowth
-Level: 97
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Slam
 - Giga Drain
@@ -15708,7 +15708,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ingrain
 
 Slaking
-Level: 97
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Giga Impact
 - Earthquake
@@ -15716,7 +15716,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Yawn
 
 Exeggutor
-Level: 97
+Level: 82
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Egg Bomb
@@ -15735,7 +15735,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Muk @ Leftovers
 Ability: Stench
-Level: 99
+Level: 84
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Minimize
 - Gunk Shot
@@ -15753,7 +15753,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Annihilape @ Black Belt
 Ability: Vital Spirit
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dynamic Punch
 - Knock Off
@@ -15762,7 +15762,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Blaziken @ Black Belt
 Ability: Speed Boost
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bulk Up
 - Sky Uppercut
@@ -15771,7 +15771,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Machamp @ Black Belt
 Ability: Guts
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Cross Chop
 - Stone Edge
@@ -15790,7 +15790,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Rhyperior
 Ability: Solid Rock
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Take Down
 - Horn Drill
@@ -15799,7 +15799,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Slowbro
 Ability: Own Tempo
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Headbutt
@@ -15808,7 +15808,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Kangaskhan
 Ability: Scrappy
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dizzy Punch
 - Sucker Punch
@@ -15817,7 +15817,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Machamp
 Ability: Guts
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Cross Chop
 - Vital Throw
@@ -15826,7 +15826,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Flygon
 Ability: Levitate
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Claw
 - Crunch
@@ -15844,7 +15844,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Linoone
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Slash
 - Belly Drum
@@ -15852,7 +15852,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sucker Punch
 
 Walrein
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Waterfall
@@ -15860,7 +15860,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 
 Ninetales
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 - Confuse Ray
@@ -15868,7 +15868,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Extrasensory
 
 Arcanine
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 - Agility
@@ -15876,7 +15876,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dig
 
 Farigiraf
-Level: 97
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Psychic
@@ -15894,7 +15894,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Steelix
 Ability: Sturdy
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Iron Tail
 - Earthquake
@@ -15912,7 +15912,7 @@ AI: AI_FLAG_BASIC_TRAINER
 
 Marowak @ Thick Club
 Ability: Lightning Rod
-Level: 98
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bonemerang
 - Double Edge
@@ -15921,7 +15921,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Golduck
 Ability: Cloud Nine
-Level: 98
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Hydro Pump
 - Psychic
@@ -15938,7 +15938,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Grumpig
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Calm Mind
@@ -15955,7 +15955,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Onix
-Level: 98
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Rock Blast
@@ -15963,7 +15963,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Screech
 
 Armaldo
-Level: 98
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Rock Slide
@@ -15971,12 +15971,156 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - X Scissor
 
 Golem
-Level: 98
+Level: 83
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Rock Blast
 - Rock Polish
 - Explosion
+
+=== TRAINER_MYSTIC_GUARDIAN ===
+Name: Antiqua
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Double Battle: No
+AI: AI_FLAG_SMART_TRAINER
+
+Tyranitar @ Leftovers
+Ability: Sand Stream
+Adamant Nature
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Def / 6 Spe
+- Stone Edge
+- Crunch
+- Earthquake
+- Dragon Dance
+
+Flygon @ Yache Berry
+Ability: Levitate
+Naive Nature
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 SpD
+- Earthquake
+- Fire Blast
+- U Turn
+- Dragon Dance
+
+Swampert @ Leftovers
+Ability: Torrent
+Sassy Nature
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Def / 252 HP / 6 SpD
+- Waterfall
+- Earthquake
+- Mirror Coat
+- Curse
+
+Magnezone @ Zoom Lens
+Ability: Sturdy
+Modest Nature
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Def / 6 Spe
+- Zap Cannon
+- Magnet Rise
+- Tri Attack
+- Flash Cannon
+
+Scizor @ Occa Berry
+Ability: Technician
+Adamant Nature
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 Def
+- Swords Dance
+- Bullet Punch
+- X Scissor
+- Razor Wind
+
+SPECIES_ARCANINE_HISUI @ Life Orb
+Ability: Rock Head
+Adamant Nature
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe / 6 Def
+- Flare Blitz
+- Double Edge
+- Close Combat
+- Rock Slide
+
+=== TRAINER_AURORA_GUARDIAN ===
+Name: Prospecto
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Double Battle: Yes
+AI: AI_FLAG_SMART_TRAINER
+
+Dusknoir @ Leftovers
+Ability: Pressure
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Def / 252 SpD / 6 HP
+- Trick Room
+- Will O Wisp
+- Pain Split
+- Seismic Toss
+
+Torkoal @ Heat Rock
+Ability: Drought
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Def / 252 SpA / 6 HP
+- Eruption
+- Heat Wave
+- Solar Beam
+- Protect
+
+Bronzong @ Occa Berry
+Ability: Levitate
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD / 6 Def
+- Gyro Ball
+- Earthquake
+- Explosion
+- Trick Room
+
+Rhyperior @ Life Orb
+Ability: Solid Rock
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Def / 6 HP
+- Stone Edge
+- Earthquake
+- Megahorn
+- Protect
+
+Slowking @ Leftovers
+Ability: Own Tempo
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 SpD / 6 Def
+- Trick Room
+- Psychic
+- Ice Beam
+- Calm Mind
+
+Exeggutor @ Sitrus Berry
+Ability: Harvest
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Def / 6 HP
+- Trick Room
+- Sleep Powder
+- Solar Beam
+- Sludge Bomb
 
 === TRAINER_ELITE_FOUR_LORELEI_2 ===
 Name: LORELEI
@@ -16551,7 +16695,7 @@ AI: AI_FLAG_BASIC_TRAINER
 Ninetales @ Charcoal
 Ability: Drought
 Timid Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 - Confuse Ray
@@ -16561,7 +16705,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Venusaur @ Life Orb
 Ability: Chlorophyll
 Modest Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Solar Beam
 - Sludge Bomb
@@ -16571,7 +16715,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Sandslash @ Focus Sash
 Ability: Arena Trap
 Jolly Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Stone Edge
@@ -16581,7 +16725,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Exeggutor @ Choice Specs
 Ability: Chlorophyll
 Modest Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Solar Beam
 - Psychic
@@ -16591,7 +16735,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Arcanine @ Choice Band
 Ability: Intimidate
 Adamant Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flare Blitz
 - Extreme Speed
@@ -16601,7 +16745,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Raikou @ Choice Scarf
 Ability: Pressure
 Timid Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunderbolt
 - Extreme Speed
@@ -16620,7 +16764,7 @@ AI: AI_FLAG_BASIC_TRAINER
 Kingdra @ Life Orb
 Ability: Swift Swim
 Modest Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Surf
 - Draco Meteor
@@ -16630,7 +16774,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ludicolo @ Leftovers
 Ability: Swift Swim
 Calm Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Surf
 - Giga Drain
@@ -16640,7 +16784,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Jirachi @ Damp Rock
 Ability: Serene Grace
 Timid Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rain Dance
 - Thunder
@@ -16650,7 +16794,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Swampert @ Lum Berry
 Ability: Torrent
 Relaxed Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stealth Rock
 - Earthquake
@@ -16660,7 +16804,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Kabutops @ Choice Band
 Ability: Swift Swim
 Adamant Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Waterfall
 - Stone Edge
@@ -16670,7 +16814,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Zapdos @ Choice Scarf
 Ability: Pressure
 Timid Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
 - Drill Peck
@@ -16689,7 +16833,7 @@ AI: AI_FLAG_BASIC_TRAINER
 Tyranitar @ Leftovers
 Ability: Sand Stream
 Adamant Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stone Edge
 - Crunch
@@ -16699,7 +16843,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Hippowdon @ Smooth Rock
 Ability: Sand Stream
 Impish Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Slack Off
@@ -16709,7 +16853,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Garchomp @ Yache Berry
 Ability: Sand Veil
 Jolly Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Swords Dance
 - Earthquake
@@ -16719,7 +16863,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Lucario @ Life Orb
 Ability: Inner Focus
 Timid Nature
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aura Sphere
 - Shadow Ball
@@ -16754,11 +16898,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeot
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Clefable
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BEAUTY_LAUREN ===
@@ -16771,15 +16915,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Weepinbell
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Bellsprout
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Weepinbell
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BEAUTY_SHEILA_2 ===
@@ -16792,11 +16936,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Clefairy
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Linoone
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIKER_1 ===
@@ -16835,11 +16979,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Weezing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Weezing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIKER_JAXON_2 ===
@@ -16852,11 +16996,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Weezing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Weezing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIKER_LUKAS_2 ===
@@ -16869,19 +17013,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Koffing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Koffing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Weezing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Weezing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIKER_RUBEN_2 ===
@@ -16894,15 +17038,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Weezing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Weezing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Weezing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_BENNY_2 ===
@@ -16915,11 +17059,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_BENNY_3 ===
@@ -16932,11 +17076,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_CHAZ_2 ===
@@ -16949,11 +17093,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_CHESTER_2 ===
@@ -16966,15 +17110,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Dodrio
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Dodrio
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Doduo
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_CHESTER_3 ===
@@ -16987,15 +17131,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Dodrio
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Dodrio
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Dodrio
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_HAROLD_2 ===
@@ -17008,11 +17152,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Noctowl
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Noctowl
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_JACOB_2 ===
@@ -17025,19 +17169,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Taillow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Taillow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_JACOB_3 ===
@@ -17050,19 +17194,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_KEITH ===
@@ -17075,11 +17219,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Noctowl
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_MARLON_2 ===
@@ -17092,15 +17236,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Doduo
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_MARLON_3 ===
@@ -17113,15 +17257,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Dodrio
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_MILO_2 ===
@@ -17134,11 +17278,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgeot
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_REED ===
@@ -17151,19 +17295,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgey
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_ROBERT_2 ===
@@ -17176,19 +17320,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BIRD_KEEPER_ROBERT_3 ===
@@ -17201,19 +17345,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeot
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgeot
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BLACK_BELT_HUGH_2 ===
@@ -17226,11 +17370,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Machoke @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Machoke @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BLACK_BELT_HUGH_3 ===
@@ -17243,11 +17387,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Machoke @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Machamp @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BLACK_BELT_SHEA_2 ===
@@ -17260,11 +17404,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Machoke @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Machoke @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BLACK_BELT_SHEA_3 ===
@@ -17277,11 +17421,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Machoke @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Machamp @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BOARDER_F ===
@@ -17359,15 +17503,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Metapod
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Caterpie
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Venonat
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BUG_CATCHER_3 ===
@@ -17458,15 +17602,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Metapod
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Paras
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Metapod
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BUG_CATCHER_COLTON_3 ===
@@ -17479,15 +17623,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Butterfree
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Metapod
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Butterfree
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BUG_CATCHER_COLTON_4 ===
@@ -17500,15 +17644,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Butterfree
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Kleavor
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nincada
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BUG_MANIAC ===
@@ -17534,11 +17678,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Vulpix
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BURGLAR_2 ===
@@ -17564,15 +17708,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Vulpix
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Charmander
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Growlithe
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BURGLAR_4 ===
@@ -17585,11 +17729,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Charmander
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Charmeleon
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CAMPER_2 ===
@@ -17615,11 +17759,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Charmander
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CAMPER_CHRIS_3 ===
@@ -17632,11 +17776,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Charmeleon
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CAMPER_CHRIS_4 ===
@@ -17649,11 +17793,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Arcanine
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Charmeleon
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CAMPER_JEFF_2 ===
@@ -17666,11 +17810,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Aron
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Cacnea
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CAMPER_JEFF_3 ===
@@ -17683,11 +17827,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Staravia
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Growlithe
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CAMPER_JEFF_4 ===
@@ -17700,11 +17844,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Hypno
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Toxicroak
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CAMPER_RICKY_2 ===
@@ -17821,15 +17965,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gastly
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Gastly
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Gastly
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CHANNELER_7 ===
@@ -17882,7 +18026,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rhyhorn
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Horn Drill
 - Rock Blast
@@ -17890,7 +18034,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stomp
 
 Nidorina
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Double Kick
 - Fury Swipes
@@ -17898,7 +18042,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flatter
 
 Nidoqueen
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Body Slam
 - Double Kick
@@ -17906,7 +18050,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Growl
 
 Nidorino
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Horn Attack
 - Poison Sting
@@ -17914,7 +18058,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leer
 
 Nidoking
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thrash
 - Double Kick
@@ -17932,7 +18076,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Spheal
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Take Down
 - Aurora Beam
@@ -17940,7 +18084,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Growl
 
 Graveler
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Blast
 - Magnitude
@@ -17948,7 +18092,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mud Sport
 
 Floatzel
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Guillotine
 - Stomp
@@ -17956,7 +18100,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bubble
 
 Onix
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Slam
 - Sandstorm
@@ -17964,7 +18108,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Throw
 
 Cloyster
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Spike Cannon
 - Aurora Beam
@@ -17982,7 +18126,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Tangela
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Slam
 - Bind
@@ -17990,7 +18134,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ingrain
 
 Weepinbell
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Acid
 - Moonlight
@@ -17998,7 +18142,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stun Spore
 
 Victreebel
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Mega Drain
 - Acid
@@ -18006,7 +18150,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aromatherapy
 
 Ivysaur
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Razor Leaf
 - Sweet Scent
@@ -18014,7 +18158,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leech Seed
 
 Venusaur
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Razor Leaf
 - Growth
@@ -18032,7 +18176,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Wing Attack
 - Feather Dance
@@ -18040,7 +18184,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Quick Attack
 
 Swellow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Drill Peck
 - Mirror Move
@@ -18048,7 +18192,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leer
 
 Linoone
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Pay Day
 - Faint Attack
@@ -18056,7 +18200,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bite
 
 Kangaskhan
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Slam
 - Disable
@@ -18064,7 +18208,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Supersonic
 
 Mightyena
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Horn Attack
 - Scary Face
@@ -18082,7 +18226,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Linoone
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fury Swipes
 - Bite
@@ -18090,7 +18234,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Faint Attack
 
 Ninetales
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 - Will O Wisp
@@ -18098,7 +18242,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Grudge
 
 Arcanine
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fury Attack
 - Fire Spin
@@ -18106,7 +18250,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Agility
 
 Pikachu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunderbolt
 - Thunder Wave
@@ -18114,7 +18258,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Quick Attack
 
 Raichu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunder
 - Thunder Wave
@@ -18132,7 +18276,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rhydon
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Horn Drill
@@ -18140,7 +18284,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Scary Face
 
 Slowbro
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Headbutt
@@ -18148,7 +18292,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Disable
 
 Kangaskhan
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dizzy Punch
 - Bite
@@ -18156,7 +18300,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reversal
 
 Machamp
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Cross Chop
 - Vital Throw
@@ -18164,7 +18308,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Seismic Toss
 
 Garchomp
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Dragon Rush
 - Crunch
@@ -18182,7 +18326,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Linoone
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Slash
 - Screech
@@ -18190,7 +18334,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bite
 
 Sealeo
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Take Down
@@ -18198,7 +18342,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sheer Cold
 
 Ninetales
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 - Confuse Ray
@@ -18206,7 +18350,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Grudge
 
 Arcanine
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bounce
 - Agility
@@ -18214,7 +18358,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Take Down
 
 Girafarig
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 - Psybeam
@@ -18232,7 +18376,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidorino
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Scratch
 - Poison Sting
@@ -18240,7 +18384,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bite
 
 Nidorina
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Horn Attack
 - Poison Sting
@@ -18248,7 +18392,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leer
 
 Quagsire
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Surf
@@ -18257,7 +18401,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Sandslash
 Ability: Water Absorb
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fury Swipes
 - Swift
@@ -18265,7 +18409,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Poison Sting
 
 Rhyhorn
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Blast
 - Scary Face
@@ -18283,7 +18427,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Slowpoke
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Headbutt
 - Confusion
@@ -18291,7 +18435,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Disable
 
 Shellder
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aurora Beam
 - Clamp
@@ -18299,7 +18443,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leer
 
 Floatzel
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Guillotine
 - Stomp
@@ -18307,7 +18451,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bubble
 
 Starmie
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bubble Beam
 - Swift
@@ -18315,7 +18459,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rapid Spin
 
 Golduck
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Confusion
 - Scratch
@@ -18334,7 +18478,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Forretress
 Ability: Sturdy
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Pin Missile
 - Bide
@@ -18342,7 +18486,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Iron Defense
 
 Butterfree
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Safeguard
 - Psybeam
@@ -18350,7 +18494,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Supersonic
 
 Parasect
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Spore
 - Leech Life
@@ -18358,7 +18502,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Growth
 
 Venonat
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psybeam
 - Stun Spore
@@ -18366,7 +18510,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Disable
 
 Venomoth
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psybeam
 - Gust
@@ -18384,7 +18528,7 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Miltank
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Body Slam
 - Milk Drink
@@ -18392,7 +18536,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Defense Curl
 
 Mightyena
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Take Down
 - Scary Face
@@ -18409,15 +18553,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Primeape @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Heracross @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Machamp @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CRUSH_GIRL_SHARON_2 ===
@@ -18430,11 +18574,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Mankey @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Primeape @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CRUSH_GIRL_SHARON_3 ===
@@ -18447,11 +18591,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Primeape @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Primeape @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CRUSH_GIRL_TANYA_2 ===
@@ -18464,11 +18608,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Medicham @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Hariyama @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CRUSH_GIRL_TANYA_3 ===
@@ -18481,11 +18625,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Medicham @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Hariyama @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CRUSH_KIN_MIK_KIA_2 ===
@@ -18498,11 +18642,11 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Machoke @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Primeape @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CRUSH_KIN_MIK_KIA_3 ===
@@ -18515,11 +18659,11 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Machamp @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Primeape @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CRUSH_KIN_RON_MYA_2 ===
@@ -18532,11 +18676,11 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Hariyama @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Medicham @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CRUSH_KIN_RON_MYA_3 ===
@@ -18549,11 +18693,11 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Hariyama @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Medicham @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CRUSH_KIN_RON_MYA_4 ===
@@ -18566,11 +18710,11 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Hariyama @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Medicham @ Black Belt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CUE_BALL_CAMRON_2 ===
@@ -18583,11 +18727,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Primeape
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Machoke
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CUE_BALL_CHASE ===
@@ -18600,15 +18744,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Tentacool
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Tentacool
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Tentacruel
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CUE_BALL_COREY_2 ===
@@ -18621,11 +18765,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Primeape
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Machamp
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CUE_BALL_ISAIAH_2 ===
@@ -18638,11 +18782,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Machoke
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Machamp
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_CYCLING_TRIATHLETE_F ===
@@ -18746,15 +18890,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Magneton
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Magneton
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Magneton
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_EXPERT_F ===
@@ -18793,19 +18937,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Poliwhirl
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Cloyster
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Crawdaunt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Seadra
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_FISHERMAN_WADE_2 ===
@@ -18818,27 +18962,27 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Feebas
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Feebas
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Feebas
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Feebas
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Feebas
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Feebas
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_GAMER_1 ===
@@ -18864,11 +19008,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Vulpix
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_GAMER_RICH_2 ===
@@ -18881,11 +19025,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Vulpix
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_GENTLEMAN_NORTON ===
@@ -18911,11 +19055,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Growlithe
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Growlithe
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_GUITARIST ===
@@ -18954,11 +19098,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Onix
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Machamp
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_HIKER_FRANKLIN_2 ===
@@ -18971,11 +19115,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Machoke
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Graveler
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_HIKER_JEREMY_2 ===
@@ -18988,11 +19132,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Machoke
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Onix
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_HIKER_TRENT_2 ===
@@ -19005,11 +19149,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Onix
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Graveler
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_JUGGLER_MASON_2 ===
@@ -19022,19 +19166,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Electrode
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pineco
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Electrode
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pineco
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_KINDLER ===
@@ -19060,11 +19204,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Nidoran M
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nidoran F
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_LASS_JANICE_2 ===
@@ -19077,11 +19221,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_LASS_JANICE_3 ===
@@ -19094,11 +19238,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_LASS_MEGAN_2 ===
@@ -19111,23 +19255,23 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Shuckle
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nidoran M
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Zigzagoon
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pikachu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_LASS_MEGAN_3 ===
@@ -19140,23 +19284,23 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeot
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Heracross
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nidorino
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Linoone
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Raichu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_LASS_RELI_2 ===
@@ -19169,11 +19313,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgey
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nidoran F
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_LASS_RELI_3 ===
@@ -19186,11 +19330,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nidorina
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_LEADER_BRAWLY ===
@@ -19480,11 +19624,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pikachu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Raichu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PICNICKER_BECKY_3 ===
@@ -19497,11 +19641,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pikachu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Raichu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PICNICKER_BECKY_4 ===
@@ -19514,11 +19658,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Raichu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Raichu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PICNICKER_HANNAH ===
@@ -19531,23 +19675,23 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgey
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Loudred
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Furret
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pikachu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Vigoroth
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PICNICKER_ISABELLE_2 ===
@@ -19560,15 +19704,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgey
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PICNICKER_ISABELLE_3 ===
@@ -19581,15 +19725,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PICNICKER_ISABELLE_4 ===
@@ -19602,15 +19746,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgeot
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PICNICKER_KELSEY_2 ===
@@ -19623,11 +19767,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Nidoran M
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nidoran F
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PICNICKER_KELSEY_3 ===
@@ -19640,11 +19784,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Nidorino
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nidorina
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PICNICKER_KELSEY_4 ===
@@ -19657,11 +19801,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Nidorino
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nidorina
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PICNICKER_MISSY_2 ===
@@ -19674,11 +19818,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Crawdaunt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Crawdaunt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PICNICKER_MISSY_3 ===
@@ -19691,11 +19835,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Crawdaunt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Crawdaunt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PICNICKER_SUSIE_2 ===
@@ -19708,23 +19852,23 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Zigzagoon
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Scyther
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pikachu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nidorina
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PICNICKER_SUSIE_3 ===
@@ -19737,23 +19881,23 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeotto
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Linoone
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Scyther
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pikachu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nidoqueen
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PICNICKER_SUSIE_4 ===
@@ -19766,23 +19910,23 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pidgeot
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Linoone
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Scizor
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Raichu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nidoqueen
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PKMN_BREEDER_ALIZE_2 ===
@@ -19795,15 +19939,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Pikachu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Clefairy
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Marill
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PKMN_PROF_PROF_OAK ===
@@ -19830,7 +19974,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Tangela
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Slam
 - Mega Drain
@@ -19838,7 +19982,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ingrain
 
 Exeggutor
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Confusion
 - Egg Bomb
@@ -19846,7 +19990,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Reflect
 
 Exeggutor
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Confusion
 - Egg Bomb
@@ -19882,7 +20026,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Victreebel
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Petal Dance
 - Moonlight
@@ -19890,7 +20034,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Powder
 
 Victreebel
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Petal Dance
 - Moonlight
@@ -19908,7 +20052,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Victreebel
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Razor Leaf
 - Acid
@@ -19916,7 +20060,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Wrap
 
 Victreebel
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Razor Leaf
 - Acid
@@ -20011,11 +20155,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Rhydon
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Kangaskhan
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_POKEMANIAC_HERMAN_2 ===
@@ -20028,11 +20172,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Marowak
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Slowbro
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_POKEMANIAC_HERMAN_3 ===
@@ -20045,11 +20189,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Marowak
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Slowbro
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_POKEMANIAC_MARK_2 ===
@@ -20062,11 +20206,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Rhyhorn
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Kangaskhan
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_POKEMANIAC_MARK_3 ===
@@ -20079,11 +20223,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Rhydon
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Kangaskhan
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PSYCHIC_DARIO_2 ===
@@ -20113,7 +20257,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Natu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Confuse Ray
@@ -20121,7 +20265,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Wish
 
 Slowbro
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Headbutt
@@ -20129,7 +20273,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Yawn
 
 Kadabra
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Future Sight
@@ -20146,7 +20290,7 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Natu
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Confuse Ray
@@ -20154,7 +20298,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Future Sight
 
 Hypno
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Disable
@@ -20162,7 +20306,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Future Sight
 
 Hypno
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psychic
 - Hypnosis
@@ -20192,11 +20336,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Electrode
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Electrode
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_ROCKER_RANDALL ===
@@ -20209,15 +20353,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Voltorb
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Magnemite
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Voltorb
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_RS_BEAUTY ===
@@ -20568,11 +20712,11 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Gulpin
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_RUIN_MANIAC_LARRY_2 ===
@@ -20585,11 +20729,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Machoke
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Machoke
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_RUNNING_TRIATHLETE_F ===
@@ -20654,11 +20798,11 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Seadra
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Starmie
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_SIS_AND_BRO_LIL_IAN_3 ===
@@ -20671,11 +20815,11 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Seadra
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Starmie
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_SR_AND_JR ===
@@ -20701,15 +20845,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Koffing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Magnemite
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Weezing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_SUPER_NERD_2 ===
@@ -20722,19 +20866,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Magnemite
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Magnemite
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Koffing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Magnemite
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_SUPER_NERD_3 ===
@@ -20747,11 +20891,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Magnemite
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Voltorb
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_SUPER_NERD_GLENN_2 ===
@@ -20764,15 +20908,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Weezing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Weezing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Weezing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_SWIMMER_FEMALE_ALICE_2 ===
@@ -20785,11 +20929,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Crawdaunt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Crawdaunt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_SWIMMER_FEMALE_MELISSA_2 ===
@@ -20802,11 +20946,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Poliwhirl
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Crawdaunt
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_SWIMMER_FEMALE_NICOLE_2 ===
@@ -20832,19 +20976,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Seadra
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Seadra
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Seadra
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Seadra
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_SWIMMER_MALE_FINN_2 ===
@@ -20883,11 +21027,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Poliwhirl
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Poliwrath
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_SWIMMER_MALE_SAMIR_2 ===
@@ -20913,11 +21057,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Seadra
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Seadra
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_SWIMMING_TRIATHLETE_F ===
@@ -20956,15 +21100,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Sandslash
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Kangaskhan
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Garchomp
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_TAMER_JOHN ===
@@ -20977,19 +21121,19 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Rhyhorn
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Primeape
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Swalot
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Mightyena
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_22 ===
@@ -21002,11 +21146,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Drowzee
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Koffing
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_TUBER_AMIRA_2 ===
@@ -21019,15 +21163,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Poliwhirl
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Poliwhirl
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Poliwhirl
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_TWINS_ELI_ANNE_2 ===
@@ -21040,11 +21184,11 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Clefairy
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Clefairy
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_TWINS_JOY_MEG_2 ===
@@ -21057,11 +21201,11 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Clefairy
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Clefairy
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_YOUNGSTER_BEN_2 ===
@@ -21074,11 +21218,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Furret
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Stunky
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_YOUNGSTER_BEN_3 ===
@@ -21091,11 +21235,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Magmar
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Breloom
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_YOUNGSTER_BEN_4 ===
@@ -21108,11 +21252,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Wailord
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Heracross
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_YOUNGSTER_CHAD_2 ===
@@ -21125,11 +21269,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gulpin
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Sandshrew
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_YOUNGSTER_CHAD_3 ===
@@ -21142,11 +21286,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Swalot
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Sandshrew
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_YOUNGSTER_CHAD_4 ===
@@ -21159,11 +21303,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Swalot
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Sandslash
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_YOUNGSTER_DESTIN_2 ===
@@ -21176,11 +21320,11 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Golduck
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Pidgeot
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_YOUNGSTER_TIMMY_2 ===
@@ -21193,15 +21337,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Linoone
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Vigoroth
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Tropius
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_YOUNGSTER_TIMMY_3 ===
@@ -21214,15 +21358,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Lairon
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Misdreavus
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Primeape
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_YOUNGSTER_TIMMY_4 ===
@@ -21235,15 +21379,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Gligar
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Mawile
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Murkrow
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_YOUNGSTER_YASU_2 ===
@@ -21256,15 +21400,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Sandshrew
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Gulpin
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Numel
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_YOUNGSTER_YASU_3 ===
@@ -21277,15 +21421,15 @@ Double Battle: No
 AI: AI_FLAG_BASIC_TRAINER
 
 Girafarig
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Manectric
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Parasect
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_YOUNG_COUPLE_GIA_JES_2 ===
@@ -21298,11 +21442,11 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Nidorina
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nidorino
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_YOUNG_COUPLE_GIA_JES_3 ===
@@ -21315,9 +21459,9 @@ Double Battle: Yes
 AI: AI_FLAG_BASIC_TRAINER
 
 Nidoking
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Nidoqueen
-Level: 100
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe

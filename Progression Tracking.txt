@@ -566,9 +566,6 @@ Cap 20, Champion, level 73
     Pokemon League 5
         TRAINER_CHAMPION_FIRST_BULBASAUR/SQUIRTLE/CHARMANDER
 Cap 21, Game Clear, level 100
-    Cerulean Cave
-        TRAINER_MYSTIC_GUARDIAN
-        TRAINER_AURORA_GUARDIAN
     Four Island Icefall Cave
         TRAINER_TEAM_ROCKET_GRUNT_45
     Five Island Resort Gorgeous
@@ -656,6 +653,10 @@ Cap 21, Game Clear, level 100
         TRAINER_GENTLEMAN_CLIFFORD
         TRAINER_PAINTER_EDNA
         TRAINER_RUIN_MANIAC_BENJAMIN
+    Cerulean Cave
+        TRAINER_MYSTIC_GUARDIAN
+    Altering Cave
+        TRAINER_AURORA_GUARDIAN
     Pokemon League 1
         TRAINER_ELITE_FOUR_LORELEI_2
     Pokemon League 2

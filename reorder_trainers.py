@@ -308,9 +308,10 @@ def scale_trainer_level(original_level: int, trainer_name: str, progression_orde
         
         # Special handling for final milestone (post-Champion, level 100)
         if milestone == len(level_caps) - 1 and current_cap == 100:
-            # For post-Champion trainers, scale from 85 to 100 instead of using the large gap from 73
-            lowest_level = 85
-            scaled_level = lowest_level + int((current_cap - lowest_level) * progression_percentage)
+            # For post-Champion trainers, scale from 75 to 85 instead of scaling all the way to 100
+            lowest_level = 75
+            highest_level = 85
+            scaled_level = lowest_level + int((highest_level - lowest_level) * progression_percentage)
         else:
             # Normal scaling logic for other milestones
             lowest_level = previous_cap - int(AFTER_GYM_SCALE_DOWN*(current_cap - previous_cap))
