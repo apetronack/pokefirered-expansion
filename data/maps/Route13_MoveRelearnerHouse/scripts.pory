@@ -1,0 +1,58 @@
+mapscripts Route13_MoveRelearnerHouse_MapScripts {}
+
+script Route13_MoveRelearnerHouse_EventScript_MoveTutor {
+	lock()
+    faceplayer()
+    if (checkitem(ITEM_STARDUST)) {
+    	msgbox(format("Ah, that is STARDUST you have! Would you like me to teach your POKéMON a move it has known before?"), MSGBOX_YESNO)
+        if (var(VAR_RESULT) == 1) {
+        	goto(Route13_MoveRelearnerHouse_EventScript_ChooseMonToTutor)
+        } else {
+        	msgbox(format("Understood. Come back if you change your mind."))
+            release()
+            end()
+        }
+    } else {
+    	msgbox(format("I have studied the experts of the past. Now, I can teach your POKéMON any move it has known before. All I ask in return is some STARDUST."))
+        release()
+        end()
+    }
+    release()
+    end()
+}
+
+script Route13_MoveRelearnerHouse_EventScript_ChooseMonToTutor {
+	msgbox(format("Which POKéMON should I teach?"))
+    special(ChooseMonForMoveRelearner)
+    waitstate()
+    goto_if_ge(VAR_0x8004, PARTY_SIZE, Route13_MoveRelearnerHouse_EventScript_EndTutorMove)
+    special(IsSelectedMonEgg)
+    goto_if_eq(VAR_RESULT, TRUE, Route13_MoveRelearnerHouse_EventScript_CantTutorEgg)
+    goto_if_eq(VAR_0x8005, 0, Route13_MoveRelearnerHouse_EventScript_NoMoveToTutorMon)
+    msgbox(Route13_MoveRelearnerHouse_Text_TeachWhichMove)
+    special(TeachMoveRelearnerMove)
+    waitstate()
+    goto_if_eq(VAR_0x8004, 0, Route13_MoveRelearnerHouse_EventScript_ChooseMonToTutor)
+    removeitem(ITEM_STARDUST, 1)
+    textcolor(NPC_TEXT_COLOR_NEUTRAL)
+    msgbox(format("Thank you. I hope your POKéMON remembers the importance of its past."))
+    call(EventScript_RestorePrevTextColor)
+    release()
+    end()
+}
+
+script Route13_MoveRelearnerHouse_EventScript_NoMoveToTutorMon {
+	msgbox(Route13_MoveRelearnerHouse_Text_NoMoveICanTeachThatMon)
+    goto(Route13_MoveRelearnerHouse_EventScript_ChooseMonToTutor)
+}
+
+script Route13_MoveRelearnerHouse_EventScript_CantTutorEgg {
+	msgbox(Route13_MoveRelearnerHouse_Text_CantTeachAnEgg)
+    goto(Route13_MoveRelearnerHouse_EventScript_ChooseMonToTutor)
+}
+
+script Route13_MoveRelearnerHouse_EventScript_EndTutorMove {
+	msgbox(Route13_MoveRelearnerHouse_Text_EndTutorMove)
+    release()
+    end()
+}

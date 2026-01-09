@@ -25,55 +25,55 @@
 #define TYPE_STELLAR          20
 #define NUMBER_OF_MON_TYPES   21
 
-// Pokemon egg groups
-#define EGG_GROUP_NONE         0
-#define EGG_GROUP_MONSTER      1
-#define EGG_GROUP_WATER_1      2
-#define EGG_GROUP_BUG          3
-#define EGG_GROUP_FLYING       4
-#define EGG_GROUP_FIELD        5
-#define EGG_GROUP_FAIRY        6
-#define EGG_GROUP_GRASS        7
-#define EGG_GROUP_HUMAN_LIKE   8
-#define EGG_GROUP_WATER_3      9
-#define EGG_GROUP_MINERAL      10
-#define EGG_GROUP_AMORPHOUS    11
-#define EGG_GROUP_WATER_2      12
-#define EGG_GROUP_DITTO        13
-#define EGG_GROUP_DRAGON       14
-#define EGG_GROUP_NO_EGGS_DISCOVERED 15
+// Pokémon egg groups
+#define EGG_GROUP_NONE                0
+#define EGG_GROUP_MONSTER             1
+#define EGG_GROUP_WATER_1             2
+#define EGG_GROUP_BUG                 3
+#define EGG_GROUP_FLYING              4
+#define EGG_GROUP_FIELD               5
+#define EGG_GROUP_FAIRY               6
+#define EGG_GROUP_GRASS               7
+#define EGG_GROUP_HUMAN_LIKE          8
+#define EGG_GROUP_WATER_3             9
+#define EGG_GROUP_MINERAL             10
+#define EGG_GROUP_AMORPHOUS           11
+#define EGG_GROUP_WATER_2             12
+#define EGG_GROUP_DITTO               13
+#define EGG_GROUP_DRAGON              14
+#define EGG_GROUP_NO_EGGS_DISCOVERED  15
 
-#define EGG_GROUPS_PER_MON      2
+#define EGG_GROUPS_PER_MON            2
 
-// Pokemon natures
-#define NATURE_HARDY    0
-#define NATURE_LONELY   1
-#define NATURE_BRAVE    2
-#define NATURE_ADAMANT  3
-#define NATURE_NAUGHTY  4
-#define NATURE_BOLD     5
-#define NATURE_DOCILE   6
-#define NATURE_RELAXED  7
-#define NATURE_IMPISH   8
-#define NATURE_LAX      9
-#define NATURE_TIMID    10
-#define NATURE_HASTY    11
-#define NATURE_SERIOUS  12
-#define NATURE_JOLLY    13
-#define NATURE_NAIVE    14
-#define NATURE_MODEST   15
-#define NATURE_MILD     16
-#define NATURE_QUIET    17
-#define NATURE_BASHFUL  18
-#define NATURE_RASH     19
-#define NATURE_CALM     20
-#define NATURE_GENTLE   21
-#define NATURE_SASSY    22
-#define NATURE_CAREFUL  23
-#define NATURE_QUIRKY   24
+// Pokémon natures
+#define NATURE_HARDY    0 // Neutral
+#define NATURE_LONELY   1 // +Atk -Def
+#define NATURE_BRAVE    2 // +Atk -Speed
+#define NATURE_ADAMANT  3 // +Atk -SpAtk
+#define NATURE_NAUGHTY  4 // +Atk -SpDef
+#define NATURE_BOLD     5 // +Def -Atk
+#define NATURE_DOCILE   6 // Neutral
+#define NATURE_RELAXED  7 // +Def -Speed
+#define NATURE_IMPISH   8 // +Def -SpAtk
+#define NATURE_LAX      9 // +Def -SpDef
+#define NATURE_TIMID    10 // +Speed -Atk
+#define NATURE_HASTY    11 // +Speed -Def
+#define NATURE_SERIOUS  12 // Neutral
+#define NATURE_JOLLY    13 // +Speed -SpAtk
+#define NATURE_NAIVE    14 // +Speed - SpDef
+#define NATURE_MODEST   15 // +SpAtk -Atk
+#define NATURE_MILD     16 // +SpAtk -Def
+#define NATURE_QUIET    17 // +SpAtk -Speed
+#define NATURE_BASHFUL  18 // Neutral
+#define NATURE_RASH     19 // +SpAtk -SpDef
+#define NATURE_CALM     20 // +SpDef -Atk
+#define NATURE_GENTLE   21 // +SpDef -Def
+#define NATURE_SASSY    22 // +SpDef -Speed
+#define NATURE_CAREFUL  23 // +SpDef -SpAtk
+#define NATURE_QUIRKY   24 // Neutral
 #define NUM_NATURES     25
 
-// Pokemon Stats
+// Pokémon Stats
 #define STAT_HP      0
 #define STAT_ATK     1
 #define STAT_DEF     2
@@ -93,7 +93,56 @@
 #define MAX_STAT_STAGE    12
 
 // Shiny odds
-#define SHINY_ODDS 8 // Actual probability is SHINY_ODDS/65536
+#define SHINY_ODDS 64 // Actual probability is SHINY_ODDS/65536
+
+// Ribbon IDs used by TV and Pokénav
+#define CHAMPION_RIBBON       0
+#define COOL_RIBBON_NORMAL    1
+#define COOL_RIBBON_SUPER     2
+#define COOL_RIBBON_HYPER     3
+#define COOL_RIBBON_MASTER    4
+#define BEAUTY_RIBBON_NORMAL  5
+#define BEAUTY_RIBBON_SUPER   6
+#define BEAUTY_RIBBON_HYPER   7
+#define BEAUTY_RIBBON_MASTER  8
+#define CUTE_RIBBON_NORMAL    9
+#define CUTE_RIBBON_SUPER    10
+#define CUTE_RIBBON_HYPER    11
+#define CUTE_RIBBON_MASTER   12
+#define SMART_RIBBON_NORMAL  13
+#define SMART_RIBBON_SUPER   14
+#define SMART_RIBBON_HYPER   15
+#define SMART_RIBBON_MASTER  16
+#define TOUGH_RIBBON_NORMAL  17
+#define TOUGH_RIBBON_SUPER   18
+#define TOUGH_RIBBON_HYPER   19
+#define TOUGH_RIBBON_MASTER  20
+#define WINNING_RIBBON       21
+#define VICTORY_RIBBON       22
+#define ARTIST_RIBBON        23
+#define EFFORT_RIBBON        24
+#define MARINE_RIBBON        25
+#define LAND_RIBBON          26
+#define SKY_RIBBON           27
+#define COUNTRY_RIBBON       28
+#define NATIONAL_RIBBON      29
+#define EARTH_RIBBON         30
+#define WORLD_RIBBON         31
+
+#define FIRST_GIFT_RIBBON MARINE_RIBBON
+#define LAST_GIFT_RIBBON  WORLD_RIBBON
+#define NUM_GIFT_RIBBONS  (1 + LAST_GIFT_RIBBON - FIRST_GIFT_RIBBON)
+
+// The above gift ribbons (Marine - World) are
+// special distribution ribbons that correspond to
+// 1 bit each in the Pokémon struct. Gen 4 hard-codes
+// each of these to the given name. In Gen 3 they're
+// used to get an index into giftRibbons in the save block,
+// which can have a value 0-64 (0 is 'no ribbon') that
+// corresponds to one of the special ribbons listed
+// in gGiftRibbonDescriptionPointers. Most of these were
+// never distributed
+#define MAX_GIFT_RIBBON 64
 
 #define MIN_LEVEL 1
 #define MAX_LEVEL 100
@@ -104,17 +153,16 @@
 #define OT_ID_PRESET          1
 #define OT_ID_RANDOM_NO_SHINY 2
 
-#define MON_GIVEN_TO_PARTY 0
-#define MON_GIVEN_TO_PC    1
-#define MON_CANT_GIVE      2
+#define MON_GIVEN_TO_PARTY      0
+#define MON_GIVEN_TO_PC         1
+#define MON_CANT_GIVE           2
 
-#define PLAYER_HAS_TWO_USABLE_MONS 0
-#define PLAYER_HAS_ONE_MON         1
-#define PLAYER_HAS_ONE_USABLE_MON  2
+#define PLAYER_HAS_TWO_USABLE_MONS     0
+#define PLAYER_HAS_ONE_MON             1
+#define PLAYER_HAS_ONE_USABLE_MON      2
 
-// Learning moves
-#define MON_ALREADY_KNOWS_MOVE 0xFFFE
-#define MON_HAS_MAX_MOVES      0xFFFF
+#define MON_ALREADY_KNOWS_MOVE  0xFFFE
+#define MON_HAS_MAX_MOVES       0xFFFF
 
 #define LEVEL_UP_MOVE_ID   0x01FF
 #define LEVEL_UP_MOVE_LV   0xFE00
@@ -127,9 +175,10 @@
 #define MON_FEMALE     0xFE
 #define MON_GENDERLESS 0xFF
 
+// Constants for AdjustFriendship
 #define FRIENDSHIP_EVENT_GROW_LEVEL           0
-#define FRIENDSHIP_EVENT_VITAMIN              1
-#define FRIENDSHIP_EVENT_BATTLE_ITEM          2
+#define FRIENDSHIP_EVENT_VITAMIN              1 // unused, handled by PokemonUseItemEffects
+#define FRIENDSHIP_EVENT_BATTLE_ITEM          2 // unused, handled by PokemonUseItemEffects
 #define FRIENDSHIP_EVENT_LEAGUE_BATTLE        3
 #define FRIENDSHIP_EVENT_LEARN_TMHM           4
 #define FRIENDSHIP_EVENT_WALKING              5
@@ -137,6 +186,15 @@
 #define FRIENDSHIP_EVENT_FAINT_SMALL          7
 #define FRIENDSHIP_EVENT_FAINT_OUTSIDE_BATTLE 8
 #define FRIENDSHIP_EVENT_FAINT_LARGE          9
+
+// Constants for GetLeadMonFriendshipScore
+#define FRIENDSHIP_NONE        0
+#define FRIENDSHIP_1_TO_49     1
+#define FRIENDSHIP_50_TO_99    2
+#define FRIENDSHIP_100_TO_149  3
+#define FRIENDSHIP_150_TO_199  4
+#define FRIENDSHIP_200_TO_254  5
+#define FRIENDSHIP_MAX         6
 
 // Constants for GetBattlerAffectionHearts (based on friendship value)
 #define AFFECTION_NO_HEARTS     0 // 0-79 friendship
@@ -165,14 +223,6 @@
 #define DAMAGE_CATEGORY_SPECIAL     1
 #define DAMAGE_CATEGORY_STATUS      2
 
-// Battle move flags
-#define FLAG_MAKES_CONTACT          (1 << 0)
-#define FLAG_PROTECT_AFFECTED       (1 << 1)
-#define FLAG_MAGIC_COAT_AFFECTED    (1 << 2)
-#define FLAG_SNATCH_AFFECTED        (1 << 3)
-#define FLAG_MIRROR_MOVE_AFFECTED   (1 << 4)
-#define FLAG_KINGS_ROCK_AFFECTED    (1 << 5)
-
 // Growth rates
 #define GROWTH_MEDIUM_FAST  0
 #define GROWTH_ERRATIC      1
@@ -181,7 +231,7 @@
 #define GROWTH_FAST         4
 #define GROWTH_SLOW         5
 
-// Body colors for pokedex search
+// Body colors for Pokédex search
 #define BODY_COLOR_RED      0
 #define BODY_COLOR_BLUE     1
 #define BODY_COLOR_YELLOW   2
@@ -193,74 +243,99 @@
 #define BODY_COLOR_WHITE    8
 #define BODY_COLOR_PINK     9
 
-// Evolution types
+#define F_SUMMARY_SCREEN_FLIP_SPRITE 0x80
+
 #define EVOLUTIONS_END                    0xFFFF // Not an actual evolution, used to mark the end of an evolution array.
-#define EVO_NONE                          0xFFFE // Not an actual evolution, used to generate offspring that can't evolve into the specified species, like regional forms.
+
+enum EvolutionConditions {
+    // Gen 2
+    IF_GENDER,                          // The Pokémon is of specific gender.
+    IF_TIME,                            // It is currently the specific time of day.
+    IF_NOT_TIME,                        // It is NOT currently the specific time of day.
+    IF_MIN_FRIENDSHIP,                  // The Pokémon has the defined amount of Friendship.
+    IF_ATK_GT_DEF,                      // The Pokémon's Attack is greater than its Defense stat.
+    IF_ATK_EQ_DEF,                      // The Pokémon's Attack is equal to its Defense stat.
+    IF_ATK_LT_DEF,                      // The Pokémon's Attack is lower than its Defense stat.
+    IF_HOLD_ITEM,                       // The Pokémon is holding a specific item.
+    // Gen 3
+    IF_PID_UPPER_MODULO_10_GT,          // The Pokémon's upper personality value's modulo by 10 is greater than the defined value.
+    IF_PID_UPPER_MODULO_10_EQ,          // The Pokémon's upper personality value's modulo by 10 is equal to the defined value.
+    IF_PID_UPPER_MODULO_10_LT,          // The Pokémon's upper personality value's modulo by 10 is lower or equal than the defined value.
+    IF_MIN_BEAUTY,                      // The Pokémon has the defined amount of Beauty.
+    IF_MIN_COOLNESS,                    // The Pokémon has the defined amount of Coolness.
+    IF_MIN_SMARTNESS,                   // The Pokémon has the defined amount of Smartness. (aka Cleverness in Gen6+)
+    IF_MIN_TOUGHNESS,                   // The Pokémon has the defined amount of Toughness.
+    IF_MIN_CUTENESS,                    // The Pokémon has the defined amount of Cuteness.
+    // Gen 4
+    IF_SPECIES_IN_PARTY,                // The party contains a Pokémon of the specified species.
+    IF_IN_MAP,                          // The player is currently in the specific map.
+    IF_IN_MAPSEC,                       // The player is currently in the specific map sector.
+    IF_KNOWS_MOVE,                      // The Pokémon knows specific move.
+    // Gen 5
+    IF_TRADE_PARTNER_SPECIES,           // The Pokémon is traded for a specific species.
+    // Gen 6
+    IF_TYPE_IN_PARTY,                   // The party contains a Pokémon of the specified type.
+    IF_WEATHER,                         // It is currently the specific weather in the current map.
+    IF_KNOWS_MOVE_TYPE,                 // The Pokémon knows a move with a specific type.
+    // Gen 8
+    IF_NATURE,                          // The Pokémon has a specific nature.
+    IF_AMPED_NATURE,                    // The Pokémon has one of the following natures: Hardy, Brave, Adamant, Naughty, Docile, Impish, Lax, Hasty, Jolly, Naive, Rash, Sassy, or Quirky.
+    IF_LOW_KEY_NATURE,                  // The Pokémon has one of the following natures: Lonely, Bold, Relaxed, Timid, Serious, Modest, Mild, Quiet, Bashful, Calm, Gentle, or Careful.
+    IF_RECOIL_DAMAGE_GE,                // The Pokémon suffered at least certain amount of non-fainting recoil damage.
+    IF_CURRENT_DAMAGE_GE,               // The Pokémon has the specified difference of HP from its Max HP.
+    IF_CRITICAL_HITS_GE,                // The Pokémon performed the specified number of critical hits in one battle at least.
+    IF_USED_MOVE_X_TIMES,               // The Pokémon has used a move for at least X amount of times.
+    // Gen 9
+    IF_DEFEAT_X_WITH_ITEMS,             // The Pokémon defeated X amount of Pokémon of the specified species that are holding the specified item.
+    IF_PID_MODULO_100_GT,               // The Pokémon's personality value's modulo by 100 is greater than the defined value.
+    IF_PID_MODULO_100_EQ,               // The Pokémon's personality value's modulo by 100 is equal than the defined value.
+    IF_PID_MODULO_100_LT,               // The Pokémon's personality value's modulo by 100 is lower than the defined value.
+    IF_MIN_OVERWORLD_STEPS,             // The Player has taken a specific amount of steps in the overworld with the Pokémon following them or in the first slot of the party.
+    IF_BAG_ITEM_COUNT,                  // The Player has the specific amount of an item in the bag. It then removes those items.
+    CONDITIONS_END
+};
 
 enum EvolutionMethods {
-    EVO_FRIENDSHIP,                      // Pokémon levels up with friendship ≥ 220
-    EVO_FRIENDSHIP_DAY,                  // Pokémon levels up during the day with friendship ≥ 220
-    EVO_FRIENDSHIP_NIGHT,                // Pokémon levels up at night with friendship ≥ 220
-    EVO_LEVEL,                           // Pokémon reaches the specified level
-    EVO_TRADE,                           // Pokémon is traded
-    EVO_TRADE_ITEM,                      // Pokémon is traded while it's holding the specified item
-    EVO_ITEM,                            // specified item is used on Pokémon
-    EVO_LEVEL_ATK_GT_DEF,                // Pokémon reaches the specified level with attack > defense
-    EVO_LEVEL_ATK_EQ_DEF,                // Pokémon reaches the specified level with attack = defense
-    EVO_LEVEL_ATK_LT_DEF,                // Pokémon reaches the specified level with attack < defense
-    EVO_LEVEL_SILCOON,                   // Pokémon reaches the specified level with a Silcoon personality value
-    EVO_LEVEL_CASCOON,                   // Pokémon reaches the specified level with a Cascoon personality value
-    EVO_LEVEL_NINJASK,                   // Pokémon reaches the specified level (special value for Ninjask)
-    EVO_LEVEL_SHEDINJA,                  // Pokémon reaches the specified level (special value for Shedinja)
-    EVO_BEAUTY,                          // Pokémon levels up with beauty ≥ specified value
-    EVO_LEVEL_FEMALE,                    // Pokémon reaches the specified level, is female
-    EVO_LEVEL_MALE,                      // Pokémon reaches the specified level, is male
-    EVO_LEVEL_NIGHT,                     // Pokémon reaches the specified level, is night
-    EVO_LEVEL_DAY,                       // Pokémon reaches the specified level, is day
-    EVO_LEVEL_DUSK,                      // Pokémon reaches the specified level, is dusk (5-6 P.M)
-    EVO_ITEM_HOLD_DAY,                   // Pokémon levels up, holds specified item at day
-    EVO_ITEM_HOLD_NIGHT,                 // Pokémon levels up, holds specified item at night
-    EVO_MOVE,                            // Pokémon levels up, knows specified move
-    EVO_FRIENDSHIP_MOVE_TYPE,            // Pokémon levels up with friendship ≥ 220, knows move with specified type
-    EVO_MAPSEC,                          // Pokémon levels up on specified mapsec
-    EVO_ITEM_MALE,                       // specified item is used on a male Pokémon
-    EVO_ITEM_FEMALE,                     // specified item is used on a female Pokémon
-    EVO_LEVEL_RAIN,                      // Pokémon reaches the specified level during rain in the overworld
-    EVO_SPECIFIC_MON_IN_PARTY,           // Pokémon levels up with a specified Pokémon in party
-    EVO_LEVEL_DARK_TYPE_MON_IN_PARTY,    // Pokémon reaches the specified level with a Dark Type Pokémon in party
-    EVO_TRADE_SPECIFIC_MON,              // Pokémon is traded for a specified Pokémon
-    EVO_SPECIFIC_MAP,                    // Pokémon levels up on specified map
-    EVO_LEVEL_NATURE_AMPED,              // Pokémon reaches the specified level, it has a Hardy, Brave, Adamant, Naughty, Docile, Impish, Lax, Hasty, Jolly, Naive, Rash, Sassy, or Quirky nature.
-    EVO_LEVEL_NATURE_LOW_KEY,            // Pokémon reaches the specified level, it has a Lonely, Bold, Relaxed, Timid, Serious, Modest, Mild, Quiet, Bashful, Calm, Gentle, or Careful nature.
-    EVO_CRITICAL_HITS,                   // Pokémon performs specified number of critical hits in one battle
-    EVO_SCRIPT_TRIGGER_DMG,              // Pokémon has specified HP below max, then player interacts trigger
-    EVO_DARK_SCROLL,                     // interacts with Scroll of Darkness
-    EVO_WATER_SCROLL,                    // interacts with Scroll of Waters
-    EVO_ITEM_NIGHT,                      // specified item is used on Pokémon, is night
-    EVO_ITEM_DAY,                        // specified item is used on Pokémon, is day
-    EVO_ITEM_HOLD,                       // Pokémon levels up, holds specified item
-    EVO_LEVEL_FOG,                       // Pokémon reaches the specified level during fog in the overworld
-    EVO_MOVE_TWO_SEGMENT,                // Pokémon levels up, knows specified move, has a personality value with a modulus of 0
-    EVO_MOVE_THREE_SEGMENT,              // Pokémon levels up, knows specified move, has a personality value with a modulus of 1-99
-    EVO_LEVEL_FAMILY_OF_THREE,           // Pokémon reaches the specified level in battle with a personality value with a modulus of 0
-    EVO_LEVEL_FAMILY_OF_FOUR,            // Pokémon reaches the specified level in battle with a personality value with a modulus of 1-99
-    EVO_USE_MOVE_TWENTY_TIMES,           // Pokémon levels up after having used a move for at least 20 times
-    EVO_RECOIL_DAMAGE_MALE,              // Pokémon levels up after having suffered specified amount of non-fainting recoil damage as a male
-    EVO_RECOIL_DAMAGE_FEMALE,            // Pokémon levels up after having suffered specified amount of non-fainting recoil damage as a female
-    EVO_ITEM_COUNT_999,                  // Pokémon levels up after trainer has collected 999 of a specific item
-    EVO_DEFEAT_THREE_WITH_ITEM,          // Pokémon levels up after having defeat 3 Pokémon of the same species holding the specified item
-    EVO_OVERWORLD_STEPS,                 // Pokémon levels up after having taken a specific amount of steps in the overworld
+    EVO_NONE,                   // Not an actual evolution, used to generate offspring that can't evolve into the specified species, like regional forms.
+    EVO_LEVEL,                  // Pokémon reaches the specified level
+    EVO_TRADE,                  // Pokémon is traded
+    EVO_ITEM,                   // specified item is used on Pokémon
+    EVO_SPLIT_FROM_EVO,         // A clone is generated and evolved when another evolution happens
+    EVO_SCRIPT_TRIGGER,         // Player interacts with an overworld trigger
+    EVO_LEVEL_BATTLE_ONLY,      // Pokémon reaches the specified level, in battle only
+    EVO_BATTLE_END,             // Battle ends, doesn't need to level up
+    EVO_SPIN                    // The player spins in the overworld
 };
 
 enum EvolutionMode {
     EVO_MODE_NORMAL,
-    EVO_MODE_CANT_STOP,
     EVO_MODE_TRADE,
     EVO_MODE_ITEM_USE,
     EVO_MODE_ITEM_CHECK,         // If an Everstone is being held, still want to show that the stone *could* be used on that Pokémon to evolve
     EVO_MODE_BATTLE_SPECIAL,
     EVO_MODE_OVERWORLD_SPECIAL,
     EVO_MODE_BATTLE_ONLY,        // This mode is only used in battles to support Tandemaus' unique requirement
+};
+
+// used to determine whether an evolution is happening or not, so we know if items should be removed
+enum EvoState {
+    CHECK_EVO,
+    DO_EVO,
+};
+
+enum PokemonJumpType {
+    PKMN_JUMP_TYPE_NONE,        // Not allowed in Pokémon Jump
+    PKMN_JUMP_TYPE_NORMAL,
+    PKMN_JUMP_TYPE_FAST,
+    PKMN_JUMP_TYPE_SLOW,
+};
+
+enum EvoSpinDirections {
+    SPIN_CW_SHORT,              // Player spins clockwise
+    SPIN_CW_LONG,               // Player spins clockwise
+    SPIN_CCW_SHORT,             // Player spins counter-clockwise
+    SPIN_CCW_LONG,              // Player spins counter-clockwise
+    SPIN_EITHER,                // Player spins either clockwise or counter-clockwise
 };
 
 #define MON_PIC_WIDTH 64
@@ -280,7 +355,6 @@ enum EvolutionMode {
 
 #define SKIP_FRONT_ANIM (1 << 7)
 
-
 #define NUM_ABILITY_SLOTS (NUM_NORMAL_ABILITY_SLOTS + NUM_HIDDEN_ABILITY_SLOTS)
 #define NUM_NORMAL_ABILITY_SLOTS 2
 #define NUM_HIDDEN_ABILITY_SLOTS 1
@@ -288,6 +362,10 @@ enum EvolutionMode {
 // Used as a signal for givemon to generate a default ability by personality.
 #define NUM_ABILITY_PERSONALITY 0xFF
 
+#if P_LEGENDARY_PERFECT_IVS >= GEN_6
 #define LEGENDARY_PERFECT_IV_COUNT 3
+#else
+#define LEGENDARY_PERFECT_IV_COUNT 0
+#endif
 
 #endif // GUARD_CONSTANTS_POKEMON_H

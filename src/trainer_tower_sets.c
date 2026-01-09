@@ -28,9 +28,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 			.speechAfter = {EC_WORD_TCH, EC_WORD_TCH, EC_WORD_YOU_RE, EC_WORD_TOO_STRONG, 0xFFFF, 0xFFFF},
 			.mons = {
 				{
-					.species = SPECIES_RATICATE,
+					.species = SPECIES_FURRET,
 					.heldItem = ITEM_SITRUS_BERRY,
-					.moves = {MOVE_SHOCK_WAVE, MOVE_HYPER_FANG, MOVE_SCARY_FACE, MOVE_ENDEAVOR},
+					.moves = {MOVE_ICE_BEAM, MOVE_HYPER_VOICE, MOVE_AMNESIA, MOVE_CHARGE_BEAM},
 					.hpEV = 110,
 					.attackEV = 0,
 					.defenseEV = 200,
@@ -45,8 +45,8 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 					.spAttackIV = 20,
 					.spDefenseIV = 20,
 					.abilityNum = 1,
-					.personality = 0x16, // FEMALE SASSY
-					.nickname = _("RATICATE"),
+					.personality = 0x11, // FEMALE QUIET
+					.nickname = _("FURRET"),
 					.friendship = 255
 				},
 				{
@@ -72,9 +72,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAGCARGO,
+					.species = SPECIES_CAMERUPT,
 					.heldItem = ITEM_SITRUS_BERRY,
-					.moves = {MOVE_FLAMETHROWER, MOVE_AMNESIA, MOVE_BODY_SLAM, MOVE_HARDEN},
+					.moves = {MOVE_FLAMETHROWER, MOVE_AMNESIA, MOVE_ROCK_SLIDE, MOVE_HARDEN},
 					.hpEV = 110,
 					.attackEV = 200,
 					.defenseEV = 0,
@@ -90,7 +90,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x02, // FEMALE BRAVE
-					.nickname = _("MAGCARGO"),
+					.nickname = _("CAMERUPT"),
 					.friendship = 255
 				},
 				{
@@ -183,9 +183,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 			.speechAfter = {EC_WORD_I, EC_WORD_WILL, EC_WORD_STOP, EC_WORD_BEING, EC_WORD_A, EC_MOVE2(THIEF)},
 			.mons = {
 				{
-					.species = SPECIES_MEOWTH,
+					.species = SPECIES_ZIGZAGOON,
 					.heldItem = ITEM_LIECHI_BERRY,
-					.moves = {MOVE_SWAGGER, MOVE_SUBSTITUTE, MOVE_FAKE_OUT, MOVE_SLASH},
+					.moves = {MOVE_TICKLE, MOVE_SUBSTITUTE, MOVE_HEADBUTT, MOVE_FLAIL},
 					.hpEV = 200,
 					.attackEV = 110,
 					.defenseEV = 0,
@@ -201,7 +201,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x8A, // MALE JOLLY
-					.nickname = _("MEOWTH"),
+					.nickname = _("ZIGZAGOON"),
 					.friendship = 255
 				},
 				{
@@ -249,9 +249,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CHANSEY,
-					.heldItem = ITEM_LUCKY_PUNCH,
-					.moves = {MOVE_FLAMETHROWER, MOVE_LIGHT_SCREEN, MOVE_BODY_SLAM, MOVE_MINIMIZE},
+					.species = SPECIES_SNORLAX,
+					.heldItem = ITEM_SILK_SCARF,
+					.moves = {MOVE_FLAMETHROWER, MOVE_AMNESIA, MOVE_BODY_SLAM, MOVE_STOCKPILE},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -267,13 +267,13 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x10, // FEMALE MILD
-					.nickname = _("CHANSEY"),
+					.nickname = _("SNORLAX"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_FARFETCHD,
-					.heldItem = ITEM_STICK,
-					.moves = {MOVE_KNOCK_OFF, MOVE_SWORDS_DANCE, MOVE_FLY, MOVE_SAND_ATTACK},
+					.species = SPECIES_MISMAGIUS,
+					.heldItem = ITEM_MIRACLE_SEED,
+					.moves = {MOVE_CHARGE_BEAM, MOVE_ENERGY_BALL, MOVE_WILL_O_WISP, MOVE_SHADOW_BALL},
 					.hpEV = 100,
 					.attackEV = 100,
 					.defenseEV = 100,
@@ -289,7 +289,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x85, // MALE IMPISH
-					.nickname = _("FARFETCH'D"),
+					.nickname = _("MISMAGIUS"),
 					.friendship = 255
 				},
 				{
@@ -338,9 +338,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 			.speechAfter = {EC_WORD_THIS, EC_WORD_IS, EC_WORD_A, EC_WORD_DREAM, EC_WORD_NOTHING, EC_WORD_MORE},
 			.mons = {
 				{
-					.species = SPECIES_CHANSEY,
+					.species = SPECIES_SNORLAX,
 					.heldItem = ITEM_ORAN_BERRY,
-					.moves = {MOVE_LIGHT_SCREEN, MOVE_EGG_BOMB, MOVE_MINIMIZE, MOVE_SECRET_POWER},
+					.moves = {MOVE_AMNESIA, MOVE_RECYCLE, MOVE_YAWN, MOVE_SECRET_POWER},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 255,
@@ -356,7 +356,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x08, // FEMALE IMPISH
-					.nickname = _("CHANSEY"),
+					.nickname = _("SNORLAX"),
 					.friendship = 255
 				},
 				{
@@ -426,9 +426,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CHANSEY,
-					.heldItem = ITEM_ORAN_BERRY,
-					.moves = {MOVE_FLAMETHROWER, MOVE_SOFT_BOILED, MOVE_LIGHT_SCREEN, MOVE_SECRET_POWER},
+					.species = SPECIES_SNORLAX,
+					.heldItem = ITEM_CHESTO_BERRY,
+					.moves = {MOVE_CRUNCH, MOVE_REST, MOVE_CURSE, MOVE_SECRET_POWER},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 255,
@@ -444,7 +444,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x05, // FEMALE BOLD
-					.nickname = _("CHANSEY"),
+					.nickname = _("SNORLAX"),
 					.friendship = 255
 				},
 				{
@@ -493,9 +493,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 			.speechAfter = {EC_WORD_I_AM, EC_WORD_DISAPPOINTED, EC_WORD_BUT, EC_WORD_YOU, EC_WORD_WIN, EC_WORD_ELLIPSIS},
 			.mons = {
 				{
-					.species = SPECIES_RAPIDASH,
-					.heldItem = ITEM_WHITE_HERB,
-					.moves = {MOVE_BOUNCE, MOVE_OVERHEAT, MOVE_HYPNOSIS, MOVE_RETURN},
+					.species = SPECIES_SUNFLORA,
+					.heldItem = ITEM_SITRUS_BERRY,
+					.moves = {MOVE_RAZOR_LEAF, MOVE_FIRE_BLAST, MOVE_CURSE, MOVE_GRASS_WHISTLE},
 					.hpEV = 100,
 					.attackEV = 100,
 					.defenseEV = 0,
@@ -511,7 +511,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.spDefenseIV = 31,
 					.abilityNum = 1,
 					.personality = 0x10, // FEMALE MILD
-					.nickname = _("RAPIDASH"),
+					.nickname = _("SUNFLORA"),
 					.friendship = 255
 				},
 				{
@@ -581,9 +581,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_BLISSEY,
+					.species = SPECIES_BRONZONG,
 					.heldItem = ITEM_LEFTOVERS,
-					.moves = {MOVE_LIGHT_SCREEN, MOVE_ATTRACT, MOVE_RETURN, MOVE_PSYCHIC},
+					.moves = {MOVE_LIGHT_SCREEN, MOVE_METAL_SOUND, MOVE_CHARGE_BEAM, MOVE_PSYCHIC},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -599,7 +599,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.spDefenseIV = 31,
 					.abilityNum = 1,
 					.personality = 0x16, // FEMALE SASSY
-					.nickname = _("BLISSEY"),
+					.nickname = _("BRONZONG"),
 					.friendship = 255
 				},
 				{
@@ -790,9 +790,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 			.speechAfter = {EC_WORD_WHO, EC_WORD_ARE, EC_WORD_YOU, EC_WORD_QUES, 0xFFFF, 0xFFFF},
 			.mons = {
 				{
-					.species = SPECIES_TAUROS,
+					.species = SPECIES_MILTANK,
 					.heldItem = ITEM_LUM_BERRY,
-					.moves = {MOVE_FLAMETHROWER, MOVE_REST, MOVE_SHOCK_WAVE, MOVE_DOUBLE_TEAM},
+					.moves = {MOVE_FLAMETHROWER, MOVE_MILK_DRINK, MOVE_SHOCK_WAVE, MOVE_DOUBLE_TEAM},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -808,7 +808,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0A, // MALE TIMID
-					.nickname = _("TAUROS"),
+					.nickname = _("MILTANK"),
 					.friendship = 255
 				},
 				{
@@ -834,9 +834,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_FEAROW,
+					.species = SPECIES_DODRIO,
 					.heldItem = ITEM_LUM_BERRY,
-					.moves = {MOVE_DRILL_PECK, MOVE_TRI_ATTACK, MOVE_DOUBLE_EDGE, MOVE_REST},
+					.moves = {MOVE_DRILL_PECK, MOVE_TRI_ATTACK, MOVE_HI_JUMP_KICK, MOVE_REST},
 					.hpEV = 100,
 					.attackEV = 210,
 					.defenseEV = 100,
@@ -852,7 +852,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x94, // MALE CAREFUL
-					.nickname = _("FEAROW"),
+					.nickname = _("DODRIO"),
 					.friendship = 255
 				},
 				{
@@ -900,9 +900,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_URSARING,
-					.heldItem = ITEM_LUM_BERRY,
-					.moves = {MOVE_REST, MOVE_SNORE, MOVE_DIG, MOVE_SLASH},
+					.species = SPECIES_WALREIN,
+					.heldItem = ITEM_SITRUS_BERRY,
+					.moves = {MOVE_REST, MOVE_SNORE, MOVE_SURF, MOVE_SLEEP_TALK},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -918,7 +918,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x8A, // MALE JOLLY
-					.nickname = _("URSARING"),
+					.nickname = _("WALREIN"),
 					.friendship = 255
 				},
 			}
@@ -933,7 +933,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 			.speechAfter = {EC_WORD_WAIT, EC_WORD_ELLIPSIS, EC_WORD_WHO, EC_WORD_ARE, EC_WORD_YOU, EC_WORD_QUES},
 			.mons = {
 				{
-					.species = SPECIES_LICKITUNG,
+					.species = SPECIES_EXPLOUD,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_FLAMETHROWER, MOVE_EARTHQUAKE, MOVE_REST, MOVE_SLEEP_TALK},
 					.hpEV = 0,
@@ -951,7 +951,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x16, // FEMALE SASSY
-					.nickname = _("LICKITUNG"),
+					.nickname = _("EXPLOUD"),
 					.friendship = 255
 				},
 				{
@@ -999,9 +999,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RATICATE,
+					.species = SPECIES_STARAPTOR,
 					.heldItem = ITEM_SHELL_BELL,
-					.moves = {MOVE_SUPER_FANG, MOVE_QUICK_ATTACK, MOVE_SWAGGER, MOVE_ENDEAVOR},
+					.moves = {MOVE_BRAVE_BIRD, MOVE_QUICK_ATTACK, MOVE_SWAGGER, MOVE_ENDEAVOR},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -1017,11 +1017,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x8A, // MALE JOLLY
-					.nickname = _("RATICATE"),
+					.nickname = _("STARAPTOR"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_WIGGLYTUFF,
+					.species = SPECIES_CLEFABLE,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_SUNNY_DAY, MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_BODY_SLAM},
 					.hpEV = 255,
@@ -1039,7 +1039,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0B, // FEMALE HASTY
-					.nickname = _("WIGGLYTUFF"),
+					.nickname = _("CLEFABLE"),
 					.friendship = 255
 				},
 				{
@@ -1131,9 +1131,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HITMONTOP,
+					.species = SPECIES_ANNIHILAPE,
 					.heldItem = ITEM_SALAC_BERRY,
-					.moves = {MOVE_MEGA_KICK, MOVE_ENDEAVOR, MOVE_DIG, MOVE_SUNNY_DAY},
+					.moves = {MOVE_OUTRAGE, MOVE_CROSS_CHOP, MOVE_DIG, MOVE_SUNNY_DAY},
 					.hpEV = 100,
 					.attackEV = 210,
 					.defenseEV = 0,
@@ -1149,7 +1149,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x08, // MALE IMPISH
-					.nickname = _("HITMONTOP"),
+					.nickname = _("ANNIHILAPE"),
 					.friendship = 255
 				},
 				{
@@ -1252,9 +1252,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HITMONCHAN,
+					.species = SPECIES_TOXICROAK,
 					.heldItem = ITEM_FOCUS_BAND,
-					.moves = {MOVE_FIRE_PUNCH, MOVE_THUNDER_PUNCH, MOVE_ICE_PUNCH, MOVE_DETECT},
+					.moves = {MOVE_ROCK_SLIDE, MOVE_POISON_JAB, MOVE_SUCKER_PUNCH, MOVE_BRICK_BREAK},
 					.hpEV = 0,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -1270,7 +1270,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0F, // MALE MODEST
-					.nickname = _("HITMONCHAN"),
+					.nickname = _("TOXICROAK"),
 					.friendship = 255
 				},
 				{
@@ -1450,9 +1450,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SMOOCHUM,
+					.species = SPECIES_SNORUNT,
 					.heldItem = ITEM_LAX_INCENSE,
-					.moves = {MOVE_FAKE_TEARS, MOVE_PSYCHIC, MOVE_MEAN_LOOK, MOVE_SING},
+					.moves = {MOVE_LEER, MOVE_ICICLE_SPEAR, MOVE_SPIKES, MOVE_LIGHT_SCREEN},
 					.hpEV = 210,
 					.attackEV = 0,
 					.defenseEV = 45,
@@ -1468,7 +1468,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x11, // FEMALE QUIET
-					.nickname = _("SMOOCHUM"),
+					.nickname = _("SNORUNT"),
 					.friendship = 255
 				},
 				{
@@ -1593,9 +1593,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_SMOOCHUM,
+					.species = SPECIES_SNORUNT,
 					.heldItem = ITEM_QUICK_CLAW,
-					.moves = {MOVE_MEAN_LOOK, MOVE_PERISH_SONG, MOVE_TOXIC, MOVE_FLASH},
+					.moves = {MOVE_ICY_WIND, MOVE_HEADBUTT, MOVE_SPIKES, MOVE_FLASH},
 					.hpEV = 90,
 					.attackEV = 0,
 					.defenseEV = 210,
@@ -1611,7 +1611,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
-					.nickname = _("SMOOCHUM"),
+					.nickname = _("SNORUNT"),
 					.friendship = 0
 				},
 				{
@@ -1758,9 +1758,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_SMOOCHUM,
+					.species = SPECIES_MISDREAVUS,
 					.heldItem = ITEM_BRIGHT_POWDER,
-					.moves = {MOVE_SWEET_KISS, MOVE_PERISH_SONG, MOVE_TOXIC, MOVE_ATTRACT},
+					.moves = {MOVE_CONFUSE_RAY, MOVE_PERISH_SONG, MOVE_TOXIC, MOVE_MEAN_LOOK},
 					.hpEV = 110,
 					.attackEV = 0,
 					.defenseEV = 200,
@@ -1776,7 +1776,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
-					.nickname = _("SMOOCHUM"),
+					.nickname = _("MISDREAVUS"),
 					.friendship = 0
 				},
 				{
@@ -1823,9 +1823,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			.speechAfter = {EC_WORD_OH_YEAH, EC_WORD_EXCL, EC_WORD_THAT_S, EC_WORD_PRETTY, EC_WORD_EXCELLENT, EC_WORD_EXCL},
 			.mons = {
 				{
-					.species = SPECIES_PINSIR,
+					.species = SPECIES_HERACROSS,
 					.heldItem = ITEM_SCOPE_LENS,
-					.moves = {MOVE_GUILLOTINE, MOVE_BRICK_BREAK, MOVE_DIG, MOVE_REVENGE},
+					.moves = {MOVE_SWORDS_DANCE, MOVE_ROCK_SLIDE, MOVE_MEGAHORN, MOVE_REVENGE},
 					.hpEV = 100,
 					.attackEV = 210,
 					.defenseEV = 0,
@@ -1841,7 +1841,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
-					.nickname = _("PINSIR"),
+					.nickname = _("HERACROSS"),
 					.friendship = 255
 				},
 				{
@@ -2010,9 +2010,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RAPIDASH,
+					.species = SPECIES_INFERNAPE,
 					.heldItem = ITEM_SILK_SCARF,
-					.moves = {MOVE_BOUNCE, MOVE_IRON_TAIL, MOVE_THRASH, MOVE_DOUBLE_EDGE},
+					.moves = {MOVE_FAKE_OUT, MOVE_SLACK_OFF, MOVE_BLAZE_KICK, MOVE_STRENGTH},
 					.hpEV = 110,
 					.attackEV = 100,
 					.defenseEV = 100,
@@ -2028,7 +2028,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 1,
 					.personality = 0x94, // MALE CAREFUL
-					.nickname = _("RAPIDASH"),
+					.nickname = _("INFERNAPE"),
 					.friendship = 255
 				},
 				{
@@ -2076,9 +2076,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PERSIAN,
+					.species = SPECIES_FARIGIRAF,
 					.heldItem = ITEM_SILK_SCARF,
-					.moves = {MOVE_RETURN, MOVE_AERIAL_ACE, MOVE_IRON_TAIL, MOVE_DIG},
+					.moves = {MOVE_RETURN, MOVE_ZEN_HEADBUTT, MOVE_DOUBLE_KICK, MOVE_LIGHT_SCREEN},
 					.hpEV = 110,
 					.attackEV = 200,
 					.defenseEV = 0,
@@ -2094,7 +2094,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
-					.nickname = _("PERSIAN"),
+					.nickname = _("FARIGIRAF"),
 					.friendship = 255
 				},
 			}
@@ -2109,9 +2109,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			.speechAfter = {EC_WORD_I, EC_WORD_HAVE, EC_WORD_TO, EC_WORD_TRAIN, EC_WORD_SOME, EC_WORD_MORE},
 			.mons = {
 				{
-					.species = SPECIES_HITMONLEE,
+					.species = SPECIES_BLAZIKEN,
 					.heldItem = ITEM_KINGS_ROCK,
-					.moves = {MOVE_MEGA_KICK, MOVE_REVERSAL, MOVE_FOCUS_PUNCH, MOVE_BRICK_BREAK},
+					.moves = {MOVE_SUBSTITUTE, MOVE_BLAZE_KICK, MOVE_FOCUS_PUNCH, MOVE_BRICK_BREAK},
 					.hpEV = 0,
 					.attackEV = 0,
 					.defenseEV = 255,
@@ -2127,7 +2127,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x08, // MALE IMPISH
-					.nickname = _("HITMONLEE"),
+					.nickname = _("BLAZIKEN"),
 					.friendship = 255
 				},
 				{
@@ -2284,9 +2284,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TAUROS,
+					.species = SPECIES_EXPLOUD,
 					.heldItem = ITEM_SILK_SCARF,
-					.moves = {MOVE_EARTHQUAKE, MOVE_BODY_SLAM, MOVE_ROCK_TOMB, MOVE_PURSUIT},
+					.moves = {MOVE_EARTHQUAKE, MOVE_BODY_SLAM, MOVE_ROCK_TOMB, MOVE_CRUNCH},
 					.hpEV = 84,
 					.attackEV = 84,
 					.defenseEV = 84,
@@ -2302,7 +2302,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0C, // MALE SERIOUS
-					.nickname = _("TAUROS"),
+					.nickname = _("EXPLOUD"),
 					.friendship = 255
 				},
 				{
@@ -2328,9 +2328,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ARBOK,
+					.species = SPECIES_SWALOT,
 					.heldItem = ITEM_POISON_BARB,
-					.moves = {MOVE_IRON_TAIL, MOVE_SLUDGE_BOMB, MOVE_ROCK_SLIDE, MOVE_TOXIC},
+					.moves = {MOVE_IRON_DEFENSE, MOVE_SLUDGE_BOMB, MOVE_EARTHQUAKE, MOVE_TOXIC},
 					.hpEV = 84,
 					.attackEV = 84,
 					.defenseEV = 84,
@@ -2346,7 +2346,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x89, // MALE SERIOUS
-					.nickname = _("ARBOK"),
+					.nickname = _("SWALOT"),
 					.friendship = 255
 				},
 				{
@@ -2372,9 +2372,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RAPIDASH,
+					.species = SPECIES_TORKOAL,
 					.heldItem = ITEM_CHARCOAL,
-					.moves = {MOVE_FLAMETHROWER, MOVE_BOUNCE, MOVE_QUICK_ATTACK, MOVE_DOUBLE_KICK},
+					.moves = {MOVE_FLAMETHROWER, MOVE_ROCK_SLIDE, MOVE_SMOKESCREEN, MOVE_RAPID_SPIN},
 					.hpEV = 84,
 					.attackEV = 84,
 					.defenseEV = 84,
@@ -2390,7 +2390,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x89, // MALE SERIOUS
-					.nickname = _("RAPIDASH"),
+					.nickname = _("TORKOAL"),
 					.friendship = 255
 				},
 			}
@@ -2461,7 +2461,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MEOWTH,
+					.species = SPECIES_FURRET,
 					.heldItem = ITEM_SILK_SCARF,
 					.moves = {MOVE_CHARM, MOVE_ASSIST, MOVE_RETURN, MOVE_REST},
 					.hpEV = 255,
@@ -2479,11 +2479,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x89, // MALE SERIOUS
-					.nickname = _("MEOWTH"),
+					.nickname = _("FURRET"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_JIGGLYPUFF,
+					.species = SPECIES_MARILL,
 					.heldItem = ITEM_SILK_SCARF,
 					.moves = {MOVE_CHARM, MOVE_ROLLOUT, MOVE_RETURN, MOVE_REST},
 					.hpEV = 255,
@@ -2501,7 +2501,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0C, // FEMALE SERIOUS
-					.nickname = _("JIGGLYPUFF"),
+					.nickname = _("MARILL"),
 					.friendship = 255
 				},
 				{
@@ -2527,9 +2527,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SNUBBULL,
+					.species = SPECIES_ZIGZAGOON,
 					.heldItem = ITEM_LEFTOVERS,
-					.moves = {MOVE_CHARM, MOVE_LICK, MOVE_RETURN, MOVE_REST},
+					.moves = {MOVE_CHARM, MOVE_PURSUIT, MOVE_RETURN, MOVE_REST},
 					.hpEV = 255,
 					.attackEV = 255,
 					.defenseEV = 0,
@@ -2545,7 +2545,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0C, // FEMALE SERIOUS
-					.nickname = _("SNUBBULL"),
+					.nickname = _("ZIGZAGOON"),
 					.friendship = 255
 				},
 			}
@@ -2594,9 +2594,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_BEEDRILL,
+					.species = SPECIES_ARIADOS,
 					.heldItem = ITEM_BRIGHT_POWDER,
-					.moves = {MOVE_SLUDGE_BOMB, MOVE_TWINEEDLE, MOVE_DOUBLE_TEAM, MOVE_AERIAL_ACE},
+					.moves = {MOVE_POISON_JAB, MOVE_LEECH_LIFE, MOVE_DOUBLE_TEAM, MOVE_SUCKER_PUNCH},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -2612,7 +2612,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x8A, // MALE JOLLY
-					.nickname = _("BEEDRILL"),
+					.nickname = _("ARIADOS"),
 					.friendship = 255
 				},
 				{
@@ -2638,9 +2638,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_YANMA,
+					.species = SPECIES_VENOMOTH,
 					.heldItem = ITEM_BRIGHT_POWDER,
-					.moves = {MOVE_HYPNOSIS, MOVE_SONIC_BOOM, MOVE_QUICK_ATTACK, MOVE_AERIAL_ACE},
+					.moves = {MOVE_SLEEP_POWDER, MOVE_CONFUSION, MOVE_LEECH_LIFE, MOVE_ROOST},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -2656,7 +2656,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.spDefenseIV = 15,
 					.abilityNum = 1,
 					.personality = 0x8A, // MALE JOLLY
-					.nickname = _("YANMA"),
+					.nickname = _("VENOMOTH"),
 					.friendship = 255
 				},
 				{
@@ -2727,7 +2727,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 			.speechAfter = {EC_WORD_BIG, EC_WORD_BROTHER, EC_WORD_FIGHT, EC_WORD_EXCL, 0xFFFF, 0xFFFF},
 			.mons = {
 				{
-					.species = SPECIES_HITMONLEE,
+					.species = SPECIES_LUCARIO,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_ROCK_TOMB, MOVE_HI_JUMP_KICK, MOVE_BULK_UP, MOVE_PROTECT},
 					.hpEV = 255,
@@ -2745,7 +2745,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x02, // MALE BRAVE
-					.nickname = _("HITMONLEE"),
+					.nickname = _("LUCARIO"),
 					.friendship = 255
 				},
 				{
@@ -2892,9 +2892,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PINSIR,
-					.heldItem = ITEM_FOCUS_BAND,
-					.moves = {MOVE_ROCK_TOMB, MOVE_SEISMIC_TOSS, MOVE_SUBMISSION, MOVE_PROTECT},
+					.species = SPECIES_SCYTHER,
+					.heldItem = ITEM_CHOICE_BAND,
+					.moves = {MOVE_U_TURN, MOVE_NIGHT_SLASH, MOVE_WING_ATTACK, MOVE_STEEL_WING},
 					.hpEV = 255,
 					.attackEV = 255,
 					.defenseEV = 0,
@@ -2910,7 +2910,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
-					.nickname = _("PINSIR"),
+					.nickname = _("SCYTHER"),
 					.friendship = 255
 				},
 				{
@@ -2936,7 +2936,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HITMONCHAN,
+					.species = SPECIES_INFERNAPE,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_MACH_PUNCH, MOVE_THUNDER_PUNCH, MOVE_DOUBLE_TEAM, MOVE_PROTECT},
 					.hpEV = 255,
@@ -2954,7 +2954,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x03, // MALE ADAMANT
-					.nickname = _("HITMONCHAN"),
+					.nickname = _("INFERNAPE"),
 					.friendship = 255
 				},
 				{
@@ -3508,7 +3508,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_JUMPLUFF,
+					.species = SPECIES_TROPIUS,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_TAIL_WHIP, MOVE_SUNNY_DAY, MOVE_SOLAR_BEAM, MOVE_AERIAL_ACE},
 					.hpEV = 0,
@@ -3526,7 +3526,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0B, // FEMALE HASTY
-					.nickname = _("JUMPLUFF"),
+					.nickname = _("TROPIUS"),
 					.friendship = 255
 				},
 				{
@@ -3618,9 +3618,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 			.speechAfter = {EC_WORD_DON_T, EC_WORD_EVER, EC_WORD_POISON, EC_WORD_THE, EC_WORD_GREEN, EC_WORD_WORLD},
 			.mons = {
 				{
-					.species = SPECIES_VILEPLUME,
+					.species = SPECIES_CHERRIM,
 					.heldItem = ITEM_PETAYA_BERRY,
-					.moves = {MOVE_INGRAIN, MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB, MOVE_STUN_SPORE},
+					.moves = {MOVE_LEECH_SEED, MOVE_GIGA_DRAIN, MOVE_GROWTH, MOVE_STUN_SPORE},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -3636,7 +3636,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x11, // FEMALE QUIET
-					.nickname = _("VILEPLUME"),
+					.nickname = _("CHERRIM"),
 					.friendship = 255
 				},
 				{
@@ -3662,9 +3662,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_URSARING,
+					.species = SPECIES_GOLEM_ALOLA,
 					.heldItem = ITEM_LIECHI_BERRY,
-					.moves = {MOVE_FAINT_ATTACK, MOVE_BODY_SLAM, MOVE_BRICK_BREAK, MOVE_ROCK_TOMB},
+					.moves = {MOVE_SPARK, MOVE_BODY_SLAM, MOVE_BRICK_BREAK, MOVE_ROCK_TOMB},
 					.hpEV = 255,
 					.attackEV = 255,
 					.defenseEV = 0,
@@ -3680,7 +3680,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x01, // FEMALE LONELY
-					.nickname = _("URSARING"),
+					.nickname = _("GOLEM"),
 					.friendship = 255
 				},
 				{
@@ -3728,9 +3728,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_LEDIAN,
+					.species = SPECIES_BUTTERFREE,
 					.heldItem = ITEM_LIECHI_BERRY,
-					.moves = {MOVE_SILVER_WIND, MOVE_SWIFT, MOVE_AERIAL_ACE, MOVE_TOXIC},
+					.moves = {MOVE_SILVER_WIND, MOVE_PSYBEAM, MOVE_ENERGY_BALL, MOVE_TOXIC},
 					.hpEV = 0,
 					.attackEV = 255,
 					.defenseEV = 0,
@@ -3746,7 +3746,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x01, // FEMALE LONELY
-					.nickname = _("LEDIAN"),
+					.nickname = _("BUTTERFREE"),
 					.friendship = 255
 				},
 			}
@@ -3805,7 +3805,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DONPHAN,
+					.species = SPECIES_HIPPOWDON,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_EARTHQUAKE, MOVE_ANCIENT_POWER, MOVE_IRON_TAIL, MOVE_DOUBLE_EDGE},
 					.hpEV = 255,
@@ -3823,11 +3823,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x97, // MALE LONELY
-					.nickname = _("DONPHAN"),
+					.nickname = _("HIPPOWDON"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_FEAROW,
+					.species = SPECIES_DODRIO,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_FAINT_ATTACK, MOVE_DRILL_PECK, MOVE_STEEL_WING, MOVE_DOUBLE_TEAM},
 					.hpEV = 255,
@@ -3845,7 +3845,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x97, // MALE LONELY
-					.nickname = _("FEAROW"),
+					.nickname = _("DODRIO"),
 					.friendship = 255
 				},
 				{
@@ -4079,9 +4079,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RAPIDASH,
+					.species = SPECIES_TYPHLOSION,
 					.heldItem = ITEM_CHARCOAL,
-					.moves = {MOVE_BOUNCE, MOVE_FLAMETHROWER, MOVE_QUICK_ATTACK, MOVE_DOUBLE_KICK},
+					.moves = {MOVE_EARTHQUAKE, MOVE_FLAMETHROWER, MOVE_SMOKESCREEN, MOVE_DOUBLE_KICK},
 					.hpEV = 84,
 					.attackEV = 84,
 					.defenseEV = 84,
@@ -4097,7 +4097,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x0C, // FEMALE SERIOUS
-					.nickname = _("RAPIDASH"),
+					.nickname = _("TYPHLOSION"),
 					.friendship = 255
 				},
 				{
@@ -4200,9 +4200,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			.speechAfter = {EC_WORD_I, EC_MOVE2(REFRESH), EC_WORD_THINGS, EC_WORD_WITH, EC_WORD_REFRESHING, EC_MOVE(AROMATHERAPY)},
 			.mons = {
 				{
-					.species = SPECIES_BELLOSSOM,
+					.species = SPECIES_TANGROWTH,
 					.heldItem = ITEM_PERSIM_BERRY,
-					.moves = {MOVE_SWEET_SCENT, MOVE_ATTRACT, MOVE_PETAL_DANCE, MOVE_FLAIL},
+					.moves = {MOVE_ANCIENT_POWER, MOVE_POWER_WHIP, MOVE_KNOCK_OFF, MOVE_SLEEP_POWDER},
 					.hpEV = 84,
 					.attackEV = 84,
 					.defenseEV = 84,
@@ -4218,7 +4218,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0C, // FEMALE SERIOUS
-					.nickname = _("BELLOSSOM"),
+					.nickname = _("TANGROWTH"),
 					.friendship = 255
 				},
 				{
@@ -4266,9 +4266,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_VILEPLUME,
+					.species = SPECIES_TORTERRA,
 					.heldItem = ITEM_PERSIM_BERRY,
-					.moves = {MOVE_SWEET_SCENT, MOVE_ATTRACT, MOVE_PETAL_DANCE, MOVE_SLUDGE_BOMB},
+					.moves = {MOVE_EARTHQUAKE, MOVE_SYNTHESIS, MOVE_SEED_BOMB, MOVE_ROCK_SLIDE},
 					.hpEV = 84,
 					.attackEV = 84,
 					.defenseEV = 84,
@@ -4284,7 +4284,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0C, // FEMALE SERIOUS
-					.nickname = _("VILEPLUME"),
+					.nickname = _("TORTERRA"),
 					.friendship = 255
 				},
 				{
@@ -4584,9 +4584,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RATICATE,
+					.species = SPECIES_LUXRAY,
 					.heldItem = ITEM_SITRUS_BERRY,
-					.moves = {MOVE_SUPER_FANG, MOVE_HYPER_FANG, MOVE_THUNDER_WAVE, MOVE_QUICK_ATTACK},
+					.moves = {MOVE_THUNDER_FANG, MOVE_IRON_TAIL, MOVE_THUNDER_WAVE, MOVE_QUICK_ATTACK},
 					.hpEV = 110,
 					.attackEV = 200,
 					.defenseEV = 100,
@@ -4602,11 +4602,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x80, // MALE ADAMANT
-					.nickname = _("RATICATE"),
+					.nickname = _("LUXRAY"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DUNSPARCE,
+					.species = SPECIES_EXPLOUD,
 					.heldItem = ITEM_PERSIM_BERRY,
 					.moves = {MOVE_WATER_PULSE, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_YAWN},
 					.hpEV = 255,
@@ -4624,7 +4624,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x7F, // MALE BRAVE
-					.nickname = _("DUNSPARCE"),
+					.nickname = _("EXPLOUD"),
 					.friendship = 255
 				},
 			}
@@ -4916,9 +4916,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GRANBULL,
+					.species = SPECIES_CLEFABLE,
 					.heldItem = ITEM_LIECHI_BERRY,
-					.moves = {MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_SHADOW_BALL, MOVE_SLUDGE_BOMB},
+					.moves = {MOVE_THUNDERBOLT, MOVE_EARTHQUAKE, MOVE_SHADOW_BALL, MOVE_SLUDGE_BOMB},
 					.hpEV = 0,
 					.attackEV = 255,
 					.defenseEV = 130,
@@ -4934,7 +4934,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0xCA, // MALE BRAVE
-					.nickname = _("GRANBULL"),
+					.nickname = _("CLEFABLE"),
 					.friendship = 255
 				},
 			}
@@ -5005,9 +5005,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DEWGONG,
+					.species = SPECIES_WALREIN,
 					.heldItem = ITEM_PERSIM_BERRY,
-					.moves = {MOVE_DIVE, MOVE_ENCORE, MOVE_GROWL, MOVE_SAFEGUARD},
+					.moves = {MOVE_DIVE, MOVE_SWAGGER, MOVE_REST, MOVE_SNORE},
 					.hpEV = 200,
 					.attackEV = 0,
 					.defenseEV = 100,
@@ -5023,7 +5023,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x14, // FEMALE CALM
-					.nickname = _("DEWGONG"),
+					.nickname = _("WALREIN"),
 					.friendship = 255
 				},
 				{
@@ -5049,9 +5049,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CORSOLA,
+					.species = SPECIES_KABUTOPS,
 					.heldItem = ITEM_QUICK_CLAW,
-					.moves = {MOVE_DIG, MOVE_MIRROR_COAT, MOVE_RECOVER, MOVE_CONFUSE_RAY},
+					.moves = {MOVE_DIG, MOVE_AQUA_JET, MOVE_MEGA_DRAIN, MOVE_SLASH},
 					.hpEV = 155,
 					.attackEV = 0,
 					.defenseEV = 100,
@@ -5067,7 +5067,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x17, // FEMALE CAREFUL
-					.nickname = _("CORSOLA"),
+					.nickname = _("KABUTOPS"),
 					.friendship = 255
 				},
 				{
@@ -5148,9 +5148,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_KINGLER,
+					.species = SPECIES_CRAWDAUNT,
 					.heldItem = ITEM_QUICK_CLAW,
-					.moves = {MOVE_DIVE, MOVE_HARDEN, MOVE_LEER, MOVE_AMNESIA},
+					.moves = {MOVE_CRABHAMMER, MOVE_HARDEN, MOVE_BODY_SLAM, MOVE_KNOCK_OFF},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -5166,7 +5166,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x91, // MALE CALM
-					.nickname = _("KINGLER"),
+					.nickname = _("CRAWDAUNT"),
 					.friendship = 255
 				},
 				{
@@ -5346,9 +5346,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_JYNX,
+					.species = SPECIES_MISDREAVUS,
 					.heldItem = ITEM_BRIGHT_POWDER,
-					.moves = {MOVE_WATER_PULSE, MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_PSYCHIC},
+					.moves = {MOVE_CALM_MIND, MOVE_HYPNOSIS, MOVE_DREAM_EATER, MOVE_THUNDERBOLT},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 155,
@@ -5364,7 +5364,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x00, // FEMALE HARDY
-					.nickname = _("JYNX"),
+					.nickname = _("MISDREAVUS"),
 					.friendship = 255
 				},
 				{
@@ -5423,9 +5423,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_URSARING,
+					.species = SPECIES_MEDICHAM,
 					.heldItem = ITEM_SCOPE_LENS,
-					.moves = {MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_AERIAL_ACE},
+					.moves = {MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_PSYCHO_CUT},
 					.hpEV = 0,
 					.attackEV = 255,
 					.defenseEV = 155,
@@ -5441,7 +5441,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
-					.nickname = _("URSARING"),
+					.nickname = _("MEDICHAM"),
 					.friendship = 255
 				},
 				{
@@ -5742,9 +5742,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SNUBBULL,
+					.species = SPECIES_ZIGZAGOON,
 					.heldItem = ITEM_PECHA_BERRY,
-					.moves = {MOVE_WATER_PULSE, MOVE_THUNDER_WAVE, MOVE_CRUNCH, MOVE_SHADOW_BALL},
+					.moves = {MOVE_WATER_PULSE, MOVE_THUNDER_WAVE, MOVE_HEADBUTT, MOVE_SHADOW_BALL},
 					.hpEV = 110,
 					.attackEV = 100,
 					.defenseEV = 100,
@@ -5760,13 +5760,13 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x00, // FEMALE HARDY
-					.nickname = _("SNUBBULL"),
+					.nickname = _("ZIGZAGOON"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_JIGGLYPUFF,
+					.species = SPECIES_TURTWIG,
 					.heldItem = ITEM_SITRUS_BERRY,
-					.moves = {MOVE_WATER_PULSE, MOVE_THUNDER_WAVE, MOVE_SING, MOVE_DISABLE},
+					.moves = {MOVE_RAZOR_LEAF, MOVE_BITE, MOVE_CURSE, MOVE_LEECH_SEED},
 					.hpEV = 110,
 					.attackEV = 100,
 					.defenseEV = 100,
@@ -5782,7 +5782,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x0F, // FEMALE MODEST
-					.nickname = _("JIGGLYPUFF"),
+					.nickname = _("TURTWIG"),
 					.friendship = 255
 				},
 				{
@@ -5852,9 +5852,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			.speechAfter = {EC_WORD_YOU_RE, EC_WORD_A, EC_WORD_NICE, EC_WORD_TRAINER, EC_WORD_THANK_YOU, EC_WORD_EXCL},
 			.mons = {
 				{
-					.species = SPECIES_GOLDEEN,
+					.species = SPECIES_BUIZEL,
 					.heldItem = ITEM_SITRUS_BERRY,
-					.moves = {MOVE_WATER_PULSE, MOVE_MEGAHORN, MOVE_SUPERSONIC, MOVE_ICE_BEAM},
+					.moves = {MOVE_WATER_PULSE, MOVE_FURY_CUTTER, MOVE_PURSUIT, MOVE_ICE_FANG},
 					.hpEV = 110,
 					.attackEV = 100,
 					.defenseEV = 100,
@@ -5870,13 +5870,13 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x96, // MALE HARDY
-					.nickname = _("GOLDEEN"),
+					.nickname = _("BUIZEL"),
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_SEAKING,
+					.species = SPECIES_FLOATZEL,
 					.heldItem = ITEM_SCOPE_LENS,
-					.moves = {MOVE_SURF, MOVE_MEGAHORN, MOVE_HORN_DRILL, MOVE_PROTECT},
+					.moves = {MOVE_WATERFALL, MOVE_BRICK_BREAK, MOVE_CRUNCH, MOVE_PROTECT},
 					.hpEV = 100,
 					.attackEV = 100,
 					.defenseEV = 100,
@@ -5892,7 +5892,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x00, // FEMALE HARDY
-					.nickname = _("SEAKING"),
+					.nickname = _("FLOATZEL"),
 					.friendship = 0
 				},
 				{
@@ -5940,9 +5940,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_GOLDEEN,
+					.species = SPECIES_BUIZEL,
 					.heldItem = ITEM_APICOT_BERRY,
-					.moves = {MOVE_WATER_PULSE, MOVE_DOUBLE_EDGE, MOVE_TOXIC, MOVE_PSYBEAM},
+					.moves = {MOVE_AQUA_JET, MOVE_HEADBUTT, MOVE_TOXIC, MOVE_BRICK_BREAK},
 					.hpEV = 110,
 					.attackEV = 100,
 					.defenseEV = 100,
@@ -5958,13 +5958,13 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x00, // FEMALE HARDY
-					.nickname = _("GOLDEEN"),
+					.nickname = _("BUIZEL"),
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_SEAKING,
+					.species = SPECIES_FLOATZEL,
 					.heldItem = ITEM_PETAYA_BERRY,
-					.moves = {MOVE_SURF, MOVE_HYPER_BEAM, MOVE_ICE_BEAM, MOVE_PSYBEAM},
+					.moves = {MOVE_WATERFALL, MOVE_GIGA_IMPACT, MOVE_ICE_FANG, MOVE_CRUNCH},
 					.hpEV = 110,
 					.attackEV = 100,
 					.defenseEV = 100,
@@ -5980,7 +5980,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x96, // MALE HARDY
-					.nickname = _("SEAKING"),
+					.nickname = _("FLOATZEL"),
 					.friendship = 0
 				},
 			}
@@ -5995,9 +5995,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			.speechAfter = {EC_WORD_HOHOHO, EC_WORD_THANK_YOU, EC_WORD_FOR, EC_WORD_AN, EC_WORD_AMUSING, EC_WORD_BATTLE},
 			.mons = {
 				{
-					.species = SPECIES_OCTILLERY,
+					.species = SPECIES_KINGDRA,
 					.heldItem = ITEM_SITRUS_BERRY,
-					.moves = {MOVE_OCTAZOOKA, MOVE_ICE_BEAM, MOVE_PSYCHIC, MOVE_FLAMETHROWER},
+					.moves = {MOVE_OCTAZOOKA, MOVE_ICE_BEAM, MOVE_AGILITY, MOVE_DRAGON_BREATH},
 					.hpEV = 55,
 					.attackEV = 0,
 					.defenseEV = 100,
@@ -6013,13 +6013,13 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0F, // FEMALE MODEST
-					.nickname = _("OCTILLERY"),
+					.nickname = _("KINGDRA"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_QWILFISH,
+					.species = SPECIES_TENTACRUEL,
 					.heldItem = ITEM_PERSIM_BERRY,
-					.moves = {MOVE_SURF, MOVE_TOXIC, MOVE_REVENGE, MOVE_DOUBLE_TEAM},
+					.moves = {MOVE_SURF, MOVE_TOXIC, MOVE_PSYCHIC, MOVE_DOUBLE_TEAM},
 					.hpEV = 200,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -6035,13 +6035,13 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x14, // FEMALE CALM
-					.nickname = _("QWILFISH"),
+					.nickname = _("TENTACRUEL"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_REMORAID,
-					.heldItem = ITEM_PECHA_BERRY,
-					.moves = {MOVE_SURF, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_THUNDER_WAVE},
+					.species = SPECIES_CLAMPERL,
+					.heldItem = ITEM_DEEP_SEA_SCALE,
+					.moves = {MOVE_SURF, MOVE_IRON_DEFENSE, MOVE_ICE_BEAM, MOVE_CLAMP},
 					.hpEV = 0,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -6057,13 +6057,13 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x96, // MALE HARDY
-					.nickname = _("REMORAID"),
+					.nickname = _("CLAMPERL"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_REMORAID,
+					.species = SPECIES_SEADRA,
 					.heldItem = ITEM_WHITE_HERB,
-					.moves = {MOVE_WATER_PULSE, MOVE_BLIZZARD, MOVE_FIRE_BLAST, MOVE_PROTECT},
+					.moves = {MOVE_WATER_PULSE, MOVE_BLIZZARD, MOVE_SMOKESCREEN, MOVE_PROTECT},
 					.hpEV = 0,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -6079,13 +6079,13 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x00, // FEMALE HARDY
-					.nickname = _("REMORAID"),
+					.nickname = _("SEADRA"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_OCTILLERY,
+					.species = SPECIES_MANTINE,
 					.heldItem = ITEM_FOCUS_BAND,
-					.moves = {MOVE_OCTAZOOKA, MOVE_SLUDGE_BOMB, MOVE_THUNDER_WAVE, MOVE_HYPER_BEAM},
+					.moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_SIGNAL_BEAM, MOVE_HYPER_BEAM},
 					.hpEV = 155,
 					.attackEV = 100,
 					.defenseEV = 0,
@@ -6101,13 +6101,13 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x93, // MALE SASSY
-					.nickname = _("OCTILLERY"),
+					.nickname = _("MANTINE"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_QWILFISH,
+					.species = SPECIES_TENTACRUEL,
 					.heldItem = ITEM_QUICK_CLAW,
-					.moves = {MOVE_HYDRO_PUMP, MOVE_SLUDGE_BOMB, MOVE_SHADOW_BALL, MOVE_DESTINY_BOND},
+					.moves = {MOVE_HYDRO_PUMP, MOVE_SLUDGE_BOMB, MOVE_SHADOW_BALL, MOVE_TOXIC_SPIKES},
 					.hpEV = 100,
 					.attackEV = 100,
 					.defenseEV = 0,
@@ -6123,7 +6123,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x96, // MALE HARDY
-					.nickname = _("QWILFISH"),
+					.nickname = _("TENTACRUEL"),
 					.friendship = 255
 				},
 			}
@@ -6160,7 +6160,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAGIKARP,
+					.species = SPECIES_FEEBAS,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_SPLASH, MOVE_TACKLE, MOVE_NONE, MOVE_NONE},
 					.hpEV = 0,
@@ -6178,7 +6178,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0D, // FEMALE JOLLY
-					.nickname = _("MAGIKARP"),
+					.nickname = _("FEEBAS"),
 					.friendship = 255
 				},
 				{
@@ -6204,9 +6204,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GYARADOS,
+					.species = SPECIES_MILOTIC,
 					.heldItem = ITEM_SHELL_BELL,
-					.moves = {MOVE_HYPER_BEAM, MOVE_THUNDER_WAVE, MOVE_EARTHQUAKE, MOVE_PROTECT},
+					.moves = {MOVE_DRAGON_BREATH, MOVE_AQUA_RING, MOVE_HYDRO_PUMP, MOVE_MIRROR_COAT},
 					.hpEV = 0,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -6222,11 +6222,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x03, // FEMALE ADAMANT
-					.nickname = _("GYARADOS"),
+					.nickname = _("MILOTIC"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAGIKARP,
+					.species = SPECIES_FEEBAS,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_FLAIL, MOVE_TACKLE, MOVE_NONE, MOVE_NONE},
 					.hpEV = 0,
@@ -6244,7 +6244,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x94, // MALE CAREFUL
-					.nickname = _("MAGIKARP"),
+					.nickname = _("FEEBAS"),
 					.friendship = 255
 				},
 				{
@@ -6357,9 +6357,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CHANSEY,
+					.species = SPECIES_SWALOT,
 					.heldItem = ITEM_ORAN_BERRY,
-					.moves = {MOVE_WATER_PULSE, MOVE_SOFT_BOILED, MOVE_MINIMIZE, MOVE_THUNDER_WAVE},
+					.moves = {MOVE_WATER_PULSE, MOVE_STOCKPILE, MOVE_SWALLOW, MOVE_SHOCK_WAVE},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 255,
@@ -6375,11 +6375,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x05, // FEMALE BOLD
-					.nickname = _("CHANSEY"),
+					.nickname = _("SWALOT"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TAUROS,
+					.species = SPECIES_EXPLOUD,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB, MOVE_SWAGGER},
 					.hpEV = 110,
@@ -6397,7 +6397,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x03, // MALE ADAMANT
-					.nickname = _("TAUROS"),
+					.nickname = _("EXPLOUD"),
 					.friendship = 255
 				},
 				{
@@ -6500,7 +6500,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAGIKARP,
+					.species = SPECIES_FEEBAS,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_SPLASH, MOVE_FLAIL, MOVE_TACKLE, MOVE_NONE},
 					.hpEV = 0,
@@ -6518,13 +6518,13 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x17, // FEMALE CAREFUL
-					.nickname = _("MAGIKARP"),
+					.nickname = _("FEEBAS"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SEAKING,
+					.species = SPECIES_FLOATZEL,
 					.heldItem = ITEM_CHERI_BERRY,
-					.moves = {MOVE_HORN_DRILL, MOVE_MEGAHORN, MOVE_SUPERSONIC, MOVE_AGILITY},
+					.moves = {MOVE_IRON_TAIL, MOVE_CRUNCH, MOVE_AQUA_JET, MOVE_AGILITY},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 0,
@@ -6540,7 +6540,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x17, // FEMALE CAREFUL
-					.nickname = _("SEAKING"),
+					.nickname = _("FLOATZEL"),
 					.friendship = 255
 				},
 				{
@@ -6621,9 +6621,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_BLISSEY,
+					.species = SPECIES_TOGEKISS,
 					.heldItem = ITEM_LEFTOVERS,
-					.moves = {MOVE_WATER_PULSE, MOVE_MINIMIZE, MOVE_THUNDER_WAVE, MOVE_PROTECT},
+					.moves = {MOVE_WATER_PULSE, MOVE_EXTREME_SPEED, MOVE_THUNDER_WAVE, MOVE_AIR_SLASH},
 					.hpEV = 255,
 					.attackEV = 0,
 					.defenseEV = 255,
@@ -6639,7 +6639,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x05, // FEMALE BOLD
-					.nickname = _("BLISSEY"),
+					.nickname = _("TOGEKISS"),
 					.friendship = 255
 				},
 				{
@@ -6665,9 +6665,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PERSIAN,
+					.species = SPECIES_PIDGEOT,
 					.heldItem = ITEM_KINGS_ROCK,
-					.moves = {MOVE_SLASH, MOVE_SWAGGER, MOVE_PSYCH_UP, MOVE_FAKE_OUT},
+					.moves = {MOVE_U_TURN, MOVE_FEATHER_DANCE, MOVE_BRAVE_BIRD, MOVE_ROOST},
 					.hpEV = 0,
 					.attackEV = 255,
 					.defenseEV = 130,
@@ -6683,7 +6683,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.spDefenseIV = 10,
 					.abilityNum = 0,
 					.personality = 0x0D, // FEMALE JOLLY
-					.nickname = _("PERSIAN"),
+					.nickname = _("PIDGEOT"),
 					.friendship = 255
 				},
 				{
@@ -6951,9 +6951,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_BLISSEY,
+					.species = SPECIES_TOGEKISS,
 					.heldItem = ITEM_LUM_BERRY,
-					.moves = {MOVE_THUNDER_WAVE, MOVE_BLIZZARD, MOVE_WATER_PULSE, MOVE_REST},
+					.moves = {MOVE_THUNDER_WAVE, MOVE_PSYCHIC, MOVE_WATER_PULSE, MOVE_ROOST},
 					.hpEV = 0,
 					.attackEV = 0,
 					.defenseEV = 255,
@@ -6969,7 +6969,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 					.spDefenseIV = 10,
 					.abilityNum = 1,
 					.personality = 0x05, // FEMALE BOLD
-					.nickname = _("BLISSEY"),
+					.nickname = _("TOGEKISS"),
 					.friendship = 255
 				},
 				{
@@ -7195,9 +7195,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 			.speechAfter = {EC_WORD_MY, EC_WORD_INVINCIBLE, EC_WORD_STRATEGY, EC_WORD_WAS, EC_WORD_DESTROYED, EC_WORD_ELLIPSIS},
 			.mons = {
 				{
-					.species = SPECIES_MUK,
+					.species = SPECIES_SNEASLER,
 					.heldItem = ITEM_CHOICE_BAND,
-					.moves = {MOVE_THUNDERBOLT, MOVE_SLUDGE_BOMB, MOVE_SHADOW_BALL, MOVE_BODY_SLAM},
+					.moves = {MOVE_POISON_JAB, MOVE_CLOSE_COMBAT, MOVE_NIGHT_SLASH, MOVE_U_TURN},
 					.hpEV = 0,
 					.attackEV = 255,
 					.defenseEV = 155,
@@ -7213,7 +7213,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.spDefenseIV = 31,
 					.abilityNum = 1,
 					.personality = 0x07, // FEMALE RELAXED
-					.nickname = _("MUK"),
+					.nickname = _("SNEASLER"),
 					.friendship = 255
 				},
 				{
@@ -7360,9 +7360,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TAUROS,
-					.heldItem = ITEM_LUM_BERRY,
-					.moves = {MOVE_DOUBLE_EDGE, MOVE_ROCK_TOMB, MOVE_SURF, MOVE_REST},
+					.species = SPECIES_KLEAVOR,
+					.heldItem = ITEM_SITRUS_BERRY,
+					.moves = {MOVE_SLASH, MOVE_ROCK_TOMB, MOVE_X_SCISSOR, MOVE_AGILITY},
 					.hpEV = 0,
 					.attackEV = 255,
 					.defenseEV = 100,
@@ -7378,7 +7378,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.spDefenseIV = 31,
 					.abilityNum = 0,
 					.personality = 0x03, // MALE ADAMANT
-					.nickname = _("TAUROS"),
+					.nickname = _("KLEAVOR"),
 					.friendship = 255
 				},
 				{
@@ -7536,7 +7536,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DEWGONG,
+					.species = SPECIES_WALREIN,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_RAIN_DANCE, MOVE_SURF, MOVE_SHEER_COLD, MOVE_BLIZZARD},
 					.hpEV = 0,
@@ -7554,7 +7554,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x11, // FEMALE QUIET
-					.nickname = _("DEWGONG"),
+					.nickname = _("WALREIN"),
 					.friendship = 255
 				},
 				{
@@ -7723,9 +7723,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PERSIAN,
+					.species = SPECIES_OBSTAGOON,
 					.heldItem = ITEM_SHELL_BELL,
-					.moves = {MOVE_THUNDER, MOVE_FAKE_OUT, MOVE_WATER_PULSE, MOVE_RETURN},
+					.moves = {MOVE_THUNDER_PUNCH, MOVE_KNOCK_OFF, MOVE_CROSS_CHOP, MOVE_RETURN},
 					.hpEV = 0,
 					.attackEV = 155,
 					.defenseEV = 0,
@@ -7741,7 +7741,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x0B, // FEMALE HASTY
-					.nickname = _("PERSIAN"),
+					.nickname = _("OBSTAGOON"),
 					.friendship = 255
 				},
 				{
@@ -8229,9 +8229,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 			.speechAfter = {EC_WORD_ELECTRIC, EC_WORD_EXCL, EC_WORD_IT_S, EC_WORD_A, EC_WORD_TREASURE, EC_WORD_EXCL},
 			.mons = {
 				{
-					.species = SPECIES_GRANBULL,
+					.species = SPECIES_CLEFABLE,
 					.heldItem = ITEM_CHOICE_BAND,
-					.moves = {MOVE_THUNDERBOLT, MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB},
+					.moves = {MOVE_THUNDERBOLT, MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB},
 					.hpEV = 0,
 					.attackEV = 255,
 					.defenseEV = 55,
@@ -8247,13 +8247,13 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x02, // FEMALE BRAVE
-					.nickname = _("GRANBULL"),
+					.nickname = _("CLEFABLE"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PERSIAN,
+					.species = SPECIES_KANGASKHAN,
 					.heldItem = ITEM_SCOPE_LENS,
-					.moves = {MOVE_THUNDERBOLT, MOVE_WATER_PULSE, MOVE_HYPNOSIS, MOVE_SLASH},
+					.moves = {MOVE_IRON_TAIL, MOVE_ROCK_SLIDE, MOVE_DYNAMIC_PUNCH, MOVE_MEGA_KICK},
 					.hpEV = 0,
 					.attackEV = 100,
 					.defenseEV = 55,
@@ -8269,11 +8269,11 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x80, // MALE ADAMANT
-					.nickname = _("PERSIAN"),
+					.nickname = _("KANGASKHAN"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_LICKITUNG,
+					.species = SPECIES_EXPLOUD,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_PROTECT, MOVE_SURF, MOVE_EARTHQUAKE, MOVE_SHADOW_BALL},
 					.hpEV = 200,
@@ -8291,13 +8291,13 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 0,
 					.personality = 0x02, // FEMALE BRAVE
-					.nickname = _("LICKITUNG"),
+					.nickname = _("EXPLOUD"),
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RATICATE,
+					.species = SPECIES_TOXICROAK,
 					.heldItem = ITEM_SALAC_BERRY,
-					.moves = {MOVE_THUNDERBOLT, MOVE_HYPER_FANG, MOVE_SUPER_FANG, MOVE_REVERSAL},
+					.moves = {MOVE_DARK_PULSE, MOVE_POISON_JAB, MOVE_BULLET_PUNCH, MOVE_REVERSAL},
 					.hpEV = 0,
 					.attackEV = 255,
 					.defenseEV = 100,
@@ -8313,7 +8313,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x94, // MALE CAREFUL
-					.nickname = _("RATICATE"),
+					.nickname = _("TOXICROAK"),
 					.friendship = 255
 				},
 				{
@@ -8394,9 +8394,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MUK,
+					.species = SPECIES_SWALOT,
 					.heldItem = ITEM_LEFTOVERS,
-					.moves = {MOVE_THUNDERBOLT, MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_CURSE},
+					.moves = {MOVE_EARTHQUAKE, MOVE_GUNK_SHOT, MOVE_BODY_SLAM, MOVE_CURSE},
 					.hpEV = 0,
 					.attackEV = 0,
 					.defenseEV = 150,
@@ -8412,7 +8412,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.spDefenseIV = 20,
 					.abilityNum = 1,
 					.personality = 0x84, // MALE RELAXED
-					.nickname = _("MUK"),
+					.nickname = _("SWALOT"),
 					.friendship = 255
 				},
 				{
@@ -8756,7 +8756,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_JIGGLYPUFF,
+					.species = SPECIES_CLEFAIRY,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_SHOCK_WAVE, MOVE_SHADOW_BALL, MOVE_FOCUS_PUNCH, MOVE_BODY_SLAM},
 					.hpEV = 0,
@@ -8774,7 +8774,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0x16, // FEMALE SASSY
-					.nickname = _("JIGGLYPUFF"),
+					.nickname = _("CLEFAIRY"),
 					.friendship = 255
 				},
 				{
@@ -8811,9 +8811,9 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 			.speechAfter = {EC_WORD_WHOAH, EC_WORD_EXCL, EC_WORD_I_AM, EC_WORD_DROOLING, EC_WORD_ALL, EC_WORD_OVER},
 			.mons = {
 				{
-					.species = SPECIES_WIGGLYTUFF,
+					.species = SPECIES_MILTANK,
 					.heldItem = ITEM_CHOICE_BAND,
-					.moves = {MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_WATER_PULSE, MOVE_FLAMETHROWER},
+					.moves = {MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_WATER_PULSE, MOVE_SHADOW_BALL},
 					.hpEV = 0,
 					.attackEV = 0,
 					.defenseEV = 155,
@@ -8829,7 +8829,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.spDefenseIV = 15,
 					.abilityNum = 0,
 					.personality = 0xCF, // MALE RELAXED
-					.nickname = _("WIGGLYTUFF"),
+					.nickname = _("MILTANK"),
 					.friendship = 255
 				},
 				{

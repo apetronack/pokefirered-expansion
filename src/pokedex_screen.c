@@ -1392,10 +1392,13 @@ static u16 DexScreen_CountMonsInOrderedList(u8 orderIdx)
 {
     bool32 isNationalDex = IsNationalPokedexEnabled();
     u16 natDexNum;
-    u16 ret = 0;
+    u16 seenCount = 0;
     s32 i;
     bool8 caught;
     bool8 seen;
+    
+    FREE_IF_NOT_NULL(sPokedexScreenData->listItems);
+    sPokedexScreenData->listItems = AllocZeroed(NATIONAL_DEX_COUNT * sizeof(struct ListMenuItem));
 
     switch (orderIdx)
     {
@@ -1409,7 +1412,7 @@ static u16 DexScreen_CountMonsInOrderedList(u8 orderIdx)
             if (seen)
             {
                 sPokedexScreenData->listItems[i].label = gSpeciesInfo[NationalPokedexNumToSpecies(natDexNum)].speciesName;
-                ret = i + 1;
+                seenCount = i + 1;
             }
             else
             {
@@ -1428,9 +1431,9 @@ static u16 DexScreen_CountMonsInOrderedList(u8 orderIdx)
                 caught = DexScreen_GetSetPokedexFlag(natDexNum, FLAG_GET_CAUGHT, FALSE);
                 if (seen)
                 {
-                    sPokedexScreenData->listItems[ret].label = gSpeciesInfo[NationalPokedexNumToSpecies(natDexNum)].speciesName;
-                    sPokedexScreenData->listItems[ret].index = (caught << 17) + (seen << 16) + NationalPokedexNumToSpecies(natDexNum);
-                    ret++;
+                    sPokedexScreenData->listItems[seenCount].label = gSpeciesInfo[NationalPokedexNumToSpecies(natDexNum)].speciesName;
+                    sPokedexScreenData->listItems[seenCount].index = (caught << 17) + (seen << 16) + NationalPokedexNumToSpecies(natDexNum);
+                    seenCount++;
                 }
             }
         }
@@ -1445,9 +1448,9 @@ static u16 DexScreen_CountMonsInOrderedList(u8 orderIdx)
                 caught = DexScreen_GetSetPokedexFlag(natDexNum, FLAG_GET_CAUGHT, FALSE);
                 if (caught)
                 {
-                    sPokedexScreenData->listItems[ret].label = gSpeciesInfo[NationalPokedexNumToSpecies(natDexNum)].speciesName;
-                    sPokedexScreenData->listItems[ret].index = (caught << 17) + (seen << 16) + NationalPokedexNumToSpecies(natDexNum);
-                    ret++;
+                    sPokedexScreenData->listItems[seenCount].label = gSpeciesInfo[NationalPokedexNumToSpecies(natDexNum)].speciesName;
+                    sPokedexScreenData->listItems[seenCount].index = (caught << 17) + (seen << 16) + NationalPokedexNumToSpecies(natDexNum);
+                    seenCount++;
                 }
             }
         }
@@ -1462,9 +1465,9 @@ static u16 DexScreen_CountMonsInOrderedList(u8 orderIdx)
                 caught = DexScreen_GetSetPokedexFlag(natDexNum, FLAG_GET_CAUGHT, FALSE);
                 if (caught)
                 {
-                    sPokedexScreenData->listItems[ret].label = gSpeciesInfo[NationalPokedexNumToSpecies(natDexNum)].speciesName;
-                    sPokedexScreenData->listItems[ret].index = (caught << 17) + (seen << 16) + NationalPokedexNumToSpecies(natDexNum);
-                    ret++;
+                    sPokedexScreenData->listItems[seenCount].label = gSpeciesInfo[NationalPokedexNumToSpecies(natDexNum)].speciesName;
+                    sPokedexScreenData->listItems[seenCount].index = (caught << 17) + (seen << 16) + NationalPokedexNumToSpecies(natDexNum);
+                    seenCount++;
                 }
             }
         }
@@ -1479,33 +1482,48 @@ static u16 DexScreen_CountMonsInOrderedList(u8 orderIdx)
                 caught = DexScreen_GetSetPokedexFlag(natDexNum, FLAG_GET_CAUGHT, FALSE);
                 if (caught)
                 {
-                    sPokedexScreenData->listItems[ret].label = gSpeciesInfo[NationalPokedexNumToSpecies(natDexNum)].speciesName;
-                    sPokedexScreenData->listItems[ret].index = (caught << 17) + (seen << 16) + NationalPokedexNumToSpecies(natDexNum);
-                    ret++;
+                    sPokedexScreenData->listItems[seenCount].label = gSpeciesInfo[NationalPokedexNumToSpecies(natDexNum)].speciesName;
+                    sPokedexScreenData->listItems[seenCount].index = (caught << 17) + (seen << 16) + NationalPokedexNumToSpecies(natDexNum);
+                    seenCount++;
                 }
             }
         }
         break;
     case DEX_ORDER_NUMERICAL_NATIONAL:
-        for (i = 0; i < NATIONAL_DEX_COUNT; i++)
+        u32 species;
+        for (i = SPECIES_BULBASAUR; i < NUM_SPECIES; i++)
         {
-            natDexNum = i + 1;
+            species = SanitizeSpeciesId(i);
+            natDexNum = gSpeciesInfo[species].natDexNum;
+            if (!natDexNum)
+                continue;
             seen = DexScreen_GetSetPokedexFlag(natDexNum, FLAG_GET_SEEN, FALSE);
             caught = DexScreen_GetSetPokedexFlag(natDexNum, FLAG_GET_CAUGHT, FALSE);
-            if (seen)
+            
+            if (!sPokedexScreenData->listItems[natDexNum - 1].index)
             {
-                sPokedexScreenData->listItems[i].label = gSpeciesInfo[NationalPokedexNumToSpecies(natDexNum)].speciesName;
-                ret = natDexNum;
+                if (seen)
+                {
+                    sPokedexScreenData->listItems[natDexNum - 1].label = gSpeciesInfo[species].speciesName;
+                    seenCount = natDexNum > seenCount ? natDexNum : seenCount;
+                }
+                else
+                {
+                    sPokedexScreenData->listItems[natDexNum - 1].label = gText_5Dashes;
+                }
+                sPokedexScreenData->listItems[natDexNum - 1].index = (caught << 17) + (seen << 16) + species;
             }
-            else
-            {
+        }
+
+        // in case national dex nums are missing
+        for (i = 0; i < NATIONAL_DEX_COUNT; i++)
+        {
+            if (!sPokedexScreenData->listItems[i].index)
                 sPokedexScreenData->listItems[i].label = gText_5Dashes;
-            }
-            sPokedexScreenData->listItems[i].index = (caught << 17) + (seen << 16) + NationalPokedexNumToSpecies(natDexNum);
         }
         break;
     }
-    return ret;
+    return seenCount;
 }
 
 static void DexScreen_InitListMenuForOrderedList(const struct ListMenuTemplate * template, u8 order)
@@ -3057,6 +3075,9 @@ static u8 DexScreen_DrawMonDexPage(bool8 justRegistered)
     sPokedexScreenData->windowIds[1] = AddWindow(&sWindowTemplate_DexEntry_SpeciesStats);
     sPokedexScreenData->windowIds[2] = AddWindow(&sWindowTemplate_DexEntry_FlavorText);
 
+    // free category windows here to prevent running out of heap
+    DexScreen_DestroyCategoryPageMonIconAndInfoWindows();
+
     // Mon pic
     FillWindowPixelBuffer(sPokedexScreenData->windowIds[0], PIXEL_FILL(0));
     DexScreen_LoadMonPicInWindow(sPokedexScreenData->windowIds[0], sPokedexScreenData->dexSpecies, 144);
@@ -3530,12 +3551,8 @@ static void Task_DexScreen_RegisterMonToPokedex(u8 taskId)
         sPokedexScreenData->state = 8;
         break;
     case 8:
-        if (!IsDma3ManagerBusyWithBgCopy())
-        {
-            FreeAllWindowBuffers(); // fixed crash after catching mon and pokedex is shown
-            DexScreen_DrawMonDexPage(TRUE);
-            sPokedexScreenData->state = 9;
-        }
+        DexScreen_DrawMonDexPage(TRUE);
+        sPokedexScreenData->state = 9;
         break;
     case 9:
         sPokedexScreenData->data[0] = 0;

@@ -74,10 +74,31 @@ VermilionCity_Text_DontHaveNeededSSTicket::
 VermilionCity_Text_TheShipSetSail::
     .string "The ship set sail.$"
 
+VermilionCity_Text_TheShipSetSailButCanHelp::
+    .string "The ship set sail…\p"
+    .string "But hey, I can take you to\n"
+    .string "the dock area if you'd like.$"
+
+VermilionCity_Text_FerrySailorNoDockAccess::
+    .string "The ferry isn't running regular\n"
+    .string "routes to the islands yet.\p"
+    .string "But I can still help you get to\n"
+    .string "the ship dock area.\p"
+    .string "I've been working these waters\n"
+    .string "for years. I know my way around!$"
+
 VermilionCity_Text_BoardSeagallopTriPass::
     .string "Ah, you have a TRI-PASS.\p"
     .string "Would you like to board\n"
     .string "a SEAGALLOP ferry?$"
+
+VermilionCity_Text_BoardSeagallopTriPassOrDock::
+    .string "With your TRI-PASS, you can\n"
+    .string "board the SEAGALLOP ferry to the\l"
+    .string "SEVII ISLANDS.\p"
+    .string "Or if you'd like, I can still take\n"
+    .string "you to the old SS ANNE dock area.\p"
+    .string "What would you prefer?$"
 
 VermilionCity_Text_Seagallop7Departing::
     .string "Okay, everything's in order.\p"
@@ -88,6 +109,14 @@ VermilionCity_Text_BoardSeagallopRainbowPass::
     .string "Ah, you have a RAINBOW PASS.\p"
     .string "Would you like to board\n"
     .string "a SEAGALLOP ferry?$"
+
+VermilionCity_Text_BoardSeagallopRainbowPassOrDock::
+    .string "With your RAINBOW PASS, you can\n"
+    .string "board the SEAGALLOP ferry to the\l"
+    .string "SEVII ISLANDS.\p"
+    .string "Or if you'd like, I can still take\n"
+    .string "you to the old SS ANNE dock area.\p"
+    .string "What would you prefer?$"
 
 VermilionCity_Text_OhMysticTicketTakeYouToNavelRock::
     .string "Oh! That's a MYSTICTICKET!\n"
@@ -128,4 +157,29 @@ VermilionCity_Text_Route2AideHasPackageForYou::
     .string "ROUTE 2, {PLAYER}.\p"
     .string "If you're in the ROUTE 2 area,\n"
     .string "please look for him.$"
+
+VermilionCity_Text_TruckNormal::
+    .string "There's a large truck parked here.\p"
+    .string "Nothing special about it.$"
+
+VermilionCity_Text_DockAreaGuideIntro::
+    .string "Ahoy there! I'm an old sailor who\n"
+    .string "worked on the SS ANNE for years.\p"
+    .string "Even though she's sailed away, I still\n"
+    .string "know the old dock area like the back\l"
+    .string "of my hand.$"
+
+VermilionCity_Text_DockAreaGuideOffer::
+    .string "Would you like me to take you out\n"
+    .string "to the old SS ANNE dock area?\p"
+    .string "There might be some interesting\n"
+    .string "things left behind…$"
+
+VermilionCity_Text_DockAreaGuideAccept::
+    .string "Aye! Follow me, then.\n"
+    .string "I'll get us out there safely.$"
+
+VermilionCity_Text_DockAreaGuideDecline::
+    .string "No worries! I'll be here if you\n"
+    .string "change your mind later.$"
 

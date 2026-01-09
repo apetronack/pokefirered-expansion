@@ -1,0 +1,16 @@
+raw `
+SSAnne_1F_Room7_MapScripts::
+	.byte 0
+
+SSAnne_1F_Room7_EventScript_Thomas::
+	trainerbattle_single TRAINER_GENTLEMAN_THOMAS, SSAnne_1F_Room7_Text_ThomasIntro, SSAnne_1F_Room7_Text_ThomasDefeat
+	goto_if_set FLAG_BEAT_THOMAS, SSAnne_1F_Room7_EventScript_ThomasDefeated
+	giveitem_msg SSAnne_1F_Room7_Text_ThomasGaveItems, ITEM_SUPER_POTION, 15
+	setflag FLAG_BEAT_THOMAS
+	end
+
+SSAnne_1F_Room7_EventScript_ThomasDefeated::
+	msgbox SSAnne_1F_Room7_Text_ThomasPostBattle, MSGBOX_AUTOCLOSE
+	release
+	end
+`

@@ -546,6 +546,7 @@ gStdScriptsEnd::
 	.include "data/maps/SSAnne_B1F_Room4/text.inc"
 	.include "data/maps/SSAnne_B1F_Room5/text.inc"
 	.include "data/maps/SSAnne_1F_Room6/text.inc"
+	.include "data/maps/SSAnne_Exterior/text.inc"
 	.include "data/maps/UndergroundPath_SouthEntrance/text.inc"
 	.include "data/maps/UndergroundPath_WestEntrance/text.inc"
 	.include "data/maps/UndergroundPath_EastEntrance/text.inc"
@@ -603,6 +604,7 @@ gStdScriptsEnd::
 	.include "data/maps/MtEmber_Exterior/text.inc"
 	.include "data/maps/MtEmber_RubyPath_B3F/text.inc"
 	.include "data/maps/ThreeIsland_BerryForest/text.inc"
+	.include "data/maps/FourIsland_IcefallCave_Entrance/text.inc"
 	.include "data/maps/FourIsland_IcefallCave_Back/text.inc"
 	.include "data/maps/FiveIsland_RocketWarehouse/text.inc"
 	.include "data/maps/SixIsland_DottedHole_SapphireRoom/text.inc"
@@ -610,6 +612,8 @@ gStdScriptsEnd::
 	.include "data/maps/TrainerTower_Lobby/text.inc"
 	.include "data/maps/FiveIsland_LostCave_Room1/text.inc"
 	.include "data/maps/FiveIsland_LostCave_Room4/text.inc"
+	.include "data/maps/FiveIsland_LostCave_Room6/text.inc"
+	.include "data/maps/FiveIsland_LostCave_Room9/text.inc"
 	.include "data/maps/FiveIsland_LostCave_Room10/text.inc"
 	.include "data/maps/ThreeIsland_DunsparceTunnel/text.inc"
 	.include "data/maps/SevenIsland_SevaultCanyon_TanobyKey/text.inc"
@@ -891,12 +895,10 @@ Text_GiveNicknameToReceivedMon::
 	.string "{STR_VAR_2} you received?$"
 
 Text_WelcomeWantToHealPkmn::
-	.string "Welcome to our POKéMON CENTER!\p"
-	.string "Would you like me to heal your\n"
-	.string "POKéMON back to perfect health?$"
+	.string "Welcome to our POKéMON CENTER!$"
 
 Text_TakeYourPkmnForFewSeconds::
-	.string "Okay, I'll take your POKéMON for a\n"
+	.string "I'll take your POKéMON for a\n"
 	.string "few seconds.$"
 
 Text_WeHopeToSeeYouAgain::
@@ -1368,3 +1370,22 @@ Text_TestMsg::
 	.include "data/text/new_game_intro.inc"
 	.include "data/text/pokedude.inc"
 	.include "data/scripts/follower.inc"
+	.include "data/scripts/dexnav.inc"
+
+	.include "data/maps/CaveOfInnerStrength/scripts.inc"
+	.include "data/maps/CaveOfInnerStrength/text.inc"
+
+	.include "data/maps/CritterCave/scripts.inc"
+	.include "data/maps/CritterCave/text.inc"
+
+	.include "data/maps/ShadowClawArea/scripts.inc"
+	.include "data/maps/ShadowClawArea/text.inc"
+
+	.include "data/maps/PiplupCave/scripts.inc"
+	.include "data/maps/PiplupCave/text.inc"
+
+	.include "data/maps/Route13_MoveRelearnerHouse/scripts.inc"
+	.include "data/maps/Route13_MoveRelearnerHouse/text.inc"
+
+	.include "data/maps/Route13_MovingHouse/scripts.inc"
+	.include "data/maps/Route13_MovingHouse/text.inc"

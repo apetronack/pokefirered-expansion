@@ -65,8 +65,9 @@ SilphCo_5F_Text_Over350TechniquesConfirmed::
 
 SilphCo_5F_Text_SomeMonsEvolveWhenTraded::
     .string "It's a POKéMON REPORT!\p"
-    .string "Some POKéMON have been confirmed\n"
-    .string "to evolve when they are traded.$"
+    .string "Some POKéMON that used to\n"
+    .string "evolve when they were traded\p"
+    .string "now just need an item!$"
 
 SilphCo_5F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"

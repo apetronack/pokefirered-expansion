@@ -7,6 +7,7 @@
 #include "constants/moves.h"
 #include "constants/party_menu.h"
 
+static bool32 FieldMove_IsUnlockedDig(void);
 static bool32 FieldMove_IsUnlockedCut(void);
 static bool32 FieldMove_IsUnlockedFly(void);
 static bool32 FieldMove_IsUnlockedSurf(void);
@@ -21,7 +22,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
 {
     [FIELD_MOVE_CUT] =
     {
-        .defaultSpecies = SPECIES_FARFETCHD,
+        .defaultSpecies = SPECIES_SHEDINJA,
         .isUnlockedFunc = FieldMove_IsUnlockedCut,
         .moveId = MOVE_CUT,
         .partyMessageId = PARTY_MSG_NOTHING_TO_CUT,
@@ -31,7 +32,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_FLY] =
     {
-        .defaultSpecies = SPECIES_PIDGEOT,
+        .defaultSpecies = SPECIES_STARAPTOR,
         .isUnlockedFunc = FieldMove_IsUnlockedFly,
         .moveId = MOVE_FLY,
         .partyMessageId = PARTY_MSG_CANT_USE_HERE,
@@ -41,7 +42,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_SURF] =
     {
-        .defaultSpecies = SPECIES_LAPRAS,
+        .defaultSpecies = SPECIES_FERALIGATR,
         .isUnlockedFunc = FieldMove_IsUnlockedSurf,
         .moveId = MOVE_SURF,
         .partyMessageId = PARTY_MSG_CANT_SURF_HERE,
@@ -81,7 +82,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_WATERFALL] =
     {
-        .defaultSpecies = SPECIES_GYARADOS,
+        .defaultSpecies = SPECIES_WALREIN,
         .isUnlockedFunc = FieldMove_IsUnlockedWaterfall,
         .moveId = MOVE_WATERFALL,
         .partyMessageId = PARTY_MSG_CANT_USE_HERE,
@@ -91,7 +92,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_WHIRLPOOL] =
     {
-        .defaultSpecies = SPECIES_SHELLDER,
+        .defaultSpecies = SPECIES_CLOYSTER,
         .isUnlockedFunc = NULL,
         .moveId = MOVE_NONE,
         .partyMessageId = PARTY_MSG_CANT_USE_HERE,
@@ -101,7 +102,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_DIVE] =
     {
-        .defaultSpecies = SPECIES_SEEL,
+        .defaultSpecies = SPECIES_MILOTIC,
         .isUnlockedFunc = NULL,
         .moveId = MOVE_NONE,
         .partyMessageId = PARTY_MSG_CANT_USE_HERE,
@@ -141,8 +142,8 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_DIG] =
     {
-        .defaultSpecies = SPECIES_DIGLETT,
-        .isUnlockedFunc = NULL,
+        .defaultSpecies = SPECIES_ONIX,
+        .isUnlockedFunc = FieldMove_IsUnlockedDig,
         .moveId = MOVE_DIG,
         .partyMessageId = PARTY_MSG_CANT_USE_HERE,
         .description = COMPOUND_STRING("Escape from here."),
@@ -161,7 +162,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_SOFT_BOILED] =
     {
-        .defaultSpecies = SPECIES_CHANSEY,
+        .defaultSpecies = SPECIES_EXEGGCUTE,
         .isUnlockedFunc = NULL,
         .moveId = MOVE_SOFT_BOILED,
         .partyMessageId = PARTY_MSG_NOT_ENOUGH_HP,
@@ -171,7 +172,7 @@ const struct FieldMoveInfo gFieldMovesInfo[FIELD_MOVE_COUNT] =
     },
     [FIELD_MOVE_SWEET_SCENT] =
     {
-        .defaultSpecies = SPECIES_ODDISH,
+        .defaultSpecies = SPECIES_ROSELIA,
         .isUnlockedFunc = NULL,
         .moveId = MOVE_SWEET_SCENT,
         .partyMessageId = PARTY_MSG_CANT_USE_HERE,
@@ -199,34 +200,39 @@ bool32 FieldMove_IsUnlocked(enum FieldMove fieldMove)
     return gFieldMovesInfo[fieldMove].isUnlockedFunc();
 }
 
+static bool32 FieldMove_IsUnlockedDig(void)
+{
+    return FlagGet(FLAG_GOT_TM28_FROM_ROCKET);
+}
+
 static bool32 FieldMove_IsUnlockedCut(void)
 {
-    return FlagGet(FLAG_BADGE02_GET);
+    return FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_GOT_HM01);
 }
 
 static bool32 FieldMove_IsUnlockedFly(void)
 {
-    return FlagGet(FLAG_BADGE03_GET);
+    return FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_GOT_HM02);
 }
 
 static bool32 FieldMove_IsUnlockedSurf(void)
 {
-    return FlagGet(FLAG_BADGE05_GET);
+    return FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_GOT_HM03);
 }
 
 static bool32 FieldMove_IsUnlockedStrength(void)
 {
-    return FlagGet(FLAG_BADGE04_GET);
+    return FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_GOT_HM04);
 }
 
 static bool32 FieldMove_IsUnlockedFlash(void)
 {
-    return FlagGet(FLAG_BADGE01_GET);
+    return FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_GOT_HM05);
 }
 
 static bool32 FieldMove_IsUnlockedRockSmash(void)
 {
-    return FlagGet(FLAG_BADGE06_GET);
+    return FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_GOT_HM06);
 }
 
 static bool32 FieldMove_IsUnlockedWaterfall(void)

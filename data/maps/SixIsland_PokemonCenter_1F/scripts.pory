@@ -1,0 +1,116 @@
+raw `
+.equ LOCALID_RIVAL, 2
+
+SixIsland_PokemonCenter_1F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, SixIsland_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, SixIsland_PokemonCenter_1F_OnFrame
+	.byte 0
+
+SixIsland_PokemonCenter_1F_OnTransition::
+	setrespawn SPAWN_SIX_ISLAND
+	call_if_eq VAR_MAP_SCENE_SIX_ISLAND_POKEMON_CENTER_1F, 0, SixIsland_PokemonCenter_1F_EventScript_ShowRival
+	end
+
+SixIsland_PokemonCenter_1F_EventScript_ShowRival::
+	clearflag FLAG_HIDE_SIX_ISLAND_POKECENTER_RIVAL
+	return
+
+SixIsland_PokemonCenter_1F_OnFrame::
+	map_script_2 VAR_MAP_SCENE_SIX_ISLAND_POKEMON_CENTER_1F, 0, SixIsland_PokemonCenter_1F_EventScript_RivalScene
+	.2byte 0
+
+SixIsland_PokemonCenter_1F_EventScript_RivalScene::
+	lockall
+	textcolor NPC_TEXT_COLOR_MALE
+	applymovement LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playbgm MUS_ENCOUNTER_RIVAL, 0
+	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVAL, Common_Movement_Delay48
+	waitmovement 0
+	delay 25
+	applymovement LOCALID_RIVAL, SixIsland_PokemonCenter_1F_Movement_RivalApproach
+	waitmovement 0
+	msgbox SixIsland_PokemonCenter_1F_Text_RivalImpossibleToGetAllMonsAroundHere
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, SixIsland_PokemonCenter_1F_Movement_PlayerWatchRivalExit
+	applymovement LOCALID_RIVAL, SixIsland_PokemonCenter_1F_Movement_RivalExit
+	waitmovement 0
+	fadedefaultbgm
+	playse SE_EXIT
+	delay 35
+	removeobject LOCALID_RIVAL
+	setvar VAR_MAP_SCENE_SIX_ISLAND_POKEMON_CENTER_1F, 1
+	setvar VAR_MAP_SCENE_FOUR_ISLAND, 1
+	releaseall
+	end
+
+SixIsland_PokemonCenter_1F_Movement_RivalApproach::
+	walk_right
+	walk_right
+	walk_down
+	walk_down
+	step_end
+
+SixIsland_PokemonCenter_1F_Movement_RivalExit::
+	delay_16
+	delay_4
+	walk_down
+	step_end
+
+SixIsland_PokemonCenter_1F_Movement_PlayerWatchRivalExit::
+	walk_left
+	walk_in_place_faster_right
+	step_end
+
+SixIsland_PokemonCenter_1F_EventScript_Nurse::
+	lock
+	faceplayer
+	call EventScript_PkmnCenterNurse
+	release
+	end
+
+SixIsland_PokemonCenter_1F_EventScript_Hiker::
+	msgbox SixIsland_PokemonCenter_1F_Text_SomethingHiddenOnThisIsland, MSGBOX_NPC
+	end
+
+SixIsland_PokemonCenter_1F_EventScript_OldMan::
+	msgbox SixIsland_PokemonCenter_1F_Text_SomeMonsEvolveByTradingWithHeldItem, MSGBOX_NPC
+	end
+
+SixIsland_PokemonCenter_1F_EventScript_Morgan::
+	lock
+	faceplayer
+	setvar VAR_0x8008, INGAME_TRADE_ABSOL
+	call EventScript_GetInGameTradeSpeciesInfo
+	goto_if_set FLAG_DID_ABSOL_TRADE, SixIsland_PokemonCenter_1F_EventScript_AlreadyTraded
+	msgbox SixIsland_PokemonCenter_1F_Text_DoYouHaveMonWantToTradeForMyMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SixIsland_PokemonCenter_1F_EventScript_DeclineTrade
+	call EventScript_ChooseMonForInGameTrade
+	goto_if_ge VAR_0x8004, PARTY_SIZE, SixIsland_PokemonCenter_1F_EventScript_DeclineTrade
+	call EventScript_GetInGameTradeSpecies
+	goto_if_ne VAR_RESULT, VAR_0x8009, SixIsland_PokemonCenter_1F_EventScript_NotRequestedMon
+	call EventScript_DoInGameTrade
+	msgbox SixIsland_PokemonCenter_1F_Text_ThankYou
+	setflag FLAG_DID_ABSOL_TRADE
+	release
+	end
+
+SixIsland_PokemonCenter_1F_EventScript_DeclineTrade::
+	msgbox SixIsland_PokemonCenter_1F_Text_ThatsTooBad
+	release
+	end
+
+SixIsland_PokemonCenter_1F_EventScript_NotRequestedMon::
+	bufferspeciesname STR_VAR_1, VAR_0x8009
+	msgbox SixIsland_PokemonCenter_1F_Text_ThisIsNoMon
+	release
+	end
+
+SixIsland_PokemonCenter_1F_EventScript_AlreadyTraded::
+	msgbox SixIsland_PokemonCenter_1F_Text_HowIsMyOldMon
+	release
+	end
+`

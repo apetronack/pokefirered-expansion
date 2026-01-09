@@ -23,7 +23,7 @@
       "y": 3,
       "elevation": 3,
       "dest_map": "MAP_SSANNE_1F_CORRIDOR",
-      "dest_warp_id": "5"
+      "dest_warp_id": "3"
     },
     {
       "x": 2,
@@ -72,7 +72,7 @@
       "elevation": 3,
       "item": "ITEM_HYPER_POTION",
       "flag": "FLAG_HIDDEN_ITEM_SSANNE_B1F_CORRIDOR_HYPER_POTION",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     }
   ]

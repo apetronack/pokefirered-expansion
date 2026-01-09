@@ -532,7 +532,7 @@ static void TeachyTvLoadGraphic(void)
     DecompressAndCopyTileDataToVram(1, gTeachyTv_Gfx, 0, 0, 0);
     LZDecompressWram(gTeachyTvScreen_Tilemap, sResources->screenTilemap);
     LZDecompressWram(gTeachyTvTitle_Tilemap, sResources->titleTilemap);
-    LoadCompressedPalette(gTeachyTv_Pal, BG_PLTT_ID(0), 4 * PLTT_SIZE_4BPP);
+    LoadPalette(gTeachyTv_Pal, BG_PLTT_ID(0), 4 * PLTT_SIZE_4BPP);
     LoadPalette(&src, BG_PLTT_ID(0), sizeof(src));
     LoadSpritePalette(&gSpritePalette_GeneralFieldEffect1);
     TeachyTvLoadBg3Map(sResources->buffer3);
@@ -1231,8 +1231,8 @@ static void TeachyTvLoadBg3Map(u16 *buffer)
     palIndicesBuffer = Alloc(16);
     memset(palIndicesBuffer, 0xFF, 16);
 
-    TeachyTvLoadMapTilesetToBuffer(GetPrimaryTileset(layout), tilesetsBuffer, NUM_TILES_IN_PRIMARY);
-    TeachyTvLoadMapTilesetToBuffer(GetSecondaryTileset(layout), tilesetsBuffer + NUM_TILES_IN_PRIMARY * TILE_SIZE_4BPP, NUM_TILES_TOTAL - NUM_TILES_IN_PRIMARY);
+    TeachyTvLoadMapTilesetToBuffer(GetPrimaryTilesetFromLayout(layout), tilesetsBuffer, NUM_TILES_IN_PRIMARY);
+    TeachyTvLoadMapTilesetToBuffer(GetSecondaryTilesetFromLayout(layout), tilesetsBuffer + NUM_TILES_IN_PRIMARY * TILE_SIZE_4BPP, NUM_TILES_TOTAL - NUM_TILES_IN_PRIMARY);
 
     for (i = 0; i < 9; i++)
     {

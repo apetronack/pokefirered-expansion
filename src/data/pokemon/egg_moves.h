@@ -785,6 +785,11 @@ static const u16 sDoduoEggMoveLearnset[] = {
     MOVE_BRAVE_BIRD,
     MOVE_NATURAL_GIFT,
     MOVE_ASSURANCE,
+    MOVE_BLAZE_KICK,
+    MOVE_DOUBLE_KICK,
+    MOVE_TRIPLE_KICK,
+    MOVE_ROLLING_KICK,
+    MOVE_JUMP_KICK,
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_DODUO
@@ -3513,6 +3518,7 @@ static const u16 sShinxEggMoveLearnset[] = {
     MOVE_ICE_FANG,
     MOVE_FIRE_FANG,
     MOVE_THUNDER_FANG,
+    MOVE_POISON_FANG,
     MOVE_QUICK_ATTACK,
     MOVE_HOWL,
     MOVE_TAKE_DOWN,

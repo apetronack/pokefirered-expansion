@@ -103,8 +103,8 @@ const u32 gMetatileAttributes_UnusedGatehouse1[] = INCBIN_U32("data/tilesets/sec
 const u16 gMetatiles_RockTunnel[] = INCBIN_U16("data/tilesets/secondary/rock_tunnel/metatiles.bin");
 const u32 gMetatileAttributes_RockTunnel[] = INCBIN_U32("data/tilesets/secondary/rock_tunnel/metatile_attributes.bin");
 
-const u16 gMetatiles_DiglettsCave[] = INCBIN_U16("data/tilesets/secondary/digletts_cave/metatiles.bin");
-const u32 gMetatileAttributes_DiglettsCave[] = INCBIN_U32("data/tilesets/secondary/digletts_cave/metatile_attributes.bin");
+const u16 gMetatiles_DiglettsCave[] = INCBIN_U16("data/tilesets/secondary/DIGLETTS_CAVE/metatiles.bin");
+const u32 gMetatileAttributes_DiglettsCave[] = INCBIN_U32("data/tilesets/secondary/DIGLETTS_CAVE/metatile_attributes.bin");
 
 const u16 gMetatiles_SeafoamIslands[] = INCBIN_U16("data/tilesets/secondary/seafoam_islands/metatiles.bin");
 const u32 gMetatileAttributes_SeafoamIslands[] = INCBIN_U32("data/tilesets/secondary/seafoam_islands/metatile_attributes.bin");

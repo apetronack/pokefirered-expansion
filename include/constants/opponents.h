@@ -8,12 +8,12 @@
 #define TRAINER_AQUA_LEADER                        1
 #define TRAINER_AQUA_GRUNT_M                       2
 #define TRAINER_AQUA_GRUNT_F                       3
-#define TRAINER_RS_AROMA_LADY                      4
-#define TRAINER_RS_RUIN_MANIAC                     5
-#define TRAINER_INTERVIEWER                        6
-#define TRAINER_RS_TUBER_F                         7
-#define TRAINER_RS_TUBER_M                         8
-#define TRAINER_RS_COOLTRAINER_M                   9
+#define TRAINER_CERULEAN_GYM_GUARDIAN              4
+#define TRAINER_POKEMON_TOWER_GUARDIAN             5
+#define TRAINER_CELADON_GYM_GUARDIAN               6
+#define TRAINER_FUSCHIA_GYM_GUARDIAN               7
+#define TRAINER_CINNABAR_MANSION_GUARDIAN          8
+#define TRAINER_PETRO                9
 #define TRAINER_RS_COOLTRAINER_F                  10
 #define TRAINER_HEX_MANIAC                        11
 #define TRAINER_RS_LADY                           12
@@ -52,8 +52,8 @@
 #define TRAINER_SWIMMING_TRIATHLETE_F             45
 #define TRAINER_DRAGON_TAMER                      46
 #define TRAINER_RS_BIRD_KEEPER                    47
-#define TRAINER_NINJA_BOY                         48
-#define TRAINER_BATTLE_GIRL                       49
+#define TRAINER_MASTER_BUG_CATCHER                         48
+#define TRAINER_MASTER_CHANNELER                      49
 #define TRAINER_PARASOL_LADY                      50
 #define TRAINER_RS_SWIMMER_F                      51
 #define TRAINER_RS_PICNICKER                      52
@@ -62,7 +62,7 @@
 #define TRAINER_BOARDER_M                         55
 #define TRAINER_BOARDER_F                         56
 #define TRAINER_COLLECTOR                         57
-#define TRAINER_WALLY                             58
+#define TRAINER_MYSTIC_GUARDIAN                   58
 #define TRAINER_BRENDAN                           59
 #define TRAINER_BRENDAN_2                         60
 #define TRAINER_BRENDAN_3                         61
@@ -73,7 +73,7 @@
 #define TRAINER_RS_PKMN_BREEDER_F                 66
 #define TRAINER_RS_PKMN_RANGER_M                  67
 #define TRAINER_RS_PKMN_RANGER_F                  68
-#define TRAINER_MAGMA_LEADER                      69
+#define TRAINER_AURORA_GUARDIAN                   69
 #define TRAINER_MAGMA_GRUNT_M                     70
 #define TRAINER_MAMGA_GRUNT_F                     71
 #define TRAINER_RS_LASS                           72

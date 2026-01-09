@@ -180,7 +180,7 @@ $(TILESETGFXDIR)/secondary/celadon_gym/tiles.4bpp: %.4bpp: %.png
 $(TILESETGFXDIR)/secondary/dummy_2/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 2 -Wnum_tiles
 
-$(TILESETGFXDIR)/secondary/digletts_cave/tiles.4bpp: %.4bpp: %.png
+$(TILESETGFXDIR)/secondary/DIGLETTS_CAVE/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 248 -Wnum_tiles
 
 $(TILESETGFXDIR)/secondary/department_store/tiles.4bpp: %.4bpp: %.png

@@ -82,6 +82,8 @@ struct Tileset
     /*0x00*/ bool8 isCompressed:1;
     /*0x00*/ u8 swapPalettes:7; // bitmask determining whether palette has an alternate, night-time palette
     /*0x01*/ bool8 isSecondary;
+    /*0x02*/ u8 lightPalettes; // Bitmask determining whether a palette should be time-blended as a light
+    /*0x03*/ u8 customLightColor; // Bitmask determining which light palettes have custom light colors (color 15)
     /*0x04*/ const u32 *tiles;
     /*0x08*/ const u16 (*palettes)[16];
     /*0x0c*/ const u16 *metatiles;
@@ -121,6 +123,7 @@ struct __attribute__((packed, aligned(4))) ObjectEventTemplate
             u8 movementType;
             u16 movementRangeX:4;
             u16 movementRangeY:4;
+            u16 unused:8;
             u16 trainerType;
             u16 trainerRange_berryTreeId;
         };
@@ -352,6 +355,8 @@ enum
     COLLISION_ISOLATED_HORIZONTAL_RAIL,
     COLLISION_VERTICAL_RAIL,
     COLLISION_HORIZONTAL_RAIL,
+    COLLISION_SIDEWAYS_STAIRS_TO_RIGHT,
+    COLLISION_SIDEWAYS_STAIRS_TO_LEFT,
     COLLISION_COUNT
 };
 
@@ -375,7 +380,8 @@ struct PlayerAvatar
 {
     /*0x00*/ u8 flags;
     /*0x01*/ u8 transitionFlags; // used to be bike, but it's not that in Emerald and probably isn't here either. maybe transition flags?
-    /*0x02*/ u8 runningState; // this is a static running state. 00 is not moving, 01 is turn direction, 02 is moving.
+    /*0x02*/ u8 runningState:7; // this is a static running state. 00 is not moving, 01 is turn direction, 02 is moving.
+             u8 creeping:1;
     /*0x03*/ u8 tileTransitionState; // this is a transition running state: 00 is not moving, 01 is transition between tiles, 02 means you are on the frame in which you have centered on a tile but are about to keep moving, even if changing directions. 2 is also used for a ledge hop, since you are transitioning.
     /*0x04*/ u8 spriteId;
     /*0x05*/ u8 objectEventId;
@@ -406,6 +412,11 @@ extern struct MapHeader gMapHeader;
 extern struct PlayerAvatar gPlayerAvatar;
 extern struct Camera gCamera;
 
+extern const struct Tileset* gCurrentPrimaryTileset;
+extern const struct Tileset* gCurrentSecondaryTileset;
+
+const struct Tileset* GetPrimaryTilesetFromLayout(const struct MapLayout* mapLayout);
+const struct Tileset* GetSecondaryTilesetFromLayout(const struct MapLayout* mapLayout);
 const struct Tileset* GetPrimaryTileset(const struct MapLayout* mapLayout);
 const struct Tileset* GetSecondaryTileset(const struct MapLayout* mapLayout);
 

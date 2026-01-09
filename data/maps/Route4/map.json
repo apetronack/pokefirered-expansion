@@ -140,6 +140,13 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE4_POKEMON_CENTER_1F",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 58,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_CRITTER_CAVE",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
@@ -169,7 +176,7 @@
       "elevation": 3,
       "item": "ITEM_GREAT_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE4_GREAT_BALL",
-      "quantity": 1,
+      "quantity": 5,
       "underfoot": false
     },
     {
@@ -179,7 +186,7 @@
       "elevation": 3,
       "item": "ITEM_PERSIM_BERRY",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE4_PERSIM_BERRY",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     },
     {
@@ -189,7 +196,7 @@
       "elevation": 3,
       "item": "ITEM_RAZZ_BERRY",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE4_RAZZ_BERRY",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     }
   ]

@@ -48,12 +48,6 @@ enum {
 };
 
 enum {
-    JUMP_TYPE_NORMAL,
-    JUMP_TYPE_FAST,
-    JUMP_TYPE_SLOW,
-};
-
-enum {
     FUNC_GAME_INTRO,
     FUNC_WAIT_ROUND,
     FUNC_GAME_ROUND,
@@ -272,7 +266,7 @@ static void InitGame(struct PokemonJump *);
 static void ResetForNewGame(struct PokemonJump *);
 static void InitPlayerAndJumpTypes(void);
 static void ResetPlayersForNewGame(void);
-static s16 GetPokemonJumpSpeciesIdx(u16 species);
+static s16 GetSpeciesPokemonJumpType(u16 species);
 static void InitJumpMonInfo(struct PokemonJump_MonInfo *monInfo, struct Pokemon *mon);
 static void CB2_PokemonJump(void);
 static void Task_StartPokemonJump(u8 taskId);
@@ -368,7 +362,9 @@ static void SpriteCB_MonHitShake(struct Sprite *sprite);
 static void SpriteCB_MonHitFlash(struct Sprite *sprite);
 static void SpriteCB_MonIntroBounce(struct Sprite *sprite);
 static void Task_ShowPokemonJumpRecords(u8 taskId);
+#if FREE_POKEMON_JUMP == FALSE
 static void TruncateToFirstWordOnly(u8 *str);
+#endif //FREE_POKEMON_JUMP
 static void PrintRecordsText(u16 windowId);
 static void UpdateVineSwing(int id);
 static void StartPokeJumpGfx(struct PokemonJumpGfx *);
@@ -703,119 +699,6 @@ static void Task_StaticCountdown_Run(u8 taskId)
 #undef sId
 #undef sNumberSpriteId
 
-/*
-    According to the clerk, the Pokémon allowed in
-    Pokémon Jump are all <= 28 inches, and do not
-    only swim, burrow, or fly.
-*/
-static const struct PokemonJumpMons
-{
-    u16 species;
-    u16 jumpType;
-} sPokeJumpMons[] =
-{
-    { .species = SPECIES_BULBASAUR,  .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_CHARMANDER, .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_SQUIRTLE,   .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_CATERPIE,   .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_METAPOD,    .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_WEEDLE,     .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_KAKUNA,     .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_RATTATA,    .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_RATICATE,   .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_PIKACHU,    .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_SANDSHREW,  .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_NIDORAN_F,  .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_NIDORAN_M,  .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_CLEFAIRY,   .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_VULPIX,     .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_JIGGLYPUFF, .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_ODDISH,     .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_PARAS,      .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_MEOWTH,     .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_PSYDUCK,    .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_MANKEY,     .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_GROWLITHE,  .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_POLIWAG,    .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_BELLSPROUT, .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_SHELLDER,   .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_KRABBY,     .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_EXEGGCUTE,  .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_CUBONE,     .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_DITTO,      .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_EEVEE,      .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_OMANYTE,    .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_KABUTO,     .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_CHIKORITA,  .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_CYNDAQUIL,  .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_TOTODILE,   .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_SPINARAK,   .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_PICHU,      .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_CLEFFA,     .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_IGGLYBUFF,  .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_TOGEPI,     .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_MAREEP,     .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_BELLOSSOM,  .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_MARILL,     .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_SUNKERN,    .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_WOOPER,     .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_PINECO,     .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_SNUBBULL,   .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_SHUCKLE,    .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_TEDDIURSA,  .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_SLUGMA,     .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_SWINUB,     .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_HOUNDOUR,   .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_PHANPY,     .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_PORYGON2,   .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_TYROGUE,    .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_SMOOCHUM,   .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_ELEKID,     .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_MAGBY,      .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_LARVITAR,   .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_TREECKO,    .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_TORCHIC,    .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_MUDKIP,     .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_MARSHTOMP,  .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_POOCHYENA,  .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_ZIGZAGOON,  .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_LINOONE,    .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_WURMPLE,    .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_SILCOON,    .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_CASCOON,    .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_LOTAD,      .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_SEEDOT,     .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_RALTS,      .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_KIRLIA,     .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_SURSKIT,    .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_SHROOMISH,  .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_NINCADA,    .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_WHISMUR,    .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_AZURILL,    .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_SKITTY,     .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_SABLEYE,    .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_MAWILE,     .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_ARON,       .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_MEDITITE,   .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_ELECTRIKE,  .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_PLUSLE,     .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_MINUN,      .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_VOLBEAT,    .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_ILLUMISE,   .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_ROSELIA,    .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_GULPIN,     .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_NUMEL,      .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_TORKOAL,    .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_SPOINK,     .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_TRAPINCH,   .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_CACNEA,     .jumpType = JUMP_TYPE_SLOW },
-    { .species = SPECIES_ANORITH,    .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_WYNAUT,     .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_SNORUNT,    .jumpType = JUMP_TYPE_NORMAL },
-    { .species = SPECIES_CLAMPERL,   .jumpType = JUMP_TYPE_FAST },
-    { .species = SPECIES_BAGON,      .jumpType = JUMP_TYPE_FAST },
-};
-
 void StartPokemonJump(u16 partyId, MainCallback exitCallback)
 {
     u8 taskId;
@@ -902,12 +785,11 @@ static void ResetForNewGame(struct PokemonJump *jump)
 
 static void InitPlayerAndJumpTypes(void)
 {
-    int i, index;
+    int i;
 
     for (i = 0; i < MAX_RFU_PLAYERS; i++)
     {
-        index = GetPokemonJumpSpeciesIdx(sPokemonJump->monInfo[i].species);
-        sPokemonJump->players[i].monJumpType = sPokeJumpMons[index].jumpType;
+        sPokemonJump->players[i].monJumpType = GetSpeciesPokemonJumpType(sPokemonJump->monInfo[i].species);
     }
 
     sPokemonJump->player = &sPokemonJump->players[sPokemonJump->multiplayerId];
@@ -929,16 +811,9 @@ static void ResetPlayersForNewGame(void)
     }
 }
 
-static s16 GetPokemonJumpSpeciesIdx(u16 species)
+static s16 GetSpeciesPokemonJumpType(u16 species)
 {
-    u32 i;
-    for (i = 0; i < ARRAY_COUNT(sPokeJumpMons); i++)
-    {
-        if (sPokeJumpMons[i].species == species)
-            return i;
-    }
-
-    return -1; // species isnt allowed
+    return gSpeciesInfo[SanitizeSpeciesId(species)].pokemonJumpType;
 }
 
 static void InitJumpMonInfo(struct PokemonJump_MonInfo *monInfo, struct Pokemon *mon)
@@ -2248,24 +2123,24 @@ static void HandleMonState(void)
 
 static const s8 sJumpOffsets[][48] =
 {
-    [JUMP_TYPE_NORMAL] = { -3,  -6,  -8, -10, -13, -15, -17, -19,
-                          -21, -23, -25, -27, -28, -29,
-                          JUMP_PEAK, JUMP_PEAK, JUMP_PEAK,
-                          -28, -27, -26, -25, -23, -22, -20, -18,
-                          -17, -15, -13, -11,  -8,  -6,  -4,  -1},
+    [PKMN_JUMP_TYPE_NORMAL - 1] = { -3,  -6,  -8, -10, -13, -15, -17, -19,
+                                   -21, -23, -25, -27, -28, -29,
+                                   JUMP_PEAK, JUMP_PEAK, JUMP_PEAK,
+                                   -28, -27, -26, -25, -23, -22, -20, -18,
+                                   -17, -15, -13, -11,  -8,  -6,  -4,  -1},
 
-    [JUMP_TYPE_FAST]  = { -3,  -6,  -9, -11, -14, -16, -18, -20,
-                         -22, -24, -26, -28, -29,
-                         JUMP_PEAK, JUMP_PEAK,
-                         -28, -26, -24, -22, -20, -18, -16, -14,
-                         -11, -9,  -6,  -4,  -1},
+    [PKMN_JUMP_TYPE_FAST - 1]  = { -3,  -6,  -9, -11, -14, -16, -18, -20,
+                                  -22, -24, -26, -28, -29,
+                                  JUMP_PEAK, JUMP_PEAK,
+                                  -28, -26, -24, -22, -20, -18, -16, -14,
+                                  -11, -9,  -6,  -4,  -1},
 
-    [JUMP_TYPE_SLOW]  = { -3,  -6,  -9, -11, -13, -15, -17, -19,
-                         -21, -23, -25, -27, -28, -29,
-                         JUMP_PEAK, JUMP_PEAK, JUMP_PEAK, JUMP_PEAK,
-                         -29, -29, -28, -28, -27, -27, -26, -25,
-                         -24, -22, -20, -18, -16, -14, -12, -11,
-                          -9,  -6,  -4,  -1},
+    [PKMN_JUMP_TYPE_SLOW - 1]  = { -3,  -6,  -9, -11, -13, -15, -17, -19,
+                                  -21, -23, -25, -27, -28, -29,
+                                  JUMP_PEAK, JUMP_PEAK, JUMP_PEAK, JUMP_PEAK,
+                                  -29, -29, -28, -28, -27, -27, -26, -25,
+                                  -24, -22, -20, -18, -16, -14, -12, -11,
+                                   -9,  -6,  -4,  -1},
 };
 
 static void UpdateJump(int multiplayerId)
@@ -2300,7 +2175,7 @@ static void UpdateJump(int multiplayerId)
 
     jumpOffsetIdx -= 4;
     if (jumpOffsetIdx < (int)ARRAY_COUNT(sJumpOffsets[0]))
-        jumpOffset = sJumpOffsets[player->monJumpType][jumpOffsetIdx];
+        jumpOffset = sJumpOffsets[player->monJumpType - 1][jumpOffsetIdx];
     else
         jumpOffset = 0;
 
@@ -2631,7 +2506,7 @@ static u8 *GetPokeJumpPlayerName(u8 multiplayerId)
 
 bool32 IsSpeciesAllowedInPokemonJump(u16 species)
 {
-    return GetPokemonJumpSpeciesIdx(species) > -1;
+    return GetSpeciesPokemonJumpType(species) != PKMN_JUMP_TYPE_NONE;
 }
 
 void IsPokemonJumpSpeciesInParty(void)
@@ -4071,7 +3946,7 @@ static void CreateJumpMonSprite(struct PokemonJumpGfx *jumpGfx, struct PokemonJu
 {
     struct SpriteTemplate spriteTemplate;
     struct SpriteSheet spriteSheet;
-    struct CompressedSpritePalette spritePalette;
+    struct SpritePalette spritePalette;
     u8 *buffer;
     u8 *unusedBuffer;
     u8 subpriority;
@@ -4100,7 +3975,7 @@ static void CreateJumpMonSprite(struct PokemonJumpGfx *jumpGfx, struct PokemonJu
 
         spritePalette.data = GetMonSpritePalFromSpeciesAndPersonality(monInfo->species, FALSE, monInfo->personality);
         spritePalette.tag = multiplayerId;
-        LoadCompressedSpritePalette(&spritePalette);
+        LoadSpritePalette(&spritePalette);
 
         Free(buffer);
         Free(unusedBuffer);
@@ -4382,13 +4257,16 @@ static bool32 IsPokeJumpCountdownRunning(void)
     return IsMinigameCountdownRunning();
 }
 
+#if FREE_POKEMON_JUMP == FALSE
 static struct PokemonJumpRecords *GetPokeJumpRecords(void)
 {
     return &gSaveBlock2Ptr->pokeJump;
 }
+#endif //FREE_POKEMON_JUMP
 
 void ResetPokemonJumpRecords(void)
 {
+#if FREE_POKEMON_JUMP == FALSE
     struct PokemonJumpRecords *records = GetPokeJumpRecords();
     records->jumpsInRow = 0;
     records->bestJumpScore = 0;
@@ -4396,10 +4274,12 @@ void ResetPokemonJumpRecords(void)
     records->gamesWithMaxPlayers = 0;
     records->unused2 = 0;
     records->unused1 = 0;
+#endif //FREE_POKEMON_JUMP
 }
 
 static bool32 TryUpdateRecords(u32 jumpScore, u16 jumpsInRow, u16 excellentsInRow)
 {
+#if FREE_POKEMON_JUMP == FALSE
     struct PokemonJumpRecords *records = GetPokeJumpRecords();
     bool32 newRecord = FALSE;
 
@@ -4411,13 +4291,18 @@ static bool32 TryUpdateRecords(u32 jumpScore, u16 jumpsInRow, u16 excellentsInRo
         records->excellentsInRow = excellentsInRow, newRecord = TRUE;
 
     return newRecord;
+#else
+    return FALSE;
+#endif //FREE_POKEMON_JUMP
 }
 
 static void IncrementGamesWithMaxPlayers(void)
 {
+#if FREE_POKEMON_JUMP == FALSE
     struct PokemonJumpRecords *records = GetPokeJumpRecords();
     if (records->gamesWithMaxPlayers < 9999)
         records->gamesWithMaxPlayers++;
+#endif //FREE_POKEMON_JUMP
 }
 
 void ShowPokemonJumpRecords(void)
@@ -4482,6 +4367,7 @@ static void Task_ShowPokemonJumpRecords(u8 taskId)
 
 static void PrintRecordsText(u16 windowId)
 {
+#if FREE_POKEMON_JUMP == FALSE
     int i, x;
     int recordNums[3];
     struct PokemonJumpRecords *records = GetPokeJumpRecords();
@@ -4503,8 +4389,10 @@ static void PrintRecordsText(u16 windowId)
         AddTextPrinterParameterized5(windowId, FONT_NORMAL, strbuf, x, 20 + (i * 14), TEXT_SKIP_DRAW, NULL, 0, 0);
     }
     PutWindowTilemap(windowId);
+#endif //FREE_POKEMON_JUMP
 }
 
+#if FREE_POKEMON_JUMP == FALSE
 static void TruncateToFirstWordOnly(u8 *str)
 {
     for (;*str != EOS; str++)
@@ -4516,3 +4404,4 @@ static void TruncateToFirstWordOnly(u8 *str)
         }
     }
 }
+#endif //FREE_POKEMON_JUMP

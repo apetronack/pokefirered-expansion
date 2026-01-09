@@ -15,6 +15,27 @@ extern const u8 EventScript_FollowerLovesYou[];
 extern const u8 Common_Movement_FollowerSafeStart[];
 extern const u8 Common_Movement_FollowerSafeEnd[];
 
+extern const u8 Common_Movement_WalkUpSlow[];
+extern const u8 Common_Movement_WalkDownSlow[];
+extern const u8 Common_Movement_WalkRightSlow[];
+extern const u8 Common_Movement_WalkLeftSlow[];
+extern const u8 Common_Movement_WalkUp[];
+extern const u8 Common_Movement_WalkDown[];
+extern const u8 Common_Movement_WalkRight[];
+extern const u8 Common_Movement_WalkLeft[];
+extern const u8 Common_Movement_WalkUpFast[];
+extern const u8 Common_Movement_WalkDownFast[];
+extern const u8 Common_Movement_WalkRightFast[];
+extern const u8 Common_Movement_WalkLeftFast[];
+extern const u8 Common_Movement_WalkUpFaster[];
+extern const u8 Common_Movement_WalkDownFaster[];
+extern const u8 Common_Movement_WalkRightFaster[];
+extern const u8 Common_Movement_WalkLeftFaster[];
+extern const u8 Common_Movement_FaceUp[];
+extern const u8 Common_Movement_FaceDown[];
+extern const u8 Common_Movement_FaceRight[];
+extern const u8 Common_Movement_FaceLeft[];
+
 extern const u8 EventScript_FollowerIsShivering[];
 extern const u8 EventScript_FollowerNostalgia[];
 extern const u8 EventScript_FollowerHopping[];
@@ -1214,6 +1235,7 @@ extern const u8 gText_PkmnTransferredSomeonesPCBoxFull[];
 extern const u8 gText_PkmnTransferredBillsPCBoxFull[];
 extern const u8 gText_PkmnTransferredLanettesPCBoxFull[];
 extern const u8 gText_PkmnTransferredLanettesPC[];
+extern const u8 gText_PkmnSentToPCAfterCatch[];
 
 extern const u8 EventScript_BagItemCanBeRegistered[];
 
@@ -1297,5 +1319,13 @@ extern const u8 TradeCenter_EventScript_Chair0[];
 extern const u8 TradeCenter_EventScript_Chair1[];
 extern const u8 TradeCenter_ConfirmLeaveRoom[];
 extern const u8 TradeCenter_TerminateLink[];
+
+// DexNav
+extern const u8 EventScript_StartDexNavBattle[];
+extern const u8 EventScript_NotFoundNearby[];
+extern const u8 EventScript_PokemonGotAway[];
+extern const u8 EventScript_LostSignal[];
+extern const u8 EventScript_TooDark[];
+extern const u8 EventScript_MovedTooFast[];
 
 #endif //GUARD_EVENT_SCRIPTS_H

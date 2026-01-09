@@ -20,9 +20,9 @@ ViridianCity_Text_OhOkayThen::
 
 ViridianCity_Text_ExplainCaterpieWeedle::
     .string "CATERPIE has no poison,\n"
-    .string "but WEEDLE does.\p"
+    .string "but SPINARAK does.\p"
     .string "Watch that your POKéMON aren't\n"
-    .string "stabbed by WEEDLE's POISON STING.$"
+    .string "poked by SPINARAK's POISON STING.$"
 
 ViridianCity_Text_GrandpaHasntHadCoffeeYet::
     .string "Oh, Grandpa!\n"

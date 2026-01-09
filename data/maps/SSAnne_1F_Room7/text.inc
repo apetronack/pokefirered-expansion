@@ -9,3 +9,7 @@ SSAnne_1F_Room7_Text_ThomasDefeat::
 SSAnne_1F_Room7_Text_ThomasPostBattle::
     .string "You should be nice to friends!$"
 
+SSAnne_1F_Room7_Text_ThomasGaveItems::
+    .string "Be kind to your friends.\n"
+    .string "Use these to help them!$"
+

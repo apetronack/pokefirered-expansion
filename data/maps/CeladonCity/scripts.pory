@@ -1,0 +1,151 @@
+raw `
+.set LOCALID_FAT_MAN,   2
+.set LOCALID_POLIWRATH, 3
+.set LOCALID_GYM_GUARDIAN, 16
+
+CeladonCity_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, CeladonCity_OnTransition
+	.byte 0
+
+CeladonCity_OnTransition::
+	setworldmapflag FLAG_WORLD_MAP_CELADON_CITY
+	call_if_unset FLAG_HIDE_CELADON_GYM_GUARDIAN, CeladonCity_EventScript_BlockGym
+	end
+
+CeladonCity_EventScript_BlockGym::
+	setobjectxyperm LOCALID_GYM_GUARDIAN, 40, 34
+	return
+
+CeladonCity_EventScript_LittleGirl::
+	msgbox CeladonCity_Text_GotMyKoffingInCinnabar, MSGBOX_NPC
+	end
+
+CeladonCity_EventScript_OldMan1::
+	lock
+	msgbox CeladonCity_Text_GymIsGreatFullOfWomen
+	release
+	end
+
+CeladonCity_EventScript_Woman::
+	msgbox CeladonCity_Text_GameCornerIsBadForCitysImage, MSGBOX_NPC
+	end
+
+CeladonCity_EventScript_OldMan2::
+	msgbox CeladonCity_Text_BlewItAllAtSlots, MSGBOX_NPC
+	end
+
+CeladonCity_EventScript_SoftboiledTutor::
+	goto EventScript_SoftboiledTutor
+	end
+
+CeladonCity_EventScript_FatMan::
+	lock
+	faceplayer
+	msgbox CeladonCity_Text_MyTrustedPalPoliwrath
+	closemessage
+	applymovement LOCALID_FAT_MAN, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+CeladonCity_EventScript_Poliwrath::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_POLIWRATH, CRY_MODE_NORMAL
+	msgbox CeladonCity_Text_Poliwrath
+	closemessage
+	waitmoncry
+	applymovement LOCALID_POLIWRATH, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+CeladonCity_EventScript_RocketGrunt1::
+	msgbox CeladonCity_Text_KeepOutOfTeamRocketsWay, MSGBOX_NPC
+	end
+
+CeladonCity_EventScript_RocketGrunt2::
+	msgbox CeladonCity_Text_GetLostOrIllPunchYou, MSGBOX_NPC
+	end
+
+CeladonCity_EventScript_Boy::
+	msgbox CeladonCity_Text_ScaldedTongueOnTea, MSGBOX_NPC
+	end
+
+CeladonCity_EventScript_SilphCoScientist::
+	msgbox CeladonCity_Text_SomeoneStoleSilphScope, MSGBOX_NPC
+	end
+
+CeladonCity_EventScript_TrainerTips1::
+	msgbox CeladonCity_Text_ExplainXAccuracyDireHit, MSGBOX_SIGN
+	end
+
+CeladonCity_EventScript_CitySign::
+	msgbox CeladonCity_Text_CitySign, MSGBOX_SIGN
+	end
+
+CeladonCity_EventScript_GymSign::
+	lockall
+	famechecker FAMECHECKER_ERIKA, 0
+	msgbox CeladonCity_Text_GymSign
+	releaseall
+	end
+
+CeladonCity_EventScript_MansionSign::
+	msgbox CeladonCity_Text_MansionSign, MSGBOX_SIGN
+	end
+
+CeladonCity_EventScript_DeptStoreSign::
+	msgbox CeladonCity_Text_DeptStoreSign, MSGBOX_SIGN
+	end
+
+CeladonCity_EventScript_TrainerTips2::
+	msgbox CeladonCity_Text_GuardSpecProtectsFromStatus, MSGBOX_SIGN
+	end
+
+CeladonCity_EventScript_PrizeExchangeSign::
+	msgbox CeladonCity_Text_PrizeExchangeSign, MSGBOX_SIGN
+	end
+
+CeladonCity_EventScript_GameCornerSign::
+	msgbox CeladonCity_Text_GameCornerSign, MSGBOX_SIGN
+	end
+`
+const LOCALID_GYM_GUARDIAN = 16
+
+script CeladonCity_EventScript_GymGuardian {
+	// Gym guardian should respond to the player approaching it from the left, below, or right
+	// but not from above.
+	// Should do the following:
+	// 1. Check if the player has cleared Nugget Bridge
+	// 2. If not, display a message and block the player
+	// 3. If so, display a message and initiate a battle with the Gym guardian
+	// 4. If the player wins, display a message, then have the Gym guardian leave
+	// 5. If the player loses, display a message, but leave the Gym guardian in place
+	// 6. If the player has already beaten the Gym guardian, it should not be visible
+	lock
+	faceplayer
+	setvar(VAR_LAST_TALKED, LOCALID_GYM_GUARDIAN)
+	// Check if the player has finished Pokemon Tower
+	if (flag(FLAG_RESCUED_MR_FUJI)) {
+		// If so, display a message and initiate a battle with the Gym guardian
+		msgbox(format("You can't come through! Erika can't be warned about Team Rocket's plans!", "1_latin_frlg"))
+		trainerbattle_no_intro(TRAINER_CELADON_GYM_GUARDIAN, format("You may have beaten me, but Team Rocket isn't finished!", "1_latin_frlg"))
+		if (defeated(TRAINER_CELADON_GYM_GUARDIAN)) {
+			// If the player wins, display a message, then have the Gym guardian leave
+			fadescreen(FADE_TO_BLACK)
+			removeobject(LOCALID_GYM_GUARDIAN)
+			fadescreen(FADE_FROM_BLACK)
+			setflag(FLAG_HIDE_CELADON_GYM_GUARDIAN)
+		} else {
+			// If the player loses, display a message, but leave the Gym guardian in place
+			msgbox(format("Team Rocket will always be one step ahead of you!", "1_latin_frlg"))
+		}
+	} else {
+		// If not, display a message and block the player
+		msgbox(format("Boss said I should keep Erika from interfering with Team Rocket's plans! Don't get any ideas about warning her!", "1_latin_frlg"))
+	}
+	release
+	end
+}

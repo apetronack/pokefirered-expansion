@@ -1,0 +1,129 @@
+raw `
+.set LOCALID_LOSTELLE, 1
+
+ThreeIsland_BerryForest_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, ThreeIsland_BerryForest_OnTransition
+	.byte 0
+
+ThreeIsland_BerryForest_OnTransition::
+	setworldmapflag FLAG_WORLD_MAP_THREE_ISLAND_BERRY_FOREST
+	setescapewarp MAP_THREE_ISLAND_BOND_BRIDGE, 12, 6
+	end
+
+ThreeIsland_BerryForest_EventScript_Lostelle::
+	lock
+	faceplayer
+	msgbox ThreeIsland_BerryForest_Text_HelpScaryPokemon
+	playse SE_PIN
+	applymovement LOCALID_LOSTELLE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_LOSTELLE, ThreeIsland_BerryForest_Movement_LostelleLookAround
+	waitmovement 0
+	msgbox ThreeIsland_BerryForest_Text_HereItComesAgain
+	goto_if_questlog EventScript_ReleaseEnd
+	waitse
+	playmoncry SPECIES_HYPNO, CRY_MODE_ENCOUNTER
+	waitmoncry
+	setwildbattle SPECIES_HYPNO, 60
+	dowildbattle
+	special QuestLog_CutRecording
+	applymovement LOCALID_LOSTELLE, Common_Movement_FacePlayer
+	waitmovement 0
+	msgbox ThreeIsland_BerryForest_Text_ThankYouHaveThis
+	giveitem ITEM_IAPAPA_BERRY
+	call_if_eq VAR_RESULT, FALSE, ThreeIsland_BerryForest_EventScript_NoRoomForBerry
+	special BufferBigGuyOrBigGirlString
+	msgbox ThreeIsland_BerryForest_Text_LetsGoHome
+	closemessage
+	setflag FLAG_RESCUED_LOSTELLE
+	setflag FLAG_HIDE_LOSTELLE_IN_BERRY_FOREST
+	setvar VAR_MAP_SCENE_TWO_ISLAND_JOYFUL_GAME_CORNER, 2
+	clearflag FLAG_HIDE_TWO_ISLAND_GAME_CORNER_LOSTELLE
+	warp MAP_TWO_ISLAND_JOYFUL_GAME_CORNER, 6, 6
+	waitstate
+	release
+	end
+
+ThreeIsland_BerryForest_EventScript_NoRoomForBerry::
+	msgbox ThreeIsland_BerryForest_Text_BerryPouchIsFull
+	return
+
+ThreeIsland_BerryForest_Movement_LostelleLookAround::
+	walk_in_place_faster_left
+	delay_16
+	walk_in_place_faster_right
+	delay_8
+	walk_in_place_faster_left
+	step_end
+
+ThreeIsland_BerryForest_EventScript_WelcomeSign::
+	msgbox ThreeIsland_BerryForest_Text_WelcomeToBerryForest, MSGBOX_SIGN
+	end
+
+ThreeIsland_BerryForest_EventScript_BewareSign::
+	msgbox ThreeIsland_BerryForest_Text_BewareWildBerryLovingMons, MSGBOX_SIGN
+	end
+
+ThreeIsland_BerryForest_EventScript_CelebiShrine::
+	goto_if_questlog EventScript_ReleaseEnd
+	special QuestLog_CutRecording
+	lock
+	faceplayer
+	goto_if_unset FLAG_DEFEATED_CHAMP_1X, ThreeIsland_BerryForest_EventScript_ShrineBeforeChampion
+	goto_if_set FLAG_FOUGHT_CELEBI, ThreeIsland_BerryForest_EventScript_ShrineAfterBattle
+	msgbox ThreeIsland_BerryForest_Text_ShrineGlowsMysteriously
+	waitse
+	playfanfare MUS_OBTAIN_ITEM
+	waitfanfare
+	msgbox ThreeIsland_BerryForest_Text_ForestGuardianEmerges
+	closemessage
+	delay 20
+	setwildbattle SPECIES_CELEBI, 50
+	playmoncry SPECIES_CELEBI, CRY_MODE_ENCOUNTER
+	message ThreeIsland_BerryForest_Text_CelebiCry
+	waitmessage
+	waitmoncry
+	delay 20
+	playbgm MUS_VS_LEGEND, 0
+	waitbuttonpress
+	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	special StartLegendaryBattle
+	waitstate
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, ThreeIsland_BerryForest_EventScript_DefeatedCelebi
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, ThreeIsland_BerryForest_EventScript_RanFromCelebi
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, ThreeIsland_BerryForest_EventScript_RanFromCelebi
+	goto_if_eq VAR_RESULT, B_OUTCOME_CAUGHT, ThreeIsland_BerryForest_EventScript_CaughtCelebi
+	setflag FLAG_FOUGHT_CELEBI
+	release
+	end
+
+ThreeIsland_BerryForest_EventScript_ShrineBeforeChampion::
+	msgbox ThreeIsland_BerryForest_Text_ShrineAwaitsPower
+	release
+	end
+
+ThreeIsland_BerryForest_EventScript_DefeatedCelebi::
+	setflag FLAG_FOUGHT_CELEBI
+	msgbox ThreeIsland_BerryForest_Text_CelebiVanishesThroughTime
+	release
+	end
+
+ThreeIsland_BerryForest_EventScript_CaughtCelebi::
+	setflag FLAG_FOUGHT_CELEBI
+	msgbox ThreeIsland_BerryForest_Text_CelebiJoinsYou
+	release
+	end
+
+ThreeIsland_BerryForest_EventScript_RanFromCelebi::
+	setvar VAR_0x8004, SPECIES_CELEBI
+	msgbox ThreeIsland_BerryForest_Text_CelebiDisappears
+	release
+	end
+
+ThreeIsland_BerryForest_EventScript_ShrineAfterBattle::
+	msgbox ThreeIsland_BerryForest_Text_ShrineQuietNow
+	release
+	end
+`

@@ -49,7 +49,9 @@
     "TradeCenter",
     "RecordCorner",
     "BattleColosseum_4P",
-    "UnionRoom"
+    "UnionRoom",
+    "Route13_MoveRelearnerHouse",
+    "Route13_MovingHouse"
   ],
   "gMapGroup_Dungeons": [
     "ViridianForest",
@@ -236,7 +238,11 @@
     "BirthIsland_Exterior",
     "OneIsland_KindleRoad_EmberSpa",
     "BirthIsland_Harbor",
-    "NavelRock_Harbor"
+    "NavelRock_Harbor",
+    "CaveOfInnerStrength",
+    "CritterCave",
+    "ShadowClawArea",
+    "PiplupCave"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PalletTown",

@@ -11,14 +11,25 @@
 
 // In-game Trade IDs
 #define INGAME_TRADE_MR_MIME   0
-#define INGAME_TRADE_JYNX      1
+#define INGAME_TRADE_SNEASEL      1
 #define INGAME_TRADE_NIDORAN   2  // M or F depending on version
-#define INGAME_TRADE_FARFETCHD 3
+#define INGAME_TRADE_DODUO 3
 #define INGAME_TRADE_NIDORINOA 4  // Nidorino or Nidorina depending on version
-#define INGAME_TRADE_LICKITUNG 5
+#define INGAME_TRADE_GIRAFARIG 5
 #define INGAME_TRADE_ELECTABUZZ 6
 #define INGAME_TRADE_TANGELA   7
-#define INGAME_TRADE_SEEL      8
+#define INGAME_TRADE_SPHEAL      8
+#define INGAME_TRADE_TOTODILE 9
+#define INGAME_TRADE_CHIKORITA 10
+#define INGAME_TRADE_CYNDAQUIL 11
+#define INGAME_TRADE_MUDKIP 12
+#define INGAME_TRADE_TREECKO 13
+#define INGAME_TRADE_TORCHIC 14
+#define INGAME_TRADE_ZANGOOSE 15
+#define INGAME_TRADE_SEVIPER 16
+#define INGAME_TRADE_ABSOL 17
+#define INGAME_TRADE_PINSIR 18
+#define INGAME_TRADE_CARNIVINE 19
 
 // Return values for CanTradeSelectedMon and CanSpinTradeMon
 #define CAN_TRADE_MON              0

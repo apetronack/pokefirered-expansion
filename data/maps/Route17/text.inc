@@ -42,13 +42,13 @@ Route17_Text_BillyPostBattle::
     .string "Are you looking for adventure?$"
 
 Route17_Text_NikolasIntro::
-    .string "Let VOLTORB electrify you!$"
+    .string "Let the NIDOs GROUND you!$"
 
 Route17_Text_NikolasDefeat::
     .string "Grounded out!$"
 
 Route17_Text_NikolasPostBattle::
-    .string "I got my VOLTORB at the abandoned\n"
+    .string "I saw VOLTORB at the abandoned\n"
     .string "POWER PLANT.$"
 
 Route17_Text_ZeekIntro::

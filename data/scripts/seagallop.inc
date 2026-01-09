@@ -111,11 +111,11 @@ EventScript_SetSail::
 
 EventScript_CancelSail::
 	specialvar VAR_RESULT, IsPlayerLeftOfVermilionSailor
-	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_WalkUpPier
+	goto_if_eq VAR_RESULT, TRUE, Seagallop_VermilionCity_EventScript_WalkUpPier
 	release
 	end
 
-VermilionCity_EventScript_WalkUpPier::
+Seagallop_VermilionCity_EventScript_WalkUpPier::
 	closemessage
 	applymovement LOCALID_FERRY_SAILOR, Common_Movement_FaceOriginalDirection
 	applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Movement_WalkUp

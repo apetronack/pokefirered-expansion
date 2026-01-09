@@ -1,0 +1,95 @@
+raw `
+Route12_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, Route12_OnResume
+	.byte 0
+
+Route12_OnResume::
+	call_if_set FLAG_SYS_SPECIAL_WILD_BATTLE, Route12_EventScript_TryRemoveSnorlax
+	end
+
+Route12_EventScript_TryRemoveSnorlax::
+	removeobject VAR_LAST_TALKED
+	return
+
+Route12_EventScript_Snorlax::
+	lock
+	faceplayer
+	goto_if_unset FLAG_GOT_POKE_FLUTE, Route12_EventScript_SnorlaxNoPokeFlute
+	goto_if_questlog EventScript_ReleaseEnd
+	special QuestLog_CutRecording
+	msgbox Text_WantToUsePokeFlute, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route12_EventScript_DontUsePokeFlute
+	call EventScript_AwakenSnorlax
+	setwildbattle SPECIES_SNORLAX, 40
+	waitse
+	playmoncry SPECIES_SNORLAX, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setflag FLAG_HIDE_ROUTE_12_SNORLAX
+	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	setflag FLAG_WOKE_UP_ROUTE_12_SNORLAX
+	dowildbattle
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, Route12_EventScript_FoughtSnorlax
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, Route12_EventScript_FoughtSnorlax
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, Route12_EventScript_FoughtSnorlax
+	release
+	end
+
+Route12_EventScript_DontUsePokeFlute::
+	release
+	end
+
+Route12_EventScript_FoughtSnorlax::
+	msgbox Text_SnorlaxReturnedToMountains
+	release
+	end
+
+Route12_EventScript_SnorlaxNoPokeFlute::
+	msgbox Route12_Text_MonSprawledOutInSlumber
+	release
+	end
+
+Route12_EventScript_RouteSign::
+	msgbox Route12_Text_RouteSign, MSGBOX_SIGN
+	end
+
+Route12_EventScript_FishingSign::
+	msgbox Route12_Text_SportfishingArea, MSGBOX_SIGN
+	end
+
+Route12_EventScript_Alaina::
+	lock
+	faceplayer
+	setvar VAR_0x8008, INGAME_TRADE_TORCHIC
+	call EventScript_GetInGameTradeSpeciesInfo
+	goto_if_set FLAG_DID_CHICKLET_TRADE, Route12_EventScript_AlreadyTraded
+	msgbox Trade_Text_LookingForMonWannaTradeForMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route12_EventScript_DeclineTrade
+	call EventScript_ChooseMonForInGameTrade
+	goto_if_ge VAR_0x8004, PARTY_SIZE, Route12_EventScript_DeclineTrade
+	call EventScript_GetInGameTradeSpecies
+	goto_if_ne VAR_RESULT, VAR_0x8009, Route12_EventScript_NotRequestedMon
+	call EventScript_DoInGameTrade
+	msgbox Trade_Text_HeyThanks
+	setflag FLAG_DID_CHICKLET_TRADE
+	release
+	end
+
+Route12_EventScript_AlreadyTraded::
+	msgbox Trade_Text_IsntMyOldMonGreat
+	release
+	end
+
+Route12_EventScript_DeclineTrade::
+	msgbox Trade_Text_AwwOhWell
+	release
+	end
+
+Route12_EventScript_NotRequestedMon::
+	bufferspeciesname STR_VAR_1, VAR_0x8009
+	msgbox Trade_Text_WhatThatsNoMon
+	release
+	end
+`

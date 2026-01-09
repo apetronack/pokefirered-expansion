@@ -191,16 +191,16 @@
 #define FLAG_SHARE_EXP           0x0AF
 
 // Unused?
-#define FLAG_0x0B0               0x0B0
-#define FLAG_0x0B1               0x0B1
-#define FLAG_0x0B2               0x0B2
-#define FLAG_0x0B3               0x0B3
-#define FLAG_0x0B4               0x0B4
-#define FLAG_0x0B5               0x0B5
+#define FLAG_HIDE_PIPLUP         0x0B0
+#define FLAG_FOUGHT_PIPLUP       0x0B1
+#define FLAG_HIDE_CHIMCHAR       0x0B2
+#define FLAG_FOUGHT_CHIMCHAR     0x0B3
+#define FLAG_HIDE_TURTWIG        0x0B4
+#define FLAG_FOUGHT_TURTWIG      0x0B5
 #define FLAG_0x0B6               0x0B6
-#define FLAG_0x0B7               0x0B7
-#define FLAG_0x0B8               0x0B8
-#define FLAG_0x0B9               0x0B9
+#define FLAG_HIDE_VERMILION_DOCK_GUIDE                     0x0B7
+#define FLAG_HIDE_SKULL_FOSSIL   0x0B8
+#define FLAG_HIDE_ARMOR_FOSSIL   0x0B9
 #define FLAG_0x0BA               0x0BA
 #define FLAG_0x0BB               0x0BB
 #define FLAG_0x0BC               0x0BC
@@ -530,40 +530,40 @@
 #define FLAG_HIDE_SILPH_CO_4F_TM41                              0x1FE
 
 // Unused?
-#define FLAG_0x1FF               0x1FF
-#define FLAG_0x200               0x200
-#define FLAG_0x201               0x201
-#define FLAG_0x202               0x202
-#define FLAG_0x203               0x203
-#define FLAG_0x204               0x204
-#define FLAG_0x205               0x205
-#define FLAG_0x206               0x206
-#define FLAG_0x207               0x207
-#define FLAG_0x208               0x208
-#define FLAG_0x209               0x209
-#define FLAG_0x20A               0x20A
-#define FLAG_0x20B               0x20B
-#define FLAG_0x20C               0x20C
-#define FLAG_0x20D               0x20D
-#define FLAG_0x20E               0x20E
-#define FLAG_0x20F               0x20F
-#define FLAG_0x210               0x210
-#define FLAG_0x211               0x211
-#define FLAG_0x212               0x212
-#define FLAG_0x213               0x213
-#define FLAG_0x214               0x214
-#define FLAG_0x215               0x215
-#define FLAG_0x216               0x216
-#define FLAG_0x217               0x217
-#define FLAG_0x218               0x218
-#define FLAG_0x219               0x219
-#define FLAG_0x21A               0x21A
-#define FLAG_0x21B               0x21B
-#define FLAG_0x21C               0x21C
-#define FLAG_0x21D               0x21D
-#define FLAG_0x21E               0x21E
-#define FLAG_0x21F               0x21F
-#define FLAG_0x220               0x220
+#define FLAG_HIDE_COIS_TM72      0x1FF
+#define FLAG_HIDE_ROUTE6_TM88    0x200
+#define FLAG_HIDE_ROUTE11_TM57   0x201
+#define FLAG_DiglettsCave_ITEM_TM76 0x202
+#define FLAG_HIDE_ROUTE2_TM78    0x203
+#define FLAG_HIDE_ROUTE3_TM54    0x204
+#define FLAG_HIDE_ROUTE5_TM83    0x205
+#define FLAG_HIDE_ROUTE7_TM61    0x206
+#define FLAG_HIDE_ROUTE8_TM66    0x207
+#define FLAG_HIDE_ROUTE9_TM86    0x208
+#define FLAG_HIDE_ROUTE10_TM62   0x209
+#define FLAG_HIDE_ROUTE10_TM73   0x20A
+#define FLAG_HIDE_ROUTE12_TM59   0x20B
+#define FLAG_GOT_TM89            0x20C
+#define FLAG_HIDE_TM92           0x20D
+#define FLAG_HIDE_TM87           0x20E
+#define FLAG_HIDE_TM56           0x20F
+#define FLAG_HIDE_TM75           0x210
+#define FLAG_HIDE_TM82           0x211
+#define FLAG_HIDE_TM81           0x212
+#define FLAG_HIDE_TM91           0x213
+#define FLAG_HIDE_TM63           0x214
+#define FLAG_HIDE_TM58           0x215
+#define FLAG_HIDE_TM67           0x216
+#define FLAG_HIDE_TM85           0x217
+#define FLAG_HIDE_TM74           0x218
+#define FLAG_HIDE_TM71           0x219
+#define FLAG_HIDE_TM55           0x21A
+#define FLAG_HIDE_TM69           0x21B
+#define FLAG_HIDE_TM51           0x21C
+#define FLAG_HIDE_TM60           0x21D
+#define FLAG_HIDE_TM68           0x21E
+#define FLAG_HIDE_TM90           0x21F
+#define FLAG_HIDE_TM10           0x220
 #define FLAG_0x221               0x221
 #define FLAG_0x222               0x222
 #define FLAG_0x223               0x223
@@ -607,7 +607,7 @@
 #define FLAG_GOT_LAPRAS_FROM_SILPH                       0x246
 #define FLAG_GOT_POKEBALLS_FROM_OAK_AFTER_22_RIVAL       0x247
 #define FLAG_DID_MIMIEN_TRADE                            0x248
-#define FLAG_BOUGHT_MAGIKARP                             0x249
+#define FLAG_BOUGHT_FEEBAS                             0x249
 #define FLAG_DID_ZYNX_TRADE                              0x24A
 #define FLAG_DID_MS_NIDO_TRADE                           0x24B
 #define FLAG_0x24C                                       0x24C
@@ -620,7 +620,7 @@
 #define FLAG_WOKE_UP_ROUTE_12_SNORLAX                    0x253
 #define FLAG_GOT_TM39_FROM_BROCK                         0x254
 #define FLAG_GOT_SUPER_ROD                               0x255
-#define FLAG_GOT_EXP_SHARE_FROM_OAKS_AIDE                0x256
+#define FLAG_GOT_MUSCLE_BAND_FROM_OAKS_AIDE                0x256
 #define FLAG_DID_MARC_TRADE                              0x257
 #define FLAG_BEAT_RIVAL_IN_OAKS_LAB                      0x258
 #define FLAG_GOT_TM06_FROM_KOGA                          0x259
@@ -786,7 +786,7 @@
 #define FLAG_DEOXYS_FLEW_AWAY                            0x2F7
 #define FLAG_TALKED_TO_TEA_LADY_AFTER_HOF                0x2F8
 #define FLAG_TALKED_TO_OAKS_AIDE_IN_VERMILION            0x2F9
-#define FLAG_GOT_EVERSTONE_FROM_OAKS_AIDE                0x2FA
+#define FLAG_GOT_WISE_GLASSES_FROM_OAKS_AIDE                0x2FA
 #define FLAG_GOT_MOON_STONE_FROM_JOYFUL_GAME_CORNER      0x2FB
 #define FLAG_GOT_FULL_RESTORE_FROM_THREE_ISLAND_DEFENDER 0x2FC
 #define FLAG_GOT_AMULET_COIN_FROM_OAKS_AIDE              0x2FD
@@ -794,43 +794,44 @@
 #define FLAG_OAKS_RATING_IS_VIA_PC                       0x2FF
 
 // Unused?
-#define FLAG_0x300               0x300
-#define FLAG_0x301               0x301
-#define FLAG_0x302               0x302
-#define FLAG_0x303               0x303
-#define FLAG_0x304               0x304
-#define FLAG_0x305               0x305
-#define FLAG_0x306               0x306
-#define FLAG_0x307               0x307
-#define FLAG_0x308               0x308
-#define FLAG_0x309               0x309
-#define FLAG_0x30A               0x30A
-#define FLAG_0x30B               0x30B
-#define FLAG_0x30C               0x30C
-#define FLAG_0x30D               0x30D
-#define FLAG_0x30E               0x30E
-#define FLAG_0x30F               0x30F
-#define FLAG_0x310               0x310
-#define FLAG_0x311               0x311
-#define FLAG_0x312               0x312
-#define FLAG_0x313               0x313
-#define FLAG_0x314               0x314
-#define FLAG_0x315               0x315
-#define FLAG_0x316               0x316
-#define FLAG_0x317               0x317
-#define FLAG_0x318               0x318
-#define FLAG_0x319               0x319
-#define FLAG_0x31A               0x31A
-#define FLAG_0x31B               0x31B
-#define FLAG_0x31C               0x31C
-#define FLAG_0x31D               0x31D
-#define FLAG_0x31E               0x31E
-#define FLAG_0x31F               0x31F
-#define FLAG_0x320               0x320
-#define FLAG_0x321               0x321
-#define FLAG_0x322               0x322
-#define FLAG_0x323               0x323
-#define FLAG_0x324               0x324
+#define FLAG_BEAT_RIVAL_3        0x300 // Added for when SS Anne rival is defeated
+#define FLAG_BEAT_RIVAL_4        0x301 // Pokemon tower rival
+#define FLAG_BEAT_RIVAL_5        0x302 // Silph Co Rival
+#define FLAG_BEAT_RIVAL_6        0x303 // Late Route 22 rival
+// Flags for controlling player progression
+#define FLAG_HIDE_CERULEAN_GYMGUARDIAN               0x304
+#define FLAG_HIDE_POKEMON_TOWER_GUARDIAN             0x305
+#define FLAG_HIDE_CELADON_GYM_GUARDIAN               0x306
+#define FLAG_HIDE_FUSCHIA_GYM_GUARDIAN               0x307
+#define FLAG_HIDE_CINNABAR_MANSION_GUARDIAN          0x308
+#define FLAG_GOT_TM52_FROM_KOICHI                    0x309
+#define FLAG_GOT_TM65            0x30A
+#define FLAG_BEAT_IRIS           0x30B // Beat Iris and received potions in Mt Moon
+#define FLAG_BEAT_RICK           0x30C
+#define FLAG_BEAT_THOMAS         0x30D
+#define FLAG_BEAT_HEIDI          0x30E
+#define FLAG_DID_IRWIN_TRADE     0x30F
+#define FLAG_DID_LITLFOOT_TRADE  0x310
+#define FLAG_DID_CINNAMON_TRADE  0x311
+#define FLAG_DID_TOADETTE_TRADE  0x312
+#define FLAG_DID_STU_TRADE       0x313
+#define FLAG_DID_CHICKLET_TRADE  0x314
+#define FLAG_CHOICE_SPECS_TRADE  0x315
+#define FLAG_CHOICE_SCARF_TRADE  0x316
+#define FLAG_CHOICE_BAND_TRADE   0x317
+#define FLAG_BEAT_MYSTIC_GUARDIAN               0x318
+#define FLAG_BEAT_AURORA_GUARDIAN               0x319
+#define FLAG_DID_ZANGOOSE_TRADE  0x31A
+#define FLAG_DID_SEVIPER_TRADE   0x31B
+#define FLAG_DID_ABSOL_TRADE     0x31C
+#define FLAG_DID_PINSIR_TRADE    0x31D
+#define FLAG_DID_CARNIVINE_TRADE 0x31E
+#define FLAG_GOT_SKULL_FOSSIL    0x31F
+#define FLAG_GOT_ARMOR_FOSSIL    0x320
+#define FLAG_REVIVED_SKULL       0x321
+#define FLAG_REVIVED_ARMOR       0x322
+#define FLAG_0x323   0x323
+#define FLAG_0x324   0x324
 #define FLAG_0x325               0x325
 #define FLAG_0x326               0x326
 #define FLAG_0x327               0x327
@@ -939,7 +940,8 @@
 #define FLAG_0x38E               0x38E
 #define FLAG_0x38F               0x38F
 
-#define DAILY_FLAGS_START                           (FLAG_0x38F + (8 - FLAG_0x38F % 8))
+#define ALIGN_TO_8(x) (((x) + 7) & ~7)
+#define DAILY_FLAGS_START ALIGN_TO_8(FLAG_0x38F)
 
 #define FLAG_0x390               0x390
 #define FLAG_0x391               0x391
@@ -1257,6 +1259,7 @@
 #define FLAG_DEFEATED_AGATHA_1X       0x4BF
 #define FLAG_DEFEATED_LANCE_1X        0x4C0
 #define FLAG_DEFEATED_CHAMP_1X        0x4C1
+#define FLAG_ENCOUNTERED_MEW_TRUCK    0x4C2
 #define FLAG_RIVAL_LAB_FIGHT     0x4C2
 #define FLAG_RIVAL_CERCITY_FIGHT 0x4C3
 #define FLAG_RIVAL_SSANNE_FIGHT  0x4C4
@@ -1265,9 +1268,9 @@
 #define FLAG_RIVAL_RT22_FIGHT    0x4C7
 
 // Unused?
-#define FLAG_0x4C8               0x4C8
-#define FLAG_0x4C9               0x4C9
-#define FLAG_0x4CA               0x4CA
+#define FLAG_DEFEATED_MASTER_BUG_CATCHER       0x4C8
+#define FLAG_DEFEATED_MASTER_CHANNELER         0x4C9
+#define FLAG_FOUGHT_CELEBI                     0x4CA
 #define FLAG_0x4CB               0x4CB
 #define FLAG_0x4CC               0x4CC
 #define FLAG_0x4CD               0x4CD
@@ -1380,7 +1383,7 @@
 #define FLAG_SYS_POKEMON_GET                                        (SYS_FLAGS + 0x28)
 #define FLAG_SYS_POKEDEX_GET                                        (SYS_FLAGS + 0x29)
 #define FLAG_0x82A                                                  (SYS_FLAGS + 0x2A)
-#define FLAG_0x82B                                                  (SYS_FLAGS + 0x2B)
+#define FLAG_LEGENDARY_BEAST_ROAMERS_ACTIVE                         (SYS_FLAGS + 0x2B)
 #define FLAG_SYS_GAME_CLEAR                                         (SYS_FLAGS + 0x2C)
 #define FLAG_SYS_SET_TRAINER_CARD_PROFILE                           (SYS_FLAGS + 0x2D)
 #define FLAG_0x82E                                                  (SYS_FLAGS + 0x2E)
@@ -1467,8 +1470,8 @@
 #define FLAG_WORLD_MAP_SEVEN_ISLAND_SEVAULT_CANYON_TANOBY_KEY       (SYS_FLAGS + 0xC1)
 #define FLAG_WORLD_MAP_BIRTH_ISLAND_EXTERIOR                        (SYS_FLAGS + 0xC2)
 
-#define FLAG_0x8C3                                                  (SYS_FLAGS + 0xC3)
-#define FLAG_0x8C4                                                  (SYS_FLAGS + 0xC4)
+#define FLAG_WORLD_MAP_PIPLUP_CAVE                                  (SYS_FLAGS + 0xC3)
+#define FLAG_WORLD_MAP_MT_MOON_B1F                                  (SYS_FLAGS + 0xC4)
 #define FLAG_0x8C5                                                  (SYS_FLAGS + 0xC5)
 #define FLAG_0x8C6                                                  (SYS_FLAGS + 0xC6)
 #define FLAG_0x8C7                                                  (SYS_FLAGS + 0xC7)
@@ -1544,5 +1547,19 @@
 
 // Temp flag aliases
 #define FLAG_TEMP_HIDE_FOLLOWER                 FLAG_TEMP_E
+
+
+
+#if TESTING
+#define TESTING_FLAGS_START                     0x5000
+#define TESTING_FLAG_SLEEP_CLAUSE               (TESTING_FLAGS_START + 0x0)
+#define TESTING_FLAG_UNUSED_1                   (TESTING_FLAGS_START + 0x1)
+#define TESTING_FLAG_UNUSED_2                   (TESTING_FLAGS_START + 0x2)
+#define TESTING_FLAG_UNUSED_3                   (TESTING_FLAGS_START + 0x3)
+#define TESTING_FLAG_UNUSED_4                   (TESTING_FLAGS_START + 0x4)
+#define TESTING_FLAG_UNUSED_5                   (TESTING_FLAGS_START + 0x5)
+#define TESTING_FLAG_UNUSED_6                   (TESTING_FLAGS_START + 0x6)
+#define TESTING_FLAG_UNUSED_7                   (TESTING_FLAGS_START + 0x7)
+#endif // TESTING
 
 #endif // GUARD_CONSTANTS_FLAGS_H

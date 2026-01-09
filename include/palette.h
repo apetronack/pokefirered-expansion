@@ -41,10 +41,20 @@ enum
     FAST_FADE_OUT_TO_BLACK,
 };
 
-struct BlendSettings {
-  u32 blendColor:24;
-  u32 isTint:1;
-  u32 coeff:5;
+struct BlendSettings
+{
+    u32 blendColor:24;
+    u32 isTint:1;
+    u32 coeff:5;
+    u32 unused:2;
+};
+
+struct TimeBlendSettings
+{
+    struct BlendSettings startBlend;
+    struct BlendSettings endBlend;
+    u16 weight;
+    u16 altWeight;
 };
 
 struct PaletteFadeControl
@@ -79,8 +89,8 @@ extern u32 gPlttBufferTransferPending;
 extern u16 ALIGNED(4) gPlttBufferUnfaded[PLTT_BUFFER_SIZE];
 extern u16 ALIGNED(4) gPlttBufferFaded[PLTT_BUFFER_SIZE];
 
-void LoadCompressedPalette(const u32 *src, u32 offset, u32 size);
 void LoadPalette(const void *src, u32 offset, u32 size);
+void LoadPaletteFast(const void *src, u32 offset, u32 size);
 void FillPalette(u32 value, u32 offset, u32 size);
 void TransferPlttBuffer(void);
 u32 UpdatePaletteFade(void);

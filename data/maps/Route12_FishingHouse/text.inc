@@ -20,10 +20,10 @@ Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe::
     .string "From the seas to rivers, go out\n"
     .string "and land the big one, my friend.\p"
     .string "Now, I have a request.\p"
-    .string "If you catch a big MAGIKARP \n"
+    .string "If you catch a big FEEBAS \n"
     .string "with that ROD, I want to see it.\p"
     .string "As much as I love to fish, I also\n"
-    .string "love seeing gigantic MAGIKARP.$"
+    .string "love seeing gigantic FEEBAS.$"
 
 Route12_FishingHouse_Text_OhThatsDisappointing::
     .string "Oh…\n"
@@ -37,11 +37,11 @@ Route12_FishingHouse_Text_TryFishingBringMeMagikarp::
     .string "You'll find different POKéMON in\n"
     .string "different places.\p"
     .string "Oh, and don't forget to bring me\n"
-    .string "gigantic MAGIKARP.$"
+    .string "gigantic FEEBAS.$"
 
 Route12_FishingHouse_Text_OhMagikarpAllowMeToSee::
     .string "Oh? {PLAYER}?\n"
-    .string "Why, if it isn't a MAGIKARP!\p"
+    .string "Why, if it isn't a FEEBAS!\p"
     .string "Allow me to see it, quick!$"
 
 Route12_FishingHouse_Text_WhoaXInchesTakeThis::
@@ -70,7 +70,7 @@ Route12_FishingHouse_Text_HmmXInchesDoesntMeasureUp::
 
 Route12_FishingHouse_Text_DoesntLookLikeMagikarp::
     .string "Uh… That doesn't look much like\n"
-    .string "a MAGIKARP.$"
+    .string "a FEEBAS.$"
 
 Route12_FishingHouse_Text_NoRoomForGift::
     .string "Oh, no!\p"
@@ -78,7 +78,7 @@ Route12_FishingHouse_Text_NoRoomForGift::
     .string "no room for it.$"
 
 Route12_FishingHouse_Text_MostGiganticMagikarpXInches::
-    .string "The most gigantic MAGIKARP\n"
+    .string "The most gigantic FEEBAS\n"
     .string "I have ever witnessed…\p"
     .string "{STR_VAR_3} inches!$"
 
@@ -86,4 +86,10 @@ Route12_FishingHouse_Text_BlankChartOfSomeSort::
     .string "It's a blank chart of some sort.\p"
     .string "It has spaces for writing in\n"
     .string "records of some kind.$"
+
+Route12_FishingHouse_Text_AlsoTakeThisWaterfall::
+    .string "Oh, and take this too!\p"
+    .string "This HM teaches WATERFALL.\n"
+    .string "KANTO may not have any,\p"
+    .string "but it's still a useful move!$"
 

@@ -430,7 +430,7 @@ static void PrintOakText_ForPetesSake(u32 battler)
         ++gBattleStruct->simulatedInputState[0];
         break;
     case 3:
-        if (!IsTextPrinterActive(24))
+        if (!IsTextPrinterActive(B_WIN_OAK_OLD_MAN))
         {
             mask = (gBitTable[gBattleStruct->simulatedInputState[1]] | gBitTable[gBattleStruct->simulatedInputState[3]]) << 16;
             BeginNormalPaletteFade(mask,
@@ -450,7 +450,7 @@ static void PrintOakText_ForPetesSake(u32 battler)
         }
         break;
     case 5:
-        if (!IsTextPrinterActive(24))
+        if (!IsTextPrinterActive(B_WIN_OAK_OLD_MAN))
         {
             mask = (gBitTable[gBattleStruct->simulatedInputState[1]] | gBitTable[gBattleStruct->simulatedInputState[3]]) << 16;
             BeginNormalPaletteFade(mask,
@@ -470,7 +470,7 @@ static void PrintOakText_ForPetesSake(u32 battler)
         }
         break;
     case 7:
-        if (!IsTextPrinterActive(24))
+        if (!IsTextPrinterActive(B_WIN_OAK_OLD_MAN))
         {
             BeginNormalPaletteFade(0xFFFFFF7E,
                                    4,
@@ -553,7 +553,7 @@ static void PrintOakTextWithMainBgDarkened(u32 battler, const u8 *text, u8 delay
         ++gBattleStruct->simulatedInputState[0];
         break;
     case 4:
-        if (!IsTextPrinterActive(24))
+        if (!IsTextPrinterActive(B_WIN_OAK_OLD_MAN))
         {
             BeginNormalPaletteFade(0xFFFFFF7E,
                                    4,
@@ -621,7 +621,7 @@ static void PrintOakText_KeepAnEyeOnHP(u32 battler)
         ++gBattleStruct->simulatedInputState[0];
         break;
     case 4:
-        if (!IsTextPrinterActive(24))
+        if (!IsTextPrinterActive(B_WIN_OAK_OLD_MAN))
         {
             mask = (gBitTable[gBattleStruct->simulatedInputState[1]] | gBitTable[gBattleStruct->simulatedInputState[3]]) << 16;
             BeginNormalPaletteFade(mask,
@@ -867,7 +867,7 @@ static void OakOldManHandleIntroTrainerBallThrow(u32 battler)
 {
     if (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
     {
-        const u32 *trainerPal = gTrainerBacksprites[gSaveBlock2Ptr->playerGender].palette.data;
+        const u16 *trainerPal = gTrainerBacksprites[gSaveBlock2Ptr->playerGender].palette.data;
         BtlController_HandleIntroTrainerBallThrow(battler, 0xD6F8, trainerPal, 31, Intro_TryShinyAnimShowHealthbox, StartAnimLinearTranslation);
     }
     else

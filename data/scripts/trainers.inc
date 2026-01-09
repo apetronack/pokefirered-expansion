@@ -590,7 +590,14 @@ Route10_EventScript_Heidi::
 	trainerbattle_single TRAINER_PICNICKER_HEIDI, Route10_Text_HeidiIntro, Route10_Text_HeidiDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route10_EventScript_HeidiRematch
+	goto_if_set FLAG_BEAT_HEIDI, Route10_EventScript_HeidiDefeated
+	giveitem_msg Route10_Text_HeidiGaveItems, ITEM_SUPER_POTION, 15
+	setflag FLAG_BEAT_HEIDI
+	end
+
+Route10_EventScript_HeidiDefeated::
 	msgbox Route10_Text_HeidiPostBattle, MSGBOX_AUTOCLOSE
+	release
 	end
 
 Route10_EventScript_HeidiRematch::

@@ -33,7 +33,7 @@ NAMINGGFXDIR := graphics/naming_screen
 WALLPAPERGFXDIR := graphics/pokemon_storage/wallpapers
 JPCONTESTGFXDIR := graphics/contest/japanese
 
-types := normal fight flying poison ground rock bug ghost steel mystery fire water grass electric psychic ice dragon dark
+types := none normal fight flying poison ground rock bug ghost steel mystery fire water grass electric psychic ice dragon dark
 contest_types := cool beauty cute smart tough
 
 
@@ -585,7 +585,7 @@ $(MAPPREVIEWGFXDIR)/altering_cave/tiles.4bpp: %.4bpp: %.png
 $(MAPPREVIEWGFXDIR)/berry_forest/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 395 -Wnum_tiles
 
-$(MAPPREVIEWGFXDIR)/digletts_cave/tiles.4bpp: %.4bpp: %.png
+$(MAPPREVIEWGFXDIR)/DIGLETTS_CAVE/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 398 -Wnum_tiles
 
 $(MAPPREVIEWGFXDIR)/dotted_hole/tiles.4bpp: %.4bpp: %.png

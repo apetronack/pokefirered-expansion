@@ -1,0 +1,50 @@
+raw `
+PiplupCave_MapScripts::
+    map_script MAP_SCRIPT_ON_RESUME, PiplupCave_OnResume
+    map_script MAP_SCRIPT_ON_TRANSITION, PiplupCave_OnTransition
+    .byte 0
+
+PiplupCave_OnResume::
+    call_if_set FLAG_SYS_SPECIAL_WILD_BATTLE, PiplupCave_EventScript_TryRemoveStaticMon
+    end
+
+PiplupCave_EventScript_TryRemoveStaticMon::
+    specialvar VAR_RESULT, GetBattleOutcome
+    goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
+    removeobject VAR_LAST_TALKED
+    return
+
+PiplupCave_OnTransition::
+    setworldmapflag FLAG_WORLD_MAP_PIPLUP_CAVE
+    call_if_unset FLAG_FOUGHT_PIPLUP, PiplupCave_EventScript_ShowPiplup
+    end
+
+PiplupCave_EventScript_ShowPiplup::
+    clearflag FLAG_HIDE_PIPLUP
+    return
+
+PiplupCave_EventScript_Piplup::
+    goto_if_questlog EventScript_ReleaseEnd
+    lock
+    faceplayer
+    setwildbattle SPECIES_PIPLUP, 15
+    waitse
+    playmoncry SPECIES_PIPLUP, CRY_MODE_ENCOUNTER
+    waitmoncry
+    setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+    dowildbattle
+    clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+    special QuestLog_CutRecording
+    specialvar VAR_RESULT, GetBattleOutcome
+    goto_if_eq VAR_RESULT, B_OUTCOME_WON, PiplupCave_EventScript_FoughtPiplup
+    goto_if_eq VAR_RESULT, B_OUTCOME_RAN, PiplupCave_EventScript_FoughtPiplup
+    goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, PiplupCave_EventScript_FoughtPiplup
+    setflag FLAG_FOUGHT_PIPLUP
+    release
+    end
+
+PiplupCave_EventScript_FoughtPiplup::
+    setflag FLAG_FOUGHT_PIPLUP
+    goto EventScript_RemoveStaticMon
+    end
+`

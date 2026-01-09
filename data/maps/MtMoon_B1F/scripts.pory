@@ -1,0 +1,50 @@
+raw `
+MtMoon_B1F_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, MtMoon_B1F_OnResume
+    map_script MAP_SCRIPT_ON_TRANSITION, MtMoon_B1F_OnTransition
+	.byte 0
+
+MtMoon_B1F_OnResume::
+	call_if_set FLAG_SYS_SPECIAL_WILD_BATTLE, MtMoon_B1F_EventScript_TryRemoveStaticMon
+	end
+
+MtMoon_B1F_EventScript_TryRemoveStaticMon::
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, EventScript_Return
+	removeobject VAR_LAST_TALKED
+	return
+
+MtMoon_B1F_OnTransition::
+	setworldmapflag FLAG_WORLD_MAP_MT_MOON_B1F
+	call_if_unset FLAG_FOUGHT_CHIMCHAR, MtMoon_B1F_EventScript_ShowChimchar
+	end
+
+MtMoon_B1F_EventScript_ShowChimchar::
+	clearflag FLAG_HIDE_CHIMCHAR
+	return
+
+MtMoon_B1F_EventScript_Chimchar::
+	goto_if_questlog EventScript_ReleaseEnd
+	lock
+	faceplayer
+	setwildbattle SPECIES_CHIMCHAR, 13
+	waitse
+	playmoncry SPECIES_CHIMCHAR, CRY_MODE_ENCOUNTER
+	waitmoncry
+	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	dowildbattle
+	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+	special QuestLog_CutRecording
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, MtMoon_B1F_EventScript_FoughtChimchar
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, MtMoon_B1F_EventScript_FoughtChimchar
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, MtMoon_B1F_EventScript_FoughtChimchar
+	setflag FLAG_FOUGHT_CHIMCHAR
+	release
+	end
+
+MtMoon_B1F_EventScript_FoughtChimchar::
+	setflag FLAG_FOUGHT_CHIMCHAR
+	goto EventScript_RemoveStaticMon
+	end
+`

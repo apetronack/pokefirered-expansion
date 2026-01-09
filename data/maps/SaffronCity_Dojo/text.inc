@@ -73,16 +73,16 @@ SaffronCity_Dojo_Text_HitoshiPostBattle::
     .string "train here.$"
 
 SaffronCity_Dojo_Text_YouWantHitmonlee::
-    .string "You want the hard-kicking\n"
-    .string "HITMONLEE?$"
+    .string "You want the hard-hitting\n"
+    .string "MEDICHAM?$"
 
 SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster::
     .string "{PLAYER} received the {STR_VAR_1}\n"
     .string "from the KARATE MASTER.$"
 
 SaffronCity_Dojo_Text_YouWantHitmonchan::
-    .string "You want the piston-punching\n"
-    .string "HITMONCHAN?$"
+    .string "You want the big, bulky\n"
+    .string "HARIYAMA?$"
 
 SaffronCity_Dojo_Text_ReceivedMonFromKarateMaster2::
     .string "{PLAYER}は　カラテ　だいおう　から\n"
@@ -100,3 +100,21 @@ SaffronCity_Dojo_Text_GoesAroundComesAround::
 SaffronCity_Dojo_Text_FightingDojo::
     .string "FIGHTING DOJO$"
 
+SaffronCity_Dojo_Text_TakeThisTM52::
+    .string "Your strength is truly\n"
+    .string "prodigious!\p"
+    .string "Here, you have earned this.$"
+
+SaffronCity_Dojo_Text_ReceivedTM52FromKoichi::
+    .string "{PLAYER} received TM52\n"
+    .string "from KOICHI.$"
+
+SaffronCity_Dojo_Text_ExplainTM52::
+    .string "TM52 contains FOCUS BLAST.\p"
+    .string "It is a rare Special FIGHTING\n"
+    .string "move that may lower SpDef.\p"
+    .string "It's very powerful, but can\n"
+    .string "miss occasionally.$"
+
+SaffronCity_Dojo_Text_ShouldMakeRoomForThis::
+    .string "You should make room for this.$"

@@ -174,7 +174,7 @@
       "elevation": 3,
       "item": "ITEM_NEST_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROCKET_HIDEOUT_B4F_NEST_BALL",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     },
     {
@@ -184,7 +184,7 @@
       "elevation": 3,
       "item": "ITEM_NET_BALL",
       "flag": "FLAG_HIDDEN_ITEM_ROCKET_HIDEOUT_B4F_NET_BALL",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     }
   ]

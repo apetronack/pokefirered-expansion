@@ -91,9 +91,9 @@ static const u32 (*const sFieldEffectFuncs[FLDEFF_COUNT]) (void) =
     [FLDEFF_JUMP_SMALL_SPLASH]            = FldEff_JumpSmallSplash,
     [FLDEFF_LONG_GRASS]                   = FldEff_LongGrass,
     [FLDEFF_JUMP_LONG_GRASS]              = FldEff_JumpLongGrass,
-    [FLDEFF_UNUSED_GRASS]                 = FldEff_UnusedGrass,
-    [FLDEFF_UNUSED_GRASS_2]               = FldEff_UnusedGrass2,
-    [FLDEFF_UNUSED_SAND]                  = FldEff_UnusedSand,
+    [FLDEFF_SHAKING_GRASS]                = FldEff_ShakingGrass,
+    [FLDEFF_SHAKING_LONG_GRASS]           = FldEff_ShakingGrass2,
+    [FLDEFF_SAND_HOLE]                    = FldEff_UnusedSand,
     [FLDEFF_UNUSED_WATER_SURFACING]       = FldEff_UnusedWaterSurfacing,
     [FLDEFF_BERRY_TREE_GROWTH_SPARKLE]    = FldEff_BerryTreeGrowthSparkle,
     [FLDEFF_DEEP_SAND_FOOTPRINTS]         = FldEff_DeepSandFootprints,
@@ -150,6 +150,7 @@ static const u32 (*const sFieldEffectFuncs[FLDEFF_COUNT]) (void) =
     [FLDEFF_SNOW_TRACKS_SLITHER]          = FldEff_SnowTracksSlither,
     [FLDEFF_SNOW_TRACKS_BUG]              = FldEff_SnowTracksBug,
     [FLDEFF_SNOW_TRACKS_SPOT]             = FldEff_SnowTracksSpot,
+    [FLDEFF_CAVE_DUST]                    = FldEff_CaveDust,
 };
 static const struct OamData sNewGameOakOamAttributes = {
     .y = 0,
@@ -446,11 +447,13 @@ void ApplyGlobalFieldPaletteTint(u8 paletteIdx)
 
 void FieldEffectScript_LoadFadedPal(const struct SpritePalette * spritePalette)
 {
-    u8 idx = IndexOfSpritePaletteTag(spritePalette->tag);
-    LoadSpritePalette(spritePalette);
-    if (idx == 0xFF)
-        ApplyGlobalFieldPaletteTint(IndexOfSpritePaletteTag(spritePalette->tag));
-    UpdateSpritePaletteWithWeather(IndexOfSpritePaletteTag(spritePalette->tag), TRUE);
+    bool32 isTagNew = IndexOfSpritePaletteTag(spritePalette->tag) == 0xFF;
+    u32 paletteSlot = LoadSpritePalette(spritePalette);
+
+    SetPaletteColorMapType(paletteSlot + 16, COLOR_MAP_DARK_CONTRAST);
+    if (isTagNew)
+        ApplyGlobalFieldPaletteTint(paletteSlot);
+    UpdateSpritePaletteWithWeather(paletteSlot, TRUE);
 }
 
 void FieldEffectScript_LoadPal(const struct SpritePalette * spritePalette)
@@ -461,7 +464,7 @@ void FieldEffectScript_LoadPal(const struct SpritePalette * spritePalette)
         ApplyGlobalFieldPaletteTint(IndexOfSpritePaletteTag(spritePalette->tag));
 }
 
-static void FieldEffectFreeGraphicsResources(struct Sprite *sprite)
+void FieldEffectFreeGraphicsResources(struct Sprite *sprite)
 {
     u16 tileStart = sprite->sheetTileStart;
     u8 paletteNum = sprite->oam.paletteNum;
@@ -555,8 +558,20 @@ bool8 FieldEffectActiveListContains(enum FieldEffect fldeff)
 u8 CreateTrainerSprite(u8 trainerSpriteID, s16 x, s16 y, u8 subpriority, u8 *buffer)
 {
     struct SpriteTemplate spriteTemplate;
-    LoadCompressedSpritePaletteOverrideBuffer(&gTrainerSprites[trainerSpriteID].palette, buffer);
+    bool32 alloced = FALSE;
+
+    // Allocate memory for buffer
+    if (buffer == NULL)
+    {
+        buffer = Alloc(TRAINER_PIC_SIZE);
+        alloced = TRUE;
+    }
+
+    LoadSpritePalette(&gTrainerSprites[trainerSpriteID].palette);
     LoadCompressedSpriteSheetOverrideBuffer(&gTrainerSprites[trainerSpriteID].frontPic, buffer);
+    if (alloced)
+        Free(buffer);
+
     spriteTemplate.tileTag = gTrainerSprites[trainerSpriteID].frontPic.tag;
     spriteTemplate.paletteTag = gTrainerSprites[trainerSpriteID].palette.tag;
     spriteTemplate.oam = &sNewGameOakOamAttributes;
@@ -3758,6 +3773,22 @@ static void Task_MoveDeoxysRock_Step(u8 taskId)
         }
         break;
     }
+}
+
+u32 FldEff_CaveDust(void)
+{
+    u8 spriteId;
+    
+    FieldEffectScript_LoadFadedPal(&gSpritePalette_CaveDust);
+    SetSpritePosToOffsetMapCoords((s16 *)&gFieldEffectArguments[0], (s16 *)&gFieldEffectArguments[1], 8, 8);
+    spriteId = CreateSpriteAtEnd(&gFieldEffectObjectTemplate_CaveDust, gFieldEffectArguments[0], gFieldEffectArguments[1], 0xFF);
+    if (spriteId != MAX_SPRITES)
+    {
+        gSprites[spriteId].coordOffsetEnabled = TRUE;
+        gSprites[spriteId].data[0] = 22;
+    }
+
+    return spriteId;
 }
 
 static void Task_DestroyDeoxysRock(u8 taskId);

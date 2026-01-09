@@ -18,12 +18,6 @@
 
 #define DROUGHT_COLOR_INDEX(color) ((((color) >> 1) & 0xF) | (((color) >> 2) & 0xF0) | (((color) >> 3) & 0xF00))
 
-enum
-{
-    COLOR_MAP_NONE,
-    COLOR_MAP_DARK_CONTRAST,
-    COLOR_MAP_CONTRAST,
-};
 
 struct RGBColor
 {
@@ -162,7 +156,7 @@ static const u8 ALIGNED(2) sBasePaletteColorMapTypes[32] = {
     COLOR_MAP_DARK_CONTRAST,
     COLOR_MAP_DARK_CONTRAST,
     COLOR_MAP_DARK_CONTRAST,
-    COLOR_MAP_NONE,
+    COLOR_MAP_DARK_CONTRAST,
     COLOR_MAP_NONE,
     COLOR_MAP_NONE,
     // sprite palettes
@@ -723,6 +717,11 @@ void ApplyWeatherColorMapIfIdle_Gradual(u8 colorMapIndex, u8 targetColorMapIndex
 
 void FadeScreen(u8 mode, s8 delay)
 {
+    FadeSelectedPals(mode, delay, PALETTES_ALL);
+}
+
+void FadeSelectedPals(u8 mode, s8 delay, u32 selectedPalettes)
+{
     u32 fadeColor;
     bool8 fadeOut;
     bool8 useWeatherPal;
@@ -769,84 +768,7 @@ void FadeScreen(u8 mode, s8 delay)
         // Note: Copying faded -> unfaded like this works fine, except if the screen is faded back in
         // without transitioning to a different screen
         // For cases like that, use fadescreenswapbuffers
-        CpuFastCopy(gPlttBufferFaded, gPlttBufferUnfaded, PLTT_SIZE);
-
-        BeginNormalPaletteFade(PALETTES_ALL, delay, 0, 16, fadeColor);
-        gWeatherPtr->palProcessingState = WEATHER_PAL_STATE_SCREEN_FADING_OUT;
-    }
-    else
-    {
-        gWeatherPtr->fadeDestColor = fadeColor;
-        UpdateTimeOfDay();
-        if (useWeatherPal)
-            gWeatherPtr->fadeScreenCounter = 0;
-        else if (!QL_IS_PLAYBACK_STATE && MapHasNaturalLight(gMapHeader.mapType))
-        {
-            UpdateAltBgPalettes(PALETTES_BG);
-            BeginTimeOfDayPaletteFade(PALETTES_ALL, delay, 16, 0,
-                                      (struct BlendSettings *)&gTimeOfDayBlend[currentTimeBlend.time0],
-                                      (struct BlendSettings *)&gTimeOfDayBlend[currentTimeBlend.time1],
-                                      currentTimeBlend.weight, fadeColor);
-        }
-        else
-            BeginNormalPaletteFade(PALETTES_ALL, delay, 16, 0, fadeColor);
-
-        gWeatherPtr->palProcessingState = WEATHER_PAL_STATE_SCREEN_FADING_IN;
-        gWeatherPtr->fadeInFirstFrame = TRUE;
-        gWeatherPtr->fadeInTimer = 0;
-        Weather_SetBlendCoeffs(gWeatherPtr->currBlendEVA, gWeatherPtr->currBlendEVB);
-        gWeatherPtr->readyForInit = TRUE;
-    }
-}
-
-void FadeSelectedPals(u8 mode, s8 delay, u32 selectedPalettes)
-{
-    u32 fadeColor;
-    bool8 fadeOut;
-    bool8 useWeatherPal;
-
-    switch (mode)
-    {
-    case FADE_FROM_BLACK:
-        fadeColor = RGB_BLACK;
-        fadeOut = FALSE;
-        break;
-    case FADE_FROM_WHITE:
-        fadeColor = RGB_WHITEALPHA;
-        fadeOut = FALSE;
-        break;
-    case FADE_TO_BLACK:
-        fadeColor = RGB_BLACK;
-        fadeOut = TRUE;
-        break;
-    case FADE_TO_WHITE:
-        fadeColor = RGB_WHITEALPHA;
-        fadeOut = TRUE;
-        break;
-    default:
-        return;
-    }
-
-    switch (gWeatherPtr->currWeather)
-    {
-    case WEATHER_RAIN:
-    case WEATHER_RAIN_THUNDERSTORM:
-    case WEATHER_DOWNPOUR:
-    case WEATHER_SNOW:
-    case WEATHER_FOG_HORIZONTAL:
-    case WEATHER_SHADE:
-    case WEATHER_DROUGHT:
-        useWeatherPal = TRUE;
-        break;
-    default:
-        useWeatherPal = FALSE;
-        break;
-    }
-
-    if (fadeOut)
-    {
-        if (useWeatherPal)
-            CpuFastCopy(gPlttBufferFaded, gPlttBufferUnfaded, PLTT_SIZE);
+        CpuFastCopy(gPlttBufferFaded, gPlttBufferUnfaded, PLTT_BUFFER_SIZE * 2);
 
         BeginNormalPaletteFade(selectedPalettes, delay, 0, 16, fadeColor);
         gWeatherPtr->palProcessingState = WEATHER_PAL_STATE_SCREEN_FADING_OUT;
@@ -854,10 +776,20 @@ void FadeSelectedPals(u8 mode, s8 delay, u32 selectedPalettes)
     else
     {
         gWeatherPtr->fadeDestColor = fadeColor;
+        UpdateTimeOfDay();
         if (useWeatherPal)
-            gWeatherPtr->fadeScreenCounter = 0;
+        {
+            gWeatherPtr->fadeScreenCounter = 0; // Triggers gamma-shift-based fade-in
+        }
+        else if (!QL_IS_PLAYBACK_STATE && MapHasNaturalLight(gMapHeader.mapType))
+        {
+            UpdateAltBgPalettes(selectedPalettes & PALETTES_BG);
+            BeginTimeOfDayPaletteFade(selectedPalettes, delay, 16, 0, &gTimeBlend.startBlend, &gTimeBlend.endBlend, gTimeBlend.weight, fadeColor);
+        }
         else
+        {
             BeginNormalPaletteFade(selectedPalettes, delay, 16, 0, fadeColor);
+        }
 
         gWeatherPtr->palProcessingState = WEATHER_PAL_STATE_SCREEN_FADING_IN;
         gWeatherPtr->fadeInFirstFrame = TRUE;
@@ -867,6 +799,36 @@ void FadeSelectedPals(u8 mode, s8 delay, u32 selectedPalettes)
     }
 }
 
+// fades screen using BLDY
+// Note: This enables blending in all windows;
+// These bits may need to be disabled later
+// (i.e if blending lighting effects using WINOBJ)
+u32 FadeScreenHardware(u32 mode, s32 delay)
+{
+    u32 bldCnt = GetGpuReg(REG_OFFSET_BLDCNT) & BLDCNT_TGT2_ALL;
+    bldCnt |= BLDCNT_TGT1_ALL;
+    // enable blend in all windows
+    SetGpuRegBits(REG_OFFSET_WININ, WININ_WIN0_CLR | WININ_WIN1_CLR);
+    SetGpuRegBits(REG_OFFSET_WINOUT, WINOUT_WIN01_CLR);
+
+    switch (mode)
+    {
+    case FADE_FROM_BLACK:
+        BeginHardwarePaletteFade(bldCnt | BLDCNT_EFFECT_DARKEN, delay, 16, 0, TRUE);
+        break;
+    case FADE_TO_BLACK:
+        BeginHardwarePaletteFade(bldCnt | BLDCNT_EFFECT_DARKEN, delay, 0, 16, FALSE);
+        break;
+    case FADE_FROM_WHITE:
+        BeginHardwarePaletteFade(bldCnt | BLDCNT_EFFECT_LIGHTEN, delay, 16, 0, TRUE);
+        break;
+    case FADE_TO_WHITE:
+        BeginHardwarePaletteFade(bldCnt | BLDCNT_EFFECT_LIGHTEN, delay, 0, 16, FALSE);
+        break;
+    }
+
+    return 0;
+}
 
 bool8 IsWeatherNotFadingIn(void)
 {
@@ -928,9 +890,9 @@ void UpdateSpritePaletteWithWeather(u8 spritePaletteIndex, bool32 allowFog)
     }
 }
 
-void ApplyWeatherColorMapToPal(u8 paletteIndex)
+void ApplyWeatherColorMapToPals(u8 startPalIndex, u8 numPalettes)
 {
-    ApplyColorMap(paletteIndex, 1, gWeatherPtr->colorMapIndex);
+    ApplyColorMap(startPalIndex, numPalettes, gWeatherPtr->colorMapIndex);
 }
 
 void LoadCustomWeatherSpritePalette(const u16 *palette)
@@ -1132,11 +1094,23 @@ void SetWeatherPalStateIdle(void)
     gWeatherPtr->palProcessingState = WEATHER_PAL_STATE_IDLE;
 }
 
+const u8* SetPaletteColorMapType(u8 paletteIndex, u8 colorMapType)
+{
+    if (sPaletteColorMapTypes[paletteIndex] == colorMapType)
+        return sPaletteColorMapTypes;
+    // setup field effect color map
+    if (sPaletteColorMapTypes != sFieldEffectPaletteColorMapTypes)
+    {
+        CpuCopy16(sBasePaletteColorMapTypes, sFieldEffectPaletteColorMapTypes, 32);
+        sPaletteColorMapTypes = sFieldEffectPaletteColorMapTypes;
+    }
+    sFieldEffectPaletteColorMapTypes[paletteIndex] = colorMapType;
+    return sPaletteColorMapTypes;
+}
+
 void PreservePaletteInWeather(u8 preservedPalIndex)
 {
-    CpuCopy16(sBasePaletteColorMapTypes, sFieldEffectPaletteColorMapTypes, 32);
-    sFieldEffectPaletteColorMapTypes[preservedPalIndex] = COLOR_MAP_NONE;
-    sPaletteColorMapTypes = sFieldEffectPaletteColorMapTypes;
+    SetPaletteColorMapType(preservedPalIndex, COLOR_MAP_NONE);
 }
 
 void ResetPreservedPalettesInWeather(void)

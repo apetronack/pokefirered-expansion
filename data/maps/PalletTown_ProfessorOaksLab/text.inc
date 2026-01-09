@@ -77,7 +77,7 @@ PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
     .string "There are three POKéMON here.\p"
     .string "Haha!\p"
     .string "The POKéMON are held inside\n"
-    .string "these POKé BALLS.\p"
+    .string "these POKé BALLs.\p"
     .string "When I was young, I was a serious\n"
     .string "POKéMON TRAINER.\p"
     .string "But now, in my old age, I have\n"
@@ -91,7 +91,7 @@ PalletTown_ProfessorOaksLab_Text_OakBePatientRival::
 
 PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose::
     .string "OAK: Now, {PLAYER}.\p"
-    .string "Inside those three POKé BALLS are\n"
+    .string "Inside those three POKé BALLs are\n"
     .string "POKéMON.\p"
     .string "Which one will you choose for\n"
     .string "yourself?$"
@@ -184,7 +184,7 @@ PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese::
     .string "catching wild POKéMON.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls::
-    .string "{PLAYER} received five POKé BALLS.$"
+    .string "{PLAYER} received five POKé BALLs.$"
 
 PalletTown_ProfessorOaksLab_Text_OakExplainCatching::
     .string "When a wild POKéMON appears,\n"
@@ -233,7 +233,7 @@ PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia::
     .string "pages are blank.$"
 
 PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls::
-    .string "Those are POKé BALLS.\n"
+    .string "Those are POKé BALLs.\n"
     .string "They contain POKéMON!$"
 
 PalletTown_ProfessorOaksLab_Text_OaksLastMon::
@@ -354,4 +354,33 @@ PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
     .string "I think I'll try looking around\n"
     .string "ONE ISLAND first…\p"
     .string "Anyways, I'm outta here!$"
+
+PalletTown_ProfessorOaksLab_Text_OakLegendaryBeastsRoaming::
+    .string "OAK: {PLAYER}! I have amazing news!\p"
+    .string "After connecting with HOENN, my\n"
+    .string "research equipment detected some\l"
+    .string "extraordinary energy readings!\p"
+    .string "It seems that two more legendary\n"
+    .string "POKéMON, {STR_VAR_1} and {STR_VAR_2},\l"
+    .string "have appeared somewhere in KANTO!\p"
+    .string "These magnificent beasts are said\n"
+    .string "to roam freely across the land.\p"
+    .string "Combined with {STR_VAR_3} that appeared\n"
+    .string "when we connected the network, all\l"
+    .string "three legendary beasts are now here!\p"
+    .string "If you encounter them, be prepared!\n"
+    .string "They're incredibly powerful and\l"
+    .string "may flee from battle at any moment!\p"
+    .string "This is a once-in-a-lifetime\n"
+    .string "opportunity for any trainer!$"
+
+PalletTown_ProfessorOaksLab_Text_OakDetectedNewLegendaries::
+    .string "OAK: Hold on… My equipment is\n"
+    .string "detecting something unusual!\p"
+    .string "It appears that two more legendary\n"
+    .string "POKéMON have manifested in KANTO!\p"
+    .string "{STR_VAR_1} and {STR_VAR_2} are now\n"
+    .string "roaming somewhere in the region!\p"
+    .string "What an incredible phenomenon!\n"
+    .string "Three legendary beasts in one region!$"
 

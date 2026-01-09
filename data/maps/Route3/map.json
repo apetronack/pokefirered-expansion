@@ -154,7 +154,13 @@
     }
   ],
   "warp_events": [
-
+    {
+      "x": 39,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_CAVE_OF_INNER_STRENGTH",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 
@@ -175,7 +181,7 @@
       "elevation": 3,
       "item": "ITEM_ORAN_BERRY",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE3_ORAN_BERRY",
-      "quantity": 1,
+      "quantity": 10,
       "underfoot": false
     }
   ]

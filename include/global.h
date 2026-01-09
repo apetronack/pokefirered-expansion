@@ -19,6 +19,7 @@
 #include "constants/rgb.h"
 #include "constants/easy_chat.h"
 #include "constants/items.h"
+#include "config/save.h"
 
 // Prevent cross-jump optimization.
 #define BLOCK_CROSS_JUMP asm("");
@@ -170,6 +171,31 @@ extern u8 gStringVar4[1000];
 
 #define FEATURE_FLAG_ASSERT(flag, id) STATIC_ASSERT(flag > TEMP_FLAGS_END || flag == 0, id)
 
+#ifndef NDEBUG
+static inline void CycleCountStart()
+{
+    REG_TM2CNT_H = 0;
+    REG_TM3CNT_H = 0;
+
+    REG_TM2CNT_L = 0;
+    REG_TM3CNT_L = 0;
+
+    // init timers (tim3 count up mode, tim2 every clock cycle)
+    REG_TM3CNT_H = TIMER_ENABLE | TIMER_COUNTUP;
+    REG_TM2CNT_H = TIMER_1CLK | TIMER_ENABLE;
+}
+
+static inline u32 CycleCountEnd()
+{
+    // stop timers
+    REG_TM2CNT_H = 0;
+    REG_TM3CNT_H = 0;
+
+    // return result
+    return REG_TM2CNT_L | (REG_TM3CNT_L << 16u);
+}
+#endif
+
 struct Coords8
 {
     s8 x;
@@ -214,12 +240,21 @@ struct Time
     /*0x04*/ s8 seconds;
 };
 
+#include "constants/items.h"
+#define ITEM_FLAGS_COUNT ((ITEMS_COUNT / 8) + ((ITEMS_COUNT % 8) ? 1 : 0))
 
 struct SaveBlock3
 {
 #if OW_USE_FAKE_RTC
     struct SiiRtcInfo fakeRTC;
 #endif
+#if OW_SHOW_ITEM_DESCRIPTIONS == OW_ITEM_DESCRIPTIONS_FIRST_TIME
+    u8 itemFlags[ITEM_FLAGS_COUNT];
+#endif
+#if USE_DEXNAV_SEARCH_LEVELS == TRUE
+    u8 dexNavSearchLevels[NUM_SPECIES];
+#endif
+    u8 dexNavChain;
 };
 
 extern struct SaveBlock3 *gSaveBlock3Ptr;
@@ -336,7 +371,9 @@ struct BattleTowerData // Leftover from R/S
     /*0x03DA, 0x048A*/ u16 defeatedBySpecies; // species of the pokemon that defated the player
     /*0x03DC, 0x048C*/ u8 defeatedByTrainerName[8];
     /*0x03E4, 0x0494*/ u8 firstMonNickname[VANILLA_POKEMON_NAME_LENGTH]; // nickname of the first pokemon in the player's battle tower party
+#if FREE_BATTLE_TOWER_E_READER == FALSE
     /*0x03F0, 0x04A0*/ struct BattleTowerEReaderTrainer ereaderTrainer;
+#endif //FREE_BATTLE_TOWER_E_READER
     /*0x04AC, 0x055C*/ u8 battleTowerLevelType:1; // 0 = level 50; 1 = level 100
     /*0x04AC, 0x055C*/ u8 unk_554:1;
     /*0x04AD, 0x055D*/ u8 battleOutcome;
@@ -380,9 +417,13 @@ struct SaveBlock2
     /*0x0AD*/ bool8 unkFlag2; // Set FALSE, never read
     /*0x0B0*/ struct BattleTowerData battleTower;
     /*0x898*/ u16 mapView[0x100];
+#if FREE_LINK_BATTLE_RECORDS == FALSE
     /*0xA98*/ struct LinkBattleRecords linkBattleRecords;
+#endif //FREE_LINK_BATTLE_RECORDS
     /*0xAF0*/ struct BerryCrush berryCrush;
+#if FREE_POKEMON_JUMP == FALSE
     /*0xB00*/ struct PokemonJumpRecords pokeJump;
+#endif //FREE_POKEMON_JUMP
     /*0xB10*/ struct BerryPickingResults berryPick;
     /*0x169C*/ struct BerryTree berryTrees[BERRY_TREES_COUNT]; // moved to SaveBlock2 due to QuestLogScene taking up SaveBlock1
     /*0x???*/ u8 filler_90[212];
@@ -459,6 +500,14 @@ struct Roamer
     /*0x12*/ u8 tough;
     /*0x13*/ bool8 active;
     /*0x14*/ u8 filler[0x8];
+};
+
+struct RoamerGroup
+{
+    /*0x00*/ struct Roamer originalRoamer;     // Original starter-dependent roamer
+    /*0x1C*/ struct Roamer legendaryBeasts[2]; // Remaining two roamers after champion
+    /*0x54*/ u8 beastRoamersActive;            // Bitfield: bit 0 = other roamer 1, bit 1 = other roamer 2
+    /*0x55*/ u8 filler[0x3];
 };
 
 struct RamScriptData
@@ -649,7 +698,7 @@ struct QuestLogScene
     /*0x0004*/ s16 x;
     /*0x0006*/ s16 y;
     /*0x0008*/ struct QuestLogObjectEvent objectEvents[OBJECT_EVENTS_COUNT];
-    /*0x0148*/ u8 flags[NUM_FLAG_BYTES];
+    /*0x0148*/ u8 ALIGNED(2) flags[NUM_FLAG_BYTES];
     /*0x02c8*/ u16 vars[VARS_COUNT];
     /*0x0468*/ struct QuestLogObjectEventTemplate objectEventTemplates[OBJECT_EVENT_TEMPLATES_COUNT];
     /*0x0568*/ u16 script[128];
@@ -811,11 +860,13 @@ struct SaveBlock1
     /*0x0464*/ struct ItemSlot bagPocket_TMHM[BAG_TMHM_COUNT];
     /*0x054c*/ struct ItemSlot bagPocket_Berries[BAG_BERRIES_COUNT];
     /*0x062C*/ u16 berryBlenderRecords[3]; // unused
+#if FREE_MATCH_CALL == FALSE
     /*0x0638*/ u16 trainerRematchStepCounter;
     /*0x063A*/ u8 trainerRematches[MAX_REMATCH_ENTRIES];
+#endif //FREE_MATCH_CALL
     /*0x06A0*/ struct ObjectEvent objectEvents[OBJECT_EVENTS_COUNT];
     /*0x08E0*/ struct ObjectEventTemplate objectEventTemplates[OBJECT_EVENT_TEMPLATES_COUNT];
-    /*0x0EE0*/ u8 flags[NUM_FLAG_BYTES];
+    /*0x0EE0*/ u8 ALIGNED(2) flags[NUM_FLAG_BYTES];
     /*0x1000*/ u16 vars[VARS_COUNT];
     /*0x1200*/ u32 gameStats[NUM_GAME_STATS];
     /*0x1300*/ struct QuestLogScene questLog[QUEST_LOG_SCENE_COUNT];
@@ -831,20 +882,30 @@ struct SaveBlock1
     /*0x309C*/ u8 giftRibbons[GIFT_RIBBONS_COUNT];
     /*0x30A7*/ struct ExternalEventData externalEventData;
     /*0x30BB*/ struct ExternalEventFlags externalEventFlags;
-    /*0x30D0*/ struct Roamer roamer;
+    /*0x30D0*/ struct RoamerGroup roamers;
+#if FREE_ENIGMA_BERRY == FALSE
     /*0x30EC*/ struct EnigmaBerry enigmaBerry;
+#endif //FREE_ENIGMA_BERRY
+#if FREE_MYSTERY_GIFT == FALSE
     /*0x3120*/ struct MysteryGiftSave mysteryGift;
+#endif //FREE_MYSTERY_GIFT
     /*0x????*/ u8 dexSeen[DEX_FLAGS_NO];
                u8 dexCaught[DEX_FLAGS_NO];
+#if FREE_MYSTERY_EVENT_BUFFERS == FALSE
     /*0x361C*/ struct RamScript ramScript;
+#endif //FREE_MYSTERY_EVENT_BUFFERS
     /*0x3A08*/ struct RecordMixingGift recordMixingGift; // unused
     /*0x3A4C*/ u8 rivalName[PLAYER_NAME_LENGTH + 1];
     /*0x3A54*/ struct FameCheckerSaveData fameChecker[NUM_FAMECHECKER_PERSONS];
+#if FREE_UNION_ROOM_CHAT == FALSE
     /*0x3AD4*/ u8 registeredTexts[UNION_ROOM_KB_ROW_COUNT][21];
+#endif //FREE_UNION_ROOM_CHAT
     /*0x3BA8*/ struct TrainerNameRecord trainerNameRecords[20];
     /*0x3C98*/ struct DaycareMon route5DayCareMon;
+#if FREE_TRAINER_HILL == FALSE
     /*0x3D34*/ u32 towerChallengeId;
     /*0x3D38*/ struct TrainerTower trainerTower[NUM_TOWER_CHALLENGE_TYPES];
+#endif //FREE_TRAINER_HILL
     /*0x3D24*/ u8 unusedSB1[0x1C];
 }; // size: 0x3D68
 

@@ -1,0 +1,151 @@
+raw `
+.equ MAGIKARP_PRICE, 500
+
+Route4_PokemonCenter_1F_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route4_PokemonCenter_1F_OnTransition
+	map_script MAP_SCRIPT_ON_RESUME, CableClub_OnResume
+	.byte 0
+
+Route4_PokemonCenter_1F_OnTransition::
+	setworldmapflag FLAG_WORLD_MAP_ROUTE4_POKEMON_CENTER_1F
+	setrespawn SPAWN_ROUTE4
+	end
+
+Route4_PokemonCenter_1F_EventScript_Boy::
+	msgbox Route4_PokemonCenter_1F_Text_CanHaveSixMonsWithYou, MSGBOX_NPC
+	end
+
+Route4_PokemonCenter_1F_EventScript_Gentleman::
+	lock
+	msgbox Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean
+	release
+	end
+
+Route4_PokemonCenter_1F_EventScript_FeebasSalesman::
+	lock
+	faceplayer
+	goto_if_set FLAG_BOUGHT_FEEBAS, Route4_PokemonCenter_1F_EventScript_AlreadyBoughtMagikarp
+	showmoneybox 0, 0
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, Route4_PokemonCenter_1F_EventScript_AskBuyFeebasMale
+	goto_if_eq VAR_RESULT, FEMALE, Route4_PokemonCenter_1F_EventScript_AskBuyFeebasFemale
+	end
+
+Route4_PokemonCenter_1F_EventScript_AskBuyFeebasMale::
+	msgbox Route4_PokemonCenter_1F_Text_LaddieBuyFeebasForJust500, MSGBOX_YESNO
+	goto Route4_PokemonCenter_1F_EventScript_TryBuyFeebas
+	end
+
+Route4_PokemonCenter_1F_EventScript_AskBuyFeebasFemale::
+	msgbox Route4_PokemonCenter_1F_Text_SweetieBuyFeebasForJust500, MSGBOX_YESNO
+	goto Route4_PokemonCenter_1F_EventScript_TryBuyFeebas
+	end
+
+Route4_PokemonCenter_1F_EventScript_TryBuyFeebas::
+	goto_if_eq VAR_RESULT, NO, Route4_PokemonCenter_1F_EventScript_DeclineMagikarp
+	checkmoney MAGIKARP_PRICE
+	goto_if_eq VAR_RESULT, FALSE, Route4_PokemonCenter_1F_EventScript_NotEnoughMoney
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	setvar VAR_TEMP_1, SPECIES_FEEBAS
+	givemon SPECIES_FEEBAS, 5
+	goto_if_eq VAR_RESULT, 0, Route4_PokemonCenter_1F_EventScript_BuyFeebasParty
+	goto_if_eq VAR_RESULT, 1, Route4_PokemonCenter_1F_EventScript_BuyFeebasPC
+	goto_if_eq VAR_RESULT, 2, Route4_PokemonCenter_1F_EventScript_NoRoomForFeebas
+	end
+
+Route4_PokemonCenter_1F_EventScript_BuyFeebasParty::
+	call Route4_PokemonCenter_1F_EventScript_PayForFeebas
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route4_PokemonCenter_1F_EventScript_EndPurchaseMagikarp
+	call EventScript_GetGiftMonPartySlot
+	fadescreen FADE_TO_BLACK
+	hidemoneybox
+	special ChangePokemonNickname
+	waitstate
+	goto Route4_PokemonCenter_1F_EventScript_BoughtMagikarp
+	end
+
+Route4_PokemonCenter_1F_EventScript_BuyFeebasPC::
+	call Route4_PokemonCenter_1F_EventScript_PayForFeebas
+	msgbox Text_GiveNicknameToThisMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route4_PokemonCenter_1F_EventScript_TransferMagikarpCloseMoneyBox
+	fadescreen FADE_TO_BLACK
+	hidemoneybox
+	special ChangeBoxPokemonNickname
+	waitstate
+	lock
+	faceplayer
+	goto Route4_PokemonCenter_1F_EventScript_TransferMagikarp
+	end
+
+Route4_PokemonCenter_1F_EventScript_TransferMagikarpCloseMoneyBox::
+	call EventScript_TransferredToPC
+	goto Route4_PokemonCenter_1F_EventScript_EndPurchaseMagikarp
+	end
+
+Route4_PokemonCenter_1F_EventScript_TransferMagikarp::
+	call EventScript_TransferredToPC
+	goto Route4_PokemonCenter_1F_EventScript_BoughtMagikarp
+	end
+
+Route4_PokemonCenter_1F_EventScript_EndPurchaseMagikarp::
+	hidemoneybox
+	goto Route4_PokemonCenter_1F_EventScript_BoughtMagikarp
+	end
+
+Route4_PokemonCenter_1F_EventScript_BoughtMagikarp::
+	setflag FLAG_BOUGHT_FEEBAS
+	release
+	end
+
+Route4_PokemonCenter_1F_EventScript_PayForFeebas::
+	removemoney MAGIKARP_PRICE
+	updatemoneybox
+	playfanfare MUS_LEVEL_UP
+	message Route4_PokemonCenter_1F_Text_PaidOutrageouslyForFeebas
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_FEEBAS
+	return
+
+Route4_PokemonCenter_1F_EventScript_DeclineMagikarp::
+	msgbox Route4_PokemonCenter_1F_Text_OnlyDoingThisAsFavorToYou
+	hidemoneybox
+	release
+	end
+
+Route4_PokemonCenter_1F_EventScript_NotEnoughMoney::
+	msgbox Route4_PokemonCenter_1F_Text_YoullNeedMoreMoney
+	hidemoneybox
+	release
+	end
+
+Route4_PokemonCenter_1F_EventScript_AlreadyBoughtMagikarp::
+	msgbox Route4_PokemonCenter_1F_Text_IDontGiveRefunds
+	release
+	end
+
+Route4_PokemonCenter_1F_EventScript_NoRoomForFeebas::
+	textcolor NPC_TEXT_COLOR_MALE
+	msgbox Route4_PokemonCenter_1F_Text_NoRoomForMorePokemon
+	hidemoneybox
+	release
+	end
+
+Route4_PokemonCenter_1F_EventScript_Nurse::
+	lock
+	faceplayer
+	call EventScript_PkmnCenterNurse
+	release
+	end
+
+Route4_PokemonCenter_1F_EventScript_Youngster::
+	msgbox Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC, MSGBOX_NPC
+	end
+
+Route4_PokemonCenter_1F_EventScript_Newspaper::
+	lock
+	msgbox Route4_PokemonCenter_1F_Text_ItsANewspaper
+	release
+	end
+`

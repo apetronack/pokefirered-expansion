@@ -50,6 +50,58 @@ MtMoon_B2F_EventScript_ItemTM46::
 	finditem ITEM_TM46
 	end
 
+CaveOfInnerStrength_EventScript_TM72::
+	finditem ITEM_TM72
+	end
+
+Route6_EventScript_ItemTM88::
+	finditem ITEM_TM88
+	end
+
+Route11_EventScript_ItemTM57::
+	finditem ITEM_TM57
+	end
+
+DiglettsCave_EventScript_TM76::
+	finditem ITEM_TM76
+	end
+
+Route2_EventScript_ItemTM78::
+	finditem ITEM_TM78
+	end
+
+Route3_EventScript_TM54::
+	finditem ITEM_TM54
+	end
+
+Route5_EventScript_TM83::
+	finditem ITEM_TM83
+	end
+
+Route7_EventScript_TM61::
+	finditem ITEM_TM61
+	end
+
+Route8_EventScript_TM66::
+	finditem ITEM_TM66
+	end
+
+Route9_EventScript_TM86::
+	finditem ITEM_TM86
+	end
+
+Route10_EventScript_TM62::
+	finditem ITEM_TM62
+	end
+
+Route10_EventScript_TM73::
+	finditem ITEM_TM73
+	end
+
+Route12_EventScript_TM59::
+	finditem ITEM_TM59
+	end
+	
 Route4_EventScript_ItemTM05::
 	finditem ITEM_TM05
 	end
@@ -60,6 +112,10 @@ Route24_EventScript_ItemTM45::
 
 Route25_EventScript_ItemTM43::
 	finditem ITEM_TM43
+	end
+
+ShadowClawArea_EventScript_ItemTM92::
+	finditem ITEM_TM92
 	end
 
 SSAnne_1F_Room2_EventScript_ItemTM31::
@@ -614,8 +670,8 @@ FourIsland_IcefallCave_1F_EventScript_ItemUltraBall::
 	finditem ITEM_ULTRA_BALL
 	end
 
-FourIsland_IcefallCave_1F_EventScript_ItemHM07::
-	finditem ITEM_HM07
+FourIsland_IcefallCave_1F_EventScript_ItemTM100::
+	finditem ITEM_TM100
 	end
 
 FourIsland_IcefallCave_B1F_EventScript_ItemFullRestore::
@@ -668,4 +724,80 @@ SevenIsland_SevaultCanyon_House_EventScript_ItemLuckyPunch::
 
 SilphCo_4F_EventScript_ItemTM41::
 	finditem ITEM_TM41
+	end
+
+MtMoon_B2F_EventScript_ItemTM87::
+	finditem ITEM_TM87
+	end
+
+ViridianForest_EventScript_ItemTM56::
+	finditem ITEM_TM56
+	end
+
+VermillionCity_EventScript_ItemTM75::
+	finditem ITEM_TM75
+	end
+
+SSAnne_1F_Room6_ItemTM82::
+	finditem ITEM_TM82
+	end
+
+SafariZone_East_EventScript_ItemTM81::
+	finditem ITEM_TM81
+	end
+
+SafariZone_Center_EventScript_TM91::
+	finditem ITEM_TM91
+	end
+
+RocketHideout_B1F_EventScript_ItemTM63::
+	finditem ITEM_TM63
+	end
+
+SilphCo_3F_EventScript_ItemTM58::
+	finditem ITEM_TM58
+	end
+
+SilphCo_6F_EventScript_ItemTM67::
+	finditem ITEM_TM67
+	end
+
+SilphCo_8F_EventScript_ItemTM85::
+	finditem ITEM_TM85
+	end
+
+SilphCo_9F_EventScript_ItemTM74::
+	finditem ITEM_TM74
+	end
+
+VictoryRoad_1F_EventScript_ItemTM71::
+	finditem ITEM_TM71
+	end
+
+SeafoamIslands_1F_EventScript_ItemTM55::
+	finditem ITEM_TM55
+	end
+
+SeafoamIslands_B1F_EventScript_ItemTM69::
+	finditem ITEM_TM69
+	end
+
+Route18_EventScript_ItemTM51::
+	finditem ITEM_TM51
+	end
+
+Route17_EventScript_Item_TM60::
+	finditem ITEM_TM60
+	end
+
+Route23_EventScript_ItemTM68::
+	finditem ITEM_TM68
+	end
+
+CeladonCity_DepartmentStore_Roof_ItemTM90::
+	finditem ITEM_TM90
+	end
+
+Route22_EventScript_ItemTM10::
+	finditem ITEM_TM10
 	end

@@ -5,7 +5,7 @@
 #include "menu_helpers.h"
 #include "link.h"
 #include "overworld.h"
-#include "mail_data.h"
+#include "mail.h"
 #include "field_specials.h"
 #include "constants/songs.h"
 #include "constants/items.h"
@@ -93,7 +93,7 @@ u8 GetLRKeysPressedAndHeld(void)
 bool8 IsHoldingItemAllowed(u16 itemId)
 {
     // Enigma Berry can't be held in link areas
-    if (itemId == ITEM_ENIGMA_BERRY
+    if (itemId == ITEM_ENIGMA_BERRY_E_READER
      && ((gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(TRADE_CENTER)
        && gSaveBlock1Ptr->location.mapNum == MAP_NUM(TRADE_CENTER))
        || InUnionRoom() == TRUE))

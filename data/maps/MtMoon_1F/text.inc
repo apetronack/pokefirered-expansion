@@ -58,6 +58,10 @@ MtMoon_1F_Text_IrisPostBattle::
     .string "I came because I heard there are\n"
     .string "some very rare fossils here.$"
 
+MtMoon_1F_Text_IrisGaveItems::
+    .string "It's a long way through the\n"
+    .string "cave. These should help!$"
+
 MtMoon_1F_Text_KentIntro::
     .string "Suspicious men are in the cave.\n"
     .string "What about you?$"

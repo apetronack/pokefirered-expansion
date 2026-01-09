@@ -221,6 +221,16 @@ static const struct MenuAction sMultichoiceList_DomeAmber[] = {
     { gOtherText_Exit }
 };
 
+static const struct MenuAction sMultichoiceList_Skull[] = {
+    { gText_SkullFossil },
+    { gOtherText_Exit }
+};
+
+static const struct MenuAction sMultichoiceList_Armor[] = {
+    { gText_ArmorFossil },
+    { gOtherText_Exit }
+};
+
 static const struct MenuAction sMultichoiceList_CeladonVendingMachine[] = {
     { gText_FreshWater_200 },
     { gText_SodaPop_300 },
@@ -234,6 +244,9 @@ static const struct MenuAction sMultichoiceList_GameCornerTMPrizes[] = {
     { gText_Tm24_4000Coins },
     { gText_Tm30_4500Coins },
     { gText_Tm35_4000Coins },
+    { gText_Tm53_3750Coins },
+    { gText_Tm79_3750Coins },
+    { gText_Tm84_3750Coins },
     { gText_NoThanks_2 }
 };
 
@@ -247,8 +260,8 @@ static const struct MenuAction sMultichoiceList_GameCornerBattleItemPrizes[] = {
 };
 
 static const struct MenuAction sMultichoiceList_GameCornerCoinPurchaseCounter[] = {
-    { gText_50Coins_1000 },
-    { gText_500Coins_10000 },
+    { gText_100Coins_2000 },
+    { gText_1500Coins_30000 },
     { gOtherText_Exit }
 };
 
@@ -534,9 +547,9 @@ static const struct MenuAction sMultichoiceList_SeagallopVermilion[] = {
     { gOtherText_Exit }
 };
 
-static const struct MenuAction sMultichoiceList_62[] = {
-    { gText_Multichoice_Empty1 },
-    { gText_Multichoice_Empty2 },
+static const struct MenuAction sMultichoiceList_SeagallopOrDock[] = {
+    { gText_BoardSeagallop },
+    { gText_GoToDockArea },
     { gOtherText_Exit }
 };
 
@@ -585,6 +598,8 @@ static const struct MultichoiceListStruct sMultichoiceLists[] = {
     [MULTICHOICE_AMBER]                                      = MULTICHOICE(sMultichoiceList_Amber),
     [MULTICHOICE_HELIX_AMBER]                                = MULTICHOICE(sMultichoiceList_HelixAmber),
     [MULTICHOICE_DOME_AMBER]                                 = MULTICHOICE(sMultichoiceList_DomeAmber),
+    [MULTICHOICE_SKULL]                                      = MULTICHOICE(sMultichoiceList_Skull),
+    [MULTICHOICE_ARMOR]                                      = MULTICHOICE(sMultichoiceList_Armor),
     [MULTICHOICE_CELADON_VENDING_MACHINE]                    = MULTICHOICE(sMultichoiceList_CeladonVendingMachine),
     [MULTICHOICE_GAME_CORNER_COIN_PURCHASE_COUNTER]          = MULTICHOICE(sMultichoiceList_GameCornerCoinPurchaseCounter),
     [MULTICHOICE_EXCELLENT_NOT_SO_BAD]                       = MULTICHOICE(sMultichoiceList_Excellent_NotSoBad),
@@ -621,7 +636,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] = {
     [MULTICHOICE_SEAGALLOP_V13]                              = MULTICHOICE(sMultichoiceList_SeagallopV13),
     [MULTICHOICE_SEAGALLOP_V12]                              = MULTICHOICE(sMultichoiceList_SeagallopV12),
     [MULTICHOICE_SEAGALLOP_VERMILION]                        = MULTICHOICE(sMultichoiceList_SeagallopVermilion),
-    [MULTICHOICE_62]                                         = MULTICHOICE(sMultichoiceList_62),
+    [MULTICHOICE_SEAGALLOP_OR_DOCK]                          = MULTICHOICE(sMultichoiceList_SeagallopOrDock),
     [MULTICHOICE_JOIN_OR_LEAD]                               = MULTICHOICE(sMultichoiceList_JoinOrLead),
     [MULTICHOICE_TRAINER_TOWER_MODE]                         = MULTICHOICE(sMultichoiceList_TrainerTowerMode),
 };
@@ -1101,6 +1116,8 @@ static u8 GetMCWindowHeight(u8 count)
         return 13;
     case 8:
         return 14;
+    case 9:
+        return 16;
     default:
         return 1;
     }

@@ -165,10 +165,28 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route17_EventScript_Jaxon",
       "flag": "0"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_POKE_BALL",
+      "x": 18,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route17_EventScript_Item_TM60",
+      "flag": "FLAG_HIDE_TM60"
     }
   ],
-  "warp_events": [],
-  "coord_events": [],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",
@@ -235,7 +253,7 @@
       "elevation": 3,
       "item": "ITEM_FULL_RESTORE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE17_FULL_RESTORE",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     },
     {
@@ -255,7 +273,7 @@
       "elevation": 3,
       "item": "ITEM_MAX_REVIVE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE17_MAX_REVIVE",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     },
     {
@@ -265,7 +283,7 @@
       "elevation": 3,
       "item": "ITEM_MAX_ELIXIR",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE17_MAX_ELIXIR",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     }
   ]

@@ -39,5 +39,7 @@ PokemonTower_6F_Text_GhostWasCubonesMother::
 
 PokemonTower_6F_Text_MothersSpiritWasCalmed::
     .string "The mother's spirit was calmed.\p"
-    .string "It departed to the afterlife…$"
+    .string "It departed to the afterlife…\p"
+    .string ".................\n"
+    .string "Your POKéMON feel refreshed!$"
 

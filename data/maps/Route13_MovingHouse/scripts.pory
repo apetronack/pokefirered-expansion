@@ -1,0 +1,58 @@
+mapscripts Route13_MovingHouse_MapScripts {}
+script Route13_MovingHouse_EventScript_ChoiceItem {
+    lock()
+    faceplayer()
+    if (flag(FLAG_CHOICE_SPECS_TRADE) != TRUE) {
+        msgbox(format("I'm looking for a FIRE STONE. If you have one, I'll trade you some CHOICE SPECS for it."))
+        waitmessage()
+        if (checkitem(ITEM_FIRE_STONE)) {
+            msgbox(format("Do you want to trade your FIRE STONE for my CHOICE SPECS?"), MSGBOX_YESNO)
+            if (var(VAR_RESULT) == 1) {
+                setflag(FLAG_CHOICE_SPECS_TRADE)
+                removeitem(ITEM_FIRE_STONE, 1)
+                giveitem(ITEM_CHOICE_SPECS, 1)
+                msgbox(format("Thank you! Here are your CHOICE SPECS."))
+            } else {
+                msgbox(format("Oh, I see. Maybe another time then."))
+            }
+        } else {
+            msgbox(format("I see you don't have a FIRE STONE. Come back when you do!"))
+        }
+    } elif (flag(FLAG_CHOICE_SCARF_TRADE) != TRUE) {
+        msgbox(format("I'm looking for a WATER STONE. If you have one, I'll trade you some CHOICE SCARF for it."))
+        waitmessage()
+        if (checkitem(ITEM_WATER_STONE)) {
+            msgbox(format("Do you want to trade your WATER STONE for my CHOICE SCARF?"), MSGBOX_YESNO)
+            if (var(VAR_RESULT) == 1) {
+                setflag(FLAG_CHOICE_SCARF_TRADE)
+                removeitem(ITEM_WATER_STONE, 1)
+                giveitem(ITEM_CHOICE_SCARF, 1)
+                msgbox(format("Thank you! Here are your CHOICE SCARF."))
+            } else {
+                msgbox(format("Oh, I see. Maybe another time then."))
+            }
+        } else {
+            msgbox(format("I see you don't have a WATER STONE. Come back when you do!"))
+        }
+    } elif (flag(FLAG_CHOICE_BAND_TRADE) != TRUE) {
+        msgbox(format("I'm looking for a THUNDER STONE. If you have one, I'll trade you some CHOICE BAND for it."))
+        waitmessage()
+        if (checkitem(ITEM_THUNDER_STONE)) {
+            msgbox(format("Do you want to trade your THUNDER STONE for my CHOICE BAND?"), MSGBOX_YESNO)
+            if (var(VAR_RESULT) == 1) {
+                setflag(FLAG_CHOICE_BAND_TRADE)
+                removeitem(ITEM_THUNDER_STONE, 1)
+                giveitem(ITEM_CHOICE_BAND, 1)
+                msgbox(format("Thank you! Here are your CHOICE BAND."))
+            } else {
+                msgbox(format("Oh, I see. Maybe another time then."))
+            }
+        } else {
+            msgbox(format("I see you don't have a THUNDER STONE. Come back when you do!"))
+        }
+    } else {
+        msgbox(format("Thanks for trading with me!"))
+    }
+    release()
+    end()
+}

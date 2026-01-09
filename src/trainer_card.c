@@ -870,7 +870,11 @@ void TrainerCard_GenerateCardForLinkPlayer(struct TrainerCard *trainerCard)
     trainerCard->rse.caughtAllHoenn = HasAllKantoMons();
     trainerCard->hasAllMons = HasAllMons();
     trainerCard->berriesPicked = gSaveBlock2Ptr->berryPick.berriesPicked;
+#if FREE_POKEMON_JUMP == FALSE
     trainerCard->jumpsInRow = gSaveBlock2Ptr->pokeJump.jumpsInRow;
+#else
+    trainerCard->jumpsInRow = 0;  
+#endif //FREE_POKEMON_JUMP
 
     trainerCard->berryCrushPoints = GetCappedGameStat(GAME_STAT_BERRY_CRUSH_POINTS, 0xFFFF);
     trainerCard->unionRoomNum = GetCappedGameStat(GAME_STAT_NUM_UNION_ROOM_BATTLES, 0xFFFF);
@@ -897,12 +901,12 @@ void TrainerCard_GenerateCardForLinkPlayer(struct TrainerCard *trainerCard)
 
     trainerCard->monIconTint = VarGet(VAR_TRAINER_CARD_MON_ICON_TINT_IDX);
 
-    trainerCard->monSpecies[0] = MailSpeciesToIconSpecies(VarGet(VAR_TRAINER_CARD_MON_ICON_1));
-    trainerCard->monSpecies[1] = MailSpeciesToIconSpecies(VarGet(VAR_TRAINER_CARD_MON_ICON_2));
-    trainerCard->monSpecies[2] = MailSpeciesToIconSpecies(VarGet(VAR_TRAINER_CARD_MON_ICON_3));
-    trainerCard->monSpecies[3] = MailSpeciesToIconSpecies(VarGet(VAR_TRAINER_CARD_MON_ICON_4));
-    trainerCard->monSpecies[4] = MailSpeciesToIconSpecies(VarGet(VAR_TRAINER_CARD_MON_ICON_5));
-    trainerCard->monSpecies[5] = MailSpeciesToIconSpecies(VarGet(VAR_TRAINER_CARD_MON_ICON_6));
+    trainerCard->monSpecies[0] = GetIconSpeciesNoPersonality(VarGet(VAR_TRAINER_CARD_MON_ICON_1));
+    trainerCard->monSpecies[1] = GetIconSpeciesNoPersonality(VarGet(VAR_TRAINER_CARD_MON_ICON_2));
+    trainerCard->monSpecies[2] = GetIconSpeciesNoPersonality(VarGet(VAR_TRAINER_CARD_MON_ICON_3));
+    trainerCard->monSpecies[3] = GetIconSpeciesNoPersonality(VarGet(VAR_TRAINER_CARD_MON_ICON_4));
+    trainerCard->monSpecies[4] = GetIconSpeciesNoPersonality(VarGet(VAR_TRAINER_CARD_MON_ICON_5));
+    trainerCard->monSpecies[5] = GetIconSpeciesNoPersonality(VarGet(VAR_TRAINER_CARD_MON_ICON_6));
 }
 
 static void SetDataFromTrainerCard(void)

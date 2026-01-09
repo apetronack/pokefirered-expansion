@@ -68,3 +68,8 @@ tools/trainerproc/trainerproc
 *.smol
 *.fastSmol
 *.smolTM
+*.ss1
+*.csv
+~$*
+*.log
+updated_trainers.party

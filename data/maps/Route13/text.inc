@@ -3,7 +3,7 @@ Route13_Text_SebastianIntro::
     .string "with you!$"
 
 Route13_Text_SebastianDefeat::
-    .string "My PIDGEY and PIDGEOTTO combo\n"
+    .string "My SWELLOW and DODRIO combo\n"
     .string "lost?$"
 
 Route13_Text_SebastianPostBattle::
@@ -16,6 +16,11 @@ Route13_Text_SusieIntro::
 Route13_Text_SusieDefeat::
     .string "Ohh!\n"
     .string "I lost!$"
+
+Route13_Text_NurseHeal::
+    .string "You've come a long way.\n"
+    .string "Your POKéMON must be tired.\p"
+    .string "Let me heal your POKéMON for you.$"
 
 Route13_Text_SusiePostBattle::
     .string "I want to become a good TRAINER.\n"
@@ -114,8 +119,8 @@ Route13_Text_RobertPostBattle::
 
 Route13_Text_LookToLeftOfThatPost::
     .string "TRAINER TIPS\p"
-    .string "Look, look!\n"
-    .string "Look to the left of that post!$"
+    .string "BERRIES!\n"
+    .string "Berries have unique effects!$"
 
 Route13_Text_SelectToSwitchItems::
     .string "TRAINER TIPS\p"

@@ -176,7 +176,7 @@
       "elevation": 3,
       "item": "ITEM_MAX_ELIXIR",
       "flag": "FLAG_HIDDEN_ITEM_POWER_PLANT_MAX_ELIXIR",
-      "quantity": 1,
+      "quantity": 5,
       "underfoot": false
     },
     {

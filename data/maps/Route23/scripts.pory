@@ -1,0 +1,176 @@
+raw `
+.set LOCALID_CASCADE_BADGE_GUARD, 1
+.set LOCALID_THUNDER_BADGE_GUARD, 2
+.set LOCALID_RAINBOW_BADGE_GUARD, 3
+.set LOCALID_SOUL_BADGE_GUARD,    4
+.set LOCALID_MARSH_BADGE_GUARD,   5
+.set LOCALID_VOLCANO_BADGE_GUARD, 6
+.set LOCALID_EARTH_BADGE_GUARD,   7
+
+Route23_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, Route23_OnTransition
+	.byte 0
+
+Route23_OnTransition::
+	clearflag FLAG_HIDE_VICTORY_ROAD_3F_BOULDER
+	setflag FLAG_HIDE_VICTORY_ROAD_2F_BOULDER
+	setvar VAR_MAP_SCENE_VICTORY_ROAD_1F, 0
+	setvar VAR_MAP_SCENE_VICTORY_ROAD_2F_BOULDER1, 0
+	setvar VAR_MAP_SCENE_VICTORY_ROAD_2F_BOULDER2, 0
+	setvar VAR_MAP_SCENE_VICTORY_ROAD_3F, 0
+	end
+
+Route23_EventScript_CascadeBadgeGuard::
+	lock
+	faceplayer
+	setvar VAR_TEMP_1, 2
+	bufferstdstring STR_VAR_1, STDSTRING_CASCADE_BADGE
+	goto Route23_EventScript_BadgeGuard
+	end
+
+Route23_EventScript_ThunderBadgeGuard::
+	lock
+	faceplayer
+	setvar VAR_TEMP_1, 3
+	bufferstdstring STR_VAR_1, STDSTRING_THUNDER_BADGE
+	goto Route23_EventScript_BadgeGuard
+	end
+
+Route23_EventScript_RainbowBadgeGuard::
+	lock
+	faceplayer
+	setvar VAR_TEMP_1, 4
+	bufferstdstring STR_VAR_1, STDSTRING_RAINBOW_BADGE
+	goto Route23_EventScript_BadgeGuard
+	end
+
+Route23_EventScript_SoulBadgeGuard::
+	lock
+	faceplayer
+	setvar VAR_TEMP_1, 5
+	bufferstdstring STR_VAR_1, STDSTRING_SOUL_BADGE
+	goto Route23_EventScript_BadgeGuard
+	end
+
+Route23_EventScript_MarshBadgeGuard::
+	lock
+	faceplayer
+	setvar VAR_TEMP_1, 6
+	bufferstdstring STR_VAR_1, STDSTRING_MARSH_BADGE
+	goto Route23_EventScript_BadgeGuard
+	end
+
+Route23_EventScript_VolcanoBadgeGuard::
+	lock
+	faceplayer
+	setvar VAR_TEMP_1, 7
+	bufferstdstring STR_VAR_1, STDSTRING_VOLCANO_BADGE
+	goto Route23_EventScript_BadgeGuard
+	end
+
+Route23_EventScript_EarthBadgeGuard::
+	lock
+	faceplayer
+	setvar VAR_TEMP_1, 8
+	bufferstdstring STR_VAR_1, STDSTRING_EARTH_BADGE
+	goto Route23_EventScript_BadgeGuard
+	end
+
+Route23_EventScript_CascadeBadgeGuardTrigger::
+	lockall
+	setvar VAR_TEMP_1, 2
+	setvar VAR_0x8009, LOCALID_CASCADE_BADGE_GUARD
+	bufferstdstring STR_VAR_1, STDSTRING_CASCADE_BADGE
+	goto Route23_EventScript_BadgeGuardTrigger
+	end
+
+Route23_EventScript_ThunderBadgeGuardTrigger::
+	lockall
+	setvar VAR_TEMP_1, 3
+	setvar VAR_0x8009, LOCALID_THUNDER_BADGE_GUARD
+	bufferstdstring STR_VAR_1, STDSTRING_THUNDER_BADGE
+	goto Route23_EventScript_BadgeGuardTrigger
+	end
+
+Route23_EventScript_RainbowBadgeGuardTrigger::
+	lockall
+	setvar VAR_TEMP_1, 4
+	setvar VAR_0x8009, LOCALID_RAINBOW_BADGE_GUARD
+	bufferstdstring STR_VAR_1, STDSTRING_RAINBOW_BADGE
+	goto Route23_EventScript_BadgeGuardTrigger
+	end
+
+Route23_EventScript_SoulBadgeGuardTrigger::
+	lockall
+	setvar VAR_TEMP_1, 5
+	setvar VAR_0x8009, LOCALID_SOUL_BADGE_GUARD
+	bufferstdstring STR_VAR_1, STDSTRING_SOUL_BADGE
+	goto Route23_EventScript_BadgeGuardTrigger
+	end
+
+Route23_EventScript_MarshBadgeGuardTrigger::
+	lockall
+	setvar VAR_TEMP_1, 6
+	setvar VAR_0x8009, LOCALID_MARSH_BADGE_GUARD
+	bufferstdstring STR_VAR_1, STDSTRING_MARSH_BADGE
+	goto Route23_EventScript_BadgeGuardTrigger
+	end
+
+Route23_EventScript_VolcanoBadgeGuardTrigger::
+	lockall
+	setvar VAR_TEMP_1, 7
+	setvar VAR_0x8009, LOCALID_VOLCANO_BADGE_GUARD
+	bufferstdstring STR_VAR_1, STDSTRING_VOLCANO_BADGE
+	goto Route23_EventScript_BadgeGuardTrigger
+	end
+
+Route23_EventScript_EarthBadgeGuardTrigger::
+	lockall
+	setvar VAR_TEMP_1, 8
+	setvar VAR_0x8009, LOCALID_EARTH_BADGE_GUARD
+	bufferstdstring STR_VAR_1, STDSTRING_EARTH_BADGE
+	goto Route23_EventScript_BadgeGuardTrigger
+	end
+
+Route23_EventScript_VictoryRoadGateSign::
+	msgbox Route23_Text_VictoryRoadGateSign, MSGBOX_SIGN
+	end
+`
+
+const LOCALID_PETRO = 8
+
+script Route23_EventScript_Petro {
+	// Petro should respond to the player approaching it from the left, below, or right
+	// but not from above.
+	// Should do the following:
+	// 1. Congratulate the player for reaching the E4
+	// 2. Heal the player's party
+	// 3. Battle the player
+	// 4. If the player wins, give the player a big nugget
+	// 5. If the player loses, encourage the player to try again
+	// 6. Allow the player to rebattle Petro indefinitely so long as they talk to him again
+
+	lock
+	faceplayer
+	setvar(VAR_LAST_TALKED, LOCALID_PETRO)
+	msgbox(format("Hi, I'm PETRO, the creator of this hack! You have done well to make it this far. If you like, you can face me now to prepare for the challenge ahead. I will heal your party before we battle.", "1_latin_frlg"), MSGBOX_YESNO)
+	if (var(VAR_RESULT) == 1) {
+		special(HealPlayerParty)
+		// Use trainerbattle_no_intro for endless re-battles
+		trainerbattle_no_intro(TRAINER_PETRO, format("Nicely done!", "1_latin_frlg"))
+		// Check battle outcome and respond accordingly
+		specialvar(VAR_RESULT, GetBattleOutcome)
+		if (var(VAR_RESULT) == B_OUTCOME_WON) {
+			// If the player wins, display a message, then give the player a big nugget
+			msgbox(format("Impressive! You are well on your way to being prepared to take on the Pokemon League. Here, take this Big Nugget as a reward for your victory!", "1_latin_frlg"))
+			giveitem(ITEM_BIG_NUGGET, 1)
+		} else {
+			// If the player loses, display a message and do nothing else
+			msgbox(format("Keep trying! You can do it!", "1_latin_frlg"))
+		}
+	} else {
+		msgbox(format("You know where to find me if you change your mind!", "1_latin_frlg"))
+	}
+	release
+	end
+}

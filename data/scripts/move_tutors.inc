@@ -31,25 +31,28 @@ EventScript_DoubleEdgeTaught::
 EventScript_ThunderWaveTutor::
 	lock
 	faceplayer
-.if I_REUSABLE_TMS == FALSE
 	goto_if_set FLAG_TUTOR_THUNDER_WAVE, EventScript_ThunderWaveTaught
-.endif
 	msgbox Text_ThunderWaveTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_ThunderWaveDeclined
-	call EventScript_CanOnlyBeLearnedOnce
-	goto_if_eq VAR_RESULT, NO, EventScript_ThunderWaveDeclined
-	msgbox Text_ThunderWaveWhichMon
-	setvar VAR_0x8005, MOVE_THUNDER_WAVE
-	call EventScript_ChooseMoveTutorMon
-	goto_if_eq VAR_RESULT, FALSE, EventScript_ThunderWaveDeclined
-.if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_THUNDER_WAVE
-.endif
-	goto EventScript_ThunderWaveTaught
+	goto EventScript_ThunderWave_CheckItemSpace
+	release
 	end
 
 EventScript_ThunderWaveDeclined::
 	msgbox Text_ThunderWaveDeclined
+	release
+	end
+
+EventScript_ThunderWave_CheckItemSpace::
+	checkitemspace ITEM_TM73
+	compare VAR_RESULT, FALSE
+	goto_if_eq EventScript_ThunderWave_NoSpace
+	giveitem_msg Text_ThunderWaveTaught, ITEM_TM73
+	setflag FLAG_TUTOR_THUNDER_WAVE
+	end
+
+EventScript_ThunderWave_NoSpace::
+	msgbox EventScript_ThunderWave_NoSpace_Text
 	release
 	end
 
@@ -58,25 +61,34 @@ EventScript_ThunderWaveTaught::
 	release
 	end
 
+EventScript_ThunderWave_NoSpace_Text:
+	.string "You should make room for this.$"
+
 RockTunnel_B1F_EventScript_RockSlideTutor::
 	lock
 	faceplayer
-.if I_REUSABLE_TMS == FALSE
 	goto_if_set FLAG_TUTOR_ROCK_SLIDE, EventScript_RockSlideTaught
-.endif
 	msgbox Text_RockSlideTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_RockSlideDeclined
-	call EventScript_CanOnlyBeLearnedOnce
-	goto_if_eq VAR_RESULT, NO, EventScript_RockSlideDeclined
-	msgbox Text_RockSlideWhichMon
-	setvar VAR_0x8005, MOVE_ROCK_SLIDE
-	call EventScript_ChooseMoveTutorMon
-	goto_if_eq VAR_RESULT, FALSE, EventScript_RockSlideDeclined
-.if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_ROCK_SLIDE
-.endif
-	goto EventScript_RockSlideTaught
+	goto RockTunnel_B1F_EventScript_CheckItemSpace
+	release
 	end
+
+RockTunnel_B1F_EventScript_CheckItemSpace::
+	checkitemspace ITEM_TM80
+	compare VAR_RESULT, FALSE
+	goto_if_eq RockTunnel_B1F_EventScript_NoSpace
+	giveitem_msg Text_RockSlideTaught, ITEM_TM80
+	setflag FLAG_TUTOR_ROCK_SLIDE
+	end
+
+RockTunnel_B1F_EventScript_NoSpace::
+	msgbox RockTunnel_B1F_EventScript_NoSpace_Text
+	release
+	end
+
+RockTunnel_B1F_EventScript_NoSpace_Text:
+	.string "You should make room for this.$"
 
 EventScript_RockSlideDeclined::
 	msgbox Text_RockSlideDeclined
@@ -91,27 +103,33 @@ EventScript_RockSlideTaught::
 MtEmber_Exterior_EventScript_ExplosionTutor::
 	lock
 	faceplayer
-.if I_REUSABLE_TMS == FALSE
 	goto_if_set FLAG_TUTOR_EXPLOSION, EventScript_ExplosionTaught
-.endif
 	msgbox Text_ExplosionTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_ExplosionDeclined
-	call EventScript_CanOnlyBeLearnedOnce
-	goto_if_eq VAR_RESULT, NO, EventScript_ExplosionDeclined
-	msgbox Text_ExplosionWhichMon
-	setvar VAR_0x8005, MOVE_EXPLOSION
-	call EventScript_ChooseMoveTutorMon
-	goto_if_eq VAR_RESULT, FALSE, EventScript_ExplosionDeclined
-.if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_EXPLOSION
-.endif
-	goto EventScript_ExplosionTaught
+	goto MtEmber_Exterior_EventScript_CheckItemSpace
+	release
 	end
 
 EventScript_ExplosionDeclined::
 	msgbox Text_ExplosionDeclined
 	release
 	end
+
+MtEmber_Exterior_EventScript_CheckItemSpace::
+	checkitemspace ITEM_TM64
+	compare VAR_RESULT, FALSE
+	goto_if_eq MtEmber_Exterior_EventScript_NoSpace
+	giveitem_msg Text_ExplosionTaught, ITEM_TM64
+	setflag FLAG_TUTOR_EXPLOSION
+	end
+
+MtEmber_Exterior_EventScript_NoSpace::
+	msgbox MtEmber_Exterior_EventScript_NoSpace_Text
+	release
+	end
+
+MtEmber_Exterior_EventScript_NoSpace_Text::
+	.string "You should make room for this.$"
 
 EventScript_ExplosionTaught::
 	msgbox Text_ExplosionTaught
@@ -181,22 +199,28 @@ EventScript_MegaKickTaught::
 EventScript_DreamEaterTutor::
 	lock
 	faceplayer
-.if I_REUSABLE_TMS == FALSE
 	goto_if_set FLAG_TUTOR_DREAM_EATER, EventScript_DreamEaterTaught
-.endif
 	msgbox Text_DreamEaterTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_DreamEaterDeclined
-	call EventScript_CanOnlyBeLearnedOnce
-	goto_if_eq VAR_RESULT, NO, EventScript_DreamEaterDeclined
-	msgbox Text_DreamEaterWhichMon
-	setvar VAR_0x8005, MOVE_DREAM_EATER
-	call EventScript_ChooseMoveTutorMon
-	goto_if_eq VAR_RESULT, FALSE, EventScript_DreamEaterDeclined
-.if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_DREAM_EATER
-.endif
-	goto EventScript_DreamEaterTaught
+	goto DreamEater_EventScript_CheckItemSpace
+	release
 	end
+
+DreamEater_EventScript_CheckItemSpace::
+	checkitemspace ITEM_TM85
+	compare VAR_RESULT, FALSE
+	goto_if_eq DreamEater_EventScript_NoSpace
+	giveitem_msg Text_DreamEaterTaught, ITEM_TM85
+	setflag FLAG_TUTOR_DREAM_EATER
+	end
+
+DreamEater_EventScript_NoSpace::
+	msgbox DreamEater_EventScript_NoSpace_Text
+	release
+	end
+
+DreamEater_EventScript_NoSpace_Text::
+	.string "You should make room for this.$"
 
 EventScript_DreamEaterDeclined::
 	msgbox Text_DreamEaterDeclined
@@ -271,22 +295,28 @@ EventScript_SubstituteTaught::
 SevenIsland_EventScript_SwordsDanceTutor::
 	lock
 	faceplayer
-.if I_REUSABLE_TMS == FALSE
 	goto_if_set FLAG_TUTOR_SWORDS_DANCE, EventScript_SwordsDanceTaught
-.endif
 	msgbox Text_SwordsDanceTeach, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_SwordsDanceDeclined
-	call EventScript_CanOnlyBeLearnedOnce
-	goto_if_eq VAR_RESULT, NO, EventScript_SwordsDanceDeclined
-	msgbox Text_SwordsDanceWhichMon
-	setvar VAR_0x8005, MOVE_SWORDS_DANCE
-	call EventScript_ChooseMoveTutorMon
-	goto_if_eq VAR_RESULT, FALSE, EventScript_SwordsDanceDeclined
-.if I_REUSABLE_TMS == FALSE
-	setflag FLAG_TUTOR_SWORDS_DANCE
-.endif
-	goto EventScript_SwordsDanceTaught
+	goto SwordsDance_EventScript_CheckItemSpace
+	release
 	end
+
+SwordsDance_EventScript_CheckItemSpace::
+	checkitemspace ITEM_TM75
+	compare VAR_RESULT, FALSE
+	goto_if_eq SwordsDance_EventScript_NoSpace
+	giveitem_msg Text_SwordsDanceTaught, ITEM_TM75
+	setflag FLAG_TUTOR_SWORDS_DANCE
+	end
+
+SwordsDance_EventScript_NoSpace::
+	msgbox SwordsDance_EventScript_NoSpace_Text
+	release
+	end
+
+SwordsDance_EventScript_NoSpace_Text::
+	.string "You should make room for this.$"
 
 EventScript_SwordsDanceDeclined::
 	msgbox Text_SwordsDanceDeclined

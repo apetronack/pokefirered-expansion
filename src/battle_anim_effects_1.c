@@ -3116,6 +3116,12 @@ const struct SpriteTemplate gChainBindingSpriteTemplate =
 };
 
 // functions
+// args[0] - initial x offset
+// args[1] - initial y offset
+// args[2] - some param to linear translation
+// args[3] - some param to linear translation
+// args[4] - offset that gets added to param for Sin
+// args[5] - another param for Sin
 static void AnimGrassKnot(struct Sprite *sprite)
 {
     if (BATTLE_PARTNER(gBattleAnimAttacker) == gBattleAnimTarget && GetBattlerPosition(gBattleAnimTarget) < B_POSITION_PLAYER_RIGHT)
@@ -3298,9 +3304,18 @@ static void AnimMovePowderParticle_Step(struct Sprite *sprite)
 void AnimPowerAbsorptionOrb(struct Sprite *sprite)
 {
     InitSpritePosToAnimAttacker(sprite, TRUE);
+    
     sprite->data[0] = gBattleAnimArgs[2];
     sprite->data[2] = GetBattlerSpriteCoord(gBattleAnimAttacker, BATTLER_COORD_X_2);
     sprite->data[4] = GetBattlerSpriteCoord(gBattleAnimAttacker, BATTLER_COORD_Y_PIC_OFFSET);
+    
+    // Prevent orbs from getting near text box area entirely
+    // Text box appears to be in lower portion of screen - use conservative boundary
+    if (sprite->y > 100)
+        sprite->y = 100;
+    if (sprite->data[4] > 100)
+        sprite->data[4] = 100;
+    
     sprite->callback = StartAnimLinearTranslation;
     StoreSpriteCallbackInData6(sprite, DestroySpriteAndMatrix);
 }
@@ -3365,6 +3380,15 @@ static void AnimSolarBeamSmallOrb_Step(struct Sprite *sprite)
 
         sprite->x2 += Sin(sprite->data[5], 5);
         sprite->y2 += Cos(sprite->data[5], 14);
+        
+        // In double battles, prevent orbs from visually glitching into text box area
+        // Text box starts around Y=120, so clamp orbs above that threshold
+        if (IsDoubleBattle() && (sprite->y + sprite->y2) > 110)
+        {
+            // Clamp the sprite to the boundary instead of snapping oscillation to 0
+            sprite->y2 = 110 - sprite->y;
+        }
+        
         sprite->data[5] = (sprite->data[5] + 15) & 0xFF;
     }
 }
@@ -4022,7 +4046,7 @@ static const union AffineAnimCmd *const sAffineAnims_TeraStarstormBeamRing[] =
     sAffineAnim_TeraStarstormBeamRing,
 };
 
-const struct SpriteTemplate gTeraStarstormBeamSpriteTemplate = 
+const struct SpriteTemplate gTeraStarstormBeamSpriteTemplate =
 {
     .tileTag = ANIM_TAG_STARSTORM,
     .paletteTag = ANIM_TAG_STARSTORM,
@@ -4170,7 +4194,7 @@ void AnimTranslateLinearSingleSineWave(struct Sprite *sprite)
 
     sprite->data[5] = gBattleAnimArgs[5];
     InitAnimArcTranslation(sprite);
-    if (GetBattlerSide(gBattleAnimAttacker) == GetBattlerSide(gBattleAnimTarget))
+    if (IsBattlerAlly(gBattleAnimAttacker, gBattleAnimTarget))
         sprite->data[0] = 1;
     else
         sprite->data[0] = 0;
@@ -5972,12 +5996,12 @@ static void AnimBowMon_Step1_Callback(struct Sprite *sprite)
     {
         sprite->data[3] = gBattlerSpriteIds[gBattleAnimAttacker];
         PrepareBattlerSpriteForRotScale(sprite->data[3], ST_OAM_OBJ_NORMAL);
-        sprite->data[4] = (sprite->data[6] = GetBattlerSide(gBattleAnimAttacker)) ? 0x300 : 0xFFFFFD00;
+        sprite->data[4] = (sprite->data[6] = GetBattlerSide(gBattleAnimAttacker)) ? 768 : -768;
         sprite->data[5] = 0;
     }
 
     sprite->data[5] += sprite->data[4];
-    SetSpriteRotScale(sprite->data[3], 0x100, 0x100, sprite->data[5]);
+    SetSpriteRotScale(sprite->data[3], 256, 256, sprite->data[5]);
     SetBattlerSpriteYOffsetFromRotation(sprite->data[3]);
     if (++sprite->data[0] > 3)
     {
@@ -6463,6 +6487,8 @@ static void UNUSED AnimTask_ShowBattlersHealthbox(u8 taskId)
     DestroyAnimVisualTask(taskId);
 }
 
+// args[0] - sprite x
+// args[1] - sprite y
 static void AnimMoon(struct Sprite *sprite)
 {
     if (IsContest())
@@ -6845,10 +6871,12 @@ static void TrySwapWishBattlerIds(u32 battlerAtk, u32 battlerPartner)
     // if used future sight on opposing side, properly track who used it
     if (gSideStatuses[oppSide] & SIDE_STATUS_FUTUREATTACK)
     {
+        u32 battlerAtkSide = GetBattlerSide(battlerAtk);
         for (i = 0; i < gBattlersCount; i++)
         {
-            if (IsAlly(i,battlerAtk))
+            if (battlerAtkSide == GetBattlerSide(i))
                 continue;   // only on opposing side
+
             if (gWishFutureKnock.futureSightBattlerIndex[i] == battlerAtk)
             {
                 // if target was attacked with future sight from us, now they'll be the partner slot
@@ -6904,11 +6932,11 @@ static void AnimTask_AllySwitchDataSwap(u8 taskId)
     SWAP(gMoveSelectionCursor[battlerAtk], gMoveSelectionCursor[battlerPartner], temp);
     // Swap turn order, so that all the battlers take action
     SWAP(gChosenActionByBattler[battlerAtk], gChosenActionByBattler[battlerPartner], temp);
-    for (i = 0; i < MAX_BATTLERS_COUNT; i++)
+    for (i = 0; i < gBattlersCount; i++)
     {
         if (gBattlerByTurnOrder[i] == battlerAtk || gBattlerByTurnOrder[i] == battlerPartner)
         {
-            for (j = i + 1; j < MAX_BATTLERS_COUNT; j++)
+            for (j = i + 1; j < gBattlersCount; j++)
             {
                 if (gBattlerByTurnOrder[j] == battlerAtk || gBattlerByTurnOrder[j] == battlerPartner)
                     break;
@@ -6928,9 +6956,13 @@ static void AnimTask_AllySwitchDataSwap(u8 taskId)
     TrySwapWishBattlerIds(battlerAtk, battlerPartner);
 
     // For Snipe Shot and abilities Stalwart/Propeller Tail - keep the original target.
-    for (i = 0; i < MAX_BATTLERS_COUNT; i++)
+    for (i = 0; i < gBattlersCount; i++)
     {
         u16 ability = GetBattlerAbility(i);
+        // if not targeting a slot that got switched, continue
+        if (!IsBattlerAlly(gBattleStruct->moveTarget[i], battlerAtk))
+            continue;
+
         if (gChosenMoveByBattler[i] == MOVE_SNIPE_SHOT || ability == ABILITY_PROPELLER_TAIL || ability == ABILITY_STALWART)
             gBattleStruct->moveTarget[i] ^= BIT_FLANK;
     }

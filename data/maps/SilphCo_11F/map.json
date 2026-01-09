@@ -183,7 +183,7 @@
       "elevation": 0,
       "item": "ITEM_REVIVE",
       "flag": "FLAG_HIDDEN_ITEM_SILPH_CO_11F_REVIVE",
-      "quantity": 1,
+      "quantity": 3,
       "underfoot": false
     },
     {

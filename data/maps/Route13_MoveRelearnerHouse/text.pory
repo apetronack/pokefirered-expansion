@@ -1,0 +1,20 @@
+text Route13_MoveRelearnerHouse_Text_TeachWhichMove {
+    "Which move should I teach?"
+}
+
+text Route13_MoveRelearnerHouse_Text_NoMoveICanTeachThatMon {
+    "Sorry…\p"
+    "It doesn't appear as if I have a\n"
+    "move I can teach that POKéMON."
+}
+
+text Route13_MoveRelearnerHouse_Text_CantTeachAnEgg {
+    "Hmm? There isn't a single move\n"
+    "that I can teach an EGG."
+}
+
+text Route13_MoveRelearnerHouse_Text_EndTutorMove {
+    "Come back if you find some STARDUST\n"
+    "and want your POKéMON to remember\l"
+    "a move from its past."
+}

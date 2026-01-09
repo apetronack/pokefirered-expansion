@@ -1,0 +1,61 @@
+raw `
+LavenderTown_House1_MapScripts::
+	.byte 0
+
+LavenderTown_House1_EventScript_CooltrainerF::
+	lock
+	faceplayer
+	goto_if_set FLAG_RESCUED_MR_FUJI, LavenderTown_House1_EventScript_CooltrainerFGhostGone
+	msgbox LavenderTown_House1_Text_RocketsKilledCubonesMother
+	release
+	end
+
+LavenderTown_House1_EventScript_CooltrainerFGhostGone::
+	msgbox LavenderTown_House1_Text_GhostOfPokemonTowerIsGone
+	release
+	end
+
+LavenderTown_House1_EventScript_Cubone::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_CUBONE, CRY_MODE_NORMAL
+	msgbox LavenderTown_House1_Text_Cubone
+	waitmoncry
+	release
+	end
+
+LavenderTown_House1_EventScript_Jessica::
+	lock
+	faceplayer
+	setvar VAR_0x8008, INGAME_TRADE_MUDKIP
+	call EventScript_GetInGameTradeSpeciesInfo
+	goto_if_set FLAG_DID_TOADETTE_TRADE, LavenderTown_House1_EventScript_AlreadyTraded
+	msgbox Trade_Text_LookingForMonWannaTradeForMon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LavenderTown_House1_EventScript_DeclineTrade
+	call EventScript_ChooseMonForInGameTrade
+	goto_if_ge VAR_0x8004, PARTY_SIZE, LavenderTown_House1_EventScript_DeclineTrade
+	call EventScript_GetInGameTradeSpecies
+	goto_if_ne VAR_RESULT, VAR_0x8009, LavenderTown_House1_EventScript_NotRequestedMon
+	call EventScript_DoInGameTrade
+	msgbox Trade_Text_HeyThanks
+	setflag FLAG_DID_TOADETTE_TRADE
+	release
+	end
+
+LavenderTown_House1_EventScript_AlreadyTraded::
+	msgbox Trade_Text_IsntMyOldMonGreat
+	release
+	end
+
+LavenderTown_House1_EventScript_DeclineTrade::
+	msgbox Trade_Text_AwwOhWell
+	release
+	end
+
+LavenderTown_House1_EventScript_NotRequestedMon::
+	bufferspeciesname STR_VAR_1, VAR_0x8009
+	msgbox Trade_Text_WhatThatsNoMon
+	release
+	end
+`

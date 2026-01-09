@@ -628,6 +628,7 @@ extern const u8 gText_MenuOption[];
 extern const u8 gText_MenuExit[];
 extern const u8 gText_MenuRetire[];
 extern const u8 gText_MenuSafariStats[];
+extern const u8 gText_MenuDexNav[];
 extern const u8 gStartMenuDesc_Pokedex[];
 extern const u8 gStartMenuDesc_Pokemon[];
 extern const u8 gStartMenuDesc_Bag[];
@@ -732,8 +733,8 @@ extern const u8 gText_Info_2[];
 extern const u8 gText_FreshWater_200[];
 extern const u8 gText_SodaPop_300[];
 extern const u8 gText_Lemonade_350[];
-extern const u8 gText_50Coins_1000[];
-extern const u8 gText_500Coins_10000[];
+extern const u8 gText_100Coins_2000[];
+extern const u8 gText_1500Coins_30000[];
 extern const u8 gText_Excellent[];
 extern const u8 gText_NotSoBad[];
 extern const u8 gText_RedShard[];
@@ -747,6 +748,9 @@ extern const u8 gText_Tm23_3500Coins[];
 extern const u8 gText_Tm24_4000Coins[];
 extern const u8 gText_Tm30_4500Coins[];
 extern const u8 gText_Tm35_4000Coins[];
+extern const u8 gText_Tm53_3750Coins[];
+extern const u8 gText_Tm79_3750Coins[];
+extern const u8 gText_Tm84_3750Coins[];
 extern const u8 gText_1F_2[];
 extern const u8 gText_2F_2[];
 extern const u8 gText_3F_2[];
@@ -780,6 +784,8 @@ extern const u8 gText_NoThanks_2[];
 extern const u8 gText_HelixFossil[];
 extern const u8 gText_DomeFossil[];
 extern const u8 gText_OldAmber[];
+extern const u8 gText_SkullFossil[];
+extern const u8 gText_ArmorFossil[];
 extern const u8 gText_TradeCenter[];
 extern const u8 gText_Colosseum[];
 extern const u8 gText_GameLinkCable[];
@@ -790,6 +796,8 @@ extern const u8 gText_ThreeIsland[];
 extern const u8 gText_Vermilion[];
 extern const u8 gText_Colosseum_2[];
 extern const u8 gText_BerryCrush[];
+extern const u8 gText_BoardSeagallop[];
+extern const u8 gText_GoToDockArea[];
 extern const u8 gText_EmptyLinkService1[];
 extern const u8 gText_EmptyLinkService2[];
 extern const u8 gText_RecordCorner[];
@@ -941,6 +949,8 @@ extern const u8 gText_ButtonTypeLR[];
 extern const u8 gText_ButtonTypeLEqualsA[];
 extern const u8 gText_Option[];
 extern const u8 gText_FrameType[];
+extern const u8 gText_FrameTypeNumber[];
+extern const u8 gText_ButtonTypeNormal[];
 extern const u8 gTextJP_Type[];
 extern const u8 gText_PickSwitchCancel[];
 
@@ -1571,5 +1581,8 @@ extern const u8 gText_Speed[];
 // Map name pop-up
 extern const u8 gText_AM[];
 extern const u8 gText_PM[];
+
+// Switch Caught Mon into Party
+extern const u8 gText_CannotSendMonToBoxHM[];
 
 #endif //GUARD_STRINGS_H

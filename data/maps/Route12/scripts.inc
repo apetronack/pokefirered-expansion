@@ -1,59 +1,188 @@
+# 1 "data/maps/Route12/scripts.pory"
+
+# 2 "data/maps/Route12/scripts.pory"
 Route12_MapScripts::
+# 3 "data/maps/Route12/scripts.pory"
 	map_script MAP_SCRIPT_ON_RESUME, Route12_OnResume
+# 4 "data/maps/Route12/scripts.pory"
 	.byte 0
+# 5 "data/maps/Route12/scripts.pory"
 
+# 6 "data/maps/Route12/scripts.pory"
 Route12_OnResume::
+# 7 "data/maps/Route12/scripts.pory"
 	call_if_set FLAG_SYS_SPECIAL_WILD_BATTLE, Route12_EventScript_TryRemoveSnorlax
+# 8 "data/maps/Route12/scripts.pory"
 	end
+# 9 "data/maps/Route12/scripts.pory"
 
+# 10 "data/maps/Route12/scripts.pory"
 Route12_EventScript_TryRemoveSnorlax::
+# 11 "data/maps/Route12/scripts.pory"
 	removeobject VAR_LAST_TALKED
+# 12 "data/maps/Route12/scripts.pory"
 	return
+# 13 "data/maps/Route12/scripts.pory"
 
+# 14 "data/maps/Route12/scripts.pory"
 Route12_EventScript_Snorlax::
+# 15 "data/maps/Route12/scripts.pory"
 	lock
+# 16 "data/maps/Route12/scripts.pory"
 	faceplayer
+# 17 "data/maps/Route12/scripts.pory"
 	goto_if_unset FLAG_GOT_POKE_FLUTE, Route12_EventScript_SnorlaxNoPokeFlute
+# 18 "data/maps/Route12/scripts.pory"
 	goto_if_questlog EventScript_ReleaseEnd
+# 19 "data/maps/Route12/scripts.pory"
 	special QuestLog_CutRecording
+# 20 "data/maps/Route12/scripts.pory"
 	msgbox Text_WantToUsePokeFlute, MSGBOX_YESNO
+# 21 "data/maps/Route12/scripts.pory"
 	goto_if_eq VAR_RESULT, NO, Route12_EventScript_DontUsePokeFlute
+# 22 "data/maps/Route12/scripts.pory"
 	call EventScript_AwakenSnorlax
-	setwildbattle SPECIES_SNORLAX, 30
+# 23 "data/maps/Route12/scripts.pory"
+	setwildbattle SPECIES_SNORLAX, 40
+# 24 "data/maps/Route12/scripts.pory"
 	waitse
+# 25 "data/maps/Route12/scripts.pory"
 	playmoncry SPECIES_SNORLAX, CRY_MODE_ENCOUNTER
+# 26 "data/maps/Route12/scripts.pory"
 	delay 40
+# 27 "data/maps/Route12/scripts.pory"
 	waitmoncry
+# 28 "data/maps/Route12/scripts.pory"
 	setflag FLAG_HIDE_ROUTE_12_SNORLAX
+# 29 "data/maps/Route12/scripts.pory"
 	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
+# 30 "data/maps/Route12/scripts.pory"
 	setflag FLAG_WOKE_UP_ROUTE_12_SNORLAX
+# 31 "data/maps/Route12/scripts.pory"
 	dowildbattle
+# 32 "data/maps/Route12/scripts.pory"
 	clearflag FLAG_SYS_SPECIAL_WILD_BATTLE
+# 33 "data/maps/Route12/scripts.pory"
 	specialvar VAR_RESULT, GetBattleOutcome
+# 34 "data/maps/Route12/scripts.pory"
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, Route12_EventScript_FoughtSnorlax
+# 35 "data/maps/Route12/scripts.pory"
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, Route12_EventScript_FoughtSnorlax
+# 36 "data/maps/Route12/scripts.pory"
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, Route12_EventScript_FoughtSnorlax
+# 37 "data/maps/Route12/scripts.pory"
 	release
+# 38 "data/maps/Route12/scripts.pory"
 	end
+# 39 "data/maps/Route12/scripts.pory"
 
+# 40 "data/maps/Route12/scripts.pory"
 Route12_EventScript_DontUsePokeFlute::
+# 41 "data/maps/Route12/scripts.pory"
 	release
+# 42 "data/maps/Route12/scripts.pory"
 	end
+# 43 "data/maps/Route12/scripts.pory"
 
+# 44 "data/maps/Route12/scripts.pory"
 Route12_EventScript_FoughtSnorlax::
+# 45 "data/maps/Route12/scripts.pory"
 	msgbox Text_SnorlaxReturnedToMountains
+# 46 "data/maps/Route12/scripts.pory"
 	release
+# 47 "data/maps/Route12/scripts.pory"
 	end
+# 48 "data/maps/Route12/scripts.pory"
 
+# 49 "data/maps/Route12/scripts.pory"
 Route12_EventScript_SnorlaxNoPokeFlute::
+# 50 "data/maps/Route12/scripts.pory"
 	msgbox Route12_Text_MonSprawledOutInSlumber
+# 51 "data/maps/Route12/scripts.pory"
 	release
+# 52 "data/maps/Route12/scripts.pory"
 	end
+# 53 "data/maps/Route12/scripts.pory"
 
+# 54 "data/maps/Route12/scripts.pory"
 Route12_EventScript_RouteSign::
+# 55 "data/maps/Route12/scripts.pory"
 	msgbox Route12_Text_RouteSign, MSGBOX_SIGN
+# 56 "data/maps/Route12/scripts.pory"
 	end
+# 57 "data/maps/Route12/scripts.pory"
 
+# 58 "data/maps/Route12/scripts.pory"
 Route12_EventScript_FishingSign::
+# 59 "data/maps/Route12/scripts.pory"
 	msgbox Route12_Text_SportfishingArea, MSGBOX_SIGN
+# 60 "data/maps/Route12/scripts.pory"
+	end
+# 61 "data/maps/Route12/scripts.pory"
+
+# 62 "data/maps/Route12/scripts.pory"
+Route12_EventScript_Alaina::
+# 63 "data/maps/Route12/scripts.pory"
+	lock
+# 64 "data/maps/Route12/scripts.pory"
+	faceplayer
+# 65 "data/maps/Route12/scripts.pory"
+	setvar VAR_0x8008, INGAME_TRADE_TORCHIC
+# 66 "data/maps/Route12/scripts.pory"
+	call EventScript_GetInGameTradeSpeciesInfo
+# 67 "data/maps/Route12/scripts.pory"
+	goto_if_set FLAG_DID_CHICKLET_TRADE, Route12_EventScript_AlreadyTraded
+# 68 "data/maps/Route12/scripts.pory"
+	msgbox Trade_Text_LookingForMonWannaTradeForMon, MSGBOX_YESNO
+# 69 "data/maps/Route12/scripts.pory"
+	goto_if_eq VAR_RESULT, NO, Route12_EventScript_DeclineTrade
+# 70 "data/maps/Route12/scripts.pory"
+	call EventScript_ChooseMonForInGameTrade
+# 71 "data/maps/Route12/scripts.pory"
+	goto_if_ge VAR_0x8004, PARTY_SIZE, Route12_EventScript_DeclineTrade
+# 72 "data/maps/Route12/scripts.pory"
+	call EventScript_GetInGameTradeSpecies
+# 73 "data/maps/Route12/scripts.pory"
+	goto_if_ne VAR_RESULT, VAR_0x8009, Route12_EventScript_NotRequestedMon
+# 74 "data/maps/Route12/scripts.pory"
+	call EventScript_DoInGameTrade
+# 75 "data/maps/Route12/scripts.pory"
+	msgbox Trade_Text_HeyThanks
+# 76 "data/maps/Route12/scripts.pory"
+	setflag FLAG_DID_CHICKLET_TRADE
+# 77 "data/maps/Route12/scripts.pory"
+	release
+# 78 "data/maps/Route12/scripts.pory"
+	end
+# 79 "data/maps/Route12/scripts.pory"
+
+# 80 "data/maps/Route12/scripts.pory"
+Route12_EventScript_AlreadyTraded::
+# 81 "data/maps/Route12/scripts.pory"
+	msgbox Trade_Text_IsntMyOldMonGreat
+# 82 "data/maps/Route12/scripts.pory"
+	release
+# 83 "data/maps/Route12/scripts.pory"
+	end
+# 84 "data/maps/Route12/scripts.pory"
+
+# 85 "data/maps/Route12/scripts.pory"
+Route12_EventScript_DeclineTrade::
+# 86 "data/maps/Route12/scripts.pory"
+	msgbox Trade_Text_AwwOhWell
+# 87 "data/maps/Route12/scripts.pory"
+	release
+# 88 "data/maps/Route12/scripts.pory"
+	end
+# 89 "data/maps/Route12/scripts.pory"
+
+# 90 "data/maps/Route12/scripts.pory"
+Route12_EventScript_NotRequestedMon::
+# 91 "data/maps/Route12/scripts.pory"
+	bufferspeciesname STR_VAR_1, VAR_0x8009
+# 92 "data/maps/Route12/scripts.pory"
+	msgbox Trade_Text_WhatThatsNoMon
+# 93 "data/maps/Route12/scripts.pory"
+	release
+# 94 "data/maps/Route12/scripts.pory"
 	end

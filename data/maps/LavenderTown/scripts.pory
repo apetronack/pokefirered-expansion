@@ -1,0 +1,84 @@
+raw `
+.set LOCAL_ID_TOWER_GUARDIAN, 4
+
+LavenderTown_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, LavenderTown_OnTransition
+	.byte 0
+
+LavenderTown_OnTransition::
+	setworldmapflag FLAG_WORLD_MAP_LAVENDER_TOWN
+	setvar VAR_MAP_SCENE_S_S_ANNE_2F_CORRIDOR, 1
+	setflag FLAG_HIDE_SS_ANNE_RIVAL
+	call_if_unset FLAG_HIDE_POKEMON_TOWER_GUARDIAN, LavenderTown_EventScript_BlockPokemonTower
+	end
+
+LavenderTown_EventScript_BlockPokemonTower::
+	setobjectxyperm LOCAL_ID_TOWER_GUARDIAN, 18, 7
+	return
+
+LavenderTown_EventScript_LittleGirl::
+	lock
+	faceplayer
+	msgbox LavenderTown_Text_DoYouBelieveInGhosts, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, LavenderTown_EventScript_LittleGirlBelieve
+	msgbox LavenderTown_Text_JustImaginingWhiteHand
+	release
+	end
+
+LavenderTown_EventScript_LittleGirlBelieve::
+	msgbox LavenderTown_Text_SoThereAreBelievers
+	release
+	end
+
+LavenderTown_EventScript_WorkerM::
+	msgbox LavenderTown_Text_TownKnownAsMonGraveSite, MSGBOX_NPC
+	end
+
+LavenderTown_EventScript_Boy::
+	msgbox LavenderTown_Text_GhostsAppearedInTower, MSGBOX_NPC
+	end
+
+LavenderTown_EventScript_TownSign::
+	msgbox LavenderTown_Text_TownSign, MSGBOX_SIGN
+	end
+
+LavenderTown_EventScript_SilphScopeNotice::
+	msgbox LavenderTown_Text_SilphScopeNotice, MSGBOX_SIGN
+	end
+
+LavenderTown_EventScript_VolunteerHouseSign::
+	msgbox LavenderTown_Text_VolunteerPokemonHouse, MSGBOX_SIGN
+	end
+
+LavenderTown_EventScript_PokemonTowerSign::
+	msgbox LavenderTown_Text_PokemonTowerSign, MSGBOX_SIGN
+	end
+`
+const LOCAL_ID_TOWER_GUARDIAN = 4
+
+script LavenderTown_EventScript_TowerGuardian {
+	lock
+	faceplayer
+	setvar(VAR_LAST_TALKED, LOCAL_ID_TOWER_GUARDIAN)
+	// Check if the player has cleared Giovanni 1
+	if (flag(FLAG_HIDE_CELADON_ROCKETS)) {
+		// If so, display a message and initiate a battle with the Tower guardian
+		msgbox(format("You dared to defy BOSS GIOVANNI? I will do what I must!", "1_latin_frlg"))
+		trainerbattle_no_intro(TRAINER_POKEMON_TOWER_GUARDIAN, format("This isn't the last you'll see of me!", "1_latin_frlg"))
+		if (defeated(TRAINER_POKEMON_TOWER_GUARDIAN)) {
+			// If the player wins, display a message, then have the Tower guardian leave
+			fadescreen(FADE_TO_BLACK)
+			removeobject(LOCAL_ID_TOWER_GUARDIAN)
+			fadescreen(FADE_FROM_BLACK)
+			setflag(FLAG_HIDE_POKEMON_TOWER_GUARDIAN)
+		} else {
+			// If the player loses, display a message, but leave the Tower guardian in place
+			msgbox(format("That's what you get for messing with Team Rocket!", "1_latin_frlg"))
+		}
+	} else {
+		// If not, display a message and block the player
+		msgbox(format("Get lost! Team Rocket has business here!", "1_latin_frlg"))
+	}
+	release
+	end
+}
